@@ -1,0 +1,364 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "fundId": "rec6Ud55viWnEOWo4",
+      "programId": "african-collaborative-grantmaking",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business"
+      ],
+      "reason": "FAQ explicitly excludes individuals and for-profits. Other conditions still require confirmation.",
+      "sourceUrl": "https://www.africancollab.org/grantmaking-faq",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recHvdJSIu0kw2CE6",
+      "programId": "careth-grantmaking-policy",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "Grant guidelines exclude awards to individuals. Other conditions still require confirmation.",
+      "sourceUrl": "https://www.careth.org/guidelines",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recgRsCtVcoJ3Of7h",
+      "programId": "charity-pot-english-language2026-guidelines",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business"
+      ],
+      "reason": "This English-language Charity Pot policy funds nonprofit organisations and groups, not individuals or for-profit applicants; national-team differences remain manual. Other conditions still require confirmation.",
+      "sourceUrl": "https://www.lush.com/ie/en/a/charity-pot-funding-guidelines",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recoUoOkOK6706N5D",
+      "programId": "tausiga-grant",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "General Pacific Feminist Fund grant eligibility excludes individuals while allowing registered and unregistered groups. Other conditions still require confirmation.",
+      "sourceUrl": "https://pacfemfund.org/our-grants/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recoUoOkOK6706N5D",
+      "programId": "fotuki-grant",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "General Pacific Feminist Fund grant eligibility excludes individuals while allowing registered and unregistered groups. Other conditions still require confirmation.",
+      "sourceUrl": "https://pacfemfund.org/our-grants/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recVgs480kGsRUJX8",
+      "programId": "11th-hour-project-grantmaking",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "Foundation charter excludes funding to individuals. Other conditions still require confirmation.",
+      "sourceUrl": "https://11thhourproject.org/faq/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recUfkfwM3ISTcnSH",
+      "programId": "susan-t-buffett-scholarship",
+      "field": "applicantType",
+      "operator": "only",
+      "values": [
+        "individual"
+      ],
+      "reason": "This is a scholarship for individual first-time college students; Nebraska and other student conditions remain manual. Other conditions still require confirmation.",
+      "sourceUrl": "https://www.buffettscholarships.org/eligibility-selection",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recpC95lYtpJnklTW",
+      "programId": "van-tienhoven-nature-protection-grants",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business",
+        "public-body"
+      ],
+      "reason": "Eligibility page explicitly excludes individuals, private companies and government bodies. Other conditions still require confirmation.",
+      "sourceUrl": "https://www.vantienhovenfoundation.com/eligibility-criteria/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recVimSoGan26gnuE",
+      "programId": "wagner-foundation-grantmaking",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "Grantmaking FAQ explicitly excludes individuals; nonprofit or sponsor conditions remain manual. Other conditions still require confirmation.",
+      "sourceUrl": "https://wfound.org/grantmaking/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recSXIFrDVPes4gvL",
+      "programId": "woka-grantmaking",
+      "field": "registrationCountry",
+      "operator": "only",
+      "values": [
+        "US"
+      ],
+      "reason": "Grant policy explicitly requires US registration as well as 501(c)(3) status; this is not inferred from tax status alone. Other conditions still require confirmation.",
+      "sourceUrl": "https://www.wokafoundation.org/grants",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recCjXGQOjtMALpKd",
+      "programId": "jrct-general-grantmaking-policy",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "business",
+        "public-body"
+      ],
+      "reason": "General eligibility excludes profit-based organisations and statutory bodies. Individual programme criteria and UK-benefit exceptions still require confirmation.",
+      "sourceUrl": "https://www.jrct.org.uk/am-i-eligible",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "receN9XhUJunL3MKU",
+      "programId": "lotterywest-community-grants",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "AU"
+      ],
+      "reason": "The application policy excludes initiatives outside Western Australia. AU is a necessary country screen; the stricter WA location and public-benefit requirements remain manual and still require confirmation.",
+      "sourceUrl": "https://www.lotterywest.wa.gov.au/grants/applying-for-a-grant",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recHvouBakW61Vs2j",
+      "programId": "baobab-network-accelerator",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "nonprofit"
+      ],
+      "reason": "Published accelerator FAQ explicitly excludes nonprofits; this screen concerns the startup investment offer, whose live intake still needs reconfirmation. Other conditions still require confirmation.",
+      "sourceUrl": "https://thebaobabnetwork.com/frequently-asked-questions/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recdSrToNEtxTCGDg",
+      "programId": "cfs-charity-grant-application-policy",
+      "field": "registrationCountry",
+      "operator": "only",
+      "values": [
+        "SG"
+      ],
+      "reason": "CFS requires charity registration in Singapore, alongside IPC and other conditions. Other conditions still require confirmation.",
+      "sourceUrl": "https://cf.org.sg/charities/apply-for-charity-grants/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recdSrToNEtxTCGDg",
+      "programId": "cfs-charity-grant-application-policy",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "SG"
+      ],
+      "reason": "CFS requires applicant charities to be based in Singapore. Other conditions still require confirmation.",
+      "sourceUrl": "https://cf.org.sg/charities/apply-for-charity-grants/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recHfUI8FZd7vwYKg",
+      "programId": "semillas-financiamiento2026-2027",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "MX"
+      ],
+      "reason": "Semillas eligibility requires the applicant group to be based in Mexico. Other conditions still require confirmation.",
+      "sourceUrl": "https://semillas.org.mx/obten-un-financiamiento/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recHfUI8FZd7vwYKg",
+      "programId": "semillas-financiamiento2026-2027",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "MX"
+      ],
+      "reason": "Semillas requires funded groups to carry out their work in Mexico. Other conditions still require confirmation.",
+      "sourceUrl": "https://semillas.org.mx/obten-un-financiamiento/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recHfUI8FZd7vwYKg",
+      "programId": "semillas-financiamiento2026-2027",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business",
+        "university",
+        "public-body"
+      ],
+      "reason": "Semillas explicitly excludes individual, commercial, university/research and government-linked applicants. Other conditions still require confirmation.",
+      "sourceUrl": "https://semillas.org.mx/obten-un-financiamiento/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rec8kz0WaCB4nSAXF",
+      "programId": "semia2026-financial-contributions",
+      "field": "registrationCountry",
+      "operator": "only",
+      "values": [
+        "IT"
+      ],
+      "reason": "The financial-contribution stream requires a legally constituted organisation under Italian law; informal groups access training only. Other conditions still require confirmation.",
+      "sourceUrl": "https://semiafund.org/bando-2026/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rec8kz0WaCB4nSAXF",
+      "programId": "semia2026-financial-contributions",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "IT"
+      ],
+      "reason": "Semia2026 requires the applicant organisation to have its base in Italy. Other conditions still require confirmation.",
+      "sourceUrl": "https://semiafund.org/bando-2026/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rec8kz0WaCB4nSAXF",
+      "programId": "semia2026-financial-contributions",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "IT"
+      ],
+      "reason": "Semia2026 minimum admission criteria require work in Italy. Other conditions still require confirmation.",
+      "sourceUrl": "https://semiafund.org/bando-2026/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recgfyxB4jsZ9VA24",
+      "programId": "safe-passage-flexible-migrant-justice-grants",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business"
+      ],
+      "reason": "Safe Passage explicitly excludes for-profit organisations and activities run solely by an individual. Other conditions still require confirmation.",
+      "sourceUrl": "https://www.safe-passage.org/what-we-do?tab=grantmaking",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rec1dixbBd0lNXPfC",
+      "programId": "hewlett-foundation-general-grantmaking-policy",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "Hewlett explicitly does not fund individuals; fiscal sponsor alternatives for organisations remain manual. Other conditions still require confirmation.",
+      "sourceUrl": "https://hewlett.org/grantmaking-faq/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rec5ss8O441Ps5AbK",
+      "programId": "boundless-san-francisco2026",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "Boundless rules exclude individuals as Lead Organisation; individuals may instead participate as subgrantees or contractors. Other conditions still require confirmation.",
+      "sourceUrl": "https://boundless-sf.leverforchange.org/rules",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "reckDQNvE1b8YWAhe",
+      "programId": "siestudio-historical-tuition-finance",
+      "field": "applicantType",
+      "operator": "only",
+      "values": [
+        "individual"
+      ],
+      "reason": "SíEstudio is an individual student tuition-finance programme, subject to the published age, admission and finance conditions.",
+      "sourceUrl": "https://fundacionsantodomingo.org/siestudio/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "reciixgqYSHp8VNri",
+      "programId": "calls-to-collective-action-2025",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business",
+        "public-body"
+      ],
+      "reason": "The 2025 FAQ explicitly excludes individuals, businesses and public authorities as applicants/co-applicants and grant recipients; informal collaboration does not make them eligible recipients.",
+      "sourceUrl": "https://cdn.prod.website-files.com/65219a082dae1ef5a524d204/67e5396eccab04d4f73b603a_Frequently%20Asked%20Questions%20(FAQ)_Calls%20to%20Collective%20Action.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rec3mpT8ju7FliY7E",
+      "programId": "annual-challenge-2022",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "US"
+      ],
+      "reason": "The 2022 Challenge FAQ explicitly limits the programme to US work; additional eligible-market restrictions still require manual review.",
+      "sourceUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/documents/2022-challenge-faq.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "reczfb7Kvg3CJoJ9W",
+      "programId": "pousaz-family-postgraduate-scholarship",
+      "field": "applicantType",
+      "operator": "only",
+      "values": [
+        "individual"
+      ],
+      "reason": "The Pousaz Family Scholarship is for individual students admitted to eligible partner postgraduate programmes, with selection through universities.",
+      "sourceUrl": "https://pousaz.org/scholarship/eligibility/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recTUqGBxowGopxEV",
+      "programId": "nhp-project-support-wayfinder",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "NHP explicitly states that it does not fund individuals; its project support is for invited Native Hawaiian organisation partners.",
+      "sourceUrl": "https://www.nativehawaiianphilanthropy.org/contact",
+      "checkedOn": "2026-10-15"
+    }
+  ]
+}

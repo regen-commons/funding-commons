@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "passId": "policy-followup-8-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://1ngo.in/media/vanavil/Annual%20Report%202023-2024.pdf",
+          "title": "Vanavil annual report 2023–24, donor page 31",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "A new recipient-issued report was read and its donor page visually checked: Vanavil’s 2023–24 report displays the Bala Family Foundation education-brand logo. This corroborates historical giving by that brand, without an EIN, address or connection to Fito’s name-only record. It does not distinguish the known legal candidates or provide applicant rules. No Vanavil programme, recipient support amount or candidate policy was assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/posts/dancincolleaga_oasis-at-the-st-james-town-community-co-operative-activity-7140741894711484416-shMZ",
+          "title": "Dan Gordon: Colleaga and OASIS food/wellness hubs",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Fresh project-specific research recovered the chair’s public OASIS statement, corroborating food-and-wellness venture co-investment activity. The embedded announcement attributes the $1 million investment to Northpine, while Colleaga states an intention to co-invest; it is not Colleaga’s offered award size or evidence of an open application. No clean recipient guide, transaction terms or current call emerged. Both original host-integrity warnings remain unchanged.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://resourcegovernance.org/funders",
+          "title": "NRGI current funders and restricted grant purposes",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A new direct-recipient disclosure lists Energy Transition Fund support for NRGI work in Colombia, Nigeria and Senegal, with grant-specific periods. It gives no ETF website, legal host or connection to Climate Change Collaboration. These recipient contributions do not reconcile the original directory affiliation with the Rockefeller/RPA candidate, and cannot define applicant award ranges, eligible countries or intake. The publisher identity conflict remains unresolved.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://hearthsummitbogota.com/",
+          "title": "Hearth Summit Bogotá 2026 event and participation information",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www-drupal.culturarecreacionydeporte.gov.co/es/semanabienestarbogota",
+          "title": "Bogotá wellbeing-week programme, TAAP cohost and free-entry context",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "New 2026 event and municipal cohost pages explicitly link TAAP to Hearth Summit Bogotá and wellbeing-week activities. Public activities include free entry subject to capacity, while the event seeks sponsors; this is participation and programme delivery, not a documented project award or travel bursary. The main summit dates and broader municipal agenda differ and are past event dates, not funding deadlines. A media-value total was excluded from awards. No current recipient funding guide was established.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.ird.gov.hk/eng/pdf/s88list_emb.pdf",
+          "title": "Hong Kong IRD public section 88 list, as at September 30 2026",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.ird.gov.hk/eng/pdf/tax_guide_for_charities.pdf",
+          "title": "IRD tax guide, introduction: limitations of the public list",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A bounded follow-up to the Hong Kong incorporation candidate checked IRD’s public September 2026 list and official explanation. Text search supplied no exact Global Welfare match or link to Fito. IRD expressly says this consent-based tax list is not a formal charity register and omits some charities, so nonappearance was not treated as disqualification or proof of inactivity. No geographic or legal discriminator connects the name-only publisher row to any candidate; identity and programme applicability remain unresolved.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://kla.kar.nic.in/council/Replies/unstarred/20122022/usq270%2820122022%29.pdf",
+          "title": "Karnataka council reply, December 20 2022: child-care institution appendix",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New institutional-service research recovered Karnataka’s December 2022 legislative reply listing child-care institutions, including Inchara Home for Children in Dakshina Kannada. This is historical care-home context; resident counts and public service classification are not an award, applicant criteria or proof of a current subsidy. Focused free-training and financial-assistance searches did not recover an Inchara-issued application attachment. The verified child-protection overview is retained; external recipient terms, per-award funding and current dates remain unknown.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://prodadmin.madhifoundation.org/uploads/ENEN_deck_for_website_447aec4294.pdf",
+          "title": "Enjoy English: Madhi programme implementation brochure",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "The current programme page’s actual Enjoy English attachment was recovered from Madhi’s own file host, all 18 pages read and the branded cover visually checked. It describes AI-supported English learning, classroom hardware and software, teacher training and delivery goals. It does not publish a financial award, guarantee free or subsidized access, or set external funding eligibility, prices or deadlines. School collaboration and implementation were not recast as grants. The education-technology overview remains verified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.pbora.go.ke/pbos",
+          "title": "Kenya PBORA public benefit organization list: Anne Louise Harrison Next Step Foundation",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A new Kenyan regulator route lists Anne Louise Harrison Next Step Foundation under reference NGO-53FW5E; the public page was fetched and the entry read. This is a specific registered-name candidate, not continuity evidence for Fito’s generic Next Step row. The publisher provides no country, website, mission or legal identifier to distinguish it from UK, US, Australian and South African candidates. Registration and other organizations’ scholarship/application pages were not converted into this record’s terms.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpqvD8c272JI57d",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://rewildingeurope.com/rewilding-land-facility/",
+          "title": "Rewilding Europe Land Facility and Land Fund: current recipient/use description",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://rewildingeurope.com/news/the-rewilding-land-facility-boosting-land-access-to-drive-nature-recovery/",
+          "title": "June 26 2025 Land Facility launch and Sub3 donor acknowledgement",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New administrator pages tie Sub3’s June 2025 support specifically to Rewilding Europe’s Land Fund and publish recipient/use terms for the same instrument. Added this externally administered programme: grants to local rewilding entities for land and access rights. It is not a direct Sub3 application. The current facility’s partner invitation seeks donors, so applicant intake remains unconfirmed. Capital pools and past land purchases were excluded from award bounds; no current Sub3 commitment, country or entity-type hard screen was inferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

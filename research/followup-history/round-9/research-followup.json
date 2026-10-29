@@ -1,0 +1,490 @@
+{
+  "passId": "policy-followup-9-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "targetCount": 24,
+  "previousResearchCounts": {
+    "not_a_funder": 18,
+    "program_reviewed": 551,
+    "source_reviewed": 15,
+    "unresolved": 9
+  },
+  "previousFieldCoverage": {
+    "focus": 581,
+    "eligibility": 492,
+    "numericAward": 144,
+    "currentNumericAward": 65,
+    "datedDeadline": 139,
+    "upcomingDatedDeadline": 26,
+    "applicationRoute": 455
+  },
+  "programReviewsAdded": 1,
+  "sourcesRecovered": 0,
+  "outcomes": {
+    "overview_only": 14,
+    "identity_unresolved": 9,
+    "program_terms_added": 1
+  },
+  "fieldCoverage": {
+    "focus": 581,
+    "eligibility": 493,
+    "numericAward": 144,
+    "currentNumericAward": 65,
+    "datedDeadline": 140,
+    "upcomingDatedDeadline": 26,
+    "applicationRoute": 456
+  },
+  "records": [
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/company/proximate-fund",
+          "title": "Proximate Fund — own separate profile linking standalone website",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.proximatefund.org/",
+          "title": "Proximate Fund linked standalone website — no readable page",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "A newly located own Proximate Fund profile links proximatefund.org and explicitly identifies the Sudan initiative as incubated by Adeso. Its posts concern donor convening, not recipient applications. The linked standalone website supplied no usable page. The large strategic plan remains unread after prior access failures and was not retried. Applicant legal status, fiscal sponsorship, award bounds and current intake remain unverified; employment terms and inbound fundraising targets are excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.ucc.ie/en/media/academic/schoolofasianstudies/DistinguishedScholarLectureSeries.pdf",
+          "title": "University College Cork — own 2023 academic-event flyer naming Alpina Foundation",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The name-only publisher entry still lacks a domain, country or legal identifier. A new University College Cork-hosted 2023 Oxford lecture flyer credits an Alpina Foundation, but gives no identifying details for that sponsor. Neither the academic acknowledgement nor the previously identified Colombian foundation establishes which entity Fito intended. No relationship between those candidates is assumed, and matching focus remains unassigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/810907705",
+          "title": "BOA US candidate — exact-EIN public-filing lookup, unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "A new exact-EIN public-filing lookup for the US Indigenous-support candidate yielded no readable organisation page. The publisher’s name-only record still cannot distinguish that BOA network from Bank of Africa foundation candidates. Earlier UK and US registration leads identify possible entities without proving publisher continuity. No candidate mission, recipient policy or matching focus is assigned; the new filing-access failure does not establish that an entity is absent or inactive.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.comms-hub.org/research",
+          "title": "CommsHub — official separate Research methods and support page",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "The newly reviewed official Research page describes audience analysis, polling, focus groups and communication support; it publishes no funded recipient offer or selection process. Focused own-domain searches for applications, fellowships and grant criteria found no additional recipient document. The verified Spanish foundation and partner regranting overview remain intact. Legally permitted scholarships and its founding endowment do not establish award terms; applicant geography, fiscal sponsorship, amounts and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://music.amazon.fr/podcasts/e104137d-4964-4f7e-a38f-729d88502901/episodes/c7c8b430-83a3-42e1-9d2a-f2ed4da1c87f/responseable-with-professor-nikki-james-meet-maurisa-%E2%80%94-the-encourager-of-encouragers",
+          "title": "ResponseABLE — publisher’s June 2026 Maurisa interview show notes",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.responseable.org/",
+          "title": "ResponseABLE — separate collaborator venture-studio site",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "The June 2026 interview publisher’s show notes identify Lefika as Maurisa Moloto’s social-innovation consultancy, without publishing financially supported access conditions. Only the written notes were reviewed, not the full audio. Investment language on the collaborator’s separate ResponseABLE venture-studio website is not a Lefika programme. The own cross-linked identity remains corroborated, while Lefika’s main website remains unavailable. No grant, participant bursary, award range or current funding deadline is verified; unrelated namesakes remain excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://alliedmedia.org/projects/press-on",
+          "title": "Allied Media Projects — own Press On sponsored-project overview",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://eepurl.com/iAnnrvlODB",
+          "title": "Press On original newsletter redirect — ordinary browser navigation failed",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Allied Media Projects’ newly reviewed own Press On page distinguishes Southern Movement Media Fund support from the separate Freedomways fellowship and Level Up training. Its involvement link points to training and donations, not SMMF applicant conditions. The undated project page does not establish current fiscal sponsorship. Following the original newsletter link in an ordinary browser also failed; no campaign contents were read or access controls bypassed. Deleted fund pages, inconsistent third-party dates and non-general recipient payments remain excluded. SMMF eligibility, award bounds and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [],
+      "notes": "A new register-specific search for the distinctive Helping You Thrive wording found no credible matching foundation entry; broader results concerned unrelated services and employment. The full compound name still has no verified legal or institutional discriminator. Fito’s previously inspected original and live rows supply only the name. No namesake or mission is assigned, and a failed public search is not evidence that no organisation exists.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/04046959",
+          "title": "Companies House — UK Funding Network legal-entity record",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The newly reviewed Companies House record identifies an active UK company, The Funding Network, number 04046959, with its own filing history. It does not connect that legal entity to Fito’s name-only row or select it over the Australian affiliate or wider international network. The UK nomination policy remains candidate-specific; no affiliate’s recipient conditions, currencies or geography are merged into the unresolved entry.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.excelsior.com.mx/nacional/brazo-financiero-proyectos-energeticos-en-mexico/1555402",
+          "title": "Volta CEO and infrastructure director — first-person financing account, November 2022",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "The supplied domain and own profile identify a Mexican energy investment group; continuity to any earlier entity remains unestablished, and distinct UK Volta/D.Capital terms are excluded. A newly reviewed November 2022 account quotes its CEO and infrastructure director on subsidiary development, acquisitions and project SPVs. It discusses raising investor capital rather than outside borrower or investee application conditions. Project counts, expansion plans, investor tickets and original all-region tags do not establish recipient limits or eligibility. Current intake, award bounds and nonprofit access remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/208090357",
+          "title": "Public filing index: latest Texas Bala candidate, identity context only",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/download-xml?object_id=202611329349104041",
+          "title": "Original fiscal-2025 e-filing download: access denied",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "New filing-specific research located the Texas candidate’s fiscal-2025 return, indexed as filed in May 2026. The original filing/XML read route returned an access error/403, so no access workaround or interpretation of its grant policy was attempted. The index continues to distinguish this candidate from the New York education-brand charity; it still supplies no connection to Fito’s name-only record. No tax-filing totals, past recipient amounts or preselection rule was assigned to the unresolved entry.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://lnkd.in/gKzxQjqv",
+          "title": "Underlying OASIS announcement lead: LinkedIn interstitial, no recipient terms",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "New Social Finance Fund, investment-criteria and project-specific announcement searches produced no fresh public recipient guide. The underlying OASIS announcement link recovered from the chair’s own post resolves to a LinkedIn interstitial rather than readable original terms; no account was used. Other results repeat the already reviewed network-measurement material. The clean corroborated overview and both compromised-host warnings remain intact. Northpine’s investment, workshop participation and a co-investment intention were not converted into a Colleaga award, amount or current intake.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://krfnd.org/wp-content/uploads/2024/05/List-of-grants_2023_Final.pdf",
+          "title": "KR Foundation list of grants 2023: RPA Energy Transition Fund 2024–25",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "A new donor-issued grant-list original explicitly identifies Rockefeller Philanthropy Advisors as recipient for Energy Transition Fund 2024–25, distinct from a Sustainable Markets Foundation/GGON entry. This strengthens the historical RPA candidate but does not connect it to the directory’s conflicting Climate Change Collaboration affiliation. Its DKK amount is donor support to that candidate and its end year is not a grant-application deadline. No applicant policy, offered range or identity substitution was inferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://es.linkedin.com/posts/pontificia-universidad-javeriana_terremotovenezuela2026-venezuelaearthquake-activity-7479991073759629312-bzmw",
+          "title": "Pontificia Universidad Javeriana: 2026 Venezuela earthquake mission partners",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "New Spanish scholarship and relief-partnership research reached Javeriana’s own 2026 mission account. The university explicitly names TAAP among operational allies enabling a medical and public-health assessment after Venezuela’s earthquakes. This corroborates a delivery partnership, without an externally accessible relief fund, beneficiary selection policy, cash offer or applicant deadline. Donor-supported humanitarian activity and collaboration were not recast as project funding. The verified overview is retained.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.globalgiving.org/projects/micro-finance-support-for-the-people-in-the-gambia/",
+          "title": "Global Welfare Foundation’s retired GlobalGiving microfinance fundraiser: indexed own content; direct 403",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A new programme-specific lead reached the Gambian candidate’s self-authored microfinance campaign. Indexed primary text describes seed-capital and technical-assistance ambitions and identifies the Serekunda organization and its own domain; the platform marks the fundraising project retired. Direct retrieval returned 403, with no bypass attempted. Fundraising totals are not applicant loan or grant terms. This remains candidate-level evidence and does not link the bare Fito name to The Gambia, India, Hong Kong or another legal entity.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://incharafoundation.org/wp-content/uploads/2020/07/MSSI-Report-2019-20.pdf",
+          "title": "Inchara Model Safe School Initiative consolidated annual report 2019–20",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "The original 17-page Model Safe School report was newly reviewed through the public index. It identifies Inchara’s United Breweries-supported school safety, drinking-water, play, equipment and child-home nutrition delivery, followed by an approved-versus-utilized project-cost table. These are historical activities and CSR expenditure, not amounts offered to outside applicants. No open school selection, transferable in-kind award, legal eligibility or current call is published. A later direct download returned 406; the verified overview and read indexed report were retained without a transport workaround.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://glific.org/madhi-foundations-cefl-communities-enabling-foundational-learning-program-enabling-parents-to-strengthen-foundational-learning-with-glific/",
+          "title": "Glific: Madhi CEFL programme implementation, August 26 2025",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "A new direct technology-partner account describes CEFL’s community education workers, periodic parent workshops and continuing WhatsApp messages, rather than an external research or project grant. These participation activities have no published financial award, free-service entitlement, applicant selection rules or funding dates. Glific’s own software trial and pricing concern the vendor’s separate service and were not imported as Madhi support. The foundational-learning overview remains verified, with recipient funding terms unknown.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://nextstepfdn.org/our-impact/",
+          "title": "Next Step Kenya candidate: current impact archive linking the 2025 report",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://nsfwebsite2025.s3.us-east-1.amazonaws.com/impact-report/Impact+Report+2025+Official+-+NSF+2.0.pdf",
+          "title": "Next Step Foundation annual report 2025: skills and inclusion delivery",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A newly recovered 2025 own impact report confirms the Kenyan candidate’s disability-inclusive skills training, employment pathways and hybrid nonprofit/social-enterprise model. It describes government-funded training and accommodations as delivered activities, not an outward grant call. The report and archive connect that document to nextstepfdn.org, but supply no continuity to Fito’s name-only entry. No skills-cohort counts, support costs, training intake or candidate policy was assigned to the unresolved directory record.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [],
+      "notes": "New exact-name searches through Lesotho NGO-membership and government domains found no attributable registration or recipient-policy page beyond previously reviewed evidence. Broader AGYW results refer to an audience served by other organizations; they cannot establish this foundation’s grant or participation terms. Its verified overview is retained; no fresh credible source candidate was recovered.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [],
+      "notes": "New own-domain searches for scholarship applications, forms and 2026–2027 financial-assistance criteria returned the previously examined alumni narratives, without a new attributable intake document. No fresh application endpoint or selection policy was recovered. Prior education evidence remains valid; neither the absence of a new call nor an individual success story establishes unrestricted access or a current award.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [],
+      "notes": "A new exact-name cross-reference search combining the directory’s Prairie Dogs provenance and funder-database terminology found no credible publisher-linked identity discriminator. Search results about other Carnegie institutions do not connect them to this name-only row. The prior live directory already distinguishes Carnegie Corporation as a separate record; no namesake was substituted.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [],
+      "notes": "A new exact legal-name search confined to the Open Society official domain recovered no policy explicitly covering Fund for Policy Reform Trust. Previously exhausted IRS reporting clauses were not reprocessed as applicant rules. Umbrella-brand policies cannot be assigned without demonstrated scope; external eligibility, per-award funding and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recgnI6ctYih5FQw5",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://interpares.ca/fr/appel-de-candidatures-le-prix-peter-gillespie-pour-la-justice-sociale/",
+          "title": "Inter Pares — historical 2020 nomination and selection policy",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Recovered a closed 2020 youth/social-justice prize with explicit nomination criteria and conditional non-cash support. Current cycles, counterpart-selection rules and funding terms remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://networkabc.ca/article-the-true-cost-of-performative-allyship-updated-web-design/",
+          "title": "NABC — May 2025 interview about a separate counseling provider",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Read NABC’s May 2025 interview for a new subsidized-service lead. It assigns free counseling and intake to Vancouver Black Therapy & Advocacy Foundation, a distinct operator, and identifies NABC’s role as publishing community perspectives. Those access terms are not a NABC award or financed participation scheme. Reported fundraising totals are not award ranges.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "checkedOn": "2026-10-15",
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://savinganangel.org/en/news/",
+          "title": "Saving An Angel — March 2026 bakery project delivery update",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the fresh March 2026 bakery collaboration through the own news page and searched German proposal/application terminology. The update describes a children’s-home activity with Brot gegen Not, without an outside applicant route, recipient-selection terms or funding entitlement. Project delivery and general donation support do not establish a grant offer; the existing overview remains.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ],
+  "notes": "Each target received a policy follow-up. A reviewed policy may be invitation-only, closed or historical. No current date or amount is inferred from an older award, and remaining gaps are not eligibility rejections."
+}

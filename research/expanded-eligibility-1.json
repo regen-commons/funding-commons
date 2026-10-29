@@ -1,0 +1,430 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "fundId": "recGrWuo2s6fUYukL",
+      "programId": "blaustein-group-general-and-project-grants",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "Guidance explicitly excludes grants and scholarships to individuals. Fiscal sponsors are separately permitted; no incorporation-country rule inferred.",
+      "sourceUrl": "https://blaufund.org/proposal-guidelines/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recRRbqkhtZtedtrN",
+      "programId": "roots-fund2026",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "GB",
+        "IE"
+      ],
+      "reason": "Closed2026 Roots Fund required applicant groups to be based in UK or Ireland. This rule does not describe future rounds.",
+      "sourceUrl": "https://www.edgefund.org.uk/news",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recRRbqkhtZtedtrN",
+      "programId": "roots-fund2026",
+      "field": "applicantType",
+      "operator": "only",
+      "values": [
+        "informal"
+      ],
+      "reason": "Closed2026 Roots Fund required unregistered grassroots groups and explicitly rejected registered organizations, businesses and individuals.",
+      "sourceUrl": "https://www.edgefund.org.uk/news",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recxrVKX7Bf3WnRPJ",
+      "programId": "catalyst-award",
+      "field": "applicantType",
+      "operator": "only",
+      "values": [
+        "individual"
+      ],
+      "reason": "Catalyst Award is an application by an individual leader; any affiliated organizational grant is attached to that individual award.",
+      "sourceUrl": "https://rachelsnetwork.org/catalyst/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recxrVKX7Bf3WnRPJ",
+      "programId": "catalyst-award",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "US",
+        "AS",
+        "GU",
+        "MP",
+        "PR",
+        "VI"
+      ],
+      "reason": "Applicant must reside in the US, American Indian/Alaska Native areas, or specifically listed US territories. Citizenship is not required; this is residence, not incorporation.",
+      "sourceUrl": "https://rachelsnetwork.org/catalyst/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "reciJ2vBOeJMProix",
+      "programId": "children-and-youth-grantmaking",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "Official FAQ states that requests from individuals cannot be fulfilled. Outside-region organizations may be invited, so no universal country screen added.",
+      "sourceUrl": "https://grable.org/apply-for-a-grant/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recw3cebtq8K4YdD0",
+      "programId": "grantmaking-process",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "Official policy explicitly excludes grants to individuals and scholarships.",
+      "sourceUrl": "https://www.barrfoundation.org/grantmaking/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recWA2RLqo5VBiPkc",
+      "programId": "resilience-fund",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business"
+      ],
+      "reason": "Resilience Fund explicitly excludes individuals and businesses; other Mama Cash funds have separate policies.",
+      "sourceUrl": "https://www.mamacash.org/funds/resilience-fund/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recSOtFxphmA2IwmG",
+      "programId": "transforming-systems-grants-influence2026",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "CA"
+      ],
+      "reason": "The2026 TSG application guide explicitly excludes work outside British Columbia; province-level fit remains a manual check.",
+      "sourceUrl": "https://www.vancouverfoundation.ca/wp-content/uploads/2026/06/2026_TSG_ApplicationGuide.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recUpaIA3NSYYQY8w",
+      "programId": "community-grants",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "public-body"
+      ],
+      "reason": "Community Grants explicitly excludes individuals and government bodies. CRA registration and collaboration conditions remain manual.",
+      "sourceUrl": "https://www.wpgfdn.org/granting/community-grants/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recARZwlX7o6zaou1",
+      "programId": "disability-justice-fund-for-women-small-grants",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "GH",
+        "TZ",
+        "UG"
+      ],
+      "reason": "The pilot application explicitly limits initiatives to Ghana, Tanzania and/or Uganda; this is not a funder-wide geographic rule.",
+      "sourceUrl": "https://add.org.uk/wp-content/uploads/2024/07/Application-Form_Main_Editable_FinalFinal.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recAHSAEltnDtrOEW",
+      "programId": "resilient-futures2026-ideation-grants",
+      "field": "applicantBaseCountry",
+      "operator": "exclude",
+      "values": [
+        "US"
+      ],
+      "reason": "The2026Resilient Futures call explicitly cannot fund applicants based or registered in the United States.",
+      "sourceUrl": "https://www.betterpolitics.foundation/resilient-futures-call-2026",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recAHSAEltnDtrOEW",
+      "programId": "resilient-futures2026-ideation-grants",
+      "field": "registrationCountry",
+      "operator": "exclude",
+      "values": [
+        "US"
+      ],
+      "reason": "The2026Resilient Futures call explicitly cannot fund applicants based or registered in the United States.",
+      "sourceUrl": "https://www.betterpolitics.foundation/resilient-futures-call-2026",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recwTWZ68fvzg0U8S",
+      "programId": "ayni2026-small-grants",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "public-body"
+      ],
+      "reason": "The2026 AYNI guide explicitly excludes individuals and government entities.",
+      "sourceUrl": "https://fimi-iiwf-25176774.hs-sites-eu1.com/hubfs/Call/call_guide_AYNI_Fund_2026_en.pdf?hsCtaAttrib=407903320296",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recwTWZ68fvzg0U8S",
+      "programId": "ayni2026-medium-grants",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "public-body"
+      ],
+      "reason": "The2026 AYNI guide explicitly excludes individuals and government entities.",
+      "sourceUrl": "https://fimi-iiwf-25176774.hs-sites-eu1.com/hubfs/Call/call_guide_AYNI_Fund_2026_en.pdf?hsCtaAttrib=407903320296",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recW0qENgVtZUExIs",
+      "programId": "fy27-youth-environmental-education-track1",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "business"
+      ],
+      "reason": "The FY27 Youth Environmental Education RFP explicitly excludes for-profit organizations.",
+      "sourceUrl": "https://cbtrust.org/wp-content/uploads/Youth-EE-RFP-FY27_Round-1_Final_6.23.26.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rec9fBEyvIAOuPbVi",
+      "programId": "climate-smart-communities-initiative2027",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "US",
+        "PR",
+        "VI",
+        "GU",
+        "MP",
+        "AS"
+      ],
+      "reason": "The2027 CSCI call exhaustively limits projects and partners to US states, DC and the named US territories.",
+      "sourceUrl": "https://climatesmartcommunity.org/Funding/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rec9fBEyvIAOuPbVi",
+      "programId": "climate-smart-communities-initiative2027",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "public-body"
+      ],
+      "reason": "CSCI explicitly cannot make awards directly to government agencies; the adaptation practitioner receives the award.",
+      "sourceUrl": "https://climatesmartcommunity.org/Funding/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recIHYWXmBakUeMjs",
+      "programId": "survivor-leadership-fund-nepal2026",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "NP"
+      ],
+      "reason": "This2026 Survivor Leadership Fund round explicitly requires the organization to be located and operating within Nepal.",
+      "sourceUrl": "https://www.freedomfund.org/survivor-leadership-fund/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recD5mfbCpYYLj6Cb",
+      "programId": "endowments-loi-grant-process",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business"
+      ],
+      "reason": "The Endowments grant process expressly excludes individuals and for-profit organizations.",
+      "sourceUrl": "https://www.heinz.org/grants/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recQwDLcdM4kJUZDp",
+      "programId": "9th-regional-call2026-tier1",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "public-body"
+      ],
+      "reason": "ISDAO’s regional FAQ expressly excludes projects from individuals and government agencies.",
+      "sourceUrl": "https://isdao.org/en/grants-faq/regional/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recNRkQyG1uiWaBKN",
+      "programId": "national-grant-making-coordinating-organisation2026",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "KE"
+      ],
+      "reason": "The NCO2026 guide explicitly requires a Kenya-based national NGO/civil-society actor or consultancy firm.",
+      "sourceUrl": "https://kcdf.or.ke/wp-content/uploads/2026/06/Guidlines-for-NCO-2026-Call-for-Proposal.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recwmLeZDUINrVPsx",
+      "programId": "see-change2024-medwf-call",
+      "field": "registrationCountry",
+      "operator": "only",
+      "values": [
+        "BA",
+        "HR",
+        "CY",
+        "FR",
+        "GR",
+        "IT"
+      ],
+      "reason": "The MedWF-issued SEE CHANGE2024 call expressly requires registration in one of these six countries; other consortium streams are separate.",
+      "sourceUrl": "https://www.medwomensfund.org/docs/eng-see-change-info-and-criteria.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recSRWwaTeoWoe7nt",
+      "programId": "arts-and-social-economic-justice-grants",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "US"
+      ],
+      "reason": "Opportunity Fund explicitly excludes organizations located outside the United States; fiscal sponsorship must be evaluated using the actual applicant.",
+      "sourceUrl": "https://theopportunityfund.org/application-faqs/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rec6GLq3XICtk5BjV",
+      "programId": "vkrf-thematic-grantmaking",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "business",
+        "public-body",
+        "individual"
+      ],
+      "reason": "VKRF explicitly excludes for-profit organizations, government organizations and individual support.",
+      "sourceUrl": "https://vkrf.org/what-we-fund",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recz76e8ztw4zbR1M",
+      "programId": "impact-malunga-2026-institutional-strengthening",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "BR"
+      ],
+      "reason": "The closed 2026 call requires headquarters in Pernambuco or Rio Grande do Norte, Brazil.",
+      "sourceUrl": "https://fundoagbara.org.br/wp-content/uploads/2026/06/CHAMADA_PUBLICA-IMPACTO_MALUNGA_REGULAMENTO.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recFP7B5PK11Bj8lO",
+      "programId": "general-call01-p-g-ffcrdc-2027",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "CD"
+      ],
+      "reason": "The 2027 call requires women/girls-rights projects in the Democratic Republic of Congo.",
+      "sourceUrl": "https://usercontent.one/wp/www.ffcrdc.org/wp-content/uploads/2026/10/FFC_APPEL-A-PROJET-RKV-CERTIFIE.pdf?media=1747864837",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recOXHELOLzKeWy1h",
+      "programId": "benitomass-scholarship-2026-annual-award",
+      "field": "applicantType",
+      "operator": "only",
+      "values": [
+        "individual"
+      ],
+      "reason": "This programme is a scholarship for individual students, not an organization grant.",
+      "sourceUrl": "https://www.fcpr.org/wp-content/uploads/2026/09/Guia-2026-Fondo-de-Becas-Benito-Masso.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recOXHELOLzKeWy1h",
+      "programId": "benitomass-scholarship-2026-annual-award",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "PR"
+      ],
+      "reason": "The 2026 scholarship requires permanent residence in Puerto Rico; identity and study conditions remain manual.",
+      "sourceUrl": "https://www.fcpr.org/wp-content/uploads/2026/09/Guia-2026-Fondo-de-Becas-Benito-Masso.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rec6CaoLQP7toDdP1",
+      "programId": "ingfoundation-organizational-grantmaking",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "The Ing Foundation contact policy explicitly excludes individual funding.",
+      "sourceUrl": "https://www.ing-foundation.org/office/",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recWFD4nISK2rVZ9k",
+      "programId": "romahealth-scholarship-final2023-24-cycle",
+      "field": "applicantType",
+      "operator": "only",
+      "values": [
+        "individual"
+      ],
+      "reason": "This closed scholarship call is exclusively for individual Roma students.",
+      "sourceUrl": "https://socialachievement.org/web/files/projects/67/files_en/Call%20for%20Applications%202023-2024%20EN.pdf",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "rectpu5AusFN6GlTS",
+      "programId": "resiliencefund-forwomen-inglobalvaluechains-2026-round",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "BD",
+        "KH",
+        "IN",
+        "VN"
+      ],
+      "reason": "This 2026 round expressly limits applicant community NGOs to Bangladesh, Cambodia, India, Vietnam.",
+      "sourceUrl": "https://www.resiliencefundforwomen.org/apply",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "fundId": "recV7EADgAIUPUwZi",
+      "programId": "pensi-beja-black-researcher-postdoctoral-fellowship-2026",
+      "field": "applicantType",
+      "operator": "only",
+      "values": [
+        "individual"
+      ],
+      "reason": "The joint 2026 postdoctoral fellowship is for individual researchers, not organization projects.",
+      "sourceUrl": "https://institutopensi.org.br/novidades/pensi-beja",
+      "checkedOn": "2026-10-15"
+    }
+  ]
+}

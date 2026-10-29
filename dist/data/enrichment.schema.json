@@ -1,0 +1,489 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://funding-commons.greenpill-de-9532.chatgpt.site/data/enrichment.schema.json",
+  "title": "Funding Commons source-backed enrichment record",
+  "description": "Source-backed research disposition for every directory record. Detailed program reviews and source-only overviews are distinct from unavailable or unresolved sources. Missing terms stay unknown.",
+  "type": "object",
+  "required": [
+    "sourceRecordId",
+    "researchedOn",
+    "name",
+    "summary",
+    "themes",
+    "regions",
+    "programs",
+    "sources",
+    "researchNotes",
+    "reviewStatus",
+    "focus",
+    "evidence"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "sourceRecordId": {
+      "type": "string",
+      "pattern": "^rec[A-Za-z0-9]+$"
+    },
+    "researchedOn": {
+      "type": "string",
+      "format": "date"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "programs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "instrument",
+          "focus",
+          "beneficiaries",
+          "geography",
+          "applicants",
+          "award",
+          "application",
+          "costs",
+          "evidence",
+          "unknowns"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "instrument": {
+            "type": "string",
+            "enum": [
+              "grant",
+              "investment",
+              "fellowship",
+              "prize",
+              "mixed",
+              "unknown",
+              "scholarship"
+            ]
+          },
+          "focus": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "beneficiaries": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "geography": {
+            "type": "object",
+            "required": [
+              "workCountries",
+              "applicantCountries",
+              "scope",
+              "exclusions"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "workCountries": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{2}$"
+                },
+                "minItems": 0
+              },
+              "applicantCountries": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{2}$"
+                },
+                "minItems": 0
+              },
+              "scope": {
+                "type": "string"
+              },
+              "exclusions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              }
+            }
+          },
+          "applicants": {
+            "type": "object",
+            "required": [
+              "types",
+              "fiscalSponsorship",
+              "requirements",
+              "exclusions"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "types": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "fiscalSponsorship": {
+                "type": "string",
+                "enum": [
+                  "accepted",
+                  "not_accepted",
+                  "unknown"
+                ]
+              },
+              "requirements": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "exclusions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              }
+            }
+          },
+          "award": {
+            "type": "object",
+            "required": [
+              "currency",
+              "min",
+              "max",
+              "durationMonths",
+              "basis",
+              "note"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "currency": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^[A-Z]{3}$"
+              },
+              "min": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "max": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "durationMonths": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "basis": {
+                "type": "string",
+                "enum": [
+                  "current_offer",
+                  "historical",
+                  "not_stated"
+                ]
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "application": {
+            "type": "object",
+            "required": [
+              "route",
+              "url",
+              "opensOn",
+              "closesOn",
+              "deadlineInstant",
+              "note"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "route": {
+                "type": "string",
+                "enum": [
+                  "open",
+                  "rolling",
+                  "inquiry",
+                  "relationship",
+                  "restricted",
+                  "future",
+                  "closed",
+                  "unverified",
+                  "unconfirmed",
+                  "directory"
+                ]
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "opensOn": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              },
+              "closesOn": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              },
+              "deadlineInstant": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "note": {
+                "type": "string"
+              },
+              "capacity": {
+                "type": "string",
+                "enum": [
+                  "limited"
+                ],
+                "description": "Optional, explicit official caution about capacity for new partnerships. Absence means unknown, not unrestricted capacity."
+              }
+            }
+          },
+          "costs": {
+            "type": "object",
+            "required": [
+              "supported",
+              "excluded"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "supported": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "excluded": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              }
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "fields",
+                "url",
+                "note",
+                "checkedOn"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "fields": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 0
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "note": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "checkedOn": {
+                  "type": "string",
+                  "format": "date"
+                }
+              }
+            },
+            "minItems": 1
+          },
+          "unknowns": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "title",
+          "checkedOn"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "checkedOn": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "researchNotes": {
+      "type": "string"
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": [
+        "program_reviewed",
+        "source_reviewed",
+        "unresolved",
+        "unreachable",
+        "not_a_funder"
+      ]
+    },
+    "focus": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "fields",
+          "url",
+          "note",
+          "checkedOn"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          },
+          "checkedOn": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "sourceWarnings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "reason"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

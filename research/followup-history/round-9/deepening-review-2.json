@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "passId": "policy-followup-9-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [],
+      "notes": "New exact-name searches through Lesotho NGO-membership and government domains found no attributable registration or recipient-policy page beyond previously reviewed evidence. Broader AGYW results refer to an audience served by other organizations; they cannot establish this foundation’s grant or participation terms. Its verified overview is retained; no fresh credible source candidate was recovered.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [],
+      "notes": "New own-domain searches for scholarship applications, forms and 2026–2027 financial-assistance criteria returned the previously examined alumni narratives, without a new attributable intake document. No fresh application endpoint or selection policy was recovered. Prior education evidence remains valid; neither the absence of a new call nor an individual success story establishes unrestricted access or a current award.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [],
+      "notes": "A new exact-name cross-reference search combining the directory’s Prairie Dogs provenance and funder-database terminology found no credible publisher-linked identity discriminator. Search results about other Carnegie institutions do not connect them to this name-only row. The prior live directory already distinguishes Carnegie Corporation as a separate record; no namesake was substituted.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [],
+      "notes": "A new exact legal-name search confined to the Open Society official domain recovered no policy explicitly covering Fund for Policy Reform Trust. Previously exhausted IRS reporting clauses were not reprocessed as applicant rules. Umbrella-brand policies cannot be assigned without demonstrated scope; external eligibility, per-award funding and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recgnI6ctYih5FQw5",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://interpares.ca/fr/appel-de-candidatures-le-prix-peter-gillespie-pour-la-justice-sociale/",
+          "title": "Inter Pares — historical 2020 nomination and selection policy",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Recovered a closed 2020 youth/social-justice prize with explicit nomination criteria and conditional non-cash support. Current cycles, counterpart-selection rules and funding terms remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://networkabc.ca/article-the-true-cost-of-performative-allyship-updated-web-design/",
+          "title": "NABC — May 2025 interview about a separate counseling provider",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Read NABC’s May 2025 interview for a new subsidized-service lead. It assigns free counseling and intake to Vancouver Black Therapy & Advocacy Foundation, a distinct operator, and identifies NABC’s role as publishing community perspectives. Those access terms are not a NABC award or financed participation scheme. Reported fundraising totals are not award ranges.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://savinganangel.org/en/news/",
+          "title": "Saving An Angel — March 2026 bakery project delivery update",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the fresh March 2026 bakery collaboration through the own news page and searched German proposal/application terminology. The update describes a children’s-home activity with Brot gegen Not, without an outside applicant route, recipient-selection terms or funding entitlement. Project delivery and general donation support do not establish a grant offer; the existing overview remains.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

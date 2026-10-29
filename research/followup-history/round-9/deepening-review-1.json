@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "passId": "policy-followup-9-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/208090357",
+          "title": "Public filing index: latest Texas Bala candidate, identity context only",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/download-xml?object_id=202611329349104041",
+          "title": "Original fiscal-2025 e-filing download: access denied",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "New filing-specific research located the Texas candidate’s fiscal-2025 return, indexed as filed in May 2026. The original filing/XML read route returned an access error/403, so no access workaround or interpretation of its grant policy was attempted. The index continues to distinguish this candidate from the New York education-brand charity; it still supplies no connection to Fito’s name-only record. No tax-filing totals, past recipient amounts or preselection rule was assigned to the unresolved entry.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://lnkd.in/gKzxQjqv",
+          "title": "Underlying OASIS announcement lead: LinkedIn interstitial, no recipient terms",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "New Social Finance Fund, investment-criteria and project-specific announcement searches produced no fresh public recipient guide. The underlying OASIS announcement link recovered from the chair’s own post resolves to a LinkedIn interstitial rather than readable original terms; no account was used. Other results repeat the already reviewed network-measurement material. The clean corroborated overview and both compromised-host warnings remain intact. Northpine’s investment, workshop participation and a co-investment intention were not converted into a Colleaga award, amount or current intake.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://krfnd.org/wp-content/uploads/2024/05/List-of-grants_2023_Final.pdf",
+          "title": "KR Foundation list of grants 2023: RPA Energy Transition Fund 2024–25",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "A new donor-issued grant-list original explicitly identifies Rockefeller Philanthropy Advisors as recipient for Energy Transition Fund 2024–25, distinct from a Sustainable Markets Foundation/GGON entry. This strengthens the historical RPA candidate but does not connect it to the directory’s conflicting Climate Change Collaboration affiliation. Its DKK amount is donor support to that candidate and its end year is not a grant-application deadline. No applicant policy, offered range or identity substitution was inferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://es.linkedin.com/posts/pontificia-universidad-javeriana_terremotovenezuela2026-venezuelaearthquake-activity-7479991073759629312-bzmw",
+          "title": "Pontificia Universidad Javeriana: 2026 Venezuela earthquake mission partners",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "New Spanish scholarship and relief-partnership research reached Javeriana’s own 2026 mission account. The university explicitly names TAAP among operational allies enabling a medical and public-health assessment after Venezuela’s earthquakes. This corroborates a delivery partnership, without an externally accessible relief fund, beneficiary selection policy, cash offer or applicant deadline. Donor-supported humanitarian activity and collaboration were not recast as project funding. The verified overview is retained.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.globalgiving.org/projects/micro-finance-support-for-the-people-in-the-gambia/",
+          "title": "Global Welfare Foundation’s retired GlobalGiving microfinance fundraiser: indexed own content; direct 403",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A new programme-specific lead reached the Gambian candidate’s self-authored microfinance campaign. Indexed primary text describes seed-capital and technical-assistance ambitions and identifies the Serekunda organization and its own domain; the platform marks the fundraising project retired. Direct retrieval returned 403, with no bypass attempted. Fundraising totals are not applicant loan or grant terms. This remains candidate-level evidence and does not link the bare Fito name to The Gambia, India, Hong Kong or another legal entity.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://incharafoundation.org/wp-content/uploads/2020/07/MSSI-Report-2019-20.pdf",
+          "title": "Inchara Model Safe School Initiative consolidated annual report 2019–20",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "The original 17-page Model Safe School report was newly reviewed through the public index. It identifies Inchara’s United Breweries-supported school safety, drinking-water, play, equipment and child-home nutrition delivery, followed by an approved-versus-utilized project-cost table. These are historical activities and CSR expenditure, not amounts offered to outside applicants. No open school selection, transferable in-kind award, legal eligibility or current call is published. A later direct download returned 406; the verified overview and read indexed report were retained without a transport workaround.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://glific.org/madhi-foundations-cefl-communities-enabling-foundational-learning-program-enabling-parents-to-strengthen-foundational-learning-with-glific/",
+          "title": "Glific: Madhi CEFL programme implementation, August 26 2025",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "A new direct technology-partner account describes CEFL’s community education workers, periodic parent workshops and continuing WhatsApp messages, rather than an external research or project grant. These participation activities have no published financial award, free-service entitlement, applicant selection rules or funding dates. Glific’s own software trial and pricing concern the vendor’s separate service and were not imported as Madhi support. The foundational-learning overview remains verified, with recipient funding terms unknown.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://nextstepfdn.org/our-impact/",
+          "title": "Next Step Kenya candidate: current impact archive linking the 2025 report",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://nsfwebsite2025.s3.us-east-1.amazonaws.com/impact-report/Impact+Report+2025+Official+-+NSF+2.0.pdf",
+          "title": "Next Step Foundation annual report 2025: skills and inclusion delivery",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A newly recovered 2025 own impact report confirms the Kenyan candidate’s disability-inclusive skills training, employment pathways and hybrid nonprofit/social-enterprise model. It describes government-funded training and accommodations as delivered activities, not an outward grant call. The report and archive connect that document to nextstepfdn.org, but supply no continuity to Fito’s name-only entry. No skills-cohort counts, support costs, training intake or candidate policy was assigned to the unresolved directory record.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

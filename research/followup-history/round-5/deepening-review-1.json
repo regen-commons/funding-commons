@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "passId": "policy-followup-5-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/api/v2/organizations/208090357.json",
+          "title": "Public filer record of Texas candidate",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/api/v2/organizations/843004582.json",
+          "title": "Public filer record of NY legal namesake/brand candidate",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.balafoundation.org/",
+          "title": "Education candidate’s self-published brand and EIN",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Compared both candidates in fresh public filer records: EIN 20-8090357 is Bala Family Foundation in Missouri City, Texas; EIN 84-3004582 is legally Prabha Bala And Bala Swaminathan Foundation Inc in Jericho, New York, associated with the education brand. This sharpens the distinction without identifying the Fito row, whose only filled field is the name. New exact-name/publisher searches supplied no linking identifier, so neither candidate’s programmes were assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.commonapproach.org/community/projects/pathfinder-pilot/",
+          "title": "Administrator distinguishes Colleaga’s network from the lending network and funders",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.commonapproach.org/knowledge/resources/reflections-from-the-first-year-working-with-the-network-for-optimizing-food-impact/",
+          "title": "Direct implementation-partner context, without funding access",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed fresh social-finance and investment-readiness leads to the actual Pathfinder Pilot description. Colleaga co-convenes the food-impact network; the lending network is separately convened by Alterna, and pilot funders are separate institutions. Impact-measurement participation is not a Colleaga loan or grant offer. Searches of the operational partner and government domains found no Colleaga recipient terms. Both compromised-host warnings and the previously verified overview remain intact.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://climatechangecollaboration.org.uk/what-we-fund/",
+          "title": "CCC’s own funding policy, reviewed only as an unproven affiliation lead",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://climatechangecollaboration.org.uk/",
+          "title": "CCC identifies its constituent trusts, without resolving ETF",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.rbf.org/grantees/rockefeller-philanthropy-advisors-inc",
+          "title": "Retained RPA fund identity, still not a source-row resolution",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New host-qualified RPA/Sainsbury/CCC and call-for-proposals searches still found no discriminating ETF source. CCC’s own current funding page describes its three focus areas and says it does not take unsolicited enquiries/applications; it does not identify ETF as its programme. That restriction was not transferred to ETF. The source-row CCC affiliation remains unreconciled with the separately named RPA Energy Transition Fund. Commercial energy-transition fund results were excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://lasalle.edu.co/es/noticias/unisalle-es-la-sede-del-wellbeing-summit-bogota",
+          "title": "Direct event host’s 2023 programme account",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://thewellbeingproject.org/the-wellbeing-summit-bogota/",
+          "title": "Suggested organizer-policy route unavailable (404)",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://fundaciontaap.org/",
+          "title": "Fresh own report/donation navigation, without external award criteria",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Investigated a new Spanish scholarship/subvention lead for the 2023 Wellbeing Summit associated with TAAP. The host university’s own article verifies the event and programme, but supplies no bursary eligibility, cash amount or TAAP-administered award. The suggested Wellbeing Project route returned404. TAAP’s current own donation/report links continue to describe aid delivery and training access. No event attendance subsidy was converted into a project-grant programme.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://stoptb.org/partners/partner_profile2.asp?PID=142945",
+          "title": "Institutional member identity and direct candidate-domain link",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.globalwelfarefoundations.org/about",
+          "title": "Indian candidate about route lacks substantive accessible detail",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://global-welfare-foundation.jimdosite.com/imprint/",
+          "title": "Gambian candidate legal-disclosure lead unavailable (403)",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "A new Stop TB Partnership institutional member profile corroborates the Gambian GLOWEFA candidate, including its own Jimdosite domain and 2025 partnership application. The Indian candidate separately claims a Section 8 mandate; its about route yields only a title, while the Gambian imprint is403. Institutional corroboration makes the Gambian candidate more concrete but does not connect it to the name-only Fito row. No legal status, country or funding policy was selected by plausibility.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://incharafoundation.org/get-involved/",
+          "title": "Own participation requirements are volunteering/internships, not grant access",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://incharafoundation.org/impact/",
+          "title": "Own participant outcomes and report navigation",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read the actual current Get Involved route and impact/report index after fresh financial-assistance searches. Participation invites volunteers and student interns; it does not promise funding. The impact page’s salary example is a former participant’s employment outcome, and its six-month course is service delivery, not an applicant award duration. The linked reports cover rehabilitation, school safety and relief. No external project-grant policy, offered amount or call was verified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://milaap.org/fundraisers/support-children-by-strengthening-foundational-learning",
+          "title": "Directly linked charity fundraiser establishes direction of funding",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.madhifoundation.org/legal-terms",
+          "title": "Own legal terms govern site and job/contact data, not grants",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.madhifoundation.org/privacy-policy",
+          "title": "Own application language concerns jobs/contact use",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed Madhi’s actual Support Us link to its own fundraising campaign and read its legal/privacy pages. The campaign receives donations for Madhi’s foundational-learning work; its fundraising goal and US donor tax-benefit route are not grant amounts or fiscal-sponsor acceptance for outside applicants. Legal pages cover website/job/contact use, not project funding. New grantmaking searches yielded no own recipient policy; the existing education overview is retained.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.acnc.gov.au/charity/charities/faa96300-3aaf-e811-a95e-000d3ad24c60/documents/",
+          "title": "Australian regulator’s indexed exact-name charity entry; direct fetch timeout",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.acnc.gov.au/charity/charities/faa96300-3aaf-e811-a95e-000d3ad24c60/documents/8d56f284-d052-ea11-a813-000d3ad1f9f4",
+          "title": "Australian regulator’s separate historical information-statement lead",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5161298/governing-document",
+          "title": "Distinct UK candidate’s statutory purpose",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Fresh statutory-source research found an additional exact-name Next Step Foundation entry and 2019 information statement in Australia’s ACNC register; direct retrieval timed out, while indexed regulator titles were readable. This is a further institutional candidate, not a link to the source row. The UK university-preparation charity and Kenyan/South African organizations remain distinct. The Fito row has no geography, purpose or identifier, and new publisher-qualified searches added none.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpqvD8c272JI57d",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.iucn.nl/app/uploads/2025/05/2024_jaarverslag-IUCN-NL-mei-2025-spreads.pdf",
+          "title": "Administrator’s own Sub3/GLAF relationship and mission disclosure, pp10–11/33",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.iucn.nl/app/uploads/2026/04/IUCN-NL-Annual-Report-2025-spreads.pdf",
+          "title": "Full administrator report with historical GLAF outcomes",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.iucn.nl/en/our-services/fund-management-for-locally-led-organisations/",
+          "title": "Current fund-management principles, without a GLAF applicant policy",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://conservationconnect.earth/",
+          "title": "Linked network route yields only a title",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Found a new specific co-funded stream in IUCN NL’s own 2024 report: Sub3-backed Green Lifeline Action Fund for urgent conservation support. Read the full 2025 report and administrator navigation; they confirm awards/outcomes but do not publish GLAF application access, legal eligibility, per-award bounds or dates. Added sourced emergency-conservation focus only. Project budgets and recipient-country lists were not converted into award limits or exhaustive eligibility; the separate Land Acquisition Fund’s criteria were not transferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recPltSfBuofl8aqD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://tiltcollective.org/website-terms-of-use",
+          "title": "Own current site/partnership terms and UK operator identity",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/16501084",
+          "title": "Government register corroborates the current legal entity",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/16501084/filing-history/MzUzODMzODM4OWFkaXF6a2N4/document?download=0&format=pdf",
+          "title": "Own filed accounts, especially note 8 p11, directly establish administrative transition",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Recovered current legal continuity: September 2026 own terms identify UK company 16501084, corroborated by Companies House. Read/OCRed all 11 pages of its own 2025 filed accounts and visually checked note 8: former fiscal-sponsor activities/assets/outstanding grants transferred on 1 January 2026. USD 25 million is transferred net assets, not an award. Own terms require separate written agreements and say website descriptions are not funding offers; this is not an invitation-only rule. Recipient eligibility, offered ranges and current application dates remain unpublished.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

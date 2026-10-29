@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "passId": "policy-followup-10-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://whatsapp.com/channel/0029VbDTvZL4yltMFIiSsj2u",
+          "title": "Public-channel lead associated with Mosepele; contents and AGYW policy unverified",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito/Prairie Dogs — public Network Funders Research View; source-group provenance, CSV reviewed",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Followed a newly surfaced Mosepele-related public channel lead naming AGYW Foundation Lesotho. The public preview could not be retrieved, so its authorship, institutional continuity and any recipient terms remain unverified. No account was joined and no third-party social mirror was treated as this foundation’s policy. The prior verified Lesotho overview remains. The publisher’s public research export additionally labels this row “Festival 2025”; Detailed Notes is empty. This provenance clue supplies no verified recipient policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/pulse/term-2-2026-newsletter-bridgekenya-qv2sf?trk=public_post",
+          "title": "Bridge Academies Foundation — own August 28, 2026 Term 2 newsletter",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/bridgekenya_looking-for-a-school-to-enroll-your-child-activity-7230106114883784705-uHCR",
+          "title": "Bridge Academies Foundation — older school-admissions invitation",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito/Prairie Dogs — public Network Funders Research View; source-group provenance, CSV reviewed",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Read the foundation’s own August 28, 2026 Term 2 newsletter after following its public school-admission post. The newsletter describes pupil activities, school partnerships, dignity-kit delivery and donor mobilization, without a scholarship-selection procedure or external grant application. An older school-admissions invitation does not establish free provision, funded places or a current funding round. The publisher’s public research export additionally labels this row “Festival 2025”; Detailed Notes is empty. This provenance clue supplies no verified recipient policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito/Prairie Dogs — public Network Funders Research View; source-group provenance, CSV reviewed",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The publisher’s newly recovered public research table adds the source-group tag PANDO, but its website, description, application fields and Detailed Notes remain empty for this row. One focused PANDO plus Carnegie Foundation cross-reference search found unrelated biographies and other Carnegie references, with no institutional continuity to the publisher’s row. PANDO was not expanded into an assumed network or institution; Carnegie remains unresolved.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://aflegal.org/wp-content/uploads/2025/04/241007-Exhibit-B-1-Application-File-Bates.pdf",
+          "title": "FCC application 0000241074 — May 2024 reference copy, attachment A12–A13; reproduced original filing",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito/Prairie Dogs — public Network Funders Research View; source-group provenance, CSV reviewed",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Reviewed a reproduced original May 2024 FCC application, lead file 0000241074, especially attachment A12–A13. Its filed-party description identifies a Delaware social-welfare trust whose trustees select grantees periodically. This describes oversight and purpose, without applicant-selection criteria, a public intake route or an award range. Broadcast ownership interests and trustee powers were not converted into funding terms; host commentary was excluded. The publisher’s public research export additionally labels this row “HFRN”; Detailed Notes is empty. This provenance clue supplies no verified recipient policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.beyondabr.ca/",
+          "title": "NABC-linked Beyond ABR public portal — retrieval unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito/Prairie Dogs — public Network Funders Research View; source-group provenance, CSV reviewed",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Checked the own-site-linked Beyond ABR portal as a new possible access-policy source, alongside a bounded bursary and scholarship search. The text reader could not access it and an ordinary verified-TLS request failed during the handshake; no portal terms were read. No transport workaround or account access was attempted. Retained NABC overview evidence does not establish a funded place or grant intake. The publisher’s public research export additionally labels this row “Website engage sign-up,Festival 2025”; Detailed Notes is empty. This provenance clue supplies no verified recipient policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito/Prairie Dogs — public Network Funders Research View; source-group provenance, CSV reviewed",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A new German-language search for foundation statutes and published funding guidelines recovered no attributable applicant-policy document. Previously reviewed donor appeals and delivery updates were not recast as selection criteria. No fresh credible primary source supplies an outside application route, per-award range or live deadline; the verified foundation overview is retained. The publisher’s public research export additionally labels this row “Festival 2025”; Detailed Notes is empty. This provenance clue supplies no verified recipient policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1840 @@
+[
+  {
+    "sourceRecordId": "recxmWk9XCOOqAGIH",
+    "researchedOn": "2026-10-14",
+    "name": "A Team Foundation (UK)",
+    "summary": "Supports regenerative food and land work through selected partnerships, mostly in the UK with some international exceptions. General unsolicited applications are normally not accepted.",
+    "themes": [
+      "Food & agriculture",
+      "Climate & environment",
+      "Health & wellbeing"
+    ],
+    "regions": [
+      "Europe"
+    ],
+    "programs": [
+      {
+        "id": "a-team-food-land-grants",
+        "name": "Food and land grants",
+        "instrument": "grant",
+        "focus": [
+          "regenerative food systems",
+          "agroecology",
+          "land stewardship",
+          "food access",
+          "ancestral knowledge"
+        ],
+        "beneficiaries": [
+          "food and farming communities"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "Most partners are UK-based; exceptional international organizations with distinctive approaches are also funded. This is a preference, not an exclusive UK rule.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "organizations"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Selected partners aligned with food, land and social justice priorities"
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": null,
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "Not stated in the reviewed sources."
+        },
+        "application": {
+          "route": "relationship",
+          "url": "https://www.ateamfoundation.org/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Generally does not accept unsolicited funding applications; works through selected long-term partners."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "geography.scope",
+              "applicants.requirements",
+              "application.route"
+            ],
+            "url": "https://www.ateamfoundation.org/",
+            "note": "Funding policy describes selected partnerships, mainly in the UK with some international exceptions; priorities concern food and land.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Award sizes and duration",
+          "Formal applicant entity and fiscal sponsor rules",
+          "Eligible cost categories",
+          "Exceptions to the unsolicited-application policy"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ateamfoundation.org/",
+        "title": "The A Team Foundation: mission and funding",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.ateamfoundation.org/grants",
+        "title": "Grant partnerships",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  },
+  {
+    "sourceRecordId": "rec0y2s5zy4X70JtJ",
+    "researchedOn": "2026-10-14",
+    "name": "Acento (Acción Local)",
+    "summary": "Supports local rights movements in Mexico. The researched Fondo Raíz pilot funds experimental sustainability work by coalitions including a current or former Acento partner; its application window has ended.",
+    "themes": [
+      "Governance & civic engagement",
+      "Gender & racial equity",
+      "Indigenous rights"
+    ],
+    "regions": [
+      "North America"
+    ],
+    "programs": [
+      {
+        "id": "acento-fondo-raiz-2026",
+        "name": "Fondo Raíz — 2026 pilot",
+        "instrument": "grant",
+        "focus": [
+          "local social justice movements",
+          "organizational sustainability",
+          "economic sustainability"
+        ],
+        "beneficiaries": [
+          "locally rooted rights organizations and movements"
+        ],
+        "geography": {
+          "workCountries": [
+            "MX"
+          ],
+          "applicantCountries": [],
+          "scope": "Supports locally rooted civil society and social justice processes in Mexico.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "civil associations",
+            "unregistered collectives",
+            "coalitions"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Coalition with at least one current or former Acento partner",
+            "Participate in documentation and evaluation of the pilot"
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": "MXN",
+          "min": null,
+          "max": null,
+          "durationMonths": 12,
+          "basis": "current_offer",
+          "note": "Closed 2026 pilot: MXN1,000,000 total pool for 3–4 proposals, not a per-grant range. Implementation April 2026–April 2027; nonrenewable."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://www.acento.org/fondo-raiz/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Call has finished; results scheduled for March 2026. No subsequent cycle verified."
+        },
+        "costs": {
+          "supported": [
+            "experimental organizational and economic sustainability work"
+          ],
+          "excluded": [
+            "routine program delivery",
+            "institutional strengthening processes",
+            "emergency or rapid response"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "applicants",
+              "award",
+              "application",
+              "costs"
+            ],
+            "url": "https://www.acento.org/fondo-raiz/",
+            "note": "Pilot rules require a partner-led coalition and identify a shared pool, one-off award and 2026–27 implementation; excluded activities are specified.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "geography.scope",
+              "geography.workCountries"
+            ],
+            "url": "https://acento.org/",
+            "note": "Acento describes its support for local human rights groups and networks in Mexico.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Exact per-award amounts",
+          "Original submission deadline",
+          "Fiscal sponsorship arrangements",
+          "Whether another pilot will occur"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.acento.org/fondo-raiz/",
+        "title": "Fondo Raíz pilot rules and FAQ",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://acento.org/",
+        "title": "Acento: local human rights work in Mexico",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  },
+  {
+    "sourceRecordId": "rec1oGozP3IFZCnEP",
+    "researchedOn": "2026-10-14",
+    "name": "Calala Fondo de Mujeres",
+    "summary": "Finances feminist and LGBTIAQ+ organizations in Spain and Central America. This pilot researches the closed 2026 Radix call for Spain-registered grassroots nonprofits, with organizational and rights-action funding.",
+    "themes": [
+      "Gender & racial equity",
+      "Human rights"
+    ],
+    "regions": [
+      "Europe",
+      "Latin America & Caribbean"
+    ],
+    "programs": [
+      {
+        "id": "calala-radix-call-2-2026",
+        "name": "Fondo Radix — second call 2026",
+        "instrument": "grant",
+        "focus": [
+          "feminist organizing",
+          "LGBTIAQ+ rights",
+          "organizational sustainability",
+          "intersectional antiracism"
+        ],
+        "beneficiaries": [
+          "women and girls",
+          "LGBTIAQ+ communities",
+          "migrant and racialized communities"
+        ],
+        "geography": {
+          "workCountries": [
+            "ES"
+          ],
+          "applicantCountries": [
+            "ES"
+          ],
+          "scope": "Nonprofit grassroots organizations registered in Spain.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "nonprofit associations",
+            "foundations",
+            "nonprofit cooperatives"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Registered in Spain",
+            "Majority leadership by women and/or LBTIAQ+ people"
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": "EUR",
+          "min": 40000,
+          "max": 60000,
+          "durationMonths": 24,
+          "basis": "current_offer",
+          "note": "Closed 2026 call offered either EUR40,000 or EUR60,000 per project; not a continuous range."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://calala.org/blog/abrimos-la-segunda-convocatoria-de-radix/",
+          "opensOn": null,
+          "closesOn": "2026-03-20",
+          "deadlineInstant": "2026-03-20T22:59:00Z",
+          "note": "Second call closed at 23:59 mainland Spain time on March 20, 2026. No later call verified."
+        },
+        "costs": {
+          "supported": [
+            "organizational consolidation",
+            "rights advocacy",
+            "community care",
+            "legal or psychosocial support"
+          ],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "geography",
+              "applicants.types",
+              "application.route"
+            ],
+            "url": "https://calala.org/fondo-radix/",
+            "note": "Program page identifies Spain-registered grassroots nonprofit forms and marks both calls closed.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "applicants.requirements",
+              "award",
+              "application.closesOn",
+              "application.deadlineInstant",
+              "costs.supported"
+            ],
+            "url": "https://calala.org/blog/abrimos-la-segunda-convocatoria-de-radix/",
+            "note": "Second-call announcement specifies majority-led eligibility, two award amounts, 24 months and the March deadline.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Fiscal sponsorship eligibility",
+          "Detailed expense exclusions",
+          "Subsequent call schedule"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://calala.org/fondo-radix/",
+        "title": "Fondo Radix program",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://calala.org/blog/abrimos-la-segunda-convocatoria-de-radix/",
+        "title": "Second Radix call 2026",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Uses the Calala Fondo de Mujeres source row; Calala Women’s Fund is a possible duplicate and is retained separately in the 593-record directory. This pilot covers Radix in Spain, not all Calala programs."
+  },
+  {
+    "sourceRecordId": "rec9CMaxZrbqRucEc",
+    "researchedOn": "2026-10-14",
+    "name": "Cultural Survival",
+    "summary": "Keepers of the Earth Fund supports development and advocacy designed and led by Indigenous communities, including unregistered groups. Access alternates between public calls and invitation cycles.",
+    "themes": [
+      "Indigenous rights",
+      "Climate & environment",
+      "Arts & culture"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America",
+      "Latin America & Caribbean",
+      "Oceania"
+    ],
+    "programs": [
+      {
+        "id": "cultural-survival-keepers-earth",
+        "name": "Keepers of the Earth Fund",
+        "instrument": "grant",
+        "focus": [
+          "Indigenous self-determination",
+          "community advocacy",
+          "Indigenous-led development"
+        ],
+        "beneficiaries": [
+          "Indigenous communities"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "International Indigenous community grantmaking; country eligibility varies by public or invited call. No current universal country list established.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Indigenous communities",
+            "Indigenous collectives",
+            "Indigenous organizations",
+            "traditional Indigenous governments"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Designed and managed by Indigenous members of the community served",
+            "Collective community benefit"
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": "USD",
+          "min": null,
+          "max": 12000,
+          "durationMonths": null,
+          "basis": "current_offer",
+          "note": "Published program maximum is USD12,000; a current unrestricted application window was not established."
+        },
+        "application": {
+          "route": "unconfirmed",
+          "url": "https://www.culturalsurvival.org/programs/advocacy/koef",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Hybrid model: one public-call year followed by two invitation years. Do not treat the program page as an open call."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "applicants",
+              "award",
+              "application",
+              "geography.scope"
+            ],
+            "url": "https://www.culturalsurvival.org/programs/advocacy/koef",
+            "note": "Current page supports registered and unregistered Indigenous groups, caps grants at USD12,000 and describes alternating public and invited cycles.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Current invitation/public-call status and eligible countries",
+          "Grant duration",
+          "Fiscal sponsor conditions",
+          "Detailed permitted costs"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.culturalsurvival.org/programs/advocacy/koef",
+        "title": "Keepers of the Earth Fund",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Current program page takes precedence over older application forms; do not apply the 2017 form’s government-registration restrictions to current grantmaking."
+  },
+  {
+    "sourceRecordId": "recCvkEOPreDPUIz9",
+    "researchedOn": "2026-10-14",
+    "name": "CAGES Foundation",
+    "summary": "Funds community-led First Nations early years work in Australia. Its rolling community grants support one-off needs up to AUD25,000, with Aboriginal-controlled or led organizations eligible.",
+    "themes": [
+      "Indigenous rights",
+      "Education & childhood development",
+      "Children & youth"
+    ],
+    "regions": [
+      "Oceania"
+    ],
+    "programs": [
+      {
+        "id": "cages-early-years-community",
+        "name": "Early Years Community Grants",
+        "instrument": "grant",
+        "focus": [
+          "First Nations early childhood",
+          "community-led family services"
+        ],
+        "beneficiaries": [
+          "Aboriginal and Torres Strait Islander children aged 0–5",
+          "families"
+        ],
+        "geography": {
+          "workCountries": [
+            "AU"
+          ],
+          "applicantCountries": [],
+          "scope": "Activities serving Aboriginal and Torres Strait Islander children and families in Australia. NSW preference on this page concerns strategic partnerships, not necessarily this community stream.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Aboriginal-controlled or led organizations"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Community endorsement",
+            "DGR1 tax status; contact CAGES before applying if absent"
+          ],
+          "exclusions": [
+            "Organizations not Aboriginal-controlled or led"
+          ]
+        },
+        "award": {
+          "currency": "AUD",
+          "min": null,
+          "max": 25000,
+          "durationMonths": null,
+          "basis": "current_offer",
+          "note": "One-off grants up to AUD25,000 for short-term needs; minimum and fixed duration not specified."
+        },
+        "application": {
+          "route": "rolling",
+          "url": "https://cagesfoundation.smartygrants.com.au/earlyyearscommunitygrants",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Applications always open; distributions three times a year. Portal confirms submissions accepted."
+        },
+        "costs": {
+          "supported": [
+            "short-term early years and family activities"
+          ],
+          "excluded": [
+            "ongoing funding commitments"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "geography.scope",
+              "applicants",
+              "award",
+              "costs",
+              "application.route"
+            ],
+            "url": "https://cagesfoundation.org/our-focus/",
+            "note": "Community guidelines specify leadership, early years focus, endorsement, DGR1 discussion route, one-off ceiling and rolling applications.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "application.url",
+              "application.route"
+            ],
+            "url": "https://cagesfoundation.smartygrants.com.au/earlyyearscommunitygrants",
+            "note": "Linked application portal states that submissions are accepted.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Fiscal sponsor arrangements for applicants without DGR1",
+          "Next distribution date",
+          "Detailed budget categories"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://cagesfoundation.org/our-focus/",
+        "title": "CAGES grant focus and community criteria",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://cagesfoundation.smartygrants.com.au/earlyyearscommunitygrants",
+        "title": "CAGES Community Grants application portal",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  },
+  {
+    "sourceRecordId": "recOUk0NdykPghost",
+    "researchedOn": "2026-10-14",
+    "name": "Women’s Fund Fiji",
+    "summary": "Supports Fiji-based women-led groups advancing gender equality and marginalized communities’ rights. The researched Sustainability cycle closed in June 2026; annual ceilings and differing category ranges require careful interpretation.",
+    "themes": [
+      "Gender & racial equity",
+      "Climate & environment",
+      "Employment & livelihoods"
+    ],
+    "regions": [
+      "Oceania"
+    ],
+    "programs": [
+      {
+        "id": "wff-sustainability-2026",
+        "name": "Sustainability Grants — 2026 cycle",
+        "instrument": "grant",
+        "focus": [
+          "gender equality",
+          "women’s rights",
+          "feminist organizing",
+          "climate justice"
+        ],
+        "beneficiaries": [
+          "women and girls",
+          "gender non-conforming people",
+          "rural and marginalized communities"
+        ],
+        "geography": {
+          "workCountries": [
+            "FJ"
+          ],
+          "applicantCountries": [
+            "FJ"
+          ],
+          "scope": "Fiji-based groups and projects advancing rights in Fiji.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "registered women-led nonprofits",
+            "unregistered women’s groups",
+            "networks"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Diverse women fill 70% of leadership roles",
+            "At least one year of group activity",
+            "Women’s rights perspective"
+          ],
+          "exclusions": [
+            "Individuals",
+            "Privately owned businesses"
+          ]
+        },
+        "award": {
+          "currency": "FJD",
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "current_offer",
+          "note": "Program page gives maximum FJD150,000 per year; this is not a total grant cap. Other pages show different category ranges and 12–24 month durations; confirm applicable terms."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://womensfundfiji.org/sustainability-grant/",
+          "opensOn": "2026-05-01",
+          "closesOn": "2026-06-08",
+          "deadlineInstant": null,
+          "note": "2026 Sustainability call closed. Guidance says June 8 at 5pm but does not establish a timezone; no instant inferred."
+        },
+        "costs": {
+          "supported": [
+            "operating costs",
+            "staff",
+            "travel",
+            "training",
+            "communications"
+          ],
+          "excluded": [
+            "construction and infrastructure",
+            "religious or partisan political activity",
+            "retroactive expenses",
+            "loan repayments"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "award",
+              "application",
+              "costs.supported"
+            ],
+            "url": "https://womensfundfiji.org/sustainability-grant/",
+            "note": "Sustainability page provides annual ceiling, budget examples and closed 2026 status.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "applicants.requirements",
+              "application.opensOn",
+              "application.closesOn"
+            ],
+            "url": "https://womensfundfiji.org/grants/how-to-apply/",
+            "note": "Application guidance specifies leadership threshold, experience and 2026 dates.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "beneficiaries",
+              "geography",
+              "applicants.types",
+              "applicants.exclusions",
+              "costs.excluded",
+              "unknowns"
+            ],
+            "url": "https://womensfundfiji.org/grants/frequently-asked-questions/",
+            "note": "FAQ limits applicants to Fiji groups, accepts unregistered groups and lists exclusions; third-party management is mentioned without a formal fiscal sponsor policy.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Applicable award category, total ceiling and duration",
+          "Formal fiscal sponsorship terms",
+          "Deadline timezone",
+          "Differences between grant ranges on current site pages"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://womensfundfiji.org/sustainability-grant/",
+        "title": "Sustainability Grant 2026",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://womensfundfiji.org/grants/how-to-apply/",
+        "title": "How to apply and eligibility",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://womensfundfiji.org/grants/frequently-asked-questions/",
+        "title": "Women’s Fund Fiji FAQ",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  },
+  {
+    "sourceRecordId": "recNlZ47PGyebvRdD",
+    "researchedOn": "2026-10-14",
+    "name": "The National Lottery Community Fund (UK)",
+    "summary": "Awards for All England funds community connections, wellbeing and spaces through smaller grants. UK-based nonprofit and community organizations can apply for work in England; separate streams serve other UK nations.",
+    "themes": [
+      "Governance & civic engagement",
+      "Health & wellbeing",
+      "Children & youth"
+    ],
+    "regions": [
+      "Europe"
+    ],
+    "programs": [
+      {
+        "id": "lottery-awards-all-england",
+        "name": "National Lottery Awards for All England",
+        "instrument": "grant",
+        "focus": [
+          "community connections",
+          "community wellbeing",
+          "community spaces"
+        ],
+        "beneficiaries": [
+          "local communities in England"
+        ],
+        "geography": {
+          "workCountries": [
+            "GB"
+          ],
+          "applicantCountries": [
+            "GB"
+          ],
+          "scope": "Project work must take place in England; UK country code does not mean all UK projects qualify for this stream.",
+          "exclusions": [
+            "Projects outside England",
+            "Applicants based outside the UK"
+          ]
+        },
+        "applicants": {
+          "types": [
+            "constituted community groups",
+            "registered charities",
+            "nonprofit companies",
+            "community interest companies",
+            "schools",
+            "statutory bodies"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "At least two unrelated board or committee members",
+            "Schools must benefit the wider community"
+          ],
+          "exclusions": [
+            "Individuals and sole traders",
+            "Applicants acting for another organization",
+            "Companies distributing private profits"
+          ]
+        },
+        "award": {
+          "currency": "GBP",
+          "min": 300,
+          "max": 20000,
+          "durationMonths": 24,
+          "basis": "current_offer",
+          "note": "GBP300–20,000 for up to two years; no more than GBP20,000 in any 12 months."
+        },
+        "application": {
+          "route": "rolling",
+          "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/how-to-apply",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Open; submit at least 16 weeks before funding is needed and await the decision before spending."
+        },
+        "costs": {
+          "supported": [
+            "running costs",
+            "equipment",
+            "events",
+            "staff and training",
+            "small land or refurbishment work"
+          ],
+          "excluded": [
+            "retroactive costs",
+            "fundraising",
+            "overseas travel",
+            "religious content",
+            "cash gifts to individuals"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "geography.workCountries",
+              "award",
+              "application.route"
+            ],
+            "url": "https://www.tnlcommunityfund.org.uk/funding/england",
+            "note": "England portfolio lists this stream as open at GBP300–20,000 for up to two years.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "applicants.types",
+              "applicants.requirements"
+            ],
+            "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/who-can-apply",
+            "note": "Applicant guidance lists organization forms and unrelated-board requirement.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "geography.applicantCountries",
+              "applicants.exclusions",
+              "award.note"
+            ],
+            "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/who-cannot-apply",
+            "note": "Excludes organizations outside the UK or applying for another organization; limits repeat funding.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "costs",
+              "geography.exclusions"
+            ],
+            "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/what-you-can-spend-the-money-on",
+            "note": "Expense guidance identifies supported costs and prohibits overseas projects/travel and other listed costs.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "application"
+            ],
+            "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/how-to-apply",
+            "note": "Application guidance requests 16 weeks’ lead time and waiting before project expenditure.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Project-specific safeguarding, land and other conditions",
+          "Formal fiscal sponsorship policy; guidance prohibits applying on behalf of another organization"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.tnlcommunityfund.org.uk/funding/england",
+        "title": "England funding portfolio",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/who-can-apply",
+        "title": "Awards for All: who can apply",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/who-cannot-apply",
+        "title": "Awards for All: who cannot apply",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/what-you-can-spend-the-money-on",
+        "title": "Awards for All: eligible costs",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/how-to-apply",
+        "title": "Awards for All: how to apply",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  },
+  {
+    "sourceRecordId": "recslK6agNM5nqNt8",
+    "researchedOn": "2026-10-14",
+    "name": "Digital Freedom Fund (DFF)",
+    "summary": "Supports strategic legal action advancing digital rights in Council of Europe jurisdictions. Applicants may be based elsewhere. The last call is closed, and reported historical grant averages are not fixed award limits.",
+    "themes": [
+      "Science & technology",
+      "Human rights",
+      "Governance & civic engagement"
+    ],
+    "regions": [
+      "Europe"
+    ],
+    "programs": [
+      {
+        "id": "dff-litigation-track",
+        "name": "Litigation Track Support",
+        "instrument": "grant",
+        "focus": [
+          "digital rights",
+          "strategic litigation",
+          "human rights",
+          "technology accountability"
+        ],
+        "beneficiaries": [
+          "communities affected by digital rights violations"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "Litigation must occur in a Council of Europe member state; applicants outside that area may be considered. Planned geographic expansion is not current eligibility.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "public-interest organizations",
+            "digital rights advocates",
+            "pro bono lawyers",
+            "litigators",
+            "individuals"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Litigation must seek broader legislative, policy or social change",
+            "Accept DFF Code of Conduct"
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": "EUR",
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "historical",
+          "note": "Reported average litigation grant about EUR45,000; some exceed EUR100,000. These are past examples, not an offered range or ceiling."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://digitalfreedomfund.org/grants/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Last call closed in February 2026. Funder expects late 2026 or early 2027, but no opening date is confirmed."
+        },
+        "costs": {
+          "supported": [
+            "strategic case litigation",
+            "post-litigation advocacy or enforcement"
+          ],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "geography",
+              "applicants",
+              "award",
+              "application",
+              "costs.supported"
+            ],
+            "url": "https://digitalfreedomfund.org/grants/",
+            "note": "Grant page specifies Council of Europe litigation, broad applicant forms, strategic impact, past award averages and the closed February call.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Next confirmed call dates",
+          "Case-specific budget and duration",
+          "Fiscal sponsorship terms",
+          "Detailed budget exclusions; linked budget PDF returned 404"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://digitalfreedomfund.org/grants/",
+        "title": "DFF grant program and criteria",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  },
+  {
+    "sourceRecordId": "recrvyr2BGCOy0NAI",
+    "researchedOn": "2026-10-14",
+    "name": "Spencer Foundation",
+    "summary": "Funds rigorous education research worldwide through institutional grants led by doctoral investigators. The Small Research program excludes service delivery or software projects without a significant research component. Its current application window is closed.",
+    "themes": [
+      "Education & childhood development",
+      "Research"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America",
+      "Latin America & Caribbean",
+      "Middle East",
+      "Oceania"
+    ],
+    "programs": [
+      {
+        "id": "spencer-small-research",
+        "name": "Small Research Grants on Education",
+        "instrument": "grant",
+        "focus": [
+          "education research",
+          "foundational knowledge about learning"
+        ],
+        "beneficiaries": [
+          "education research communities",
+          "learners"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "U.S. and international proposals accepted; submissions in English with USD budgets.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "nonprofit institutions",
+            "public institutions",
+            "universities",
+            "research organizations"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "PI and co-PIs hold earned doctorates",
+            "PI affiliated with an eligible administering institution",
+            "One active Spencer research grant/proposal per PI at a time, subject to exceptions"
+          ],
+          "exclusions": [
+            "Direct grants to individuals"
+          ]
+        },
+        "award": {
+          "currency": "USD",
+          "min": null,
+          "max": 50000,
+          "durationMonths": 60,
+          "basis": "current_offer",
+          "note": "Base award up to USD50,000 over one to five years. Eligible scholars may request an additional USD10,000 course release; the base cap is not universal."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://www.spencer.org/grant_types/small-research-grant/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Page says now closed and normally accepts twice yearly; no next deadline confirmed."
+        },
+        "costs": {
+          "supported": [
+            "research personnel",
+            "research travel",
+            "research equipment and software"
+          ],
+          "excluded": [
+            "indirect costs",
+            "activities without significant education research",
+            "capital projects",
+            "standalone software development"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "geography",
+              "applicants",
+              "award",
+              "application",
+              "costs"
+            ],
+            "url": "https://www.spencer.org/grant_types/small-research-grant/",
+            "note": "Guidance specifies international research eligibility, doctoral leadership, institutional administration, award/supplement, exclusions and closed status.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Next application date",
+          "Fiscal sponsor arrangements beyond administering-institution requirement"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.spencer.org/grant_types/small-research-grant/",
+        "title": "Small Research Grants on Education",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  },
+  {
+    "sourceRecordId": "recxVFL28owJztZw2",
+    "researchedOn": "2026-10-14",
+    "name": "Wellcome (Trust)",
+    "summary": "Early-Career Awards support health discovery research at eligible nonprofit host institutions. Location eligibility changes October 29, 2026. Funding combines salary with a separately capped research-expense component.",
+    "themes": [
+      "Health & wellbeing",
+      "Science & technology",
+      "Research"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America",
+      "Latin America & Caribbean",
+      "Middle East",
+      "Oceania"
+    ],
+    "programs": [
+      {
+        "id": "wellcome-early-career",
+        "name": "Wellcome Early-Career Awards",
+        "instrument": "grant",
+        "focus": [
+          "discovery research",
+          "human health",
+          "research methods"
+        ],
+        "beneficiaries": [
+          "early-career researchers",
+          "human health research"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "Through October 28, 2026: host in UK, Ireland or eligible LMIC except India/mainland China. From October 29: UK or eligible LMICs in Africa, South Asia or Southeast Asia. Check the official country list.",
+          "exclusions": [
+            "Transfer of award funds into mainland China"
+          ]
+        },
+        "applicants": {
+          "types": [
+            "early-career researchers hosted by nonprofit research institutions"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "PhD/equivalent or qualifying research experience",
+            "Career-stage and time-commitment conditions",
+            "Eligible nonprofit university, research institute or healthcare administering organization"
+          ],
+          "exclusions": [
+            "Co-applicants",
+            "Existing equivalent career-stage award holders"
+          ]
+        },
+        "award": {
+          "currency": "GBP",
+          "min": null,
+          "max": null,
+          "durationMonths": 60,
+          "basis": "current_offer",
+          "note": "Usually five years: salary plus up to GBP400,000 research expenses; eligible additional costs sit outside that component. No total cap established."
+        },
+        "application": {
+          "route": "rolling",
+          "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Apply anytime. Location rules change October 29, 2026."
+        },
+        "costs": {
+          "supported": [
+            "grantholder salary",
+            "research expenses",
+            "eligible overheads and adjustment support"
+          ],
+          "excluded": [
+            "studentships"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "geography",
+              "applicants",
+              "award",
+              "application",
+              "costs"
+            ],
+            "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards",
+            "note": "Scheme specifies rolling intake, dated location changes, career/host requirements and component-based funding.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Country-list and career-stage assessment for each applicant",
+          "Fiscal sponsorship beyond institutional administration",
+          "Project-specific expense exceptions"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards",
+        "title": "Wellcome Early-Career Awards",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Program-specific pilot only. The dated geography rule requires refresh before October 29; broad directory regions must not be treated as applicant eligibility."
+  },
+  {
+    "sourceRecordId": "recc3etQL3z6CaqqF",
+    "researchedOn": "2026-10-14",
+    "name": "The San Francisco Foundation (SFF)",
+    "summary": "Rapid Response grants support urgent racial and economic equity organizing in five Bay Area counties. Fiscally sponsored projects are eligible; routine operations and previously planned campaigns are excluded.",
+    "themes": [
+      "Gender & racial equity",
+      "Governance & civic engagement",
+      "Human rights"
+    ],
+    "regions": [
+      "North America"
+    ],
+    "programs": [
+      {
+        "id": "sff-rapid-response-movement",
+        "name": "Rapid Response Fund for Movement Building",
+        "instrument": "grant",
+        "focus": [
+          "racial equity",
+          "economic equity",
+          "urgent community organizing",
+          "movement building"
+        ],
+        "beneficiaries": [
+          "low-income residents",
+          "people of color",
+          "marginalized communities"
+        ],
+        "geography": {
+          "workCountries": [
+            "US"
+          ],
+          "applicantCountries": [],
+          "scope": "Must serve residents of Alameda, Contra Costa, Marin, San Francisco or San Mateo counties, California. This is not statewide funding.",
+          "exclusions": [
+            "Projects not serving the five specified Bay Area counties"
+          ]
+        },
+        "applicants": {
+          "types": [
+            "501(c)(3) nonprofits",
+            "fiscally sponsored projects",
+            "501(c)(4) organizations"
+          ],
+          "fiscalSponsorship": "accepted",
+          "requirements": [
+            "Respond to an unexpected external event or urgent challenge",
+            "Build community voice and power",
+            "501(c)(4)s provide additional lobbying documents"
+          ],
+          "exclusions": [
+            "Individuals"
+          ]
+        },
+        "award": {
+          "currency": "USD",
+          "min": 3000,
+          "max": 20000,
+          "durationMonths": 6,
+          "basis": "current_offer",
+          "note": "One-time USD3,000–20,000; project completed within six months of receipt."
+        },
+        "application": {
+          "route": "rolling",
+          "url": "https://sff.org/what-we-do/funding/rrf/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Rolling applications through grantee portal; first-time applicants need organization registration."
+        },
+        "costs": {
+          "supported": [
+            "discrete urgent organizing projects"
+          ],
+          "excluded": [
+            "general operations",
+            "ongoing programs",
+            "capital improvements",
+            "fundraising events",
+            "previously planned campaigns",
+            "internal organizational funding gaps"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "geography",
+              "applicants",
+              "award",
+              "application",
+              "costs"
+            ],
+            "url": "https://sff.org/what-we-do/funding/rrf/",
+            "note": "Guidelines specify five-county geography, tax status/fiscal sponsorship, urgency, range, six-month limit, rolling portal and excluded uses.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.geography"
+            ],
+            "url": "https://sff.org/what-we-do/funding/rrf/",
+            "checkedOn": "2026-10-16",
+            "note": "Funding requests must serve residents of the five specified Bay Area counties, not all California. Urgency and movement-building tests also apply."
+          }
+        ],
+        "unknowns": [
+          "Whether a temporary pause is introduced after this check",
+          "Case-specific alignment and any current thematic focus"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sff.org/what-we-do/funding/rrf/",
+        "title": "Rapid Response Fund for Movement Building",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  },
+  {
+    "sourceRecordId": "recxJkRCEYB5QkEQ5",
+    "researchedOn": "2026-10-14",
+    "name": "Red Umbrella Fund",
+    "summary": "Provides flexible core support worldwide to organizations led by sex workers and focused on their rights. The 2026 call is closed. Award bands depend on organizational age and network scope, with conflicting published minima flagged.",
+    "themes": [
+      "Gender & racial equity",
+      "Human rights",
+      "Health & wellbeing"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America",
+      "Latin America & Caribbean",
+      "Middle East",
+      "Oceania"
+    ],
+    "programs": [
+      {
+        "id": "red-umbrella-core-2026",
+        "name": "Core Grants — 2026 call",
+        "instrument": "grant",
+        "focus": [
+          "sex workers’ rights",
+          "movement building",
+          "community-led advocacy"
+        ],
+        "beneficiaries": [
+          "sex workers of all genders"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "Organizations and networks based in any country.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "sex-worker-led organizations",
+            "unregistered groups",
+            "sex-worker-led networks"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Organizational mission focuses on sex workers’ rights",
+            "At least 60% of decision-makers and spokespeople and 33% of staff are sex workers",
+            "References required"
+          ],
+          "exclusions": [
+            "Individuals",
+            "Consortia",
+            "Profit-making businesses",
+            "Broader organizations with only a sex-worker project",
+            "Organizations seeking to criminalize sex work"
+          ]
+        },
+        "award": {
+          "currency": "EUR",
+          "min": null,
+          "max": 130000,
+          "durationMonths": 24,
+          "basis": "current_offer",
+          "note": "2026 PDF differentiates EUR10k–40k for groups under two years, EUR16k–80k for established local/national groups, EUR30k–130k for established regional networks. Web summary gives EUR20k minimum; discrepancy unresolved."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://www.redumbrellafund.org/apply-for-a-grant/",
+          "opensOn": "2026-06-08",
+          "closesOn": "2026-07-19",
+          "deadlineInstant": null,
+          "note": "2026 online call ended July 19, stated as 24:00 CET. No UTC instant inferred because summer CET/CEST labeling is ambiguous."
+        },
+        "costs": {
+          "supported": [
+            "flexible core support",
+            "rent",
+            "salaries",
+            "advocacy",
+            "capacity building"
+          ],
+          "excluded": [
+            "academic research",
+            "service-only programs"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "geography",
+              "applicants.exclusions",
+              "application",
+              "costs"
+            ],
+            "url": "https://www.redumbrellafund.org/apply-for-a-grant/",
+            "note": "Application page identifies worldwide sex-worker-led groups, core support, exclusions and June–July window.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "applicants.requirements",
+              "award"
+            ],
+            "url": "https://www.redumbrellafund.org/wp-content/uploads/2026/05/2026-Application-Guidelines-EN.pdf",
+            "note": "2026 guide details leadership thresholds and age/network-specific award bands; its footer still says 2023 and differs from web summary.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Conflicting award minimum and stale PDF footer",
+          "Formal fiscal sponsorship conditions",
+          "Next call date",
+          "Deadline timezone interpretation"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.redumbrellafund.org/apply-for-a-grant/",
+        "title": "Apply for a Grant — 2026",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.redumbrellafund.org/wp-content/uploads/2026/05/2026-Application-Guidelines-EN.pdf",
+        "title": "2026 Application Guidelines",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  },
+  {
+    "sourceRecordId": "recFLzbBT3g2KKbee",
+    "researchedOn": "2026-10-14",
+    "name": "Robert Wood Johnson Foundation",
+    "summary": "Funds health equity initiatives. This pilot covers a closed 2026 capacity-building call restricted to research centers at U.S. minority-serving institutions, with later application stages available only to invited participants.",
+    "themes": [
+      "Health & wellbeing",
+      "Gender & racial equity",
+      "Research"
+    ],
+    "regions": [
+      "North America"
+    ],
+    "programs": [
+      {
+        "id": "rwjf-msi-research-capacity-2026",
+        "name": "Seeding Research, Networking, and Capacity Building at Minority-Serving Institutions — 2026",
+        "instrument": "grant",
+        "focus": [
+          "health equity research",
+          "research capacity",
+          "community-centered research"
+        ],
+        "beneficiaries": [
+          "minority-serving institution research centers",
+          "communities experiencing health inequities"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [
+            "US"
+          ],
+          "scope": "Research centers must be based in the United States or its territories; ISO country list alone does not enumerate territories.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "research centers at designated minority-serving institutions"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Health equity research center based at an MSI",
+            "Documented community-centered health equity or racial justice work",
+            "All centers in a collaboration must be MSI-based"
+          ],
+          "exclusions": [
+            "Individual researchers",
+            "Centers primarily conducting biomedical or pharmaceutical research"
+          ]
+        },
+        "award": {
+          "currency": "USD",
+          "min": null,
+          "max": 350000,
+          "durationMonths": 24,
+          "basis": "current_offer",
+          "note": "Closed 2026 call offered up to USD350,000 per award, with up to eight awards."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://beta.rwjf.org/en/grants/active-funding-opportunities/2026/seeding-research-networking-and-capacity-building-at-minority-serving-institutions.html",
+          "opensOn": "2026-09-10",
+          "closesOn": "2026-10-01",
+          "deadlineInstant": "2026-10-01T19:00:00Z",
+          "note": "Initial LOIs closed October 1, 2026 at 3pm EDT. Later presentations/full proposals are by invitation from this cohort, not a new public intake."
+        },
+        "costs": {
+          "supported": [
+            "research skills training",
+            "faculty release",
+            "research assistants and project staff",
+            "mentoring and collaboration"
+          ],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "geography",
+              "applicants",
+              "award",
+              "application",
+              "costs.supported"
+            ],
+            "url": "https://beta.rwjf.org/en/grants/active-funding-opportunities/2026/seeding-research-networking-and-capacity-building-at-minority-serving-institutions.html",
+            "note": "Official 2026 call specifies MSI research-center eligibility, excluded applicants, award/duration and October LOI closure.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Fiscal sponsor conditions",
+          "Complete budget restrictions",
+          "Whether another cycle will occur"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://beta.rwjf.org/en/grants/active-funding-opportunities/2026/seeding-research-networking-and-capacity-building-at-minority-serving-institutions.html",
+        "title": "2026 MSI research capacity call",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.rwjf.org/en/grants/active-funding-opportunities.html",
+        "title": "RWJF funding opportunities",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Program page is on the foundation’s official beta.rwjf.org subdomain; regular program URL redirected to the active-opportunities directory during research. Eligibility applies only to this call."
+  },
+  {
+    "sourceRecordId": "rec0ean6CkrBpBXS6",
+    "researchedOn": "2026-10-14",
+    "name": "Acumen",
+    "summary": "Invests patient capital in early-stage enterprises solving poverty through sustainable business models. Relevant sectors include energy, agriculture, education and jobs; region-specific investments use equity, quasi-equity or debt.",
+    "themes": [
+      "Business & entrepreneurship",
+      "Climate & environment",
+      "Employment & livelihoods",
+      "Education & childhood development"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America",
+      "Latin America & Caribbean"
+    ],
+    "programs": [
+      {
+        "id": "acumen-patient-capital",
+        "name": "Patient Capital investments",
+        "instrument": "investment",
+        "focus": [
+          "poverty solutions",
+          "renewable energy",
+          "sustainable agriculture",
+          "education",
+          "dignified jobs"
+        ],
+        "beneficiaries": [
+          "people living in poverty",
+          "underserved communities"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "Region/sector-specific investing. Published examples include East Africa, India, Colombia/Peru/Guatemala and Nigeria/Ghana/Sierra Leone; current solicitations limited to regions and sectors offered in the inquiry form. Not a global entitlement.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "early-stage social enterprises"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Pre-seed to Series A depending on market",
+            "Measurable poverty impact",
+            "Potential for financial sustainability beyond the investment"
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": null,
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "Equity, quasi-equity or debt investment; no current standard ticket range stated on reviewed pages. This is not an ordinary grant."
+        },
+        "application": {
+          "route": "inquiry",
+          "url": "https://acumen.org/entrepreneurs/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Submit company details through the connection form if criteria fit; only selected offices and sectors accept solicitations."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "geography",
+              "applicants",
+              "instrument",
+              "application"
+            ],
+            "url": "https://acumen.org/entrepreneurs/",
+            "note": "Entrepreneur page gives stage, impact and sustainability criteria, investment instruments and a limited-region inquiry form.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "instrument",
+              "award.note"
+            ],
+            "url": "https://acumen.org/patient-capital/",
+            "note": "Patient Capital is philanthropic capital invested into high-impact enterprises, not described as standard project grants.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Investment amount, currency and terms",
+          "Current eligible region/sector form combinations",
+          "Applicant incorporation restrictions",
+          "Permitted use of investment capital",
+          "Fiscal sponsorship applicability"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://acumen.org/entrepreneurs/",
+        "title": "Grow your business: investment criteria",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://acumen.org/patient-capital/",
+        "title": "Patient Capital",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  },
+  {
+    "sourceRecordId": "recDvQXMuF1bQoAwg",
+    "researchedOn": "2026-10-14",
+    "name": "Calouste Gulbenkian Foundation",
+    "summary": "The Gulbenkian Prize for Humanity recognizes proven climate leadership worldwide. It requires third-party nomination; the 2026 EUR1 million prize has already been awarded. Other foundation grant programs are outside this pilot.",
+    "themes": [
+      "Climate & environment",
+      "Indigenous rights"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America",
+      "Latin America & Caribbean",
+      "Middle East",
+      "Oceania"
+    ],
+    "programs": [
+      {
+        "id": "gulbenkian-humanity-prize-2026",
+        "name": "Gulbenkian Prize for Humanity — 2026",
+        "instrument": "prize",
+        "focus": [
+          "climate action",
+          "climate leadership",
+          "scaling proven impact"
+        ],
+        "beneficiaries": [
+          "communities affected by climate change",
+          "people and ecosystems"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "Worldwide nominations for individuals, organizations or groups with significant climate achievements.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "individuals",
+            "organizations",
+            "groups"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Proven climate achievements and leadership",
+            "Nomination submitted by a third party"
+          ],
+          "exclusions": [
+            "Self-nominations"
+          ]
+        },
+        "award": {
+          "currency": "EUR",
+          "min": 1000000,
+          "max": 1000000,
+          "durationMonths": null,
+          "basis": "historical",
+          "note": "2026 EUR1,000,000 climate prize awarded to Alianza Ceibo in September. Prize, not an ordinary application grant; next cycle not verified."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://gulbenkian.pt/en/the-foundation/gulbenkian-prize-for-humanity/",
+          "opensOn": null,
+          "closesOn": "2026-01-30",
+          "deadlineInstant": "2026-01-30T17:00:00Z",
+          "note": "2026 third-party nominations closed January 30 at 17:00 GMT; winner announced September 23. No 2027 dates inferred."
+        },
+        "costs": {
+          "supported": [
+            "sustain and scale proven climate work"
+          ],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "focus",
+              "beneficiaries",
+              "costs.supported"
+            ],
+            "url": "https://gulbenkian.pt/en/the-foundation/gulbenkian-prize-for-humanity/",
+            "note": "Prize mission rewards proven climate leadership and enables scaling.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "geography",
+              "applicants",
+              "application.closesOn",
+              "application.deadlineInstant"
+            ],
+            "url": "https://gulbenkian.pt/noticias/nomeacoes-abertas-para-o-premio-gulbenkian-para-a-humanidade-2026/",
+            "note": "2026 nomination announcement allows global nominees but requires third-party nomination by the stated GMT deadline.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "award",
+              "application.route"
+            ],
+            "url": "https://gulbenkian.pt/en/news/alianza-ceibo-wins-the-2026-gulbenkian-prize-for-humanity/",
+            "note": "September 23 official winner announcement confirms the 2026 EUR1m prize was awarded.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Next nomination window",
+          "Detailed restrictions on prize use",
+          "Fiscal sponsorship applicability"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://gulbenkian.pt/en/the-foundation/gulbenkian-prize-for-humanity/",
+        "title": "Gulbenkian Prize for Humanity",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://gulbenkian.pt/noticias/nomeacoes-abertas-para-o-premio-gulbenkian-para-a-humanidade-2026/",
+        "title": "2026 nomination announcement",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://gulbenkian.pt/en/news/alianza-ceibo-wins-the-2026-gulbenkian-prize-for-humanity/",
+        "title": "2026 winner announcement",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Pilot covers this program only; other funder programs may differ."
+  }
+]

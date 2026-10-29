@@ -1,0 +1,10 @@
+node_modules
+.cache/
+dist/assets/
+dist/models/
+dist/data/fund-vectors.*
+__pycache__/
+.vercel/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,587 @@
+{
+  "version": 1,
+  "checkedOn": "2026-10-25",
+  "notes": "Bounded source-backed prerequisite coverage. Unmapped requirements remain manual; unknown does not mean ineligible. Priority criteria never become hard exclusions.",
+  "conditions": [
+    {
+      "fundId": "rec7BaQRplxUJvmmS",
+      "programId": "seed-grants-2026-cycle",
+      "id": "itf-seed-trans-led",
+      "category": "leadership",
+      "requirement": "Trans people control key strategic and financial decisions; normally 75% of the relevant governing body is trans, with demonstrated-control exception.",
+      "sourceUrl": "https://www.transfund.org/apply-for-a-grant",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec7BaQRplxUJvmmS",
+      "programId": "seed-grants-2026-cycle",
+      "id": "itf-seed-operating-budget",
+      "category": "budget",
+      "requirement": "Operating budget below US$100,000; confirm treatment of exactly US$100,000.",
+      "sourceUrl": "https://www.transfund.org/apply-for-a-grant",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec7BaQRplxUJvmmS",
+      "programId": "seed-grants-2026-cycle",
+      "id": "itf-seed-trans-primary-work",
+      "category": "mission",
+      "requirement": "Primary work improves trans lives and rights.",
+      "sourceUrl": "https://www.transfund.org/apply-for-a-grant",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec7BaQRplxUJvmmS",
+      "programId": "seed-grants-2026-cycle",
+      "id": "itf-seed-movement-building",
+      "category": "mission",
+      "requirement": "Contributes to trans movement building beyond direct service alone.",
+      "sourceUrl": "https://www.transfund.org/apply-for-a-grant",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec7BaQRplxUJvmmS",
+      "programId": "thrive-grants-2026-cycle",
+      "id": "itf-thrive-trans-led",
+      "category": "leadership",
+      "requirement": "Trans people control key strategic and financial decisions; normally 75% of the relevant governing body is trans, with demonstrated-control exception.",
+      "sourceUrl": "https://www.transfund.org/apply-for-a-grant",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec7BaQRplxUJvmmS",
+      "programId": "thrive-grants-2026-cycle",
+      "id": "itf-thrive-operating-budget",
+      "category": "budget",
+      "requirement": "Operating budget below US$100,000; confirm treatment of exactly US$100,000.",
+      "sourceUrl": "https://www.transfund.org/apply-for-a-grant",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec7BaQRplxUJvmmS",
+      "programId": "thrive-grants-2026-cycle",
+      "id": "itf-thrive-trans-primary-work",
+      "category": "mission",
+      "requirement": "Primary work improves trans lives and rights.",
+      "sourceUrl": "https://www.transfund.org/apply-for-a-grant",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec7BaQRplxUJvmmS",
+      "programId": "thrive-grants-2026-cycle",
+      "id": "itf-thrive-movement-building",
+      "category": "mission",
+      "requirement": "Contributes to trans movement building beyond direct service alone.",
+      "sourceUrl": "https://www.transfund.org/apply-for-a-grant",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec7BaQRplxUJvmmS",
+      "programId": "seed-grants-2026-cycle",
+      "id": "itf-seed-no-prior-grant",
+      "category": "history",
+      "requirement": "Group has never received ITF funding.",
+      "sourceUrl": "https://www.transfund.org/apply-for-a-grant",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec7BaQRplxUJvmmS",
+      "programId": "thrive-grants-2026-cycle",
+      "id": "itf-thrive-prior-grantee",
+      "category": "history",
+      "requirement": "Previous ITF grantee in good standing.",
+      "sourceUrl": "https://www.transfund.org/apply-for-a-grant",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recwNYbgyirnLcv6X",
+      "programId": "development-fund-phaseii",
+      "id": "npn-development-prior-creation-award",
+      "category": "history",
+      "requirement": "Artist project already received NPN Creation Fund support.",
+      "sourceUrl": "https://npnweb.org/programs/cdf/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recwNYbgyirnLcv6X",
+      "programId": "creation-fund-phasei",
+      "id": "npn-creation-co-commissioning-team",
+      "category": "partner",
+      "requirement": "Artist applies with at least two arts co-commissioners led by an NPN National Partner; commissioners contribute cash and present the work.",
+      "sourceUrl": "https://npnweb.org/programs/cdf/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recjbh1I6Fav4CHcG",
+      "programId": "oilwatch-ggf-small-grants-programme-2026",
+      "id": "oilwatch-active-member-or-partner",
+      "category": "membership",
+      "requirement": "Applicant is an active Oilwatch member or partner supporting network objectives.",
+      "sourceUrl": "https://www.oilwatch.org/2026/08/12/small-grants-programme-2026/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recjbh1I6Fav4CHcG",
+      "programId": "oilwatch-ggf-small-grants-programme-2026",
+      "id": "oilwatch-principles-and-project-scope",
+      "category": "mission",
+      "requirement": "Proposal addresses a call theme and Oilwatch principles; fossil gas, carbon trading/offsets, large geoengineering and industrial biofuels are excluded.",
+      "sourceUrl": "https://www.oilwatch.org/2026/08/12/small-grants-programme-2026/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recdLQ4guN000D7Oh",
+      "programId": "dutch-philanthropic-partnership-support",
+      "id": "wilde-ganzen-joint-dutch-partner",
+      "category": "partner",
+      "requirement": "Proposal is submitted jointly by an ODA-eligible-country organization and a Dutch partner.",
+      "sourceUrl": "https://www.wildeganzen.nl/over-ons/english",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recdLQ4guN000D7Oh",
+      "programId": "dutch-philanthropic-partnership-support",
+      "id": "wilde-ganzen-local-ownership-fundraising",
+      "category": "partner",
+      "requirement": "Local organization owns the project; Dutch partner raises funds in the Netherlands.",
+      "sourceUrl": "https://www.wildeganzen.nl/over-ons/english",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "reccZG8TtBrCwLG7R",
+      "programId": "shell-foundation-clean-energy-partnerships",
+      "id": "shell-clean-energy-income-emissions",
+      "category": "mission",
+      "requirement": "Investment aligns with clean-energy solutions raising customer incomes while reducing emissions.",
+      "sourceUrl": "https://shellfoundation.org/partner-with-us/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "reccZG8TtBrCwLG7R",
+      "programId": "shell-foundation-clean-energy-partnerships",
+      "id": "shell-scale-viability-priorities",
+      "category": "stage",
+      "requirement": "Selection prioritizes scale potential, lasting 20%+ customer income gains, catalytic additionality and a credible financial-viability plan.",
+      "sourceUrl": "https://shellfoundation.org/partner-with-us/",
+      "checkedOn": "2026-10-16",
+      "kind": "priority"
+    },
+    {
+      "fundId": "recEHr45RGvwiObx6",
+      "programId": "learning-by-nature-student-climate-and-biodiversity-leadership-grants",
+      "id": "learning-by-nature-canadian-school",
+      "category": "stage",
+      "requirement": "Canadian K–12 school applies for a student-led climate/biodiversity project on school grounds.",
+      "sourceUrl": "https://bcparksfoundation.ca/updates/9-000-bc-students-take-action-for-nature-in-first-year-of-learning-by-nature-grants/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recGtJ8c8bS1jBMEQ",
+      "programId": "rapid-response-grantmaking-ongoing-exploration",
+      "id": "liberation-rapid-reparations-work",
+      "category": "mission",
+      "requirement": "Organization advances the reparations movement.",
+      "sourceUrl": "https://www.liberationventures.org/get-involved/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recp3Jnme6XxSq268",
+      "programId": "opportunity-grants",
+      "id": "uaf-opportunity-primary-decision-makers",
+      "category": "leadership",
+      "requirement": "Women, trans or non-binary people are the primary decision makers.",
+      "sourceUrl": "https://urgentactionfund.org/our-grants/opportunity-grant/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recp3Jnme6XxSq268",
+      "programId": "opportunity-grants",
+      "id": "uaf-opportunity-rights-benefit",
+      "category": "mission",
+      "requirement": "Proposed action benefits women, trans and non-binary people through feminist rights work.",
+      "sourceUrl": "https://urgentactionfund.org/our-grants/opportunity-grant/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recp3Jnme6XxSq268",
+      "programId": "opportunity-grants",
+      "id": "uaf-opportunity-unanticipated-urgent-action",
+      "category": "stage",
+      "requirement": "Action responds to an urgent, unanticipated situation and can be implemented within six months.",
+      "sourceUrl": "https://urgentactionfund.org/our-grants/opportunity-grant/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recZBrEfrAr5hfoSe",
+      "programId": "climate-justice-grant",
+      "id": "het-actiefonds-climate-movement-building",
+      "category": "mission",
+      "requirement": "Project builds the climate-justice movement; education/awareness alone, humanitarian/health projects and emergency aid are excluded.",
+      "sourceUrl": "https://hetactiefonds.nl/en/cjg-apply-for-funding/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recZBrEfrAr5hfoSe",
+      "programId": "climate-justice-grant",
+      "id": "het-actiefonds-africa-invitation",
+      "category": "geography",
+      "requirement": "Africa-region applications need an invitation except Egypt, Morocco, Tunisia, Algeria and Libya.",
+      "sourceUrl": "https://hetactiefonds.nl/en/cjg-apply-for-funding/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recGtJ8c8bS1jBMEQ",
+      "programId": "core-grantmaking-2027-cycle-closed-2028-exploration",
+      "id": "liberation-core-reparations-work",
+      "category": "mission",
+      "requirement": "Organization advances the reparations movement.",
+      "sourceUrl": "https://www.liberationventures.org/get-involved/",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recgDAwfqtJyo2MEx",
+      "programId": "rapid-response-organizing-grants",
+      "id": "emergent-legal-status",
+      "category": "legal",
+      "requirement": "Applicant has active US 501(c)(3), 501(c)(4) tax status or a fiscal sponsor.",
+      "sourceUrl": "https://www.emergentfund.net/apply",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recgDAwfqtJyo2MEx",
+      "programId": "rapid-response-organizing-grants",
+      "id": "emergent-urgent-organizing",
+      "category": "mission",
+      "requirement": "Request responds to a specific unanticipated crisis or organizing opportunity; direct services without organizing, routine operating shortfalls, startup costs and capital-raising campaigns are excluded.",
+      "sourceUrl": "https://www.emergentfund.net/apply",
+      "checkedOn": "2026-10-16",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recJEEW5Xb7M83ZKx",
+      "programId": "tmu-collaboration-grants",
+      "id": "tmu-eligible-collaboration",
+      "category": "geography",
+      "requirement": "Project includes collaboration within TMU’s specified US and Eastern European, Balkan, Baltic, Caucasus, Central Asian or Mongolian remit; a US cultural programme alone does not establish this.",
+      "sourceUrl": "https://www.tmuny.org/faq",
+      "checkedOn": "2026-10-15",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recDEye2Sj47jIvY6",
+      "programId": "seed-grants",
+      "id": "rotary-five-county-services",
+      "category": "geography",
+      "requirement": "Services are delivered in Antrim, Benzie, Grand Traverse, Kalkaska or Leelanau counties in northern Michigan.",
+      "sourceUrl": "https://www.rotarycharities.org/funding/our-grants/our-grants.html",
+      "checkedOn": "2026-10-15",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recDEye2Sj47jIvY6",
+      "programId": "seed-grants",
+      "id": "rotary-staff-meeting",
+      "category": "partner",
+      "requirement": "Applicant meets with staff before applying.",
+      "sourceUrl": "https://www.rotarycharities.org/funding/our-grants/our-grants.html",
+      "checkedOn": "2026-10-15",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec89DjJs1dqPyQ2g",
+      "programId": "arts-learning-education-and-employment-grants",
+      "id": "fry-chicago-program",
+      "category": "geography",
+      "requirement": "Funded programme serves Chicago residents; Chicago-programme funds remain in Chicago. An outside-Chicago applicant needs the required local governance arrangement.",
+      "sourceUrl": "https://www.fryfoundation.org/apply/eligibility-for-funding",
+      "checkedOn": "2026-10-25",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "reciJ2vBOeJMProix",
+      "programId": "children-and-youth-grantmaking",
+      "id": "grable-pittsburgh-or-invitation",
+      "category": "geography",
+      "requirement": "The proposal fits Grable’s greater-Pittsburgh focus; an applicant outside southwestern Pennsylvania has an invitation from the Foundation.",
+      "sourceUrl": "https://grable.org/apply-for-a-grant/",
+      "checkedOn": "2026-10-25",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recCvkEOPreDPUIz9",
+      "programId": "cages-early-years-community",
+      "id": "cages-aboriginal-led-early-years",
+      "category": "leadership",
+      "requirement": "Organization is Aboriginal-controlled or led, with community endorsement, serving Aboriginal and Torres Strait Islander children and families in Australia.",
+      "sourceUrl": "https://cagesfoundation.org/our-focus/",
+      "checkedOn": "2026-10-14",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recjYEFuNiQ7m9TcP",
+      "programId": "creation-community-grants-2026-streams",
+      "id": "iyr-indigenous-youth-led",
+      "category": "leadership",
+      "requirement": "Group is comprised of Indigenous youth aged 15–29 and the project is youth-led and community-focused. Indigenous partnerships alone do not establish youth leadership.",
+      "sourceUrl": "https://indigenousyouthroots.ca/creation-community-grants",
+      "checkedOn": "2026-10-15",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recB7S1RKY2vqDj9d",
+      "programId": "gfcf-community-philanthropy-grants",
+      "id": "gfcf-community-philanthropy-model",
+      "category": "applicant_model",
+      "requirement": "Applicant is a community-philanthropy organization or grassroots grantmaker; general community work alone does not establish the applicant model.",
+      "sourceUrl": "https://globalfundcommunityfoundations.org/what-we-do/grants/",
+      "checkedOn": "2026-10-15",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rec0ean6CkrBpBXS6",
+      "programId": "acumen-patient-capital",
+      "id": "acumen-investment-model",
+      "category": "stage",
+      "requirement": "Applicant seeks patient-capital investment for an early-stage social enterprise with measurable poverty impact and a pathway to financial sustainability. This is an investment route, not a standard project grant.",
+      "sourceUrl": "https://acumen.org/entrepreneurs/",
+      "checkedOn": "2026-10-14",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recFjSezAxn56QQwU",
+      "programId": "fpcc-administered-cultural-programmes-referral",
+      "sourceUrl": "https://fpcf.ca/initiatives/programs-we-fund",
+      "checkedOn": "2026-10-16",
+      "id": "local-benefitCountries-fccaefbca3",
+      "category": "geography",
+      "kind": "prerequisite",
+      "requirement": "British Columbia First Nations communities and the administering Council programme requirements."
+    },
+    {
+      "fundId": "reczCJTknAQMNPYF3",
+      "programId": "community-foundation-general-grants2026",
+      "sourceUrl": "https://www.cfmv.org/grant-opportunities/",
+      "checkedOn": "2026-10-16",
+      "id": "local-benefitCountries-2dcfd9277a",
+      "category": "geography",
+      "kind": "prerequisite",
+      "requirement": "Residents of Mahoning or Trumbull County, Ohio."
+    },
+    {
+      "fundId": "recdKMrhbjABCXgyM",
+      "programId": "san-francisco-collaboration-opportunity-2026",
+      "sourceUrl": "https://piscesfoundation.org/wp-content/uploads/2026/10/SF-Open-Call-Frequently-Asked-Questions_FAQs.pdf",
+      "checkedOn": "2026-10-16",
+      "id": "local-benefitCountries-a32b3cc854",
+      "category": "geography",
+      "kind": "prerequisite",
+      "requirement": "Primary San Francisco benefit and at least one partner whose work primarily focuses there."
+    },
+    {
+      "fundId": "recUpaIA3NSYYQY8w",
+      "programId": "community-grants",
+      "sourceUrl": "https://www.wpgfdn.org/granting/community-grants/",
+      "checkedOn": "2026-10-16",
+      "id": "local-benefitCountries-9fa554b1af",
+      "category": "geography",
+      "kind": "prerequisite",
+      "requirement": "Primary benefit to Winnipeg residents."
+    },
+    {
+      "fundId": "recAZhC8LmcCyhMB2",
+      "programId": "communities-grant",
+      "sourceUrl": "https://ernestcooktrust.org.uk/wp-content/uploads/Communities-Grant-06.2026-1.pdf",
+      "checkedOn": "2026-10-16",
+      "id": "local-applicantBaseCountry-fcaaaefb75",
+      "category": "geography",
+      "kind": "prerequisite",
+      "requirement": "Specified UK postcode prefixes; confirm the exact programme area."
+    },
+    {
+      "fundId": "recAZhC8LmcCyhMB2",
+      "programId": "outdoor-learning-leader-grant",
+      "sourceUrl": "https://ernestcooktrust.org.uk/wp-content/uploads/OLLGrant-10.2026-for-expressions-of-interest.pdf",
+      "checkedOn": "2026-10-16",
+      "id": "local-applicantBaseCountry-fcaaaefb75",
+      "category": "geography",
+      "kind": "prerequisite",
+      "requirement": "Specified UK postcode prefixes; confirm the exact programme area."
+    },
+    {
+      "fundId": "recAZhC8LmcCyhMB2",
+      "programId": "outdoor-learning-leader-grant",
+      "sourceUrl": "https://ernestcooktrust.org.uk/wp-content/uploads/OLLGrant-10.2026-for-expressions-of-interest.pdf",
+      "checkedOn": "2026-10-16",
+      "id": "local-benefitCountries-684751c7b5",
+      "category": "geography",
+      "kind": "prerequisite",
+      "requirement": "CA, LA, GL, SN, BS or LE postcode areas; verify the funded component."
+    },
+    {
+      "fundId": "recc3etQL3z6CaqqF",
+      "programId": "sff-rapid-response-movement",
+      "sourceUrl": "https://sff.org/what-we-do/funding/rrf/",
+      "checkedOn": "2026-10-16",
+      "id": "local-benefitCountries-b8b6850b39",
+      "category": "geography",
+      "kind": "prerequisite",
+      "requirement": "Alameda, Contra Costa, Marin, San Francisco or San Mateo County residents."
+    },
+    {
+      "fundId": "recKSuZ5GqdZrIOqJ",
+      "programId": "open-application-introductions",
+      "sourceUrl": "https://www.polkbrosfdn.org/our-grantmaking/open-application",
+      "checkedOn": "2026-10-16",
+      "id": "local-workCountries-50e9499c00",
+      "category": "geography",
+      "kind": "prerequisite",
+      "requirement": "Operate in or serve Chicago; country overlap does not establish this local condition."
+    },
+    {
+      "id": "drk-post-pilot-pre-scale",
+      "fundId": "recajijjqqfeV50Ug",
+      "programId": "early-stage-social-impact-portfolio",
+      "category": "stage",
+      "kind": "prerequisite",
+      "requirement": "Solution is in use with early evidence of impact; idea/pre-pilot and post-Series-A stages are excluded.",
+      "sourceUrl": "https://www.drkfoundation.org/apply/faq/",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "drk-direct-underserved-intervention",
+      "fundId": "recajijjqqfeV50Ug",
+      "programId": "early-stage-social-impact-portfolio",
+      "category": "mission",
+      "kind": "prerequisite",
+      "requirement": "Direct intervention predominantly serves underserved people; awareness, advocacy or research alone is excluded.",
+      "sourceUrl": "https://www.drkfoundation.org/apply/faq/",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "drk-independent-or-spin-out",
+      "fundId": "recajijjqqfeV50Ug",
+      "programId": "early-stage-social-impact-portfolio",
+      "category": "legal",
+      "kind": "prerequisite",
+      "requirement": "Applicant is an independent eligible entity, or a sponsored project with an explicit near-term plan to spin out.",
+      "sourceUrl": "https://www.drkfoundation.org/apply/faq/",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "drk-growth-capacity",
+      "fundId": "recajijjqqfeV50Ug",
+      "programId": "early-stage-social-impact-portfolio",
+      "category": "stage",
+      "kind": "priority",
+      "requirement": "Candidate demonstrates a plan for scalable impact, impact measurement and an earned-income pathway; review full selection criteria.",
+      "sourceUrl": "https://www.drkfoundation.org/apply/faq/",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "solve-functioning-prototype",
+      "fundId": "recu4Uz6BAlTZmsjv",
+      "programId": "2027-global-climate-challenge",
+      "category": "stage",
+      "kind": "prerequisite",
+      "requirement": "Solution has a functioning prototype or a later development stage; concept-stage work belongs only to the separate Indigenous Communities Fellowship.",
+      "sourceUrl": "https://solve.mit.edu/challenges/2027-global-climate-challenge",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "solve-climate-technology-alignment",
+      "fundId": "recu4Uz6BAlTZmsjv",
+      "programId": "2027-global-climate-challenge",
+      "category": "mission",
+      "kind": "prerequisite",
+      "requirement": "Human-centered technology solution addresses the specific climate challenge; generic technology or routine infrastructure alone does not establish alignment.",
+      "sourceUrl": "https://solve.mit.edu/challenges/2027-global-climate-challenge",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "rpa-visa-annual-budget",
+      "fundId": "rec9bE8Sue9uIgF4r",
+      "programId": "visa-foundation-us-small-business-growth-and-innovation2026",
+      "category": "budget",
+      "kind": "prerequisite",
+      "requirement": "Annual operating budget is USD 1 million–10 million. A project fundraising goal is not the organization’s operating budget.",
+      "sourceUrl": "https://www.rockpa.org/visa-foundation/",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "rpa-visa-direct-smb-service",
+      "fundId": "rec9bE8Sue9uIgF4r",
+      "programId": "visa-foundation-us-small-business-growth-and-innovation2026",
+      "category": "mission",
+      "kind": "prerequisite",
+      "requirement": "Applicant directly delivers business support services to currently operating US small or micro businesses.",
+      "sourceUrl": "https://www.rockpa.org/visa-foundation/",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "rpa-visa-two-years-financials",
+      "fundId": "rec9bE8Sue9uIgF4r",
+      "programId": "visa-foundation-us-small-business-growth-and-innovation2026",
+      "category": "stage",
+      "kind": "prerequisite",
+      "requirement": "Applicant provides two years of audited financial statements and/or IRS Form 990s.",
+      "sourceUrl": "https://www.rockpa.org/visa-foundation/",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "rpa-visa-legal-status",
+      "fundId": "rec9bE8Sue9uIgF4r",
+      "programId": "visa-foundation-us-small-business-growth-and-innovation2026",
+      "category": "legal",
+      "kind": "prerequisite",
+      "requirement": "Applicant is a compliant US-based 501(c)(3) public charity, or a qualified fiscally sponsored organization meeting all other criteria.",
+      "sourceUrl": "https://www.rockpa.org/visa-foundation/",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "fundId": "recLO2MrB5qYtgi5l",
+      "programId": "raf-general-grantmaking",
+      "id": "raf-us-funded-component",
+      "kind": "prerequisite",
+      "category": "geography",
+      "requirement": "The funding request is solely for work within the United States or affiliated territories.",
+      "sourceUrl": "https://regenerativeagriculturefoundation.org/our-grants/",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "fundId": "recLO2MrB5qYtgi5l",
+      "programId": "raf-general-grantmaking",
+      "id": "raf-domestic-organization",
+      "kind": "prerequisite",
+      "category": "legal",
+      "requirement": "The actual applicant is a domestic US or affiliated-territory organization or Tribal Nation with 501(c)(3) status or equivalent.",
+      "sourceUrl": "https://regenerativeagriculturefoundation.org/our-grants/",
+      "checkedOn": "2026-10-25"
+    }
+  ]
+}

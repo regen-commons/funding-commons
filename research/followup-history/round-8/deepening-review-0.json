@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "passId": "policy-followup-8-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/posts/myriadusa_rebuilding-sudan-financing-community-led-activity-7506738251525685249-0zFp",
+          "title": "Myriad USA — own Sudan recovery convening announcement",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.every.org/proximate-fund",
+          "title": "Proximate Fund hosted donation page — no readable fund details",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://adesoafrica.org/wp-content/uploads/2025/12/ADESO-strategic-plan.pdf",
+          "title": "Adeso full strategic-plan PDF — fresh ordinary retrieval failed",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Verified institutional accounts describe African-led country-fund infrastructure, including Sudan activity. The fiscal host’s newly reviewed Sudan recovery event addresses donors and partners, without recipient applications or award terms. The hosted donation page yielded no readable fund details. The strategic-plan PDF still failed ordinary retrieval and was not read. Employment selection, donor fundraising targets and planned country launches are not applicant eligibility, award limits or deadlines; fiscal sponsorship for recipients remains unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.apccolombia.gov.co/sites/default/files/proyectos/181.pdf",
+          "title": "Fundación Alpina — own technical proposal hosted by APC-Colombia",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The original and recently checked live publisher row supply only the name, without a website, country or mission discriminator. A new Colombian government-hosted technical proposal identifies Fundación Alpina by NIT 900.223.586-6 and describes its own direct project delivery. It does not link that legal entity to this directory row. The proposed project budget and duration are not external grant terms. Identity and matching focus remain unassigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5086218/governing-document",
+          "title": "UK BOA candidate — Charity Commission governing-document route, unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "The publisher’s name-only row does not distinguish the Indigenous-support BOA network from other BOA or Bank of Africa foundation candidates. A new exact-charity-number institutional search led to the UK candidate’s governing-document route, which was unavailable to read. Candidate registration details do not establish publisher continuity; no candidate mission, policy or matching focus is assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fundosbuscador.mjusticia.gob.es/fundosbuscador/DetalleFundacion.action?idFundacion=18646&index=1&lang=es_ES",
+          "title": "Spanish Ministry of Justice — FICH foundation register entry",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2022-16664",
+          "title": "BOE — FICH founding and registration notice, 2022",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "The exact-NIF Ministry register confirms the Spanish foundation’s identity and legally permitted activities, including scholarships, subsidies and prizes. This authorisation does not establish an available award, recipient selection policy or financial support for session participants. The BOE registration notice’s founding endowment is not a grant amount, and its territorial jurisdiction is not applicant geography. Verified partner regranting and communications support remain an overview; recipient legal requirements, award terms and current intake are unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://za.linkedin.com/company/oribisouthafrica",
+          "title": "ORIBI — own indexed capacity-building announcement naming Lefika facilitators",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Identity is corroborated by the foundation’s own cross-linked social pages; its main website remains unavailable. ORIBI’s newly located own indexed announcement names Maurisa Moloto and The Lefika Foundation as capacity-building facilitators. It confirms collaboration, without publishing a Lefika grant, stipend, bursary or financially supported participant offer. ORIBI’s funding and incubation terms are not inherited. Statutory-registration searches did not establish a matching public filing; similarly named art-therapy, Botswana and commercial entities remain excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://us20.campaign-archive.com/home/?u=43876d78164928d786b438a53&id=73ca907a8a",
+          "title": "Press On — own public newsletter campaign archive",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.presson.media/wp-json/wp/v2/media?search=application&per_page=100&_fields=title,source_url,mime_type",
+          "title": "Press On — public application-file catalogue",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://eepurl.com/iAnnrvlODB",
+          "title": "Press On October 2026 campaign redirect — retrieval failed",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://eepurl.com/jq4E0-/",
+          "title": "Press On November 2025 fellowship campaign redirect — retrieval failed",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "The current homepage and own filed grant schedule verify Southern Movement Media Fund activity; the old fund and grants pages return 404. The newly reviewed public newsletter archive lists 2025–2026 campaigns, but its individual campaign redirects failed ordinary retrieval. The application-file catalogue yielded only the separate Freedomways reporting form, whose terms are not assigned to this specifically named fund. Third-party amounts with conflicting dates, observed recipient payments and aggregate pools remain excluded. SMMF recipient selection, award bounds and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [],
+      "notes": "A bounded new institutional search for the distinctive Building Resilience Helping You Thrive wording across UK, South African and Australian government domains found no credible matching primary entity. The original and recently checked live publisher row still provide only the name, without a website, jurisdiction or mission discriminator. Generic resilience programmes and similarly worded services cannot identify the intended foundation; no candidate or matching focus is assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://thefundingnetwork.org.uk/charities",
+          "title": "UK Funding Network — own charity-support page, candidate identity only",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The name-only publisher row cannot distinguish the UK network, Australian affiliate or another member of their international network. The newly reviewed UK charity-support page publishes member nomination and selection, with no current open application process. This is a genuine UK policy, but no publisher or institutional cross-reference assigns this directory entry to that affiliate. Its access conditions, currency and geography are therefore not copied into the unresolved record.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://theenergyyear.com/articles/innovative-financing-for-energy-in-mexico/",
+          "title": "Volta general manager — first-person interview in The Energy Year, 2022",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Identity qualification: the supplied domain and its independently hosted own profile identify a Mexican energy group founded in 2020; continuity to any earlier entity remains unestablished. No distinct UK Volta/D.Capital terms are assigned, and original all-region tags are not geographic eligibility. The newly reviewed 2022 first-person manager interview confirms affiliate and project-SPV financing. Its USD 120,000 tickets are investor contributions and its fundraising target is inbound capital, not recipient award bounds. External borrower or investee criteria, nonprofit access and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

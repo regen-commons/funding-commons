@@ -1,0 +1,400 @@
+{
+  "version": 1,
+  "passId": "policy-followup-5-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rec8CwtJukTyEZM3N",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.mep.go.cr/noticias/mep-establecio-alianzas-socios-estrategicos-favorecer-aprendizaje-ingles-este-2020",
+          "title": "Costa Rica MEP — January 2021 foundation-linked free access, historical",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.mep.go.cr/uso-aceleradores-academicos",
+          "title": "Costa Rica MEP — learning-product installation guidance",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.mep.go.cr/noticias/60-mil-estudiantes-contaran-mas-plataformas-tecnologicas-acelerar-aprendizaje",
+          "title": "Costa Rica MEP — March 2026 corporate-partner expansion",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://dpkids.lk/",
+          "title": "DP Kids lead — unrelated injected content; not used as policy",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Pursued Spanish-language programme-operator guidance beyond the foundation help centre. Costa Rica’s Ministry describes historical foundation-linked free ABCmouse access and provides installation guidance; its March 2026 expansion names Age of Learning, Inc. as partner. This does not establish a current foundation cash grant or institution-selection route. The Sri Lankan DP Kids lead returned unrelated casino content, so no terms from that host were adopted.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://genderlinks.org.za/wp-content/uploads/2023/06/VCSA_ReportWritingManual_nmclm_19062023.pdf",
+          "title": "Gender Links — indexed 2023 reporting manual, live PDF unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://www.unicef.org/lesotho/youth-power-hub",
+          "title": "UNICEF — distinct Lesotho youth programme, not AGYW+ Foundation policy",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Searched exact-name policy, grant and 2026 leads beyond the earlier VCSA profile. A newly located donor reporting manual names AGYW+ Lesotho as a reporting grantee, but its live PDF now returns 404. Current Mosepele/Baylor/UNICEF AGYW programmes cannot be assigned to this identity without verified continuity. No own grant or subsidized-service selection terms were recovered; the prior Parliament-based overview remains.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://bridge.ac.ke/wp-content/uploads/2026/08/Bridge-Foundation-Impact-Report-2025.pdf",
+          "title": "Bridge — own 2025 impact report, access and sponsorship section",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://bridge.ac.ke/sponsor-a-child/",
+          "title": "Bridge — donor sponsorship appeal and learner profiles",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the current homepage to the newly published 2025 impact report and read its access/sponsorship section (printed page 20). It describes financial assistance for children facing severe barriers, with donor sponsorship appeals elsewhere; it does not give recipient application or selection rules. Listed annual sponsorship prices fund school services and are not cash awards to outside projects. The separate scholarship landing still supplies no policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.fito.network/funders-database",
+          "title": "Fito — current publisher page, no Carnegie discriminator",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Rechecked the publisher’s current database page and the fixed original row: neither supplies a country, official URL or other discriminator for Carnegie. The public page describes the database but exposes no Carnegie row details. Distinct Carnegie institutions remain possible; no namesake’s policy or verified focus is assigned. Resolving this requires a publisher/original-record discriminator.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recdtH2oqZYE8SM0X",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search?p_p_id=uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=%2Faccounts-resource&p_p_cacheability=cacheLevelPage&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_objectiveId=A16583309&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_mvcRenderCommandName=%2Ffull-print&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_organisationNumber=5032910&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_organisationNumber=5032910",
+          "title": "CHW — submitted trustees’ report, year ended 22 April 2024",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search?p_p_id=uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=%2Faccounts-resource&p_p_cacheability=cacheLevelPage&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_objectiveId=A16583309&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_mvcRenderCommandName=%2Ffull-print&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_organisationNumber=5032910&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_organisationNumber=5032910",
+          "title": "CHW partner-project grants — FY2024 reported policy",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Recovered and visually checked the scanned FY2024 trustees’ report from the Charity Commission download. Printed pages 2–3 give actual recipient/project purposes and quarterly review of partner requests, beyond the previous activities summary. The report is historical; its template footer is not the reporting year. No external intake, award limits or exhaustive eligible-country/legal-form list is inferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUlPGswNITQKNej",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://connectedgrid.org/contact/",
+          "title": "CGI — current invitation-only grant access",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://connectedgrid.org/our-work/our-approach/",
+          "title": "CGI — strategic grantmaking approach",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://multiplier.org/project/connected-grid-initiative/",
+          "title": "Multiplier — Connected Grid Initiative project",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://blankfoundation.org/blog/transitioning-to-clean-energy-requires-rebuilding-the-electricity-grid/",
+          "title": "Blank Foundation — March 2025 Clean/Connected CGI continuity",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://connectedgrid.org/contact/",
+          "title": "Connected Grid Initiative — invitation-only strategic grants",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Recovered the current Connected Grid Initiative website through Blank Foundation’s March 2025 interview, which uses both Clean and Connected names for Anna Foglesong’s CGI and directly links the new site. Multiplier corroborates the project. Current own policy explicitly requires an invitation and rejects funding requests through its contact form. Incoming donor commitments and recipient examples are not treated as award limits.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recHtVI3SinIzIpeh",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://democracyalliance.org/articles/while-vigorous-advocacy-moves-forward-we-need-to-support-frontline-communities-directly/",
+          "title": "Democracy Alliance — announced April 2020 emergency response, historical",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Read a new own April 2020 emergency-funding update beyond the prior pooled-fund overview. It announces a planned New American Majority emergency effort for existing grantees’ immediate pandemic costs and asks donors to contribute. The fundraising target is not a per-award range, and the announcement gives no recipient-selection or application route. It is retained as historical context, not an available current programme.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://apps.irs.gov/pub/epostcard/cor/357090597_202412_990O_2026041424092910.pdf",
+          "title": "Fund for Policy Reform Trust — original FY2024 return, Schedule I supplement",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Independently rechecked the original FY2024 IRS filing, including Schedule I and its supplemental response. It lists an affiliate transaction and trustee-approved agreements requiring reporting, but no applicant-selection, nomination or outside-intake policy. This confirms the prior negative finding; affiliate totals are not grant limits and reporting-only governance is not promoted to an accessible programme.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recgnI6ctYih5FQw5",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://interpares.ca/resources",
+          "title": "Inter Pares — resource index, current retrieval forbidden",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://interpares.ca/sites/default/files/resources/fs_inter_pares_2024.pdf",
+          "title": "Inter Pares — FY2024 audited statements and programme advances",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Pursued the financial-statements route beyond the previous relationship paper. The current resource-index retrieval is forbidden; the newly read FY2024 audited statements explain overseas programme advances and counterpart expenditure/reporting, but do not publish selection or application rules. Aggregate advances and received government programme budgets are not applicant award ranges. Current external intake and fiscal-sponsorship terms remain unknown.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recqnLGfTjw9rRHJu",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfhJDXJvdbFgVfkOllk22lHCeujQhe-i8lJRLuiSw-AHDr6Tw/viewform?usp=send_form",
+          "title": "JDF — own-linked accelerator application and conditions",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://jdf.org.in/StartupA-program",
+          "title": "JDF — accelerator description and direct application link",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfhJDXJvdbFgVfkOllk22lHCeujQhe-i8lJRLuiSw-AHDr6Tw/viewform?usp=send_form",
+          "title": "JDF Startup Accelerator — support with discretionary funding",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Opened the actual programme-linked public application, a new source beyond the earlier overview. Its first-page conditions specify incorporated MVP/prototype startups, impact mission, review/interview, attendance and reporting. Funding may be offered at JDF/partner discretion; it is not a guaranteed cash award. The live undated form and 12-month support programme do not establish current intake or a fixed grant period.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6uJtW06yzJWpRJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://ethnicwomen.nz/course/",
+          "title": "Lady Khadija initiative — leadership-course access description",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://events.humanitix.com/ethnic-women-starting-your-business",
+          "title": "Lady Khadija Trust — own November 2026 business-course listing",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://events.humanitix.com/ethnic-women-starting-your-business/tickets",
+          "title": "Lady Khadija Trust — paid course ticket terms",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "The separate leadership-course website now opens and directs expressions of interest to a general contact page. A newly found Trust-hosted November 2026 business course has a paid ticket checkout, not a scholarship or award application; its registration cutoff is not a funding deadline. No published subsidy, free place or external-grant policy was verified, so programme services are not presented as cash funding.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recmg3HFVYXZYVHR2",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.masanawaafrika.org/s/Masana-and-Nzeve-on-Devex.pdf",
+          "title": "Masana — own-hosted November 2025 director interview",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.masanawaafrika.org/our-approach",
+          "title": "Masana — general support and capacity-strengthening approach",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.masanawaafrika.org/newsandstories/this-grantmaker-offers-a-model-for-long-term-african-led-philanthropy",
+          "title": "Masana — original interview publication and PDF link",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.masanawaafrika.org/s/Masana-and-Nzeve-on-Devex.pdf",
+          "title": "Masana general support grants — 2025 funding-model description",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Followed the own November 2025 news post to its full interview PDF. It adds a typical two-year onboarding stage, renewable three-year cycles and annual reporting to the verified general-support model. These describe relationships, not promised total years, numeric award limits or an open call. Country examples and expansion plans are not eligibility screens.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.toronto.ca/legdocs/mmis/2026/ec/comm/communicationfile-209450.pdf",
+          "title": "NABC — own April 2026 deputation submitted to Toronto",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://networkabc.ca/learning-institute/",
+          "title": "NABC — learning-offer eligibility FAQ",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read NABC’s own April 2026 deputation filed with Toronto beyond the prior institute and BOF leads. It recommends stable multiyear City funding for Black-led/serving organizations; it is advocacy for another institution’s funding, not a NABC call. Training FAQs still describe learning access rather than committed cash or published subsidized places. No direct grant criteria, range or intake date was established.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpw4qdfUAaI8McW",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fundacionprolongar.org/es/servicios/estotienearreglo/",
+          "title": "Prolongar — priced ceramic-repair service",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://fundacionprolongar.org/es/servicios/social/",
+          "title": "Prolongar — delivered Amalgama Social services",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://fundacionprolongar.org/garabatos/",
+          "title": "Prolongar — Garabatos, no readable policy body",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Followed Spanish-language service navigation beyond the audited accounts. The new Esto Tiene Arreglo page explicitly prices ceramic repair by object size/difficulty, while Amalgama Social describes delivered community workshops and Garabatos returned no readable guidance. These are services/resources, not external-project award terms. No grant-selection rules, subsidy policy, range or call dates were recovered.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recb5VpXOFbqvyiJD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/posts/southern-africa-trust_solidarityeconomy-feministeconomics-grantmaking-activity-7482783746220453888-DmBr",
+          "title": "Southern Africa Trust — own 2026 consultancy procurement announcement",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Searched independently hosted own-social grant-policy leads beyond the affected root host. A newly read own post solicits a consultant to develop grantmaking/solidarity-economy standards, closing in July 2026; that is procurement, not a grantee call. It does not independently validate the root’s 2025 nomination terms or establish a current grant intake. Existing clean overview evidence and all host-integrity warnings remain.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://stiftungen.bayern.de/stiftung/13100",
+          "title": "Bavarian official register — Stiftung Saving An Angel, September 2026",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Followed a new statutory-register lead to Bavaria’s actual official foundation record, current September 2026. It confirms the Tutzing foundation and its worldwide child/youth, education, health and hardship purposes. The registry publishes no outside-application or grantee-selection process; broad statutory objects do not establish unrestricted access, grant limits or current dates. The generic application advice on the referring directory was not adopted.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

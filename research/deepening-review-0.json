@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "passId": "policy-followup-10-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.gov.scot/publications/review-scottish-governments-humanitarian-funding-future-response-global-humanitarian-crises/pages/14/",
+          "title": "Scottish Government — pooled-fund comparator, design-phase Proximate overview",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public Airtable view — source tag and empty Detailed Notes",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "The publisher-linked public Airtable export adds the source tag 'philanthropy shifting database', with Detailed Notes empty. A newly reviewed Scottish Government pooled-fund comparator names Adeso, NEAR and the Proximate Fund, but repeats design-phase donor fundraising rather than publishing recipient terms. That description does not override newer own Sudan activity or establish that the fund is closed or still unlaunched. Fresh Arabic and donor-portfolio searches found no additional applicant document. The previously inaccessible standalone website and large strategic plan were not retried. Applicant legal status, sponsorship, award bounds and intake remain unverified; job terms and inbound seed capital are excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://p4gpartnerships.org/sites/default/files/2025-04/Knowlege%20Product%20Kanalitojo%20En.pdf",
+          "title": "P4G — Colombian Alpina/Kanalitojo project knowledge product",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public Airtable view — source tag and empty Detailed Notes",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The publisher-linked public Airtable export adds the source tag 'Festival 2025', with Detailed Notes empty. One focused Festival 2025/Fito/candidate cross-reference search found no official identity link. The tag is provenance context, not an entity discriminator. The newly reviewed P4G-hosted Kanalitojo knowledge product describes the Colombian Alpina candidate’s project implementation with Kardianuts and its search for investment. Production results, participant income and future investment needs are not external grant terms. It does not establish continuity to Fito’s sparse name-only entry. Neither the previously found academic sponsor acknowledgement nor this Colombian project assigns the intended entity; matching focus remains unassigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://savitri.org.uk/wp-content/uploads/2021/03/Annual-Accounts-2020.pdf",
+          "title": "Savitri Trust — own 2020 trustee report naming BOA as a supported organisation",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public Airtable view — source tag and empty Detailed Notes",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The publisher-linked public Airtable export adds the source tag 'Festival 2025', with Detailed Notes empty. One focused Festival 2025/Fito/candidate cross-reference search found no official identity link. The tag is provenance context, not an entity discriminator. A newly reviewed account in Savitri Trust’s own 2020 trustee report identifies a BOA candidate supporting Indigenous-led work in Brazil. The report concerns Savitri’s donation, not BOA’s standing recipient criteria or award bounds. It adds institutional context without connecting the Indigenous-support entity to Fito’s name-only row or excluding Bank of Africa namesakes. No candidate mission, policy or matching focus is assigned; prior filing-access failures do not establish inactivity.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.comms-hub.org/robots.txt",
+          "title": "CommsHub — document-discovery index check, no readable page",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public Airtable view — source tag and empty Detailed Notes",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "The publisher-linked public Airtable export adds the source tag 'UMI', with Detailed Notes empty. The tag is retained literally without expanding its acronym or importing network policies. Fresh Spanish-language searches for scholarships, calls and subsidy applications found no additional FICH recipient document. A new machine-readable document-discovery check supplied no usable index; it does not negate the verified own site. The Spanish foundation’s communications support and partner regranting remain established, while its legally permitted activities and founding endowment are not grant conditions or amounts. Recipient legal requirements, fiscal sponsorship, per-award terms and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://dschoolafrika.org/reframing-design-thinking-in-complex-times-opening-up-the-practice/",
+          "title": "UCT Hasso Plattner d-school Afrika — own Maurisa Moloto event biography",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public Airtable view — source tag and empty Detailed Notes",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "The publisher-linked public Airtable export adds the source tag 'Festival 2025', with Detailed Notes empty. The newly reviewed UCT d-school Afrika event biography identifies Maurisa Moloto as Lefika’s founder and a social-innovation educator. Its Fix and Bertha scholarship references describe her own qualifications, not scholarships awarded by Lefika. Further funded-participant searches returned collaborators and unrelated art-therapy entities, without a Lefika recipient policy. The own cross-linked identity remains corroborated and its main website remains unavailable. No grant, participant bursary, per-award range or current funding deadline is verified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.presson.media/wp-json/wp/v2/media?search=annual&per_page=100&_fields=title,source_url,mime_type",
+          "title": "Press On — public annual-report file search, empty result",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public Airtable view — source tag and empty Detailed Notes",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "The publisher-linked public Airtable export adds the source tag 'EDGE', with Detailed Notes empty. The tag is retained literally without expanding its acronym or importing network policies. A new public annual-report file search returned HTTP 200 with an empty result. Fresh SMMF-specific searches for primary video and original social application notices found no usable recipient call. The blocked newsletter redirect was not revisited. Verified own and sponsored-project accounts still establish fund activity, while the undated host page does not establish current fiscal sponsorship. Deleted fund routes, inconsistent third-party dates, separate Freedomways terms and observed payments remain excluded; SMMF eligibility, award bounds and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public Airtable view — source tag and empty Detailed Notes",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The publisher-linked public Airtable export adds the source tag 'Festival 2025', with Detailed Notes empty. One focused Festival 2025/Fito/candidate cross-reference search found no official identity link. The tag is provenance context, not an entity discriminator. A new exact compound-name search seeking an EIN or other institutional identifier produced no credible primary match. The publisher entry previously inspected supplies only the unusual name, without a website, country or legal discriminator. Generic resilience and wellbeing services cannot identify the intended foundation; no candidate mission is assigned. The absence of a public search result does not establish that the organisation does not exist.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://abr.business.gov.au/ABN/View?id=75166134774",
+          "title": "Australian Business Register — Funding Network Australia legal-entity record",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public Airtable view — source tag and empty Detailed Notes",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The publisher-linked public Airtable export adds the source tag 'philanthropy shifting database', with Detailed Notes empty. Focused searches did not identify the original database reference or an affiliate-specific source. The label does not choose a UK or Australian entity. The newly reviewed Australian Business Register entry identifies The Funding Network Australia Limited, ABN 75 166 134 774, as a separate Australian legal entity. That confirms a candidate distinct from the UK company, but does not assign Fito’s name-only entry to either affiliate. Registration and tax status do not establish recipient eligibility or a funding offer. No affiliate’s mission, application policy, currency or geography is merged into the unresolved entry.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://volta.capital/robots.txt",
+          "title": "Volta — document-discovery index check, no readable page",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public Airtable view — source tag and empty Detailed Notes",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "The publisher-linked public Airtable export leaves Group / Source Tag and Detailed Notes empty. The supplied domain and own profile identify a Mexican energy investment group; continuity to any earlier entity remains unestablished and distinct UK Volta/D.Capital terms remain excluded. Fresh Spanish recipient-financing and requirements searches found only the previously reviewed investor or customer material. A new machine-readable document-discovery check yielded no readable index. This access limit does not erase the verified company overview. Investor tickets, service thresholds, project counts and original all-region tags do not establish recipient limits; outside borrower or investee criteria, nonprofit access and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

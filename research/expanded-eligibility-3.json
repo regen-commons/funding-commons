@@ -1,0 +1,322 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "fundId": "recNRkQyG1uiWaBKN",
+      "programId": "national-grant-making-coordinating-organisation2026",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "KE"
+      ],
+      "sourceUrl": "https://kcdf.or.ke/wp-content/uploads/2026/06/Guidlines-for-NCO-2026-Call-for-Proposal.pdf",
+      "checkedOn": "2026-10-16",
+      "reason": "This closed NCO 2026 call funds coordination and management of the Kenyan local-partner portfolio across the country (guide pages 2\u20133). Nigeria-only funded work is outside this programme; a multi-country project including Kenya needs its requested Kenyan component confirmed. This does not turn the wider KCDF foundation into a Kenya-only rule."
+    },
+    {
+      "fundId": "recpzyMJ7OnKydVWE",
+      "programId": "esm-e-fairbairn-general-grants",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "GB"
+      ],
+      "sourceUrl": "https://esmeefairbairn.org.uk/apply-for-a-grant/",
+      "checkedOn": "2026-10-16",
+      "reason": "General grant exclusions expressly reject work without a direct benefit in the UK. This concerns benefit, not the physical location of every activity or the applicant country."
+    },
+    {
+      "fundId": "recFjSezAxn56QQwU",
+      "programId": "fpcc-administered-cultural-programmes-referral",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "CA"
+      ],
+      "sourceUrl": "https://fpcf.ca/initiatives/programs-we-fund",
+      "checkedOn": "2026-10-16",
+      "reason": "The Foundation supports B.C. First Nations language, arts and cultural heritage through Council-administered programmes. Canada is only a necessary coarse benefit condition; B.C. and First Nations programme requirements remain. This is a referral, not a direct Foundation application.",
+      "localRequirement": "British Columbia First Nations communities and the administering Council programme requirements."
+    },
+    {
+      "fundId": "reczCJTknAQMNPYF3",
+      "programId": "community-foundation-general-grants2026",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "US"
+      ],
+      "sourceUrl": "https://www.cfmv.org/grant-opportunities/",
+      "checkedOn": "2026-10-16",
+      "reason": "The General Grant is available to eligible organisations serving residents of Mahoning and Trumbull Counties, Ohio. US benefit is necessary but insufficient; this is resident service, not a requirement that every activity physically occur in those counties.",
+      "localRequirement": "Residents of Mahoning or Trumbull County, Ohio."
+    },
+    {
+      "fundId": "recdKMrhbjABCXgyM",
+      "programId": "san-francisco-collaboration-opportunity-2026",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "US"
+      ],
+      "sourceUrl": "https://piscesfoundation.org/wp-content/uploads/2026/10/SF-Open-Call-Frequently-Asked-Questions_FAQs.pdf",
+      "checkedOn": "2026-10-16",
+      "reason": "FAQ 3.6 says the collaboration should primarily benefit San Francisco. US benefit is necessary but insufficient; organisations themselves need not be based in San Francisco and at least one partner work must primarily focus there.",
+      "localRequirement": "Primary San Francisco benefit and at least one partner whose work primarily focuses there."
+    },
+    {
+      "fundId": "recdKMrhbjABCXgyM",
+      "programId": "san-francisco-collaboration-opportunity-2026",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "business"
+      ],
+      "sourceUrl": "https://piscesfoundation.org/wp-content/uploads/2026/10/SF-Open-Call-Frequently-Asked-Questions_FAQs.pdf",
+      "checkedOn": "2026-10-16",
+      "reason": "FAQ 2.4 expressly excludes for-profit entities from participating in this collaboration. Public agencies may collaborate but cannot receive grant funds; do not exclude them from the collaboration entirely. Actual charity/fiscal sponsor status remains a separate necessary check."
+    },
+    {
+      "fundId": "recUpaIA3NSYYQY8w",
+      "programId": "community-grants",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "CA"
+      ],
+      "sourceUrl": "https://www.wpgfdn.org/granting/community-grants/",
+      "checkedOn": "2026-10-16",
+      "reason": "Community Grants must primarily benefit Winnipeg residents, including projects taking place elsewhere. Canadian benefit alone is insufficient.",
+      "localRequirement": "Primary benefit to Winnipeg residents."
+    },
+    {
+      "fundId": "reclxU78tRp1kn2rw",
+      "programId": "liveability-sustainability-innovations",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "SG"
+      ],
+      "sourceUrl": "https://www.temasekfoundation.org.sg/grant-calls/liveability-sustainability-innovations",
+      "checkedOn": "2026-10-16",
+      "reason": "Solutions may originate abroad but must benefit, apply or adapt to Singapore. Applicant location in Singapore is a preference, not a mandatory exclusion."
+    },
+    {
+      "fundId": "recwAlNqLJwTJu3Q7",
+      "programId": "india-fund",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "IN"
+      ],
+      "sourceUrl": "https://www.phf.org.uk/funding/india-fund",
+      "checkedOn": "2026-10-16",
+      "reason": "India Fund supports community development for disadvantaged communities in India; local Indian NGO and FCRA requirements remain separate. Specific priority areas must be checked."
+    },
+    {
+      "fundId": "recwAlNqLJwTJu3Q7",
+      "programId": "india-fund",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "IN"
+      ],
+      "sourceUrl": "https://www.phf.org.uk/funding/india-fund",
+      "checkedOn": "2026-10-16",
+      "reason": "Eligible applicants must be local Indian NGOs with FCRA registration; non-Indian organisations and local branches are excluded."
+    },
+    {
+      "fundId": "recAZhC8LmcCyhMB2",
+      "programId": "communities-grant",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "GB"
+      ],
+      "sourceUrl": "https://ernestcooktrust.org.uk/wp-content/uploads/Communities-Grant-06.2026-1.pdf",
+      "checkedOn": "2026-10-16",
+      "reason": "This programme explicitly excludes organisations based outside the UK. Specific postcode eligibility and governance requirements remain.",
+      "localRequirement": "Specified UK postcode prefixes; confirm the exact programme area."
+    },
+    {
+      "fundId": "recAZhC8LmcCyhMB2",
+      "programId": "outdoor-learning-leader-grant",
+      "field": "applicantBaseCountry",
+      "operator": "only",
+      "values": [
+        "GB"
+      ],
+      "sourceUrl": "https://ernestcooktrust.org.uk/wp-content/uploads/OLLGrant-10.2026-for-expressions-of-interest.pdf",
+      "checkedOn": "2026-10-16",
+      "reason": "This programme explicitly excludes organisations based outside the UK. Specific postcode eligibility and governance requirements remain.",
+      "localRequirement": "Specified UK postcode prefixes; confirm the exact programme area."
+    },
+    {
+      "fundId": "recAZhC8LmcCyhMB2",
+      "programId": "outdoor-learning-leader-grant",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "GB"
+      ],
+      "sourceUrl": "https://ernestcooktrust.org.uk/wp-content/uploads/OLLGrant-10.2026-for-expressions-of-interest.pdf",
+      "checkedOn": "2026-10-16",
+      "reason": "Work must directly benefit individuals or groups within the specified UK postcode areas. This is a benefit rule, not a blanket ban on every activity outside the UK.",
+      "localRequirement": "CA, LA, GL, SN, BS or LE postcode areas; verify the funded component."
+    },
+    {
+      "fundId": "recc3etQL3z6CaqqF",
+      "programId": "sff-rapid-response-movement",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "US"
+      ],
+      "sourceUrl": "https://sff.org/what-we-do/funding/rrf/",
+      "checkedOn": "2026-10-16",
+      "reason": "Funding requests must serve residents of the five specified Bay Area counties, not all California. Urgency and movement-building tests also apply.",
+      "localRequirement": "Alameda, Contra Costa, Marin, San Francisco or San Mateo County residents."
+    },
+    {
+      "fundId": "recYn5utG7XAVs30n",
+      "programId": "doria-open-call",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "DZ",
+        "BH",
+        "EG",
+        "IQ",
+        "JO",
+        "KW",
+        "LB",
+        "LY",
+        "MR",
+        "MA",
+        "OM",
+        "PS",
+        "QA",
+        "SA",
+        "SO",
+        "SD",
+        "SY",
+        "TN",
+        "AE",
+        "YE"
+      ],
+      "sourceUrl": "https://www.doriafeministfund.org/en/faqs",
+      "checkedOn": "2026-10-16",
+      "reason": "Groups must be based in OR work across an eligible MENA country. Both base and work must be outside the list before this check can flag a conflict.",
+      "alternativeField": "applicantBaseCountry"
+    },
+    {
+      "fundId": "recjYEFuNiQ7m9TcP",
+      "programId": "creation-community-grants-2026-streams",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "CA"
+      ],
+      "sourceUrl": "https://indigenousyouthroots.ca/faq-items/how-are-funding-decisions-made",
+      "checkedOn": "2026-10-16",
+      "reason": "The official Creation FAQ says screening removes projects not happening in Canada. Canadian scope alone does not establish Indigenous youth leadership, stream eligibility or current intake; check with staff for cross-border traditional-territory exceptions."
+    },
+    {
+      "fundId": "recKSuZ5GqdZrIOqJ",
+      "programId": "open-application-introductions",
+      "field": "workCountries",
+      "alternativeField": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "US"
+      ],
+      "sourceUrl": "https://www.polkbrosfdn.org/our-grantmaking/open-application",
+      "checkedOn": "2026-10-16",
+      "reason": "Applicants must operate in OR serve Chicago. Work or beneficiary country outside the US alone is insufficient to reject; both must be outside before flagging a conflict.",
+      "localRequirement": "Operate in or serve Chicago; country overlap does not establish this local condition."
+    },
+    {
+      "fundId": "recKkrUEyYu4JTxvZ",
+      "programId": "general-project-grants-year-round-letter-of-intent",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "BR"
+      ],
+      "sourceUrl": "https://climaesociedade.org/como-solicitar-uma-doacao/",
+      "checkedOn": "2026-10-16",
+      "reason": "iCS explicitly requires all supported projects to benefit Brazil, including internationally scoped activities. Brazilian applicant or branch/financial-host requirements remain separate manual checks."
+    },
+    {
+      "fundId": "recKkrUEyYu4JTxvZ",
+      "programId": "community-based-climate-adaptation-2026-call-closed",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "BR"
+      ],
+      "sourceUrl": "https://climaesociedade.org/como-solicitar-uma-doacao/",
+      "checkedOn": "2026-10-16",
+      "reason": "iCS explicitly requires all supported projects to benefit Brazil, including internationally scoped activities. Brazilian applicant or branch/financial-host requirements remain separate manual checks."
+    },
+    {
+      "fundId": "recKkrUEyYu4JTxvZ",
+      "programId": "climate-and-economy-applied-research-2026-call-closed",
+      "field": "benefitCountries",
+      "operator": "only",
+      "values": [
+        "BR"
+      ],
+      "sourceUrl": "https://climaesociedade.org/como-solicitar-uma-doacao/",
+      "checkedOn": "2026-10-16",
+      "reason": "iCS explicitly requires all supported projects to benefit Brazil, including internationally scoped activities. Brazilian applicant or branch/financial-host requirements remain separate manual checks."
+    },
+    {
+      "fundId": "recgDAwfqtJyo2MEx",
+      "programId": "rapid-response-organizing-grants",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "US",
+        "PR",
+        "GU",
+        "VI",
+        "AS",
+        "MP"
+      ],
+      "sourceUrl": "https://www.emergentfund.net/apply",
+      "checkedOn": "2026-10-16",
+      "reason": "Emergent Fund explicitly excludes international work and work outside the United States and its territories. Mixed scopes require a distinct US/territory proposal."
+    },
+    {
+      "fundId": "recEHr45RGvwiObx6",
+      "programId": "learning-by-nature-student-climate-and-biodiversity-leadership-grants",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "CA"
+      ],
+      "sourceUrl": "https://bcparksfoundation.ca/updates/9-000-bc-students-take-action-for-nature-in-first-year-of-learning-by-nature-grants/",
+      "checkedOn": "2026-10-16",
+      "reason": "The offer is for Canadian K\u201312 schools to improve their school grounds. Nigeria-only work conflicts with that Canadian school-ground scope; country overlap alone does not establish school eligibility."
+    },
+    {
+      "fundId": "rec9bE8Sue9uIgF4r",
+      "programId": "visa-foundation-us-small-business-growth-and-innovation2026",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "US",
+        "PR",
+        "GU",
+        "VI",
+        "AS",
+        "MP",
+        "UM"
+      ],
+      "sourceUrl": "https://www.rockpa.org/visa-foundation/",
+      "checkedOn": "2026-10-16",
+      "reason": "Applicant must primarily conduct work within US states, DC or territories. Nigeria-only work conflicts; mixed scopes still need confirmation of predominantly US implementation."
+    }
+  ]
+}

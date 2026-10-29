@@ -1,0 +1,721 @@
+{
+  "passId": "policy-followup-3-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "previousVersion": 6,
+  "targetCount": 80,
+  "researchCounts": {
+    "not_a_funder": 18,
+    "program_reviewed": 495,
+    "source_reviewed": 70,
+    "unresolved": 9,
+    "unreachable": 1
+  },
+  "fieldCoverage": {
+    "focus": 580,
+    "eligibility": 437,
+    "numericAward": 137,
+    "currentNumericAward": 64,
+    "datedDeadline": 131,
+    "upcomingDatedDeadline": 28,
+    "applicationRoute": 433
+  },
+  "records": [
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "name": "Adeso / Proximate Fund",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://adesoafrica.org/adeso-in-action/proximate-fund/",
+        "https://adesoafrica.org/philanthropy-and-locally-led-funding/",
+        "https://adesoafrica.org/adeso-in-action/global-initiatives/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8CwtJukTyEZM3N",
+      "name": "Age of Learning Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.prnewswire.com/news-releases/age-of-learning-launches-the-age-of-learning-foundation-a-charitable-organization-providing-effective-digital-education-programs-globally-to-help-children-furthest-from-opportunity-build-a-strong-foundation-for-academic-success-300989938.html"
+      ]
+    },
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "name": "AGYW+Foundation Lesotho",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://nationalassembly.parliament.ls/wp-content/uploads/2024/02/REPORT-16-Days-of-Activism-Against-GBV.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recHCa40qAYJmSO8W",
+      "name": "Alinko Foundation (Aliko Dangote Foundation)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://dangote.com/wp-content/uploads/2021/05/Dangote-VDMA-Brochure-2021-Updated.pdf",
+        "https://dangote.com/foundation/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "name": "Alpina Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": []
+    },
+    {
+      "sourceRecordId": "rechmUs1r9hitZknx",
+      "name": "Arcus Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.linkedin.com/posts/arcus-foundation_the-arcus-foundation-will-cease-operations-activity-7483870668049174529-77Is"
+      ]
+    },
+    {
+      "sourceRecordId": "recxZYVJPOdM3UwU2",
+      "name": "Astraea Lesbian Foundation for Justice",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://astraeafoundation.org/about/"
+      ]
+    },
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "name": "Bala Family Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": [
+        "https://www.balafoundation.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "recZAbBpPxy0jZNtG",
+      "name": "BMW Foundation (Herbert Quandt)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.bmw-foundation.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "name": "BOA Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": []
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "name": "Bridge International Academies Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://bridge.ac.ke/"
+      ]
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "name": "Carnegie Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": []
+    },
+    {
+      "sourceRecordId": "recdtH2oqZYE8SM0X",
+      "name": "Children’s Helpers Worldwide (CHW)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://chworldwide.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "recUlPGswNITQKNej",
+      "name": "Clean Grid Initiative (CGI)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://multiplier.org/wp-content/uploads/2024/11/Multiplier-2023-Audited-Financials.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recRkK6BPYYaqg1zk",
+      "name": "Climate Emergency Collaboration Group (CECG)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.climatecollaboration.org/",
+        "https://climateemergencycollaboration.org/",
+        "https://www.climatecollaboration.org/about-us",
+        "https://www.climatecollaboration.org/contact"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "name": "Colleaga",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://global.colleaga.org/",
+        "https://www.colleaga.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "recBJwa3iIMNuGDnH",
+      "name": "Comic Relief",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.comicrelief.com/"
+      ]
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "name": "CommsHub (Foundation for International Communications Hub)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.comms-hub.org/",
+        "https://comms-hub.org/wp-content/uploads/2023/09/Comms-Hub-Strategy-2023-25.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recM69Qg1wcBAqxjm",
+      "name": "Communities for Just Schools Fund",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.cjsfund.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "recKAiFPhplFSH3pj",
+      "name": "Connexus-International gGmbH",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://connexus-international.org/why-connexus/",
+        "https://connexus-international.org/legal-pages/charter/",
+        "https://connexus-international.org/wp-content/uploads/2024/09/Connexus_Satzung_DE.pdf",
+        "https://connexus-international.org/de/was-wir-verbinden/menschenrechte-migration/"
+      ]
+    },
+    {
+      "sourceRecordId": "recdsbQZbg3HXlss5",
+      "name": "Count Me In! (CMI!)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://cmiconsortium.org/campaigns/our-impact/"
+      ]
+    },
+    {
+      "sourceRecordId": "recHtVI3SinIzIpeh",
+      "name": "Democracy Alliance",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://democracyalliance.org/about-us/"
+      ]
+    },
+    {
+      "sourceRecordId": "recAI1N40iri7KaFm",
+      "name": "EcoHub Foundation (Armenia)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://ecohub.am/en/",
+        "https://www.ecohub.am/"
+      ]
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "name": "Energy Transition Fund (ETF)",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": [
+        "https://www.rbf.org/grantees/rockefeller-philanthropy-advisors-inc",
+        "https://platformlondon.org/about-us/funders-ethics/"
+      ]
+    },
+    {
+      "sourceRecordId": "recDBqvlbBAMYxaLH",
+      "name": "Farming the Future",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.farmingthefuture.uk/about"
+      ]
+    },
+    {
+      "sourceRecordId": "recFjSezAxn56QQwU",
+      "name": "First Peoples’ Cultural Foundation (FPCF)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://fpcf.ca/",
+        "https://fpcf.ca/who-we-are",
+        "https://fpcc.ca/grants/",
+        "https://fpcf.ca/contact"
+      ]
+    },
+    {
+      "sourceRecordId": "recseP4TxJPB55Q7Q",
+      "name": "Fondation CHANEL",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.fondationchanel.org/en/the-foundation/",
+        "https://www.fondationchanel.org/en/",
+        "https://proposal.fondationchanel.org/en/faq/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec2MVN4Je5LrrDAa",
+      "name": "Fondation Marius Jacob",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://growfunding.be/fr/matchfunders/fondationmariusjacob"
+      ]
+    },
+    {
+      "sourceRecordId": "rec7h7mbGFBNdNWpM",
+      "name": "Fondo de Acción Urgente de América Latina y el Caribe (Urgent Action Fund LAC)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://fondoaccionurgente.org.co/site/assets/files/1481/fau.pdf",
+        "https://fondoaccionurgente.org.co/site/assets/files/1277/estudio_exploratorio.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recVJETVpwhMkTzXz",
+      "name": "Fossil Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.fossil.com/en-us/fossil-foundation/"
+      ]
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "name": "Fund for Policy Reform Trust (Open Society)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.influencewatch.org/app/uploads/2022/12/fund-for-policy-reform-2021-form-990.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "rectrU4ynL289RM15",
+      "name": "Fundación Corona",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.fundacioncorona.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "name": "Fundación TAAP",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://fundaciontaap.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "recKZhrajN6s5GjOs",
+      "name": "Funders for Housing and Opportunity",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.housingisopportunity.org/",
+        "https://www.housingisopportunity.org/post/impact-snapshot-fy26",
+        "https://www.housingisopportunity.org/narrativechange",
+        "https://www.housingisopportunity.org/post/housing-justice-and-systems-change-through-a-funder-collaborative"
+      ]
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "name": "Global Welfare Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": [
+        "https://www.globalwelfarefoundations.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec5BEuZjgcUrxqXF",
+      "name": "Heart & Hand Fund",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://heartandhandfund.org/",
+        "https://heartandhandfund.org/about-us"
+      ]
+    },
+    {
+      "sourceRecordId": "recOe21OyTPeJYd9y",
+      "name": "Humanity United Action (HUA)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://humanityunited.org/our-history/",
+        "https://humanityunited.org/our-grantmaking-process/"
+      ]
+    },
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "name": "Inchara Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://incharafoundation.org/",
+        "https://incharafoundation.org/about-us/"
+      ]
+    },
+    {
+      "sourceRecordId": "recRiwn3ak6Hrp4Zi",
+      "name": "Iniciativa Climática de México (ICM)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://iniciativaclimatica.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "rectDLlkmWbjtTWPY",
+      "name": "Instituto Humanitas 360 / PDR Fundo Filantrópico",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://humanitas360.org/home/",
+        "https://humanitas360.org/relatorio-anual-humanitas360-2024/",
+        "https://humanitas360.org/reuniao-anual-do-conselho-h360-debate-ampliacao-de-projetos-e-decada-de-cidadania-ativa/",
+        "https://humanitas360.org/presidente-do-h360-vai-coordenar-grupo-de-trabalho-sobre-a-economia-do-canhamo-no-conselhao-da-presidencia-da-republica/",
+        "https://humanitas360.org/com-apoio-do-h360-evento-reune-empreendedores-e-especialistas-para-debater-negocios-de-base-natural/"
+      ]
+    },
+    {
+      "sourceRecordId": "recgnI6ctYih5FQw5",
+      "name": "Inter Pares (Canada)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://interpares.ca/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec7HniiPMgAE26b4",
+      "name": "Inter-American Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title22-section290f",
+        "https://www.facadatabase.gov/FACA/apex/FACACommitteeLevelReportAsPDF?id=a10t0000001gzwLAAQ"
+      ]
+    },
+    {
+      "sourceRecordId": "rec1RNkblcRl57q0t",
+      "name": "International Indigenous Women’s Forum / FIMI",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://fimi-iiwf.org/en/home-2/",
+        "https://fimi-iiwf.org/en/about-us/open-opportunities/",
+        "https://fimi-iiwf.org/en/convocatorias/ayni-call-for-proposals-2026/"
+      ]
+    },
+    {
+      "sourceRecordId": "recqnLGfTjw9rRHJu",
+      "name": "Jeevan Darshan Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://jdf.org.in/about"
+      ]
+    },
+    {
+      "sourceRecordId": "recMs7it8z2uXJ8Kb",
+      "name": "Kindle Project",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.kindleproject.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6uJtW06yzJWpRJ",
+      "name": "Lady Khadija Trust NZ",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.ladykhadijatrust.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "name": "Lefika Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://linktr.ee/lefika2024",
+        "https://za.linkedin.com/company/the-lefika-foundation"
+      ]
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "name": "Madhi Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.madhifoundation.org/about-us"
+      ]
+    },
+    {
+      "sourceRecordId": "recmg3HFVYXZYVHR2",
+      "name": "Masana wa Afrika Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.masanawaafrika.org/about-us"
+      ]
+    },
+    {
+      "sourceRecordId": "reclez3QBN9EzsCiI",
+      "name": "Mongolian Women’s Fund (MONES)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.mones.org.mn/about-en",
+        "https://www.mones.org.mn/grantmaking-en",
+        "https://www.mones.org.mn/grantmaking",
+        "https://www.mones.org.mn/_files/ugd/f24046_d521f76e0ad64b199adda2fcbb769006.pdf",
+        "https://www.mones.org.mn/history-en"
+      ]
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "name": "Movement Media (Press On’s Southern Movement Media Fund)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.presson.media/",
+        "https://www.presson.media/",
+        "https://www.presson.media/wp-content/uploads/2024/08/2023-Press-On-Final-Annual-Report.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "reckI55X3sxYzuzeb",
+      "name": "Nalandaway Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://nalandaway.org/",
+        "https://nalandaway.org/about-us/publications/"
+      ]
+    },
+    {
+      "sourceRecordId": "recTUqGBxowGopxEV",
+      "name": "Native Hawaiian Philanthropy",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.nativehawaiianphilanthropy.org/donate",
+        "https://www.nativehawaiianphilanthropy.org/about",
+        "https://www.nativehawaiianphilanthropy.org/fundingpartners"
+      ]
+    },
+    {
+      "sourceRecordId": "recG2ruGcG5wjn1n0",
+      "name": "Nebula Fund",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://nebulafund.org/expanding-narrative-power/"
+      ]
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "name": "Network for the Advancement of Black Communities (NABC)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://networkabc.ca/"
+      ]
+    },
+    {
+      "sourceRecordId": "recEgjzHqv4pOCtGZ",
+      "name": "Network of European Foundations (NEF)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://nef-europe.org/",
+        "https://nef-europe.org/about-us/",
+        "https://nef-europe.org/our-approach/",
+        "https://www.nef-europe.org/site-content/uploads/2023/10/State_of_play_of_NEF_collaboratives_October23.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "name": "Next Step Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": [
+        "https://nextstep.foundation/",
+        "https://nextstepfdn.org/",
+        "https://next-step.org.za/apply/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec79METBdoEAA8Hd",
+      "name": "Nia Tero",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.niatero.org/about-us"
+      ]
+    },
+    {
+      "sourceRecordId": "recZuvOEtFb7i6rQX",
+      "name": "Open Society Policy Center (Open Society Action Fund)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.opensocietyactionfund.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkRuPZ8L193ZQS",
+      "name": "Palix Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.palixfoundation.org/",
+        "https://www.albertafamilywellness.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "recbjZ6tq5NKxHXgX",
+      "name": "People’s Support Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.peoplessupportfoundation.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec4302FxdTsPbZXD",
+      "name": "Pool-Fund on International Energy (PIE)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://europeanclimate.org/wp-content/uploads/2023/07/2022-standard-form-publication-anbi.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recpw4qdfUAaI8McW",
+      "name": "Prolongar Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://fundacionprolongar.org/en/"
+      ]
+    },
+    {
+      "sourceRecordId": "recpXeZbCDN9XFMid",
+      "name": "Rippel Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://rippel.org/about/",
+        "https://rippel.org/rethink-healths-history/",
+        "https://rippel.org/financing-workbook/"
+      ]
+    },
+    {
+      "sourceRecordId": "reczOSRMgycrSfHBx",
+      "name": "Schwab Foundation for Social Entrepreneurship",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.schwabfound.org/key-topics",
+        "https://www.schwabfound.org/2026-awardees",
+        "https://www.schwabfound.org/",
+        "https://www.weforum.org/stories/social-innovation/the-2027-schwab-foundation-awards-finalists/",
+        "https://www3.weforum.org/docs/WEF_Schwab_Foundation_Annual_report_15_16.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recb5VpXOFbqvyiJD",
+      "name": "Southern Africa Trust",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.linkedin.com/company/southern-africa-trust"
+      ]
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "name": "Stiftung Saving An Angel",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://savinganangel.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "reclYfoGjYuF1YXqF",
+      "name": "Stul Family Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://abr.business.gov.au/ABN/View?id=45931892596"
+      ]
+    },
+    {
+      "sourceRecordId": "recpqvD8c272JI57d",
+      "name": "Sub3 Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://anbi.nl/publicatieverplichting/stichting-sub3/",
+        "https://anbi.nl/wp-content/uploads/stichting-sub3/Stichting%20Sub3%20beleidsplan%202024-2026.pdf",
+        "https://anbi.nl/wp-content/uploads/stichting-sub3/2025%20-%20Sub3%20-%20standaardform-publicatieplicht-fondsen-ib1151z3fol.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recOjeVNMLIO5hBT4",
+      "name": "Thapar Education Trust",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.thapar.edu/upload/files/Mandatory%20Disclosure%20%282022-2023%29.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "name": "The Building Resilience Helping You Thrive Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": []
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "name": "The Funding Network",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": []
+    },
+    {
+      "sourceRecordId": "reclxJBQLIVk2XfgO",
+      "name": "The Human Safety Net",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.thehumansafetynet.org/about/who-we-are"
+      ]
+    },
+    {
+      "sourceRecordId": "rec4pxI2Jl4b6906u",
+      "name": "The Movement for Black Lives (M4BL)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://m4bl.org/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec7yMQ7RvWJ8GG0k",
+      "name": "Thousand Currents",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://thousandcurrents.org/",
+        "https://thousandcurrents.org/our-approach/",
+        "https://thousandcurrents.org/giving-circles/"
+      ]
+    },
+    {
+      "sourceRecordId": "recPltSfBuofl8aqD",
+      "name": "Tilt Collective",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://tiltcollective.org/",
+        "https://tiltcollective.org/about-us/",
+        "https://tiltcollective.org/our-team/"
+      ]
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "name": "Volta Capital",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://volta.capital/",
+        "https://www.linkedin.com/company/volta-capital-llc"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6kmJhaMxKVs8FI",
+      "name": "Women’s Fund in Georgia",
+      "previousStatus": "unreachable",
+      "previousSourceURLs": [
+        "https://womenfundarmenia.org/building-resilience-through-feminist-solidarity-partner-organizations-gather-in-poland/",
+        "https://www.channelfoundation.org/legacy-grantees/wfg/"
+      ]
+    },
+    {
+      "sourceRecordId": "recaBlDqbooyGb0cE",
+      "name": "Women’s Funding Network (WFN)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.womensfundingnetwork.org/",
+        "https://www.womensfundingnetwork.org/get-involved/membership/",
+        "https://www.womensfundingnetwork.org/get-involved/giving/",
+        "https://www.womensfundingnetwork.org/who-we-are/our-members/",
+        "https://www.womensfundingnetwork.org/get-involved/join-as-an-organization/"
+      ]
+    },
+    {
+      "sourceRecordId": "recnfO3RkjQc3ZSCN",
+      "name": "Yellowhammer Fund",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://action.yellowhammerfund.org/a/bizbday",
+        "https://abortionfunds.org/fund/yellowhammer-fund/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "passId": "policy-followup-7-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=HxX14-YZwh8",
+          "title": "Gender Links-linked AGYW project video — retrieval throttled",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://www.linkedin.com/company/mosepele-green-foundation",
+          "title": "Mosepele Green Foundation — distinct climate-organization lead, not verified AGYW continuity",
+          "outcome": "unrelated"
+        },
+        {
+          "url": "https://www.lena.gov.ls/sentebale-continues-to-promote-youth-development/",
+          "title": "Lesotho News Agency — Sentebale programme, not AGYW+ Foundation policy",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Followed the donor-linked video and new exact-name/personnel leads. The video could not be retrieved. A public Mosepele Green Foundation profile lists a previously named project lead, but publishes Botswana climate-event activity without establishing continuity with AGYW+ Foundation Lesotho; its prize and registration terms are excluded. A Lesotho government-news AGYW programme belongs to Sentebale, another organization. No own recipient-selection, award or current intake policy was recovered; the prior verified overview remains.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://bridge.ac.ke/secondary-school-selection/",
+          "title": "Bridge Foundation — June 2025 page containing teacher recruitment criteria",
+          "outcome": "unrelated"
+        },
+        {
+          "url": "https://bridge.ac.ke/feeding-programme/",
+          "title": "Bridge Foundation — feeding-programme donation instructions",
+          "outcome": "unrelated"
+        },
+        {
+          "url": "https://www.bridge.ac.ke/rising-from-the-ashes-the-journeys-of-hiether-rebecca-and-joel-wafula/",
+          "title": "Bridge — historical alumni scholarship account, without application policy",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Followed the current site’s Secondary School Selection and Feeding Programme links, and searched for scholarship application criteria. Despite its title, the selection page publishes teacher recruitment and training requirements, not pupil funding eligibility. The feeding page presents donation/payment instructions. A newly located alumni account distinguishes university scholarships secured elsewhere from Bridge’s historical support, without publishing Bridge’s selection process. These sources do not establish an external grant, scholarship range or current recipient intake.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+          "title": "Fito-linked live Softr directory — separate Carnegie Foundation and Corporation rows",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A fresh live review of the publisher-linked directory embed confirms two separate entries: Carnegie Corporation of New York has its own website and terms, while this Carnegie Foundation row shows dashes for mission, grant size, network support, geography and application information, with no website. The live row still supplies no institutional discriminator. Corporation policies cannot be transferred to this separate name-only entry; identity and matching focus remain unresolved.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recHtVI3SinIzIpeh",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://democracyalliance.org/our-work/",
+          "title": "Democracy Alliance — current investment priorities, Our Work",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Recovered the current Our Work page that failed in the previous pass. It publishes three investment priorities: pro-democracy media, sustained grassroots organizing and election protection. The named opportunity states are examples, not an exhaustive geographic rule. The page’s participation link returns to donor membership; it publishes no recipient application, legal-form requirement, per-award range or cutoff. Its explicit priorities improve the sourced overview without implying an accessible grant programme.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.opensocietyfoundations.org/grants/faq",
+          "title": "Open Society — programme-specific FAQ; no Trust-specific applicant policy",
+          "outcome": "unrelated"
+        },
+        {
+          "url": "https://www.opensocietyfoundations.org/grants/past/about",
+          "title": "Open Society — historical grant-database methodology and distinct legal funders",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Read the separate Open Society application FAQ and awarded-grants database methodology beyond the prior catalogue. The FAQ makes selection programme-specific and names the Action Fund/Policy Center for advocacy recommendations, without assigning a route to this Trust. The methodology distinguishes each grant-authorizing legal entity and warns that historical approved amounts can differ from payments. Family policies or observed awards therefore do not establish this Trust’s applicant rules, per-award limits or current intake. Exhausted Trust filings were not reprocessed.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recgnI6ctYih5FQw5",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://interpares.ca/wp-content/uploads/2026/05/IP-Etats-financiers-2025.pdf",
+          "title": "Inter Pares — original FY2025 audited statements, issued March 2026",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://interpares.ca/fr/nos-homologues/",
+          "title": "Inter Pares — current French counterpart directory",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://apps.cra-arc.gc.ca/ebci/hacc/srch/pub/dsplyRprtngPrd?dsrdPg=1&q.srchNmFltr=Inter+Pares&q.stts=0007&selectedCharityBn=118971100RR0001",
+          "title": "Canada Revenue Agency — own-site-linked Inter Pares filing record; JavaScript shell",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Followed the own French transparency page to the newer FY2025 audited statements and the linked Canadian charity record. The statements explain overseas programme advances and counterpart expenditure reporting, without publishing recipient selection. The current counterpart directory describes mutual collaboration with over 70 organizations, not a public funding application. The CRA link exposed only a JavaScript loading shell to the reader. Aggregate programme transfers and incoming government funds are not applicant award bounds; eligibility, fiscal sponsorship and a current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6uJtW06yzJWpRJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.ladykhadijatrust.org/projects/immigrant-journeys/",
+          "title": "Lady Khadija Trust — Immigrant Journeys project history and incoming funding",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.ladykhadijatrust.org/projects/community-of-strangers/",
+          "title": "Lady Khadija Trust — Community of Strangers educational project",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Pursued additional own project routes beyond the exhausted statutory reports and leadership course. Immigrant Journeys describes a 2021 storytelling/exhibition project, constrained incoming funding and later recognition; Community of Strangers describes public education about belonging and prejudice. Both link collaboration inquiries, without publishing a bursary, funded-place selection process or external grant application. Project production figures and money received are not applicant award terms. The Trust’s verified overview remains, with outgoing eligibility, funding ranges and current intake still unconfirmed.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://networkabc.ca/building-grant-writing-program-design-and-evaluation-capacity/",
+          "title": "NABC — grant-writing learning-series access, fees and closed 2025 deadline",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://networkabc.ca/examining-funding-and-evaluation-relationships/",
+          "title": "NABC — funding/evaluation engagement access and closed 2025 deadline",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Followed newly linked learning-series pages beyond the institute FAQ. Grant-writing training publishes facilitator review, participant fees and discretionary discussion of alternative contributions, with a closed October 2025 deadline. The funding/evaluation engagement likewise has a November 2025 cutoff and payment instructions. These are paid-training access policies, not cash grants or a committed bursary; fee amounts are not award ranges. No current subsidy entitlement, direct grant criteria or 2026 funding intake was established.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpw4qdfUAaI8McW",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fundacionprolongar.org/wp-content/uploads/2020/09/Libro-FP-Versi%C3%B3n-Digital.pdf",
+          "title": "Prolongar — original 2020 Arte para Reconstruir project book",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://fundacionprolongar.org/wp-content/uploads/2018/04/Informe-de-gesti%C3%B3n_DirectoraEjecutivaWeb.docx.pdf",
+          "title": "Prolongar — original 2017 executive management report",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://fundacionprolongar.org/wp-content/uploads/2022/03/Informe-de-Gestion-Maria-Elisa-Pinto-Garcia-250222.pdf",
+          "title": "Prolongar — alternate 2021 management report; bot verification",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Recovered the previously oversized 2020 project book by ordinary public download and read its credits, participant-selection acknowledgments and funding history. It describes incoming USAID/KAS support and a 2016 scholarship Prolongar received; agency-assisted workshop recruitment is not an external award policy. The newly read 2017 management report details Prolongar’s own funding proposals and donations received. An alternate 2021 management PDF returned bot verification, which was not bypassed. No outgoing grant eligibility, range or current intake was verified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recb5VpXOFbqvyiJD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://ipa-sa.org.za/public/centering-communities-in-the-just-energy-transition-a-question-of-power-not-participation/",
+          "title": "Southern Africa Trust country manager — authored just-transition article on IPASA",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Found a new independently hosted article authored by the Trust’s Zambia country manager and climate-justice lead. It describes community-led energy transition, natural-resource accountability and youth/feminist leadership, with examples of supported CSOs. This supplies clean evidence for additional mission themes, without validating the affected host’s grant terms. Supported-country examples are not exhaustive eligibility. No recipient application, award range or dated call is published in the article; the overview status and all host-integrity warnings remain.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://savinganangel.org/projekte/unhide-ukraine/",
+          "title": "Saving An Angel — own UNHIDE Ukraine delivery and partner description",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://savinganangel.org/kontakt/",
+          "title": "Saving An Angel — general contact details, no recipient application policy",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the own UNHIDE Ukraine project and contact routes beyond the previously reviewed sailing operator. The foundation describes direct creative/therapeutic workshops and collaboration with ARTHELPS and Save Ukraine, including a 2024 mobile workshop. The contact page offers general correspondence, not an application policy. Service beneficiaries and partner examples do not establish outside-project grant eligibility, a funded-place entitlement, monetary awards or current call dates. Its documented charitable activity remains an overview; no public funding offer is inferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

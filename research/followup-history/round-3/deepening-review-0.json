@@ -1,0 +1,565 @@
+{
+  "version": 1,
+  "passId": "policy-followup-3-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://myriadusa.org/for-africa-by-africans-the-proximate-funds-bold-vision-for-change/",
+          "title": "Myriad USA — hosted Proximate Fund structure, July 2025",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://sd.linkedin.com/jobs/view/sudan-fund-manager-at-adeso-4341362661",
+          "title": "Adeso own Sudan Fund Manager notice — employment",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Pursued the fiscal host and partner network rather than repeating Adeso’s rollout page. Myriad USA’s July 2025 explanation describes planned country funds and a mixture of grants, interest-free loans and social finance, but is not a recipient call. The newer own employment notice concerns administration of the Sudan hub. Neither donor fundraising targets nor job terms establish recipient award limits, dates or legal eligibility.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://apccolombia.gov.co/sites/default/files/2024-12/VF_Innovative%20development%20finance.pdf",
+          "title": "APC Colombia institutional finance report — candidate mention",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://historico.colombiasostenible.gov.co/prensa/el-fondo-colombia-sostenible-selecciono-las-organizaciones-que-seran-parte-del-banco-de",
+          "title": "Colombia Sostenible executing-agency list — candidate",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Searched institutional sources for a distinguishing legal or host relationship. Colombia’s government cooperation-finance report and its executing-agency list identify the Colombian Fundación Alpina, but neither connects this name-only directory entry to that entity. The candidate remains plausible rather than resolved; government programme participation is not evidence of an Alpina grant call.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.ir-bankofafrica.ma/en/sustainability/foundations/boa-foundation",
+          "title": "Bank of Africa — BOA Foundation candidate",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://bank-of-africa.net/en/foundation/",
+          "title": "Bank of Africa foundation network — candidate",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Checked a different first-party namesake: Bank of Africa’s own investor-relations and foundation sites explicitly use BOA Foundation for their education/health network. That is distinct from the Indigenous-land foundation considered earlier. The sparse catalog record has no country, domain or mission discriminator, so neither candidate’s focus or eligibility can be assigned safely.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.comms-hub.org/ideation",
+          "title": "CommsHub Ideation & Action",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.comms-hub.org/legaldisclaimer",
+          "title": "FICH legal identity and registration",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.comms-hub.org/",
+          "title": "Current RIA framework and donor regranting offer",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read the current detailed RIA framework, Ideation & Action page and legal disclaimer. They confirm FICH registration 2601 in Spain, CSO campaign support and donor-specific regranting, rather than a Dutch entity or general applicant fund. The only grantmaking contact invites larger donors seeking a regranting service; it does not publish a CSO application process, award schedule or recipient legal requirements.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recKAiFPhplFSH3pj",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://connexus-international.org/connect-with-us/",
+          "title": "Current Connexus partner application policy",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://connexus-international.org/why-connexus/",
+          "title": "Restricted grants and supported project types",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Followed the actual Connect With Us link and reread the fuller Why Connexus grantmaking section. Together they establish restricted grants, proactive partner selection and a current no-unsolicited-application policy. The unpaid-internship section is separate, and the organisation’s total programme expenditure is not an award size.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recKZhrajN6s5GjOs",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.housingisopportunity.org/our-work",
+          "title": "FHO current work and priorities",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.housingisopportunity.org/our-strategy",
+          "title": "FHO strategy and portfolio navigation",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.housingisopportunity.org/get-involved",
+          "title": "FHO funder participation policy — not recipient terms",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the separate Our Work, Our Strategy and Get Involved routes and searched the fiscal host for an RFP. The Get Involved contribution range is what funders are invited to contribute, with a regranting share; it is not an applicant grant range. Current priorities include organising, narrative change and cross-sector solutions, but no recipient application or current invitation policy was verified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rectDLlkmWbjtTWPY",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://humanitas360.org/com-apoio-do-h360-frente-parlamentar-da-cannabis-anuncia-vencedores-de-edital-para-pesquisa-e-programas-sociais/",
+          "title": "H360 account of parliamentary budget-amendment selections",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://humanitas360.org/?s=edital",
+          "title": "H360 site search attempt",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "A fresh Portuguese edital search recovered H360’s December 2025 account of the third Cannabis Parliamentary Front funding selection. It explicitly attributes the resources to state deputies’ budget amendments and describes H360/Ficus as supporters of the forum. That public-budget programme is not reclassified as a private PDR/H360 grant offer. The own-site search route was unavailable; no outside PDR application terms were established.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec7HniiPMgAE26b4",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://assets.performance.gov/cx/equity-action-plans/2022/EO%2013985_IAF_Equity%20Action%20Plan_2022.pdf",
+          "title": "2022 agency grantmaking model — indexed primary text, direct 403",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://public-inspection.federalregister.gov/2023-05394.pdf?1678884324=",
+          "title": "2023 agency concept-note paperwork notice",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Pursued the agency’s own equity plan and Federal Register information-collection record beyond the statutory overview. The indexed official 2022 plan supplies real historical rolling/language and grant-model terms, although direct PDF retrieval is blocked. The 2023 notice concerns proposed concept-note paperwork: its public-comment window is not a grant deadline. Current operations and intake remain unconfirmed; no shutdown conclusion or current rolling offer is inferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://linktr.ee/lefika2024",
+          "title": "Lefika own link page — SELA provenance",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSf_jgO7iF15SEpsk_zRWVMQ741oylXyMy_dmVMY0jMeC5iL-g/viewform",
+          "title": "SELA 2026 Tier 1 public course application",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the own Linktree’s new SELA 2026 signup into the public Tier 1 form without submitting it. It is an in-person leadership/enterprise-development course with June–July 2026 attendance requirements and questions for idea-stage through operational initiatives. It does not state a cash grant, stipend or tuition scholarship. Course attendance dates and a still-visible signup are not a funding deadline or proof of an open award.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclez3QBN9EzsCiI",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.mones.org.mn/_files/ugd/f24046_889c10ec2e624178a3f04499e92c14cc.pdf",
+          "title": "2021–2025 strategic grantmaking priorities and historical costs",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.mones.org.mn/_files/ugd/f24046_059fe269a2cf41b79dc8564556a14161.pdf",
+          "title": "2022 programme and project-proposal support",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Recovered newer English reports instead of the previously found 2009 PDF. Read the 2021 report and downloaded the full 2022 report, which exceeds the browser size limit. They establish an adopted feminist grantmaking strategy, urgent-response priorities, specific historical supported costs and proposal support. Annual totals, thematic allocation shares and individual recipient examples are not converted into standard grant bounds or current eligibility.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.presson.media/grants/",
+          "title": "Original Southern Movement Media Fund application route — 404",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://www.presson.media/wp-json/wp/v2/search?search=fund&per_page=20",
+          "title": "Press On public site-search endpoint — unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Followed a historical Southern Movement Media Fund listing to its original presson.media/grants source, which now returns 404. The listing has internally inconsistent timing, so its deadline and amounts were not copied. Separate Freedomways fellowship reporting concerns another programme and was not merged into this specifically named fund. Own-site search and public search API retrieval also failed, leaving the current recipient terms unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recTUqGBxowGopxEV",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.wayfinderfund.org/about",
+          "title": "Wayfinder purpose and planned multi-year grant model",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.wayfinderfund.org/initiatives",
+          "title": "Wayfinder funder-tour initiative",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.wayfinderfund.org/take-action",
+          "title": "Wayfinder donor/member participation — no grant application",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.nativehawaiianphilanthropy.org/nonprofits",
+          "title": "Kukui membership conditions, not grant eligibility",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.nativehawaiianphilanthropy.org/mauiwildfires",
+          "title": "Historical Maui wildfire support and services",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Discovered and followed the own-site link to the dedicated Wayfinder Fund domain, reading About, Initiatives and Take Action. It describes intended multi-year grants for Native Hawaiian organisations, but still supplies no recipient selection or intake policy; cited typical grants from other Hawaii funders are not Wayfinder award limits. NHP’s Kukui membership fee is not a grant, and the historical wildfire cash-assistance story is separate from Wayfinder.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recEgjzHqv4pOCtGZ",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.nef-europe.org/site-content/uploads/2025/03/State_of_play_of_NEF_collaboratives_March25.pdf",
+          "title": "NEF JAFOWA 2025 selection policy",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.jafowa.org/en/copie-de-appel-%C3%A0-projet-2024-2026",
+          "title": "JAFOWA 2025 round — selected projects and starts",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.jafowa.org/en/copie-de-historique",
+          "title": "JAFOWA mission and agroecology work",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed NEF’s newer 2025 collaborative report into JAFOWA’s own French-language fourth-round update and mission pages. The host report gives a substantive invitation and assessment process; the programme site confirms actual selections. The page’s old copied heading is inconsistent, so the body’s explicit 2025 selection/start information is used. This specific programme is kept separate from other NEF collaboratives.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recbjZ6tq5NKxHXgX",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/full_text/202503149349103280/IRS990PF",
+          "title": "FY2024 submitted Form 990-PF — checked preselected-only policy",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.peoplessupportfoundation.org/",
+          "title": "Own board and mission — filer identity cross-check",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Read the actual foundation-filed FY2024 Form 990-PF, rather than aggregator interpretations that disagree on openness. Verified the preselected-only checkbox is checked in the reconstructed IRS form, not merely the printed template sentence. Matching board names corroborate the filer identity. Historic paid grants are not a standard award range, and the FY2024 policy is not labelled a current open or closed call.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec4302FxdTsPbZXD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://resourcegovernance.org/funders",
+          "title": "NRGI first-hand disclosure of ECF-PIE funding",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Extended beyond ECF’s old host disclosure to the recipient’s current first-hand funding transparency page. NRGI identifies an ECF-PIE grant running October 2025–October 2026 for nongovernmental policy capacity around Mongolia’s copper sector. This corroborates later grant activity, but one recipient, location, amount and term cannot establish a general PIE application policy or typical award bounds.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpXeZbCDN9XFMid",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/full_text/202543029349101219/IRS990PF",
+          "title": "FY2024 submitted Form 990-PF — checked preselected-only policy",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://rippel.org/about/",
+          "title": "Rippel official identity and mission",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Recovered the actual FY2024 filed return and inspected its checked preselected-only/no-unsolicited indicator. The filer’s website, officers and address match Rippel. This distinguishes its limited charitable contributions from its much larger internally operated ReThink Health work. Paid-grant examples and overall expenses do not establish an available award range; the historical policy does not prove current intake.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reczOSRMgycrSfHBx",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.jubilantbhartiafoundation.com/media/press-releases",
+          "title": "Joint SEOY India 2026 call and award announcement",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.jubilantbhartiafoundation.com/social-entrepreneurs",
+          "title": "Joint programme selection criteria and benefits",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Used the joint organiser’s official site after the Schwab selection page remained blocked. Its dated March 2026 call, April deadline and August winner release establish a specific concluded Indian award, while the programme page gives substantive selection criteria. Recognition/networking is not represented as a verified cash grant, and stale 2020 benefit wording is not promoted into a fixed 2026 term.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclYfoGjYuF1YXqF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.ato.gov.au/law/view/pdf/ldt/paf2019-001c2.pdf",
+          "title": "ATO Private Ancillary Fund Guidelines — legal context",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://abr.business.gov.au/ABN/View?abn=45931892596",
+          "title": "Stul trustee private-ancillary-fund identity",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9718a19e-39af-e811-a963-000d3ad24077-9ead28b9-4a5e-4564-b476-d0ab8487cc67-Annual%20Report-a0e76f8a-6d83-e911-a96f-000d3ad244fd-Access_Inc_Annual_Report_2018.pdf",
+          "title": "Recipient Access Inc report — historical Stul donor acknowledgement",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Followed the ABR private-ancillary-fund classification into the Australian Taxation Office’s published ancillary-fund guidelines, and checked official-hosted recipient reports naming Stul. The legal framework distinguishes eligible deductible-gift recipients and allows an eligible recipient to operate abroad; it is not an Australia-work-only rule. No Stul-specific application process, topic policy or award schedule was recovered, so general legislation is not converted into an executable applicant screen.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [],
+      "notes": "Tested the unusual wording as separate exact phrases as well as the full purported name, seeking a legal entity or an official foundation using that tagline. Results were unrelated therapy, training and resilience services; no credible primary identity candidate emerged. Nothing in the original name-only row discriminates an organisation, so the record remains unresolved rather than borrowing a similarly worded mission.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.thefundingnetwork.com.au/about-us/",
+          "title": "TFN Australia — history and global affiliates",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://thefundingnetwork.org.uk/our-impact",
+          "title": "TFN UK — own international-model description",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Checked whether the candidate networks describe a shared institutional identity. The Australian site says the model began in the UK and identifies a global affiliate network, while the UK site describes partners using its model internationally. This explains the shared name but does not establish which affiliate or legal entity the catalog intended. No regional policy, currency or applicant rule was merged into the unresolved entry.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://volta.capital/inversionistas/",
+          "title": "Volta — energy customers and investment partners",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://volta.capital/proyectos/",
+          "title": "Volta — project development and energy solutions",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read the actual Inversionistas and Proyectos pages in Spanish. The stated customer consumption threshold concerns energy buyers; the investment-partner list addresses providers of capital, including funds and banks. These pages market energy projects, PPAs and investment partnerships, without a verified external project-finance application or philanthropic offer. Buyer thresholds and investor preferences are not funding-recipient eligibility.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recaBlDqbooyGb0cE",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.womensfundingnetwork.org/wp-content/uploads/2026/04/2025-WFN-Annual-Report.pdf",
+          "title": "WFN Annual Report 2025 — Just Rise design and future deployment",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.womensfundingnetwork.org/wp-content/uploads/2025/11/2025-WFN-IMPACT-BRIEF-4.pdf",
+          "title": "WFN 2025 impact brief — blended-capital prototype",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.womensfundingnetwork.org/what-we-do/",
+          "title": "WFN current practice and member support",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Downloaded and read the 2025 annual report after the browsing size limit, following the Just Rise Fund lead into the own impact brief. The report describes a blended-capital model being designed and piloted with member funds, with deployment as a future step; it does not publish recipient applications or award terms. Member-network annual grantmaking totals and other member funds’ opportunities are not WFN awards.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recnfO3RkjQc3ZSCN",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.yellowhammerfund.org/",
+          "title": "Yellowhammer current main site — 403",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://www.yellowhammerfund.org/get-help/",
+          "title": "Yellowhammer help route — unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://action.yellowhammerfund.org/a/bizbday",
+          "title": "Yellowhammer own mission and services page",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Rechecked the official host and Get Help route, then recovered the readable own Action Network donation page. It confirms practical/financial reproductive-healthcare assistance and emergency contraception supplies, but supplies no recipient application, current monetary schedule or project-grant programme. Main-site access remains blocked; donor tax FAQs and recurring-gift controls are not assistance eligibility or an open call.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

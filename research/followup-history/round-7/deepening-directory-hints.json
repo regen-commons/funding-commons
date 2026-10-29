@@ -1,0 +1,6071 @@
+{
+  "sourceUrl": "https://www.fito.network/funders-database",
+  "indexedOn": "2026-10-14",
+  "note": "Original directory hints only, not verified eligibility or official identity. Invalid website text may contain useful host/institution context that URL normalization omitted.",
+  "records": [
+    {
+      "sourceRecordId": "recARZwlX7o6zaou1",
+      "name": "Action on Disability and Development International (ADD International)",
+      "websiteText": "https://add.org.uk",
+      "directoryRegions": [
+        "Africa",
+        "Asia"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recJ3S06fpUNyPy7T",
+      "name": "ActionAid UK",
+      "websiteText": "https://www.actionaid.org.uk",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Education & Childhood Development",
+        "Climate & Environment",
+        "Peace & Safety",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "name": "Adeso / Proximate Fund",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recZKp7be3871eN8O",
+      "name": "AERDF (Advanced Education R&D Fund)",
+      "websiteText": "https://aerdf.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Science & Tech"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recz76e8ztw4zbR1M",
+      "name": "Agbara Fund",
+      "websiteText": "[No dedicated site]",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Employment & Livelihoods",
+        "Business & Entrepreneurship",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec8CwtJukTyEZM3N",
+      "name": "Age of Learning Foundation",
+      "websiteText": "https://www.ageoflearning.com",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Science & Tech"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "name": "AGYW+Foundation Lesotho",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec9nKOmaZlm2mGSB",
+      "name": "Aidsfonds (Soa Aids Nederland)",
+      "websiteText": "https://aidsfonds.org",
+      "directoryRegions": [
+        "Africa",
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Gender & Racial Equity",
+        "Children & Youth",
+        "Science & Tech"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recHCa40qAYJmSO8W",
+      "name": "Alinko Foundation (Aliko Dangote Foundation)",
+      "websiteText": "https://dangote.com/foundation/",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Employment & Livelihoods",
+        "Children & Youth"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "name": "Alpina Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec1CG8NCVaa52Jc7",
+      "name": "Amazon Watch",
+      "websiteText": "https://amazonwatch.org",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Indigenous Rights",
+        "Gender & Racial Equity",
+        "Capacity Building",
+        "Climate & environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recGm9J59gbSNB9XT",
+      "name": "American Jewish World Service",
+      "websiteText": "https://ajws.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Environment & Climate",
+        "Governance & Civic Engagement",
+        "Health & Wellness"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recx3OUE7IFSwyCM4",
+      "name": "AMPLIFY Girls",
+      "websiteText": "https://www.amplifygirls.org/",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Children & youth",
+        "Gender & racial equity",
+        "Education & Childhood Development"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 7
+    },
+    {
+      "sourceRecordId": "recZmpFmpmBQkUxHa",
+      "name": "Änderwerk (Änderwerk gGmbH)",
+      "websiteText": "https://aenderwerk.de",
+      "directoryRegions": [
+        "Europe",
+        "Asia",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Gender & Racial Equity",
+        "Refugees & Migration",
+        "Governance & Civic Engagement",
+        "Employment & Livelihoods",
+        "Arts & Culture"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recAHSAEltnDtrOEW",
+      "name": "Apolitical Foundation",
+      "websiteText": "https://apolitical.foundation",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 9
+    },
+    {
+      "sourceRecordId": "rechmUs1r9hitZknx",
+      "name": "Arcus Foundation",
+      "websiteText": "https://www.arcusfoundation.org",
+      "directoryRegions": [
+        "North America",
+        "Africa",
+        "Asia",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Environment & Climate"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recnlBhdPtv4HKAGv",
+      "name": "Asfari Foundation",
+      "websiteText": "https://www.asfarifoundation.org.uk",
+      "directoryRegions": [
+        "Middle East",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Business & Entrepreneurship",
+        "Education & Childhood Development"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recxZYVJPOdM3UwU2",
+      "name": "Astraea Lesbian Foundation for Justice",
+      "websiteText": "https://astraeafoundation.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recwTWZ68fvzg0U8S",
+      "name": "AYNI – Indigenous Women’s Fund (FIMI)",
+      "websiteText": "https://fimi-iiwf.org/en/our-programs/the-ayni-indigenous-womens-fund-program/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Climate & Environment",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "name": "Bala Family Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec8Ye60uPb9TbWSN",
+      "name": "Ban Ki-moon Foundation",
+      "websiteText": "https://www.bankimoonfoundation.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Climate & Environment",
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recHvouBakW61Vs2j",
+      "name": "Baobab",
+      "websiteText": "https://thebaobabnetwork.com/",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Business, entrepreneurship, economics & finance",
+        "Finance",
+        "Science & tech"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recq4bLMEKU9SmZpk",
+      "name": "Bernard and Anne Spitzer Charitable Trust",
+      "websiteText": "N/A",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Arts & Culture",
+        "Education & Childhood Development",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recTQ9YEkfGnn8QFQ",
+      "name": "Bernard van Leer Foundation",
+      "websiteText": "https://bernardvanleer.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Health & Wellness",
+        "Children & Youth",
+        "Infrastructure & Transportation"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recLK5jvDTUN2xxqX",
+      "name": "Better Food Policy Fund",
+      "websiteText": "https://betterfoodpolicy.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Food & Agriculture",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recUK8G4twYxpH5dT",
+      "name": "Bill & Melinda Gates Foundation",
+      "websiteText": "",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Gender & Racial Equity",
+        "Food & Agriculture",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recOti8hGq50865J4",
+      "name": "Black Lives Matter Global Network Foundation",
+      "websiteText": "https://blacklivesmatter.com/",
+      "directoryRegions": [
+        "North America",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Gender & racial equity",
+        "Governance, law & civic engagement",
+        "Media, arts & culture"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recZAbBpPxy0jZNtG",
+      "name": "BMW Foundation (Herbert Quandt)",
+      "websiteText": "https://bmw-foundation.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Infrastructure & Transportation",
+        "Education & Childhood Development",
+        "Business & Entrepreneurship"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "name": "BOA Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "name": "Bridge International Academies Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec0tiMMVsByS59fU",
+      "name": "Builders Vision (Builders Initiative)",
+      "websiteText": "https://buildersvision.com",
+      "directoryRegions": [
+        "North America",
+        "Africa",
+        "Asia",
+        "Europe",
+        "Latin America & Caribbean",
+        "Oceania",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Food & Agriculture",
+        "Water & Sanitation",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recinPMnEsiQOh7CK",
+      "name": "Building Equity & Alignment for Environmental Justice (BEA)",
+      "websiteText": "https://beajustice.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Climate & environment",
+        "Gender & racial equity",
+        "Governance, law & civic engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recQp7J6fWMKJu5Vu",
+      "name": "CAF / Charities Aid Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recfKckTc7DzaMk3h",
+      "name": "CAF America",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recANWw0GtmymYILQ",
+      "name": "California Health Care Foundation",
+      "websiteText": "https://www.chcf.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recQ00XgPGwea4S87",
+      "name": "Canon Collins Trust",
+      "websiteText": "https://canoncollins.org",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "name": "Carnegie Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec5wL3olE01mXpep",
+      "name": "Catalytic Capital Consortium (C3)",
+      "websiteText": "https://catalyticcapitalconsortium.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Economics & Finance",
+        "Climate & Environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recPujOtwXDsFQnaR",
+      "name": "Center for Disaster Philanthropy (CDP)",
+      "websiteText": "https://disasterphilanthropy.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Health & Wellness",
+        "Infrastructure & Transportation",
+        "Water & Sanitation",
+        "Children & Youth"
+      ],
+      "applicationSignals": [
+        "Rolling mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec8s51eDugwS5OMe",
+      "name": "Central American Women’s Fund (FCAM)",
+      "websiteText": "https://fondocentroamericano.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Health & Wellness",
+        "Peace & Safety",
+        "Employment & Livelihoods",
+        "Governance & Civic Engagement",
+        "Climate & Environment",
+        "Refugees & Migration",
+        "Indigenous Rights"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recdHjcFXirt4pSTZ",
+      "name": "Central Square Foundation (CSF)",
+      "websiteText": "https://www.centralsquarefoundation.org/",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Children & Youth"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recv8szPwma10nIbL",
+      "name": "Centre for Exponential Change",
+      "websiteText": "https://centreforexponentialchange.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Governance & civic engagement",
+        "Health & wellness",
+        "Education & Childhood Development",
+        "Climate & environment"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recwXHRWDAqlvBhKO",
+      "name": "Chan Zuckerberg Initiative (CZI)",
+      "websiteText": "https://chanzuckerberg.com",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Capacity Building",
+        "Community development",
+        "Science",
+        "Health & Wellness",
+        "Science & Tech",
+        "Peace & Safety",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rechS5IVmPsHHv6uc",
+      "name": "Change Elemental",
+      "websiteText": "https://changeelemental.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & racial equity",
+        "Governance & civic engagement",
+        "Peace & safety"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recW0qENgVtZUExIs",
+      "name": "Chesapeake Bay Trust",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recdtH2oqZYE8SM0X",
+      "name": "Children’s Helpers Worldwide (CHW)",
+      "websiteText": "http://www.chworldwide.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Education & Childhood Development",
+        "Health & Wellness",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recc9jXHojdJIm6Qu",
+      "name": "Choose Love (Help Refugees)",
+      "websiteText": "https://choose.love",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Middle East",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Refugees & Migration",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [
+        "Rolling mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec5mSbOsSqIQZUGM",
+      "name": "Civic Power Fund",
+      "websiteText": "https://www.civicpower.org.uk/",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Rolling mentioned"
+      ],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recHJ2IB6L3bl8JhK",
+      "name": "CLAC Foundation",
+      "websiteText": "https://www.clacfoundation.ca/about-us",
+      "directoryRegions": [
+        "North America",
+        "Africa",
+        "Asia"
+      ],
+      "directorySectors": [
+        "labor rights",
+        "employment equity",
+        "workforce development"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "rectDVJJYBCxo3Ahs",
+      "name": "Clare Foundation (New Zealand)",
+      "websiteText": "https://clare.nz",
+      "directoryRegions": [
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Health & Wellness",
+        "Children & Youth",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recRJaVyfhjQxpWE8",
+      "name": "Clean Air Fund (CAF)",
+      "websiteText": "https://www.cleanairfund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Health & Wellness"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recUlPGswNITQKNej",
+      "name": "Clean Grid Initiative (CGI)",
+      "websiteText": "No dedicated site (fiscally sponsored by Multiplier)",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Infrastructure & Transportation"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recM82H9KDqGs6phl",
+      "name": "CLIMA Fund",
+      "websiteText": "http://climasolutions.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "North America"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Indigenous Rights",
+        "Gender & Racial Equity",
+        "Children & Youth"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recHux105H2B9MmlE",
+      "name": "Climate and Clean Energy Equity Fund",
+      "websiteText": "https://theequityfund.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recXGvyBoEq7aWuGe",
+      "name": "Climate and Land Use Alliance (CLUA)",
+      "websiteText": "https://www.climateandlandusealliance.org",
+      "directoryRegions": [
+        "Latin America & Caribbean",
+        "Asia",
+        "North America"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Indigenous Rights",
+        "Food & Agriculture",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recRkK6BPYYaqg1zk",
+      "name": "Climate Emergency Collaboration Group (CECG)",
+      "websiteText": "https://www.climatecollaboration.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Europe",
+        "North America",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reck1OHlREmiXhDcS",
+      "name": "Climate Justice Resilience Fund",
+      "websiteText": "https://www.cjrfund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Indigenous Rights",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec9fBEyvIAOuPbVi",
+      "name": "Climate Resilience Fund",
+      "websiteText": "https://www.climateresiliencefund.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Climate & environment",
+        "Governance & civic engagement",
+        "Economics & finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recU7rsNPnzpBSdvP",
+      "name": "ClimateWorks Foundation",
+      "websiteText": "https://www.climateworks.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Environment & Climate"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "name": "Colleaga",
+      "websiteText": "https://global.colleaga.org/",
+      "directoryRegions": [],
+      "directorySectors": [
+        "Business & entrepreneurship",
+        "Economics & finance",
+        "Governance & civic engagement",
+        "Science & tech"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 5
+    },
+    {
+      "sourceRecordId": "recBJwa3iIMNuGDnH",
+      "name": "Comic Relief",
+      "websiteText": "https://www.comicrelief.com",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Gender & Racial Equity",
+        "Environment & Climate",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "name": "CommsHub (Foundation for International Communications Hub)",
+      "websiteText": "https://comms-hub.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Climate & Environment",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recM69Qg1wcBAqxjm",
+      "name": "Communities for Just Schools Fund",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recJnEGA1LiDXHdOp",
+      "name": "Community Foundation of Puerto Rico",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recdSrToNEtxTCGDg",
+      "name": "Community Foundation of Singapore",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "reczCJTknAQMNPYF3",
+      "name": "Community Foundation of the Mahoning Valley",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recpMD9fss1s2KqeR",
+      "name": "Community Foundations of Canada",
+      "websiteText": "https://communityfoundations.ca/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Economics & finance",
+        "Governance & civic engagement",
+        "Gender & racial equity",
+        "Climate & environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recKAiFPhplFSH3pj",
+      "name": "Connexus-International gGmbH",
+      "websiteText": "https://connexus-international.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recdsbQZbg3HXlss5",
+      "name": "Count Me In! (CMI!)",
+      "websiteText": "https://cmiconsortium.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Gender & racial equity",
+        "Governance & civic engagement",
+        "Economics & finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "rec4khMxlo8UwESUz",
+      "name": "Crown Family Philanthropies",
+      "websiteText": "https://crownfamilyphilanthropies.org",
+      "directoryRegions": [
+        "North America",
+        "Middle East",
+        "Africa"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Climate & Environment",
+        "Health & Wellness",
+        "Peace & Safety",
+        "Faith & Spirituality"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recG2BGwKm8uh2Tkm",
+      "name": "Dalia Association",
+      "websiteText": "https://www.dalia.ps",
+      "directoryRegions": [
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Food & Agriculture",
+        "Gender & Racial Equity",
+        "Children & Youth",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recpQfyOPO2aE85P9",
+      "name": "Dasra",
+      "websiteText": "https://www.dasra.org",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Gender & Racial Equity",
+        "Health & Wellness",
+        "Water & Sanitation",
+        "Education & Childhood Development"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recoycPTJtIiq87rb",
+      "name": "DC Bar Foundation",
+      "websiteText": "https://www.dcbarfoundation.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Justice"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recin7AuNqQ3YfQIA",
+      "name": "Decolonizing Wealth Project (Liberated Capital)",
+      "websiteText": "https://decolonizingwealth.com",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Indigenous Rights",
+        "Health & Wellness",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec9ttY0jGlmSZgaw",
+      "name": "Deep South Center for Environmental Justice",
+      "websiteText": "https://dscej.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Climate & environment",
+        "Governance & civic engagement",
+        "Employment & Livelihoods",
+        "Gender & racial equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recHtVI3SinIzIpeh",
+      "name": "Democracy Alliance",
+      "websiteText": "https://www.democracyalliance.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Governance & civic engagement",
+        "Gender & racial equity",
+        "Economics & finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 5
+    },
+    {
+      "sourceRecordId": "recEaNCUeyOEdhXdM",
+      "name": "Democracy and Media Foundation (Stichting Democratie en Media)",
+      "websiteText": "https://www.sdm.nl",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Arts & Culture",
+        "Governance & Civic Engagement",
+        "Science & Tech",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec6nx0i8gFRmDwwi",
+      "name": "Democracy at Work Fund (DAWF)",
+      "websiteText": "https://democracyatworkfund.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Economics & Finance",
+        "Climate & Environment"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recJujzsjlOZFSRBj",
+      "name": "Democracy Fund",
+      "websiteText": "https://www.democracyfund.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Science & Tech",
+        "Arts & Culture"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec8bd5zrl7m9ybig",
+      "name": "Digital Democracy Initiative",
+      "websiteText": "https://digitaldemocracyinitiative.net/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Governance & civic engagement",
+        "Science & tech",
+        "Gender & racial equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recqgv7g7DVLiDTlF",
+      "name": "DKA Austria (Dreikönigsaktion)",
+      "websiteText": "https://www.dka.at/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Food & Agriculture",
+        "Education & Childhood Development",
+        "Climate & Environment",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec6HmWzYyG5SB9D5",
+      "name": "Dr. Bronner’s Family Foundation",
+      "websiteText": "https://bronnerfamilyfoundation.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Governance & Civic Engagement",
+        "Refugees & Migration",
+        "Climate & Environment",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recf7Elp25mpJTbxs",
+      "name": "Dr. Martens Foundation",
+      "websiteText": "https://www.drmartensplc.com/sustainability/people/dr-martens-foundation/",
+      "directoryRegions": [
+        "Europe",
+        "North America",
+        "Asia"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement",
+        "Health & Wellness"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recMf4BRZYJ2L40e1",
+      "name": "Drosos Foundation",
+      "websiteText": "https://drosos.org",
+      "directoryRegions": [
+        "Middle East",
+        "Africa",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Education & Childhood Development",
+        "Employment & Livelihoods",
+        "Business & Entrepreneurship"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recXrvNIhlOzTEuCr",
+      "name": "Dunn Family Charitable Foundation (USA)",
+      "websiteText": "https://dunnfcf.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Refugees & Migration",
+        "Indigenous Rights",
+        "Climate & Environment",
+        "Food & Agriculture",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recC5RM5NZBgkEyyl",
+      "name": "Early Childhood Regional Networks Fund (ECRN Fund)",
+      "websiteText": "https://ecdnetworksfund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Health & Wellness",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec4sQU3Ha3RpNUSv",
+      "name": "Echidna Giving",
+      "websiteText": "https://echidnagiving.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Gender & Racial Equity",
+        "Gender Equality"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recAI1N40iri7KaFm",
+      "name": "EcoHub Foundation (Armenia)",
+      "websiteText": "https://ecohub.am/en/",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Climate & environment",
+        "Education & Childhood Development",
+        "Governance & civic engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "rec7YnVUY6Nb9w7BP",
+      "name": "Economic Security Project",
+      "websiteText": "https://economicsecurityproject.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Economics & Finance",
+        "Employment & Livelihoods",
+        "Gender & Racial Equity",
+        "Environment & Climate"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recmUwHMxcX8wlHBi",
+      "name": "Einhorn Collaborative",
+      "websiteText": "https://einhorncollaborative.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Education & Childhood Development",
+        "Children & Youth",
+        "Health & Wellness"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "name": "Energy Transition Fund (ETF)",
+      "websiteText": "(No standalone site – part of Climate Change Collaboration)",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recrtbXegE9kq398h",
+      "name": "Engagement Migros (Migros Pioneer Fund)",
+      "websiteText": "https://engagement.migros.ch/",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Arts & Culture",
+        "Climate & Environment",
+        "Science & Tech",
+        "Business & Entrepreneurship"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recZ7TWKoGKBHxQj9",
+      "name": "Engineering and Physical Sciences Research Council (EPSRC)",
+      "websiteText": "https://www.ukri.org/councils/epsrc",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Science & Tech",
+        "Education & Childhood Development"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec0mEeC7MFmiXPBf",
+      "name": "English Family Foundation",
+      "websiteText": "https://englishfoundation.org.au",
+      "directoryRegions": [
+        "Oceania",
+        "Asia"
+      ],
+      "directorySectors": [
+        "Business & Entrepreneurship",
+        "Economics & Finance",
+        "Environment & Climate",
+        "Education & Childhood Development"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec2b850wnD7Ezz2q",
+      "name": "Environmental Defenders Collaborative",
+      "websiteText": "https://www.defenderscollaborative.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Indigenous Rights"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec9zkozBYLkW4QQ2",
+      "name": "Equality Fund",
+      "websiteText": "https://equalityfund.ca",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Gender Equality"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recXHNWKL9D6zhDwT",
+      "name": "Equation Campaign & CliDEF",
+      "websiteText": "https://www.equationcampaign.org; https://www.climatelegaldefense.org",
+      "directoryRegions": [
+        "North America",
+        "Africa",
+        "Asia",
+        "Europe",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Indigenous Rights",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recGeW87mrSquMgaY",
+      "name": "Equitable Building Electrification Fund (Collectrify)",
+      "websiteText": "https://www.collectrify.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Health & Wellness",
+        "Employment & Livelihoods",
+        "Infrastructure & Transportation"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recRkBQ2k6ZxJ1nef",
+      "name": "ering Foundation",
+      "websiteText": "https://www.keringfoundation.org",
+      "directoryRegions": [
+        "Europe",
+        "North America",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Children & Youth",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recpzyMJ7OnKydVWE",
+      "name": "Esmee Fairbairn Foundation",
+      "websiteText": "https://esmeefairbairn.org.uk",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Gender & Racial Equity",
+        "Arts & Culture",
+        "Education & Childhood Development",
+        "Economics & Finance",
+        "Refugees & Migration"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec49SyfcdjpX3v7W",
+      "name": "European AI & Society Fund",
+      "websiteText": "https://europeanaifund.org/",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Science & Tech",
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity",
+        "Environment & Climate"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recnVflQoaHigLlEs",
+      "name": "European Philanthropic Initiative for Migration (EPIM)",
+      "websiteText": "https://epim.info/",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Refugees & Migration",
+        "Governance & civic engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recJqlgnyR9K4tUUm",
+      "name": "Fair Education Alliance",
+      "websiteText": "https://faireducation.org.uk",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Children & Youth",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recHPHuPLuH6Stpfp",
+      "name": "Farm-Food-Climate",
+      "websiteText": "https://farm-food-climate.de/",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Food & agriculture",
+        "Climate & environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recDBqvlbBAMYxaLH",
+      "name": "Farming the Future",
+      "websiteText": "https://www.farmingthefuture.uk",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Food & Agriculture",
+        "Environment & Climate",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recVwPnKWPji9B5EE",
+      "name": "FemFund Poland",
+      "websiteText": "http://www.femfund.pl",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec5egj5N3v0F2iIV",
+      "name": "Field Foundation of Illinois",
+      "websiteText": "https://fieldfoundation.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Arts & Culture",
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Rolling mentioned",
+        "Calls mentioned",
+        "Referral mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recUTphsGtsWAHe0u",
+      "name": "Firelight (Firelight Foundation)",
+      "websiteText": "https://www.firelightfoundation.org",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Health & Wellness",
+        "Education & Childhood Development"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recARpkilmwn6MiOM",
+      "name": "Firelight Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "reco6N5HxiNl9JxKa",
+      "name": "Firetree Trust / Firetree Philanthropy",
+      "websiteText": "https://firetreephilanthropy.org",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Refugees & Migration",
+        "Gender & Racial Equity",
+        "Health & Wellness"
+      ],
+      "applicationSignals": [
+        "Calls mentioned",
+        "Referral mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recFjSezAxn56QQwU",
+      "name": "First Peoples’ Cultural Foundation (FPCF)",
+      "websiteText": "https://fpcf.ca",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Arts & Culture",
+        "Education & Childhood Development"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec8KK5zKCq9EhUWp",
+      "name": "Focus Central America Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recseP4TxJPB55Q7Q",
+      "name": "Fondation CHANEL",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec3apPRRGP4Fqkvw",
+      "name": "Fondation Danielle Mitterrand",
+      "websiteText": "https://fondationdaniellemitterrand.org/en/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Water & Sanitation",
+        "Environment & Climate",
+        "Indigenous Rights",
+        "Food & Agriculture",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec2MVN4Je5LrrDAa",
+      "name": "Fondation Marius Jacob",
+      "websiteText": "No official site",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Peace & Safety",
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recSZN9ckNi2cuE1y",
+      "name": "Fondazione Con Il Sud",
+      "websiteText": "https://www.fondazioneconilsud.it",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Employment & Livelihoods",
+        "Education & Childhood Development",
+        "Governance & Civic Engagement",
+        "Livelihoods, Employment & Opportunity",
+        "Business & Entrepreneurship"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recmYQqD6DP6EtfeR",
+      "name": "Fondazione Italiana Accenture",
+      "websiteText": "https://fondazioneaccenture.it",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Employment & Livelihoods",
+        "Science & Tech"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec7h7mbGFBNdNWpM",
+      "name": "Fondo de Acción Urgente de América Latina y el Caribe (Urgent Action Fund LAC)",
+      "websiteText": "https://fondoaccionurgente.org.co",
+      "directoryRegions": [
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Climate & Environment",
+        "Indigenous Rights",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Rolling mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recHfUI8FZd7vwYKg",
+      "name": "Fondo Semillas, A.C.",
+      "websiteText": "https://semillas.org.mx",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recFP7B5PK11Bj8lO",
+      "name": "Fonds pour les Femmes Congolaises (FFC) – DRC Women’s Fund",
+      "websiteText": "https://www.ffcrdc.org",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Health & Wellness",
+        "Economics & Finance",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recmwR7BcJVVFp7r8",
+      "name": "FORGE (Funders Organized for Rights in the Global Economy)",
+      "websiteText": "https://forgefunders.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "North America",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Economics & Finance",
+        "Employment & Livelihoods",
+        "Climate & Environment",
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recVJETVpwhMkTzXz",
+      "name": "Fossil Foundation",
+      "websiteText": "https://www.fossilfoundation.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Education & Childhood Development",
+        "Employment & Livelihoods",
+        "Business & Entrepreneurship",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recEusZbyz731whCk",
+      "name": "Foundation for a Just Society (FJS)",
+      "websiteText": "https://www.fjs.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Indigenous Rights",
+        "Peace & Safety",
+        "Governance & Civic Engagement",
+        "Children & Youth",
+        "Health & Wellbeing",
+        "Environment & Climate",
+        "Refugees & Migration",
+        "Livelihoods, Employment & Opportunity",
+        "LGBTQ+"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recEDFVirg5CHe8uf",
+      "name": "Foundation for International Law for the Environment (FILE)",
+      "websiteText": "https://filefoundation.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recIHYWXmBakUeMjs",
+      "name": "Freedom Fund",
+      "websiteText": "https://freedomfund.org",
+      "directoryRegions": [
+        "Asia",
+        "Africa",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Employment & Livelihoods",
+        "Gender & Racial Equity",
+        "Children & Youth",
+        "Peace & Safety",
+        "Refugees & Migration"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recquTrKjWRFlxLAm",
+      "name": "FRIDA – The Young Feminist Fund",
+      "websiteText": "https://youngfeministfund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Children & Youth",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recIoIb07nrej4UmT",
+      "name": "Fund for Global Human Rights",
+      "websiteText": "https://globalhumanrights.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Children & Youth",
+        "Employment & Livelihoods",
+        "Refugees & Migration",
+        "Climate & Environment",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "name": "Fund for Policy Reform Trust (Open Society)",
+      "websiteText": "No public site",
+      "directoryRegions": [
+        "North America",
+        "Africa",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Refugees & Migration"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recqHYivhVD9D2l76",
+      "name": "Fundação Lemann",
+      "websiteText": "https://fundacaolemann.org.br",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Governance & Civic Engagement",
+        "Science & Tech"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recgrpGdjVDL52eBe",
+      "name": "Fundación Arturo & Enrica Sesana",
+      "websiteText": "https://fundacionsesana.org",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Governance & Civic Engagement",
+        "Education & Childhood Development"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recp91B5q30ehchTm",
+      "name": "Fundación Avina",
+      "websiteText": "https://www.avina.net",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Governance & Civic Engagement",
+        "Business & Entrepreneurship",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recOXHELOLzKeWy1h",
+      "name": "Fundación Comunitaria de Puerto Rico (FCPR)",
+      "websiteText": "https://www.fcpr.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Water & Sanitation",
+        "Climate & Environment",
+        "Infrastructure & Transportation",
+        "Education & Childhood Development",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rectrU4ynL289RM15",
+      "name": "Fundación Corona",
+      "websiteText": "https://www.fundacioncorona.org",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Employment & Livelihoods",
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reckDQNvE1b8YWAhe",
+      "name": "Fundación Santo Domingo",
+      "websiteText": "https://fundacionsantodomingo.org",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Climate & Environment",
+        "Health & Wellness",
+        "Housing & Homelessness",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "name": "Fundación TAAP",
+      "websiteText": "https://fundaciontaap.org",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Peace & Safety",
+        "Arts & Culture",
+        "Children & Youth"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recKZhrajN6s5GjOs",
+      "name": "Funders for Housing and Opportunity",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recQAraMzcD8BmrVI",
+      "name": "Give2Asia",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recKmzBcIIxwyrCOL",
+      "name": "Global Alliance for Green and Gender Action (GAGGA)",
+      "websiteText": "https://gaggaalliance.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & environment",
+        "Gender & racial equity",
+        "Indigenous rights"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 5
+    },
+    {
+      "sourceRecordId": "rec5ZN08imifvwQFK",
+      "name": "Global Development Network (GDN)",
+      "websiteText": "https://www.gdn.int",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Governance & civic engagement",
+        "Science & tech",
+        "Economics & finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recQSR8KcrEGcjOdR",
+      "name": "Global Fund for a New Economy",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recE0tOJKEQZFQ33x",
+      "name": "Global Fund for Women",
+      "websiteText": "https://www.globalfundforwomen.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recg4hjcfF8JGHSxi",
+      "name": "Global Methane Hub (GMH)",
+      "websiteText": "https://www.globalmethanehub.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Food & Agriculture",
+        "Science & Tech"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recqu9yc9tuVE50uR",
+      "name": "Global Partnership for Education",
+      "websiteText": "https://www.globalpartnership.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Gender & racial equity",
+        "Governance & civic engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 7
+    },
+    {
+      "sourceRecordId": "recOseNXEwti0k0XY",
+      "name": "Global Resilience Fund",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "name": "Global Welfare Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec1H2UfyfA1LNDtk",
+      "name": "GlobalGiving",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recdWhe081YvXsPiM",
+      "name": "Grassroots International",
+      "websiteText": "https://grassrootsonline.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Food & Agriculture",
+        "Climate & Environment",
+        "Indigenous Rights",
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recV9ifc0QZaVrOof",
+      "name": "Groundswell Fund",
+      "websiteText": "https://groundswellfund.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Health & Wellness",
+        "Climate & Environment",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recArexI3efS8Oxcc",
+      "name": "Growald Climate Fund (GCF)",
+      "websiteText": "https://www.growaldclimatefund.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Science & Tech",
+        "Economics & Finance",
+        "Governance & Civic Engagement",
+        "Environment & Climate"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec01JcunIGky0zBC",
+      "name": "Guy’s & St Thomas’ Charity (Guy’s & St Thomas’ Foundation)",
+      "websiteText": "https://www.gsttfoundation.org.uk",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Children & Youth",
+        "Economics & Finance",
+        "Environment & Climate"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recBDZAbSW1C0t0YS",
+      "name": "H&M Foundation",
+      "websiteText": "https://hmfoundation.com",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Gender & Racial Equity",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recTQMgGnvmEseTmT",
+      "name": "Haymarket People’s Fund",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "reciixgqYSHp8VNri",
+      "name": "Healthy Food Healthy Planet (HFHP)",
+      "websiteText": "https://www.hfhp.eu/",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Food & agriculture",
+        "Climate & environment",
+        "Health & wellness",
+        "Governance & civic engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 7
+    },
+    {
+      "sourceRecordId": "rec5BEuZjgcUrxqXF",
+      "name": "Heart & Hand Fund",
+      "websiteText": "https://heartandhandfund.org",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Peace & Safety",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recCMcJTESUsQNSDP",
+      "name": "Heinrich Böll Foundation (HBS)",
+      "websiteText": "https://www.boell.de",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recD5mfbCpYYLj6Cb",
+      "name": "Heinz Endowments",
+      "websiteText": "https://www.heinz.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Arts & Culture",
+        "Education & Childhood Development",
+        "Environment & Climate",
+        "Gender & Racial Equity",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recV5ZAVZNPsYGjZV",
+      "name": "HER Fund (Hong Kong)",
+      "websiteText": "https://herfund.org.hk",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recWk2bZm7WUrRgtE",
+      "name": "Hispanics in Philanthropy (HIP)",
+      "websiteText": "https://hipfunds.org/",
+      "directoryRegions": [
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Gender & racial equity",
+        "Migration",
+        "Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recSkq2YJXXBTAVel",
+      "name": "Hopelab",
+      "websiteText": "https://hopelab.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Science & Tech",
+        "Children & Youth",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reclhUeTX3iYWZ8Rf",
+      "name": "Human Capability Foundation",
+      "websiteText": "https://www.humancapabilityfoundation.com",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Health & Wellness",
+        "Gender & Racial Equity",
+        "Refugees & Migration"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recwA7k4EbgWoCbDH",
+      "name": "Humanitarian Innovation Fund (Elrha)",
+      "websiteText": "https://www.elrha.org/programme/hif",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Middle East",
+        "Latin America & Caribbean",
+        "Europe",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Peace & Safety",
+        "Science & Tech"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recOe21OyTPeJYd9y",
+      "name": "Humanity United Action (HUA)",
+      "websiteText": "No dedicated site (see humanityunited.org)",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Peace & Safety",
+        "Employment & Livelihoods",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec7OfeIBM9qwK7SG",
+      "name": "Imaginable Futures",
+      "websiteText": "https://www.imaginablefutures.com",
+      "directoryRegions": [
+        "Africa",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Children & youth",
+        "Gender & racial equity",
+        "Employment & Livelihoods",
+        "diversity, equity & inclusion"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recj0vf8pnofBPum1",
+      "name": "Imago Dei Fund",
+      "websiteText": "https://imagodeifund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender Equality",
+        "Community development",
+        "Gender & Racial Equity",
+        "Faith & Spirituality"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recFZWtWAAmsxmaP6",
+      "name": "Impact Shakers",
+      "websiteText": "https://www.impactshakers.com/",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Business, entrepreneurship, economics & finance",
+        "Gender & racial equity",
+        "Climate & environment"
+      ],
+      "applicationSignals": [
+        "Rolling mentioned"
+      ],
+      "fieldsFilled": 7
+    },
+    {
+      "sourceRecordId": "recdhJcjEZKkLavhw",
+      "name": "IMPAQTO",
+      "websiteText": "https://impaqto.net/",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Business, entrepreneurship, economics & finance",
+        "Finance",
+        "Climate & environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 7
+    },
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "name": "Inchara Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 2
+    },
+    {
+      "sourceRecordId": "recUy4fdj34Ss8gGK",
+      "name": "Inclusiv",
+      "websiteText": "https://inclusiv.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Finance",
+        "Business, entrepreneurship, economics & finance",
+        "Climate & environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 7
+    },
+    {
+      "sourceRecordId": "rec6CaoLQP7toDdP1",
+      "name": "Ing Foundation",
+      "websiteText": "https://www.ing-foundation.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Education & Childhood Development",
+        "Arts & Culture",
+        "Climate & Environment",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recRiwn3ak6Hrp4Zi",
+      "name": "Iniciativa Climática de México (ICM)",
+      "websiteText": "http://iniciativaclimatica.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recbSiWF7Vc0octx4",
+      "name": "Innovation Foundation (Nesta)",
+      "websiteText": "https://www.nesta.org.uk",
+      "directoryRegions": [
+        "Europe",
+        "North America"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Health & Wellness",
+        "Climate & Environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recV7EADgAIUPUwZi",
+      "name": "Instituto Beja",
+      "websiteText": "https://institutobeja.org",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Education & Childhood Development",
+        "Climate & Environment",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recKkrUEyYu4JTxvZ",
+      "name": "Instituto Clima e Sociedade (iCS)",
+      "websiteText": "https://climaesociedade.org",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Economics & Finance",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rectDLlkmWbjtTWPY",
+      "name": "Instituto Humanitas 360 / PDR Fundo Filantrópico",
+      "websiteText": "https://humanitas360.org",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Peace & Safety",
+        "Governance & Civic Engagement",
+        "Business & Entrepreneurship"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recPVAEu1r0uXhmzS",
+      "name": "Instituto Phi",
+      "websiteText": "https://institutophi.org.br",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Health & Wellness",
+        "Economics & Finance",
+        "Governance & Civic Engagement",
+        "Arts & Culture",
+        "Climate & Environment",
+        "Employment & Livelihoods",
+        "Infrastructure & Transportation"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recgnI6ctYih5FQw5",
+      "name": "Inter Pares (Canada)",
+      "websiteText": "https://interpares.ca",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Food & Agriculture",
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Governance & Civic Engagement",
+        "Economics & Finance",
+        "Health & Wellness",
+        "Refugees & Migration"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec7HniiPMgAE26b4",
+      "name": "Inter-American Foundation",
+      "websiteText": "https://www.iaf.gov/",
+      "directoryRegions": [
+        "Latin America & Caribbean",
+        "North America"
+      ],
+      "directorySectors": [
+        "Food & Agriculture",
+        "Employment & Livelihoods",
+        "Governance & Civic Engagement",
+        "Environment & Climate",
+        "Refugees & Migration",
+        "Indigenous Rights"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recKqniDctHq4TTN6",
+      "name": "International Dev. Research Centre (IDRC) (Canada)",
+      "websiteText": "https://idrc.ca",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Health & Wellness",
+        "Science & Tech",
+        "Economics & Finance",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recANd5viqznYvF7c",
+      "name": "International Fund for Public Interest Media",
+      "websiteText": "https://ifpim.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Europe",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reclELHBM37wcMrzW",
+      "name": "International Indigenous Women’s Forum (FIMI)",
+      "websiteText": "https://fimi-iiwf.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Indigenous rights",
+        "Gender & racial equity",
+        "Governance & civic engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 7
+    },
+    {
+      "sourceRecordId": "rec1RNkblcRl57q0t",
+      "name": "International Indigenous Women’s Forum / FIMI",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 2
+    },
+    {
+      "sourceRecordId": "recQwDLcdM4kJUZDp",
+      "name": "ISDAO / Initiative Sankofa d’Afrique de l’Ouest",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 2
+    },
+    {
+      "sourceRecordId": "receRBCqhXdnwDgxQ",
+      "name": "Jacobs Foundation",
+      "websiteText": "https://jacobsfoundation.org/",
+      "directoryRegions": [
+        "Europe",
+        "Africa",
+        "Latin America & Caribbean",
+        "Asia (global)"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Children & youth",
+        "Governance & civic engagement",
+        "Economics & finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recqnLGfTjw9rRHJu",
+      "name": "Jeevan Darshan Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 2
+    },
+    {
+      "sourceRecordId": "recNsdVZZQsMb1heO",
+      "name": "Joachim Herz Stiftung",
+      "websiteText": "https://www.joachim-herz-stiftung.de/en",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Science & Tech"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recxPzJLA9G0btOLd",
+      "name": "Joseph Rowntree Foundation (UK)",
+      "websiteText": "https://www.jrf.org.uk",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Economics & Finance",
+        "Employment & Livelihoods",
+        "Gender & Racial Equity",
+        "Climate & Environment",
+        "Children & Youth",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rect3g6oRKQywiExa",
+      "name": "Joyce Foundation",
+      "websiteText": "https://www.joycefdn.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Employment & Livelihoods",
+        "Climate & Environment",
+        "Peace & Safety",
+        "Governance & Civic Engagement",
+        "Arts & Culture",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec3mpT8ju7FliY7E",
+      "name": "JPMorgan Chase Foundation",
+      "websiteText": "https://www.jpmorganchase.com/impact",
+      "directoryRegions": [
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "directorySectors": [
+        "Economics & Finance",
+        "Employment & Livelihoods",
+        "Climate & Environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recB4EfLh3AZGu6SD",
+      "name": "Justice Funders",
+      "websiteText": "https://justicefunders.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Indigenous Rights",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 9
+    },
+    {
+      "sourceRecordId": "recngyJvK8E46evcP",
+      "name": "Katapult",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 2
+    },
+    {
+      "sourceRecordId": "recHIK4aZHBYgK9eB",
+      "name": "Kauffman Foundation",
+      "websiteText": "https://www.kauffman.org/our-strategy/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Employment & Livelihoods",
+        "Business & entrepreneurship",
+        "Economics & finance",
+        "Children & youth",
+        "Business & Entrepreneurship"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recNRkQyG1uiWaBKN",
+      "name": "KCDF / Kenya Community Development Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 2
+    },
+    {
+      "sourceRecordId": "recMs7it8z2uXJ8Kb",
+      "name": "Kindle Project",
+      "websiteText": "https://kindleproject.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Arts & Culture",
+        "Climate & Environment",
+        "Gender & Racial Equity",
+        "Business & Entrepreneurship"
+      ],
+      "applicationSignals": [
+        "Referral mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recGbteXNWzGQp5eT",
+      "name": "King Baudouin Foundation / Be Philanthropy",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 2
+    },
+    {
+      "sourceRecordId": "recIpHljosjoulYl3",
+      "name": "Korea Foundation for Women (KFW)",
+      "websiteText": "https://womenfund.or.kr",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Children & Youth",
+        "Health & Wellness"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recxGlMhgKcl26AYa",
+      "name": "La Caixa Foundation",
+      "websiteText": "https://lacaixafoundation.org",
+      "directoryRegions": [
+        "Europe",
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "North America",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Infrastructure & Transportation",
+        "Arts & Culture"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec6uJtW06yzJWpRJ",
+      "name": "Lady Khadija Trust NZ",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 2
+    },
+    {
+      "sourceRecordId": "recwS28LGlQaHDFd8",
+      "name": "Lambent Foundation",
+      "websiteText": "https://lambentfoundation.org",
+      "directoryRegions": [
+        "North America",
+        "Africa"
+      ],
+      "directorySectors": [
+        "Arts & Culture",
+        "Gender & Racial Equity",
+        "Climate & Environment"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recP77PICchzZgHAL",
+      "name": "Land is Life",
+      "websiteText": "https://www.landislife.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Climate & Environment",
+        "Gender & Racial Equity",
+        "Food & Agriculture",
+        "Peace & Safety",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recidJA2T2lSaiQQn",
+      "name": "Laudes Foundation",
+      "websiteText": "https://www.laudesfoundation.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Economics & Finance",
+        "Employment & Livelihoods",
+        "Gender & Racial Equity",
+        "Fashion",
+        "Built ENvironments",
+        "Finance & Capital"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recoEYnFxeNOuzY7i",
+      "name": "Laura and John Arnold Foundation (Arnold Ventures)",
+      "websiteText": "https://www.arnoldventures.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Health & Wellness",
+        "Governance & Civic Engagement",
+        "Climate & Environment",
+        "Education & Childhood Development",
+        "Infrastructure & Transportation",
+        "Economics & Finance",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "name": "Lefika Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec5ss8O441Ps5AbK",
+      "name": "Lever for Change",
+      "websiteText": "https://www.leverforchange.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Employment & Livelihoods",
+        "Environment & Climate"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recwn8kz8AvdAv0Gh",
+      "name": "Levi Strauss Foundation",
+      "websiteText": "https://www.levistrauss.com/levi-strauss-foundation",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Refugees & Migration",
+        "Gender & Racial Equity",
+        "Employment & Livelihoods",
+        "Health & Wellness",
+        "Governance & civic engagement",
+        "Gender & racial equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recGtJ8c8bS1jBMEQ",
+      "name": "Liberation Ventures",
+      "websiteText": "https://www.liberationventures.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & racial equity",
+        "Governance & civic engagement",
+        "Economics & finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recjSgdM8PQPCz3uy",
+      "name": "Lloyds Bank Foundation (for England & Wales)",
+      "websiteText": "https://www.lloydsbankfoundation.org.uk",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Peace & Safety",
+        "Children & Youth",
+        "Refugees & Migration",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "receg3yh4GJwaETa6",
+      "name": "Lush Charities (Charity Pot)",
+      "websiteText": "https://weare.lush.com/lush-life/our-giving/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Governance & Civic Engagement",
+        "Indigenous Rights"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "name": "Madhi Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recweC8HP9Liu3MG2",
+      "name": "Magic Cabinet",
+      "websiteText": "https://www.magiccabinet.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recZgDXp5u1x7xgLp",
+      "name": "Manan Trust",
+      "websiteText": "https://www.manantrust.org",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reczeUUdQwRrokvVA",
+      "name": "Marcus Foundation",
+      "websiteText": "https://marcusfoundation.org",
+      "directoryRegions": [
+        "North America",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Faith & Spirituality",
+        "Economics & Finance",
+        "Children & Youth",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recmg3HFVYXZYVHR2",
+      "name": "Masana wa Afrika Foundation",
+      "websiteText": "https://masanawaafrika.org",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Business & Entrepreneurship",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recUePfIUBN2o60jS",
+      "name": "Mastercard Foundation",
+      "websiteText": "https://mastercardfdn.org/",
+      "directoryRegions": [
+        "Africa",
+        "North America"
+      ],
+      "directorySectors": [
+        "Employment & Livelihoods",
+        "Education & Childhood Development",
+        "Business & entrepreneurship",
+        "Gender & racial equity",
+        "Children & youth",
+        "Technology & digital rights",
+        "Livelihoods, Employment & Opportunity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recu8FqbisErjshoF",
+      "name": "McConnell Foundation (J.W. McConnell Family Foundation)",
+      "websiteText": "https://www.mcconnellfoundation.ca",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Community development",
+        "Peace-Building",
+        "Governance & Civic Engagement",
+        "Indigenous Rights",
+        "Climate & Environment",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recwmLeZDUINrVPsx",
+      "name": "Mediterranean Women’s Fund",
+      "websiteText": "http://medwomensfund.org",
+      "directoryRegions": [
+        "Europe",
+        "Africa",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Health & Wellness",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "receNTPN7tJIHeHha",
+      "name": "Menzies Foundation",
+      "websiteText": "https://www.menziesfoundation.org.au",
+      "directoryRegions": [
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Science & Tech",
+        "Education & Childhood Development",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recc3mESQS78GnwWa",
+      "name": "Minderoo Foundation",
+      "websiteText": "https://www.minderoo.org",
+      "directoryRegions": [
+        "Oceania",
+        "Asia"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Gender & Racial Equity",
+        "Climate & Environment",
+        "Indigenous Rights"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reclez3QBN9EzsCiI",
+      "name": "Mongolian Women’s Fund (MONES)",
+      "websiteText": "http://mones.org.mn",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recQ2MxXoVrp9T1c8",
+      "name": "Moonjelly Foundation",
+      "websiteText": "https://www.moonjelly.io/",
+      "directoryRegions": [
+        "Asia",
+        "Oceania",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recpMJ4xRLSrngCvL",
+      "name": "Mophradat",
+      "websiteText": "https://mophradat.org",
+      "directoryRegions": [
+        "Middle East",
+        "Africa"
+      ],
+      "directorySectors": [
+        "Arts & Culture"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec7McWte1cndESkc",
+      "name": "Mortenson Family Foundation",
+      "websiteText": "https://www.mortensonfamily.org",
+      "directoryRegions": [
+        "North America",
+        "Africa",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Children & Youth",
+        "Climate & Environment",
+        "Health & Wellness",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec9vetDUG6A6D9dh",
+      "name": "Mosaic Momentum",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "name": "Movement Media (Press On’s Southern Movement Media Fund)",
+      "websiteText": "https://presson.media/programs/fund/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement",
+        "Peace & Safety",
+        "Refugees & Migration"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reccHNBfpq6sRSeU3",
+      "name": "Movimento Bem Maior (Greater Good Movement)",
+      "websiteText": "https://movimentobemmaior.org.br/",
+      "directoryRegions": [
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Education & Childhood Development",
+        "Climate & Environment",
+        "Food & Agriculture",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reckI55X3sxYzuzeb",
+      "name": "Nalandaway Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recCRpfHqUDHunxvL",
+      "name": "Narada Foundation",
+      "websiteText": "https://www.naradafoundation.org",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Education & Childhood Development",
+        "Business & Entrepreneurship"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recJBiQ9bQMqKY0f4",
+      "name": "Nathan Cummings Foundation",
+      "websiteText": "https://nathancummings.org",
+      "directoryRegions": [
+        "North America",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Climate & Environment",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recNrcMSWtSI1Gzpq",
+      "name": "National Science Foundation (NSF)",
+      "websiteText": "https://www.nsf.gov/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Science & Tech",
+        "Education & Childhood Development",
+        "Environment & Climate"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recTUqGBxowGopxEV",
+      "name": "Native Hawaiian Philanthropy",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recVUHrem8UorZVju",
+      "name": "NDN Collective",
+      "websiteText": "https://ndncollective.org/",
+      "directoryRegions": [
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Indigenous rights",
+        "economic justice",
+        "environmental justice"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 8
+    },
+    {
+      "sourceRecordId": "recG2ruGcG5wjn1n0",
+      "name": "Nebula Fund",
+      "websiteText": "https://nebulafund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "name": "Network for the Advancement of Black Communities (NABC)",
+      "websiteText": "https://networkabc.ca/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & racial equity",
+        "Governance & civic engagement",
+        "Housing & shelter"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 5
+    },
+    {
+      "sourceRecordId": "recEgjzHqv4pOCtGZ",
+      "name": "Network of European Foundations (NEF)",
+      "websiteText": "https://www.nef-europe.org/",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Economics & finance",
+        "Governance & civic engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recrKzpKg5F6jsE03",
+      "name": "New Energy Nexus",
+      "websiteText": "https://www.newenergynexus.com/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & environment",
+        "Business & entrepreneurship",
+        "Economics & finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "reczkNiThsjFa5sYV",
+      "name": "New Venture Fund",
+      "websiteText": "https://newventurefund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Arts & Culture",
+        "Children & Youth",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "name": "Next Step Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec79METBdoEAA8Hd",
+      "name": "Nia Tero",
+      "websiteText": "https://www.niatero.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Climate & Environment",
+        "Arts & Culture"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recPw6dzm3QMtyxM5",
+      "name": "Norwegian Human Rights Fund (NHRF)",
+      "websiteText": "https://nhrf.no",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Indigenous Rights",
+        "Employment & Livelihoods",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec8LPvkbJBddtdQU",
+      "name": "Oak Foundation",
+      "websiteText": "https://www.oakfnd.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Climate & environment",
+        "Children & youth",
+        "Gender & racial equity",
+        "Peace & safety",
+        "Gender Equality",
+        "Education & Childhood Development",
+        "Human Rights",
+        "Livelihoods, Employment & Opportunity",
+        "Environment & Climate"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recZ9ZlHsul3I2AJr",
+      "name": "Omidyar Network",
+      "websiteText": "https://omidyar.com",
+      "directoryRegions": [
+        "North America",
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Europe"
+      ],
+      "directorySectors": [
+        "Science & Tech",
+        "Governance & Civic Engagement",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec41lKUUqsWKl6wE",
+      "name": "ONSIDE Fund",
+      "websiteText": "https://www.onsidefund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Children & Youth"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recZuvOEtFb7i6rQX",
+      "name": "Open Society Policy Center (Open Society Action Fund)",
+      "websiteText": "https://opensocietyaction.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Refugees & Migration"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recSRWwaTeoWoe7nt",
+      "name": "Opportunity Fund",
+      "websiteText": "https://theopportunityfund.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Arts & Culture",
+        "Gender & Racial Equity",
+        "Health & Wellness",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recbTByb8o6YnD9Dm",
+      "name": "Osprey Foundation",
+      "websiteText": "http://www.ospreyfdn.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Water & Sanitation",
+        "Peace & Safety",
+        "Faith & Spirituality",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recLkRuPZ8L193ZQS",
+      "name": "Palix Foundation",
+      "websiteText": "https://www.palixfoundation.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Health & Wellness"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec9F3bWX5p1qmEJz",
+      "name": "Pathy Family Foundation",
+      "websiteText": "https://pathyfoundation.ca/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Employment & Livelihoods",
+        "Education & Childhood Development",
+        "Governance & Civic Engagement",
+        "Economics & Finance",
+        "Children & Youth",
+        "Indigenous Rights"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recqVvuFd9WlduZyV",
+      "name": "Patrick J. McGovern Foundation",
+      "websiteText": "https://www.mcgovern.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Science & Tech",
+        "Climate & Environment",
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recoSJVoSlWHzCxIT",
+      "name": "Paul Ramsay Foundation (PRF)",
+      "websiteText": "https://www.paulramsayfoundation.org.au/",
+      "directoryRegions": [
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Health & Wellness",
+        "Indigenous Rights",
+        "Education & Childhood Development",
+        "Employment & Livelihoods",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec4YwL5PQtz6WusR",
+      "name": "Pawanka Fund",
+      "websiteText": "https://pawankafund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Climate & Environment"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recI2dEXaA2ipByHu",
+      "name": "PB Foundation (Freedom Together Foundation)",
+      "websiteText": "https://www.freedomtogether.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement",
+        "Health & Wellness",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recbjZ6tq5NKxHXgX",
+      "name": "People’s Support Foundation",
+      "websiteText": "https://www.peoplessupportfoundation.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Peace & Safety",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recEn6o1ktUr4XVma",
+      "name": "Plastic Solutions Fund (PSF)",
+      "websiteText": "https://plasticsolution.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Environment & Climate"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "reciuxdimSiFkfMcp",
+      "name": "Polden-Puckham Charitable Foundation (PPCF)",
+      "websiteText": "https://polden-puckham.org.uk",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Peace & Safety",
+        "Environment & Climate",
+        "Governance & Civic Engagement",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec4302FxdTsPbZXD",
+      "name": "Pool-Fund on International Energy (PIE)",
+      "websiteText": "https://europeanclimate.org (host site)",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Economics & Finance",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recZGUvahw9aYiR1A",
+      "name": "Porticus Foundation",
+      "websiteText": "https://www.porticus.com/",
+      "directoryRegions": [
+        "Asia",
+        "Europe",
+        "Africa",
+        "Latin America & Caribbean",
+        "North America",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Environment & Climate",
+        "Faith",
+        "Business, entrepreneurship, economics & finance",
+        "Arts and creativity",
+        "Peace & safety",
+        "Climate & environment",
+        "Arts & culture",
+        "Faith & spirituality"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recW1LVe5iD9Gc7MJ",
+      "name": "Porticus Vienna",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "reczfb7Kvg3CJoJ9W",
+      "name": "Pousaz Philanthropies",
+      "websiteText": "https://pousaz.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Children & Youth",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recCpq8NkUhnaNpwX",
+      "name": "Pritzker (J.B. & M.K. Pritzker Family Foundation / Pritzker Children’s Initiative)",
+      "websiteText": "https://www.pritzkerchildrensinitiative.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Children & Youth",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recpw4qdfUAaI8McW",
+      "name": "Prolongar Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recp3eRJpmhKPL5eP",
+      "name": "Promotora Social México (PSM)",
+      "websiteText": "https://www.psm.org.mx",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Business & Entrepreneurship",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recol0GFZkUBx8rkM",
+      "name": "Proteus Fund",
+      "websiteText": "https://www.proteusfund.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recox10Nq2ukm64d9",
+      "name": "Public Interest News Foundation (PINF)",
+      "websiteText": "https://www.publicinterestnews.org.uk/",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Media & communications",
+        "Governance & civic engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 8
+    },
+    {
+      "sourceRecordId": "recgIrQmPUweFACza",
+      "name": "Purposeful",
+      "websiteText": "https://wearepurposeful.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & racial equity",
+        "Children & youth",
+        "Governance & civic engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recaOrO8KmDZzmLEZ",
+      "name": "Radical Flexibility Fund",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recBQgqCzzAY4WVdV",
+      "name": "Rational Games Inc.",
+      "websiteText": "https://www.rationalgames.com",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Peace & Safety",
+        "Education & Childhood Development",
+        "Play & Games"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "rec4rWfSQfnf3a55c",
+      "name": "Rawa – Creative Palestinian Communities Fund",
+      "websiteText": "https://www.rawa.ps",
+      "directoryRegions": [
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Governance & Civic Engagement",
+        "Arts & Culture",
+        "Health & Wellness",
+        "Children & Youth",
+        "Climate & Environment",
+        "Business & Entrepreneurship",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recKh64COKZTTxfJJ",
+      "name": "Reconstruction Women’s Fund (RWF) – Serbia",
+      "websiteText": "https://rwfund.org/eng/",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Children & Youth"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recLO2MrB5qYtgi5l",
+      "name": "Regenerative Agriculture Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recDQ6DABaJ4Ig8ar",
+      "name": "Regenerosity",
+      "websiteText": "https://www.regenerosity.world/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "North America"
+      ],
+      "directorySectors": [
+        "Climate & environment",
+        "Food & agriculture",
+        "Indigenous rights",
+        "Gender & racial equity"
+      ],
+      "applicationSignals": [
+        "Referral mentioned"
+      ],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recpXeZbCDN9XFMid",
+      "name": "Rippel Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recr3e0FGfl3NhP81",
+      "name": "RISE Together Fund",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec59Xh6q0bBXFqh2",
+      "name": "Robert Bosch Stiftung",
+      "websiteText": "https://www.bosch-stiftung.de/en",
+      "directoryRegions": [
+        "Europe",
+        "Africa",
+        "Asia"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Governance & Civic Engagement",
+        "Refugees & Migration",
+        "Climate & Environment",
+        "Health & Wellbeing",
+        "Global Issues",
+        "Democracy / Governance",
+        "Peace-Building",
+        "Environment & Climate",
+        "diversity, equity & inclusion"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "receSYuO37ztogBTM",
+      "name": "Robert Carr Fund",
+      "websiteText": "https://robertcarrfund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recrG5GIY2HQQPz54",
+      "name": "Robert Sterling Clark Foundation",
+      "websiteText": "https://www.rsclark.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec8ka2RyFoREhy3N",
+      "name": "Rockefeller Foundation ",
+      "websiteText": "https://www.rockefellerfoundation.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean",
+        "Europe",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Food & agriculture",
+        "Health & wellness",
+        "Climate & environment",
+        "Economics & finance",
+        "Science & tech",
+        "Livelihoods, Employment & Opportunity",
+        "Food & Agriculture",
+        "Health & Wellbeing"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec9bE8Sue9uIgF4r",
+      "name": "Rockefeller Philanthropy Advisors (RPA)",
+      "websiteText": "https://www.rockpa.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement",
+        "Shifting Philanthropy",
+        "Arts and creativity",
+        "Environment & Climate",
+        "Gender Equality"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recNYsAkMkHyROPWg",
+      "name": "Rohini Nilekani Philanthropies",
+      "websiteText": "https://rohininilekaniphilanthropies.org",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement",
+        "Arts & Culture",
+        "Education & Childhood Development",
+        "Water & Sanitation"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recDEye2Sj47jIvY6",
+      "name": "Rotary Charities of Traverse City",
+      "websiteText": "",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Children & youth",
+        "Arts & culture",
+        "Climate & environment",
+        "Infrastructure & Transportation",
+        "Governance & civic engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recgfyxB4jsZ9VA24",
+      "name": "Safe Passage Fund",
+      "websiteText": "safe-passage.org",
+      "directoryRegions": [
+        "Europe",
+        "Africa"
+      ],
+      "directorySectors": [
+        "Refugees & Migration",
+        "Gender & Racial Equity",
+        "Health & Wellness",
+        "Governance & Civic Engagement",
+        "Climate & Environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recYdoiMhNKAmoAH9",
+      "name": "Sandberg Goldberg Bernthal Family Fdn.",
+      "websiteText": "https://sgb.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Children & Youth",
+        "Education & Childhood Development",
+        "Health & Wellness",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recT1nwDQQccsoaRK",
+      "name": "Schusterman Family Philanthropies",
+      "websiteText": "https://www.schusterman.org",
+      "directoryRegions": [
+        "North America",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reczOSRMgycrSfHBx",
+      "name": "Schwab Foundation for Social Entrepreneurship",
+      "websiteText": "https://www.schwabfound.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recJz756lSH51oLOG",
+      "name": "Seeds of Wisdom",
+      "websiteText": "https://www.seedsofwisdom.earth",
+      "directoryRegions": [
+        "North America",
+        "Latin America & Caribbean",
+        "Africa",
+        "Asia",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Arts & Culture",
+        "Environment & Climate",
+        "Food & Agriculture",
+        "Faith & Spirituality"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recoUArMCtvMRCXsk",
+      "name": "Segal Family Foundation",
+      "websiteText": "https://www.segalfamilyfoundation.org/who-we-are/",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Leadership Development",
+        "Social Entrepreneurship & Innovation",
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Children & Youth",
+        "Economics & Finance",
+        "Employment & Livelihoods",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec8kz0WaCB4nSAXF",
+      "name": "Semia Fondo delle Donne (Ente Filantropico)",
+      "websiteText": "https://semiafund.org",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recZa69vF3lXN9luT",
+      "name": "Seventh Generation Fund",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "reccZG8TtBrCwLG7R",
+      "name": "Shell Foundation",
+      "websiteText": "https://shellfoundation.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Employment & Livelihoods",
+        "Business & Entrepreneurship",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recYjuk8oco6Kf6mv",
+      "name": "Siddle Family Foundation",
+      "websiteText": "https://www.siddlefamilyfoundation.org.au",
+      "directoryRegions": [
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Peace & Safety",
+        "Employment & Livelihoods",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec9ZobZCM5SshLLF",
+      "name": "Siemenpuu Foundation",
+      "websiteText": "https://siemenpuu.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Food & Agriculture",
+        "Indigenous Rights",
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Rolling mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recf5gK7FSVO3WfMQ",
+      "name": "Siemens Stiftung",
+      "websiteText": "https://www.siemens-stiftung.org/en/foundation/",
+      "directoryRegions": [
+        "Africa",
+        "Europe",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Environment & Climate",
+        "STEM",
+        "Social Entrepreneurship & Innovation",
+        "diversity, equity & inclusion",
+        "Culture Change",
+        "Community development",
+        "Technology & digital rights",
+        "Water & Sanitation",
+        "Science & Tech",
+        "Education & Childhood Development",
+        "Business & Entrepreneurship",
+        "Arts & Culture",
+        "Climate & Environment"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec0YgrcdqtENIIeS",
+      "name": "Skip Foundation",
+      "websiteText": "https://www.skipfoundation.org",
+      "directoryRegions": [
+        "Oceania",
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Gender & Racial Equity",
+        "Climate & Environment",
+        "Health & Wellness",
+        "Business & Entrepreneurship"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recy74ZMFivOZaRvW",
+      "name": "Slovak–Czech Women’s Fund",
+      "websiteText": "https://womensfund.sk/en",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recDX8TX8wqyC6s5G",
+      "name": "Small Foundation",
+      "websiteText": "https://smallfoundation.ie/",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Employment & Livelihoods",
+        "Business & entrepreneurship",
+        "Food & agriculture",
+        "Economics & finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recrGWvqZUQHZb9c9",
+      "name": "Smallwood Trust",
+      "websiteText": "https://www.smallwoodtrust.org.uk",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "rec8oP5FfNl7i0zUw",
+      "name": "Social Change Assistance Trust",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec8Pksooi50Wj0kU",
+      "name": "Social Justice Partners Los Angeles",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recSlbaqghWUBNbD9",
+      "name": "South Asia Women’s Foundation India (SAWF IN)",
+      "websiteText": "https://sawfindia.org",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recb5VpXOFbqvyiJD",
+      "name": "Southern Africa Trust",
+      "websiteText": "https://southernafricatrust.org",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity",
+        "Children & Youth",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec2mFQYhMJvTUSbT",
+      "name": "Spark MicroGrants",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recMfonrwNjrNhAaM",
+      "name": "Stiftung Mercator Schweiz",
+      "websiteText": "",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Children & Youth",
+        "Climate & Environment",
+        "Governance & Civic Engagement",
+        "Science & Tech"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 9
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "name": "Stiftung Saving An Angel",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "reclYfoGjYuF1YXqF",
+      "name": "Stul Family Foundation",
+      "websiteText": "(No dedicated site – info via IFIP, AEGN, etc.)",
+      "directoryRegions": [
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Environment & Climate"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recpqvD8c272JI57d",
+      "name": "Sub3 Foundation",
+      "websiteText": "",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Arts & Culture",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recNEswnVuQFYHD4y",
+      "name": "Swift Foundation",
+      "websiteText": "https://www.swiftfoundation.org",
+      "directoryRegions": [
+        "Africa",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Climate & Environment",
+        "Food & Agriculture",
+        "Employment & Livelihoods",
+        "Networks & Alliances"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recxa8nJsWpRdKTDy",
+      "name": "Tamalpais Trust",
+      "websiteText": "(No official site – known via partners)",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Climate & Environment",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recLvOauynAivk5m9",
+      "name": "Tanoto Foundation",
+      "websiteText": "https://www.tanotofoundation.org",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Health & Wellness",
+        "Science & Tech",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rechSSU7GI1UucNVn",
+      "name": "Tarsadia Foundation",
+      "websiteText": "https://tarsadiafoundation.org",
+      "directoryRegions": [
+        "North America",
+        "Asia",
+        "Africa",
+        "Oceania",
+        "Europe",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Economics & Finance",
+        "Food & Agriculture",
+        "Health & Wellness",
+        "Gender & Racial Equity",
+        "Housing & Homelessness"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reclxU78tRp1kn2rw",
+      "name": "Temasek Foundation",
+      "websiteText": "https://www.temasekfoundation.org.sg",
+      "directoryRegions": [
+        "Asia"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Education & Childhood Development",
+        "Climate & Environment",
+        "Science & Tech",
+        "Children & Youth",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recOjeVNMLIO5hBT4",
+      "name": "Thapar Education Trust",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "name": "The Building Resilience Helping You Thrive Foundation",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recJMUAajUjtUWuIP",
+      "name": "The Christensen Fund",
+      "websiteText": "https://www.christensenfund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Climate & Environment",
+        "Food & Agriculture",
+        "Arts & Culture"
+      ],
+      "applicationSignals": [
+        "Rolling mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec3ZVYYpsqvE8qjo",
+      "name": "The Cultural Conservancy (TCC)",
+      "websiteText": "https://www.nativeland.org",
+      "directoryRegions": [
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Indigenous Rights",
+        "Arts & Culture",
+        "Food & Agriculture",
+        "Environment & Climate",
+        "Children & Youth"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "name": "The Funding Network",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "reclxJBQLIVk2XfgO",
+      "name": "The Human Safety Net",
+      "websiteText": "https://www.thehumansafetynet.org",
+      "directoryRegions": [
+        "Europe",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Refugees & Migration",
+        "Employment & Livelihoods",
+        "Child Safety & Protection",
+        "diversity, equity & inclusion"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "rec4pxI2Jl4b6906u",
+      "name": "The Movement for Black Lives (M4BL)",
+      "websiteText": "https://m4bl.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & racial equity",
+        "Governance, law & civic engagement",
+        "Justice"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 11
+    },
+    {
+      "sourceRecordId": "recgHVVWfyO29EDH0",
+      "name": "The Movements Trust",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recikJLZtrkEFEn2e",
+      "name": "The Patchwork Collective",
+      "websiteText": "https://thepatchworkcollective.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Gender & Racial Equity",
+        "Climate & Environment",
+        "Economics & Finance",
+        "Education & Childhood Development"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recqd3f6mBVBdH2ID",
+      "name": "The Seabury Foundation",
+      "websiteText": "https://seaburyfoundation.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Arts & Culture",
+        "Environment & Climate",
+        "Health & Wellness",
+        "Children & Youth"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec7yMQ7RvWJ8GG0k",
+      "name": "Thousand Currents",
+      "websiteText": "https://thousandcurrents.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Food & Agriculture",
+        "Gender & Racial Equity",
+        "Employment & Livelihoods",
+        "Children & Youth",
+        "Governance & Civic Engagement",
+        "Indigenous Rights",
+        "Environment & Climate",
+        "diversity, equity & inclusion",
+        "Gender Equality"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "reciXd3RfXfulOT1y",
+      "name": "Tides Foundation",
+      "websiteText": "https://www.tides.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Climate & Environment",
+        "Health & Wellness",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recPltSfBuofl8aqD",
+      "name": "Tilt Collective",
+      "websiteText": "http://tiltcollective.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Food & Agriculture",
+        "Climate & Environment",
+        "Health & Wellness"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 9
+    },
+    {
+      "sourceRecordId": "rec8jwyejcYbEZSuP",
+      "name": "Tiny Foundation",
+      "websiteText": "https://www.tinyfoundation.com",
+      "directoryRegions": [
+        "North America",
+        "Europe",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Governance & Civic Engagement",
+        "Science & Tech"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recRsnZBC1oRtZLpz",
+      "name": "True Costs Initiative (TCI)",
+      "websiteText": "https://truecostsinitiative.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Governance & Civic Engagement",
+        "Business & Entrepreneurship"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Referral mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recWFD4nISK2rVZ9k",
+      "name": "Trust for Social Achievement",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recdpTXcAQrgnbljB",
+      "name": "UHAI – East African Sexual Health and Rights Initiative (EASHRI)",
+      "websiteText": "http://uhai-eashri.org",
+      "directoryRegions": [
+        "Africa"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Health & Wellness",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recBs8uBOhFW7LtS4",
+      "name": "UMI",
+      "websiteText": "https://umifund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Children & Youth",
+        "Infrastructure & Transportation",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recT5XdmTXbMjMS78",
+      "name": "UMI Fund",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "recMSGEcc8bHM7Zer",
+      "name": "Unbound Philanthropy",
+      "websiteText": "https://unboundphilanthropy.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Refugees & Migration",
+        "Governance & Civic Engagement",
+        "Climate & Environment",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recAvdiiKReP1w4cp",
+      "name": "Unitarian Universalist Service Committee (UUSC)",
+      "websiteText": "https://uusc.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Climate & Environment",
+        "Refugees & Migration",
+        "Water & Sanitation",
+        "Indigenous Rights",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Calls mentioned",
+        "Referral mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reclSvHILpsxwCs7Z",
+      "name": "Urgent Action Sister Funds",
+      "websiteText": "",
+      "directoryRegions": [],
+      "directorySectors": [],
+      "applicationSignals": [],
+      "fieldsFilled": 1
+    },
+    {
+      "sourceRecordId": "rec6GLq3XICtk5BjV",
+      "name": "V. Kann Rasmussen Foundation",
+      "websiteText": "https://vkrf.org/",
+      "directoryRegions": [
+        "North America",
+        "Africa",
+        "Asia",
+        "Europe",
+        "Latin America & Caribbean",
+        "Oceania",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Environment & Climate"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recDcTfu7qgawGUnu",
+      "name": "Van Leer Foundation",
+      "websiteText": "https://vanleerfoundation.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Children & Youth"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recali6je8n895zSC",
+      "name": "Victoria Foundation",
+      "websiteText": "http://www.victoriafoundation.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Employment & Livelihoods",
+        "Governance & Civic Engagement",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recDvpyWIZWZdJx7u",
+      "name": "Vivo Foundation",
+      "websiteText": "https://www.vivofdn.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Children & Youth",
+        "Health & Wellness",
+        "Peace & Safety",
+        "Employment & Livelihoods",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "name": "Volta Capital",
+      "websiteText": "https://volta.capital",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Middle East",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Business & Entrepreneurship",
+        "Climate & Environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recrC1R2OMdg61MvQ",
+      "name": "W.K. Kellogg Foundation (WKKF)",
+      "websiteText": "https://www.wkkf.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Children & Youth",
+        "Education & Childhood Development",
+        "Food & Agriculture",
+        "Health & Wellness",
+        "Employment & Livelihoods",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recKwMngX9BIYzaPl",
+      "name": "WhyHunger",
+      "websiteText": "https://whyhunger.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Food & Agriculture",
+        "Gender & Racial Equity",
+        "Climate & Environment",
+        "Indigenous Rights",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec1dixbBd0lNXPfC",
+      "name": "William & Flora Hewlett Foundation",
+      "websiteText": "https://hewlett.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Climate & Environment",
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement",
+        "Arts & Culture",
+        "Peace & Safety",
+        "Economics & Finance"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recbd68qoyoEdTvNH",
+      "name": "Winthrop Rockefeller Foundation (WRF)",
+      "websiteText": "https://wrfoundation.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Education & Childhood Development",
+        "Employment & Livelihoods",
+        "Gender & Racial Equity",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 12
+    },
+    {
+      "sourceRecordId": "recsDPY9LbPrV64ci",
+      "name": "Womankind Worldwide",
+      "websiteText": "https://www.womankind.org.uk",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Employment & Livelihoods",
+        "Governance & Civic Engagement",
+        "Peace & Safety"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Rolling mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recJraRjDyEetoCTy",
+      "name": "Women Donors Network (WDN)",
+      "websiteText": "https://womendonors.org/",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Gender & racial equity",
+        "Governance & civic engagement",
+        "Climate & environment"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recRYj9dUiS0FIGJy",
+      "name": "Women First International Fund",
+      "websiteText": "https://www.womenfirstfund.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned",
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rectpu5AusFN6GlTS",
+      "name": "Women Win",
+      "websiteText": "https://womenwin.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Children & Youth",
+        "Employment & Livelihoods"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec6kmJhaMxKVs8FI",
+      "name": "Women’s Fund in Georgia",
+      "websiteText": "http://www.womenfundgeorgia.org",
+      "directoryRegions": [
+        "Europe"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Peace & Safety",
+        "Governance & Civic Engagement",
+        "Employment & Livelihoods",
+        "Environment & Climate",
+        "Health & Wellness"
+      ],
+      "applicationSignals": [
+        "Calls mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recaBlDqbooyGb0cE",
+      "name": "Women’s Funding Network (WFN)",
+      "websiteText": "https://www.womensfundingnetwork.org/",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Latin America & Caribbean",
+        "Middle East",
+        "North America",
+        "Oceania"
+      ],
+      "directorySectors": [
+        "Gender & Racial Equity",
+        "Economics & Finance",
+        "Governance & Civic Engagement"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    },
+    {
+      "sourceRecordId": "recbAUdSnpQroQ4SL",
+      "name": "Workforce Funder Collaborative (regional workforce funders alliances)",
+      "websiteText": "No single site (varies by region)",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Employment & Livelihoods",
+        "Economics & Finance",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "rec0fmRqA7l4LaKRJ",
+      "name": "Woven Foundation",
+      "websiteText": "https://wovenfoundation.org",
+      "directoryRegions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Latin America & Caribbean"
+      ],
+      "directorySectors": [
+        "Governance & Civic Engagement",
+        "Education & Childhood Development",
+        "Gender & Racial Equity",
+        "Children & Youth"
+      ],
+      "applicationSignals": [
+        "Invitation mentioned"
+      ],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "recnfO3RkjQc3ZSCN",
+      "name": "Yellowhammer Fund",
+      "websiteText": "https://action.yellowhammerfund.org",
+      "directoryRegions": [
+        "North America"
+      ],
+      "directorySectors": [
+        "Health & Wellness",
+        "Gender & Racial Equity"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 10
+    },
+    {
+      "sourceRecordId": "reczEjInFO7WPMEQk",
+      "name": "ZidiCircle",
+      "websiteText": "https://zidicircle.com/",
+      "directoryRegions": [
+        "Africa",
+        "Europe",
+        "Latin America & Caribbean",
+        "Middle East"
+      ],
+      "directorySectors": [
+        "Economics & Finance",
+        "Employment & Livelihoods",
+        "Education & Childhood Development"
+      ],
+      "applicationSignals": [],
+      "fieldsFilled": 6
+    }
+  ]
+}

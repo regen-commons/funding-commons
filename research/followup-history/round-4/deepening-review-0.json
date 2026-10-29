@@ -1,0 +1,380 @@
+{
+  "version": 1,
+  "passId": "policy-followup-4-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://adesoafrica.org/wp-content/uploads/2025/07/Vacancy-Announcement-Grant-Coordinator-Proximate-Fund-1-.pdf",
+          "title": "Adeso — Proximate Grant Coordinator notice, July 2025",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed a newly found own Grant Coordinator vacancy PDF and fiscal-host application searches. The PDF describes application review, financial documentation, grant agreements and monitoring, but those are staff responsibilities rather than published recipient conditions. Its rolling deadline and one-year duration apply to the job. No recipient guide, award limits or 2026 call was recovered; the earlier hosted-fund overview remains valid.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://fundacionalpina.org/wp-content/uploads/2024/04/Informe-de-gestion-2023-ING_compressed.pdf",
+          "title": "Fundación Alpina — English management report 2023, candidate identity",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://p4gpartnerships.org/sites/default/files/2025-04/Knowlege%20Product%20Kanalitojo%20En.pdf",
+          "title": "P4G — Colombian Alpina partner description, candidate",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Read the Colombian candidate’s own English 2023 management report, whose cover explicitly uses Alpina Foundation, and checked additional international institutional references. This strengthens that candidate’s identity but supplies no link to the catalog’s name-only row. Its rural development work and partner project budgets cannot be assigned to this entry without a country, domain or legal discriminator. Swiss foundation searches found differently named entities, not continuity evidence.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search?_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_objectiveId=A12636752&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_mvcRenderCommandName=%2Ffull-print&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_organisationNumber=5086218&p_p_cacheability=cacheLevelPage&p_p_id=uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet&p_p_lifecycle=2&p_p_mode=view&p_p_resource_id=%2Faccounts-resource&p_p_state=maximized",
+          "title": "Charity Commission — BOA Foundation candidate trustee report, direct 403",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Pursued charity-register identity evidence beyond the Bank of Africa candidate. The Charity Commission search index exposes a BOA Foundation trustee report for charity 1171285, focused on Brazilian Indigenous communities; direct retrieval returned 403 and was not bypassed. This candidate is distinct from the banking foundation network. The original catalog provides no discriminator, so neither candidate is assigned and no matching focus or grant terms are imported.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.comms-hub.org/s/Impact-Report-2025.pdf",
+          "title": "CommsHub Impact Report 2025 — grants to existing partners",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.comms-hub.org/projects",
+          "title": "CommsHub — current projects and DemPulse 2026",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.comms-hub.org/network",
+          "title": "CommsHub — Jobs, Partners, Clients",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-details/43251589/101236181/CERV",
+          "title": "European Commission — DemPulse project portal, script-only entry",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Followed the newly published 2025 impact report, current Projects and Jobs/Partners pages, and the linked EU DemPulse 2026 project entry. The own report describes grants to existing partners and examples of supported campaigns, while DemPulse concerns research and communications capacity. Neither provides a recipient call, legal eligibility or per-award schedule. The EU operating-grant project budget is funding received by CommsHub, not an outgoing grant ceiling.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recKZhrajN6s5GjOs",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.housingisopportunity.org/post/power-sharing",
+          "title": "FHO — community-advisor programme and power-sharing reflections",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the own Community Advisors article and searched specifically for nominations, compensation and advisor application materials. The article explains how six frontline housing leaders advise the collaborative, with emphasis on lived experience and racial equity. It does not offer an applicant grant, publish a stipend or provide recruitment terms. No general recipient policy was recovered; advisor participation is not reclassified as a funding call.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rectDLlkmWbjtTWPY",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://pdr.org.br/?page_id=24",
+          "title": "PDR — purpose, nonprofit support and monitoring structure",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://pdr.org.br/?page_id=164",
+          "title": "PDR — Strategic Philanthropy and supported institutions",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://pdr.org.br/?page_id=185",
+          "title": "PDR — family impact-investment portfolio",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Recovered PDR’s own separate website, then read its About, Strategic Philanthropy and Impact Investments pages in Portuguese. They distinguish support for named nonprofits from family investments in named social businesses and mention project selection, monitoring and impact measurement. They publish no external submission channel, recipient selection conditions or funding limits. The endowment and businesses financed by affiliated entities are not treated as applicant grant amounts.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/posts/nikkijames1_sela-2026-boot-camps-to-prep-the-social-entrepreneurs-activity-7468577858865516544-2QRJ",
+          "title": "SELA partner Nikki James — 2026 boot-camp announcement, indexed; direct disabled",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Searched the actual SELA collaboration and its university partners for bursaries, stipends and participant guides. A first-hand partner’s indexed post confirms 2026 entrepreneur boot camps with Lefika, Northeastern and TSIBA; direct LinkedIn retrieval was disabled. No financial award or scholarship condition was recovered. Differently named SELA fellowships, a herbal business and a separate art-therapy organisation were excluded; their funding terms cannot be inherited.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/full_text/202522529349300022/IRS990",
+          "title": "Press On South — own filed 2024 Form 990, programme description",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/full_text/202522529349300022/IRS990ScheduleI",
+          "title": "Press On South — own completed 2024 grant schedule",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.linkedin.com/company/press-on-south",
+          "title": "Press On — own current SMMF partner announcements",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read Press On South’s actual 2024 Form 990 and completed Schedule I, filed September 2025, then checked the organisation’s current own LinkedIn programme posts. The filing identifies individual and collective movement-journalism grants and its own recordkeeping/selection statement; it does not publish applicant access conditions. Current posts confirm continuing grants but no call. Paid recipient amounts and the total disbursed are not general award bounds; nomination mentioned in an awardee’s biography is not adopted as a standing route.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recTUqGBxowGopxEV",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.wayfinderfund.org/impact-areas",
+          "title": "Wayfinder — intended grant uses and phased model",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.wayfinderfund.org/n%C4%81-hoa",
+          "title": "Wayfinder — Nā Hoa partner navigation",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the newer Wayfinder Impact Areas and Nā Hoa pages for recipient materials. The impact page specifies intended operating/project support for Native Hawaiian organisations and a smaller-grant phase before a hoped-for five-year model. It publishes no selection process, award values or intake dates, and the partners page adds no application guide. Those future ambitions and independently received Maui recovery grants are not current per-award terms.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec4302FxdTsPbZXD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://europeanclimate.org/wp-content/uploads/2026/06/anbi-2025.pdf",
+          "title": "ECF — completed 2025 ANBI filing naming PIE",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://europeanclimate.org/wp-content/uploads/2026/07/ecf-annual-report-2025.pdf",
+          "title": "ECF Annual Report 2025 — hosted-platform scope",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://europeanclimate.org/our-grantmaking/",
+          "title": "ECF — general grantmaking policy, PIE applicability unconfirmed",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Downloaded and read ECF’s completed 2025 ANBI filing and 2025 annual report, recovering filled fields absent from the web text extractor. Both confirm PIE remains an ECF-hosted platform. The annual report separates hosted platforms from the principal programme portfolios. ECF’s own general grantmaking page rejects unsolicited applications, but its applicability to this pooled platform was not established; that restriction is not imported into PIE. Platform-wide expenditure and individual recipient grants remain excluded as award bounds.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclYfoGjYuF1YXqF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.ilsc.gov.au/wp-content/uploads/2023/03/ILSC-Returning-and-Managing-Country-21-22.pdf",
+          "title": "ILSC — indexed historical partner reference, direct 403",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Pursued an additional institutional partner lead and exact-name grant-policy searches. The Australian Indigenous Land and Sea Corporation’s indexed 2021–22 report lists Stul among partners, but direct report access returned 403 and was not bypassed. It describes a partnership, not a Stul application process. ILSC investment figures are not Stul grants, and ancillary-fund regulation still does not establish this family foundation’s own selection policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://buildingresilient.com/about-us/",
+          "title": "Resilience Action Fund — distinct candidate, no continuity",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Ran exact full-name and distinctive Helping You Thrive phrase searches, then examined the primary Resilience Action Fund candidate. Its own site identifies separate US and UK entities focused on resilient buildings; it supplies no name or legal continuity to this catalog row. Institutional searches also found unrelated resilience programmes rather than this foundation. The name-only entry remains unresolved and no candidate mission, eligibility or amounts are assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/04046959",
+          "title": "Companies House — UK Funding Network candidate",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://thefundingnetwork.org.uk/our-impact",
+          "title": "UK TFN — current international affiliates and impact",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.thefundingnetwork.org.uk/sites/default/files/TFN_funding_approach.pdf",
+          "title": "TFN candidate funding-approach guide — 404",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Checked current UK institutional identity and its own international-impact description, including explicit Australian affiliation. The UK entity’s report and impact page identify a worldwide network with separately named affiliates, which does not identify which affiliate the blank catalog row meant. The suggested old funding-guide PDF returned 404. Candidate-specific crowdfunding conditions and historical starter grants are therefore not imported into the unresolved row.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://volta.capital/contacto/",
+          "title": "Volta — named operating companies and contact route",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.regulus.com.mx/",
+          "title": "Regulus — electricity trading services",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.sujio.mx/",
+          "title": "Sujío — electricity supply, customer process and investors",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.hhgm.mx/",
+          "title": "HHGM — engineering and energy infrastructure services",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed Volta’s own contact links into its named Regulus, Sujío and HHGM businesses. These pages describe electricity trading, qualified supply, engineering and customer consultations; investor links seek capital providers. They supply no external funding application, investment ticket or nonprofit eligibility. These commercial customer and investor conditions remain distinct from the missing funding-recipient terms. The previously corroborated Mexican identity and source warning are retained.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recaBlDqbooyGb0cE",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.womensfundingnetwork.org/2025/11/18/wfn-mobiizes-375000-to-power-global-womens-leadership/",
+          "title": "WFN — Global Leadership Forum invitation and support terms",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Located and read the dedicated Global Leadership Forum announcement rather than inferring terms from the annual report. It explicitly identifies an invitation-only inaugural cohort, personal leadership grants and a year-long learning experience. The article carries both August and November 2025 dates; neither is an application deadline. Its aggregate mobilisation is not divided by cohort size to invent individual awards, and no 2026 opening is inferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recnfO3RkjQc3ZSCN",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.morningsicknessclinic.com/the-hg-relief-project",
+          "title": "Administering clinic — Yellowhammer-funded HG Relief Project",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://form.jotform.com/243455671347159",
+          "title": "HG Relief Project — patient eligibility and aid form",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Recovered the administering clinic’s own HG Relief Project page and linked application. They explicitly identify Yellowhammer as a funder and publish patient assistance conditions and medical cost support. This is a partner-administered aid route, not an application for a Yellowhammer organisational grant. Income exceptions, Medicaid guidance and treatment-location qualifications stay in prose. The retained direct-site retrieval warning is unchanged; no current award ceiling or grant-cycle dates were found.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

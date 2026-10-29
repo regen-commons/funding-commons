@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "fundId": "recOUk0NdykPghost",
+      "programId": "wff-sustainability-2026",
+      "field": "applicantCountry",
+      "operator": "only",
+      "values": [
+        "FJ"
+      ],
+      "reason": "Applicants must be women’s organizations, groups or collectives based in Fiji. Leadership, mission and call-specific conditions still require review.",
+      "sourceUrl": "https://womensfundfiji.org/grants/frequently-asked-questions/"
+    },
+    {
+      "fundId": "recOUk0NdykPghost",
+      "programId": "wff-sustainability-2026",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business"
+      ],
+      "reason": "The FAQ rejects applications from individuals and privately owned businesses, including projects proposed by or for their individual benefit.",
+      "sourceUrl": "https://womensfundfiji.org/grants/frequently-asked-questions/"
+    },
+    {
+      "fundId": "recNlZ47PGyebvRdD",
+      "programId": "lottery-awards-all-england",
+      "field": "applicantCountry",
+      "operator": "only",
+      "values": [
+        "GB"
+      ],
+      "reason": "Organizations based outside the UK cannot apply to Awards for All England. A UK base alone does not establish eligibility.",
+      "sourceUrl": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/who-cannot-apply"
+    },
+    {
+      "fundId": "recNlZ47PGyebvRdD",
+      "programId": "lottery-awards-all-england",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "Individuals and sole traders cannot apply directly. This does not exclude every social enterprise: eligible CIC and nonprofit company forms are listed separately.",
+      "sourceUrl": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/who-cannot-apply"
+    },
+    {
+      "fundId": "recNlZ47PGyebvRdD",
+      "programId": "lottery-awards-all-england",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "GB"
+      ],
+      "reason": "Funded project work must take place in England. GB is only a necessary country condition; work elsewhere in the UK still needs an England-specific check.",
+      "sourceUrl": "https://www.tnlcommunityfund.org.uk/funding/england"
+    },
+    {
+      "fundId": "rec1oGozP3IFZCnEP",
+      "programId": "calala-radix-call-2-2026",
+      "field": "applicantCountry",
+      "operator": "only",
+      "values": [
+        "ES"
+      ],
+      "reason": "Radix requires grassroots nonprofit organizations registered in Spain; use this rule only when applicantCountry represents registration. Leadership and entity-form checks remain manual.",
+      "sourceUrl": "https://calala.org/fondo-radix/"
+    },
+    {
+      "fundId": "recc3etQL3z6CaqqF",
+      "programId": "sff-rapid-response-movement",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "The foundation cannot make this grant directly to individuals. A sponsored project applying through its nonprofit sponsor must be assessed using the actual applicant’s status; this rule is not a ban on sponsored projects.",
+      "sourceUrl": "https://sff.org/what-we-do/funding/rrf/"
+    },
+    {
+      "fundId": "rec0vsf0SAH62AhbO",
+      "programId": "awdf-inua-2025",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "business"
+      ],
+      "reason": "AWDF explicitly does not fund profit-making entities or organizations. Here business means a for-profit applicant, not every revenue-earning nonprofit.",
+      "sourceUrl": "https://awdf.org/grants-frequently-asked-questions/"
+    },
+    {
+      "fundId": "recT0VNULTuF3v1vV",
+      "programId": "drf-2026-loi",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "public-body"
+      ],
+      "reason": "DRF does not fund individuals, government entities or public institutions. The generic university category is intentionally omitted because it does not distinguish public from private institutions.",
+      "sourceUrl": "https://www.disabilityrightsfund.org/grantseekers/"
+    },
+    {
+      "fundId": "recYn5utG7XAVs30n",
+      "programId": "doria-open-call",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual"
+      ],
+      "reason": "Current FAQ says individual applications are not accepted; only collectives, groups or organizations may apply. Historical individual grantees do not override the current rule.",
+      "sourceUrl": "https://www.doriafeministfund.org/en/faqs"
+    },
+    {
+      "fundId": "rec8lXue3GOCbPO3y",
+      "programId": "trustafrica-collaborative-grants",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business"
+      ],
+      "reason": "The grantmaking policy excludes direct grants to individuals and for-profit activities or enterprises. Business means a for-profit applicant.",
+      "sourceUrl": "https://trustafrica.org/ta-grantmaking-policy/"
+    },
+    {
+      "fundId": "recxJkRCEYB5QkEQ5",
+      "programId": "red-umbrella-core-2026",
+      "field": "applicantType",
+      "operator": "exclude",
+      "values": [
+        "individual",
+        "business"
+      ],
+      "reason": "The 2026 application page excludes individual requests and businesses whose main strategy is making a profit; collective sex-worker leadership and organizational mission are additional manual checks.",
+      "sourceUrl": "https://www.redumbrellafund.org/apply-for-a-grant/"
+    },
+    {
+      "fundId": "recKO8T9ix5EGIaaM",
+      "programId": "amplifychange-opportunity",
+      "field": "applicantCountry",
+      "operator": "only",
+      "values": [
+        "AF",
+        "DZ",
+        "AO",
+        "BD",
+        "BJ",
+        "BT",
+        "BW",
+        "BF",
+        "BI",
+        "CM",
+        "CV",
+        "CF",
+        "TD",
+        "KM",
+        "CI",
+        "CD",
+        "DJ",
+        "EG",
+        "GQ",
+        "ER",
+        "SZ",
+        "ET",
+        "GA",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "IN",
+        "JO",
+        "KE",
+        "LB",
+        "LS",
+        "LR",
+        "LY",
+        "MG",
+        "MW",
+        "MV",
+        "ML",
+        "MR",
+        "MA",
+        "MZ",
+        "MM",
+        "NA",
+        "NP",
+        "NE",
+        "NG",
+        "PS",
+        "PK",
+        "CG",
+        "RW",
+        "ST",
+        "SN",
+        "SL",
+        "SO",
+        "ZA",
+        "SS",
+        "LK",
+        "SD",
+        "SY",
+        "TZ",
+        "TG",
+        "TN",
+        "UG",
+        "EH",
+        "YE",
+        "ZM",
+        "ZW"
+      ],
+      "reason": "Organization must be based in one of the complete eligible-country list on the Opportunity Grants page. The published next opening is 2028; geography does not imply current access.",
+      "sourceUrl": "https://amplifychange.org/grant-type/opportunity-grant/"
+    },
+    {
+      "fundId": "recKO8T9ix5EGIaaM",
+      "programId": "amplifychange-opportunity",
+      "field": "workCountries",
+      "operator": "only",
+      "values": [
+        "AF",
+        "DZ",
+        "AO",
+        "BD",
+        "BJ",
+        "BT",
+        "BW",
+        "BF",
+        "BI",
+        "CM",
+        "CV",
+        "CF",
+        "TD",
+        "KM",
+        "CI",
+        "CD",
+        "DJ",
+        "EG",
+        "GQ",
+        "ER",
+        "SZ",
+        "ET",
+        "GA",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "IN",
+        "JO",
+        "KE",
+        "LB",
+        "LS",
+        "LR",
+        "LY",
+        "MG",
+        "MW",
+        "MV",
+        "ML",
+        "MR",
+        "MA",
+        "MZ",
+        "MM",
+        "NA",
+        "NP",
+        "NE",
+        "NG",
+        "PS",
+        "PK",
+        "CG",
+        "RW",
+        "ST",
+        "SN",
+        "SL",
+        "SO",
+        "ZA",
+        "SS",
+        "LK",
+        "SD",
+        "SY",
+        "TZ",
+        "TG",
+        "TN",
+        "UG",
+        "EH",
+        "YE",
+        "ZM",
+        "ZW"
+      ],
+      "reason": "Projects must be based in one of the complete eligible-country list. An eligible country is only a necessary condition; expenditure, advocacy and other criteria remain.",
+      "sourceUrl": "https://amplifychange.org/grant-type/opportunity-grant/"
+    },
+    {
+      "fundId": "rece79DyyxR5xz6Ik",
+      "programId": "legacy-rapid-fund",
+      "field": "applicantCountry",
+      "operator": "exclude",
+      "values": [
+        "NG"
+      ],
+      "reason": "Rapid Fund is unavailable to community members based in Nigeria as of February 2, 2026; the Nigeria National Funding Program is the separate route. This concerns applicant base, not the countries where project work occurs.",
+      "sourceUrl": "https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund"
+    }
+  ],
+  "notes": "Audit checked official sources on 2026-10-15. Contains 15 assertions across 11 fund/program pairs: 10 of the 30 pilot programs plus the retained Wikimedia Rapid Fund. Rules are a deliberately incomplete set of negative screens. No match, compliant value, absent rule, missing field or accepted fiscal sponsorship establishes eligibility. All non-conflicting outcomes remain needs_confirmation. Apply each assertion only to its programId, never all programs of the funder.\n\nField semantics: applicantCountry must describe the sourced eligibility dimension. Fiji, Lottery and AmplifyChange concern applicant/group base; Calala requires Spanish registration; Wikimedia concerns community-member base, not nationality, incorporation elsewhere or work location. If the UI records only registration country, omit base-country rules until applicant base is collected separately. applicantType classifies the actual grant applicant, not the project lead or beneficiary. business means for-profit. Do not reject an individual project lead when an eligible nonprofit/fiscal sponsor is the actual applicant. Public/private university ambiguity remains manual. No fiscalSponsorship rules are emitted: acceptance does not guarantee eligibility and the schema cannot express conditional sponsor requirements for an informal group.\n\nMulti-country projects can have a fundable local component. For workCountries only-rules, no overlap with the exhaustive eligible list can establish a geographic conflict; partial overlap requires clarification of the requested funded work rather than blanket rejection. Unknown or empty country/type inputs stay unknown. GB is necessary but insufficient for the England stream; Scotland, Wales and Northern Ireland are not covered by that program. SFF must serve five named Bay Area counties, but serving residents is not identical to the physical location of every project activity, so no work-country-only rule is emitted for SFF.\n\nKept manual in the existing pilot: Acento partner-led coalition and Mexico focus (not an exhaustive country rule in reviewed Fondo Raiz terms); CAGES Indigenous leadership, endorsement and DGR1 exceptions; SFF five-county benefit, urgency, fiscal sponsor and tax status; Wellcome dated host-country change, career stage and mainland-China fund-transfer rule; Doria applicant-base OR work-location geography; DRF conflicting call/FAQ territory scope and public university status; all movement/identity leadership, beneficiaries, permitted costs, capacity, invitation, nomination, deadline and specific organizational-form requirements. Examples, past cohorts, foundation offices, country programs, broad regions and historical award locations were never converted to exclusive country rules. Closed or future calls stay closed/future independent of these screens. Recheck rules when a call or official policy changes."
+}

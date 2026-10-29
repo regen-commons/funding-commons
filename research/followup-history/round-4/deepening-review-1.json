@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "passId": "policy-followup-4-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://edudel.nic.in/upload/upload_2023_24/5429_38_dt_08032024.pdf",
+          "title": "Government’s actual Inchara counselling/workshop engagement",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.rotarymangalore.com/history/",
+          "title": "Operational partner distinguishes Project Angel from separate Rotary grants",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New institutional contract and partner-history routes identify Inchara as a child-protection workshop/parent-counselling delivery partner. Rotary’s adjacent global-grant amounts finance its separate projects, not offers from Inchara. Scholarship-awareness delivery and its grant/proposal consultancy wording are likewise not external grant eligibility. The reviewed material supports the existing child-welfare overview without a recipient funding policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5161298/governing-document",
+          "title": "UK candidate’s own filed governing objects",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://nextstep.foundation/support/",
+          "title": "UK candidate’s donor sponsorship prices, not grants to projects",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://nextstepfdn.org/",
+          "title": "Distinct Kenyan institutional identity",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New statutory-source research confirms that the UK namesake (1191176) exists to deliver university-preparation courses to disadvantaged UK students; its donor scholarship prices are not external project awards. This still cannot identify the bare Fito row among the Kenyan, South African and Australian namesakes. Publisher-qualified searches added no discriminator, so no authentic candidate policy was silently transferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reckI55X3sxYzuzeb",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://nalandaway.org/wp-content/uploads/2022/06/The-Story-So-Far-May-2022-Web.pdf",
+          "title": "Full organizer report: historical Youth Speak pitch/grant model",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://nalandaway.org/wp-content/uploads/2026/03/Annual-Report-2024-2025.pdf",
+          "title": "Current annual report distinguishes delivered programmes and scholarship outcomes",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://nalandaway.org/partners/",
+          "title": "Own cohost and grants-event corroboration",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read the new 2024–25 own annual report and followed the own partners page’s specific Youth Speak grants-event lead to the full historical organizer report. It documents a 2018 youth social-enterprise pitch-fest and five winners’ mentoring/grant opportunity. Kept the programme closed and historical; inconsistent award text is not a numeric range. The 2024–25 report’s scholarships were participant outcomes, not a new external grant offer.",
+      "remainingGaps": [
+        "eligibility",
+        "award"
+      ]
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://venezuelasinlimites.org/directorio-ong/",
+          "title": "Institutional membership and mission corroboration",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://latinno.wzb.eu/en/covid/",
+          "title": "Institutional record of TAAP-coordinated relief delivery, not a grant call",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "New Spanish convocatoria/beca and institutional-registry searches located Fundación TAAP in Venezuela Sin Límites’ own NGO directory, with matching arts/peace work and an older TAAP domain. Awards to TAAP and donor-supported training or Colombia Cuida relief coordination do not establish an external project-grant scheme. Retained the current verified operating-partner overview; no cash award, application conditions or intake found.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpqvD8c272JI57d",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://nl.linkedin.com/in/lscheske",
+          "title": "Director’s own portfolio and staff-vacancy description",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://anbi.nl/publicatieverplichting/stichting-sub3/",
+          "title": "Statutory identity and charitable mandate",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://anbi.nl/wp-content/uploads/stichting-sub3/Stichting%20Sub3%20beleidsplan%202024-2026.pdf",
+          "title": "Existing board-policy PDF remains unavailable on fresh normal-TLS retrieval",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "New leadership and Dutch applicant-policy searches found the director’s own 2026 recruitment post describing the Society & Humanitarian Aid portfolio, including digital rights and inequality. Its September deadline and one-year contract concern a staff vacancy, not grant access. Cross-checked statutory board identity; recipient payments and Amarte’s separately administered Sub3 Art Fund do not establish this foundation’s general terms. No published current intake or per-award policy recovered.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.globalwelfarefoundations.org/",
+          "title": "Indian namesake’s own Section 8 mandate",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://global-welfare-foundation.jimdosite.com/",
+          "title": "Gambian namesake’s own identity and programmes",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.globalgiving.org/projects/micro-finance-support-for-the-people-in-the-gambia/",
+          "title": "Gambian organization’s self-authored retired project profile",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Fresh primary indexed content now makes the Indian candidate’s Section 8 education/health/livelihood mandate readable. The Gambian GLOWEFA candidate separately describes local relief, training and microfinance, including a self-published GlobalGiving project. These are distinct credible identities, with no Fito row discriminator linking either one; the publisher check also yielded none. No country, mission or programme was assigned to the unresolved record.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recPltSfBuofl8aqD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://tiltcollective.teamtailor.com/jobs/7719767-country-director-united-states",
+          "title": "Own US portfolio and internal grant-approval process",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://tiltcollective.teamtailor.com/jobs/5864688-senior-director-finance",
+          "title": "Historical host-transition description; fresh live post410",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.windwardfund.org/wp-content/uploads/2025/11/Windward-Fund-2024-Public-Disclosure-Copy.pdf",
+          "title": "Own host filing reviewed, without dated Tilt applicability",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New own hiring-platform material describes US grant scoping, proposal approvals and ongoing grantee support; it does not publish recipient eligibility or cold-application access. The historical finance post describes a planned transition from a US fiscal host to a UK entity, so current host applicability cannot be assumed. Read Windward’s own 2024 Schedule I, but it does not name Tilt: no generic host policy, staff salary or operating turnover became a Tilt grant condition or range.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.balafoundation.org/",
+          "title": "Education namesake’s own programme and EIN disclosure",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/208090357",
+          "title": "Distinct Texas filer identity, not a resolved source-row match",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Fresh exact-name and publisher-qualified searches still separate the Bala/Swaminathan education charity (EIN 84-3004582) from the Texas grantmaking foundation (EIN 20-8090357). The education candidate’s own indexed site describes Tamil scholarships and infrastructure grants, but the source row supplies no country, founder or identifier linking it to that candidate. The bounded Fito/PrairieDogs publisher check yielded no additional discriminator; no namesake terms were assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6kmJhaMxKVs8FI",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.rfsu.se/globalassets/pdf/rapporter/booklet_all_studies_240215.pdf",
+          "title": "Joint RFSU/WFG historical case and grantmaking methods",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://prospera-inwf.org/europe/",
+          "title": "Official institutional member corroboration",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Recovered substantive historical policy through the RFSU case study documented with the portrayed organizations, including WFG. Read its own indexed core-support and trust-based-selection sections: flexible operating support began in 2021, with community-informed themes and local activist/expert review. Later direct PDF retrieval failed, so no current call or new eligibility was inferred. Retained the affected original-host warning and the clean Prospera corroboration; individual recipient grants were not converted into award limits.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search?_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_objectiveId=A18122454&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_mvcRenderCommandName=%2Faccounts-and-annual-returns&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_organisationNumber=5017605&p_p_cacheability=cacheLevelPage&p_p_id=uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet&p_p_lifecycle=2&p_p_mode=view&p_p_resource_id=%2Faccounts-resource&p_p_state=maximized",
+          "title": "Recipient’s own filed accounts separately naming ETF and CCC",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://platformlondon.org/about-us/funders-ethics/",
+          "title": "Direct recipient lists the two supporters separately",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.rbf.org/grantees/rockefeller-philanthropy-advisors-inc",
+          "title": "RBF’s own evidence of the RPA fund, not a source-row resolution",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New self-filed People & Planet accounts and Platform’s own funding list name Energy Transition Fund and Climate Change Collaboration separately. The RBF/RPA fund is real, but this does not reconcile Fito’s explicit CCC affiliation or identify which ETF was intended. Focused RPA/CCC and publisher-qualified searches found no discriminating applicant source. Recipient income and donor payments were not converted into grant offers.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.commonapproach.org/knowledge/resources/reflections-from-the-first-year-working-with-the-network-for-optimizing-food-impact/",
+          "title": "Direct co-delivery partner’s account of the Colleaga network",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://digitalsupercluster.ca/annual-report/2021-22/",
+          "title": "Institutional membership list, not Colleaga applicant policy",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New corporate, co-investment and application searches reached Common Approach’s own account of its work with Colleaga and 10C. It corroborates Colleaga’s network-convening, strategy and impact-measurement work, but gives no recipient investment criteria, ticket size or intake. DIGITAL membership is not an award policy. Retained the previously verified venture overview and both affected-host warnings; no casino or healthcare injection contributed facts.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recRkK6BPYYaqg1zk",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://tanmia.ma/wp-content/uploads/2022/10/Request-for-Proposals-RFP-I2Z-Morocco.pdf",
+          "title": "Full CECG-backed I2Z/SIE applicant RFP",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5270525/full-print",
+          "title": "Present charity statutory identity and registration",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.climatecollaboration.org/contact",
+          "title": "Current own contact and matching legal identifiers",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read the full I2Z/SIE-authored Morocco RFP, which expressly identifies CECG backing and a nonrepayable grant. Retained its closed 2022 programme separately from current CECG access. The new Charity Commission record confirms the present charity registered in January 2026; the RFP predates that legal entity. Pooled budget and planned implementation window remain qualified prose.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fellowship.bhumi.ngo/fellowship.html",
+          "title": "Distinct provider’s fellowship and Madhi placement relationship",
+          "outcome": "unrelated"
+        },
+        {
+          "url": "https://www.mphasis.com/content/dam/mphasis-com/global/en/csr/the-nudge-center-for-social-innovation-support-to-non-profit-start-up-incubation-program.pdf",
+          "title": "Direct donor account of Madhi as a supported incubatee",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New scholarship and fellowship searches reached Bhumi’s own funded fellowship, where Madhi is an alumni placement partner rather than the award provider. Another scholarship lead concerned a staff member’s prior volunteering at a different organization. Neither establishes Madhi grants. Current Madhi implementation remains verified, with external applicant status, award terms and intake still absent.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recM69Qg1wcBAqxjm",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://newventurefund.org/2022/06/29/helping-the-organizations-that-help-us-all/",
+          "title": "Direct 2022 CJSF/NVF administration chain",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://newventurefund.org/wp-content/uploads/2023/11/NVF-2022-Public-Disclosure-Copy-257292001.pdf",
+          "title": "Own 2022 Schedule I policy, pp181–182",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.cjsfund.org/",
+          "title": "Current own general-support description",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Established direct historical applicability through NVF’s own 2022 article naming CJSF as its fiscally sponsored project with grantmaking/legal support, then read the same-year own Schedule I procedures. Kept these as dated administrator safeguards, including the qualified treatment of non-501(c)(3) bodies. Current CJSF support is verified, but no current administrator, cold-application access, amount or deadline was inferred from the filing.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec4pxI2Jl4b6906u",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://linktr.ee/M4BL",
+          "title": "Official M4BL application-link provenance",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSe_tw6puDgXCLTsQw9qQ0Pn-Q54_K904x1Vu7U-H1_NERU3-w/closedform",
+          "title": "Own 2026 application closed status",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://mvmnt4blklives.substack.com/archive",
+          "title": "Own newsletter archive without grant terms",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://secure.everyaction.com/HthrCTjmVUKuuhXOjUXuAA2",
+          "title": "Cohost fellowship application access unavailable (403)",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Followed M4BL’s own Linktree to its actual FF26 shortlink and Google form, explicitly created inside M4BL and now closed. Added only the named fellowship and verified availability; no monetary benefit or recipient criteria inferred. Also checked the newly identified own Substack archive and cohost fellowship routes. Secondary Creator Academy/Power Beyond Patriarchy stipends, a 403 portal and unrelated Black Solidarity Fund recipient awards were excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

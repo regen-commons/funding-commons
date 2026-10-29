@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "passId": "policy-followup-7-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://adesoafrica.org/from-within-how-proximate-leaders-are-redefining-philanthropy-in-africa/",
+          "title": "Adeso — own fund-design account, April 2025",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://adesoafrica.org/wp-content/uploads/2025/12/ADESO-strategic-plan.pdf",
+          "title": "Adeso — full strategic-plan PDF, retrieval and reader-size limits",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Read a newly located own April 2025 design article: national funds, endowments and Islamic finance are architectural plans, not recipient access conditions. A normal verified-TLS retry of the full 2025–2030 plan failed with a connection reset; the web reader also cannot process its 74.6 MB size. No applicant terms or grant limits are inferred from the unread plan.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+          "title": "Fito Network live publisher — Alpina Foundation card, blank identity details",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The live publisher card was searched and expanded during this pass; it still provides no website and no mission, grant-size, geography or application details. Exact-name publisher searches supplied no cross-reference to the Colombian candidate or another legal entity. Its original identity remains unresolved, with no candidate focus or eligibility assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+          "title": "Fito Network live publisher — BOA Foundation card, no discriminator",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The live publisher card still has no domain or descriptive fields after a fresh search and expansion. No publisher cross-reference identifies the Indigenous US/UK organisation rather than the Bank of Africa foundation family. Candidate-specific programmes cannot resolve that missing link; no identity, theme or grant rule is assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.comms-hub.org/spainfocuseu",
+          "title": "CommsHub — DemPulse 2026 Spain participant material",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://forms.office.com/Pages/DesignPageV2.aspx?id=R2rbuTUnWk-Vf1rwBG-qe2qvK-N3D1BHoVPqLin0IWZUNzI2SU43Q1JRQlNOQjFQTTVPMERTMFpQUi4u&origin=NeoPortalPage&subpage=design",
+          "title": "CommsHub linked registration — inaccessible Microsoft design route",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "The new Spain FOCUS EU page publishes participation conditions for 2026 communications sessions, including relevant civil-society work and up to two participants per organisation. Its registration link targets an inaccessible Microsoft design page. These are session-participation conditions, without a documented funded award, stipend or grant application; no recipient funding terms are promoted.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recKZhrajN6s5GjOs",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.marketscreener.com/news/latest/Nine-National-Foundations-Join-to-Address-Nationwide-Housing-Instability-26022082/",
+          "title": "FHO-issued launch release — attributed BusinessWire syndication",
+          "outcome": "historical"
+        },
+        {
+          "url": "http://www.housingopportunity.org/uploads/newsResources/FHO-Announcement-2.20.18.pdf",
+          "title": "FHO original launch PDF — unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://www.hiltonfoundation.org/news/nine-national-foundations-join-to-address-nationwide-housing-instability/",
+          "title": "Cofounder Hilton launch-release route — 403",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Recovered the full funder-issued February 2018 announcement through its attributed BusinessWire syndication. It specifies invitation/formal-RFP access for the next three years. This supports a historical policy only; current access stays unconfirmed and recipient examples are not general award bounds. The legacy own PDF is 404 and the Hilton copy returned 403.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/posts/maurisamoloto_taking-a-moment-to-honour-my-process-reflect-activity-7472988734435676162-rVNn",
+          "title": "Lefika founder — own social-entrepreneurship collaboration account",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read the founder’s newly located first-person post sharing her university collaborator’s account of their Social Entrepreneurs Community of Practice. It corroborates social-entrepreneurship learning and student collaboration, without publishing financial support, a bursary, participant funding conditions or an award timetable. Programme activity is retained as context rather than an external funding offer.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.presson.media/grants/",
+          "title": "Press On original grant-call route — 404",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.presson.media%2Fgrants%2F&timestamp=20201023",
+          "title": "Archive.org public metadata — October 2020 own-page capture exists",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://web.archive.org/web/20201021013338/https://www.presson.media/grants/",
+          "title": "Press On archived original call — HTTP 429, unread",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "A newly traced historical media-association listing points to the deleted own grants page. Archive.org’s public index identifies an October 2020 capture, but the actual capture returned HTTP 429 and was not bypassed. Without the original call, third-party amounts and conflicting dates remain unverified; current SMMF access and limits are still unknown.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recTUqGBxowGopxEV",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.nativehawaiianphilanthropy.org/contact",
+          "title": "NHP — current explicit project-support access and recipient policy",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.wayfinderfund.org/",
+          "title": "Wayfinder Fund — NHP-operated grant model, unspecified amounts and dates",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "The previously unreviewed live Contact page explicitly limits project support to invitations and excludes individuals. Its own Wayfinder site confirms NHP operation and multi-year grant plans, without individual award bounds or dates. This establishes recipient/access policy; the separate dated membership promotion and funder tour are not treated as current grants.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclYfoGjYuF1YXqF",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://abr.business.gov.au/ABN/View?id=45931892596",
+          "title": "Stul — fresh live entity-specific private giving fund classification",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://abr.business.gov.au/Help/DGR",
+          "title": "ABR — statutory Item 2 recipient purpose and establishment alternative",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.legislation.gov.au/F2019L01227/2022-02-25/2022-02-25/text/original/epub/OEBPS/document_1/document_1.html",
+          "title": "Federal Register — current listed rules, overseas and transfer provisions",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.aegn.org.au/event/program-2023/",
+          "title": "AEGN — historical Stul conference role, no recipient terms",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "A fresh live ABR retrieval identifies Stul specifically as an Item 2 private giving fund. Its linked official guidance supplies the ordinary recipient baseline, including establishment of Item 1 DGRs. Applicable overseas-recipient and separate transfer/conversion/winding-up provisions were reviewed. This is statutory eligibility context, not a Stul call; own themes, access and award terms remain unknown.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+          "title": "Fito Network live publisher — Building Resilience card, identity fields still blank",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The live publisher card was expanded again and still contains only the full name, with no domain or mission, geography, funding-size or access information. New split-phrase searches led to resilience services and wellbeing programmes rather than a foundation using this complete identity. No primary legal or host cross-reference was established; no candidate facts are assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+          "title": "Fito Network live publisher — The Funding Network card, no affiliate discriminator",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A fresh expansion of the live publisher card still provides no website, geography or descriptive fields to identify an affiliate. The generic name cannot be assigned to the UK, Australian or New Zealand network from candidate-specific documents alone. No affiliate’s currency, crowdfunding conditions or recipient eligibility is imported.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://volta.capital/en/projects/",
+          "title": "Volta — English project-development and commercial solutions",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://volta.capital/wp-json/wp/v2/media?per_page=100&_fields=title,source_url,mime_type",
+          "title": "Volta — public document-discovery route, 404",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Read the separate English Projects page and searched the official domain’s document route for financing guides. The page lists turnkey development, project sales, distributed generation and storage solutions, without borrower or investee application terms. The public media route returned 404. Commercial service descriptions do not establish a recipient call or ticket size; the existing identity warning remains.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

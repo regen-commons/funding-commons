@@ -1,0 +1,393 @@
+{
+  "passId": "policy-followup-8-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "previousVersion": 11,
+  "targetCount": 29,
+  "researchCounts": {
+    "not_a_funder": 18,
+    "program_reviewed": 546,
+    "source_reviewed": 20,
+    "unresolved": 9
+  },
+  "fieldCoverage": {
+    "focus": 581,
+    "eligibility": 487,
+    "numericAward": 144,
+    "currentNumericAward": 65,
+    "datedDeadline": 138,
+    "upcomingDatedDeadline": 26,
+    "applicationRoute": 454
+  },
+  "records": [
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "name": "Adeso / Proximate Fund",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://adesoafrica.org/adeso-in-action/proximate-fund/",
+        "https://adesoafrica.org/philanthropy-and-locally-led-funding/",
+        "https://adesoafrica.org/adeso-in-action/global-initiatives/",
+        "https://myriadusa.org/for-africa-by-africans-the-proximate-funds-bold-vision-for-change/",
+        "https://adesoafrica.org/wp-content/uploads/2025/07/Vacancy-Announcement-Grant-Coordinator-Proximate-Fund-1-.pdf",
+        "https://disasterphilanthropy.org/press/sudans-local-responders-honored-by-the-clinton-global-initiative-for-leading-humanitarian-response-amid-ongoing-conflict-and-famine/",
+        "https://www.linkedin.com/company/theproximatefund",
+        "https://adesoafrica.org/from-within-how-proximate-leaders-are-redefining-philanthropy-in-africa/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "name": "Alpina Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": []
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "name": "BOA Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": []
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "name": "CommsHub (Foundation for International Communications Hub)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.comms-hub.org/",
+        "https://comms-hub.org/wp-content/uploads/2023/09/Comms-Hub-Strategy-2023-25.pdf",
+        "https://www.comms-hub.org/ideation",
+        "https://www.comms-hub.org/legaldisclaimer",
+        "https://www.comms-hub.org/s/Impact-Report-2025.pdf",
+        "https://www.comms-hub.org/projects",
+        "https://www.comms-hub.org/network",
+        "https://www.comms-hub.org/s/Comms-Hub-Impact-Report-2024-epk7.pdf",
+        "https://www.linkedin.com/posts/commshub_civilsociety4you-commshub-activity-7151221080924258304-Ynl5",
+        "https://www.comms-hub.org/s/Comms-Hub-Impact-report-2023a.pdf",
+        "https://www.comms-hub.org/spainfocuseu"
+      ]
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "name": "Lefika Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://linktr.ee/lefika2024",
+        "https://za.linkedin.com/company/the-lefika-foundation",
+        "https://docs.google.com/forms/d/e/1FAIpQLSf_jgO7iF15SEpsk_zRWVMQ741oylXyMy_dmVMY0jMeC5iL-g/viewform",
+        "https://www.linkedin.com/posts/maurisamoloto_taking-a-moment-to-honour-my-process-reflect-activity-7472988734435676162-rVNn"
+      ]
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "name": "Movement Media (Press On’s Southern Movement Media Fund)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.presson.media/",
+        "https://www.presson.media/",
+        "https://www.presson.media/wp-content/uploads/2024/08/2023-Press-On-Final-Annual-Report.pdf",
+        "https://projects.propublica.org/nonprofits/full_text/202522529349300022/IRS990",
+        "https://projects.propublica.org/nonprofits/full_text/202522529349300022/IRS990ScheduleI",
+        "https://www.linkedin.com/company/press-on-south",
+        "https://www.presson.media/wp-sitemap-posts-page-1.xml"
+      ]
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "name": "The Building Resilience Helping You Thrive Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": []
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "name": "The Funding Network",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": []
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "name": "Volta Capital",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://volta.capital/",
+        "https://www.linkedin.com/company/volta-capital-llc",
+        "https://volta.capital/inversionistas/",
+        "https://volta.capital/proyectos/",
+        "https://volta.capital/contacto/",
+        "https://www.regulus.com.mx/",
+        "https://www.sujio.mx/",
+        "https://www.hhgm.mx/",
+        "https://volta.capital/quienes-somos/",
+        "https://volta.capital/en/about/",
+        "https://volta.capital/en/investors/",
+        "https://volta.capital/en/projects/"
+      ]
+    },
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "name": "Bala Family Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": [
+        "https://www.balafoundation.org/",
+        "https://projects.propublica.org/nonprofits/api/v2/organizations/208090357.json",
+        "https://projects.propublica.org/nonprofits/api/v2/organizations/843004582.json",
+        "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+        "https://kalasalingam.ac.in/wp-content/uploads/naac/NAAC_SSR_III_Cycle.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "name": "Colleaga",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://global.colleaga.org/",
+        "https://www.colleaga.org/",
+        "https://www.commonapproach.org/knowledge/resources/reflections-from-the-first-year-working-with-the-network-for-optimizing-food-impact/",
+        "https://www.commonapproach.org/community/projects/pathfinder-pilot/",
+        "https://ca.linkedin.com/company/colleaga",
+        "https://www.commonapproach.org/meet-the-network-for-optimizing-food-impact/",
+        "https://achatscanada.canada.ca/fr/node/Apercu/1201564?wbdisable=true"
+      ]
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "name": "Energy Transition Fund (ETF)",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": [
+        "https://www.rbf.org/grantees/rockefeller-philanthropy-advisors-inc",
+        "https://platformlondon.org/about-us/funders-ethics/",
+        "https://register-of-charities.charitycommission.gov.uk/en/charity-search?_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_objectiveId=A18122454&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_mvcRenderCommandName=%2Faccounts-and-annual-returns&_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_priv_r_p_organisationNumber=5017605&p_p_cacheability=cacheLevelPage&p_p_id=uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet&p_p_lifecycle=2&p_p_mode=view&p_p_resource_id=%2Faccounts-resource&p_p_state=maximized",
+        "https://climatechangecollaboration.org.uk/what-we-fund/",
+        "https://www.fordfoundation.org/news-and-stories/stories/fulfilling-our-commitment-third-annual-update-on-our-pledge-for-tenure-rights-and-forest-guardianship-of-indigenous-peoples-and-local-communities/",
+        "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+        "https://www.fordfoundation.org/wp-content/uploads/2021/12/ford-fdn-2020-form-990-pf.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "name": "Fundación TAAP",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://fundaciontaap.org/",
+        "https://venezuelasinlimites.org/directorio-ong/",
+        "https://lasalle.edu.co/es/noticias/unisalle-es-la-sede-del-wellbeing-summit-bogota",
+        "https://www.ashoka.org/en-us/fellows-earthquakes-venezuela"
+      ]
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "name": "Global Welfare Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": [
+        "https://www.globalwelfarefoundations.org/",
+        "https://stoptb.org/partners/partner_profile2.asp?PID=142945",
+        "https://solve.mit.edu/solutions/77136",
+        "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+        "https://www.cr.gov.hk/docs/wrpt/weekly_newcoys_20110502.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "name": "Inchara Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://incharafoundation.org/",
+        "https://incharafoundation.org/about-us/",
+        "https://edudel.nic.in/upload/upload_2023_24/5429_38_dt_08032024.pdf",
+        "https://www.rotarymangalore.com/history/",
+        "https://incharafoundation.org/get-involved/",
+        "https://incharafoundation.org/impact/",
+        "https://incharafoundation.org/wp-content/uploads/2020/07/Audit-report-3-years.pdf",
+        "https://www.edudel.nic.in/upload/upload_2025_26/5604_12_dt_07032025.PDF"
+      ]
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "name": "Madhi Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.madhifoundation.org/about-us",
+        "https://fellowship.bhumi.ngo/fellowship.html",
+        "https://milaap.org/fundraisers/support-children-by-strengthening-foundational-learning",
+        "https://www.madhifoundation.org/legal-terms",
+        "https://www.madhifoundation.org/research",
+        "https://www.linkedin.com/posts/madhi-foundation_madhifoundation-annualreport-foundationallearning-activity-7393538895285706752-ndY8",
+        "https://cdnm.heyzine.com/files/uploaded/1b898b73eb2cf23b1d191d311d08ba194b1a55ea.pdf",
+        "https://www.madhifoundation.org/programmes",
+        "https://www.madhifoundation.org/join-us"
+      ]
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "name": "Next Step Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": [
+        "https://nextstep.foundation/",
+        "https://nextstepfdn.org/",
+        "https://next-step.org.za/apply/",
+        "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5161298/governing-document",
+        "https://www.acnc.gov.au/charity/charities/faa96300-3aaf-e811-a95e-000d3ad24c60/documents/",
+        "https://nextstepfoundation.org/application-process/",
+        "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+        "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=domnp-n18000006179-48d47661-73d4-4d93-a207-c0ff63b22d2d&directionType=ForwardList&inquirytype=EntityName&listNameOrder=NEXTSTEPFLOORING+L210002593040&searchNameOrder=NEXTSTEPFOUNDATION+N180000061790&searchTerm=THE+NEXT+STEP%2C+LLC"
+      ]
+    },
+    {
+      "sourceRecordId": "recpqvD8c272JI57d",
+      "name": "Sub3 Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://anbi.nl/publicatieverplichting/stichting-sub3/",
+        "https://anbi.nl/wp-content/uploads/stichting-sub3/Stichting%20Sub3%20beleidsplan%202024-2026.pdf",
+        "https://anbi.nl/wp-content/uploads/stichting-sub3/2025%20-%20Sub3%20-%20standaardform-publicatieplicht-fondsen-ib1151z3fol.pdf",
+        "https://nl.linkedin.com/in/lscheske",
+        "https://www.iucn.nl/app/uploads/2025/05/2024_jaarverslag-IUCN-NL-mei-2025-spreads.pdf",
+        "https://www.iucn.nl/app/uploads/2026/04/IUCN-NL-Annual-Report-2025-spreads.pdf",
+        "https://www.iucn.nl/en/our-services/fund-management-for-locally-led-organisations/",
+        "https://www.lpn.pt/en/what-we-do/cinereous-vulture-crowdfunding-campaign-launched-after-major-fire-in-douro-internacional-hits-target-and-restoration-measures-are-implemented-"
+      ]
+    },
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "name": "AGYW+Foundation Lesotho",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://nationalassembly.parliament.ls/wp-content/uploads/2024/02/REPORT-16-Days-of-Activism-Against-GBV.pdf",
+        "https://vcsafund.org/wp-content/uploads/2023/07/Voice_and_Choice_Fund_Results_Report.pdf",
+        "https://vcsafund.org/opportunity-lesotho/agyw-foundation-lesotho/",
+        "https://www.genderlinks.org.za/wosso/learning-hub/stories-of-change/story-of-change-agyw-advancing-srhr-in-lesotho",
+        "https://www.genderlinks.org.za/wvlsa/stories-of-change/story-of-change-agyw-advancing-srhr-in-lesotho"
+      ]
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "name": "Bridge International Academies Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://bridge.ac.ke/",
+        "https://bridge.ac.ke/bridge-kenya-news/bridge-academies-foundations-journey-to-achieving-education-for-all/",
+        "https://bridge.ac.ke/secondary-school-scholarship/",
+        "https://bridge.ac.ke/empowering-communities-through-literacy-closing-the-learning-gap-for-a-more-inclusive-society/",
+        "https://bridge.ac.ke/wp-content/uploads/2026/08/Bridge-Foundation-Impact-Report-2025.pdf",
+        "https://bridge.ac.ke/sponsor-a-child/",
+        "https://www.bridge.ac.ke/rising-from-the-ashes-the-journeys-of-hiether-rebecca-and-joel-wafula/"
+      ]
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "name": "Carnegie Foundation",
+      "previousStatus": "unresolved",
+      "previousSourceURLs": []
+    },
+    {
+      "sourceRecordId": "recHtVI3SinIzIpeh",
+      "name": "Democracy Alliance",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://democracyalliance.org/about-us/",
+        "https://democracyalliance.org/articles/kendra-fox-davis-and-zakiya-johnson-lord-we-are-doubling-down-on-the-south/",
+        "https://democracyalliance.org/articles/2020-funds-update-inclusive-economy-fund/",
+        "https://democracyalliance.org/articles/while-vigorous-advocacy-moves-forward-we-need-to-support-frontline-communities-directly/",
+        "https://democracyalliance.org/join-us/",
+        "https://democracyalliance.org/our-work/"
+      ]
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "name": "Fund for Policy Reform Trust (Open Society)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.influencewatch.org/app/uploads/2022/12/fund-for-policy-reform-2021-form-990.pdf",
+        "https://apps.irs.gov/pub/epostcard/cor/357090597_202412_990O_2026041424092910.pdf",
+        "https://apps.irs.gov/pub/epostcard/cor/357090597_202312_990O_2025042523397578.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recgnI6ctYih5FQw5",
+      "name": "Inter Pares (Canada)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://interpares.ca/",
+        "https://interpares.ca/sites/default/files/resources/2011-03DoesItWork-FeministAnalysisAndPracticeAtInterPares.pdf",
+        "https://interpares.ca/where-change-takes-root/",
+        "https://interpares.ca/sites/default/files/resources/fs_inter_pares_2024.pdf",
+        "https://interpares.ca/fr/une-approche-feministe-de-lagroecologie-avec-mariame-ouattara/",
+        "https://interpares.ca/wp-content/uploads/2026/05/IP-Etats-financiers-2025.pdf",
+        "https://interpares.ca/fr/nos-homologues/"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6uJtW06yzJWpRJ",
+      "name": "Lady Khadija Trust NZ",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.ladykhadijatrust.org/",
+        "https://www.ladykhadijatrust.org/about/",
+        "https://www.ladykhadijatrust.org/projects/ethnic-womens-leadership/",
+        "https://ethnicwomen.nz/course/",
+        "https://events.humanitix.com/ethnic-women-starting-your-business",
+        "https://events.humanitix.com/ethnic-women-starting-your-business/tickets",
+        "https://www.register.charities.govt.nz/Charity/CC54175",
+        "https://register.charities.govt.nz/Document/DownloadPublicDocument?documentId=06f1bcf5-9f51-4b8a-97a9-a2f4f8c84b9e&searchId=f9e46d77-c30e-f011-bb41-0022480ffcd1",
+        "https://register.charities.govt.nz/Document/DownloadPdf?pdfType=AnnualReturnSummary&relatedId=398cf1d9-912d-f111-bb51-000d3acc4199&isPublic=true",
+        "https://register.charities.govt.nz/Document/DownloadPublicDocument?documentId=00c3a983-47aa-467c-b83b-889916efc606&searchId=3661c0a8-4ca5-e611-935c-00155de3e60a",
+        "https://www.ladykhadijatrust.org/projects/immigrant-journeys/",
+        "https://www.ladykhadijatrust.org/projects/community-of-strangers/"
+      ]
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "name": "Network for the Advancement of Black Communities (NABC)",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://networkabc.ca/",
+        "https://networkabc.ca/learning-institute/",
+        "https://networkabc.ca/city-of-toronto-black-food-sovereignty-plan/",
+        "https://networkabc.ca/new-partnership-with-black-opportunity-fund-supports-justice-related-services-for-black-communities/",
+        "https://www.toronto.ca/legdocs/mmis/2026/ec/comm/communicationfile-209450.pdf",
+        "https://networkabc.ca/wp-content/uploads/2025/01/NABC-Pamphlet.pdf",
+        "https://networkabc.ca/building-grant-writing-program-design-and-evaluation-capacity/",
+        "https://networkabc.ca/examining-funding-and-evaluation-relationships/"
+      ]
+    },
+    {
+      "sourceRecordId": "recpw4qdfUAaI8McW",
+      "name": "Prolongar Foundation",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://fundacionprolongar.org/en/",
+        "https://fundacionprolongar.org/es/reconocimientos-y-menciones/",
+        "https://fundacionprolongar.org/es/experiencias/la-voz-de-dos-murales/",
+        "https://fundacionprolongar.org/wp-content/uploads/2022/03/INFORME-2021-2020-Fundacion-Prolongar-Firmados.pdf",
+        "https://fundacionprolongar.org/es/servicios/estotienearreglo/",
+        "https://fundacionprolongar.org/es/servicios/social/",
+        "https://fundacionprolongar.org/experiencia/arte-para-reconstruir/",
+        "https://fundacionprolongar.org/wp-content/uploads/2020/09/Libro-FP-Versi%C3%B3n-Digital.pdf",
+        "https://fundacionprolongar.org/wp-content/uploads/2018/04/Informe-de-gesti%C3%B3n_DirectoraEjecutivaWeb.docx.pdf"
+      ]
+    },
+    {
+      "sourceRecordId": "recb5VpXOFbqvyiJD",
+      "name": "Southern Africa Trust",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://www.linkedin.com/company/southern-africa-trust",
+        "https://southernafricatrust.org/grantmaking/",
+        "https://www.gov.uk/international-development-funding/southern-africa-trust",
+        "https://www.linkedin.com/posts/southern-africa-trust_solidarityeconomy-feministeconomics-grantmaking-activity-7482783746220453888-DmBr",
+        "https://ipa-sa.org.za/public/centering-communities-in-the-just-energy-transition-a-question-of-power-not-participation/"
+      ]
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "name": "Stiftung Saving An Angel",
+      "previousStatus": "source_reviewed",
+      "previousSourceURLs": [
+        "https://savinganangel.org/",
+        "https://savinganangel.org/partner/",
+        "https://stiftungen.bayern.de/stiftung/13100",
+        "https://sailforkids.org/about/",
+        "https://sailforkids.org/willkommen/",
+        "https://savinganangel.org/projekte/unhide-ukraine/",
+        "https://savinganangel.org/kontakt/"
+      ]
+    }
+  ]
+}

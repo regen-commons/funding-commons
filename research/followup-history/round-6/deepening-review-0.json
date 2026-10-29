@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "passId": "policy-followup-6-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/company/theproximatefund",
+          "title": "Proximate Fund — own public updates and Kuja listings",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://adesoafrica.org/wp-content/uploads/2025/12/ADESO-strategic-plan.pdf",
+          "title": "Adeso — 2025–2030 strategic plan, full retrieval failed",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "The fund’s own public social page now exposes Kuja marketplace listings and aid-listening invitations; these are not a Proximate recipient call. The new 2025–2030 strategic-plan PDF was indexed but its full download failed, so no terms are taken from it. No recipient guide, individual range or current application date was established.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://fundacionalpina.org/en/transparencia/",
+          "title": "Colombian Alpina candidate — own transparency and registration-document links",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://fundacionalpina.org/wp-content/uploads/2026/08/CCB-06-07-2026.pdf",
+          "title": "Colombian Alpina candidate — linked July 2026 registration certificate, inaccessible",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "The Colombian candidate’s own transparency page links a new Chamber of Commerce certificate dated July 2026. The certificate returned 403; no access restriction was bypassed. The legal-document navigation strengthens that candidate’s accountability trail but does not connect it to Fito’s name-only row. No candidate identity or funding conditions are assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://theboa-foundation.org/proj/one-thousand-villages",
+          "title": "Indigenous BOA candidate — own One Thousand Villages campaign",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/810907705",
+          "title": "Indigenous BOA candidate — US-filer lookup unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Read the Indigenous candidate’s separate One Thousand Villages campaign page. It describes financing community-led ecosystem and cultural projects, without an application guide or recipient amounts. A US-filer lookup supplied no usable content. Neither this campaign nor the candidate’s known US/UK registrations connects it to the name-only Fito record; Bank of Africa remains a distinct possible identity.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.comms-hub.org/s/Comms-Hub-Impact-report-2023a.pdf",
+          "title": "CommsHub — full 2023 impact report, recovered image PDF",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Recovered and OCR-read all 21 pages of the official 2023 impact report, including coalition support and hands-on mentorship accounts. It documents work with selected partners, not a recipient application or selection policy. Country projects and training examples provide no external award bounds, bursary terms or current intake dates.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recKZhrajN6s5GjOs",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.housingisopportunity.org/about-us",
+          "title": "FHO — institutional history and report navigation",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.housingisopportunity.org/_files/ugd/4417fb_1723961a8d4648109eb6755f53f09c82.pdf",
+          "title": "FHO — full collaborative-funding lessons report, 2022",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "The About page led to the full nine-page collaborative-funding report. Its discussion of interviews, reserve requirements and operating support describes possible grantmaking practices and lessons, not a published FHO applicant policy. Named awards are historical examples rather than a general range. No recipient submission route or current deadline was established.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rectDLlkmWbjtTWPY",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/full_text/202533229349101258/IRS990PF",
+          "title": "Humanitas360 Institute — own checked FY2024 US grant-access policy",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "The actual FY2024 Humanitas360 Institute return identifies HUMANITAS360.ORG and checks the preselected-only/no-unsolicited contribution policy. This is a historical US-entity access policy, independently distinct from PDR’s Brazilian operations. Current invitation procedures, geography, amounts and timing remain unknown; no current route or PDR eligibility is inferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.bec.co.bw/images/2025/profiling-booklet/12th-top-achievers-magazine-_compressed.pdf",
+          "title": "Botswana Examinations Council — different student-led Lefika namesake",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "A new Botswana Examinations Council publication describes a student-led Lefika Foundation sponsoring school prizes. It names Hakim Mokwena and Masunga school, not the previously corroborated South African consultancy. Its prize-giving and pooled contributions cannot establish this record’s awards or access. No funded SELA bursary or current recipient terms were verified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.presson.media/wp-sitemap-posts-page-1.xml",
+          "title": "Press On — recovered public page index",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.presson.media/wp-content/uploads/2019/04/Application-for-Freedomways-Reports-2019.pdf",
+          "title": "Press On — separate historical Freedomways reporting application",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "The newly readable public sitemap and media index yielded a formal 2019 Freedomways application. Its compensation, reporting obligations and May 2019 deadline belong to that separate reporting project, not the Southern Movement Media Fund. The published SMMF overview remains valid, while its recipient selection, award range and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recTUqGBxowGopxEV",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.nativehawaiianphilanthropy.org/hawaiianstorytelling",
+          "title": "NHP — storytelling, curriculum and youth workshops",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.nativehawaiianphilanthropy.org/community-projects",
+          "title": "NHP — community training and grant-writing services",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read the new storytelling and community-project pages for funded participant support. They describe writing, filmmaking, youth workshops and grant-writing training, but publish no tuition award, stipend, recipient budget or application dates. The fellowship reference is curriculum context, not a verified financial offer; Wayfinder funding conditions remain unknown.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclYfoGjYuF1YXqF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://abr.business.gov.au/ABN/View?id=45931892596",
+          "title": "Stul Family Foundation — ABR legal entry, no applicant guide",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.acnc.gov.au/charity/charities?search=Stul",
+          "title": "Stul — public ACNC search, inaccessible",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "The public ABR entry still identifies the discretionary investment trust, without a foundation application-policy link. The new ACNC charity-search route was inaccessible, and exact legal-name policy searches yielded no foundation-owned applicant guide. The established identity remains; neither regulatory classification nor donor acknowledgements supply recipient eligibility, ranges or dates.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [],
+      "notes": "Fresh exact-full-name and legal-registration searches found no credible foundation or publisher cross-reference. Results were generic resilience coaching, wellbeing resources and institutional programme phrases, none linking the complete name to a legal entity. The original row still lacks a domain, country or identifier; no candidate facts are assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.thefundingnetwork.com.au/privacy-policy/",
+          "title": "Australian Funding Network candidate — own legal identity and privacy policy",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Read the Australian candidate’s own privacy policy, which explicitly identifies The Funding Network Australia, its Australian address and ABN 75 166 134 774. This is stronger candidate-specific legal identification but no continuity with Fito’s generic row. UK and New Zealand affiliates remain distinct possibilities; their application conditions are not assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://volta.capital/en/about/",
+          "title": "Volta — separate English institutional page",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://volta.capital/en/investors/",
+          "title": "Volta — English customer and investment-partner material",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the own site’s separate English navigation through About and Investors. The English investor material addresses electricity customers and investment partners, not entities applying to receive grants or investment capital. Customer consumption thresholds and partner preferences are not recipient eligibility. No ticket range or application timetable was recovered; the Mexican identity qualification and existing warning remain.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

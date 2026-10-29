@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "passId": "policy-followup-8-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.unicef.org/lesotho/youth-power-hub",
+          "title": "UNICEF — separate Youth Power Hub selection policy, not AGYW+ Foundation intake",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "A new search for named registration and youth-funding routes led to UNICEF’s Youth Power Hub. Its own page assigns administration to UNICEF/EU/IOM and three named capacity partners, rather than AGYW+ Foundation Lesotho. Its published 2024 selection and prospective funding window cannot be transferred to this record from the shared AGYW audience acronym. No own applicant policy or verified institutional continuity with that initiative was found; the existing overview remains.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://bridge.ac.ke/support-a-school/",
+          "title": "Bridge Foundation — Support a School donor-payment destination",
+          "outcome": "unrelated"
+        },
+        {
+          "url": "https://www.bridge.ac.ke/six-years-of-top-performance-for-bridge-kenya-pupils/",
+          "title": "Bridge — historical pandemic learning-access account",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Followed the separate Support a School route and historical Bridge@home access account. The former currently contains donor payment instructions, rather than school-selection criteria. The latter describes free pandemic learning materials used by existing pupils, without a current registration, scholarship or external-project funding policy. These new access leads do not establish applicant rules, an award range or an available current round. Existing verified education evidence is retained.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [],
+      "notes": "A bounded publisher-domain search for the exact Carnegie Foundation name found no new identifying cross-reference. The prior live directory review already distinguishes the empty Carnegie Foundation row from the separately identified Carnegie Corporation of New York. No credible new candidate source supplies continuity with this name-only row, so the live lookup was not repeated and no namesake’s policies were assigned. Identity, eligibility, awards and dates remain unresolved.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recHtVI3SinIzIpeh",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.tccgrp.com/wp-content/uploads/2018/09/Visionary-Resistance-Inside-the-Rapid-Response-Model-of-the-Emergent-Fund.pdf",
+          "title": "Emergent Fund partners/TCC — Visionary Resistance, 2017 selection-model report",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Recovered the original evaluator-hosted 2017 report. Its joint funders’ statement explicitly identifies Democracy Alliance’s partnership role and the same instrument’s recipient-selection process. Recorded only that historical, externally administered stream; the separate Emergent Fund record is unchanged.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://apps.irs.gov/pub/epostcard/cor/357090597_202212_990O_2023120722083288.pdf",
+          "title": "Fund for Policy Reform Trust — original IRS FY2022 return, EIN 35-7090597",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Located and reviewed the previously unexamined original FY2022 IRS return, including Schedule F and Schedule I. The foreign-activity section concerns investments; the domestic schedule identifies an affiliate transaction and trustee-approved agreements requiring reporting. It supplies no outside applicant-selection or intake rules. A reported affiliate payment does not establish an award range or sole-recipient eligibility. The result supports the existing overview without promoting another reporting-only policy to a grant programme.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recgnI6ctYih5FQw5",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://apps.cra-arc.gc.ca/ebci/hacc/srch/pub/dsplyRprtngPrd?dsrdPg=1&q.srchNmFltr=Inter+Pares&q.stts=0007&selectedCharityBn=118971100RR0001",
+          "title": "Canada Revenue Agency — Inter Pares own-site-linked filing route; official Error 500",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "The own-site-linked Canadian charity filing route was tested in a real browser beyond the previous text-reader loading shell. It redirected to the CRA’s official bilingual Error 500 page; no filing contents or recipient rules were verified. Focused own-site searches found no new external application policy. Prior audited statements and counterpart evidence remain valid, but they do not establish applicant eligibility, per-award funding or a current deadline.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6uJtW06yzJWpRJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.ladykhadijatrust.org/projects/ethnic-womens-leadership/",
+          "title": "Lady Khadija Trust — own Ethnic Women’s Leadership initiative",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://ethnicwomen.nz/course/",
+          "title": "Ethnic Women Leadership — own course audience and interest guidance",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://ethnicwomen.nz/contact/",
+          "title": "Ethnic Women Leadership — general interest/contact destination",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://ratafoundation.org.nz/stories/specialised-leadership-programme-provides-skills-and-connection-for-migrant-women/",
+          "title": "Rātā Foundation — direct funded-programme account, undated",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "The direct funder confirms no-cost delivery of the named leadership course; the Trust and operator establish its audience and future-course interest route. Recorded a non-cash access programme, with current free places unconfirmed. Historical and undated course descriptions are not combined into a fixed grant duration, and the separate paid business course is excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://networkabc.ca/ubuntu-weaving-mapping-series-101-a-network-learning-journey/",
+          "title": "NABC — Ubuntu series participation, payment and discretionary accommodation terms",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read the separate Ubuntu network-learning series terms beyond the prior two training pages. It publishes a participant audience, facilitator review, advance payment and discretionary discussion of alternative contributions, while session dates remain TBD. This is paid training, not a committed scholarship, grant or guaranteed fee waiver. The page’s open-registration language cannot establish a cash-funding round. No direct award policy, per-award range or dated subsidy offer was recovered.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpw4qdfUAaI8McW",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://fundacionprolongar.org/wp-content/uploads/2022/04/INFORME-DE-GESTIO%CC%81N_2021.pdf",
+          "title": "Prolongar — original 2021 management report, Garabatos access section",
+          "outcome": "historical"
+        },
+        {
+          "url": "http://fundacionprolongar.org/garabatos/home/homes",
+          "title": "Garabatos — legacy learning endpoint, retrieval unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Recovered the original 2021 management report by ordinary public download. Its Garabatos section publishes a free learning-resource benefit and account-access instructions. Recorded only that historical non-cash access; the programme’s incoming budget is not a learner award. Current portal availability remains unverified, and the information link points to the HTTPS report.",
+      "remainingGaps": [
+        "eligibility",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recb5VpXOFbqvyiJD",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.civicus.org/media/Call-Small-Grant-Applications-Community-Based-Groups.pdf",
+          "title": "Southern Africa Trust — original CFP1/2008, independently archived by CIVICUS",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Recovered the Trust-issued CFP1/2008 on the independent CIVICUS host. It verifies a narrowly historical agricultural-grant call with explicit applicant and selection terms, closed in December 2008. No terms from the affected root host are adopted; all integrity warnings and current-policy uncertainty remain.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://savinganangel.org/en/projects/clearwater/",
+          "title": "Saving An Angel — own ClearWater 2011–2021 partnership recap",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Read the own English ClearWater recap beyond the previously reviewed Ukraine and sailing routes. It identifies a 2011–2021 Ecuadorian community partnership and installed water systems, but publishes no beneficiary-selection procedure, outside grant application or transferable award entitlement. Installation counts and equipment lifespan are not award limits or grant duration. The completed project strengthens historical context only; current recipient rules, cash funding and intake dates remain unknown.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

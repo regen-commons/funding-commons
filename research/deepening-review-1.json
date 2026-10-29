@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "passId": "policy-followup-10-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public research view: exact-name record, source tag and Detailed Notes checked",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New government-qualified exact-name and education-brand/legal-certificate searches recovered no credible new primary discriminator linking the Texas legal charity or New York education brand to the directory entry. The results largely concern unrelated surname matches and previously distinguished candidates. No new programme, charity-status inference or candidate restriction was added, and the previous denied filing route was not retried. Identity remains unresolved; no credible new candidate-specific primary page was recovered. The recovered publisher research view has blank Detailed Notes, source tag “Festival 2025”, and no domain or legal ID for this row. A focused festival/Fito cross-reference query found no institutional linkage; the tag cannot select a namesake.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.utm.utoronto.ca/mmi/media/1171/download?inline=",
+          "title": "University of Toronto 2020 internship original: role adjacency checked",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://coil.eco/wp-content/uploads/2023/10/Final_COIL-Investment-Lookbook-Oct2023.pdf",
+          "title": "COIL circular-economy investment lookbook: direct 403",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public research view: exact-name record, source tag and Detailed Notes checked",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New original-document searches recovered a university internship handout. Reading the actual table shows Colleaga’s placement was an innovation-management role; the adjacent investment-sourcing role belongs to DWHP. Neither the aggregate salary figures nor placements are Colleaga applicant awards. A separate COIL investment-lookbook lead returned 403 and was not bypassed. No fresh recipient policy, investment range or current funding call was verified; the corroborated overview and both host-integrity warnings remain intact. The recovered publisher view has blank Detailed Notes and no source tag. These metadata add no recipient eligibility, award value or intake terms.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://green-alliance.org.uk/wp-content/uploads/2025/11/Annual-review-summary-accounts-24-25.pdf",
+          "title": "Green Alliance annual review 2024–25, funders: ETF via RPA",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public research view: exact-name record, source tag and Detailed Notes checked",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A new recipient-issued original explicitly names Energy Transition Fund via Rockefeller Philanthropy Advisors in its 2024–25 funder acknowledgements. It corroborates that candidate’s host but does not establish the directory’s claimed Climate Change Collaboration affiliation. The acknowledgement’s donor-contribution band is historical income to one recipient, not an offered award range or applicant condition. Fresh administrator-qualified searches supplied no applicable public ETF intake guide. The unresolved identity was not substituted. The recovered publisher view has blank Detailed Notes and source tag “UMI”, while retaining the unresolved CCC website hint. The tag supplies no expanded institution or legal linkage; focused queries yielded no official cross-reference, and no acronym expansion was assumed.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://amchamcolombia.co/unidos-por-colombia/",
+          "title": "AmCham Colombia: Unidos por Colombia relief support, TAAP operational role",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://fundaciontaap.org/informes/informe-emergencia-choco.pdf",
+          "title": "Own Chocó emergency report attachment: extraction unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public research view: exact-name record, source tag and Detailed Notes checked",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New Spanish legal-identifier and relief-source searches reached AmCham Colombia’s own coordination page. It identifies TAAP and its director while requesting donations for volunteer medics’ and rescuers’ logistics and needs. This is incoming emergency-response support, not a recipient grant scheme; payment identifiers were not used as eligibility or award data. A newly linked own Chocó report failed extraction. No external applicant guide, award value or current funding deadline was established. The recovered publisher view has blank Detailed Notes and no source tag. These metadata add no recipient eligibility, award value or intake terms.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://bharatodayyaa.org/",
+          "title": "Bharatodayyaa Global Welfare Foundation own identity page: distinct longer-name lead",
+          "outcome": "unrelated"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public research view: exact-name record, source tag and Detailed Notes checked",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New Indian legal-identifier searches produced prefixed near-namesakes rather than a discriminator for the bare directory record. The newly read Bharatodayyaa organization’s own page declares its longer name and a 2026 company identifier; it is not evidence that Fito intended that institution. Other commercial registry matches were not treated as primary eligibility evidence. No near-name mission, legal number, country or programme was imported. The previously distinct Indian, Gambian and Hong Kong candidates remain unassigned. The recovered publisher research view has blank Detailed Notes, source tag “Festival 2025”, and no domain or legal ID for this row. A focused festival/Fito cross-reference query found no institutional linkage; the tag cannot select a namesake.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://incharafoundation.org/wp-content/uploads/2020/07/Tata-Trent-Half-yearly-report-2019-20-1.pdf",
+          "title": "Own Tata Trent half-yearly implementation report: unavailable extraction",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public research view: exact-name record, source tag and Detailed Notes checked",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New CSR/legal-certificate-qualified searches reached NGO certificate profiles rather than an Inchara-issued recipient policy. A different original attachment, the 2019–20 Tata Trent half-yearly delivery report, failed extraction and supplied no verified new terms. No FCRA, sponsor or grantmaking conclusion was inferred from directory badges or missing fields, and no access workaround was attempted. The previously verified child-protection overview remains intact; outside applicant eligibility, offered amounts and current intake are still unknown. The recovered publisher view has blank Detailed Notes and source tag “Festival 2025”. These metadata add no recipient eligibility, award value or intake terms.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://prodadmin.madhifoundation.org/uploads/CEFL_Deck_for_Website_c876969d0d.pdf",
+          "title": "CEFL / Veedum Vizhippum own programme brochure: parent ally selection and support",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public research view: exact-name record, source tag and Detailed Notes checked",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A new 26-page CEFL programme attachment was recovered and read, including its final parent-governance stages; the branded cover was visually checked. It documents learning kits, unspecified engagement rewards and, in year two, role-linked stipends for two selected parent allies per school. No stipend value, open application or outside-project award policy is stated. These individual participation/representative-role supports were kept separate from project grants. Programme reach targets and delivery timelines do not define offered amounts or grant duration. The recovered publisher view has blank Detailed Notes and source tag “Festival 2025”. These metadata add no recipient eligibility, award value or intake terms.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://nextstepfdn.org/donate/",
+          "title": "Next Step candidate’s own Support Our Work donation page",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N/tblHlAmMLcNOYpymC",
+          "title": "Fito-linked public research view: exact-name record, source tag and Detailed Notes checked",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "A new Austin/legal-identifier search led to a separate US tax-record candidate, while the Kenyan candidate’s own donation route describes gifts supporting women and youth with disabilities. The own page publishes no legal identifier connecting that material to the bare Fito name and no outward project-funding terms. Commercial tax-rating summaries were not used as a programme policy. The report’s training support and this donation invitation remain candidate-level context; no legal identity, sponsor rule or current application dates were assigned. The recovered publisher research view has blank Detailed Notes, source tag “Festival 2025”, and no domain or legal ID for this row. A focused festival/Fito cross-reference query found no institutional linkage; the tag cannot select a namesake.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

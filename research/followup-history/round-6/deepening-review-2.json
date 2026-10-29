@@ -1,0 +1,302 @@
+{
+  "version": 1,
+  "passId": "policy-followup-6-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rec8CwtJukTyEZM3N",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://support.aoflfoundation.org/hc/en-us/articles/4411703953559-Is-ABCmouse-English-free",
+          "title": "Age of Learning Foundation — free-access policy, updated October 2021",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://support.aoflfoundation.org/hc/en-us/articles/1500012946882-What-ages-should-be-using-ABCmouse-English",
+          "title": "Age of Learning Foundation — intended ages, updated June 2021",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://support.aoflfoundation.org/hc/en-us/articles/4410284986135-How-do-I-sign-up-for-ABCmouse-English",
+          "title": "Age of Learning Foundation — signup instructions, updated October 2021",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://support.aoflfoundation.org/hc/en-us/articles/1500013061681-I-don-t-see-the-ABCmouse-English-app-in-my-app-store-What-do-I-do",
+          "title": "Age of Learning Foundation — dated app-store availability guidance",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.abcmouseaprendeingles.cr/register/",
+          "title": "ABCmouse English — official-linked public registration",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://support.aoflfoundation.org/hc/en-us/articles/4411703953559-Is-ABCmouse-English-free",
+          "title": "ABCmouse English — free learning access (non-cash)",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Followed the official help centre to its specific ABCmouse English access, age, signup and app-store guidance, then checked the linked live registration page. This establishes a narrowly scoped non-cash learning-access programme, not an organizational cash grant. The published help articles are dated 2021; registration remains advertised in October 2026, but no account was created and current provisioning or institutional selection was not verified. App-store country settings and the recommended age audience are not hard applicant exclusions. The earlier unrelated DP Kids host remains excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://za.linkedin.com/in/limpho-natsoane-75042b211",
+          "title": "Public social lead — indexed May 2023 AGYW/Mosepele collaboration; full retrieval unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://www.genderlinks.org.za/wvlsa/stories-of-change/story-of-change-agyw-advancing-srhr-in-lesotho",
+          "title": "Gender Links — mirror of April 2025 AGYW recipient account",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Pursued the exact Lesotho name and its named project lead through public social and local-language programme leads. An indexed May 2023 Mosepele collaboration account concerns menstrual-health activities, but its public profile could not be fully retrieved. A newly located Gender Links page mirrors the already reviewed April 2025 recipient story; it describes AGYW’s funded services and prospective mentoring, not an outgoing award or recipient-selection policy. No terms were borrowed from unrelated AGYW programmes. The Parliament-supported overview is retained; applicant rules, per-award funding and intake dates remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://bridge.ac.ke/refund-statement/",
+          "title": "Bridge Foundation — donations and refund policy, not recipient eligibility",
+          "outcome": "unrelated"
+        },
+        {
+          "url": "https://bridge.ac.ke/wp-content/uploads/2021/01/Bridge-International-Academies_White-Paper_The-Bridge-Effect_Nov-2014_Website.pdf",
+          "title": "Bridge — archived education white paper; bot-verification response",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Checked the foundation’s formal donations/refunds policy and pursued archived scholarship research beyond its previously reviewed impact report. The refund terms govern donors’ payments, not scholarships or grantee applications. The archived 2014 education white paper returned bot verification; indexed references to merit-scholarship studies cannot establish the foundation’s own award rules. No challenge was bypassed. The verified education overview remains, while recipient selection, per-student or project awards and a current application deadline are still unconfirmed.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.fito.network/funders-database",
+          "title": "Fito directory — original row provenance; name-only source inventory",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Rechecked the full original publisher snapshot, including all twelve source-field indicators, rather than only the normalized directory. Carnegie has only its name: no website, geographical reach, detailed notes, application information, funding size or alias is populated. The original creation timestamp is not an institutional discriminator. Distinct Carnegie organizations cannot be assigned to this row without additional publisher or original-record evidence; no namesake’s focus or policy is adopted.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recHtVI3SinIzIpeh",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://democracyalliance.org/join-us/",
+          "title": "Democracy Alliance — donor membership and strategic-giving services",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://democracyalliance.org/our-work/",
+          "title": "Democracy Alliance — programme navigation lead, retrieval unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Followed the own-site membership route and searched for pooled-fund proposal or unsolicited-request policies beyond the earlier pandemic announcements. The Join Us page offers donor membership, conferences and strategic giving support; it is not an application for recipient funding. The Our Work page could not be retrieved in this pass. No current recipient eligibility, per-award range or cutoff was verified, and absence of a public call is not treated as proof that the Alliance does not fund organizations.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.opensocietyfoundations.org/grants",
+          "title": "Open Society — family grant catalogue, not a verified Trust-specific policy",
+          "outcome": "unrelated"
+        },
+        {
+          "url": "https://www.opensocietyfoundations.org/who-we-are/financials",
+          "title": "Open Society — family financial disclosures, not a Trust applicant route",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Sought a current Trust-specific applicant route through the Open Society grant catalogue and financial disclosures, without reprocessing the exhausted FY2024 filing. These pages describe the broader foundation family and do not expressly assign an intake or selection policy to Fund for Policy Reform Trust, EIN 35-7090597. The family’s direct-approach language and aggregate spending therefore do not become this Trust’s eligibility, invitation rule or award range. Its retained own filings establish identity and reporting governance, while recipient eligibility, per-award terms and a current deadline remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recgnI6ctYih5FQw5",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://interpares.ca/fr/une-approche-feministe-de-lagroecologie-avec-mariame-ouattara/",
+          "title": "Inter Pares — September 2026 French counterpart interview",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Pursued French-language financing and application leads beyond the earlier English programme overview. The own September 2026 interview with Mariamé Ouattara explains long-term counterpart collaboration, feminist agroecology and locally informed project design. Those project-design principles do not publish selection rules for outside applicants. Its acknowledgment of Canadian government support is incoming funding, not an outgoing grant range. No external application, fiscal sponsorship policy, per-award amount or current cutoff was recovered.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6uJtW06yzJWpRJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.register.charities.govt.nz/Charity/CC54175",
+          "title": "New Zealand Charities Services — Lady Khadija Charitable Trust CC54175",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://register.charities.govt.nz/Document/DownloadPublicDocument?documentId=06f1bcf5-9f51-4b8a-97a9-a2f4f8c84b9e&searchId=f9e46d77-c30e-f011-bb41-0022480ffcd1",
+          "title": "Lady Khadija Charitable Trust — original FY2025 performance report",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://register.charities.govt.nz/Document/DownloadPdf?pdfType=AnnualReturnSummary&relatedId=398cf1d9-912d-f111-bb51-000d3acc4199&isPublic=true",
+          "title": "Lady Khadija Charitable Trust — original FY2026 annual-return summary",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://register.charities.govt.nz/Document/DownloadPublicDocument?documentId=00c3a983-47aa-467c-b83b-889916efc606&searchId=3661c0a8-4ca5-e611-935c-00155de3e60a",
+          "title": "Lady Khadija Charitable Trust — original 2016 incorporation and trust deed",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Recovered the original New Zealand charity-register documents for CC54175: FY2025 performance report, FY2026 annual-return summary approved in September 2026, and the 2016 trust deed. They confirm the Trust’s own website and leadership, podcast and interfaith activities. The reports describe grants received and show no grants/donations paid in the reported years; neither figure is an applicant award range or a perpetual no-grants policy. The deed supplies charitable objects and trustee governance, not recipient selection or a bursary offer. Trustee membership conditions and the reported absence of overseas operations are not applicant exclusions. No outgoing funding application, per-award range or current cutoff was verified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://networkabc.ca/wp-content/uploads/2025/01/NABC-Pamphlet.pdf",
+          "title": "NABC — 2025 initiatives pamphlet, including funding and evaluation",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Read the own 2025 initiatives pamphlet, especially its Transforming Funding and Evaluation section and housing/food-sovereignty initiatives, as a new route beyond the prior partnership announcement. It describes funder relationships, culturally responsive evaluation, organizational capacity and access to other institutions’ programmes. These are not published NABC cash-award or participant-bursary criteria. References to resources received and government funding navigation do not establish NABC’s per-award range or an open application. Legal form, sponsorship, funding amounts and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpw4qdfUAaI8McW",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fundacionprolongar.org/experiencia/arte-para-reconstruir/",
+          "title": "Prolongar — historical Arte para Reconstruir project and received USAID award",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://fundacionprolongar.org/wp-content/uploads/2022/04/INFORME-DE-GESTIO%CC%81N_2021.pdf",
+          "title": "Prolongar — 2021 management report lead, retrieval unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://fundacionprolongar.org/wp-content/uploads/2020/09/Libro-FP-Versi%C3%B3n-Digital.pdf",
+          "title": "Prolongar — historical project book, reader size limit",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Searched Spanish scholarship and management-report leads and followed the own Arte para Reconstruir project microsite. It describes Prolongar receiving a 2018 USAID reconciliation award and delivering the project through 2021, rather than offering an external scholarship or grant. A separate indexed 2021 management-report lead could not be retrieved, and a historical project book exceeded the reader’s file-size limit. Neither a received award nor participant stories establish applicant selection, an outgoing funding range or a current call. The prior verified overview remains.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recb5VpXOFbqvyiJD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://pn9ig0wdgxds.optimytool.com/en/faq",
+          "title": "Southern Africa Trust-branded portal — technical FAQ, no grant criteria",
+          "outcome": "unrelated"
+        },
+        {
+          "url": "https://pn9ig0wdgxds.optimytool.com/en/project/new/",
+          "title": "Southern Africa Trust-branded portal — application route gated by login",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Followed the independently hosted branded Optimy portal beyond its landing page to the technical FAQ and new-application route. The FAQ concerns passwords, saved forms and browser use, without grant eligibility, award amounts or a dated call. The application route leads to account login, so the review stopped without registration. Portal technical help is not independently corroborated current grant policy and does not validate terms from the affected root host. The clean own-profile overview, source order and host-integrity warning are retained; no grant terms from the compromised source are promoted.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://sailforkids.org/about/",
+          "title": "Sail for Kids — supported operator’s project and donation-financing description",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://sailforkids.org/willkommen/",
+          "title": "Sail for Kids — participant preparation and sailing logistics",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the supported Sail for Kids operator to its own project description and participant-preparation guidance, seeking an actual subsidized-place or bursary policy. It describes donor-financed sailing trips, accompanying educators and practical trip arrangements, but does not publish a participant award, free-place selection process or external grant application. Donation tiers on the operator homepage are amounts requested from supporters, not beneficiary award ranges. Saving An Angel’s support relationship is retained as context; it does not establish a public funding offer or a current application deadline.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,716 @@
+{
+  "version": 1,
+  "passId": "policy-followup-3-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rec8CwtJukTyEZM3N",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://support.aoflfoundation.org/hc/en-us",
+          "title": "Age of Learning Foundation — product help centre",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://support.aoflfoundation.org/hc/en-us/articles/1500012944142-Contact-Us",
+          "title": "Age of Learning Foundation — customer-care contact, updated August 2025",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "A new foundation-branded help centre, updated through 2025, offers product/device and connection support; it links the foundation domain and corporate owner. These are learning-product support routes, not grant applications. The older issuer announcement describes free digital education partnerships; no new cash-grant selection policy, amount or dated intake was found.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://vcsafund.org/wp-content/uploads/2023/07/Voice_and_Choice_Fund_Results_Report.pdf",
+          "title": "Voice and Choice Fund — results report listing AGYW+ Lesotho as grantee",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New primary grantor evidence lists AGYW+ FOUNDATION LESOTHO as an Opportunity grantee working on adolescent sexual and reproductive health advocacy (Voice and Choice results report, page 4). It confirms a recipient role and complements the prior parliamentary identity evidence; it does not publish AGYW+ outside-grant policies. Searches still found no own funder application, award range or deadline.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rechmUs1r9hitZknx",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://pdf.guidestar.org/PDF_Images/2024/383/332/2024-383332791-202523109349101372-F.pdf",
+          "title": "Arcus Foundation — own 2024 return, Part XIV supplement",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://pdf.guidestar.org/PDF_Images/2024/383/332/2024-383332791-202523109349101372-F.pdf",
+          "title": "Great Apes and Gibbons — grant procedures in 2024 return",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://pdf.guidestar.org/PDF_Images/2024/383/332/2024-383332791-202523109349101372-F.pdf",
+          "title": "Social Justice — grant procedures in 2024 return",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "New primary evidence: Arcus’s own 2024 Form 990-PF, page 24 Part XIV supplement, distinguishes two programme procedures and organisational documentation. These are dated filing policies; they do not establish open 2026 access during the separately announced wind-down. No historical recipient amount is used as an award limit.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recZAbBpPxy0jZNtG",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.bmw-foundation.org/respond/scaleup",
+          "title": "BMW — Scaleup pilot evaluation and support model",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.bmw-foundation.org/respond/accelerator_energy",
+          "title": "BMW — Energy Accelerator selection and free/non-equity model",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "New Scaleup programme page says its BMW/IFC pilot is under comprehensive evaluation, with potential next steps undecided. It describes a six-month non-equity capacity/network programme and access to capital, not a cash grant or investment commitment. Existing Energy Accelerator selection criteria do not establish a foundation cash-funding route.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://bridge.ac.ke/bridge-kenya-news/bridge-academies-foundations-journey-to-achieving-education-for-all/",
+          "title": "Bridge — September 2025 education-delivery model",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "New September 2025 foundation article describes operating community schools across 30 Kenyan counties and technology-supported teaching. It explains delivery and donor-supported education, with a Donate route, but supplies no outside-grantee selection process, standard award or deadline. This operating role alone does not establish that the organization never makes grants.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.carnegiefoundation.org/request-for-information/",
+          "title": "US teaching foundation — 2026 RFI, expressly not funding",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://carnegie.org/grants/",
+          "title": "Andrew Carnegie Foundation — proactive grantmaking policy",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New 2026 primary leads remain distinct: the US teaching foundation’s RFI expressly says it is not a funding application or offer, while the Andrew Carnegie Foundation publishes proactive grantmaking and no unsolicited proposals. Neither resolves the directory’s name-only Carnegie Foundation entry; the Netherlands Peace Palace namesake also remains possible. No candidate policy is assigned to this ambiguous record.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recdtH2oqZYE8SM0X",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://chworldwide.org/",
+          "title": "CHW — temporary website and current reporting route",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.globalgiving.org/projects/childrens-education-and-health-impact-fund/reports/",
+          "title": "CHW’s official-linked quarterly reports —403",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "The official temporary-site notice directs current reporting to its own GlobalGiving project; the linked reports returned 403. Current Appeals/navigation and new grant-policy searches did not recover an external selection policy. Existing local-partner overview remains verified; an inaccessible report and donor fundraising goals do not establish eligibility, awards or absence of grantmaking.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUlPGswNITQKNej",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.cotransmissionauthority.com/s/February-13-2025-Meeting-Packet2.pdf",
+          "title": "Colorado Electric Transmission Authority — February 2025 public board packet",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New official recipient evidence in CETA’s February 2025 board packet records a CGI application and grant agreement in December 2024 supporting transmission-prioritization policymaking and legal counsel. This confirms a historical transaction, not a standard award range or exhaustive grantee eligibility. Current CGI application instructions, selection rules and next-round timing remain unverified; recipient amounts are not imported as programme limits.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recBJwa3iIMNuGDnH",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.comicrelief.com/funding/funding-opportunities/",
+          "title": "Comic Relief — current opportunity status",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.groundwork.org.uk/comic-relief/",
+          "title": "Groundwork — 2026/27 award, dates and delivery conditions",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.groundwork.org.uk/comic-relief/",
+          "title": "Community Fund England — Groundwork administered 2026-27, closed",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.comicrelief.com/funding/funding-opportunities/a-place-to-belong/service-pathways/",
+          "title": "A Place to Belong — Service Delivery 2026, closed",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.comicrelief.com/funding/funding-opportunities/a-place-to-belong/systemic-change/",
+          "title": "A Place to Belong — Systemic Change 2026, closed",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.comicrelief.com/funding/funding-opportunities/community-justice-fund/",
+          "title": "Community Justice Fund — 2024 call, closed",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.comicrelief.com/funding/funding-opportunities/gender-justice-fund/direct/",
+          "title": "Gender Justice Fund — Sierra Leone Direct 2024, closed",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.comicrelief.com/funding/funding-opportunities/gender-justice-fund/intermediary/",
+          "title": "Gender Justice Fund — Sierra Leone Intermediary 2024, closed",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "New production funding pages and operator guidance now expose six distinct closed programmes, including 2026/27 Community Fund and 2026 homelessness pathways. Historical 2024 Sierra Leone/core justice streams stay separate. No live Comic Relief opportunity is asserted; per-award ceilings are separated from programme pools.",
+      "remainingGaps": [
+        "eligibility",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recdsbQZbg3HXlss5",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://cmiconsortium.org/members-and-strategic-partners/",
+          "title": "CMI — distinct member and partner roles",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://cmiconsortium.org/wp-content/uploads/dutch_mfa_good_practices_funding_modalities_1_.pdf",
+          "title": "CMI-hosted 2018 Dutch funding research, not an offer",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Followed the consortium’s member/strategic-partner page and new grant-access searches. It assigns rapid-response and other grant roles to distinct member funds while describing CMI as the strategic partnership; no shared applicant procedure, alliance-wide award range or new dated call is stated. Dutch FLOW funding research and the different YouthLEAD CountMeIn consortium do not establish CMI grants.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recHtVI3SinIzIpeh",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://democracyalliance.org/our-work/",
+          "title": "Democracy Alliance — current investment priorities",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Reviewed the redesigned Our Work investment priorities and searched current grant-intake policy beyond prior Contact. It details media, organising and election-protection strategy, with illustrative opportunity states, but no external applicant criteria, funding amount or application schedule. Separate affiliated funds and the American Democracy Alliance namesake are not merged into this entity.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recDBqvlbBAMYxaLH",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.farmingthefuture.uk/connect",
+          "title": "Farming the Future — invitation/collaboration FAQ",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.farmingthefuture.uk/fund",
+          "title": "Farming the Future — grantmaking priorities",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.farmingthefuture.uk/connect",
+          "title": "Agroecology collaborative grants — invitation and network policy",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "New Fund and Connect/FAQ pages explicitly confirm invitation-only access and a collaboration pathway that needs just one invited-network member. This resolves access policy without treating donor contributions, historical recipient amounts or outside funder links as Farming the Future awards.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recVJETVpwhMkTzXz",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://apps.irs.gov/pub/epostcard/cor/461120769_202412_990PF_2025091923732084.pdf",
+          "title": "Fossil Foundation — original 2024 return, page 10",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://apps.irs.gov/pub/epostcard/cor/461120769_202412_990PF_2025091923732084.pdf",
+          "title": "Foundation grants — preselected-only policy in 2024 return",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Recovered the original IRS-hosted scanned 2024 return and visually inspected page 10 Part XIV: preselected-charities/no-unsolicited checkbox is checked and application fields are blank. This resolves historical access policy without adopting third-party summaries or treating total annual distributions as an award ceiling.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://apps.irs.gov/pub/epostcard/cor/357090597_202412_990O_2026041424092910.pdf",
+          "title": "Fund for Policy Reform Trust — original IRS FY 2024 return",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New original IRS FY 2024 return confirms the Trust entity and reports trustees approving grants through agreements requiring reporting (Schedule I, supplemental information, PDF page 29). The affiliate transaction is not an applicant range or proof of exclusive affiliate eligibility. This governance detail does not establish current external application access, applicant selection, award terms or timing; other Open Society entities remain distinct.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rectrU4ynL289RM15",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.fundacioncorona.org/iniciativas",
+          "title": "Corona — official Oriri initiative link",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://fondooriri.org/convocatorias/",
+          "title": "Oriri — Cohort IV landing",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1hoJezPhZHBaa6Faxkxo2CAuCSGkOol7G/view?usp=sharing",
+          "title": "Oriri — Cohort IV July 2026 terms",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1hoJezPhZHBaa6Faxkxo2CAuCSGkOol7G/view?usp=sharing",
+          "title": "Fondo Oriri — co-founded fund Cohort IV 2026, closed",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Followed Corona’s current initiative link to Oriri, then read its July 2026 Cohort IV PDF and checked the linked application form. The programme has specific Colombian nonprofit/RTE criteria and conditional financing up to COP 90 million; it is a co-founded fund programme, not a direct Corona award. PDF 31 July deadline overrides the stale open banner; earlier mixed-finance ranges and 2022 civic-prize outcomes are not current offers.",
+      "remainingGaps": [
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recRiwn3ak6Hrp4Zi",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://iniciativaclimatica.org/convocatoria-para-organizaciones-de-la-sociedad-civil-acompanamiento-tecnico-e-implementacion-de-proyectos-de-energia-renovable-comunitaria-facilitacion-y-sensibilizacion-sobre-transicion-energetica/",
+          "title": "ICM — community renewable-energy CSO call 2026",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://iniciativaclimatica.org/convocatoria-para-organizaciones-de-la-sociedad-civil-acompanamiento-tecnico-e-implementacion-de-proyectos-de-energia-renovable-comunitaria-facilitacion-y-sensibilizacion-sobre-transicion-energetica/",
+          "title": "Community renewable energy support — Mexican CSO 2026 call, closed",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Found a new August 2026 civil-society call that formalises resources via collaboration/donation agreements, distinct from ICM consultancy procurement. It publishes Mexican legal/donee requirements and a completed application window, but intentionally no fixed budget. Conflicting implementation duration/endpoints remain explicit.",
+      "remainingGaps": [
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recgnI6ctYih5FQw5",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://interpares.ca/annual-report-2025-among-equals-and-always-together/",
+          "title": "Inter Pares —2025 report and partnership examples",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Read the newly published 2025 annual-report landing page and pursued financial-report navigation. It describes decades-long counterpart partnerships and a new Canadian-government commitment received for work with Likhaan, not an open Inter Pares award. No external selection guidance, per-award limits or deadline was recovered; incoming programme funding is not a grant range.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recqnLGfTjw9rRHJu",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.jdf.org.in/initiative_comp?f=CFSEI_work",
+          "title": "JDF — Center for Social Entrepreneurship and Innovation",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://jdf.org.in/SocialEPS",
+          "title": "JDF — social-entrepreneurship initiatives and free services",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://drive.google.com/drive/folders/16qjVCPS91szvd58gwJZ653zw0xJNKWMx",
+          "title": "JDF-linked prospectus folder — unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://auroscholar.org/",
+          "title": "JDF-linked scholarship operator — default hosting page",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Followed the new CSEI social-entrepreneurship pages to their detailed prospectus folder and the scholarship operator. CSEI describes accelerator funding/support, while the detailed accelerator page emphasizes resources and help accessing other funding; no definite cash award, instrument or schedule is stated. The linked Drive folder was unavailable and Auroscholar now serves a Plesk default page. Neither donor support nor free capacity building is converted into a cash-grant offer.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recMs7it8z2uXJ8Kb",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://nativephilanthropy.org/events/mes-august-19?hsLang=en",
+          "title": "NAP — Kindle TateTopa storyteller’s programme role",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.kindleproject.org/series",
+          "title": "Kindle —2025 power-sharing webinar programme",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New TateTopa searches reached a primary speaker biography on Native Americans in Philanthropy and Kindle’s own 2025 webinar series. They confirm a flow-fund role and learning/convening activity but provide no current grantee selection, application, award or deadline policy. Historical artist CVs and unrelated Project Kindle/technology namesakes are not used as Kindle grant terms.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6uJtW06yzJWpRJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.ladykhadijatrust.org/about/",
+          "title": "Lady Khadija Trust — projects, legal identity and incoming funders",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "New About page identifies the Christchurch volunteer charity and describes delivered projects; its Funders So Far logos are incoming supporters, including public and philanthropic bodies. They are not awards that Lady Khadija Trust offers. No outside-grantee criteria, award range or application deadline was found in the project/about and contact navigation; the verified overview remains.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recmg3HFVYXZYVHR2",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.masanawaafrika.org/our-approach",
+          "title": "Masana — multi-year grant and capacity model",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.masanawaafrika.org/grantee-partners",
+          "title": "Masana — partner focus, not applicant criteria",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.elmaphilanthropies.org/story/introducing-masana-wa-afrika",
+          "title": "Founding funder ELMA —2024 programme launch",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Read the new Our Approach and Grantee Partners pages and traced an official 2024 launch announcement. They confirm multi-year flexible general support and capacity strengthening for African community-based partners serving children, but still omit applicant selection, legal/fiscal-host requirements, award limits and intake dates. Recruitment applicant requirements and third-party budget thresholds are not adopted as grant eligibility.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recG2ruGcG5wjn1n0",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://iamo.org.br/wp-content/uploads/2025/06/PROGRAMA-RESIDENCIA-iAMO-CONVOCATORIA-01.2025_ING-.pdf",
+          "title": "iAMO — official 2025 Nebula-funded residency call",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://iamo.org.br/wp-content/uploads/2025/06/PROGRAMA-RESIDENCIA-iAMO-CONVOCATORIA-01.2025_ING-.pdf",
+          "title": "Nebula-funded iAMO audiovisual residency — 2025, closed",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Recovered the operator’s own 2025 call, explicitly financed under an iAMO–Fundo Nébula donation agreement. Added a narrowly labeled historical co-funded residency, not a direct Nebula grant round. The BRL 2,000 contribution is per proposal rather than per person; airfare and application fees are participant costs. Current Nebula policy and future residency dates remain unknown.",
+      "remainingGaps": [
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://networkabc.ca/learning-institute/",
+          "title": "NABC — Learning Institute programme FAQ",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://networkabc.ca/city-of-toronto-black-food-sovereignty-plan/",
+          "title": "NABC — explanation of City of Toronto food-sovereignty plan",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "New Learning Institute FAQ gives access rules for learning offers, mentoring and capacity-building materials, not cash awards. The current Black Food Sovereignty article describes the City of Toronto’s plan and recommended funding mechanisms rather than a direct NABC call. Smart Grantmaking confirms grant-design work but supplies no named external cash programme, award limit or intake. FFBC and city funding are kept separate.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec79METBdoEAA8Hd",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.niatero.org/about-us",
+          "title": "Nia Tero — current grantmaking and fiscal-sponsor FAQ",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.niatero.org/about-us",
+          "title": "Indigenous guardianship — flexible partnership grant policy",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "The revised 2026 About Us FAQ now directly describes flexible multi-year grants and funds managed by Indigenous organisations, their fiscal sponsors or partners’ chosen allies. This verifies a grantmaking/fiscal-host model beyond prior annual-report outcomes; it does not verify a public application or blanket invitation-only claim from third-party directories.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recZuvOEtFb7i6rQX",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.opensocietyactionfund.org/lobbying-activities/",
+          "title": "Open Society Action Fund — own lobbying/grant disclosure archive",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.opensocietyactionfund.org/wp-content/uploads/2024/02/ospc-summary_of_lobbying_activities-2019-q3.pdf",
+          "title": "Open Society Policy Center — own Q 3 2019 grant disclosure",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Followed the Action Fund’s lobbying-disclosure archive to its own third-quarter 2019 report. It lists actual grants and purposes, but these are historical transactions rather than applicant guidance, a standard range or a live offer. Current site access and privacy language add no external grant selection policy; the Action Fund, Policy Reform Trust and other OSF entities are not combined.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpw4qdfUAaI8McW",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fundacionprolongar.org/es/reconocimientos-y-menciones/",
+          "title": "Prolongar — recognitions and externally awarded project funding",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://fundacionprolongar.org/es/experiencias/la-voz-de-dos-murales/",
+          "title": "Prolongar — UN-funded 2020 project, recipient role",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New Spanish recognition and project pages explicitly identify Prolongar as a winner/recipient of GIZ, UN and other externally administered awards. The associated reconciliation projects are delivered services, not Prolongar grant calls. No outside-applicant policy, per-award range or current intake was recovered; historical awards received and incoming donations are not reused as outgoing funding terms.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recb5VpXOFbqvyiJD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/company/southern-africa-trust",
+          "title": "Southern Africa Trust — own 2026 consultancy and convening updates",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "New own LinkedIn updates describe July 2026 solidarity-economy and critical-minerals consultancies and repost a separate APN session-proposal call. These support organizational continuity but are procurement/convening opportunities, not grant applications. No independently corroborated grant selection terms were recovered. The affected-host source warning remains, and the uncorroborated 2025 nomination PDF is still excluded from verified programme terms.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://savinganangel.org/impressum/",
+          "title": "SavingAnAngel — legal identity and supervision",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "New German legal-notice review verifies the foundation’s legal identity and supervisory registration; Förderantrag/Satzung searches and current project navigation still yielded no published outside grant policy. The foundation’s partner support is retained, but its legal status, individual partner examples and contact address are not applicant criteria or an open call.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recOjeVNMLIO5hBT4",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.thapar.edu/upload/files/SCHOLARSHIP%20POLICY%20%282026-27%29.pdf",
+          "title": "TIET — scholarship policy 2026–27, section 25.2",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.thapar.edu/index.php/students/pages/scholarships",
+          "title": "TIET — scholarship notices",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.thapar.edu/upload/files/SCHOLARSHIP%20POLICY%20%282026-27%29.pdf",
+          "title": "TIET Merit-cum-Means Normal scholarship — 2026–27",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Read the new 2026–27 institutional scholarship policy, section 25.2, and retained the prior evidence identifying Thapar Education Trust as TIET’s sponsor. Added only the institution-administered Normal Merit-cum-Means student fee scholarship; external endowments, AICTE stipends and other categories are separate. This does not establish a Trust grant route for independent organizations.",
+      "remainingGaps": [
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclxJBQLIVk2XfgO",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.thehumansafetynet.org/amplifying-impact/venture-philantrophy/scale-up-impact",
+          "title": "The Human Safety Net — Scale Up Impact support model",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.thehumansafetynet.org/amplifying-impact/venture-philantrophy/scale-up-impact",
+          "title": "Scale Up Impact — NGO partner expansion support",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Reached the actual nested Scale Up Impact page through official navigation, beyond the prior general Venture Philanthropy page. It identifies proven, replicable NGO-partner projects and multi-year financial/non-financial expansion support. A March 2025 own account corroborates the model. Portfolio investments, prior three-year cycles and country examples are not treated as current grant limits, duration guarantees or exhaustive eligibility.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

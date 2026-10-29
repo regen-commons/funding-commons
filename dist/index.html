@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; connect-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5ef">
+  <meta name="description" content="A friendlier way to explore 593 funding records. Find a fit, save your favorites, compare funders and take the next step.">
+  <title>Funding Commons — Find support for good work</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='14' fill='%232b493c'/%3E%3Cpath d='M24 12v24M12 24h24M15.5 15.5l17 17m-17 0 17-17' stroke='%23f0dba5' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#results-title">Skip to funding results</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.4 5.6a5.1 5.1 0 0 0-7.2 0L12 6.8l-1.2-1.2a5.1 5.1 0 0 0-7.2 7.2L12 21l8.4-8.2a5.1 5.1 0 0 0 0-7.2Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6m0-6L10 14m0-9H5a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-5"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-compare" viewBox="0 0 24 24"><rect x="3" y="5" width="7" height="14" rx="2"/><rect x="14" y="5" width="7" height="14" rx="2"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M4 16v4h16v-4"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v.1"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M3 7h5m4 0h9M3 17h9m4 0h5"/><circle cx="10" cy="7" r="2"/><circle cx="14" cy="17" r="2"/></symbol>
+  </svg>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Funding Commons home">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>funding<span class="brand-serif">commons</span></span>
+      </a>
+      <nav class="primary-nav" aria-label="Directory">
+        <button type="button" class="nav-link active" data-view="explore" aria-current="page">Explore funds</button>
+        <button type="button" class="nav-link" data-view="saved">Saved <span class="nav-count" id="saved-count">0</span></button>
+      </nav>
+      <button type="button" class="about-button" data-action="about">About the data <svg class="icon"><use href="#i-info"/></svg></button>
+    </div>
+  </header>
+  <main class="page">
+    <section class="intro" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow"><span></span> FOR PEOPLE MAKING A DIFFERENCE</p>
+        <h1 id="page-title">Good work.<br><em>Meet the right support.</em></h1>
+        <p class="intro-copy" id="intro-copy">Explore funding for your next chapter. Find a fit, keep a shortlist,<br class="desktop-break"> and turn possibility into a practical next step.</p>
+      </div>
+      <div class="intro-aside">
+        <svg class="growth-art" viewBox="0 0 240 152" fill="none" aria-hidden="true">
+          <path d="M119 141V55M119 103c-36 0-57-20-57-52 33 0 57 20 57 52Z" fill="#c5d2b5" stroke="#2b493c" stroke-width="1.5"/>
+          <path d="M119 78c0-35 23-57 57-57 0 34-22 57-57 57Z" fill="#e9b975" stroke="#2b493c" stroke-width="1.5"/>
+          <path d="M119 125c31 0 50-17 50-44-29 0-50 18-50 44Z" fill="#dcd8c8" stroke="#2b493c" stroke-width="1.5"/>
+          <path d="m119 103-35-32m35 7 36-35m-36 82 30-26M93 141h52" stroke="#2b493c" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="53" cy="22" r="4" fill="#c78756"/><path d="M192 112v12m-6-6h12M39 104v8m-4-4h8" stroke="#a98260" stroke-width="1.5"/>
+        </svg>
+        <p><strong>593</strong> records. <strong>One</strong> place to begin.</p>
+        <span>A curated index from Fito Network</span>
+      </div>
+    </section>
+    <div class="storage-warning" id="storage-warning" hidden><svg class="icon"><use href="#i-info"/></svg><span id="storage-message"></span><button type="button" data-action="backup">Export backup</button></div>
+    <section class="workspace" aria-label="Find and organize funds">
+      <div class="workspace-heading">
+        <div class="view-heading"><h2 id="workspace-title">Explore the directory</h2><span class="snapshot-pill">Research snapshot · Oct 14, 2026</span></div>
+        <div class="workspace-actions"><button type="button" id="backup-button" class="button button-text" data-action="backup" hidden>Back up projects</button><button type="button" id="export-button" class="button button-secondary" data-action="export" hidden><svg class="icon"><use href="#i-download"/></svg><span>Export saved CSV</span></button></div>
+      </div>
+      <div class="project-workspace">
+      <div class="profile-row"><label for="project-select">Your project</label><select id="project-select"><option value="all">All funds · save to General</option></select><button type="button" class="button button-secondary" data-action="new-project">+ New project</button><button type="button" class="button button-text" data-action="edit-project" id="edit-project-button" hidden>Edit project</button></div><p class="workspace-hint" id="workspace-hint">Add your project to rank funds for your work, or browse and save to General.</p><details class="project-summary" id="project-summary" hidden></details>
+      <section class="matching-panel" id="matching-panel" aria-labelledby="matching-title" hidden>
+        <div><p class="eyebrow">A LITTLE DIRECTION</p><h3 id="matching-title">Match funds to your project.</h3><p id="matching-status" role="status">Keyword matching is ready.</p></div>
+        <div class="matching-actions"><button type="button" class="button button-primary" id="match-project-button" data-action="match-project">Rank for this project</button><button type="button" class="button button-secondary" id="enable-ai-button" data-action="enable-ai">Use local AI · 40 MB</button><button type="button" class="button button-text" id="stop-ai-button" data-action="stop-ai" hidden>Stop local AI</button></div>
+        <p class="description-note">Your project stays on this device. Keyword matching works without AI.</p>
+        <details><summary>How ranking and eligibility work</summary><p>AI downloads public model files from this site, then compares meaning locally. Best for English descriptions. Keyword matching works without the model.</p><p>Thematic fit and readiness are separate. The headline fit grade measures supported alignment between your description/tags and a program’s documented focus. 80–100 means Strong thematic fit; 60–79 Relevant themes; 40–59 Partial overlap; below 40 Limited overlap. A disclosed rubric combines specific shared-term evidence and local semantic similarity. It is not a probability of funding or a measured accuracy percentage. Open the fund details for the exact rubric.</p><p>Next-step badges show eligibility conflicts, questions to confirm, funding-type compatibility, application routes and timing. Missing applicant details or a closed cycle affect shortlisting, rather than lowering thematic fit. The default order prioritizes the next practical step, so it is not a simple descending sort by thematic fit. All 593 records remain available.</p><p>These are research leads, not award probabilities or eligibility approvals. Every record has a research disposition, with program terms separated from source-only overviews and unresolved checks. <span id="screening-coverage">Sourced executable checks cover a subset of programs; other documented requirements remain manual.</span> Geography mentions are never treated as an exhaustive eligibility list. Leadership, budgets, local boundaries and other conditions need review. Inquiry routes have their own filter and do not count as open applications.</p><p>Model: <a href="https://huggingface.co/mixedbread-ai/mxbai-embed-xsmall-v1" target="_blank" rel="noopener noreferrer">Mixedbread embed xsmall v1</a> (Apache 2.0), quantized and pinned. Uses a browser worker and WebAssembly, following the <a href="https://github.com/Oba-One/artizen-fyi/tree/find-funds-for-upstream" target="_blank" rel="noopener noreferrer">Artizen approach</a>. The browser may cache public model files; project embeddings are discarded when stopped. This page blocks outbound inference connections.</p><p id="eligibility-status"></p></details>
+      </section>
+      </div>
+      <search class="search-area">
+        <label class="search-box" for="search-input"><svg class="icon"><use href="#i-search"/></svg><span class="sr-only">Search funders, themes or places</span><input id="search-input" type="search" placeholder="Search funders, themes or places…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
+        <div class="filter-row">
+          <label class="select-wrap"><svg class="icon"><use href="#i-globe"/></svg><span class="sr-only">Region where work happens</span><select id="region-filter"><option value="">All regions</option></select></label>
+          <label class="select-wrap"><span class="sr-only">Funding theme</span><select id="theme-filter"><option value="">All themes</option></select></label>
+          <label class="select-wrap"><span class="sr-only">Application access</span><select id="access-filter"><option value="">Any application access</option><option value="available">Open or rolling</option><option value="inquiry">Inquiry routes only</option><option value="relationship">Relationship or partner route</option><option value="future">Closed or future cycle</option><option value="unverified">Unverified or unconfirmed</option></select></label>
+          <button type="button" class="button button-text" data-action="more-filters" id="more-filter-button" aria-expanded="false" aria-controls="more-filters"><svg class="icon"><use href="#i-sliders"/></svg> More filters</button>
+        </div>
+        <div class="more-filters" id="more-filters" hidden><div class="research-toggles"><label class="reviewed-toggle"><input id="reviewed-filter" type="checkbox"><span>Primary research only</span></label></div><label for="research-depth">Research depth <select id="research-depth"><option value="">All research depths</option><option value="program_reviewed">Program terms reviewed</option><option value="source_reviewed">Official overview only</option><option value="needs_research">Unresolved or unavailable source</option><option value="not_a_funder">Other funding resources</option></select></label><label><input id="incomplete-filter" type="checkbox" checked> Include records with incomplete information</label><p>Region tags describe broad coverage. Country and applicant eligibility still need checking.</p></div>
+      </search>
+      <p class="saved-guide" id="saved-guide" hidden></p>
+      <div class="active-filters" id="active-filters" hidden></div>
+      <div class="results-toolbar"><div><h3 id="results-title" tabindex="-1"><span id="result-count">Loading the directory…</span></h3><span id="result-context" class="result-context"></span></div><label class="sort-control">Sort by <select id="sort-select"><option value="match">Next-step priority</option><option value="recommended">Application access</option><option value="name">Name A–Z</option><option value="deadline">Upcoming deadline</option></select></label></div>
+      <div id="match-view" class="match-view" hidden><label for="match-group">Match view <select id="match-group"><option value="lead">Research leads only</option><option value="all">All 593 records</option><option value="check">Check scope, funding type or access</option><option value="limited">Limited relevance</option><option value="outside">Conflicts or funding preferences</option></select></label><p id="match-summary" class="description-note"></p></div>
+      <div id="results" class="fund-grid" aria-busy="true"><div class="loading-state">Bringing good opportunities together…</div></div>
+      <div class="pagination" id="pagination" hidden><p id="page-progress"></p><button type="button" class="button button-secondary" data-action="load-more">Show 24 more <svg class="icon"><use href="#i-arrow"/></svg></button></div>
+      <div class="directory-note"><svg class="icon"><use href="#i-info"/></svg><p><strong>A starting point, with sources.</strong> <span id="research-note">All 593 records are retained, with research depth shown on every fund.</span> A thematic match doesn’t confirm eligibility.</p><button type="button" data-action="about">Our approach <span aria-hidden="true">↗</span></button></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="./"><span class="brand-mark" aria-hidden="true">✳</span><span>funding<span class="brand-serif">commons</span></span></a><p>More possibility for people and planet.</p><a href="https://www.fito.network/funders-database" target="_blank" rel="noopener noreferrer">With data from Fito Network <svg class="icon"><use href="#i-external"/></svg><span class="sr-only"> (opens in a new tab)</span></a></footer>
+  <aside id="compare-tray" class="compare-tray" aria-label="Selected funds for comparison" hidden><div><span class="tray-icon"><svg class="icon"><use href="#i-compare"/></svg></span><span><strong id="tray-count">2 funds selected</strong><small>Compare the details that matter.</small></span></div><div id="tray-funds" class="tray-funds"></div><div class="tray-actions"><button type="button" class="tray-clear" data-action="clear-compare">Clear</button><button type="button" class="button button-primary" id="compare-button" data-action="compare">Compare funds <svg class="icon"><use href="#i-arrow"/></svg></button></div></aside>
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="project-dialog-title">
+    <form id="project-form" method="dialog">
+      <div class="dialog-topline project-topline"><p class="eyebrow">YOUR PROJECT</p><button type="button" class="icon-button" data-action="close-project" aria-label="Close project editor"><svg class="icon"><use href="#i-close"/></svg></button></div>
+      <h2 id="project-dialog-title">Tell us about your project</h2><p>A name and description are enough to start. Your details and shortlist stay in this browser. Editing matching details clears previous programme-condition answers for review.</p>
+      <p id="project-error" class="form-error" role="alert" tabindex="-1" hidden></p>
+      <label for="project-name">Project name <span>(required)</span><input id="project-name" name="name" required maxlength="120" autocomplete="off"></label>
+      <label for="project-description">What are you working on? <span>(required)</span><textarea id="project-description" name="description" required maxlength="5000" rows="4" placeholder="Describe the work, who benefits, where it happens and the change you want to make."></textarea></label>
+      <fieldset><legend>Total fundraising goal <span>(optional)</span></legend><p class="description-note">Your whole campaign goal, which may be met by more than one grant.</p><div class="goal-fields"><label for="project-goalMin">Minimum<input id="project-goalMin" name="goalMin" type="number" min="0" step="any" inputmode="decimal"></label><label for="project-goalMax">Maximum<input id="project-goalMax" name="goalMax" type="number" min="0" step="any" inputmode="decimal"></label><label for="project-currency">Currency<input id="project-currency" name="currency" value="USD" required pattern="[A-Za-z]{3}" maxlength="3" autocomplete="off" aria-describedby="currency-help"></label></div><p id="currency-help" class="description-note">Three-letter code, such as USD, NGN, BRL or ZAR. Amounts are not converted.</p></fieldset>
+      <fieldset class="funding-preferences"><legend>Funding types <span>(optional)</span></legend><p class="description-note">Choose the types you would accept. Leave all unchecked to consider every type. Mixed or unverified offers still need checking.</p><div id="project-instruments" class="instrument-choices"></div></fieldset>
+      <label for="project-tags">Tags <span>(optional, separated by commas)</span><input id="project-tags" name="tags" maxlength="2000" placeholder="community energy, skills training, youth"></label>
+      <details class="project-eligibility" id="project-eligibility"><summary>Add eligibility details <span>Optional · improve the checks</span></summary><fieldset class="eligibility-fields"><legend>Applicant and location</legend><p class="description-note">Use the actual applicant, including your fiscal sponsor when it will apply. Blank fields stay unknown. Countries describe the work you are seeking funding for.</p>
+      <label for="project-workCountries">Where would the funded work happen?<select id="project-workCountries" name="workCountries" multiple size="5" aria-describedby="countries-help"></select></label><p id="countries-help" class="description-note">Select one or more countries. On desktop, use Ctrl or Command to select more than one.</p>
+      <label for="project-usWorkStates">US states where funded work happens <span>(if applicable)</span></label><select id="project-usWorkStates" name="usWorkStates" multiple size="4" aria-describedby="states-help"></select><p id="states-help" class="description-note">Select all US states in this proposal, after choosing United States above. Leave unknown locations blank. Cities, counties and tribal or community boundaries still need confirmation.</p>
+      <label for="project-benefitCountries">Which countries would benefit from this funding?<select id="project-benefitCountries" name="benefitCountries" multiple size="5" aria-describedby="benefit-countries-help"></select></label><p id="benefit-countries-help" class="description-note">Optional. This can differ from where activities happen. Leave unknown countries unselected. A country match does not confirm city, county or community eligibility. Use Ctrl or Command to select more than one.</p>
+      <label for="project-usBenefitStates">US states whose residents would benefit <span>(if applicable)</span></label><select id="project-usBenefitStates" name="usBenefitStates" multiple size="4" aria-describedby="benefit-states-help"></select><p id="benefit-states-help" class="description-note">This can differ from where the work happens. Select United States as a benefit country first; leave unknown states blank.</p>
+      <label for="project-applicantBaseCountry">Where is the applicant based?<select id="project-applicantBaseCountry" name="applicantBaseCountry"></select></label>
+      <label for="project-registrationCountry">Where is the applicant legally registered?<select id="project-registrationCountry" name="registrationCountry"></select></label>
+      <label for="project-applicantType">Applicant type<select id="project-applicantType" name="applicantType"><option value="unknown">Not specified</option><option value="nonprofit">Nonprofit / NGO</option><option value="informal">Informal group / collective</option><option value="individual">Individual</option><option value="business">For-profit business</option><option value="university">University</option><option value="public-body">Government / public body</option></select></label></fieldset></details>
+      <div class="project-actions"><button type="button" class="button button-text" id="delete-project-button" data-action="delete-project" hidden>Remove project · move funds to General</button><button type="submit" class="button button-primary">Save project</button></div>
+    </form>
+  </dialog>
+  <dialog id="fund-dialog" class="fund-dialog" aria-labelledby="fund-title"><div id="fund-content"></div></dialog>
+  <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="comparison-title"><div id="comparison-content"></div></dialog>
+  <dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title">
+    <div class="dialog-topline"><p class="eyebrow">A LITTLE CONTEXT</p><button type="button" class="icon-button" data-action="close-about" aria-label="Close data information"><svg class="icon"><use href="#i-close"/></svg></button></div>
+    <h2 id="about-title" tabindex="-1">Useful leads.<br><em>Honest information.</em></h2>
+    <p>Funding Commons makes Fito Network’s public funders directory easier to explore and organize. This research snapshot contains all <strong>593 source records</strong> from October 14, 2026.</p>
+    <div class="about-stats"><div><strong>593</strong><span>source records</span></div><div><strong id="research-count">—</strong><span>records with official sources</span></div><div><strong id="program-review-count">—</strong><span>records with program terms</span></div></div>
+    <h3>What the labels mean</h3><p>Primary research uses official funder, application and institutional sources. <span id="research-label-help">Other records need checking.</span> Dates and access can change. Expired dated calls are automatically shown as closed.</p>
+    <p>Source-only overviews help match a mission but do not confirm program terms. Unavailable or unresolved records retain directory summaries. Broad region tags do not confirm country eligibility. Amounts marked historical describe past giving. Qualitative grant bands have no assumed dollar value. Possible duplicate or related records remain separate so no source rows are lost.</p>
+    <p><a href="./data/research-coverage.json" download="funding-commons-research-coverage.json">Download research coverage for all 593 records</a>. Program reviews retain field-level official evidence; missing terms stay unknown. Each source retains its own research date. Programme prerequisites and geographic priorities were last expanded October 25, 2026.</p><p id="followup-note" hidden></p><p id="followup-download" hidden><a href="./data/research-followup.json" download="funding-commons-policy-followup.json">Download the latest policy follow-up findings and remaining gaps</a></p><details id="followup-history" class="quality-details" hidden><summary>Earlier research passes</summary><ul id="followup-history-links"></ul></details><h3>Your shortlist stays with you</h3><p>Project profiles, programme-condition answers, saved lists and private notes stay in this browser. They are not sent to a server or synced across devices. Export CSV for research or download a JSON backup of all projects, lists and notes. Import a backup to restore them in another browser.</p>
+    <div class="about-actions"><button type="button" class="button button-secondary" data-action="backup"><svg class="icon"><use href="#i-download"/></svg> Export backup</button><label class="button button-secondary import-button">Import backup<input type="file" id="import-backup" accept="application/json,.json"><span class="sr-only">Choose a Funding Commons backup JSON file</span></label><a href="./data/funders.json" download="funding-commons-593.json" class="button button-text">Download the index <svg class="icon"><use href="#i-download"/></svg></a></div>
+    <a class="source-link" href="https://www.fito.network/funders-database" target="_blank" rel="noopener noreferrer">Explore the original Fito directory <svg class="icon"><use href="#i-external"/></svg><span class="sr-only"> (opens in a new tab)</span></a>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden><span id="toast-message"></span><button type="button" id="undo-button" data-action="undo" hidden>Undo</button></div>
+  <div id="announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+  <noscript><p class="noscript-message">Enable JavaScript to search, save and compare the directory. <a href="./data/funders.json">You can also download all 593 records.</a></p></noscript>
+</body>
+</html>

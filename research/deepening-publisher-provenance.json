@@ -1,0 +1,189 @@
+{
+  "checkedOn": "2026-10-15",
+  "sourceUrl": "https://airtable.com/app4adz6rGJTwtUS3/shrdLKpJu52BRgN8N",
+  "discoveryChain": [
+    "https://www.fito.network/funders-database",
+    "https://weareprairiedogs.substack.com/p/we-are-the-prairie-dogs",
+    "https://docs.google.com/document/d/1kLT5UL9tjzOGIMYE-8GoskTfX_q1eNOM2aBafsy_DAI/edit"
+  ],
+  "sourceRowCount": 601,
+  "sourceColumnCount": 16,
+  "sourceExportSha256": "aac4a329062ad2d4688d7d8c7dd245a713bb5163430c597cd17307d9e729a8d7",
+  "targetCount": 23,
+  "note": "Publisher provenance only. Source tags do not establish a legal identity, eligibility, award range or current intake. All 23 target names matched exactly once; detailed notes were empty for all targets. The public source now has601 rows; this release retains its original593 identities and does not import the eight additional rows.",
+  "records": [
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "name": "Adeso / Proximate Fund",
+      "sourceTag": "philanthropy shifting database",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "reczV0cDaMNVf5v6S",
+      "name": "AGYW+Foundation Lesotho",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "name": "Alpina Foundation",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "name": "Bala Family Foundation",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "name": "BOA Foundation",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recRfozuEcKsDIfMn",
+      "name": "Bridge International Academies Foundation",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "name": "Carnegie Foundation",
+      "sourceTag": "PANDO",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "name": "Colleaga",
+      "sourceTag": "",
+      "websiteText": "https://global.colleaga.org/",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "name": "CommsHub (Foundation for International Communications Hub)",
+      "sourceTag": "UMI",
+      "websiteText": "https://comms-hub.org",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "name": "Energy Transition Fund (ETF)",
+      "sourceTag": "UMI",
+      "websiteText": "(No standalone site – part of Climate Change Collaboration)",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recLofbHFPnB3cwsv",
+      "name": "Fund for Policy Reform Trust (Open Society)",
+      "sourceTag": "HFRN",
+      "websiteText": "No public site",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "name": "Fundación TAAP",
+      "sourceTag": "",
+      "websiteText": "https://fundaciontaap.org",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "name": "Global Welfare Foundation",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "name": "Inchara Foundation",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "name": "Lefika Foundation",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "name": "Madhi Foundation",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "name": "Movement Media (Press On’s Southern Movement Media Fund)",
+      "sourceTag": "EDGE",
+      "websiteText": "https://presson.media/programs/fund/",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recQyavh68AeS8zgJ",
+      "name": "Network for the Advancement of Black Communities (NABC)",
+      "sourceTag": "Website engage sign-up,Festival 2025",
+      "websiteText": "https://networkabc.ca/",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "name": "Next Step Foundation",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recQvLcMpqKSeIeE1",
+      "name": "Stiftung Saving An Angel",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "name": "The Building Resilience Helping You Thrive Foundation",
+      "sourceTag": "Festival 2025",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "name": "The Funding Network",
+      "sourceTag": "philanthropy shifting database",
+      "websiteText": "",
+      "detailedNotes": ""
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "name": "Volta Capital",
+      "sourceTag": "",
+      "websiteText": "https://volta.capital",
+      "detailedNotes": ""
+    }
+  ],
+  "originalSourceNamesRetained": 593,
+  "additionalSourceRowNames": [
+    "D-Prize",
+    "Grand Circle Foundation",
+    "TAAP Foundation",
+    "Compton Foundation",
+    "USA for Africa",
+    "Still Point Fund",
+    "BuPilo Foundation of Zambia",
+    "André Losch Foundation"
+  ],
+  "additionalRowsNote": "All593 original names are present in the601-row export. These eight additional row names were not researched or imported as new funders; possible aliases need separate review."
+}

@@ -1,0 +1,82 @@
+{
+  "status": "deferred_at_user_request",
+  "notedOn": "2026-10-15",
+  "reason": "Prioritize site polish. Retain all nine unresolved source records without substituting candidate eligibility, amounts or deadlines.",
+  "resumeWhen": "An official URL, country and legal name, or original contributor reference disambiguates a Fito row.",
+  "publisherSource": "https://www.fito.network/funders-database",
+  "provenanceFile": "deepening-publisher-provenance.json",
+  "records": [
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "name": "Alpina Foundation",
+      "sourceTag": "Festival 2025",
+      "status": "unresolved",
+      "note": "Colombian Fundación Alpina is a candidate; Fito-to-entity link is unverified.",
+      "nextStep": "Ask Fito to confirm the intended official URL and legal entity or country affiliate."
+    },
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "name": "Bala Family Foundation",
+      "sourceTag": "Festival 2025",
+      "status": "unresolved",
+      "note": "Namesakes remain; do not assign the Texas EIN or another entity without a discriminator.",
+      "nextStep": "Ask Fito to confirm the intended official URL and legal entity or country affiliate."
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "name": "BOA Foundation",
+      "sourceTag": "Festival 2025",
+      "status": "unresolved",
+      "note": "Indigenous conservation organisation and banking foundations must remain distinct.",
+      "nextStep": "Ask Fito to confirm the intended official URL and legal entity or country affiliate."
+    },
+    {
+      "sourceRecordId": "recEkasYHo5xhcbbV",
+      "name": "Carnegie Foundation",
+      "sourceTag": "PANDO",
+      "status": "unresolved",
+      "note": "US education and Netherlands Peace Palace foundations remain distinct; do not merge with Carnegie Corporation.",
+      "nextStep": "Ask Fito to confirm the intended official URL and legal entity or country affiliate."
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "name": "Energy Transition Fund (ETF)",
+      "sourceTag": "UMI",
+      "status": "unresolved",
+      "note": "Strong inferred candidate is the RPA-sponsored ETF. Fito’s Climate Change Collaboration affiliation is unsubstantiated; intended row identity remains unconfirmed.",
+      "nextStep": "Ask Fito to confirm the intended official URL and legal entity or country affiliate."
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "name": "Global Welfare Foundation",
+      "sourceTag": "Festival 2025",
+      "status": "unresolved",
+      "note": "Multiple candidates remain; country or official URL required.",
+      "nextStep": "Ask Fito to confirm the intended official URL and legal entity or country affiliate."
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "name": "Next Step Foundation",
+      "sourceTag": "Festival 2025",
+      "status": "unresolved",
+      "note": "Multiple distinct organisations remain; their applicant rules cannot be transferred.",
+      "nextStep": "Ask Fito to confirm the intended official URL and legal entity or country affiliate."
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "name": "The Building Resilience Helping You Thrive Foundation",
+      "sourceTag": "Festival 2025",
+      "status": "unresolved",
+      "note": "No reliable exact entity established. A combined name and tagline is only a hypothesis.",
+      "nextStep": "Ask Fito to confirm the intended official URL and legal entity or country affiliate."
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "name": "The Funding Network",
+      "sourceTag": "philanthropy shifting database",
+      "status": "unresolved",
+      "note": "Collective-giving network identified; intended country affiliate remains unconfirmed.",
+      "nextStep": "Ask Fito to confirm the intended official URL and legal entity or country affiliate."
+    }
+  ]
+}

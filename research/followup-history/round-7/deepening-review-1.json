@@ -1,0 +1,287 @@
+{
+  "version": 1,
+  "passId": "policy-followup-7-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+          "title": "Live publisher row still has no website or distinguishing fields",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://kalasalingam.ac.in/wp-content/uploads/naac/NAAC_SSR_III_Cycle.pdf",
+          "title": "University original, p17 — named sponsor of Thiruvalluvar Chair",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New institutional-source research found Bala Family Foundation named as sponsor of Kalasalingam’s Thiruvalluvar Chair in its own 2023 accreditation report. The relevant page was read and visually checked; it gives no EIN, address or foundation website. Fresh live publisher inspection still shows only the name and blank mission, geography, award and application fields. This donor-name evidence cannot distinguish the known legal/brand candidates. No chair amount, scholarship terms or candidate policy was assigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://achatscanada.canada.ca/fr/node/Apercu/1201564?wbdisable=true",
+          "title": "CanadaBuys profile names the original domain and chair",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.colleagahealthsolutions.com/commons",
+          "title": "Linked commercial member’s own Commons description",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "A new CanadaBuys supplier-profile route independently links Colleaga’s impact-fund/venture-studio description, original domain and chair. It describes AI consultancy and interest in a government procurement opportunity; that tender’s date is not Colleaga grant intake. The commercial Commons member page describes knowledge, connections and implementation tools, not an offered award. No clean investment application guide or recipient terms were recovered. Both existing host-integrity warnings and the verified overview remain intact.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+          "title": "Live publisher identity and broad funding hints remain insufficient",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.fordfoundation.org/wp-content/uploads/2021/12/ford-fdn-2020-form-990-pf.pdf",
+          "title": "Own filed return — historical support for ETF via Sustainable Markets Foundation",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://climatechangecollaboration.org.uk/what-we-fund/",
+          "title": "Affiliation-qualified search found no ETF identification in CCC policy",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Fresh Sainsbury/CCC-qualified searches and older host-specific research found historical Ford support for ETF via Sustainable Markets Foundation, adding host context without reconciling the directory’s CCC affiliation with the RPA candidate. The live publisher row retains only a generic mission, broad size hint, application wording and a placeholder website; it supplies no new legal discriminator. Those hints, incoming donor grants and another institution’s intake policy were not converted into verified ETF terms. Identity and applicability remain unresolved.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fundaciontaap.org/wp-content/uploads/2022/05/Reporte-de-Actividades-TAAP-2016-digital.pdf",
+          "title": "Own historical workshop/scholarship-guidance report — indexed lead, direct download404",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://fundaciontaap.org/wp-content/uploads/2022/05/reporte-de-actividades2018-19.pdf",
+          "title": "Own indexed historical free-methodology and training outcomes",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://colombiacuidacolombia.com/",
+          "title": "Investigated partner host now serves casino promotions; excluded",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "New Spanish scholarship and free-training searches led to TAAP’s 2016 workshop guidance about finding scholarships, rather than a TAAP cash award; its original download now returns 404. The indexed 2018–19 report describes free use of methodology and training outcomes, without an applicant subsidy policy. A partner-policy lead at colombiacuidacolombia.com now serves unrelated casino comparisons and betting links; all such content was excluded and the host was not added as canonical evidence. No current grant or documented noncash-award access was established.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+          "title": "Live publisher remains name-only with no website or geographic clue",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.cr.gov.hk/docs/wrpt/weekly_newcoys_20110502.pdf",
+          "title": "Companies Registry original, p82 — Global Welfare Foundation Limited",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://esango.un.org/civilsociety/withOutLogin.do?from=list&method=getOrgsByRegionsCode&ngoFlag=&orgByRegionCode=1&orgByRegionName=Africa&sessionCheck=false&show=70000",
+          "title": "UN civil-society search results lack a discriminating exact foundation match",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "New registration and institutional-directory research found Global Welfare Foundation Limited in Hong Kong’s own 2011 incorporation list, number 1597322; the relevant page was read and visually checked. This establishes a historical near-namesake, not current charity status, grantmaking or continuity with the Fito entry. The UN search route supplied no distinguishing exact match. Fresh live publisher inspection still has only the name. No Gambian, Indian or Hong Kong candidate was selected or assigned eligibility.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.edudel.nic.in/upload/upload_2025_26/5604_12_dt_07032025.PDF",
+          "title": "Samagra Shiksha original — implementation directions and school annex",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://incharafoundation.org/wp-content/uploads/2020/07/Annual-report-2017-2019.pdf",
+          "title": "Own indexed child-home and rehabilitation programme descriptions",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Fresh scholarship and assistance searches recovered the education department’s 2025 workshop directions. The first three pages name Inchara as the commissioned organizer for gender-sensitization and menstrual-health sessions in listed Delhi schools, with logistics supervised by education officials. This is contracted programme delivery, not a call for outside projects or a transferable school subsidy. Own child-home descriptions concern care and rehabilitation. No independently accessible financial or noncash award, application range or current call was verified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.madhifoundation.org/programmes",
+          "title": "Own current programmes, including School Transformation Project and pilots",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.madhifoundation.org/join-us",
+          "title": "Own current participation route — jobs and volunteers",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.gatesfoundation.org/about/committed-grants/2025/10/inv-090802",
+          "title": "Direct donor’s commitment to Madhi — inbound funding context only",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New current programme navigation identifies a School Transformation Project responding to requests from aided/private schools and organizations, alongside teacher/parent programmes and technology pilots. The page does not promise free services, an in-kind award or financial assistance to requesters; implementation support was not recast as funding. The participation route offers jobs and volunteering, and a Gates record is incoming support for Madhi. No external award size, eligibility policy or grant-application dates were established.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://lupita99389.softr.app/embed/pages/c4bb8d40-8fe3-4deb-b3ac-47702dfdfc22/blocks/funders-database",
+          "title": "Live publisher still supplies only the name",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=domnp-n18000006179-48d47661-73d4-4d93-a207-c0ff63b22d2d&directionType=ForwardList&inquirytype=EntityName&listNameOrder=NEXTSTEPFLOORING+L210002593040&searchNameOrder=NEXTSTEPFOUNDATION+N180000061790&searchTerm=THE+NEXT+STEP%2C+LLC",
+          "title": "Florida Division of Corporations — separate current legal candidate",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5161298/full-print",
+          "title": "UK regulator full-print route — indexed activity, later direct403",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "New annual-report and regulator searches recovered a current Florida not-for-profit corporation named Next Step Foundation Inc., with its own filing number, EIN and May 2026 annual return. It is another legal candidate, not a link to the directory row; active incorporation does not establish federal tax status or a funding programme. The UK full-print route later returned 403, while its indexed educational activity remained distinct. Fresh live publisher inspection still provides no website, location or mission to select any candidate. No namesake programme was imported.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpqvD8c272JI57d",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://conservationconnect.earth/",
+          "title": "Administrator-linked platform public guest navigation",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://api.conservationconnect.earth/api/home",
+          "title": "Actual public guest-home data — no funding opportunity or resource list",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://api.conservationconnect.earth/api/resource-category/2",
+          "title": "Publicly linked support-resource route requires authentication401",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://static.cbf.nl/documents/IUCN%20NL/2024/jaarverslag.pdf",
+          "title": "Administrator’s original regulator-hosted 2024 report; GLAF outcomes only",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "New administrator-route investigation went beyond the blank landing extract: the public application identifies support resources for funding rounds, but its guest-home data publishes no opportunities or resource list and the linked support category returns 401. Research stopped at that account boundary without authentication or bypass. New Dutch/English policy searches still return institutional outcomes and the distinct Amarte Art Fund, not a generally applicable Sub3 or GLAF applicant guide. No project pool, country list or separate-program restriction was transferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recPltSfBuofl8aqD",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://tiltcollective.org/sitemap_index.xml",
+          "title": "Published site index directs to newly reviewed contact and document routes",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://tiltcollective.org/wp-json/wp/v2/search?search=grant&per_page=100",
+          "title": "Public published-page search — scope and terms, not an open call",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://tiltcollective.org/get-in-touch/",
+          "title": "Own current contact policy explicitly refuses unsolicited funding requests",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://tiltcollective.org/our-work/",
+          "title": "Own current recipient scope and initial work priorities",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://tiltcollective.org/resources-events/",
+          "title": "Own research and event listings do not advertise grant applications",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Published sitemap and public document-search routes led to an explicit current access rule on the contact page: unsolicited funding requests are not accepted. This was confirmed by web and direct normal-TLS retrieval. Added a researched food-system grantmaking policy combining that restriction with the own recipient-scope page. Six initial work priorities are not hard eligibility, and China exploration is not a current grant geography. The research/events index is not a call; amounts, legal eligibility, sponsorship and any invited process remain unknown.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

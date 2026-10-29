@@ -1,0 +1,1924 @@
+[
+  {
+    "sourceRecordId": "rec0vsf0SAH62AhbO",
+    "researchedOn": "2026-10-14",
+    "name": "African Women’s Development Fund (AWDF)",
+    "summary": "A pan-African feminist fund supporting women-led and gender-diverse-led movements. Its latest advertised call is closed; grant types have distinct criteria.",
+    "themes": [
+      "Gender & racial equity",
+      "Human rights"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "programs": [
+      {
+        "id": "awdf-inua-2025",
+        "name": "Inua Grants — 2025 cycle",
+        "instrument": "grant",
+        "focus": [
+          "Gender justice",
+          "Women’s leadership"
+        ],
+        "beneficiaries": [
+          "Women",
+          "Girls",
+          "Gender-diverse people"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "Registered and working in Africa; applicant headquarters must be in Africa. Direct transfers to Sudan and South Sudan are restricted.",
+          "exclusions": [
+            "Headquarters outside Africa"
+          ]
+        },
+        "applicants": {
+          "types": [
+            "Nonprofit organisation",
+            "Network",
+            "Movement",
+            "Collective"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "African women-led; director and board chair female or gender-diverse; at least 70% female or gender-diverse staff and board.",
+            "Inua requires registration."
+          ],
+          "exclusions": [
+            "For-profit organisations"
+          ]
+        },
+        "award": {
+          "currency": "USD",
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "2025 FAQ capped requests at 50% of prior-year income; no absolute range established."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://awdf.org/grants/",
+          "opensOn": "2025-04-28",
+          "closesOn": "2025-05-27",
+          "deadlineInstant": "2025-05-27T23:59:00Z",
+          "note": "Current grants page explicitly states the 2025 call closed."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.application"
+            ],
+            "url": "https://awdf.org/grants/",
+            "note": "Latest call is closed.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.geography",
+              "programs.0.applicants",
+              "programs.0.award",
+              "programs.0.application.opensOn",
+              "programs.0.application.closesOn",
+              "programs.0.application.deadlineInstant"
+            ],
+            "url": "https://awdf.org/grants-frequently-asked-questions/",
+            "note": "2025 FAQ defines Inua, leadership rules, registration, transfer limitations, income cap and dates.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Next cycle and award duration",
+          "Whether Inua permits sponsorship beyond the stated Sudan/South Sudan transfer workaround",
+          "Eligible cost categories"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://awdf.org/grants/",
+        "title": "Call for Proposals CLOSED",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://awdf.org/grants-frequently-asked-questions/",
+        "title": "Grants Frequently Asked Questions",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "The 2025 call-specific FAQ supersedes older generic three-year registration guidance; no general eligibility claim is extended to other AWDF grant types."
+  },
+  {
+    "sourceRecordId": "recKO8T9ix5EGIaaM",
+    "researchedOn": "2026-10-14",
+    "name": "AmplifyChange",
+    "summary": "Supports grassroots advocacy for sexual and reproductive health and rights. The Opportunity Grant page currently schedules reopening for 2028.",
+    "themes": [
+      "Health & wellbeing",
+      "Gender & racial equity"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Middle East"
+    ],
+    "programs": [
+      {
+        "id": "amplifychange-opportunity",
+        "name": "Opportunity Grants",
+        "instrument": "grant",
+        "focus": [
+          "Sexual and reproductive health rights advocacy",
+          "Violence",
+          "Abortion",
+          "Inclusion",
+          "SRHR education and access"
+        ],
+        "beneficiaries": [
+          "Marginalised communities"
+        ],
+        "geography": {
+          "workCountries": [
+            "AF",
+            "DZ",
+            "AO",
+            "BD",
+            "BJ",
+            "BT",
+            "BW",
+            "BF",
+            "BI",
+            "CM",
+            "CV",
+            "CF",
+            "TD",
+            "KM",
+            "CI",
+            "CD",
+            "DJ",
+            "EG",
+            "GQ",
+            "ER",
+            "SZ",
+            "ET",
+            "GA",
+            "GM",
+            "GH",
+            "GN",
+            "GW",
+            "IN",
+            "JO",
+            "KE",
+            "LB",
+            "LS",
+            "LR",
+            "LY",
+            "MG",
+            "MW",
+            "MV",
+            "ML",
+            "MR",
+            "MA",
+            "MZ",
+            "MM",
+            "NA",
+            "NP",
+            "NE",
+            "NG",
+            "PS",
+            "PK",
+            "CG",
+            "RW",
+            "ST",
+            "SN",
+            "SL",
+            "SO",
+            "ZA",
+            "SS",
+            "LK",
+            "SD",
+            "SY",
+            "TZ",
+            "TG",
+            "TN",
+            "UG",
+            "EH",
+            "YE",
+            "ZM",
+            "ZW"
+          ],
+          "applicantCountries": [
+            "AF",
+            "DZ",
+            "AO",
+            "BD",
+            "BJ",
+            "BT",
+            "BW",
+            "BF",
+            "BI",
+            "CM",
+            "CV",
+            "CF",
+            "TD",
+            "KM",
+            "CI",
+            "CD",
+            "DJ",
+            "EG",
+            "GQ",
+            "ER",
+            "SZ",
+            "ET",
+            "GA",
+            "GM",
+            "GH",
+            "GN",
+            "GW",
+            "IN",
+            "JO",
+            "KE",
+            "LB",
+            "LS",
+            "LR",
+            "LY",
+            "MG",
+            "MW",
+            "MV",
+            "ML",
+            "MR",
+            "MA",
+            "MZ",
+            "MM",
+            "NA",
+            "NP",
+            "NE",
+            "NG",
+            "PS",
+            "PK",
+            "CG",
+            "RW",
+            "ST",
+            "SN",
+            "SL",
+            "SO",
+            "ZA",
+            "SS",
+            "LK",
+            "SD",
+            "SY",
+            "TZ",
+            "TG",
+            "TN",
+            "UG",
+            "EH",
+            "YE",
+            "ZM",
+            "ZW"
+          ],
+          "scope": "Both organisation and project must be in a listed eligible country.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Civil society organisation",
+            "Grassroots group",
+            "Unregistered group"
+          ],
+          "fiscalSponsorship": "accepted",
+          "requirements": [
+            "Average expenditure over previous two years below GBP 200,000.",
+            "Evidence of expenditure required."
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": "GBP",
+          "min": null,
+          "max": 75000,
+          "durationMonths": null,
+          "basis": "current_offer",
+          "note": "Published program maximum; duration 18–36 months. Next opening is 2028, not an active application window."
+        },
+        "application": {
+          "route": "future",
+          "url": "https://amplifychange.org/grant-type/opportunity-grant/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Page says opens in 2028; exact opening and closing dates absent."
+        },
+        "costs": {
+          "supported": [
+            "SRHR advocacy",
+            "Organisational strengthening"
+          ],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.geography",
+              "programs.0.applicants",
+              "programs.0.award",
+              "programs.0.application",
+              "programs.0.costs"
+            ],
+            "url": "https://amplifychange.org/grant-type/opportunity-grant/",
+            "note": "Official program page lists countries, expenditure limit, sponsorship pathway, amount, duration and 2028 reopening.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Exact 2028 dates",
+          "Detailed budget exclusions",
+          "Whether published amount changes before reopening"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://amplifychange.org/grant-type/opportunity-grant/",
+        "title": "Opportunity grant",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": ""
+  },
+  {
+    "sourceRecordId": "recT0VNULTuF3v1vV",
+    "researchedOn": "2026-10-15",
+    "name": "Disability Rights Fund",
+    "summary": "Funds disability-led rights advocacy, including intersectional work. The advertised 2026 intake has elapsed deadlines despite retaining an open-call heading.",
+    "themes": [
+      "Disability rights",
+      "Gender & racial equity",
+      "Climate & environment"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Oceania",
+      "Latin America & Caribbean"
+    ],
+    "programs": [
+      {
+        "id": "drf-2026-loi",
+        "name": "2026 Letters of Interest",
+        "instrument": "grant",
+        "focus": [
+          "Disability rights advocacy",
+          "Gender justice",
+          "LGBTQI+ rights",
+          "Economic justice",
+          "Climate justice",
+          "Racial justice",
+          "Youth rights",
+          "Indigenous rights"
+        ],
+        "beneficiaries": [
+          "Persons with disabilities"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "2026 call: sub-Saharan Africa, South/Southeast Asia and Pacific Island countries. General FAQ additionally names Haiti; confirm applicability.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Organisation of persons with disabilities",
+            "OPD-led coalition"
+          ],
+          "fiscalSponsorship": "accepted",
+          "requirements": [
+            "Majority disability/family-member staff, volunteers and/or board.",
+            "Sponsor documents and signed agreement required.",
+            "Coalitions must have a majority of OPD members and an OPD lead applicant.",
+            "Regional grants require regional-level registration and active work in more than three countries."
+          ],
+          "exclusions": [
+            "Individuals",
+            "Government entities",
+            "Public institutions"
+          ]
+        },
+        "award": {
+          "currency": null,
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "Most awards made in 2026 below USD 50,000 for 12 months; this is not a confirmed ceiling for projects starting 2027."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://www.disabilityrightsfund.org/grantseekers/",
+          "opensOn": null,
+          "closesOn": "2026-06-21",
+          "deadlineInstant": "2026-06-22T03:59:00Z",
+          "note": "LOI deadline elapsed; invited full applications due 23 August 2026. Page still says open. Decisions December; projects start January 2027."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": [
+            "Scholarships",
+            "Conference attendance",
+            "Building projects",
+            "Service provision"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.geography",
+              "programs.0.applicants",
+              "programs.0.award",
+              "programs.0.application",
+              "programs.0.costs"
+            ],
+            "url": "https://www.disabilityrightsfund.org/grantseekers/",
+            "note": "Grantseeker guidance contains dates, OPD definition, sponsorship and excluded activities.",
+            "checkedOn": "2026-10-15"
+          }
+        ],
+        "unknowns": [
+          "Next intake",
+          "Haiti eligibility in the 2026 call",
+          "2027 award limits",
+          "General operating support has additional track-record and repeat-grantee requirements; it is not available to every applicant."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.disabilityrightsfund.org/grantseekers/",
+        "title": "For Grantseekers",
+        "checkedOn": "2026-10-15"
+      }
+    ],
+    "researchNotes": "Closed describes the elapsed 2026 intake, not termination of the fund. The retained open heading conflicts with dated deadlines. Current guidance rechecked October15. Named Mid-level and National Coalition tiers are not offered for the2026 round; the closed2026 call takes priority over legacy policy pages. DRAF shares application information through DRF but remains a distinct directory entity."
+  },
+  {
+    "sourceRecordId": "recLOzkrqFSKKa1bh",
+    "researchedOn": "2026-10-14",
+    "name": "Urgent Action Fund–Africa (UAF-Africa)",
+    "summary": "Provides rapid funding for unanticipated, urgent opportunities to advance women’s rights in Africa. It also operates protection and advocacy grant routes.",
+    "themes": [
+      "Gender & racial equity",
+      "Human rights",
+      "Peace & safety"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "programs": [
+      {
+        "id": "uaf-africa-rapid-response",
+        "name": "Rapid Response Grants",
+        "instrument": "grant",
+        "focus": [
+          "Urgent women’s rights interventions"
+        ],
+        "beneficiaries": [
+          "Women human rights defenders",
+          "Women-led movements"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "African-based organisations intervening in African countries.",
+          "exclusions": [
+            "Organisations based outside Africa"
+          ]
+        },
+        "applicants": {
+          "types": [
+            "Organisation",
+            "Collective",
+            "Informal group"
+          ],
+          "fiscalSponsorship": "accepted",
+          "requirements": [
+            "Women-led, at least 70% women members.",
+            "Unregistered groups need a registered sponsor.",
+            "Action must be unforeseen, strategic, supported and urgent."
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": "USD",
+          "min": null,
+          "max": 12000,
+          "durationMonths": null,
+          "basis": "current_offer",
+          "note": "Rapid Response ceiling; actions within three months. Other grant types have different limits."
+        },
+        "application": {
+          "route": "rolling",
+          "url": "https://www.uaf-africa.org/apply-for-a-grant/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "FAQ accepts applications year-round with no funding cycle."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": [
+            "Routine operating costs",
+            "Capital purchases",
+            "Income-generation activities",
+            "Travel grants",
+            "Scholarships",
+            "Planned programmes",
+            "Humanitarian supplies",
+            "Partisan or religious agendas"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.geography",
+              "programs.0.applicants",
+              "programs.0.award",
+              "programs.0.application",
+              "programs.0.costs"
+            ],
+            "url": "https://www.uaf-africa.org/faqs/",
+            "note": "FAQ states year-round access, African local base, sponsorship, leadership, ceiling and exclusions.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.applicants.requirements",
+              "programs.0.award.note"
+            ],
+            "url": "https://www.uaf-africa.org/apply-for-a-grant/",
+            "note": "Rapid response actions must occur within three months and meet strategic urgency criteria.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Minimum award",
+          "Case-specific budget permissions"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.uaf-africa.org/faqs/",
+        "title": "Frequently Asked Questions",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.uaf-africa.org/apply-for-a-grant/",
+        "title": "Apply for a grant",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": ""
+  },
+  {
+    "sourceRecordId": "recQDYdEaFyN9tVhh",
+    "researchedOn": "2026-10-14",
+    "name": "ELRHA (Enhancing Learning & Research for Humanitarian Assistance)",
+    "summary": "Supports research and innovation that improves humanitarian outcomes. Its responsive health research mechanism opens only when activated for an exceptional emergency and is currently closed.",
+    "themes": [
+      "Health & wellbeing",
+      "Science & technology",
+      "Humanitarian response"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Middle East",
+      "Europe",
+      "Latin America & Caribbean"
+    ],
+    "programs": [
+      {
+        "id": "elrha-r2hc-responsive",
+        "name": "R2HC Responsive Research Mechanism",
+        "instrument": "grant",
+        "focus": [
+          "Public health research in humanitarian crises"
+        ],
+        "beneficiaries": [
+          "Crisis-affected populations"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "Humanitarian settings; general guidance excludes non-DAC ODA-recipient countries. Call-specific restrictions apply.",
+          "exclusions": [
+            "Non-ODA-recipient countries",
+            "General vulnerable populations without a qualifying humanitarian crisis"
+          ]
+        },
+        "applicants": {
+          "types": [],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Project must be humanitarian research; eligibility defined in each activated call."
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": null,
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "Amount and duration not established."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://www.elrha.org/funding-opportunities/r2hc-responsive-research-mechanism",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Mechanism page explicitly says closed; details follow activation for a particular emergency."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.application",
+              "programs.0.award"
+            ],
+            "url": "https://www.elrha.org/funding-opportunities/r2hc-responsive-research-mechanism",
+            "note": "Mechanism responds to exceptional health emergencies; funding is to be confirmed and call is closed.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.geography",
+              "programs.0.applicants"
+            ],
+            "url": "https://www.elrha.org/funding-guidance/applying-for-a-grant",
+            "note": "General guidance defines qualifying humanitarian settings and requires call-specific eligibility checks.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Next activation",
+          "Applicant entity requirements",
+          "Amount and duration",
+          "Fiscal sponsorship",
+          "Eligible budget costs"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.elrha.org/funding-opportunities/r2hc-responsive-research-mechanism",
+        "title": "R2HC Responsive Research Mechanism",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.elrha.org/funding-guidance/applying-for-a-grant",
+        "title": "Applying for a grant",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "One specific program is researched; this is not a claim that every Elrha funding opportunity is closed. Directory regions remain broad discovery metadata."
+  },
+  {
+    "sourceRecordId": "recaG6yRbu1o2rddA",
+    "researchedOn": "2026-10-14",
+    "name": "Tewa – Nepal Women’s Fund",
+    "summary": "Nepal’s women’s fund supports grassroots organising, feminist leadership, rights and organisational resilience through several grant categories.",
+    "themes": [
+      "Gender & racial equity",
+      "Human rights",
+      "Climate & environment"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "programs": [
+      {
+        "id": "tewa-samman",
+        "name": "Samman Grant",
+        "instrument": "grant",
+        "focus": [
+          "Early-stage grassroots women’s organisations",
+          "Women’s rights"
+        ],
+        "beneficiaries": [
+          "Women",
+          "Community women"
+        ],
+        "geography": {
+          "workCountries": [
+            "NP"
+          ],
+          "applicantCountries": [],
+          "scope": "Tewa describes support for women’s groups across Nepal.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Grassroots women’s organisation"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Early-stage groups responding to needs of community women."
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": null,
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "Amount and duration not established."
+        },
+        "application": {
+          "route": "unconfirmed",
+          "url": "https://tewa.org.np/grant-documents/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Grant documents page provides proposal formats; current intake dates and submission process not confirmed."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.geography",
+              "programs.0.applicants"
+            ],
+            "url": "https://tewa.org.np/grantmaking/",
+            "note": "Samman supports early grassroots women’s organisations; Tewa operates across Nepal.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.application"
+            ],
+            "url": "https://tewa.org.np/grant-documents/",
+            "note": "Official proposal forms are published, but no cycle or deadline is stated in retrieved text.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Current intake",
+          "Award range and duration",
+          "Registration and applicant domicile",
+          "Fiscal sponsorship",
+          "Specific eligible costs"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://tewa.org.np/grantmaking/",
+        "title": "Grantmaking",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://tewa.org.np/grant-documents/",
+        "title": "Grant Documents",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Avoided using founder history’s 1990s grant ceilings or registration rules as current policy. Download buttons did not expose document URLs in the parsed page."
+  },
+  {
+    "sourceRecordId": "rececYcdB0nVm0IKo",
+    "researchedOn": "2026-10-14",
+    "name": "Women’s Fund Asia (WFA)",
+    "summary": "Provides flexible support for feminist leadership and rights across Asia. Its Strengthening Feminist Movements programme is awaiting its next call.",
+    "themes": [
+      "Gender & racial equity",
+      "Human rights",
+      "Climate & environment"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "programs": [
+      {
+        "id": "wfa-sfm",
+        "name": "Strengthening Feminist Movements",
+        "instrument": "grant",
+        "focus": [
+          "Feminist movements",
+          "Access to justice",
+          "Bodily autonomy",
+          "Labour rights",
+          "Environmental justice"
+        ],
+        "beneficiaries": [
+          "Women",
+          "Girls",
+          "Trans people",
+          "Intersex people"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [
+            "BD",
+            "BT",
+            "KH",
+            "IN",
+            "ID",
+            "LA",
+            "MY",
+            "MV",
+            "MN",
+            "NP",
+            "PK",
+            "PH",
+            "SG",
+            "LK",
+            "TW",
+            "TH",
+            "TL",
+            "VN"
+          ],
+          "scope": "Countries listed in the published SFM FAQ; confirm again when the next call opens.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Activist",
+            "Group",
+            "Network",
+            "Organisation"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Self-led rights work at local, subnational or national level.",
+            "Published FAQ: budget no more than USD 100,000; legal ability to receive foreign funding."
+          ],
+          "exclusions": [
+            "Regional/global organisations",
+            "Feminist funds"
+          ]
+        },
+        "award": {
+          "currency": "USD",
+          "min": null,
+          "max": 30000,
+          "durationMonths": null,
+          "basis": "historical",
+          "note": "Published prior-cycle FAQ: individuals up to 8,000/one year; organisations up to 15,000/one year or 30,000/two years for eligible former partners."
+        },
+        "application": {
+          "route": "future",
+          "url": "https://www.womensfundasia.org/strengthening-feminist-movements/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Program page asks visitors to await upcoming call; overview marks it closed."
+        },
+        "costs": {
+          "supported": [
+            "Core organisational costs",
+            "Programme costs"
+          ],
+          "excluded": [
+            "Individual core support"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.costs",
+              "programs.0.application"
+            ],
+            "url": "https://www.womensfundasia.org/strengthening-feminist-movements/",
+            "note": "Program describes flexible core grants and upcoming call.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.geography",
+              "programs.0.applicants",
+              "programs.0.award",
+              "programs.0.costs.excluded"
+            ],
+            "url": "https://www.womensfundasia.org/faq-sfm/",
+            "note": "FAQ gives prior-cycle locations, budget/leadership rules and category-specific limits.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.application"
+            ],
+            "url": "https://www.womensfundasia.org/thematic-areas/",
+            "note": "Programme overview explicitly marks SFM closed.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Next call dates and revised requirements",
+          "Fiscal sponsorship",
+          "Work-location rules distinct from applicant location"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.womensfundasia.org/strengthening-feminist-movements/",
+        "title": "Strengthening Feminist Movements",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.womensfundasia.org/faq-sfm/",
+        "title": "SFM Frequently Asked Questions",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.womensfundasia.org/thematic-areas/",
+        "title": "Thematic Areas",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "FAQ contains old-cycle references; award and country information are provisional historical criteria. No future opening date invented."
+  },
+  {
+    "sourceRecordId": "recYn5utG7XAVs30n",
+    "researchedOn": "2026-10-14",
+    "name": "Doria Feminist Fund",
+    "summary": "Funds feminist collectives in the Middle East and North Africa, prioritising new and underfunded women-led and trans-led groups.",
+    "themes": [
+      "Gender & racial equity",
+      "Human rights"
+    ],
+    "regions": [
+      "Middle East",
+      "Africa"
+    ],
+    "programs": [
+      {
+        "id": "doria-open-call",
+        "name": "Feminist collective grants",
+        "instrument": "grant",
+        "focus": [
+          "Collective feminist work",
+          "Movement building",
+          "Feminist knowledge"
+        ],
+        "beneficiaries": [
+          "Women",
+          "Trans communities"
+        ],
+        "geography": {
+          "workCountries": [
+            "DZ",
+            "BH",
+            "EG",
+            "IQ",
+            "JO",
+            "KW",
+            "LB",
+            "LY",
+            "MR",
+            "MA",
+            "OM",
+            "PS",
+            "QA",
+            "SA",
+            "SO",
+            "SD",
+            "SY",
+            "TN",
+            "AE",
+            "YE"
+          ],
+          "applicantCountries": [],
+          "scope": "Groups based in, or working across, the 20 MENA countries explicitly listed in the FAQ.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Collective",
+            "Group",
+            "Organisation"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Women-led or trans-led collective work; registered and unregistered groups accepted."
+          ],
+          "exclusions": [
+            "Individuals",
+            "Cis-men-led groups"
+          ]
+        },
+        "award": {
+          "currency": null,
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "Amount and duration not established."
+        },
+        "application": {
+          "route": "open",
+          "url": "https://doriafeministfund.grantplatform.com/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Official homepage currently advertises open call. Full date/year and timezone not verified."
+        },
+        "costs": {
+          "supported": [
+            "Core support",
+            "Project support",
+            "Knowledge production"
+          ],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.geography",
+              "programs.0.applicants",
+              "programs.0.beneficiaries"
+            ],
+            "url": "https://www.doriafeministfund.org/en/faqs",
+            "note": "FAQ lists countries and accepts unregistered groups but excludes individual applications.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.costs"
+            ],
+            "url": "https://www.doriafeministfund.org/en/grantmaking",
+            "note": "Open calls offer core, project and knowledge-production grants.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.application"
+            ],
+            "url": "https://www.doriafeministfund.org/en",
+            "note": "Homepage advertises applications open and links the official portal.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.geography"
+            ],
+            "url": "https://www.doriafeministfund.org/en/faqs",
+            "checkedOn": "2026-10-16",
+            "note": "Groups must be based in OR work across an eligible MENA country. Both base and work must be outside the list before this check can flag a conflict."
+          }
+        ],
+        "unknowns": [
+          "Award limits and duration",
+          "Exact deadline and timezone",
+          "Applicant domicile versus work-country combinations",
+          "Fiscal sponsorship"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.doriafeministfund.org/en/faqs",
+        "title": "Frequently asked questions",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.doriafeministfund.org/en/grantmaking",
+        "title": "Grantmaking",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://www.doriafeministfund.org/en",
+        "title": "Doria Feminist Fund",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Homepage social feed mentions 19 October without a verified year/timezone; deliberately not converted into a machine deadline. Safe transfers for unregistered groups do not establish fiscal sponsorship policy."
+  },
+  {
+    "sourceRecordId": "reckq9YI0Vpjvidtt",
+    "researchedOn": "2026-10-25",
+    "name": "Samdhana Institute",
+    "summary": "Supports Indigenous peoples and local communities in Southeast Asia through flexible grants, adviser relationships and capacity support for social and environmental justice.",
+    "themes": [
+      "Indigenous rights",
+      "Climate & environment",
+      "Food & agriculture"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "programs": [
+      {
+        "id": "samdhana-small-grants",
+        "name": "Small grants for grassroots environmental action",
+        "instrument": "grant",
+        "focus": [
+          "Community resilience",
+          "Social and environmental justice",
+          "Forest protection",
+          "Climate action"
+        ],
+        "beneficiaries": [
+          "Indigenous peoples",
+          "Local communities"
+        ],
+        "geography": {
+          "workCountries": [
+            "BN",
+            "KH",
+            "ID",
+            "LA",
+            "MY",
+            "MM",
+            "PH",
+            "SG",
+            "TH",
+            "TL",
+            "VN"
+          ],
+          "applicantCountries": [],
+          "scope": "The current grants page prioritizes the Southeast Asian social and environmental movement, with support elsewhere as necessary. Southeast Asia is a priority, not a hard exclusion.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Community group",
+            "Civil society organisation",
+            "Local organisation"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Proposal, group profile and basic management/finance assessment; adviser review."
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": "USD",
+          "min": 10000,
+          "max": 30000,
+          "durationMonths": null,
+          "basis": "historical",
+          "note": "Small-grant category in guide and 2024–2025 project; no current 2026 offer confirmed."
+        },
+        "application": {
+          "route": "relationship",
+          "url": "https://samdhana.org/program/grants?page=0",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Guide describes adviser-supported proposals, including unsolicited approaches in Philippines/Lower Mekong; confirm current local route."
+        },
+        "costs": {
+          "supported": [
+            "Community resilience and social justice initiatives"
+          ],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.geography",
+              "programs.0.applicants",
+              "programs.0.application"
+            ],
+            "url": "https://www.samdhana.org/sites/default/files/publication/Funding%20the%20%20Un-fundables.pdf",
+            "note": "Guide details adviser review and regional operations.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.award",
+              "programs.0.costs"
+            ],
+            "url": "https://samdhana.org/index.php/project/support-grassroots-environmental-action-southeast-asia",
+            "note": "2024–2025 project lists small grants of USD 10,000–30,000 for resilience and justice.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "geography",
+              "applicants.requirements"
+            ],
+            "url": "https://samdhana.org/program/grants?page=0",
+            "note": "The current grants page prioritizes the Southeast Asian social and environmental movement, with support elsewhere as necessary. Southeast Asia is a priority, not a hard exclusion.",
+            "checkedOn": "2026-10-25"
+          }
+        ],
+        "unknowns": [
+          "Current available budget and cycle",
+          "Fiscal sponsorship",
+          "Specific country eligibility",
+          "Duration",
+          "Budget exclusions"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.samdhana.org/sites/default/files/publication/Funding%20the%20%20Un-fundables.pdf",
+        "title": "Funding the Un-fundables: Samdhana’s Grantsmaking",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://samdhana.org/index.php/project/support-grassroots-environmental-action-southeast-asia",
+        "title": "Support for Grassroots Environmental Action in Southeast Asia",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://samdhana.org/program/grants?page=0",
+        "title": "Official geographic scope and exceptions",
+        "checkedOn": "2026-10-25"
+      }
+    ],
+    "researchNotes": "Historical operational guidance is not treated as a currently open funding call. Geographic screening follow-up on 2026-10-25: The current grants page prioritizes the Southeast Asian social and environmental movement, with support elsewhere as necessary. Southeast Asia is a priority, not a hard exclusion."
+  },
+  {
+    "sourceRecordId": "recJ1RkPCopa1OU3p",
+    "researchedOn": "2026-10-14",
+    "name": "African Climate Foundation (ACF)",
+    "summary": "An African-led climate and development foundation supporting systemic transitions through grants, fiscal hosting and institutional support. Funding is identified proactively.",
+    "themes": [
+      "Climate & environment",
+      "Economics & finance",
+      "Energy access"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "programs": [
+      {
+        "id": "acf-energy-access-transitions",
+        "name": "Energy access and transitions",
+        "instrument": "grant",
+        "focus": [
+          "Distributed renewable energy",
+          "Energy policy and planning",
+          "Just energy transition"
+        ],
+        "beneficiaries": [
+          "African communities",
+          "Workers",
+          "Enterprises"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "African energy transitions; foundation has country programmes in Ethiopia, Nigeria, Senegal, South Africa, Tanzania and Zambia, not an exhaustive eligibility list.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [],
+          "fiscalSponsorship": "unknown",
+          "requirements": [],
+          "exclusions": []
+        },
+        "award": {
+          "currency": null,
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "Amount and duration not established."
+        },
+        "application": {
+          "route": "relationship",
+          "url": "https://africanclimatefoundation.org/contact-us/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "ACF identifies grants itself and does not accept unsolicited grant proposals."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries"
+            ],
+            "url": "https://africanclimatefoundation.org/programmes/energy-access-and-transitions/",
+            "note": "Programme supports renewable access, planning and investment conditions.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.application"
+            ],
+            "url": "https://africanclimatefoundation.org/contact-us/",
+            "note": "Contact page explicitly excludes unsolicited grant proposals.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.geography",
+              "programs.0.instrument"
+            ],
+            "url": "https://africanclimatefoundation.org/",
+            "note": "African-led climate/development foundation with six named country programmes.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Applicant entity requirements",
+          "Award range and duration",
+          "Fiscal sponsorship policy for grantees",
+          "Specific eligible costs",
+          "Selection timetable"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://africanclimatefoundation.org/programmes/energy-access-and-transitions/",
+        "title": "Energy Access and Transitions",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://africanclimatefoundation.org/contact-us/",
+        "title": "Contact Us",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://africanclimatefoundation.org/",
+        "title": "African Climate Foundation",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Fiscal hosting as a foundation service is not assumed to mean every externally sponsored applicant is eligible. Named operational countries are not a closed eligibility set."
+  },
+  {
+    "sourceRecordId": "recMeowpS3NjVI8E9",
+    "researchedOn": "2026-10-14",
+    "name": "Azim Premji Foundation",
+    "summary": "Provides multi-year support to nonprofit organisations working with vulnerable communities in India, from early-stage groups to mature institutions.",
+    "themes": [
+      "Health & wellbeing",
+      "Gender & racial equity",
+      "Governance & civic engagement",
+      "Climate & environment"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "programs": [
+      {
+        "id": "azim-premji-ngo-grants",
+        "name": "Grants to not-for-profit organisations",
+        "instrument": "grant",
+        "focus": [
+          "Children",
+          "Disability and mental health",
+          "Gender justice",
+          "Governance",
+          "Land and forest",
+          "Water",
+          "Civil society"
+        ],
+        "beneficiaries": [
+          "Vulnerable and disadvantaged communities"
+        ],
+        "geography": {
+          "workCountries": [
+            "IN"
+          ],
+          "applicantCountries": [],
+          "scope": "Grantwork describes Indian states and locally based teams; applicant registration requirements need confirmation.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Not-for-profit organisation"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "NGO registration form creates access to grant portal."
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": "INR",
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "historical",
+          "note": "Portfolio grants span 1–10 years, usually 3–4; amounts described broadly as lakhs to tens of crores, not an actionable fixed offer."
+        },
+        "application": {
+          "route": "open",
+          "url": "https://azimpremjifoundation.org/apply-for-a-grant/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Official page accepts NGO registration and provides portal access; no published deadline found."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.applicants",
+              "programs.0.application"
+            ],
+            "url": "https://azimpremjifoundation.org/apply-for-a-grant/",
+            "note": "Multi-year nonprofit grants with registration-to-portal application route.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.geography",
+              "programs.0.award"
+            ],
+            "url": "https://azimpremjifoundation.org/who-we-are/how-we-are-organised/grants/",
+            "note": "Grantwork describes themes, Indian states, organisation stages and portfolio duration.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Exact award range",
+          "Eligible legal forms and fiscal sponsorship",
+          "Applicant domicile rule",
+          "Budget exclusions",
+          "Decision timeframe"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://azimpremjifoundation.org/apply-for-a-grant/",
+        "title": "Apply for a Grant",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://azimpremjifoundation.org/who-we-are/how-we-are-organised/grants/",
+        "title": "Grants",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": ""
+  },
+  {
+    "sourceRecordId": "recNbRe8qFuyWtmN6",
+    "researchedOn": "2026-10-14",
+    "name": "Tara Climate Foundation (Tara)",
+    "summary": "Supports Asia’s clean energy transition through grantmaking and partnerships, including research, policy dialogue and protections for affected workers and communities.",
+    "themes": [
+      "Climate & environment",
+      "Energy access",
+      "Economics & finance"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "programs": [
+      {
+        "id": "tara-just-energy-transition",
+        "name": "Just Energy Transition",
+        "instrument": "grant",
+        "focus": [
+          "Equitable clean energy transition",
+          "Energy access and affordability",
+          "Worker protections"
+        ],
+        "beneficiaries": [
+          "Vulnerable communities",
+          "Workers"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "Asia; no exhaustive eligible-country list established.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [],
+          "fiscalSponsorship": "unknown",
+          "requirements": [],
+          "exclusions": []
+        },
+        "award": {
+          "currency": null,
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "Amount and duration not established."
+        },
+        "application": {
+          "route": "relationship",
+          "url": "https://taraclimate.org/contact-us/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Tara does not accept unsolicited grant applications or requests; opportunities are identified with partners."
+        },
+        "costs": {
+          "supported": [
+            "Research",
+            "Stakeholder dialogue",
+            "Energy entrepreneurship training"
+          ],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.geography",
+              "programs.0.costs"
+            ],
+            "url": "https://taraclimate.org/just-energy-transition/",
+            "note": "Programme describes equitable transition research, dialogue and workforce/entrepreneurship support.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.application"
+            ],
+            "url": "https://taraclimate.org/contact-us/",
+            "note": "Contact page rules out unsolicited funding requests.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Applicant types",
+          "Fiscal sponsorship",
+          "Award range and duration",
+          "Country-specific eligibility",
+          "Budget exclusions"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://taraclimate.org/just-energy-transition/",
+        "title": "Just Energy Transition",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://taraclimate.org/contact-us/",
+        "title": "Contact Us",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": ""
+  },
+  {
+    "sourceRecordId": "recFpK7qVHetGUWhU",
+    "researchedOn": "2026-10-14",
+    "name": "Aga Khan Foundation",
+    "summary": "Works through development partnerships and local civil society. A documented JUNTOS! grant cohort in Mozambique supports community-led innovation and organisational resilience.",
+    "themes": [
+      "Governance & civic engagement",
+      "Health & wellbeing",
+      "Gender & racial equity",
+      "Climate & environment"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "programs": [
+      {
+        "id": "akf-juntos-mozambique",
+        "name": "JUNTOS! Mozambique — community innovation grants",
+        "instrument": "grant",
+        "focus": [
+          "Community-led innovation",
+          "Civil society strengthening",
+          "Gender equality",
+          "Youth",
+          "Environment",
+          "Community health"
+        ],
+        "beneficiaries": [
+          "Mozambican communities"
+        ],
+        "geography": {
+          "workCountries": [
+            "MZ"
+          ],
+          "applicantCountries": [
+            "MZ"
+          ],
+          "scope": "This documented JUNTOS! cohort concerns Mozambican CSOs, not the full AKF global portfolio.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Civil society organisation"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Projects co-created with communities through participatory workshops."
+          ],
+          "exclusions": []
+        },
+        "award": {
+          "currency": null,
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "Amount and duration not established."
+        },
+        "application": {
+          "route": "unconfirmed",
+          "url": "https://akf.org/article/celebrating-community-led-innovation-akf-and-the-la-caixa-foundation-award-grants-to-10-mozambican-csos-under-juntos-initiative/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "Article records 10 grants awarded July 2025; it is not a current application notice."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": []
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.geography",
+              "programs.0.applicants",
+              "programs.0.application"
+            ],
+            "url": "https://akf.org/article/celebrating-community-led-innovation-akf-and-the-la-caixa-foundation-award-grants-to-10-mozambican-csos-under-juntos-initiative/",
+            "note": "Official July 2025 announcement details JUNTOS! grants and community participation.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Current recruitment route",
+          "Eligibility for new partners",
+          "Amount, currency and duration",
+          "Fiscal sponsorship",
+          "Permitted costs"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://akf.org/article/celebrating-community-led-innovation-akf-and-the-la-caixa-foundation-award-grants-to-10-mozambican-csos-under-juntos-initiative/",
+        "title": "JUNTOS! grants to 10 Mozambican CSOs",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "One concrete subprogramme is represented; do not narrow the entire foundation to Mozambique. An indexed UK annual-report policy was found but its PDF returned 404, so it is not used as decisive evidence."
+  },
+  {
+    "sourceRecordId": "rec8lXue3GOCbPO3y",
+    "researchedOn": "2026-10-14",
+    "name": "TrustAfrica",
+    "summary": "Supports African civil society through proactive, collaborative grantmaking and technical support focused on democratic governance, equitable development and African agency.",
+    "themes": [
+      "Governance & civic engagement",
+      "Economics & finance",
+      "Gender & racial equity"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "programs": [
+      {
+        "id": "trustafrica-collaborative-grants",
+        "name": "Proactive civil society grants",
+        "instrument": "grant",
+        "focus": [
+          "African civil society",
+          "Democratic governance",
+          "Equitable development"
+        ],
+        "beneficiaries": [
+          "African communities"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "African civil society; historical grants in 34 countries do not define an exhaustive eligibility list.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Civil society organisation"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [],
+          "exclusions": [
+            "Individuals",
+            "For-profit enterprises"
+          ]
+        },
+        "award": {
+          "currency": null,
+          "min": null,
+          "max": null,
+          "durationMonths": null,
+          "basis": "not_stated",
+          "note": "Amount and duration not established."
+        },
+        "application": {
+          "route": "relationship",
+          "url": "https://trustafrica.org/ta-grantmaking-policy/",
+          "opensOn": null,
+          "closesOn": null,
+          "deadlineInstant": null,
+          "note": "TrustAfrica identifies institutions and plans collaboratively; unsolicited proposals excluded."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": [
+            "Endowments",
+            "Buildings and capital campaigns",
+            "Fundraising drives",
+            "Political campaigns and lobbying",
+            "Travel-only requests"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.geography",
+              "programs.0.applicants",
+              "programs.0.application",
+              "programs.0.costs"
+            ],
+            "url": "https://trustafrica.org/ta-grantmaking-policy/",
+            "note": "Grantmaking policy describes African civil society, proactive selection and exclusions.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Award range and duration",
+          "Fiscal sponsorship",
+          "Programme-specific eligibility and calls",
+          "Eligible operating costs"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://trustafrica.org/ta-grantmaking-policy/",
+        "title": "Our Grantmaking policy",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Policy also links calls for proposals; any specific advertised call may have its own route. No annual aggregate grantmaking total is treated as an individual award."
+  },
+  {
+    "sourceRecordId": "rec5HkWMAyGk3tsQw",
+    "researchedOn": "2026-10-14",
+    "name": "XOESE – Le Fonds pour les Femmes Francophones",
+    "summary": "A Francophone women’s fund supporting women-led collective action. Its documented fifth cycle funded feminist rights initiatives; current intake remains unconfirmed.",
+    "themes": [
+      "Gender & racial equity",
+      "Human rights"
+    ],
+    "regions": [
+      "Africa",
+      "Oceania",
+      "Latin America & Caribbean"
+    ],
+    "programs": [
+      {
+        "id": "xoese-cycle-5",
+        "name": "Fifth grant cycle — 2022 call",
+        "instrument": "grant",
+        "focus": [
+          "Women’s rights",
+          "Gender equality",
+          "Feminist movements"
+        ],
+        "beneficiaries": [
+          "Women",
+          "Young women",
+          "Marginalised groups"
+        ],
+        "geography": {
+          "workCountries": [],
+          "applicantCountries": [],
+          "scope": "This historical call covered Francophone countries in Africa and Oceania, and Haiti.",
+          "exclusions": []
+        },
+        "applicants": {
+          "types": [
+            "Women’s organisation",
+            "Network",
+            "Coalition"
+          ],
+          "fiscalSponsorship": "unknown",
+          "requirements": [
+            "Women-led collective work; annual budget no more than EUR 200,000 in this cycle."
+          ],
+          "exclusions": [
+            "Individuals",
+            "Government entities",
+            "Political parties"
+          ]
+        },
+        "award": {
+          "currency": "EUR",
+          "min": 3000,
+          "max": 20000,
+          "durationMonths": null,
+          "basis": "historical",
+          "note": "Cycle 5 projects in 2023–2024, lasting 3–20 months; EUR 20,000 reserved for multi-year and/or collaborative work."
+        },
+        "application": {
+          "route": "closed",
+          "url": "https://xoese.org/appel-a-notes-conceptuelles-du-fonds-xoese/",
+          "opensOn": null,
+          "closesOn": "2022-09-11",
+          "deadlineInstant": null,
+          "note": "Published concept-note deadline elapsed. General policy uses calls and invitations; no new intake verified."
+        },
+        "costs": {
+          "supported": [],
+          "excluded": [
+            "Religious activities",
+            "Workshop participant per diems, food and transport"
+          ]
+        },
+        "evidence": [
+          {
+            "fields": [
+              "programs.0.focus",
+              "programs.0.beneficiaries",
+              "programs.0.geography",
+              "programs.0.applicants",
+              "programs.0.award",
+              "programs.0.application",
+              "programs.0.costs"
+            ],
+            "url": "https://xoese.org/appel-a-notes-conceptuelles-du-fonds-xoese/",
+            "note": "Official fifth-cycle notice provides eligibility, exclusions, amounts and deadline.",
+            "checkedOn": "2026-10-14"
+          },
+          {
+            "fields": [
+              "programs.0.application.note"
+            ],
+            "url": "https://xoese.org/subventions/",
+            "note": "General grant page describes calls and invited partnership proposals.",
+            "checkedOn": "2026-10-14"
+          }
+        ],
+        "unknowns": [
+          "Current cycle and revised rules",
+          "Exact countries beyond the language/region scope",
+          "Fiscal sponsorship"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://xoese.org/appel-a-notes-conceptuelles-du-fonds-xoese/",
+        "title": "Appel à notes conceptuelles du Fonds XOESE",
+        "checkedOn": "2026-10-14"
+      },
+      {
+        "url": "https://xoese.org/subventions/",
+        "title": "Subventions",
+        "checkedOn": "2026-10-14"
+      }
+    ],
+    "researchNotes": "Official search-index text was available, but direct retrieval returned 502/timeouts during this check. Historical dates and amounts are retained explicitly; no current open status inferred."
+  }
+]

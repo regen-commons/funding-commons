@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "passId": "policy-followup-9-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "rec7hm28BtVTm6RDf",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/company/proximate-fund",
+          "title": "Proximate Fund — own separate profile linking standalone website",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.proximatefund.org/",
+          "title": "Proximate Fund linked standalone website — no readable page",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "A newly located own Proximate Fund profile links proximatefund.org and explicitly identifies the Sudan initiative as incubated by Adeso. Its posts concern donor convening, not recipient applications. The linked standalone website supplied no usable page. The large strategic plan remains unread after prior access failures and was not retried. Applicant legal status, fiscal sponsorship, award bounds and current intake remain unverified; employment terms and inbound fundraising targets are excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8ksr7kxEn0JDNB",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.ucc.ie/en/media/academic/schoolofasianstudies/DistinguishedScholarLectureSeries.pdf",
+          "title": "University College Cork — own 2023 academic-event flyer naming Alpina Foundation",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The name-only publisher entry still lacks a domain, country or legal identifier. A new University College Cork-hosted 2023 Oxford lecture flyer credits an Alpina Foundation, but gives no identifying details for that sponsor. Neither the academic acknowledgement nor the previously identified Colombian foundation establishes which entity Fito intended. No relationship between those candidates is assumed, and matching focus remains unassigned.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recR1WohaRznaR5wv",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/810907705",
+          "title": "BOA US candidate — exact-EIN public-filing lookup, unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "A new exact-EIN public-filing lookup for the US Indigenous-support candidate yielded no readable organisation page. The publisher’s name-only record still cannot distinguish that BOA network from Bank of Africa foundation candidates. Earlier UK and US registration leads identify possible entities without proving publisher continuity. No candidate mission, recipient policy or matching focus is assigned; the new filing-access failure does not establish that an entity is absent or inactive.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclnY9V0zjAKjYIv",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.comms-hub.org/research",
+          "title": "CommsHub — official separate Research methods and support page",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "The newly reviewed official Research page describes audience analysis, polling, focus groups and communication support; it publishes no funded recipient offer or selection process. Focused own-domain searches for applications, fellowships and grant criteria found no additional recipient document. The verified Spanish foundation and partner regranting overview remain intact. Legally permitted scholarships and its founding endowment do not establish award terms; applicant geography, fiscal sponsorship, amounts and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recBOXxkk01cv0OjQ",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://music.amazon.fr/podcasts/e104137d-4964-4f7e-a38f-729d88502901/episodes/c7c8b430-83a3-42e1-9d2a-f2ed4da1c87f/responseable-with-professor-nikki-james-meet-maurisa-%E2%80%94-the-encourager-of-encouragers",
+          "title": "ResponseABLE — publisher’s June 2026 Maurisa interview show notes",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.responseable.org/",
+          "title": "ResponseABLE — separate collaborator venture-studio site",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "The June 2026 interview publisher’s show notes identify Lefika as Maurisa Moloto’s social-innovation consultancy, without publishing financially supported access conditions. Only the written notes were reviewed, not the full audio. Investment language on the collaborator’s separate ResponseABLE venture-studio website is not a Lefika programme. The own cross-linked identity remains corroborated, while Lefika’s main website remains unavailable. No grant, participant bursary, award range or current funding deadline is verified; unrelated namesakes remain excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recp5PI7OStY9icdD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://alliedmedia.org/projects/press-on",
+          "title": "Allied Media Projects — own Press On sponsored-project overview",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://eepurl.com/iAnnrvlODB",
+          "title": "Press On original newsletter redirect — ordinary browser navigation failed",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Allied Media Projects’ newly reviewed own Press On page distinguishes Southern Movement Media Fund support from the separate Freedomways fellowship and Level Up training. Its involvement link points to training and donations, not SMMF applicant conditions. The undated project page does not establish current fiscal sponsorship. Following the original newsletter link in an ordinary browser also failed; no campaign contents were read or access controls bypassed. Deleted fund pages, inconsistent third-party dates and non-general recipient payments remain excluded. SMMF eligibility, award bounds and current intake remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUGu2RKPL5409TF",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [],
+      "notes": "A new register-specific search for the distinctive Helping You Thrive wording found no credible matching foundation entry; broader results concerned unrelated services and employment. The full compound name still has no verified legal or institutional discriminator. Fito’s previously inspected original and live rows supply only the name. No namesake or mission is assigned, and a failed public search is not evidence that no organisation exists.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recDfLjDVxoILuVSh",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/04046959",
+          "title": "Companies House — UK Funding Network legal-entity record",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "The newly reviewed Companies House record identifies an active UK company, The Funding Network, number 04046959, with its own filing history. It does not connect that legal entity to Fito’s name-only row or select it over the Australian affiliate or wider international network. The UK nomination policy remains candidate-specific; no affiliate’s recipient conditions, currencies or geography are merged into the unresolved entry.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recJhLCTQlCWJPOzF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.excelsior.com.mx/nacional/brazo-financiero-proyectos-energeticos-en-mexico/1555402",
+          "title": "Volta CEO and infrastructure director — first-person financing account, November 2022",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "The supplied domain and own profile identify a Mexican energy investment group; continuity to any earlier entity remains unestablished, and distinct UK Volta/D.Capital terms are excluded. A newly reviewed November 2022 account quotes its CEO and infrastructure director on subsidiary development, acquisitions and project SPVs. It discusses raising investor capital rather than outside borrower or investee application conditions. Project counts, expansion plans, investor tickets and original all-region tags do not establish recipient limits or eligibility. Current intake, award bounds and nonprofit access remain unverified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    }
+  ]
+}

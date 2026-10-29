@@ -1,0 +1,1296 @@
+{
+  "version": 1,
+  "passId": "policy-followup-2-2026-10-15",
+  "checkedOn": "2026-10-15",
+  "records": [
+    {
+      "sourceRecordId": "recZKp7be3871eN8O",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://aerdf.org/prove-the-impossible/",
+          "title": "AERDF AdvancED 2024 applicant process",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://aerdf.org/",
+          "title": "AERDF October 2026 programme update",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the archived AdvancED applicant pathway beyond Community Garden. Recovered a closed paid leadership fellowship; distinguished its stipend from the internal programme investment and checked 2026 RFP search without finding a new applicant round.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recz76e8ztw4zbR1M",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://fundoagbara.org.br/wp-content/uploads/2026/06/CHAMADA_PUBLICA-IMPACTO_MALUNGA_REGULAMENTO.pdf",
+          "title": "Impactô Malunga 2026 regulation",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://fundoagbara.org.br/impacto-malunga/",
+          "title": "Impactô Malunga programme and training intake",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Read the newly linked Portuguese regulation and programme page. Recovered formal/informal applicant documents, state-specific headquarters/work, conditional R $10k/15k awards and extended closed deadline; separated São Paulo training registration from the cash cohort.",
+      "remainingGaps": [
+        "eligibility",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recHCa40qAYJmSO8W",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.boi.ng/product/bol-aliko-dangote-foundation-fund/",
+          "title": "BOI co-administered Dangote fund product",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.boi.ng/wp-content/uploads/2025/11/BOI-Product-Brochure-1.pdf",
+          "title": "BOI official product brochure",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Checked the Bank of Industry co-branded product and its official product brochure beyond the corporate charity overview. The named fund targets Nigerian manufacturing/agroprocessingMSMEs, but readable policy did not establish a grant rather than financing terms, cash range or intake. An uncorroborated foundation-name IPO portal was not endorsed.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recxZYVJPOdM3UwU2",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://astraeafoundation.org/apply/",
+          "title": "Current Astraea Apply path without applicant content",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://astraeafoundation.org/about/",
+          "title": "Astraea current mission",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://astraeafoundation.org/wp-content/uploads/2024/03/AR2024_Final.pdf",
+          "title": "Astraea 2024 annual report",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Rechecked current Apply URL, current About identity, and focused Intersex/GlobalArts grant searches including the official archive. Apply returns no applicant text; a 2024 annual report documents past work, not a current call. Third-party even-year cycles and indicative ranges were not adopted.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rectU9Zpl7b26k77b",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.balafoundation.org/",
+          "title": "Bala Family Foundation education-charity candidate",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Rechecked the self-published Bala Family Foundation site and exact-name/EIN searches. The 2019 Prabha Bala/Bala Swaminathan education charity identifies EIN 84-3004582, while another exact-name Texas foundation is independently indexed. The source row supplies no EIN, location or mission discriminator, so neither candidate was substituted.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recq4bLMEKU9SmZpk",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/full_text/202513119349100441/IRS990PF",
+          "title": "Spitzer Trust own 2024 Form 990-PF",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Recovered and read the actual 2024 return body through its public IRS 990 PF render after the wrapper iframe failed. Its organization-purpose requirement is primary applicant evidence; historical giving statistics and the lack of a stated deadline were not treated as an open current round.",
+      "remainingGaps": [
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec0tiMMVsByS59fU",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.buildersvision.com/what-we-do/",
+          "title": "Builders Vision capital and partner selection",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.buildersinitiative.org/",
+          "title": "Former Builders Initiative domain",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Re-read current How We Work impact-selection steps and checked the former Builders Initiative domain and application searches. Current official evidence supports targeted relationship development; portfolio capital is not an applicant grant ceiling.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recdHjcFXirt4pSTZ",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.centralsquarefoundation.org/about-us",
+          "title": "CSF public FAQ embedded answer",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Fetched the public About page HTML and read its embedded FAQ answer hidden by the collapsed accordion. It names five partnership priorities and explicitly closes funding applications; a resource-use contact was not misrepresented as an open grant inquiry.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recHux105H2B9MmlE",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://theequityfund.org/contact-us/",
+          "title": "Climate Equity Fund grantseeker policy",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://theequityfund.org/",
+          "title": "Current strategic grantmaking",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Recovered the current official contact policy and 14 state strategy after the old-domain overview. Documented typical invitation access while retaining its stated exceptions; the Ohio consultancyRFP and BoulderCounty namesake were not treated as general grants.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recRkK6BPYYaqg1zk",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.climatecollaboration.org/about-us",
+          "title": "Current CECG strategy",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.climatecollaboration.org/contact",
+          "title": "Current CECG contact",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Recovered the current climatecollaboration.org host through exact-name search and read its four strategy pillars and contact page. Funding for negotiations/campaign partnerships is verified, but no applicant eligibility, award schedule or per-grant range is published there; namesake Climate Emergency Fund criteria were excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkl6SgcOQ9OSop",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://global.colleaga.org/",
+          "title": "Colleaga current financing engine",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://global.colleaga.org/invest",
+          "title": "Colleaga investment page",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://global.colleaga.org/contact",
+          "title": "Colleaga general contact",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the current global.colleaga.org financing-engine, investment and contact pages beyond the original venture-studio overview. They describe blended, multistage impact capital and social innovators but supply no published applicant assessment, check range or grant call; contact is general rather than a promised funding intake.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recM69Qg1wcBAqxjm",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.cjsfund.org/",
+          "title": "CJSF current organizing and partner support",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.cjsfund.org/our-grantmaking/",
+          "title": "Unresolved applicant-policy path",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Rechecked the current organizing/partner sections and searched grant, proposal and application policies. The new annual-report links and unrestricted community awards describe existing partners/recognition rather than an applicant call; a guessed grantmaking path failed and a staffing vacancy was not a funding offer.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec8bd5zrl7m9ybig",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://ddisafund.org/",
+          "title": "DDI Sub-Saharan AfricaFund programme and fullFAQ",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://digitaldemocracyinitiative.net/underside-support/",
+          "title": "DDI partner mechanism ownership",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Followed DDI partner mechanisms to the expressly DDI-funded Sub-Saharan Africa implementation site. Recovered two fixed ZAR tiers, fiscal-host accommodation, applicant-office requirement and closed 2026 cohort. Preserved Tier 1 experience inconsistency; DDI-table/partner currency and opening-status conflicts for another stream were not propagated.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recC5RM5NZBgkEyyl",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.ecdnetworksfund.org/work",
+          "title": "ECRN Fund funding modalities",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.ecdnetworksfund.org/",
+          "title": "Current fund and four partner networks",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the current ECD Networks Fund Our Work page, rather than repeating the dead earlychildhoodfund host. Recovered three funding modalities and network-level purpose; the four current recipients were not converted into an exhaustive applicant whitelist.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recAI1N40iri7KaFm",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://ecohub.am/",
+          "title": "EcoHub Armenian programme description",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://ecohub.am/en/call-for-3-trainer-positions/",
+          "title": "Separate EcoHub trainer recruitment",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Searched in Armenian and English for 2026 grant/application criteria, then followed the official programme navigation. Small grants remain described as support for programme participants; the surfaced trainer-position call is recruitment, not grant eligibility. No participant award band or new application window verified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recoymHV1Bde4YXia",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.rbf.org/grantees/rockefeller-philanthropy-advisors-inc",
+          "title": "RBF direct donor evidence for RPA Energy Transition Fund",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Repeated exact fund/host searches and read Rockefeller Brothers Fund’s own RPA grant records. They verify a philanthropic Energy Transition Fund under RPA, separate from commercial namesakes, but do not prove the source row’s stated Climate Change Collaboration affiliation or supply applicant policy. Donor payments were not treated as applicant awards.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recHPHuPLuH6Stpfp",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://farm-food-climate.de/companion-fund-2/",
+          "title": "Companion Fund closed programme and FAQ",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "German-language search recovered the dedicated Companion Fund retrospective and full FAQ. Added historical per-cooperation ceiling,2–5 actor format and Germany focus; current mission now concentrates on selected collaborative implementation projects.",
+      "remainingGaps": [
+        "eligibility",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recFjSezAxn56QQwU",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fpcf.ca/contact",
+          "title": "Foundation direct-application policy and Council referral",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.fpcf.ca/take-action/become-a-partner",
+          "title": "Foundation donor partnership context",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Found the foundation’s dedicated contact/funding FAQ: it explicitly does not accept funding applications directly and directs applicants to the separately governed First Peoples’ Cultural Council. This is a verified referral, not authority to assign all Council programme eligibility or awards to the foundation.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recseP4TxJPB55Q7Q",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.fondationchanel.org/en/",
+          "title": "Current Fondation CHANEL platform transition",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://proposal.fondationchanel.org/en/",
+          "title": "Official proposal portal returned 403",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://proposal.fondationchanel.org/en/faq/",
+          "title": "Proposal-portal technical FAQ",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Re-read the redesigned official platform and followed the proposal subdomain and technical FAQ. Current site welcomes email while redesigning; proposal root returns 403 and FAQ covers account mechanics. No primary 2026 closing date, universal eligibility or current award band was verified from these routes.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec2MVN4Je5LrrDAa",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://growfunding.be/fr/matchfunders/fondationmariusjacob",
+          "title": "Operational matchfunding partner profile",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://stuut.info/Deadline-Demande-de-bourses-Marius-Jacob-1486",
+          "title": "Foundation-authored 2023 distributed notice",
+          "outcome": "historical"
+        },
+        {
+          "url": "http://fondationmariusjacob.org/le-fonds-marius-jacob/",
+          "title": "Foundation policy host unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Repeated French application/attribution searches and read the operating Growfunding matchfunder profile alongside the foundation’s self-authored 2023 notice distributed by Stuut. Partner evidence confirms identity, but €10k per two-month redistribution is a pool and the 2023 deadline is expired; no current standalone rules recovered.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec7h7mbGFBNdNWpM",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fondoaccionurgente.org.co/es/que-hacemos/apoyos-de-respuesta-rapida/",
+          "title": "FAU-LAC official rapid-response policy unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://www.fondoaccionurgente.org.co/es/",
+          "title": "FAU-LAC Spanish root unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Retried the actual Spanish rapid-response policy with and withoutwww and searched current Spanish calls/portals. TLS protocol failure/404 prevented primary applicant review;2026 reposts disagree on US $8k/10k limits and do not replace the official policy. Existing verified mission publications remain retained, with no rolling access inferred.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recFP7B5PK11Bj8lO",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://usercontent.one/wp/www.ffcrdc.org/wp-content/uploads/2026/10/FFC_APPEL-A-PROJET-RKV-CERTIFIE.pdf?media=1747864837",
+          "title": "FFC 2027 official instructions and terms",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.ffcrdc.org/appel-a-projet-general-n-01-p-g-ffcrdc-2027/",
+          "title": "FFC official call announcement",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Followed the October 10 official call to its full French TDR PDF, including legal annexes, cost split,6–9 month term, US $10k–20k range and November 10 deadline. Preserved funding contingency and the cover/TDR difference over educational institutions.",
+      "remainingGaps": [
+        "eligibility",
+        "award"
+      ]
+    },
+    {
+      "sourceRecordId": "recIoIb07nrej4UmT",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://fundhumanrights.org/contact/",
+          "title": "Fund for Global Human Rights contact funding policy",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://fundhumanrights.org/who-we-are/our-approach/",
+          "title": "Current activist-support approach",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Followed the actual Contact link after guessed grantseeker URLs failed, then read current Our Approach. The form expressly rejects unsolicited requests; other institutions’ older directories were not needed to establish current access.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recqHYivhVD9D2l76",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.itausocial.org.br/noticias/educacao-integral-edital-apoia-projetos-com-foco-nos-anos-finais-do-fundamental/",
+          "title": "Joint co-funder applicant terms",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://relatorioanual2025.fundacaolemann.org.br/iniciativas/edital-de-fortalecimento-da-educacao-integral-nos-anos-finais/",
+          "title": "Lemann joint-call implementation",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Searched by the exact joint call and read co-funder Itaú Social’s applicant announcement plus Lemann’s own report. Added Brazilian public-education applicants, secretariat exclusion and closed 2025 dates. R $1m/year stayed a qualified annual cap, not an aggregate award.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recOXHELOLzKeWy1h",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.fcpr.org/wp-content/uploads/2026/09/Guia-2026-Fondo-de-Becas-Benito-Masso.pdf",
+          "title": "Benito Massó2026 official guide",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.fcpr.org/en/becabenitomasso/",
+          "title": "FCPR 2026 scholarship call",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.fcpr.org/en/convocatoria-sbia-2026/",
+          "title": "Separate SBIA noncash training",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the current call catalog beyond SBIA’s noncash business support to the actual 2026 Benito Massó scholarship guide. Captured individual/residency conditions, annual award and October 30 deadline without treating conditional renewals as guaranteed total funding. The primary guide does not explicitly name an ISO currency, so $1,500 is retained in prose without numeric currency matching.",
+      "remainingGaps": [
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recUmLyPZkexRFsnR",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fundaciontaap.org/",
+          "title": "TAAP current delivery programmes and partnership routes",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://fundaciontaap.org/contactanos/",
+          "title": "TAAP contact route",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Reviewed the rebuilt Spanish programme/contact sections and searched financing/call language. Current site describes TAAP’s own arts/peace delivery, volunteering, donations and institutional alliances; no external project-grant policy surfaced. Fundraising received byTAAP was not applicant funding.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recQSR8KcrEGcjOdR",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://gfne.org/our-approach/",
+          "title": "GFNE current approach and grantmaking FAQ",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Followed the current strategy site to Our Approach and its grantmaking FAQ. Recovered the explicit no-unsolicited policy and updated three themes; country focus and supporter invitations were not treated as applicant eligibility or public intake.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recqu9yc9tuVE50uR",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://educationoutloud.org/grants/",
+          "title": "Education Out Loud grant manager eligibility and intake",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Followed the explicitly GPE-funded, Oxfam-managed Education Out Loud programme to its own Grants policy. Distinguished this civil-society route from government allocation grants and documented that its last extension call is concluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recZ77hH6xXK7QYKg",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://www.globalwelfarefoundations.org/",
+          "title": "Indian Section 8 namesake candidate",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://global-welfare-foundation.jimdosite.com/about-us/",
+          "title": "Gambian GLOWEFA namesake candidate",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Fresh exact-name research found distinct primary candidates in India and The Gambia, with different legal identities, domains and operating activities. The source row still lacks a location, legal identifier or mission to choose between them; no namesake’s programme or geography was imported.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec5BEuZjgcUrxqXF",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://heartandhandfund.org/about-us",
+          "title": "Heart & Hand historical support",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://heartandhandfund.org/contact-us",
+          "title": "Heart & Hand current general contact",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Checked the dedicated contact page and repeated exact-name applicant searches beyond the historical About page. Contact contains no grant procedure or new offer; the official narrative describes 1999–2022 support. Unrelated Heart/Hands community-shop calls were excluded.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recSkq2YJXXBTAVel",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://hopelab.org/programs/ventures",
+          "title": "Hopelab Ventures investment criteria and pitch route",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://hopelab.org/programs/early-career-research",
+          "title": "Separate research-grant cohort page",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Found the dedicated Ventures pitch policy and separate Early Career Research page. Added investment stage, youth audience, equity priorities and direct pitch route; portfolio totals and previously selected research cohorts were not turned into an open grant offer.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reclhUeTX3iYWZ8Rf",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.humancapabilityfoundation.com/how-we-work.html",
+          "title": "HCF applicant and funding policy",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Targeted search recovered the separate How We Work policy omitted by prior About/grantee browsing. It explicitly rejects unsolicited applications, explains advisor/fieldwork sourcing, and describes core/project support with usual 1–2 year starting terms.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recOe21OyTPeJYd9y",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://humanityunited.org/our-grantmaking-process/",
+          "title": "HU official FAQ explicitly distinguishes HUA",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://humanityunited.org/wp-content/uploads/2023/09/Peacebuilding-Strategy-Report-2023.pdf",
+          "title": "Own 2023 strategy distinguishes HUA lobbying support",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Repeated HUA-specific policy and legal-identity searches and re-read the own-family grantmaking FAQ. It expressly names HUA lobbying-enabled grants, but its detailed charity, sponsorship and proposal rules concern HU. No blanket transfer of the sister foundation’s policy or historical mean was made.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recj0vf8pnofBPum1",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://imagodeifund.org/our-approach/",
+          "title": "Imago Dei current eligibility and application approach",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Revisited the full current approach below the mission section. Found explicit charity/equivalency categories, qualified exclusions, network-based access and flexible multiyear support. Geographic priorities and general-rule exceptions remain manual.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recOj9KIeMBVZ8Tnj",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://incharafoundation.org/partners/",
+          "title": "Inchara donor and operating-partner context",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://incharafoundation.org/contact-us/",
+          "title": "Inchara general contact",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read the official partner page beyond child-safety programme descriptions. It thanks donors, lists grants Inchara received and invites donations/partnership inquiries; it does not offer external organization grants. No donor award became an Inchara funding opportunity.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6CaoLQP7toDdP1",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.ing-foundation.org/office/",
+          "title": "Ing Foundation official contact funding policy",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Followed the non-English-prefixed Contact Us link omitted by earlier How We Work navigation. It directly establishes no individual support and no unsolicited proposals, without confusing this foundation with ING bank.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recV7EADgAIUPUwZi",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://institutopensi.org.br/novidades/pensi-beja",
+          "title": "Joint Pensi–Beja 2026 applicant announcement",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://institutobeja.com/relatorio2025/pt-br/home/infraestrutura/",
+          "title": "Beja 2025 historical portfolio",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://cms.institutopensi.org.br/uploads/EDITAL_BEJA_FJLS_Pos_doutorado_0e6dfa124e.pdf",
+          "title": "Complete joint Pensi–Beja 2026 fellowship regulation",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Followed the co-administering Pensi institution’s 2026 joint fellowship announcement to its complete linked regulation. Added doctoral qualification, full-time São Paulo attendance and closed July 12 deadline. Initial 12 month stipend is calculated from 12×BRL 12,600; conditional renewals and discretionary travel are not a total award ceiling.",
+      "remainingGaps": [
+        "eligibility",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec1RNkblcRl57q0t",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://fimi-iiwf.org/en/about-us/open-opportunities/",
+          "title": "FIMI current opportunity navigation",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://fimi-iiwf.org/convocatorias/convocatoria-ayni-2026/",
+          "title": "Separately indexed AYNI 2026 call",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Searched current FIMI open opportunities,2026 AYNI call and grantmakingFAQ. Applicant terms refer to AYNI, already enriched as its own source record, rather than a new independent FIMI funding offer. Retained the umbrella overview and explicit programme relationship without duplicating a closed call as another opportunity.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recB4EfLh3AZGu6SD",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://justicefunders.org/jtic-fund/",
+          "title": "JusticeFunders JTICFund instruments and governance",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://justicefunders.org/funder-organizing-institute/",
+          "title": "Separate paid funder-training programme",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Searched beyond fee-based funder training and recovered the actual JTICFund capital programme. Documented 0%loans/catalytic grants and community-control sectors; distinguished the invitation to invest in the fund from an applicant funding route.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recidJA2T2lSaiQQn",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.laudesfoundation.org/contact/",
+          "title": "Laudes official grant-inquiry route",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Read the current contact form discovered by the explicit unsolicited-policy search. It accepts grant inquiries while excluding unsolicited sponsorship/research requests; this is more precise than a blanket invitation-only label.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recbKRbairTiVnUZE",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.madhifoundation.org/join-us",
+          "title": "Madhi current recruitment and volunteering",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.madhifoundation.org/about-us",
+          "title": "Madhi operating model",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Followed the current JoinUs page and searched grant/funding/application terms. The actual public opportunities are employment and volunteering in Madhi’s foundational-learning delivery; no external funding application or per-project grant policy verified.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "reckI55X3sxYzuzeb",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://nalandaway.org/wp-content/uploads/2026/04/NW-Newsletter-Jan-Feb-2026.pdf",
+          "title": "NalandaWay January–February 2026 own newsletter",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://nalandaway.org/partners/",
+          "title": "NalandaWay delivery and donor partners",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Searched new scholarship/grant language and reviewed the 2026 newsletter and partner/publication routes. These describe care-leaver guidance, arts learning and programme delivery rather than an external grant call; scholarship guidance to participants is not a verified NalandaWay cash-award policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recj8jJ36J5apnOCX",
+      "previousStatus": "unresolved",
+      "outcome": "identity_unresolved",
+      "sources": [
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5161298/full-print",
+          "title": "UK Next Step Foundation charity record candidate",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://nextstep.foundation/about/our-scholars/",
+          "title": "UK candidate student programme",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://nextstepfoundation.com.au/about-us/our-story/",
+          "title": "Distinct Australian candidate operating history",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Expanded exact-name search to primary UK charity registration, UK scholars page and Australian programme history. They identify different education/disability/recovery organizations; original row has no discriminator. No candidate institution’s eligibility, in-kind support or geography was assigned to the ambiguous record.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recLkRuPZ8L193ZQS",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://www.palixfoundation.org/",
+          "title": "Palix current systems-change approach",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://www.albertafamilywellness.org/",
+          "title": "Foundation-linked Family Wellness knowledge platform",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Rechecked Palix’s own foundation/Alberta Family Wellness identity and focused grant-request searches. Accessible official material concerns systems change, professional learning and brain-development science; no published external applicant legal rules, grant amount or public call recovered.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recol0GFZkUBx8rkM",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.proteusfund.org/grantee-safety-and-security-fund/",
+          "title": "Proteus dedicated grantee-safety policy",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Followed Proteus’s donor-collaborative navigation to the dedicated Grantee Safety/Security programme. Added its existing-grantee restriction and eligible cost categories; kept RISE’s separate open call on the separately indexed RISE record.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recBQgqCzzAY4WVdV",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.rationalgames.com/foundation",
+          "title": "Rational Games Small Grant programme policy",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Found the Foundation/grantee section beyond consultancy services. It explicitly states invitation-only small grants, practical conflict-resolution requirements,2–3 year relationships and no conference funding; cumulative grants and social-investment commentary were not award bounds.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recr3e0FGfl3NhP81",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.proteusfund.org/rtf-small-grants-fund/",
+          "title": "RISE Together 2026 Small Grants full call",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Exact programme search recovered the 2026 Small Grants call and full process. Captured public-charity/sponsor eligibility, closed dated window and general-operating preference; qualified $25k request limit is not represented as an absolute grant cap.",
+      "remainingGaps": [
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recJz756lSH51oLOG",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://seedsofwisdom.earth/wp-content/uploads/2018/02/2018-Grant-Application-Guidelines_Sacred-Fire-Foundation.pdf",
+          "title": "Sacred Fire Foundation 2018 grant policy",
+          "outcome": "historical"
+        },
+        {
+          "url": "https://www.linkedin.com/company/seedsofwisdom",
+          "title": "Seeds of Wisdom own identity profile",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Read the seven-page 2018 grant policy PDF still independently indexed and corroborated the former Sacred Fire identity through the organization’s LinkedIn. Added explicitly historical eligibility, sponsor accommodation and closed dates; the compromised main-host warning is preserved and no current intake asserted.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recpqvD8c272JI57d",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://anbi.nl/publicatieverplichting/stichting-sub3/",
+          "title": "Sub 3 statutory self-publication",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://anbi.nl/wp-content/uploads/stichting-sub3/Stichting%20Sub3%20beleidsplan%202024-2026.pdf",
+          "title": "Own 2024–26 policy retry unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://sub3.org/",
+          "title": "Statutory-email host unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Repeated Dutch applicant-policy searches, retried the own 2024–26 policy PDF and tested sub 3.org from the statutory email domain. PDF/host connections failed; statutory profile and own 2025 disclosure remain the reliable identity sources. An Amarte-managed Sub 3 Art Fund was not assumed to define this foundation’s general grant policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec4pxI2Jl4b6906u",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://m4bl.org/",
+          "title": "M 4 BL current movement platform",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Repeated M 4 BL-specific grant/application and movement-fund searches beyond the movement platform. Results did not establish a current M 4 BL applicant programme; separately operated Black-led movement funds and funds raised for the movement were not automatically assigned as M 4 BL grants.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recikJLZtrkEFEn2e",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.thepatchworkcollective.org/about-us",
+          "title": "Patchwork partner-selection and funding model",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://thepatchworkcollective.org/learnings/maries-viewpoint",
+          "title": "Founder account of relationship-based funding",
+          "outcome": "policy"
+        }
+      ],
+      "notes": "Read the full three-step relationship/funding model and founder’s first-person process account rather than recipient lists alone. Recovered unrestricted, mostly multiyear community-led support; no public grant competition inferred from the contact form.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rec7yMQ7RvWJ8GG0k",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://thousandcurrents.org/contact-us/",
+          "title": "Thousand Currents current general contact",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://thousandcurrents.org/faqs/",
+          "title": "FormerFAQ route unavailable",
+          "outcome": "unavailable"
+        },
+        {
+          "url": "https://thousandcurrents.org/our-partnership-model/",
+          "title": "Former partnership-policy route unavailable",
+          "outcome": "unavailable"
+        }
+      ],
+      "notes": "Followed the current Contact Us route and retried formerFAQ/partnership-model paths identified in older own-staff research. Current contact is general; old paths fail. Conflicting third-party open/invitation labels and historical CatalystGrant figures were not promoted into current applicant policy.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recPltSfBuofl8aqD",
+      "previousStatus": "source_reviewed",
+      "outcome": "overview_only",
+      "sources": [
+        {
+          "url": "https://tiltcollective.org/our-work/",
+          "title": "Tilt current funding focus and initial geography",
+          "outcome": "overview"
+        },
+        {
+          "url": "https://tiltcollective.org/our-team/",
+          "title": "Tilt current grantmaking roles",
+          "outcome": "overview"
+        }
+      ],
+      "notes": "Read current Our Work and programme-team descriptions beyond the launch overview. Civil-society/academic funding across six initial countries is established, with China/Europe exploration, but no exhaustive geographic eligibility, application procedure, check size or public calendar is published; mobilization scenarios remain aggregate.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recWFD4nISK2rVZ9k",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://socialachievement.org/web/files/projects/67/files_en/Call%20for%20Applications%202023-2024%20EN.pdf",
+          "title": "TSA final 2023–24 Roma Health scholarship guide",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Read the full 13 page official scholarship guide rather than its search excerpt. Recovered final-cycle status, academic-year award range, Roma/citizenship-or-residence and age/study conditions, and closed 2023 deadline; historical programme pool excluded.",
+      "remainingGaps": [
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recDvpyWIZWZdJx7u",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/full_text/202513219349103746/IRS990PF",
+          "title": "VIVO own 2024 Form 990-PF restriction",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Located the actual 2024 filing and inspected the checked preselected-only indicator directly, beyond third-party summaries. Retained it as historical policy with current intake unconfirmed; paid-grant statistics did not become a current offer.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "rectpu5AusFN6GlTS",
+      "previousStatus": "source_reviewed",
+      "outcome": "program_terms_added",
+      "sources": [
+        {
+          "url": "https://www.resiliencefundforwomen.org/apply",
+          "title": "Live Resilience Fund 2026 application andFAQ",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://www.womenwin.org/what-we-do/democratisation-of-philanthropy/",
+          "title": "Women Win programme relationship",
+          "outcome": "identity"
+        }
+      ],
+      "notes": "Followed Women Win’s own pooled-fund links to Resilience Fund’s live application/FAQ. Direct fetch confirms extended October 25 deadline, superseding cached October 12. Preserved total 24 month amount, revenue ceiling, India prior-permission exception and conflicting leadership definitions; ONSIDE not duplicated.",
+      "remainingGaps": [
+        "eligibility"
+      ]
+    },
+    {
+      "sourceRecordId": "rec6kmJhaMxKVs8FI",
+      "previousStatus": "unreachable",
+      "outcome": "source_unavailable",
+      "sources": [
+        {
+          "url": "https://womenfundarmenia.org/building-resilience-through-feminist-solidarity-partner-organizations-gather-in-poland/",
+          "title": "Direct partner 2026 convening, not applicant policy",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://www.channelfoundation.org/legacy-grantees/wfg/",
+          "title": "Direct donor legacy identity evidence",
+          "outcome": "historical"
+        },
+        {
+          "url": "http://www.womenfundgeorgia.org/",
+          "title": "Affected original website remains untrusted",
+          "outcome": "unrelated"
+        }
+      ],
+      "notes": "Repeated Georgian/English current grant and own-social-profile searches, with independent coordinator recovery checks. No clean current applicant host was established beyond partner convenings and historical donor/member profiles. Those do not establish current intake; original unrelated-host source warning remains intact.",
+      "remainingGaps": [
+        "eligibility",
+        "award",
+        "deadline"
+      ]
+    },
+    {
+      "sourceRecordId": "recbAUdSnpQroQ4SL",
+      "previousStatus": "unresolved",
+      "outcome": "other_resource",
+      "sources": [
+        {
+          "url": "https://shiftworkforward.org/network/",
+          "title": "Regional workforce-network directory",
+          "outcome": "identity"
+        },
+        {
+          "url": "https://detroitareaworkforcefunders.org/about/",
+          "title": "Detroit own no-grant policy",
+          "outcome": "policy"
+        },
+        {
+          "url": "https://workforcecollaborative.ca/wp-content/uploads/2024/08/2024-TWFC-Call-for-Proposals-FINAL.pdf",
+          "title": "Distinct Toronto 2024 applicant policy",
+          "outcome": "historical"
+        }
+      ],
+      "notes": "Confirmed the source’s parenthetical regional-alliance label against separate Detroit, Toronto and nationwide network sources. Detroit explicitly offers no grants, while Toronto has its own historical call. Classified this generic row as a discovery resource rather than choosing one regional namesake or implying a universal award.",
+      "remainingGaps": []
+    }
+  ]
+}
