@@ -105,12 +105,15 @@ async function initialize() {
     catalog = await (await read("./data/fund-vectors.json")).json();
     if (JSON.stringify(catalog.model) !== JSON.stringify(MODEL))
       throw new Error("The model and index versions differ.");
+    const funds = (await (await read("./data/funders.json")).json()).funds;
+    const indexedFunds = new Set(catalog.ids.map(id => id.split("::")[0]));
+    if (indexedFunds.size !== funds.length || funds.some(fund => !indexedFunds.has(fund.id)))
+      throw new Error("The local fund index does not cover the catalog.");
     const bytes = await (await read("./data/fund-vectors.f32")).arrayBuffer();
     if (
       (await sha(bytes)) !== catalog.binarySha256 ||
       bytes.byteLength !== catalog.ids.length * MODEL.dimensions * 4 ||
-      new Set(catalog.ids).size !== catalog.ids.length ||
-      new Set(catalog.ids.map((id) => id.split("::")[0])).size !== 593
+      new Set(catalog.ids).size !== catalog.ids.length
     )
       throw new Error("The local fund index failed validation.");
     vectors = new Float32Array(bytes);

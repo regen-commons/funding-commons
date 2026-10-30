@@ -1,21 +1,22 @@
 {
   "version": 1,
-  "checkedOn": "2026-10-15",
-  "recordCount": 593,
+  "checkedOn": "2026-10-29",
+  "recordCount": 618,
+  "baselineCount": 593,
   "researchCounts": {
     "not_a_funder": 18,
-    "program_reviewed": 552,
+    "program_reviewed": 577,
     "source_reviewed": 14,
     "unresolved": 9
   },
   "fieldCoverage": {
-    "focus": 581,
-    "eligibility": 494,
-    "numericAward": 145,
-    "currentNumericAward": 66,
-    "datedDeadline": 141,
-    "upcomingDatedDeadline": 23,
-    "applicationRoute": 456
+    "focus": 606,
+    "eligibility": 519,
+    "numericAward": 164,
+    "currentNumericAward": 76,
+    "datedDeadline": 155,
+    "upcomingDatedDeadline": 28,
+    "applicationRoute": 480
   },
   "sourceWarningCount": 5,
   "records": [
@@ -10882,8 +10883,8 @@
       "name": "Internet Society Foundation",
       "reviewStatus": "program_reviewed",
       "checkedOn": "2026-10-15",
-      "sourceCount": 2,
-      "programCount": 1,
+      "sourceCount": 3,
+      "programCount": 3,
       "fields": {
         "focus": true,
         "eligibility": true,
@@ -10895,7 +10896,8 @@
       },
       "sources": [
         "https://www.isocfoundation.org/",
-        "https://www.isocfoundation.org/grant-programme/research-grant-programme/"
+        "https://www.isocfoundation.org/grant-programme/research-grant-programme/",
+        "https://www.isocfoundation.org/grant-programme/community-centered-connectivity/"
       ],
       "retrievals": []
     },
@@ -14616,20 +14618,22 @@
       "name": "Open Tech Fund",
       "reviewStatus": "program_reviewed",
       "checkedOn": "2026-10-15",
-      "sourceCount": 2,
-      "programCount": 1,
+      "sourceCount": 4,
+      "programCount": 2,
       "fields": {
         "focus": true,
         "eligibility": true,
-        "numericAward": false,
-        "currentNumericAward": false,
+        "numericAward": true,
+        "currentNumericAward": true,
         "datedDeadline": true,
         "upcomingDatedDeadline": false,
         "applicationRoute": true
       },
       "sources": [
         "https://www.opentech.fund/",
-        "https://www.opentech.fund/research-2/icrp/"
+        "https://www.opentech.fund/research-2/icrp/",
+        "https://www.opentech.fund/funds/internet-freedom-fund/",
+        "https://docs.opentech.fund/otf-application-guidebook/faq"
       ],
       "retrievals": []
     },
@@ -20687,7 +20691,7 @@
         "numericAward": true,
         "currentNumericAward": true,
         "datedDeadline": true,
-        "upcomingDatedDeadline": true,
+        "upcomingDatedDeadline": false,
         "applicationRoute": true
       },
       "sources": [
@@ -21194,10 +21198,565 @@
           "deadline"
         ]
       }
+    },
+    {
+      "sourceRecordId": "local-nlnet",
+      "name": "NLnet Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://nlnet.nl/restack/",
+        "https://nlnet.nl/restack/eligibility/",
+        "https://nlnet.nl/news/2026/20261020-AI-policy.html"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-ardc",
+      "name": "Amateur Radio Digital Communications",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.ardc.net/apply/",
+        "https://www.ardc.net/apply/grant-application-instructions/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-cisco",
+      "name": "Cisco Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.cisco.com/site/us/en/about/purpose/community-resilience/investments/global-impact-cash-grants.html"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-d-prize",
+      "name": "D-Prize",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://d-prize.org/",
+        "https://d-prize.org/faqs",
+        "https://d-prize.org/extension"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-whitley",
+      "name": "Whitley Fund for Nature",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 4,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://whitleyaward.org/apply-for-conservation-funding/apply-for-a-whitley-award/",
+        "https://whitleyaward.org/apply-for-conservation-funding/eligibility/",
+        "https://whitleyaward.org/2026/10/07/a-guide-to-applying-for-a-whitley-award/",
+        "https://d2pmqwflrfqd3y.cloudfront.net/content/uploads/2026/07/30161009/2027-WhitleyAward_EligibleCountries.pdf"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-rufford",
+      "name": "The Rufford Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 4,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://apply.ruffordsmallgrants.org/",
+        "https://apply.ruffordsmallgrants.org/help/criteria",
+        "https://apply.ruffordsmallgrants.org/help/eligibility",
+        "https://apply.ruffordsmallgrants.org/help/instructions"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-cfh",
+      "name": "Conservation, Food and Health Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://cfhfoundation.grantsmanagement08.com/",
+        "https://cfhfoundation.grantsmanagement08.com/?page_id=6"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-mozilla",
+      "name": "Mozilla Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 5,
+      "programCount": 2,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.mozillafoundation.org/ca/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/",
+        "https://www.mozillafoundation.org/ca/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/faqs/",
+        "https://www.mozillafoundation.org/documents/501/Mozilla_Foundation_Grant_Eligibility_Guidelines_tNhKrgM.pdf",
+        "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
+        "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/faqs/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-acta",
+      "name": "Alliance for California Traditional Arts",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://actaonline.org/program/living-cultures-grant/",
+        "https://actaonline.submittable.com/submit"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-iki",
+      "name": "International Climate Initiative / GIZ",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://iki-small-grants.de/funding/",
+        "https://iki-small-grants.de/wp-content/uploads/2026/10/Funding-Information-2027-Call-8.pdf"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-awesome",
+      "name": "The Awesome Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.awesomefoundation.org/en/chapters/conservationandclimate",
+        "https://www.awesomefoundation.org/en/faq"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-futo",
+      "name": "FUTO",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://futo.tech/grants"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-vietsch",
+      "name": "Vietsch Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.vietsch-foundation.org/projects/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-pollination",
+      "name": "The Pollination Project",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://thepollinationproject.org/apply/",
+        "https://thepollinationproject.smapply.us/prog/daily_grants_program/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-ekoenergy",
+      "name": "EKOenergy Climate Fund",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.ekoenergy.org/our-results/climate-fund/climate-fund-funding-information/",
+        "https://www.ekoenergy.org/wp-content/uploads/EKOenergy-Climate-Funt-project-selection-description-short-term-projects.pdf"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-ieee",
+      "name": "IEEE Foundation / EPICS in IEEE",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://epics.ieee.org/october-2026-epics-in-ieee-call-for-proposals/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-comcast",
+      "name": "Comcast Innovation Fund",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://innovationfund.comcast.com/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-icann",
+      "name": "Internet Corporation for Assigned Names and Numbers",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.icann.org/en/grant-program"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-nten",
+      "name": "NTEN",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.nten.org/change/pizzigati-prize"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-table-mountain",
+      "name": "The Table Mountain Fund",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.thetablemountainfund.org.za/grants/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-wwf-nedbank",
+      "name": "WWF Nedbank Green Trust",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.greentrust.org.za/",
+        "https://www.greentrust.org.za/about-us/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-cepf",
+      "name": "Critical Ecosystem Partnership Fund / IEB",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://cepfcerrado.iieb.org.br/editais/cepf-e-ieb-lancam-chamada-para-pequenos-projetos-de-conservacao-no-hotspot-cerrado/",
+        "https://cepfcerrado.iieb.org.br/home/resultado-da-3a-chamada-para-cartas-de-intencao-para-pequenos-projetos-no-hotspot-cerrado/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-undp-gef",
+      "name": "UNDP / GEF Small Grants Programme Nigeria",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": false
+      },
+      "sources": [
+        "https://www.undp.org/nigeria/news/call-proposals-indigenous-peoples-and-local-communities-conserved-areas-and-territories-global-support-initiative-icca-gsi-phase-2"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-unesco",
+      "name": "UNESCO",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.unesco.org/creativity/en/ifcd/apply",
+        "https://www.unesco.org/creativity/en/articles/2026-call-funding-requests-international-fund-cultural-diversity-now-open",
+        "https://www.unesco.org/creativity/sites/default/files/medias/fichiers/2026/03/List_eligible_countries_17_IFCD_call_2026_en_0.pdf"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-la-county-arts",
+      "name": "Los Angeles County Department of Arts and Culture",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 6,
+      "programCount": 2,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.lacountyarts.org/funding/community-impact-arts-grant-program/grantseekers/grantseekers-apply",
+        "https://lacountyarts.org/sites/default/files/2026-08/2728CIAG_Guidelines_20260819.pdf",
+        "https://www.lacountyarts.org/funding/organizational-grant-program/ogp-grantseekers/ogp-grantseekers-apply",
+        "https://lacountyarts.org/funding/organizational-grant-program/ogp-grantseekers/ogp-grantseekers-eligibility",
+        "https://www.lacountyarts.org/funding/organizational-grant-program/ogp-grantseekers/ogp-grantseekers-timeline-categories",
+        "https://www.lacountyarts.org/funding/organizational-grant-program/ogp-grantseekers/apply/ogp-grantseekers-calculator-explained"
+      ],
+      "retrievals": []
     }
   ],
-  "notes": "All593 records have a research disposition. Source overviews, program terms and failed/unresolved checks are distinct. Unknown terms remain unknown. Retrieval entries describe collection, not a claim that terms were verified. Original30 pilot reviews were retained from October14; expanded research was checked October15.",
-  "compiledAt": "2026-10-25T21:59:03.956107+00:00",
+  "notes": "All original and supplemental records have a research disposition. Source overviews, program terms and failed/unresolved checks are distinct. Unknown terms remain unknown. Retrieval entries describe collection, not a claim that terms were verified. Original30 pilot reviews were retained from October14; expanded research was checked October15.",
+  "compiledAt": "2026-10-30T02:00:45.705160+00:00",
   "fieldDefinitions": {
     "currentNumericAward": "A numeric amount in published program terms, even if that intake is closed; not a promise of current availability.",
     "datedDeadline": "At least one source closing date, including historical or closed calls.",

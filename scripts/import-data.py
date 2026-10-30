@@ -1,4 +1,4 @@
-"""Build the 593-record research release without converting unknowns into terms."""
+"""Build the original research release and approved supplemental additions without converting unknowns into terms."""
 import collections, copy, datetime, json, re
 from urllib.parse import urlsplit
 from pathlib import Path
@@ -12,7 +12,30 @@ expanded=[r for p in sorted((ROOT/'research').glob('expanded-[0-9].json')) for r
 if len(pilot)!=30 or len({r['sourceRecordId'] for r in pilot})!=30: raise ValueError('Original pilot identities must remain intact.')
 records=pilot+expanded
 if len(records)!=593 or sorted(r['sourceRecordId'] for r in records)!=sorted(expected): raise ValueError(f'Full research release requires all593 unique source IDs; found {len(records)} records.')
+supplemental_manifest=read('research/supplemental-funders.json')
+supplemental=supplemental_manifest['funds']
+extra_ids=[row['fund']['id'] for row in supplemental]
+if len(set(extra_ids))!=len(extra_ids) or set(extra_ids)&set(expected) or any(not re.fullmatch(r'local-[a-z0-9][a-z0-9-]*',i) for i in extra_ids):
+    raise ValueError('Supplemental identities must be unique local IDs outside the baseline.')
+for row in supplemental:
+    if row['fund']['id']!=row['enrichment']['sourceRecordId'] or row['fund']['name']!=row['enrichment']['name']:
+        raise ValueError('Supplemental identity mismatch.')
+    snapshot['funds'].append(row['fund'])
+    records.append(row['enrichment'])
+catalog_ids=expected+extra_ids
 lookup={r['sourceRecordId']:r for r in records}
+for addition in supplemental_manifest.get('programAdditions',[]):
+    target=lookup.get(addition['sourceRecordId'])
+    if addition['sourceRecordId'] not in expected or target is None:
+        raise ValueError('Program additions must target an original funder.')
+    if any(p['id']==addition['program']['id'] for p in target['programs']):
+        raise ValueError('Program additions cannot overwrite an existing program.')
+    target['programs'].append(addition['program'])
+    urls={s['url'] for s in target['sources']}
+    for source in addition['sources']:
+        if source['url'] not in urls:
+            target['sources'].append(source)
+            urls.add(source['url'])
 pilot_ids={r['sourceRecordId'] for r in pilot}
 warnings=[w for r in records for w in r.get('sourceWarnings',[])]
 counts=collections.Counter()
@@ -110,9 +133,9 @@ for fund in snapshot['funds']:
     if fund['id'] in latest_followups:
         coverage[-1]['followUp']=copy.deepcopy(latest_followups[fund['id']])
         fund['followUp']=copy.deepcopy(coverage[-1]['followUp'])
-if sorted(f['id'] for f in snapshot['funds'])!=sorted(expected):raise ValueError('Source IDs changed.')
+if sorted(f['id'] for f in snapshot['funds'])!=sorted(catalog_ids):raise ValueError('Catalog IDs changed.')
 field_counts={k:sum(bool(r['fields'][k]) for r in coverage) for k in coverage[0]['fields']}
-snapshot.update(schemaVersion=2,pilotCount=30,enrichedCount=593,reviewedCount=sum(bool(f['verifiedOn']) for f in snapshot['funds']),researchCounts=dict(counts),fieldCoverage=field_counts,enrichmentSchema='./enrichment.schema.json',researchCheckedOn='2026-10-15',sourceWarningCount=sum(bool(f['sourceWarnings']) for f in snapshot['funds']))
+snapshot.update(schemaVersion=2,pilotCount=30,recordCount=len(catalog_ids),baselineCount=len(expected),supplementalCount=len(extra_ids),enrichedCount=len(catalog_ids),reviewedCount=sum(bool(f['verifiedOn']) for f in snapshot['funds']),researchCounts=dict(counts),fieldCoverage=field_counts,enrichmentSchema='./enrichment.schema.json',researchCheckedOn=max(r['researchedOn'] for r in records),sourceWarningCount=sum(bool(f['sourceWarnings']) for f in snapshot['funds']))
 snapshot['compiledAt']=as_of.isoformat()
 snapshot['followUpHistory']=followup_history
 if baseline:
@@ -133,10 +156,10 @@ if baseline:
         'notes':'Each target received a policy follow-up. A reviewed policy may be invitation-only, closed or historical. No current date or amount is inferred from an older award, and remaining gaps are not eligibility rejections.'}
     (ROOT/'dist/data/research-followup.json').write_text(json.dumps(followup_report,ensure_ascii=False,indent=2)+'\n')
 (ROOT/'dist/data/funders.json').write_text(json.dumps(snapshot,ensure_ascii=False,separators=(',',':')))
-report={'version':1,'checkedOn':'2026-10-15','recordCount':593,'researchCounts':dict(counts),'fieldCoverage':field_counts,'sourceWarningCount':sum(bool(f['sourceWarnings']) for f in snapshot['funds']),'records':coverage,'notes':'All593 records have a research disposition. Source overviews, program terms and failed/unresolved checks are distinct. Unknown terms remain unknown. Retrieval entries describe collection, not a claim that terms were verified. Original30 pilot reviews were retained from October14; expanded research was checked October15.'}
+report={'version':1,'checkedOn':snapshot['researchCheckedOn'],'recordCount':len(catalog_ids),'baselineCount':len(expected),'researchCounts':dict(counts),'fieldCoverage':field_counts,'sourceWarningCount':sum(bool(f['sourceWarnings']) for f in snapshot['funds']),'records':coverage,'notes':'All original and supplemental records have a research disposition. Source overviews, program terms and failed/unresolved checks are distinct. Unknown terms remain unknown. Retrieval entries describe collection, not a claim that terms were verified. Original30 pilot reviews were retained from October14; expanded research was checked October15.'}
 report['compiledAt']=as_of.isoformat()
 report['fieldDefinitions']={'currentNumericAward':'A numeric amount in published program terms, even if that intake is closed; not a promise of current availability.','datedDeadline':'At least one source closing date, including historical or closed calls.','upcomingDatedDeadline':'An intake with a dated cutoff still upcoming when compiled; excludes closed, future/not-yet-open, unconfirmed and expired exact timestamps. A date without a time remains date-qualified.'}
 report['followUpHistory']=followup_history
 if baseline:report['followUpSummary']=followup_summary
 (ROOT/'dist/data/research-coverage.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
-print(json.dumps({'records':593,'researchCounts':dict(counts),'fieldCoverage':field_counts}))
+print(json.dumps({'records':len(catalog_ids),'researchCounts':dict(counts),'fieldCoverage':field_counts}))

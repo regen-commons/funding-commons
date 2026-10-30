@@ -504,7 +504,7 @@ function render() {
   $("match-view").hidden = !grouping;
   if (grouping) {
     const counts = Object.fromEntries(Object.keys(MATCH_GROUPS).map((g) => [g, [...matchResults.values()].filter((m) => m.group === g).length]));
-    $("match-summary").textContent = `${counts.lead} research lead${counts.lead === 1 ? "" : "s"} · ${counts.check} need scope, funding type or access checks · ${counts.unverified} have unverified funding offers · ${counts.limited} have limited relevance · ${counts.outside} with conflicts or funding preference mismatches. All 593 records are retained. Leads still need eligibility review.`;
+    $("match-summary").textContent = `${counts.lead} research lead${counts.lead === 1 ? "" : "s"} · ${counts.check} need scope, funding type or access checks · ${counts.unverified} have unverified funding offers · ${counts.limited} have limited relevance · ${counts.outside} with conflicts or funding preference mismatches. All ${funds.length} records remain available. Leads still need eligibility review.`;
   }
   const savedAll = activeSavedIds();
   const filtered = sortFunds(filterFunds(funds.map((f) => matchResults.get(f.id)?.fund || f), state, savedAll), state.sort).filter((f) => !grouping || state.matchGroup === "all" || matchResults.get(f.id).group === state.matchGroup);
@@ -662,7 +662,7 @@ function openFund(id, push = true, refresh = false) {
     <dl class="detail-grid"><div><dt>Award & term</dt><dd>${escape(f.amount)}</dd></div><div><dt>Application timing</dt><dd>${escape(applicationTiming(f))}${f.deadlineDate && !f.deadlineInstant ? '<br><span class="description-note">The source gives a date; the exact deadline time is unverified.</span>' : ""}</dd></div><div><dt>Application route</dt><dd>${escape(f.accessDetail)}</dd></div><div><dt>Region tags</dt><dd>${escape(f.regions.join(" · ") || "Not specified")}<br><span class="description-note">Broad coverage tags; check country eligibility.</span></dd></div></dl>
     <section class="detail-section"><h3>What it focuses on</h3><ul class="tag-list" role="list">${f.sectors.map((t) => `<li class="tag">${escape(t)}</li>`).join("") || '<li class="tag">Focus not specified</li>'}</ul>${f.approaches.length ? `<p><strong>Funding approach:</strong> ${escape(f.approaches.join(" · "))}</p>` : ""}${f.grantBands.length ? `<p class="description-note">Directory size bands: ${escape(f.grantBands.join(", "))}. These labels have no verified dollar equivalent.</p>` : ""}</section>
     ${matchDetails(f)}<div id="fund-research" class="fund-section-anchor" tabindex="-1"></div>${enrichmentDetails(f)}
-    <section class="detail-section fund-section-anchor" id="fund-sources" tabindex="-1"><h3>Sources & freshness</h3><div class="evidence-block">${f.evidenceUrl ? link(f.evidenceUrl, "View the primary research source") : link(f.website, "Visit the listed website")}<p>${f.verifiedOn ? `Official sources researched ${f.verifiedOn}. Recheck details before applying.` : "Current application information has not been independently verified."}</p>${link(f.sourceUrl, "Original Fito directory")}<p>Source record: ${escape(f.id)}</p></div>${f.additionalSources.length ? `<details class="quality-details"><summary>More official sources</summary><ul>${f.additionalSources.map((s, i) => `<li>${link(s, `Official source ${i + 2}`)}</li>`).join("")}</ul></details>` : ""}${f.aliasNote ? `<p class="description-note">Possible related/duplicate record: ${escape(f.aliasNote)}. Source rows are retained separately.</p>` : ""}${f.qualityFlags.length ? `<details class="quality-details"><summary>Directory quality notes (${f.qualityFlags.length})</summary><ul>${f.qualityFlags.map((q) => `<li>${escape(q)}</li>`).join("")}</ul></details>` : ""}</section>
+    <section class="detail-section fund-section-anchor" id="fund-sources" tabindex="-1"><h3>Sources & freshness</h3><div class="evidence-block">${f.evidenceUrl ? link(f.evidenceUrl, "View the primary research source") : link(f.website, "Visit the listed website")}<p>${f.verifiedOn ? `Official sources researched ${f.verifiedOn}. Recheck details before applying.` : "Current application information has not been independently verified."}</p>${link(f.sourceUrl, f.origin?.kind === "supplemental-research" ? "Supplemental research source" : "Original Fito directory")}<p>${f.origin?.kind === "supplemental-research" ? "Local catalog record" : "Source record"}: ${escape(f.id)}</p></div>${f.additionalSources.length ? `<details class="quality-details"><summary>More official sources</summary><ul>${f.additionalSources.map((s, i) => `<li>${link(s, `Official source ${i + 2}`)}</li>`).join("")}</ul></details>` : ""}${f.aliasNote ? `<p class="description-note">Possible related/duplicate record: ${escape(f.aliasNote)}. Source rows are retained separately.</p>` : ""}${f.qualityFlags.length ? `<details class="quality-details"><summary>Directory quality notes (${f.qualityFlags.length})</summary><ul>${f.qualityFlags.map((q) => `<li>${escape(q)}</li>`).join("")}</ul></details>` : ""}</section>
     <section class="detail-section fund-section-anchor" id="fund-private-notes" tabindex="-1"><h3>Your private notes</h3><label class="note-box" for="fund-notes">What would you like to remember?<textarea id="fund-notes" maxlength="5000" placeholder="A project angle, eligibility question, or next step…">${escape(notes)}</textarea></label><p class="note-caption">Stored in this browser · included in your exports</p></section></div>
     <div class="dialog-actions"><label class="save-list-control" for="detail-list">Save for <select id="detail-list">${lists()
       .map(
@@ -1241,8 +1241,8 @@ async function load() {
     if (
       data.schemaVersion !== 2 ||
       !Array.isArray(data.funds) ||
-      data.funds.length !== 593 ||
-      new Set(data.funds.map((f) => f.id)).size !== 593
+      data.funds.length !== data.recordCount ||
+      new Set(data.funds.map((f) => f.id)).size !== data.recordCount
     )
       throw new Error("The directory snapshot is incomplete.");
     snapshot = data;
@@ -1257,7 +1257,7 @@ async function load() {
     $("program-review-count").textContent =
       data.researchCounts?.program_reviewed ?? 0;
     $("research-note").textContent =
-      `All 593 records have a research disposition: ${data.researchCounts?.program_reviewed || 0} with program terms and ${data.researchCounts?.source_reviewed || 0} with official overviews. Unresolved and unavailable sources remain visible.`;
+      `All ${data.funds.length} records have a research disposition: ${data.researchCounts?.program_reviewed || 0} with program terms and ${data.researchCounts?.source_reviewed || 0} with official overviews. Unresolved and unavailable sources remain visible.`;
     $("research-label-help").textContent =
       `Research depth: ${data.researchCounts?.program_reviewed || 0} program reviews, ${data.researchCounts?.source_reviewed || 0} official overviews, ${data.researchCounts?.not_a_funder || 0} other resources, and ${(data.researchCounts?.unresolved || 0) + (data.researchCounts?.unreachable || 0)} unresolved or unavailable sources. A checked overview does not establish eligibility, award size or a deadline.`;
     if (data.followUpSummary) {

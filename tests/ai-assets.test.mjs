@@ -8,14 +8,14 @@ const hash = (b) => createHash("sha256").update(b).digest("hex");
 const read = (p) => fs.readFileSync(new URL("../" + p, import.meta.url));
 const funds = JSON.parse(read("dist/data/funders.json")).funds;
 
-test("public vector release matches the exact model, corpus, all 593 identities and binary integrity", () => {
+test("public vector release matches the exact model, corpus, all 618 identities and binary integrity", () => {
   const catalog = JSON.parse(read("dist/data/fund-vectors.json"));
   assert.deepEqual(catalog.model, MODEL);
   assert.deepEqual(
     catalog.ids,
     corpusDocuments(funds).map((d) => d.id),
   );
-  assert.equal(new Set(catalog.ids.map((id) => id.split("::")[0])).size, 593);
+  assert.equal(new Set(catalog.ids.map((id) => id.split("::")[0])).size, 618);
   assert.equal(
     catalog.corpusHash,
     hash(

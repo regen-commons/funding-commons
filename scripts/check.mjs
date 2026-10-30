@@ -18,10 +18,10 @@ for (const f of [
   execFileSync(process.execPath, ["--check", root + f], { stdio: "inherit" });
 const data = validateSnapshot(new URL("../", import.meta.url));
 if (
-  data.funds.length !== 593 ||
-  new Set(data.funds.map((f) => f.id)).size !== 593
+  data.funds.length !== data.recordCount ||
+  new Set(data.funds.map((f) => f.id)).size !== data.recordCount
 )
-  throw new Error("Source coverage must be exactly 593 unique records.");
+  throw new Error("Catalog coverage must match its unique record count.");
 for (const f of [
   "index.html",
   "styles.css",
@@ -45,5 +45,5 @@ for (const f of [
   if (!fs.statSync(root + "dist/" + f).size)
     throw new Error("Missing static asset: " + f);
 console.log(
-  "Static app ready: 593 unique records; 593 research dispositions with retained source identities validated; all JS syntax and required assets checked.",
+  `Static app ready: ${data.recordCount} records; all 593 original identities retained; syntax and assets checked.`,
 );
