@@ -43,7 +43,7 @@ const state = {
   includeIncomplete: true,
 };
 
-test("snapshot retains all 593 original records plus 101 funders, research dispositions and original30 pilot funds", () => {
+test("snapshot retains all 593 original records plus 106 funders, research dispositions and original30 pilot funds", () => {
   assert.equal(funds.length, 699);
   assert.equal(new Set(funds.map((f) => f.id)).size, 699);
   assert.equal(funds.filter((f) => f.verifiedOn).length, data.reviewedCount);

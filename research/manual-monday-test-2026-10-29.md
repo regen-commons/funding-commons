@@ -62,3 +62,7 @@ Checks passed:
 - `git diff --check`: passed. Public diff inspected; dependencies/model caches and private data excluded.
 
 Node 24.20.0 and Bun were invoked through the explicit installed PATH. Page catalog totals changed; application logic and layout did not. No fresh desktop/mobile browser inspection is claimed by this run. The report verifies the manual research/import/build/test workflow; scheduling remains untested.
+
+## PR review follow-up
+
+The review corrected nine static catalog references (including metadata and the download filename) from 694 to 699, and updated the current README counts. The build now rejects a static count that disagrees with the generated catalog. A GitHub Actions workflow runs build and tests independently of Vercel’s preview skip policy; it has no deployment step. Local Modern Web Guidance was unavailable in the offline cache; this copy correction preserves the existing semantic markup and layout.
