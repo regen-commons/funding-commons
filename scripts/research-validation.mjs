@@ -234,11 +234,17 @@ export function validateSnapshot(root) {
   const data = read("dist/data/funders.json"),
     schema = read("dist/data/enrichment.schema.json"),
     ids = read("research/source-record-ids.json");
+  const manifest = read("research/supplemental-funders.json");
+  const supplemental = manifest.funds;
+  const extras = supplemental.map(row => row.fund.id);
+  if (ids.length !== 593 || new Set(ids).size !== 593 || new Set(extras).size !== extras.length || extras.some(id => !/^local-[a-z0-9][a-z0-9-]*$/.test(id) || ids.includes(id)))
+    throw new Error("Invalid baseline or supplemental identities");
+  const catalogIds = [...ids, ...extras];
   if (
     data.schemaVersion !== 2 ||
-    data.funds.length !== 593 ||
-    new Set(data.funds.map((f) => f.id)).size !== 593 ||
-    [...ids].sort().join() !==
+    data.funds.length !== catalogIds.length ||
+    new Set(data.funds.map((f) => f.id)).size !== catalogIds.length ||
+    [...catalogIds].sort().join() !==
       data.funds
         .map((f) => f.id)
         .sort()
@@ -262,6 +268,20 @@ export function validateSnapshot(root) {
     throw new Error(
       "Research sources must cover all593 distinct original records",
     );
+  for (const row of supplemental) {
+    if (row.fund.id !== row.enrichment.sourceRecordId || row.fund.name !== row.enrichment.name) throw new Error("Supplemental identity mismatch");
+    researchById.set(row.fund.id, row.enrichment);
+  }
+  for (const addition of manifest.programAdditions || []) {
+    const target = researchById.get(addition.sourceRecordId);
+    if (!ids.includes(addition.sourceRecordId) || !target) throw new Error("Program addition has no original target");
+    if (target.programs.some(p => p.id === addition.program.id)) throw new Error("Program addition would overwrite prior research");
+    target.programs.push(addition.program);
+    const urls = new Set(target.sources.map(s => s.url));
+    for (const source of addition.sources) {
+      if (!urls.has(source.url)) { target.sources.push(source); urls.add(source.url); }
+    }
+  }
   if (
     data.funds.filter((f) => f.isPilot).length !== 30 ||
     data.pilotCount !== 30
@@ -286,17 +306,17 @@ export function validateSnapshot(root) {
   if (data.reviewedCount !== data.funds.filter((f) => f.verifiedOn).length)
     throw new Error("Research count is incorrect");
   if (
-    data.enrichedCount !== 593 ||
+    data.enrichedCount !== catalogIds.length ||
     !isDeepStrictEqual(counts, data.researchCounts)
   )
     throw new Error("Research disposition counts are inconsistent");
   const coverage = read("dist/data/research-coverage.json");
   if (
-    coverage.records.length !== 593 ||
+    coverage.records.length !== catalogIds.length ||
     !isDeepStrictEqual(coverage.researchCounts, counts) ||
     [...new Set(coverage.records.map((r) => r.sourceRecordId))]
       .sort()
-      .join() !== [...ids].sort().join()
+      .join() !== [...catalogIds].sort().join()
   )
     throw new Error("Coverage report must describe all593 source IDs");
   for (const row of coverage.records) {

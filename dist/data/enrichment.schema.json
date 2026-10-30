@@ -22,7 +22,8 @@
   "properties": {
     "sourceRecordId": {
       "type": "string",
-      "pattern": "^rec[A-Za-z0-9]+$"
+      "pattern": "^(rec[A-Za-z0-9]+|local-[a-z0-9][a-z0-9-]*)$",
+      "description": "Catalog identity: original rec IDs or explicitly local supplemental IDs; local IDs are not upstream records."
     },
     "researchedOn": {
       "type": "string",

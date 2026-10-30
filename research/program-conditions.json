@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedOn": "2026-10-25",
+  "checkedOn": "2026-10-29",
   "notes": "Bounded source-backed prerequisite coverage. Unmapped requirements remain manual; unknown does not mean ineligible. Priority criteria never become hard exclusions.",
   "conditions": [
     {
@@ -582,6 +582,696 @@
       "requirement": "The actual applicant is a domestic US or affiliated-territory organization or Tribal Nation with 501(c)(3) status or equivalent.",
       "sourceUrl": "https://regenerativeagriculturefoundation.org/our-grants/",
       "checkedOn": "2026-10-25"
+    },
+    {
+      "fundId": "local-nlnet",
+      "programId": "nlnet-restack",
+      "id": "nlnet-restack-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Open outputs; strong European dimension. Standard route: Horizon Europe-eligible team members receive at least 60% of funds.",
+      "sourceUrl": "https://nlnet.nl/restack/eligibility/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-nlnet",
+      "programId": "nlnet-restack",
+      "id": "nlnet-restack-requirement-2",
+      "category": "applicant_model",
+      "requirement": "October 20 AI policy: no generative-AI proposal writing except accessibility support; project-development LLM/diffusion use limited to read-only.",
+      "sourceUrl": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-nlnet",
+      "programId": "nlnet-restack",
+      "id": "nlnet-restack-requirement-3",
+      "category": "geography",
+      "requirement": "European dimension required; exceptional quality plus unique expertise can justify proposals outside eligible countries.",
+      "sourceUrl": "https://nlnet.nl/restack/eligibility/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-ardc",
+      "programId": "ardc-grants",
+      "id": "ardc-grants-requirement-1",
+      "category": "applicant_model",
+      "requirement": "US public charity or qualifying international nonprofit/education institution; open access to funded outputs",
+      "sourceUrl": "https://www.ardc.net/apply/grant-application-instructions/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-ardc",
+      "programId": "ardc-grants",
+      "id": "ardc-grants-requirement-2",
+      "category": "geography",
+      "requirement": "International applicants accepted; developing and underfunded regions encouraged.",
+      "sourceUrl": "https://www.ardc.net/apply/grant-application-instructions/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-cisco",
+      "programId": "cisco-global-impact",
+      "id": "cisco-global-impact-requirement-1",
+      "category": "applicant_model",
+      "requirement": "US 501(c)(3) public charity or foreign equivalent",
+      "sourceUrl": "https://www.cisco.com/site/us/en/about/purpose/community-resilience/investments/global-impact-cash-grants.html",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-cisco",
+      "programId": "cisco-global-impact",
+      "id": "cisco-global-impact-requirement-2",
+      "category": "applicant_model",
+      "requirement": "National/multinational operations; over 65% economically underserved beneficiaries",
+      "sourceUrl": "https://www.cisco.com/site/us/en/about/purpose/community-resilience/investments/global-impact-cash-grants.html",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-cisco",
+      "programId": "cisco-global-impact",
+      "id": "cisco-global-impact-requirement-3",
+      "category": "applicant_model",
+      "requirement": "Overhead at most 25%, with discretionary exceptions; scalable technology and measurable results",
+      "sourceUrl": "https://www.cisco.com/site/us/en/about/purpose/community-resilience/investments/global-impact-cash-grants.html",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-cisco",
+      "programId": "cisco-global-impact",
+      "id": "cisco-global-impact-requirement-4",
+      "category": "geography",
+      "requirement": "Global program; foreign organizations undergo equivalency review.",
+      "sourceUrl": "https://www.cisco.com/site/us/en/about/purpose/community-resilience/investments/global-impact-cash-grants.html",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-d-prize",
+      "programId": "d-prize-2026",
+      "id": "d-prize-2026-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Applicants 18+; distribution of a proven listed intervention; full-time venture plan",
+      "sourceUrl": "https://d-prize.org/faqs",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-d-prize",
+      "programId": "d-prize-2026",
+      "id": "d-prize-2026-requirement-2",
+      "category": "applicant_model",
+      "requirement": "Two-page concept plus resumes; English submission",
+      "sourceUrl": "https://d-prize.org/faqs",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-d-prize",
+      "programId": "d-prize-2026",
+      "id": "d-prize-2026-requirement-3",
+      "category": "geography",
+      "requirement": "Worldwide applicants; distribution in communities experiencing extreme poverty.",
+      "sourceUrl": "https://d-prize.org/faqs",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-whitley",
+      "programId": "whitley-2027",
+      "id": "whitley-2027-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Established conservation record; local registered organization or formal university arrangement",
+      "sourceUrl": "https://whitleyaward.org/apply-for-conservation-funding/eligibility/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-whitley",
+      "programId": "whitley-2027",
+      "id": "whitley-2027-requirement-2",
+      "category": "applicant_model",
+      "requirement": "English application and communication",
+      "sourceUrl": "https://whitleyaward.org/apply-for-conservation-funding/eligibility/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-whitley",
+      "programId": "whitley-2027",
+      "id": "whitley-2027-requirement-3",
+      "category": "geography",
+      "requirement": "Eligible-country list includes Nigeria, Brazil and South Africa. Normally nationals working in their country; October guidance allows exceptional long-term residents at discretion.",
+      "sourceUrl": "https://d2pmqwflrfqd3y.cloudfront.net/content/uploads/2026/07/30161009/2027-WhitleyAward_EligibleCountries.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-rufford",
+      "programId": "rufford-first",
+      "id": "rufford-first-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Practical conservation outcomes; three references",
+      "sourceUrl": "https://apply.ruffordsmallgrants.org/help/criteria",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-rufford",
+      "programId": "rufford-first",
+      "id": "rufford-first-requirement-2",
+      "category": "applicant_model",
+      "requirement": "Funds paid to an NGO or university account, not an individual",
+      "sourceUrl": "https://apply.ruffordsmallgrants.org/help/criteria",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-rufford",
+      "programId": "rufford-first",
+      "id": "rufford-first-requirement-3",
+      "category": "geography",
+      "requirement": "Work must be in a listed eligible country. Advanced-economy applicants need high conservation priority and local capacity benefits.",
+      "sourceUrl": "https://apply.ruffordsmallgrants.org/help/eligibility",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-cfh",
+      "programId": "cfh-project-grants",
+      "id": "cfh-project-grants-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Local capacity and practical outcomes; use stricter one-proposal-per-calendar-year rule pending clarification",
+      "sourceUrl": "https://cfhfoundation.grantsmanagement08.com/?page_id=6",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-cfh",
+      "programId": "cfh-project-grants",
+      "id": "cfh-project-grants-requirement-2",
+      "category": "geography",
+      "requirement": "Work in Africa, Asia, Caribbean, Latin America and Middle East; high-income applicants may partner locally.",
+      "sourceUrl": "https://cfhfoundation.grantsmanagement08.com/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-mozilla",
+      "programId": "mozilla-human-scale-ai",
+      "id": "mozilla-human-scale-ai-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Working technology with users; AI central to the product",
+      "sourceUrl": "https://www.mozillafoundation.org/ca/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/faqs/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-mozilla",
+      "programId": "mozilla-human-scale-ai",
+      "id": "mozilla-human-scale-ai-requirement-2",
+      "category": "applicant_model",
+      "requirement": "Charitable public benefit; ability to receive US funds and USD bank transfers",
+      "sourceUrl": "https://www.mozillafoundation.org/ca/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/faqs/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-mozilla",
+      "programId": "mozilla-human-scale-ai",
+      "id": "mozilla-human-scale-ai-requirement-3",
+      "category": "geography",
+      "requirement": "Global eligibility subject to US funding and sanctions restrictions.",
+      "sourceUrl": "https://www.mozillafoundation.org/documents/501/Mozilla_Foundation_Grant_Eligibility_Guidelines_tNhKrgM.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-acta",
+      "programId": "acta-living-cultures-org",
+      "id": "acta-living-cultures-org-requirement-1",
+      "category": "applicant_model",
+      "requirement": "California-based; small organization budget under USD 500,000; confirm averaging calculation",
+      "sourceUrl": "https://actaonline.org/program/living-cultures-grant/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-acta",
+      "programId": "acta-living-cultures-org",
+      "id": "acta-living-cultures-org-requirement-2",
+      "category": "applicant_model",
+      "requirement": "California 501(c)(3) sponsor for unincorporated groups",
+      "sourceUrl": "https://actaonline.org/program/living-cultures-grant/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-acta",
+      "programId": "acta-living-cultures-org",
+      "id": "acta-living-cultures-org-requirement-3",
+      "category": "geography",
+      "requirement": "California applicants and California traditional-arts activity.",
+      "sourceUrl": "https://actaonline.org/program/living-cultures-grant/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-iki",
+      "programId": "iki-small-grants-2027",
+      "id": "iki-small-grants-2027-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Independent registration in an ODA-eligible country for at least 36 months",
+      "sourceUrl": "https://iki-small-grants.de/wp-content/uploads/2026/10/Funding-Information-2027-Call-8.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-iki",
+      "programId": "iki-small-grants-2027",
+      "id": "iki-small-grants-2027-requirement-2",
+      "category": "applicant_model",
+      "requirement": "Average annual revenue EUR 60,000–500,000; accounting capacity",
+      "sourceUrl": "https://iki-small-grants.de/wp-content/uploads/2026/10/Funding-Information-2027-Call-8.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-iki",
+      "programId": "iki-small-grants-2027",
+      "id": "iki-small-grants-2027-requirement-3",
+      "category": "applicant_model",
+      "requirement": "Single-country direct implementation; no consortium or onward grants",
+      "sourceUrl": "https://iki-small-grants.de/wp-content/uploads/2026/10/Funding-Information-2027-Call-8.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-iki",
+      "programId": "iki-small-grants-2027",
+      "id": "iki-small-grants-2027-requirement-4",
+      "category": "geography",
+      "requirement": "Applicant based and project implemented in ODA-eligible countries; country-specific eligibility must be checked.",
+      "sourceUrl": "https://iki-small-grants.de/wp-content/uploads/2026/10/Funding-Information-2027-Call-8.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-awesome",
+      "programId": "awesome-conservation-climate",
+      "id": "awesome-conservation-climate-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Innovative idea near implementation; PayPal, Wise or Venmo payment access",
+      "sourceUrl": "https://www.awesomefoundation.org/en/faq",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-awesome",
+      "programId": "awesome-conservation-climate",
+      "id": "awesome-conservation-climate-requirement-2",
+      "category": "geography",
+      "requirement": "Worldwide chapter.",
+      "sourceUrl": "https://www.awesomefoundation.org/en/chapters/conservationandclimate",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-mozilla",
+      "programId": "mozilla-independent-fellow-2027",
+      "id": "mozilla-independent-fellow-2027-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Relevant technical or creative practice; US-funding eligibility",
+      "sourceUrl": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/faqs/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-mozilla",
+      "programId": "mozilla-independent-fellow-2027",
+      "id": "mozilla-independent-fellow-2027-requirement-2",
+      "category": "geography",
+      "requirement": "Global applicants subject to Mozilla funding and sanctions conditions.",
+      "sourceUrl": "https://www.mozillafoundation.org/documents/501/Mozilla_Foundation_Grant_Eligibility_Guidelines_tNhKrgM.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-vietsch",
+      "programId": "vietsch-projects",
+      "id": "vietsch-projects-requirement-1",
+      "category": "applicant_model",
+      "requirement": "European research-and-education networking value; tangible output; open standards",
+      "sourceUrl": "https://www.vietsch-foundation.org/projects/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-pollination",
+      "programId": "pollination-seed",
+      "id": "pollination-seed-requirement-1",
+      "category": "applicant_model",
+      "requirement": "No paid staff; organization budget below USD 50,000 and project below USD 10,000",
+      "sourceUrl": "https://thepollinationproject.org/apply/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-pollination",
+      "programId": "pollination-seed",
+      "id": "pollination-seed-requirement-2",
+      "category": "applicant_model",
+      "requirement": "First-time grantee; international applicants need a referee and USD payment access",
+      "sourceUrl": "https://thepollinationproject.org/apply/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-pollination",
+      "programId": "pollination-seed",
+      "id": "pollination-seed-requirement-3",
+      "category": "geography",
+      "requirement": "Worldwide applicants.",
+      "sourceUrl": "https://thepollinationproject.org/apply/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-ekoenergy",
+      "programId": "ekoenergy-climate-fund",
+      "id": "ekoenergy-climate-fund-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Community participation and implementation record; most funding for new renewable-energy assets",
+      "sourceUrl": "https://www.ekoenergy.org/wp-content/uploads/EKOenergy-Climate-Funt-project-selection-description-short-term-projects.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recOExYwWRXF9whgo",
+      "programId": "isoc-ccc-catalyst",
+      "id": "isoc-ccc-catalyst-requirement-1",
+      "category": "applicant_model",
+      "requirement": "At least one community solution; address at least two of availability, affordability and adoption",
+      "sourceUrl": "https://www.isocfoundation.org/grant-programme/community-centered-connectivity/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recOExYwWRXF9whgo",
+      "programId": "isoc-ccc-catalyst",
+      "id": "isoc-ccc-catalyst-requirement-2",
+      "category": "applicant_model",
+      "requirement": "Previous USD 20,000 grant management preferred",
+      "sourceUrl": "https://www.isocfoundation.org/grant-programme/community-centered-connectivity/",
+      "checkedOn": "2026-10-29",
+      "kind": "priority"
+    },
+    {
+      "fundId": "recOExYwWRXF9whgo",
+      "programId": "isoc-ccc-catalyst",
+      "id": "isoc-ccc-catalyst-requirement-3",
+      "category": "applicant_model",
+      "requirement": "Bank able to receive US foundation funds; technical experience and community support",
+      "sourceUrl": "https://www.isocfoundation.org/grant-programme/community-centered-connectivity/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recOExYwWRXF9whgo",
+      "programId": "isoc-ccc-catalyst",
+      "id": "isoc-ccc-catalyst-requirement-4",
+      "category": "geography",
+      "requirement": "Global community connectivity program.",
+      "sourceUrl": "https://www.isocfoundation.org/grant-programme/community-centered-connectivity/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recOExYwWRXF9whgo",
+      "programId": "isoc-ccc-scaling",
+      "id": "isoc-ccc-scaling-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Proven work across communities; address availability, affordability and adoption",
+      "sourceUrl": "https://www.isocfoundation.org/grant-programme/community-centered-connectivity/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recOExYwWRXF9whgo",
+      "programId": "isoc-ccc-scaling",
+      "id": "isoc-ccc-scaling-requirement-2",
+      "category": "applicant_model",
+      "requirement": "Experience managing at least USD 50,000 grants",
+      "sourceUrl": "https://www.isocfoundation.org/grant-programme/community-centered-connectivity/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recOExYwWRXF9whgo",
+      "programId": "isoc-ccc-scaling",
+      "id": "isoc-ccc-scaling-requirement-3",
+      "category": "applicant_model",
+      "requirement": "Bank able to receive US foundation funds; technical experience and community support",
+      "sourceUrl": "https://www.isocfoundation.org/grant-programme/community-centered-connectivity/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recOExYwWRXF9whgo",
+      "programId": "isoc-ccc-scaling",
+      "id": "isoc-ccc-scaling-requirement-4",
+      "category": "geography",
+      "requirement": "Global community connectivity program.",
+      "sourceUrl": "https://www.isocfoundation.org/grant-programme/community-centered-connectivity/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rectXjOx3IGNOAPEn",
+      "programId": "otf-internet-freedom",
+      "id": "otf-internet-freedom-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Direct censorship/surveillance problem and usable technical response",
+      "sourceUrl": "https://docs.opentech.fund/otf-application-guidebook/faq",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "rectXjOx3IGNOAPEn",
+      "programId": "otf-internet-freedom",
+      "id": "otf-internet-freedom-requirement-2",
+      "category": "geography",
+      "requirement": "Global, subject to US sanctions restrictions.",
+      "sourceUrl": "https://docs.opentech.fund/otf-application-guidebook/faq",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-ieee",
+      "programId": "ieee-epics-oct2026",
+      "id": "ieee-epics-oct2026-requirement-1",
+      "category": "applicant_model",
+      "requirement": "At least one IEEE member; nonprofit community partner; local IEEE section handles funds",
+      "sourceUrl": "https://epics.ieee.org/october-2026-epics-in-ieee-call-for-proposals/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-icann",
+      "programId": "icann-grants",
+      "id": "icann-grants-requirement-1",
+      "category": "applicant_model",
+      "requirement": "ICANN-mission alignment; no duplicate ICANN-funded activity",
+      "sourceUrl": "https://www.icann.org/en/grant-program",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-icann",
+      "programId": "icann-grants",
+      "id": "icann-grants-requirement-2",
+      "category": "geography",
+      "requirement": "Global program; legal and country exclusions need detailed applicant-guide review.",
+      "sourceUrl": "https://www.icann.org/en/grant-program",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-nten",
+      "programId": "nten-pizzigati",
+      "id": "nten-pizzigati-requirement-1",
+      "category": "applicant_model",
+      "requirement": "OSI-compatible open source; free distribution; at least one nonprofit user and broader potential",
+      "sourceUrl": "https://www.nten.org/change/pizzigati-prize",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-nten",
+      "programId": "nten-pizzigati",
+      "id": "nten-pizzigati-requirement-2",
+      "category": "geography",
+      "requirement": "No explicit applicant-country restriction established in reviewed page.",
+      "sourceUrl": "https://www.nten.org/change/pizzigati-prize",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-table-mountain",
+      "programId": "table-mountain-small",
+      "id": "table-mountain-small-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Good standing; clear local partnership; unregistered groups need compelling justification",
+      "sourceUrl": "https://www.thetablemountainfund.org.za/grants/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-cepf",
+      "programId": "cepf-cerrado-small-2026",
+      "id": "cepf-cerrado-small-2026-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Territorial roots and delivery capacity in the Cerrado; application through linked Prosas route",
+      "sourceUrl": "https://cepfcerrado.iieb.org.br/editais/cepf-e-ieb-lancam-chamada-para-pequenos-projetos-de-conservacao-no-hotspot-cerrado/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-cepf",
+      "programId": "cepf-cerrado-small-2026",
+      "id": "cepf-cerrado-small-2026-requirement-2",
+      "category": "geography",
+      "requirement": "Cerrado hotspot, Brazil. Detailed applicant-registration exceptions require the full call.",
+      "sourceUrl": "https://cepfcerrado.iieb.org.br/editais/cepf-e-ieb-lancam-chamada-para-pequenos-projetos-de-conservacao-no-hotspot-cerrado/",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-undp-gef",
+      "programId": "undp-nigeria-icca-regular",
+      "id": "undp-nigeria-icca-regular-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Over three years of relevant local work; demonstrated Indigenous/local-community empowerment",
+      "sourceUrl": "https://www.undp.org/nigeria/news/call-proposals-indigenous-peoples-and-local-communities-conserved-areas-and-territories-global-support-initiative-icca-gsi-phase-2",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-undp-gef",
+      "programId": "undp-nigeria-icca-regular",
+      "id": "undp-nigeria-icca-regular-requirement-2",
+      "category": "applicant_model",
+      "requirement": "100-word ICCA description with location/size when requesting template",
+      "sourceUrl": "https://www.undp.org/nigeria/news/call-proposals-indigenous-peoples-and-local-communities-conserved-areas-and-territories-global-support-initiative-icca-gsi-phase-2",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-undp-gef",
+      "programId": "undp-nigeria-icca-regular",
+      "id": "undp-nigeria-icca-regular-requirement-3",
+      "category": "geography",
+      "requirement": "Nigerian local applicants and Nigerian conserved territories.",
+      "sourceUrl": "https://www.undp.org/nigeria/news/call-proposals-indigenous-peoples-and-local-communities-conserved-areas-and-territories-global-support-initiative-icca-gsi-phase-2",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-unesco",
+      "programId": "unesco-ifcd-2026",
+      "id": "unesco-ifcd-2026-requirement-1",
+      "category": "applicant_model",
+      "requirement": "Developing-country party eligibility under the 2005 Convention; qualifying INGO registration rules",
+      "sourceUrl": "https://www.unesco.org/creativity/sites/default/files/medias/fichiers/2026/03/List_eligible_countries_17_IFCD_call_2026_en_0.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-unesco",
+      "programId": "unesco-ifcd-2026",
+      "id": "unesco-ifcd-2026-requirement-2",
+      "category": "geography",
+      "requirement": "Eligible developing States Parties; Nigeria, Brazil and South Africa listed. INGO route has separate registration conditions.",
+      "sourceUrl": "https://www.unesco.org/creativity/sites/default/files/medias/fichiers/2026/03/List_eligible_countries_17_IFCD_call_2026_en_0.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-la-county-arts",
+      "programId": "la-county-ciag-2027",
+      "id": "la-county-ciag-2027-requirement-1",
+      "category": "applicant_model",
+      "requirement": "LA County principal office; budget at least USD 25,000; majority non-arts mission",
+      "sourceUrl": "https://lacountyarts.org/sites/default/files/2026-08/2728CIAG_Guidelines_20260819.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-la-county-arts",
+      "programId": "la-county-ciag-2027",
+      "id": "la-county-ciag-2027-requirement-2",
+      "category": "applicant_model",
+      "requirement": "Two years of public arts programming, normally four activities/year; California-based Model A sponsor if sponsored",
+      "sourceUrl": "https://lacountyarts.org/sites/default/files/2026-08/2728CIAG_Guidelines_20260819.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-la-county-arts",
+      "programId": "la-county-ciag-2027",
+      "id": "la-county-ciag-2027-requirement-3",
+      "category": "geography",
+      "requirement": "Los Angeles County applicants/activity; specific arts-service exceptions require guidelines.",
+      "sourceUrl": "https://lacountyarts.org/sites/default/files/2026-08/2728CIAG_Guidelines_20260819.pdf",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-la-county-arts",
+      "programId": "la-county-ogp-2027",
+      "id": "la-county-ogp-2027-requirement-1",
+      "category": "applicant_model",
+      "requirement": "LA County principal office, with stated arts-service exception; over 50% budget for arts",
+      "sourceUrl": "https://lacountyarts.org/funding/organizational-grant-program/ogp-grantseekers/ogp-grantseekers-eligibility",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-la-county-arts",
+      "programId": "la-county-ogp-2027",
+      "id": "la-county-ogp-2027-requirement-2",
+      "category": "applicant_model",
+      "requirement": "Two years public programming; normally four activities/year",
+      "sourceUrl": "https://lacountyarts.org/funding/organizational-grant-program/ogp-grantseekers/ogp-grantseekers-eligibility",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-la-county-arts",
+      "programId": "la-county-ogp-2027",
+      "id": "la-county-ogp-2027-requirement-3",
+      "category": "applicant_model",
+      "requirement": "Majority California board; tax return and DataArts report; new applicants must complete workshop",
+      "sourceUrl": "https://lacountyarts.org/funding/organizational-grant-program/ogp-grantseekers/ogp-grantseekers-eligibility",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "local-la-county-arts",
+      "programId": "la-county-ogp-2027",
+      "id": "la-county-ogp-2027-requirement-4",
+      "category": "geography",
+      "requirement": "Los Angeles County public programs; arts-service organizations may have California headquarters if they also have LA County offices.",
+      "sourceUrl": "https://lacountyarts.org/funding/organizational-grant-program/ogp-grantseekers/ogp-grantseekers-eligibility",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
     }
   ]
 }
