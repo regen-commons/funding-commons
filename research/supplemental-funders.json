@@ -18297,7 +18297,9 @@
           "Biodiversity",
           "Wildlife connectivity"
         ],
-        "regions": [],
+        "regions": [
+          "North America"
+        ],
         "programs": [
           {
             "id": "cdfw-mojave-tortoise-2026",
@@ -18482,7 +18484,9 @@
           "Water resources",
           "Community capacity"
         ],
-        "regions": [],
+        "regions": [
+          "Latin America & Caribbean"
+        ],
         "programs": [
           {
             "id": "funbio-floresta-viva-sao-francisco-2026",
