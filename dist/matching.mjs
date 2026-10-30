@@ -124,12 +124,16 @@ export function readiness(match) {
   const missing = checks.filter((c) => c.field === "condition" && c.kind === "prerequisite" && c.outcome === "needs_confirmation");
   if (match.resourceOnly) return { status: "resource", label: "Funding resource, not an application route" };
   if (match.eligibility.status === "conflict") return { status: "conflict", label: "Known eligibility conflict" };
+  if (!match.program) return { status: "unverified", label: "Funding offer unverified" };
   if (match.instrument.status === "mismatch") return { status: "preference", label: "Outside funding preferences" };
   if (match.access === "closed") return { status: "closed", label: "Application cycle closed" };
   if (match.access === "future") return { status: "future", label: "Applications not open yet" };
   if (!match.conditionsLoaded) return { status: "screening", label: "Eligibility screening unavailable" };
   if (checks.some((c) => c.stale) || (match.program && match.evidenceStale)) return { status: "stale", label: "Recheck the published requirements" };
   if (match.geographic.needsConfirmation || match.geographic.countryMismatch) return { status: "geography", label: "Check geographic scope" };
+  const applicant = missing.some((c) => c.category === "applicant_model");
+  const beneficiary = missing.some((c) => c.category === "beneficiary");
+  if (applicant || beneficiary) return { status: "requirements", label: `Confirm ${applicant && beneficiary ? "applicant and beneficiary" : applicant ? "applicant" : "beneficiary"} requirements` };
   if (checks.some((c) => c.field !== "condition" && c.missing)) return { status: "profile", label: "Add missing applicant details" };
   if (match.instrument.status === "unconfirmed") return { status: "instrument", label: "Confirm funding type" };
   if (match.program?.application.capacity === "limited") return { status: "capacity", label: "Limited funder capacity" };
@@ -354,13 +358,13 @@ function scoreMatch(match, project, today) {
   if (fitScore < 0.25) limit(24, "Limited evidence of shared program purpose; access cannot compensate for weak topics.");
   if (!match.specificPurposeEvidence) limit(29, "Only broad or sparse shared topics support this match. More specific purpose evidence is needed before shortlisting.");
   if (unknown.length) limit(39, `${unknown.length} mandatory prerequisite${unknown.length === 1 ? " is" : "s are"} unconfirmed; review the official conditions.`);
-  if (unknown.some((c) => ["applicant_model", "leadership", "history", "partner"].includes(c.category)))
-    limit(29, "A required applicant model, leadership, funding history or partner arrangement is unconfirmed; thematic similarity cannot establish it.");
+  if (unknown.some((c) => ["applicant_model", "beneficiary", "leadership", "history", "partner"].includes(c.category)))
+    limit(29, "A required applicant model, beneficiary scope, leadership, funding history or partner arrangement is unconfirmed; thematic similarity cannot establish it.");
   if (geographic.needsConfirmation)
     limit(24, "Geographic scope or an eligible local component needs confirmation before shortlisting.");
   if (geographic.countryMismatch)
     limit(24, "Documented country mentions do not overlap your work. This lowers priority without asserting ineligibility.");
-  if (!program) limit(29, "No researched program terms; this is an overview lead.");
+  if (!program) limit(9, "No verified funding offer or researched program terms. Keep this overview for further research, below documented program candidates.");
   if (["unverified", "unconfirmed", "conflicting", "directory", "mismatch"].includes(access)) limit(29, "Current application access is not verified.");
   if (access === "closed") limit(19, "This application cycle is closed; retain it for a future-cycle watchlist.");
   if (access === "future") limit(29, "The application period has not opened.");
@@ -377,10 +381,12 @@ function scoreMatch(match, project, today) {
 }
 export const MATCH_GROUPS = {
   lead: "Research leads", check: "Check scope, funding type or access",
+  unverified: "Unverified funding offers",
   limited: "Limited relevance", outside: "Conflicts or funding preferences",
 };
 function matchGroup(match) {
   if (match.eligibility.status === "conflict" || match.instrument.status === "mismatch") return "outside";
+  if (!match.program && !match.resourceOnly) return "unverified";
   if (match.fitScore < 0.25 || !match.specificPurposeAvailable || match.resourceOnly || match.thematicFit.score == null || match.thematicFit.score < 40) return "limited";
   return match.score >= 30 && match.thematicFit.score >= 60 ? "lead" : "check";
 }
