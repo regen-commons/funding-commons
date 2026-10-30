@@ -6,13 +6,15 @@ Site: https://funding-commons.vercel.app
 
 Publication status: public on Vercel since October 16, 2026. The OpenAI Site registered in `.openai/hosting.json` was never deployed.
 
-## Current review branch: maintenance and deadline pulse
+## Current review branch: historical lead verification
 
-The proposed catalog contains **630 funders**. Twelve historical leads have been checked against public official sources and added, while all 618 prior funder objects remain exactly preserved. `research/history-import-baseline.json` records their hashes and tests enforce preservation. The search index contains 675 program/overview documents.
+The proposed catalog contains **694 funders** and 762 program/overview search documents. Official-source review of all 94 remaining historical leads supports **87 program entries from 81 leads**, across 64 new funders and five existing funders. Thirteen leads remain outside the catalog with recorded reasons. [The review report](research/history-verification-2026-10-29.md) links every disposition and its official evidence.
+
+All 630 existing identities and their prior fields, programs and sources remain intact. Five funders receive appended programs and sources; only their derived additional-source lists change. `research/history-verification-baseline.json` records hashes for the complete prior revision. Tests also retain the earlier 618-record preservation check.
 
 The funding pulse shows sourced available program windows closing within two or three weeks. It separates inquiry and partner routes, labels unverified cutoff times, excludes closed/conditional/unconfirmed calls, and opens the exact program's terms. It refreshes as dates pass. Catalog availability is not a personal eligibility decision.
 
-[Maintenance workflow](docs/maintenance.md) documents Monday discovery and Thursday freshness reviews through draft PRs. [Historical intake](research/history-intake.json) retains 94 pending program leads separately from the 12 additions; discovery pointers do not establish current terms. Private research captures are kept outside the repository. No merge or production deployment is included in this work.
+[Maintenance workflow](docs/maintenance.md) documents Monday discovery and Thursday freshness reviews through draft PRs. [Historical intake](research/history-intake.json) retains all 94 reviewed leads, their original discovery pointers, import references, unresolved terms and exclusions alongside the previous 12 additions. An official program can be closed, conditional or have unconfirmed intake; review does not imply current availability. Private research captures remain outside the repository. No merge or production deployment is included in this work.
 
 ## First October 29 import
 

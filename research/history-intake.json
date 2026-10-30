@@ -76,666 +76,7 @@
       "sourceUrl": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d"
     }
   ],
-  "pending": [
-    {
-      "id": "history-lead-001",
-      "name": "GoodDollar House of Alignment",
-      "discoveryUrl": "https://discourse.gooddollar.org",
-      "status": "needs-verification",
-      "unresolved": "Confirm a public application route; membership allocations are not general open grants."
-    },
-    {
-      "id": "history-lead-002",
-      "name": "Gitcoin funding rounds",
-      "discoveryUrl": "https://grants.gitcoin.co",
-      "status": "needs-verification",
-      "unresolved": "Identify the allocator, round and current eligibility; no blanket open status."
-    },
-    {
-      "id": "history-lead-003",
-      "name": "Giveth quadratic funding",
-      "discoveryUrl": "https://giveth.io/qf",
-      "status": "needs-verification",
-      "unresolved": "Project registration and eligibility for a matching round are separate."
-    },
-    {
-      "id": "history-lead-004",
-      "name": "Octant epochs",
-      "discoveryUrl": "https://octant.build",
-      "status": "needs-verification",
-      "unresolved": "Separate concluded Epoch 12 from Epoch 13 and later allocation windows."
-    },
-    {
-      "id": "history-lead-005",
-      "name": "Prezenti pools",
-      "discoveryUrl": "https://www.prezenti.xyz",
-      "status": "needs-verification",
-      "unresolved": "Confirm each pool's transaction thresholds and access route."
-    },
-    {
-      "id": "history-lead-006",
-      "name": "Celo Proof of Ship",
-      "discoveryUrl": "https://www.celopg.eco/programs/proof-of-ship",
-      "status": "needs-verification",
-      "unresolved": "Recheck the current season and ecosystem requirements."
-    },
-    {
-      "id": "history-lead-007",
-      "name": "Celo Builder Fund",
-      "discoveryUrl": "https://www.celopg.eco",
-      "status": "needs-verification",
-      "unresolved": "Resolve the current program URL and intake."
-    },
-    {
-      "id": "history-lead-008",
-      "name": "Arbitrum Foundation grants",
-      "discoveryUrl": "https://arbitrum.foundation/grants",
-      "status": "needs-verification",
-      "unresolved": "Separate grant funding from audit subsidies and gas credits."
-    },
-    {
-      "id": "history-lead-009",
-      "name": "Arbitrum Security Program",
-      "discoveryUrl": "https://blog.arbitrum.foundation/introducing-the-arbitrum-security-program-apply-to-secure-your-smart-contracts/",
-      "status": "needs-verification",
-      "unresolved": "Verify current audit subsidy terms; distinguish in-kind support from cash."
-    },
-    {
-      "id": "history-lead-010",
-      "name": "ArbiFuel",
-      "discoveryUrl": "https://blog.arbitrum.foundation/arbifuel-is-live-arbitrum-builders-claim-your-gas-fee-sponsorship/",
-      "status": "needs-verification",
-      "unresolved": "Verify gas sponsorship availability and deployment conditions."
-    },
-    {
-      "id": "history-lead-011",
-      "name": "Arbitrum Open House buildathons",
-      "discoveryUrl": "https://blog.arbitrum.foundation",
-      "status": "needs-verification",
-      "unresolved": "Historical Singapore event; identify a new call before assigning dates."
-    },
-    {
-      "id": "history-lead-012",
-      "name": "Arbitrum DAO domain allocators",
-      "discoveryUrl": "https://forum.arbitrum.foundation",
-      "status": "needs-verification",
-      "unresolved": "Separate seasons and domains; prior project awards do not establish open intake."
-    },
-    {
-      "id": "history-lead-013",
-      "name": "Safe Ecosystem Foundation grants",
-      "discoveryUrl": "https://safefoundation.org/grants",
-      "status": "needs-verification",
-      "unresolved": "Check current RFPs and program pauses; do not reuse spontaneous-grant terms."
-    },
-    {
-      "id": "history-lead-014",
-      "name": "Artizen seasons and Greenpill fund",
-      "discoveryUrl": "https://artizen.fund",
-      "status": "needs-verification",
-      "unresolved": "Resolve program continuity and any current funding route; historical participation is not open intake."
-    },
-    {
-      "id": "history-lead-015",
-      "name": "Fast Forward accelerator",
-      "discoveryUrl": "https://www.ffwd.org",
-      "status": "needs-verification",
-      "unresolved": "Recheck the 2027 cohort, past deadline extension and nonprofit eligibility."
-    },
-    {
-      "id": "history-lead-016",
-      "name": "Climate Collective AI x Nature Accelerator",
-      "discoveryUrl": "https://climatecollective.org/accelerator",
-      "status": "needs-verification",
-      "unresolved": "Verify cohort status and applicant requirements."
-    },
-    {
-      "id": "history-lead-017",
-      "name": "Climate Collective Green Accountability Cohort",
-      "discoveryUrl": "https://climatecollective.org/green-accountability-cohort",
-      "status": "needs-verification",
-      "unresolved": "Historical window; confirm a new round before assigning current terms."
-    },
-    {
-      "id": "history-lead-018",
-      "name": "GCC Digital Commons Fund",
-      "discoveryUrl": "https://www.gccofficial.org/en",
-      "status": "needs-verification",
-      "unresolved": "Verify current cohort, eligibility and currency."
-    },
-    {
-      "id": "history-lead-019",
-      "name": "Gnosis ecosystem funding",
-      "discoveryUrl": "https://world.gnosis.io",
-      "status": "needs-verification",
-      "unresolved": "Identify a named grant stream and current applicant route."
-    },
-    {
-      "id": "history-lead-020",
-      "name": "Co-Develop / DPGA climate funding",
-      "discoveryUrl": "https://www.codevelop.fund",
-      "status": "needs-verification",
-      "unresolved": "Confirm whether there is an external call; DPG recognition alone is not funding."
-    },
-    {
-      "id": "history-lead-021",
-      "name": "Lido Community Staking Grants",
-      "discoveryUrl": "https://operatorportal.lido.fi/community-lifeguards-initiative/lido-community-staking-grants",
-      "status": "needs-verification",
-      "unresolved": "Distinct from LEGO; confirm operator and infrastructure requirements."
-    },
-    {
-      "id": "history-lead-022",
-      "name": "OSV Fellowships and Grants",
-      "discoveryUrl": "https://osv.llc",
-      "status": "needs-verification",
-      "unresolved": "Confirm current cycle; historical application dates are not future deadlines."
-    },
-    {
-      "id": "history-lead-023",
-      "name": "Vrbs DAO grants",
-      "discoveryUrl": "https://vrbs.wtf",
-      "status": "needs-verification",
-      "unresolved": "Establish the general funding mechanism and current proposal rules."
-    },
-    {
-      "id": "history-lead-024",
-      "name": "Survival and Flourishing Fund climate round",
-      "discoveryUrl": "https://survivalandflourishing.fund/2026/application",
-      "status": "needs-verification",
-      "unresolved": "Verify cycle closure, eligibility and current speculation-grant terms."
-    },
-    {
-      "id": "history-lead-025",
-      "name": "ENS Public Goods Small Grants",
-      "discoveryUrl": "https://ensgrants.xyz",
-      "status": "needs-verification",
-      "unresolved": "Verify current round and public-goods eligibility."
-    },
-    {
-      "id": "history-lead-026",
-      "name": "Interledger on Campus Mini-Grants",
-      "discoveryUrl": "https://interledger.org",
-      "status": "needs-verification",
-      "unresolved": "Distinct from the fellowship; verify student and institution requirements."
-    },
-    {
-      "id": "history-lead-027",
-      "name": "Filecoin ProPGF",
-      "discoveryUrl": "https://app.filpgf.io/programs/1479/",
-      "status": "needs-verification",
-      "unresolved": "Separate historical Batch 3 from current rounds and technical prerequisites."
-    },
-    {
-      "id": "history-lead-028",
-      "name": "Filecoin Open Grants",
-      "discoveryUrl": "https://filecoin.io",
-      "status": "needs-verification",
-      "unresolved": "Resolve current program and storage or protocol integration requirements."
-    },
-    {
-      "id": "history-lead-029",
-      "name": "NLnet NGI Fediversity",
-      "discoveryUrl": "https://nlnet.nl/propose",
-      "status": "needs-verification",
-      "unresolved": "Existing NLnet identity; distinct program and historical round need review."
-    },
-    {
-      "id": "history-lead-030",
-      "name": "NLnet NGI TALER",
-      "discoveryUrl": "https://nlnet.nl/propose",
-      "status": "needs-verification",
-      "unresolved": "Existing NLnet identity; verify current program-specific application status."
-    },
-    {
-      "id": "history-lead-031",
-      "name": "NLnet NGI Zero Commons",
-      "discoveryUrl": "https://nlnet.nl/propose",
-      "status": "needs-verification",
-      "unresolved": "Existing NLnet identity; do not duplicate Restack or recycle past calls."
-    },
-    {
-      "id": "history-lead-032",
-      "name": "Ethereum Foundation ESP",
-      "discoveryUrl": "https://esp.ethereum.foundation",
-      "status": "needs-verification",
-      "unresolved": "Review current RFPs and wishlist; avoid a generic open-grant inference."
-    },
-    {
-      "id": "history-lead-033",
-      "name": "USDA Conservation Innovation Grants",
-      "discoveryUrl": "https://www.nrcs.usda.gov/programs-initiatives/cig-conservation-innovation-grants",
-      "status": "needs-verification",
-      "unresolved": "Separate national and state calls, applicant eligibility and closed rounds."
-    },
-    {
-      "id": "history-lead-034",
-      "name": "Darwin Initiative",
-      "discoveryUrl": "https://www.darwininitiative.org.uk/how-to-apply/",
-      "status": "needs-verification",
-      "unresolved": "Round 32 is historical; distinguish Main from Capability and Capacity."
-    },
-    {
-      "id": "history-lead-035",
-      "name": "GEF SGP CSO Challenge",
-      "discoveryUrl": "https://csochallenge.org",
-      "status": "needs-verification",
-      "unresolved": "Confirm region and CSO eligibility; an expected Africa round is conditional."
-    },
-    {
-      "id": "history-lead-036",
-      "name": "California RCD funding",
-      "discoveryUrl": "https://www.nrcs.usda.gov",
-      "status": "needs-verification",
-      "unresolved": "Broad lead, not one grant; identify the local conservation district and call."
-    },
-    {
-      "id": "history-lead-037",
-      "name": "California water grants",
-      "discoveryUrl": "https://water.ca.gov",
-      "status": "needs-verification",
-      "unresolved": "Identify a named program, geography and applicant type."
-    },
-    {
-      "id": "history-lead-038",
-      "name": "EPA grants",
-      "discoveryUrl": "https://www.epa.gov/grants",
-      "status": "needs-verification",
-      "unresolved": "Program family only; qualify a specific current solicitation."
-    },
-    {
-      "id": "history-lead-039",
-      "name": "NEEF grants",
-      "discoveryUrl": "https://www.neefusa.org",
-      "status": "needs-verification",
-      "unresolved": "Identify the relevant current environmental grant."
-    },
-    {
-      "id": "history-lead-040",
-      "name": "Western SARE Professional and Producer",
-      "discoveryUrl": "https://western.sare.org",
-      "status": "needs-verification",
-      "unresolved": "Check the closed October 2026 call and producer requirements."
-    },
-    {
-      "id": "history-lead-041",
-      "name": "JRS Biodiversity Foundation",
-      "discoveryUrl": "https://jrsbiodiversity.org",
-      "status": "needs-verification",
-      "unresolved": "Verify inquiry route and biodiversity informatics scope."
-    },
-    {
-      "id": "history-lead-042",
-      "name": "Halcyon Africa Agriculture and Food Security Accelerator",
-      "discoveryUrl": "https://www.halcyonhouse.org",
-      "status": "needs-verification",
-      "unresolved": "Separate initial application and invitation stages; confirm venture-location requirements."
-    },
-    {
-      "id": "history-lead-043",
-      "name": "Keeling Curve Prize",
-      "discoveryUrl": "https://www.globalwarmingmitigationproject.org",
-      "status": "needs-verification",
-      "unresolved": "Expected annual opening is not a confirmed call."
-    },
-    {
-      "id": "history-lead-044",
-      "name": "Seeding The Future Global Food System Challenge",
-      "discoveryUrl": "https://www.seedingthefuture.org",
-      "status": "needs-verification",
-      "unresolved": "Verify 2027 dates and tier-specific maturity requirements."
-    },
-    {
-      "id": "history-lead-045",
-      "name": "Honnold Foundation Core Fund",
-      "discoveryUrl": "https://www.honnoldfoundation.org",
-      "status": "needs-verification",
-      "unresolved": "Confirm next cycle, charitable status and technical partners."
-    },
-    {
-      "id": "history-lead-046",
-      "name": "Zayed Sustainability Prize",
-      "discoveryUrl": "https://zayedsustainabilityprize.com",
-      "status": "needs-verification",
-      "unresolved": "Review category-specific eligibility and next cycle dates."
-    },
-    {
-      "id": "history-lead-047",
-      "name": "Milken-Motsepe Circular Economy Prize",
-      "discoveryUrl": "https://milkeninstitute.org",
-      "status": "needs-verification",
-      "unresolved": "Historical 2026 lead; verify current phase and organization requirements."
-    },
-    {
-      "id": "history-lead-048",
-      "name": "African Union Innovating Education in Africa",
-      "discoveryUrl": "https://au.int",
-      "status": "needs-verification",
-      "unresolved": "Verify new call; previous year's window is not current eligibility."
-    },
-    {
-      "id": "history-lead-049",
-      "name": "Google Africa Applied AI Lab",
-      "discoveryUrl": "https://africa.googleblog.com",
-      "status": "needs-verification",
-      "unresolved": "Historical 2026 cohort; establish the current call and AI product requirement."
-    },
-    {
-      "id": "history-lead-050",
-      "name": "Youth4Climate Call for Solutions",
-      "discoveryUrl": "https://www.youth4climate.info",
-      "status": "needs-verification",
-      "unresolved": "Verify current round, age and entity conditions."
-    },
-    {
-      "id": "history-lead-051",
-      "name": "YouthADAPT",
-      "discoveryUrl": "https://gca.org",
-      "status": "needs-verification",
-      "unresolved": "Verify current round, business eligibility and financial-record requirements."
-    },
-    {
-      "id": "history-lead-052",
-      "name": "Africa Prize for Engineering Innovation",
-      "discoveryUrl": "https://raeng.org.uk",
-      "status": "needs-verification",
-      "unresolved": "Confirm current cycle and individual applicant rules."
-    },
-    {
-      "id": "history-lead-053",
-      "name": "F5 STEM and AI education grants",
-      "discoveryUrl": "https://www.f5.com/company/global-good",
-      "status": "needs-verification",
-      "unresolved": "Verify charitable eligibility and current cycle."
-    },
-    {
-      "id": "history-lead-054",
-      "name": "IFC SME Growth Accelerator",
-      "discoveryUrl": "https://www.ifc.org",
-      "status": "needs-verification",
-      "unresolved": "Confirm whether opportunity is funded support or an investment/accelerator service."
-    },
-    {
-      "id": "history-lead-055",
-      "name": "Ma Earth funding rounds",
-      "discoveryUrl": "https://www.maearth.com",
-      "status": "needs-verification",
-      "unresolved": "Identify current round, application route and any nomination requirement."
-    },
-    {
-      "id": "history-lead-056",
-      "name": "REA DARES solar grants",
-      "discoveryUrl": "https://rea.gov.ng",
-      "status": "needs-verification",
-      "unresolved": "Distinguish performance-based grants, tenders and implementation partnerships."
-    },
-    {
-      "id": "history-lead-057",
-      "name": "Solar Power Naija",
-      "discoveryUrl": "https://rea.gov.ng",
-      "status": "needs-verification",
-      "unresolved": "Establish participation and financing conditions; not automatically a grant."
-    },
-    {
-      "id": "history-lead-058",
-      "name": "All On",
-      "discoveryUrl": "https://www.all-on.com",
-      "status": "needs-verification",
-      "unresolved": "Investment and blended finance require instrument-specific classification."
-    },
-    {
-      "id": "history-lead-059",
-      "name": "Green Finance Investment Facility",
-      "discoveryUrl": "https://rea.gov.ng",
-      "status": "needs-verification",
-      "unresolved": "Financing facility, not a verified individual grant; confirm mechanism."
-    },
-    {
-      "id": "history-lead-060",
-      "name": "Tony Elumelu Foundation Entrepreneurship Programme",
-      "discoveryUrl": "https://www.tonyelumelufoundation.org",
-      "status": "needs-verification",
-      "unresolved": "Confirm current cycle, business age and applicant eligibility."
-    },
-    {
-      "id": "history-lead-061",
-      "name": "UNDP Nigeria off-grid initiatives",
-      "discoveryUrl": "https://www.undp.org/nigeria",
-      "status": "needs-verification",
-      "unresolved": "Program activity is not evidence of an external grant call."
-    },
-    {
-      "id": "history-lead-062",
-      "name": "Acumen Green RISE West Africa Fellowship",
-      "discoveryUrl": "https://acumenacademy.org",
-      "status": "needs-verification",
-      "unresolved": "Check geographic and leadership requirements and next cycle."
-    },
-    {
-      "id": "history-lead-063",
-      "name": "Shell Foundation ClimaFii accelerator",
-      "discoveryUrl": "https://shellfoundation.org",
-      "status": "needs-verification",
-      "unresolved": "Verify delivery partners, current intake and instrument."
-    },
-    {
-      "id": "history-lead-064",
-      "name": "GET.invest Finance Catalyst",
-      "discoveryUrl": "https://www.get-invest.eu",
-      "status": "needs-verification",
-      "unresolved": "Advisory support is distinct from cash grants."
-    },
-    {
-      "id": "history-lead-065",
-      "name": "EEP Africa",
-      "discoveryUrl": "https://eepafrica.org",
-      "status": "needs-verification",
-      "unresolved": "Verify country coverage and current call requirements."
-    },
-    {
-      "id": "history-lead-066",
-      "name": "Segal African Visionary Fellowship",
-      "discoveryUrl": "https://www.segalfamilyfoundation.org",
-      "status": "needs-verification",
-      "unresolved": "Existing funder; distinguish invitation or partner-only access."
-    },
-    {
-      "id": "history-lead-067",
-      "name": "California Arts Council General Operating Support",
-      "discoveryUrl": "https://arts.ca.gov",
-      "status": "needs-verification",
-      "unresolved": "Verify cycle and arts-organization eligibility."
-    },
-    {
-      "id": "history-lead-068",
-      "name": "California Arts Council Arts and Youth",
-      "discoveryUrl": "https://arts.ca.gov",
-      "status": "needs-verification",
-      "unresolved": "Separate program and closed historical deadlines."
-    },
-    {
-      "id": "history-lead-069",
-      "name": "California Arts Council Impact Projects",
-      "discoveryUrl": "https://arts.ca.gov",
-      "status": "needs-verification",
-      "unresolved": "Verify current program and budget conditions."
-    },
-    {
-      "id": "history-lead-070",
-      "name": "ACTA Apprenticeship Program",
-      "discoveryUrl": "https://www.actaonline.org",
-      "status": "needs-verification",
-      "unresolved": "Existing ACTA identity; distinct from Living Cultures."
-    },
-    {
-      "id": "history-lead-071",
-      "name": "LA DCA NEAR and CO-UP",
-      "discoveryUrl": "https://culturela.org",
-      "status": "needs-verification",
-      "unresolved": "Confirm each 2027–28 program and applicant route separately."
-    },
-    {
-      "id": "history-lead-072",
-      "name": "LA DCA Outdoor Festivals and Parades",
-      "discoveryUrl": "https://culturela.org",
-      "status": "needs-verification",
-      "unresolved": "Future-cycle lead; do not invent an application date."
-    },
-    {
-      "id": "history-lead-073",
-      "name": "LA DCA Public-Space Activation Fund",
-      "discoveryUrl": "https://culturela.org",
-      "status": "needs-verification",
-      "unresolved": "Confirm current call and project-location rules."
-    },
-    {
-      "id": "history-lead-074",
-      "name": "CNRA Youth Community Access",
-      "discoveryUrl": "https://resources.ca.gov",
-      "status": "needs-verification",
-      "unresolved": "Verify Round 4 status and eligible youth/outdoor activities."
-    },
-    {
-      "id": "history-lead-075",
-      "name": "Walmart Spark Good Local Grants",
-      "discoveryUrl": "https://walmart.org",
-      "status": "needs-verification",
-      "unresolved": "Verify cycle, charitable validation and facility geography."
-    },
-    {
-      "id": "history-lead-076",
-      "name": "LA Neighborhood Purposes Grants",
-      "discoveryUrl": "https://clerk.lacity.gov",
-      "status": "needs-verification",
-      "unresolved": "Council-specific budgets and charitable eligibility need review."
-    },
-    {
-      "id": "history-lead-077",
-      "name": "US Bank Community Possible",
-      "discoveryUrl": "https://www.usbank.com/about-us-bank/community.html",
-      "status": "needs-verification",
-      "unresolved": "Verify Play track and eligible service-area locations."
-    },
-    {
-      "id": "history-lead-078",
-      "name": "Society for Science STEM Action Grants",
-      "discoveryUrl": "https://www.societyforscience.org",
-      "status": "needs-verification",
-      "unresolved": "Verify 2027 call and nonprofit eligibility."
-    },
-    {
-      "id": "history-lead-079",
-      "name": "LA2050 Grants Challenge",
-      "discoveryUrl": "https://la2050.org",
-      "status": "needs-verification",
-      "unresolved": "Verify 2027 call; prior stage deadlines stay historical."
-    },
-    {
-      "id": "history-lead-080",
-      "name": "NEA Grants for Arts Projects",
-      "discoveryUrl": "https://www.arts.gov",
-      "status": "needs-verification",
-      "unresolved": "Verify fiscal-year cycle, application stages and charitable requirements."
-    },
-    {
-      "id": "history-lead-081",
-      "name": "NEH Public Humanities Projects",
-      "discoveryUrl": "https://www.neh.gov",
-      "status": "needs-verification",
-      "unresolved": "Verify deadline, program status and humanities eligibility."
-    },
-    {
-      "id": "history-lead-082",
-      "name": "California Humanities Humanities for All",
-      "discoveryUrl": "https://calhum.org",
-      "status": "needs-verification",
-      "unresolved": "Verify program continuity, stage and current applicant terms."
-    },
-    {
-      "id": "history-lead-083",
-      "name": "CPUC CEA-LAT",
-      "discoveryUrl": "https://www.cpuc.ca.gov",
-      "status": "needs-verification",
-      "unresolved": "Historical Round 2 lead; confirm current eligibility and cycle."
-    },
-    {
-      "id": "history-lead-084",
-      "name": "LA County Economic Opportunity Grant",
-      "discoveryUrl": "https://opportunity.lacounty.gov",
-      "status": "needs-verification",
-      "unresolved": "Verify current round and small-business/nonprofit conditions."
-    },
-    {
-      "id": "history-lead-085",
-      "name": "Edge City SHIFT Grants",
-      "discoveryUrl": "https://www.shiftgrants.org",
-      "status": "needs-verification",
-      "unresolved": "No new round verified; retain as watchlist."
-    },
-    {
-      "id": "history-lead-086",
-      "name": "Blockchain for Good Alliance Awards",
-      "discoveryUrl": "https://chainforgood.org",
-      "status": "needs-verification",
-      "unresolved": "Verify a dated current award cycle."
-    },
-    {
-      "id": "history-lead-087",
-      "name": "Mercy Corps Ventures / Prosper",
-      "discoveryUrl": "https://www.mercycorpsventures.com/climate-lab",
-      "status": "needs-verification",
-      "unresolved": "Resolve successor organization and distinguish venture investment from grant funding."
-    },
-    {
-      "id": "history-lead-088",
-      "name": "Rocket Pool GMC",
-      "discoveryUrl": "https://dao.rocketpool.net",
-      "status": "needs-verification",
-      "unresolved": "Verify current round and protocol contribution scope."
-    },
-    {
-      "id": "history-lead-089",
-      "name": "ROGEAP catalytic grants",
-      "discoveryUrl": "https://www.ecowas.int",
-      "status": "needs-verification",
-      "unresolved": "Find official call and eligible off-grid enterprise countries."
-    },
-    {
-      "id": "history-lead-090",
-      "name": "Shutter Champions",
-      "discoveryUrl": "https://www.shutter.network",
-      "status": "needs-verification",
-      "unresolved": "Historical round; verify current mechanism and eligibility."
-    },
-    {
-      "id": "history-lead-091",
-      "name": "Optimism Growth Grants",
-      "discoveryUrl": "https://gov.optimism.io",
-      "status": "needs-verification",
-      "unresolved": "Separate seasons and deployment or growth conditions."
-    },
-    {
-      "id": "history-lead-092",
-      "name": "DOE SBIR/STTR",
-      "discoveryUrl": "https://science.osti.gov/sbir",
-      "status": "needs-verification",
-      "unresolved": "Historical deadline; confirm US small-business and topic requirements."
-    },
-    {
-      "id": "history-lead-093",
-      "name": "Africa Climate Change Fund",
-      "discoveryUrl": "https://www.afdb.org",
-      "status": "needs-verification",
-      "unresolved": "Verify current call and applicant eligibility."
-    },
-    {
-      "id": "history-lead-094",
-      "name": "Sovereign Tech Fund",
-      "discoveryUrl": "https://www.sovereign.tech",
-      "status": "needs-verification",
-      "unresolved": "Review current application route and duplicate-funding restrictions."
-    }
-  ],
+  "pending": [],
   "alreadyRepresented": [
     "NLnet Restack",
     "Cisco Global Impact Cash Grants",
@@ -760,5 +101,2211 @@
     "Generic databases and grant aggregators without a named opportunity",
     "Software discounts and general pro bono or corporate sponsorship leads without a verified funding program"
   ],
-  "coverageLimit": "36 Drive search pages (12 per keyword: funding, grant, opportunities); more pages remained. Metadata was indexed, and selected trackers and scout reports were read. Four Linear workspaces were searched, including archived results. Search is not an exhaustive audit of every file, comment, attachment or folder."
+  "coverageLimit": "36 Drive search pages (12 per keyword: funding, grant, opportunities); more pages remained. Metadata was indexed, and selected trackers and scout reports were read. Four Linear workspaces were searched, including archived results. Search is not an exhaustive audit of every file, comment, attachment or folder.",
+  "reviewed": [
+    {
+      "id": "history-lead-001",
+      "name": "GoodDollar House of Alignment",
+      "discoveryUrl": "https://discourse.gooddollar.org",
+      "status": "not-a-grant",
+      "initialUnresolved": "Confirm a public application route; membership allocations are not general open grants.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://discourse.gooddollar.org/t/gip-26-begin-distributions-to-house-of-alignment/8890"
+      ],
+      "programs": [],
+      "findings": [
+        "Governance membership and G$ redistribution pilot, not unrestricted project funding. Member staking, redistribution and governance approval apply; no general intake established."
+      ],
+      "unresolved": [
+        "Governance membership and G$ redistribution pilot, not unrestricted project funding. Member staking, redistribution and governance approval apply; no general intake established."
+      ]
+    },
+    {
+      "id": "history-lead-002",
+      "name": "Gitcoin funding rounds",
+      "discoveryUrl": "https://grants.gitcoin.co",
+      "status": "imported",
+      "initialUnresolved": "Identify the allocator, round and current eligibility; no blanket open status.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://gitcoin.co/campaigns",
+        "https://grants.gitcoin.co/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-gitcoin",
+          "programId": "gitcoin-gg24"
+        }
+      ],
+      "findings": [
+        "Current campaign index marks GG24 ended in 2025; the older round landing page still says applications open. No new round dates established."
+      ],
+      "unresolved": [
+        "Next intake and domain-specific award terms"
+      ]
+    },
+    {
+      "id": "history-lead-003",
+      "name": "Giveth quadratic funding",
+      "discoveryUrl": "https://giveth.io/qf",
+      "status": "imported",
+      "initialUnresolved": "Project registration and eligibility for a matching round are separate.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://docs.giveth.io/quadraticfunding",
+        "https://giveth.io/qf"
+      ],
+      "programs": [
+        {
+          "fundId": "local-giveth",
+          "programId": "giveth-qf"
+        }
+      ],
+      "findings": [
+        "QF mechanism verified, but the live round page is in maintenance. No active application window established."
+      ],
+      "unresolved": [
+        "Current round, eligibility, matching pool and cutoff"
+      ]
+    },
+    {
+      "id": "history-lead-004",
+      "name": "Octant epochs",
+      "discoveryUrl": "https://octant.build",
+      "status": "imported",
+      "initialUnresolved": "Separate concluded Epoch 12 from Epoch 13 and later allocation windows.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://octant.substack.com/p/epoch-13-meet-the-13-teams-advancing",
+        "https://octant.substack.com/p/final-hours-of-epoch-13-closing-livestream"
+      ],
+      "programs": [
+        {
+          "fundId": "local-octant",
+          "programId": "octant-epoch-13"
+        }
+      ],
+      "findings": [
+        "The 13-project cohort was selected before the October 14–22 allocation window, which has ended. Allocation dates are not application deadlines."
+      ],
+      "unresolved": [
+        "Next application round and per-project awards"
+      ]
+    },
+    {
+      "id": "history-lead-005",
+      "name": "Prezenti pools",
+      "discoveryUrl": "https://www.prezenti.xyz",
+      "status": "imported",
+      "initialUnresolved": "Confirm each pool's transaction thresholds and access route.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.prezenti.xyz/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-prezenti",
+          "programId": "prezenti-anchor-2026"
+        },
+        {
+          "fundId": "local-prezenti",
+          "programId": "prezenti-boost"
+        },
+        {
+          "fundId": "local-prezenti",
+          "programId": "prezenti-frontier-2026"
+        }
+      ],
+      "findings": [
+        "Dated 2026 call overrides the stale Season 3 closed banner. Date-only cutoff; time and timezone unverified.",
+        "Invitation-only onboarding with Celo Core Co.",
+        "2026 intake; date-only cutoff. Open-source work preferred."
+      ],
+      "unresolved": [
+        "Final award, cutoff time and legal eligibility",
+        "Award and invitation timing",
+        "Final award and cutoff timezone"
+      ]
+    },
+    {
+      "id": "history-lead-006",
+      "name": "Celo Proof of Ship",
+      "discoveryUrl": "https://www.celopg.eco/programs/proof-of-ship",
+      "status": "imported",
+      "initialUnresolved": "Recheck the current season and ecosystem requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://celo.org/builders",
+        "https://forum.celo.org/t/season-2-celo-foundation-retrospective/13524"
+      ],
+      "programs": [
+        {
+          "fundId": "local-celo",
+          "programId": "celo-proof-of-ship"
+        }
+      ],
+      "findings": [
+        "Official builder page lists the monthly program live. Current month's cutoff and detailed rules need confirmation."
+      ],
+      "unresolved": [
+        "Current submission cutoff, reward split and legal eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-007",
+      "name": "Celo Builder Fund",
+      "discoveryUrl": "https://www.celopg.eco",
+      "status": "imported",
+      "initialUnresolved": "Resolve the current program URL and intake.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://celo.org/builders",
+        "https://forum.celo.org/t/celo-season-1-program-overview/12484"
+      ],
+      "programs": [
+        {
+          "fundId": "local-celo",
+          "programId": "celo-builders-fund"
+        }
+      ],
+      "findings": [
+        "Official builder page lists the fund live; investment terms require direct confirmation."
+      ],
+      "unresolved": [
+        "Equity or token terms, currency and intake process"
+      ]
+    },
+    {
+      "id": "history-lead-008",
+      "name": "Arbitrum Foundation grants",
+      "discoveryUrl": "https://arbitrum.foundation/grants",
+      "status": "program-directory",
+      "initialUnresolved": "Separate grant funding from audit subsidies and gas credits.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://arbitrum.foundation/grants"
+      ],
+      "programs": [],
+      "findings": [
+        "Umbrella listing, not an additional undifferentiated grant. Named ASP, ArbiFuel, Open House and DAO streams are handled in leads 9–12."
+      ],
+      "unresolved": [
+        "Umbrella listing, not an additional undifferentiated grant. Named ASP, ArbiFuel, Open House and DAO streams are handled in leads 9–12."
+      ]
+    },
+    {
+      "id": "history-lead-009",
+      "name": "Arbitrum Security Program",
+      "discoveryUrl": "https://blog.arbitrum.foundation/introducing-the-arbitrum-security-program-apply-to-secure-your-smart-contracts/",
+      "status": "imported",
+      "initialUnresolved": "Verify current audit subsidy terms; distinguish in-kind support from cash.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://blog.arbitrum.foundation/introducing-the-arbitrum-security-program-apply-to-secure-your-smart-contracts/",
+        "https://arbitrum.foundation/grants"
+      ],
+      "programs": [
+        {
+          "fundId": "local-arbitrum-foundation",
+          "programId": "arbitrum-security-2026"
+        }
+      ],
+      "findings": [
+        "September 2026 program is listed active. Covers the agreed initial audit; subsidy is negotiated."
+      ],
+      "unresolved": [
+        "Subsidy share, commercial commitments and final intake date"
+      ]
+    },
+    {
+      "id": "history-lead-010",
+      "name": "ArbiFuel",
+      "discoveryUrl": "https://blog.arbitrum.foundation/arbifuel-is-live-arbitrum-builders-claim-your-gas-fee-sponsorship/",
+      "status": "imported",
+      "initialUnresolved": "Verify gas sponsorship availability and deployment conditions.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://blog.arbitrum.foundation/arbifuel-is-live-arbitrum-builders-claim-your-gas-fee-sponsorship/",
+        "https://arbitrum.foundation/grants"
+      ],
+      "programs": [
+        {
+          "fundId": "local-arbitrum-foundation",
+          "programId": "arbifuel"
+        }
+      ],
+      "findings": [
+        "Listed active. Gas credits only; no general cash award."
+      ],
+      "unresolved": [
+        "Remaining capacity and exact credit contract terms"
+      ]
+    },
+    {
+      "id": "history-lead-011",
+      "name": "Arbitrum Open House buildathons",
+      "discoveryUrl": "https://blog.arbitrum.foundation",
+      "status": "imported",
+      "initialUnresolved": "Historical Singapore event; identify a new call before assigning dates.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://blog.arbitrum.foundation/open-house-singapore-applications-are-now-open/",
+        "https://blog.arbitrum.foundation/founder-house-singapore-apply-now-to-launch-products-on-arbitrum-one-robinhood-chain/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-arbitrum-foundation",
+          "programId": "arbitrum-open-house-singapore-2026"
+        }
+      ],
+      "findings": [
+        "Buildathon ended October 4; in-person Founder House ran October 23–25, 2026. Event dates do not establish application deadlines."
+      ],
+      "unresolved": [
+        "Future locations, intake dates and awards"
+      ]
+    },
+    {
+      "id": "history-lead-012",
+      "name": "Arbitrum DAO domain allocators",
+      "discoveryUrl": "https://forum.arbitrum.foundation",
+      "status": "imported",
+      "initialUnresolved": "Separate seasons and domains; prior project awards do not establish open intake.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://arbitrum.foundation/grants",
+        "https://blog.arbitrum.foundation/arbifuel-is-live-arbitrum-builders-claim-your-gas-fee-sponsorship/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-arbitrum-dao",
+          "programId": "arbitrum-dao-domain-grants"
+        }
+      ],
+      "findings": [
+        "Current official directory marks the DAO Grant Program inactive and complete; older active announcements are historical."
+      ],
+      "unresolved": [
+        "Successor program, dates and award terms"
+      ]
+    },
+    {
+      "id": "history-lead-013",
+      "name": "Safe Ecosystem Foundation grants",
+      "discoveryUrl": "https://safefoundation.org/grants",
+      "status": "imported",
+      "initialUnresolved": "Check current RFPs and program pauses; do not reuse spontaneous-grant terms.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://safefoundation.org/grants"
+      ],
+      "programs": [
+        {
+          "fundId": "local-safe",
+          "programId": "safe-open-calls"
+        }
+      ],
+      "findings": [
+        "Current funding uses specific open calls on the Safe forum. No single universal intake or deadline. OBRA is paused and Wave 1 concluded."
+      ],
+      "unresolved": [
+        "Applicable RFP, award and deadline"
+      ]
+    },
+    {
+      "id": "history-lead-014",
+      "name": "Artizen seasons and Greenpill fund",
+      "discoveryUrl": "https://artizen.fund",
+      "status": "imported",
+      "initialUnresolved": "Resolve program continuity and any current funding route; historical participation is not open intake.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://artizen.fund/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-artizen",
+          "programId": "artizen-seasons-paused"
+        }
+      ],
+      "findings": [
+        "Official homepage announces operations paused and directs existing users to claim payouts or withdraw. No active Greenpill or new-season application established."
+      ],
+      "unresolved": [
+        "Whether operations resume and any future fund terms"
+      ]
+    },
+    {
+      "id": "history-lead-015",
+      "name": "Fast Forward accelerator",
+      "discoveryUrl": "https://www.ffwd.org",
+      "status": "imported",
+      "initialUnresolved": "Recheck the 2027 cohort, past deadline extension and nonprofit eligibility.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.ffwd.org/accelerator"
+      ],
+      "programs": [
+        {
+          "fundId": "local-fast-forward",
+          "programId": "fast-forward-2027"
+        }
+      ],
+      "findings": [
+        "Published application period ended September 7, 2026 at 11:59 p.m. Pacific; cohort runs February–June 2027. No later extension verified."
+      ],
+      "unresolved": [
+        "Future intake, fiscal sponsorship and geographic legal restrictions"
+      ]
+    },
+    {
+      "id": "history-lead-016",
+      "name": "Climate Collective AI x Nature Accelerator",
+      "discoveryUrl": "https://climatecollective.org/accelerator",
+      "status": "imported",
+      "initialUnresolved": "Verify cohort status and applicant requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://climatecollective.org/accelerator"
+      ],
+      "programs": [
+        {
+          "fundId": "local-climate-collective",
+          "programId": "ai-nature-accelerator"
+        }
+      ],
+      "findings": [
+        "Official overview says enrolling and offers contact for the next cohort. Exact application window and funded terms remain unconfirmed."
+      ],
+      "unresolved": [
+        "Cohort dates, confirmed cash award and application criteria"
+      ]
+    },
+    {
+      "id": "history-lead-017",
+      "name": "Climate Collective Green Accountability Cohort",
+      "discoveryUrl": "https://climatecollective.org/green-accountability-cohort",
+      "status": "imported",
+      "initialUnresolved": "Historical window; confirm a new round before assigning current terms.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://climatecollective.org/green-accountability-cohort"
+      ],
+      "programs": [
+        {
+          "fundId": "local-climate-collective",
+          "programId": "green-accountability-2024"
+        }
+      ],
+      "findings": [
+        "Archived six-month 2024 cohort. No new round inferred."
+      ],
+      "unresolved": [
+        "Next round and fiscal sponsorship"
+      ]
+    },
+    {
+      "id": "history-lead-018",
+      "name": "GCC Digital Commons Fund",
+      "discoveryUrl": "https://www.gccofficial.org/en",
+      "status": "imported",
+      "initialUnresolved": "Verify current cohort, eligibility and currency.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.gccofficial.org/en",
+        "https://www.gccofficial.org/application"
+      ],
+      "programs": [
+        {
+          "fundId": "local-gcc",
+          "programId": "gcc-digital-commons"
+        }
+      ],
+      "findings": [
+        "Official FAQ accepts project, event and individual applications, reviewed by its operations team and voting committee."
+      ],
+      "unresolved": [
+        "Award size, review timing and legal eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-019",
+      "name": "Gnosis ecosystem funding",
+      "discoveryUrl": "https://world.gnosis.io",
+      "status": "imported",
+      "initialUnresolved": "Identify a named grant stream and current applicant route.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://world.gnosis.io/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-gnosis",
+          "programId": "gnosis-events"
+        }
+      ],
+      "findings": [
+        "Official page invites event pitches but describes grants as being considered. Conditional future funding; no committed grant intake or opening date established."
+      ],
+      "unresolved": [
+        "Award, approval conditions and geographic eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-020",
+      "name": "Co-Develop / DPGA climate funding",
+      "discoveryUrl": "https://www.codevelop.fund",
+      "status": "unresolved",
+      "initialUnresolved": "Confirm whether there is an external call; DPG recognition alone is not funding.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.codevelop.fund/dpi-for-people-and-planet",
+        "https://www.codevelop.fund/"
+      ],
+      "programs": [],
+      "findings": [
+        "Climate DPI initiative and investments verified; reviewed page describes winners and partnerships, not an open grant call. DPG recognition is not itself funding. Hold until a specific applicant route and terms are established."
+      ],
+      "unresolved": [
+        "Climate DPI initiative and investments verified; reviewed page describes winners and partnerships, not an open grant call. DPG recognition is not itself funding. Hold until a specific applicant route and terms are established."
+      ]
+    },
+    {
+      "id": "history-lead-021",
+      "name": "Lido Community Staking Grants",
+      "discoveryUrl": "https://operatorportal.lido.fi/community-lifeguards-initiative/lido-community-staking-grants",
+      "status": "imported",
+      "initialUnresolved": "Distinct from LEGO; confirm operator and infrastructure requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://operatorportal.lido.fi/community-lifeguards-initiative"
+      ],
+      "programs": [
+        {
+          "fundId": "local-lido-lego",
+          "programId": "lido-community-staking"
+        }
+      ],
+      "findings": [
+        "Contact the committee. Larger or out-of-scope requests are redirected to LEGO."
+      ],
+      "unresolved": [
+        "Remaining quarterly capacity and applicant legal restrictions"
+      ]
+    },
+    {
+      "id": "history-lead-022",
+      "name": "OSV Fellowships and Grants",
+      "discoveryUrl": "https://osv.llc",
+      "status": "imported",
+      "initialUnresolved": "Confirm current cycle; historical application dates are not future deadlines.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.osv.llc/fellowships"
+      ],
+      "programs": [
+        {
+          "fundId": "local-osv",
+          "programId": "osv-fellowship-2026"
+        }
+      ],
+      "findings": [
+        "Published 2026 deadline has passed; recipients retain ownership."
+      ],
+      "unresolved": [
+        "Next intake and distinct grant-track terms"
+      ]
+    },
+    {
+      "id": "history-lead-023",
+      "name": "Vrbs DAO grants",
+      "discoveryUrl": "https://vrbs.wtf",
+      "status": "unresolved",
+      "initialUnresolved": "Establish the general funding mechanism and current proposal rules.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://vrbs.wtf/"
+      ],
+      "programs": [],
+      "findings": [
+        "Official site returned 403; targeted official-domain searches did not recover usable program terms. Do not infer closure or import a grant from historical descriptions."
+      ],
+      "unresolved": [
+        "Official site returned 403; targeted official-domain searches did not recover usable program terms. Do not infer closure or import a grant from historical descriptions."
+      ]
+    },
+    {
+      "id": "history-lead-024",
+      "name": "Survival and Flourishing Fund climate round",
+      "discoveryUrl": "https://survivalandflourishing.fund/2026/application",
+      "status": "imported",
+      "initialUnresolved": "Verify cycle closure, eligibility and current speculation-grant terms.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://survivalandflourishing.fund/2026/application"
+      ],
+      "programs": [
+        {
+          "fundId": "local-survival-flourishing",
+          "programId": "sff-climate-2026"
+        }
+      ],
+      "findings": [
+        "2026 round closed. Late rolling submissions may be considered in a future round; they do not reopen this round."
+      ],
+      "unresolved": [
+        "Future-round timing and applicant-specific eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-025",
+      "name": "ENS Public Goods Small Grants",
+      "discoveryUrl": "https://ensgrants.xyz",
+      "status": "imported",
+      "initialUnresolved": "Verify current round and public-goods eligibility.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://ensgrants.xyz/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-ens",
+          "programId": "ens-small-grants-archive"
+        }
+      ],
+      "findings": [
+        "Official site says the program shut down. Rounds ran July 2022–June 2024; no proposals or votes accepted."
+      ],
+      "unresolved": [
+        "Any distinct successor program and eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-026",
+      "name": "Interledger on Campus Mini-Grants",
+      "discoveryUrl": "https://interledger.org",
+      "status": "imported",
+      "initialUnresolved": "Distinct from the fellowship; verify student and institution requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://community.interledger.org/interledger/interledger-foundation-launches-interledger-on-campus-grant-program-to-support-student-led-2dkk",
+        "https://interledger.org/grant/education/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-interledger",
+          "programId": "interledger-campus-2026"
+        }
+      ],
+      "findings": [
+        "Rolling applications were limited to the March–July 2026 window."
+      ],
+      "unresolved": [
+        "Next intake and cutoff timezone"
+      ]
+    },
+    {
+      "id": "history-lead-027",
+      "name": "Filecoin ProPGF",
+      "discoveryUrl": "https://app.filpgf.io/programs/1479/",
+      "status": "imported",
+      "initialUnresolved": "Separate historical Batch 3 from current rounds and technical prerequisites.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://app.filpgf.io/programs/1479"
+      ],
+      "programs": [
+        {
+          "fundId": "local-filecoin",
+          "programId": "filecoin-propgf-batch3"
+        }
+      ],
+      "findings": [
+        "Program page explicitly marks applications closed."
+      ],
+      "unresolved": [
+        "Future batch, exact prior cutoff and per-project bounds"
+      ]
+    },
+    {
+      "id": "history-lead-028",
+      "name": "Filecoin Open Grants",
+      "discoveryUrl": "https://filecoin.io",
+      "status": "imported",
+      "initialUnresolved": "Resolve current program and storage or protocol integration requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://fil.org/grants",
+        "https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md"
+      ],
+      "programs": [
+        {
+          "fundId": "local-filecoin",
+          "programId": "filecoin-open-grants"
+        }
+      ],
+      "findings": [
+        "Submit a GitHub proposal. Official repository says proposals are reviewed continuously."
+      ],
+      "unresolved": [
+        "Contract currency and applicant legal restrictions"
+      ]
+    },
+    {
+      "id": "history-lead-029",
+      "name": "NLnet NGI Fediversity",
+      "discoveryUrl": "https://nlnet.nl/propose",
+      "status": "imported",
+      "initialUnresolved": "Existing NLnet identity; distinct program and historical round need review.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://nlnet.nl/fediversity/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-nlnet",
+          "programId": "nlnet-fediversity-final"
+        }
+      ],
+      "findings": [
+        "Final call closed August 1, 2026; project delivery continuing into 2027 does not mean applications remain open."
+      ],
+      "unresolved": [
+        "Any successor intake and applicant-specific geographic restrictions"
+      ]
+    },
+    {
+      "id": "history-lead-030",
+      "name": "NLnet NGI TALER",
+      "discoveryUrl": "https://nlnet.nl/propose",
+      "status": "imported",
+      "initialUnresolved": "Existing NLnet identity; verify current program-specific application status.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://nlnet.nl/taler/",
+        "https://nlnet.nl/taler/faq/index.html"
+      ],
+      "programs": [
+        {
+          "fundId": "local-nlnet",
+          "programId": "nlnet-taler-final"
+        }
+      ],
+      "findings": [
+        "Final call closed August 1, 2026. Delivery schedule extension is not an intake extension."
+      ],
+      "unresolved": [
+        "Successor intake and applicant-specific geographic restrictions"
+      ]
+    },
+    {
+      "id": "history-lead-031",
+      "name": "NLnet NGI Zero Commons",
+      "discoveryUrl": "https://nlnet.nl/propose",
+      "status": "imported",
+      "initialUnresolved": "Existing NLnet identity; do not duplicate Restack or recycle past calls.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://nlnet.nl/commonsfund/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-nlnet",
+          "programId": "nlnet-commons-final"
+        }
+      ],
+      "findings": [
+        "Thirteenth and final call closed June 1, 2026. Existing Restack record is a different program."
+      ],
+      "unresolved": [
+        "Historical award and applicant restrictions not re-established in this pass"
+      ]
+    },
+    {
+      "id": "history-lead-032",
+      "name": "Ethereum Foundation ESP",
+      "discoveryUrl": "https://esp.ethereum.foundation",
+      "status": "imported",
+      "initialUnresolved": "Review current RFPs and wishlist; avoid a generic open-grant inference.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://esp.ethereum.foundation/applicants"
+      ],
+      "programs": [
+        {
+          "fundId": "local-ethereum-foundation",
+          "programId": "ethereum-esp"
+        }
+      ],
+      "findings": [
+        "Apply to an applicable Wishlist or RFP; specific deadlines and deliverables vary. For-profit teams may apply for public outputs."
+      ],
+      "unresolved": [
+        "Applicable call, award and deadline"
+      ]
+    },
+    {
+      "id": "history-lead-033",
+      "name": "USDA Conservation Innovation Grants",
+      "discoveryUrl": "https://www.nrcs.usda.gov/programs-initiatives/cig-conservation-innovation-grants",
+      "status": "imported",
+      "initialUnresolved": "Separate national and state calls, applicant eligibility and closed rounds.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.nrcs.usda.gov/programs-initiatives/conservation-innovation-grants"
+      ],
+      "programs": [
+        {
+          "fundId": "local-usda-nrcs",
+          "programId": "nrcs-cig-classic"
+        }
+      ],
+      "findings": [
+        "Named competitive conservation program verified. No current national solicitation established in the reviewed overview."
+      ],
+      "unresolved": [
+        "Current NOFO, deadline, eligible applicants, match and award bounds"
+      ]
+    },
+    {
+      "id": "history-lead-034",
+      "name": "Darwin Initiative",
+      "discoveryUrl": "https://www.darwininitiative.org.uk/how-to-apply/",
+      "status": "imported",
+      "initialUnresolved": "Round 32 is historical; distinguish Main from Capability and Capacity.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.darwininitiative.org.uk/how-to-apply/main-applications/",
+        "https://www.darwininitiative.org.uk/how-to-apply/extra-applications/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-darwin",
+          "programId": "darwin-main-r32-stage2"
+        },
+        {
+          "fundId": "local-darwin",
+          "programId": "darwin-extra-r32-stage2"
+        }
+      ],
+      "findings": [
+        "New applications closed. November 30 is only for invited stage 2 applicants. Cutoff time and timezone unverified.",
+        "New applications closed. November 2 is an invited stage 2 deadline, not a new applicant call. Projects run two to five years."
+      ],
+      "unresolved": [
+        "Country-specific ODA eligibility and exact cutoff",
+        "Country-specific ODA eligibility and cutoff timezone"
+      ]
+    },
+    {
+      "id": "history-lead-035",
+      "name": "GEF SGP CSO Challenge",
+      "discoveryUrl": "https://csochallenge.org",
+      "status": "imported",
+      "initialUnresolved": "Confirm region and CSO eligibility; an expected Africa round is conditional.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://csochallenge.org/",
+        "https://csochallenge.org/uploads/SGP_CSO_Concept_Guidance_For_Applicants.pdf"
+      ],
+      "programs": [
+        {
+          "fundId": "local-gef-cso-challenge",
+          "programId": "gef-cso-africa-lac-asia-2026"
+        }
+      ],
+      "findings": [
+        "Regional call closed. Eastern Europe/Caucasus/Central Asia used an earlier August 7 deadline."
+      ],
+      "unresolved": [
+        "Next call; reconcile international-CSO eligibility with regional domicile wording"
+      ]
+    },
+    {
+      "id": "history-lead-036",
+      "name": "California RCD funding",
+      "discoveryUrl": "https://www.nrcs.usda.gov",
+      "status": "program-directory",
+      "initialUnresolved": "Broad lead, not one grant; identify the local conservation district and call.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.conservation.ca.gov/dlrp/RCD/Pages/Index.aspx"
+      ],
+      "programs": [],
+      "findings": [
+        "RCDs are local public conservation districts and delivery partners. Historical lead does not identify a district or applicant funding scheme; retain as a sourcing route, not a generic new grant."
+      ],
+      "unresolved": [
+        "RCDs are local public conservation districts and delivery partners. Historical lead does not identify a district or applicant funding scheme; retain as a sourcing route, not a generic new grant."
+      ]
+    },
+    {
+      "id": "history-lead-037",
+      "name": "California water grants",
+      "discoveryUrl": "https://water.ca.gov",
+      "status": "imported",
+      "initialUnresolved": "Identify a named program, geography and applicant type.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://water.ca.gov/Work-With-Us/Grants-And-Loans/Urban-Streams",
+        "https://water.ca.gov/grants/",
+        "https://water.ca.gov/urbanstreams/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-california-dwr",
+          "programId": "ca-urban-streams-2026"
+        }
+      ],
+      "findings": [
+        "Concept proposals open first business day through last Friday monthly. Invited full applications begin January 4, 2027. Monthly rule is retained without inventing a one-off cutoff."
+      ],
+      "unresolved": [
+        "Applicant legal eligibility, per-project award and precise monthly cutoff time"
+      ]
+    },
+    {
+      "id": "history-lead-038",
+      "name": "EPA grants",
+      "discoveryUrl": "https://www.epa.gov/grants",
+      "status": "program-directory",
+      "initialUnresolved": "Program family only; qualify a specific current solicitation.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.epa.gov/grants"
+      ],
+      "programs": [],
+      "findings": [
+        "EPA portal lists many independent programs and directs applicants to specific NOFOs. No particular historical program identified; retain as discovery source rather than a fabricated universal grant."
+      ],
+      "unresolved": [
+        "EPA portal lists many independent programs and directs applicants to specific NOFOs. No particular historical program identified; retain as discovery source rather than a fabricated universal grant."
+      ]
+    },
+    {
+      "id": "history-lead-039",
+      "name": "NEEF grants",
+      "discoveryUrl": "https://www.neefusa.org",
+      "status": "imported",
+      "initialUnresolved": "Identify the relevant current environmental grant.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.neefusa.org/2026-2027-environmental-education-initiative-lyondellbasell-greening-stem-grants",
+        "https://www.neefusa.org/what-we-do/grants/grants"
+      ],
+      "programs": [
+        {
+          "fundId": "local-neef",
+          "programId": "neef-greening-stem-2026"
+        }
+      ],
+      "findings": [
+        "October 8, 2026 at 11:59 p.m. Pacific deadline passed; directory says no open grants."
+      ],
+      "unresolved": [
+        "Award amount and future intake; page contains inconsistent sponsor copy"
+      ]
+    },
+    {
+      "id": "history-lead-040",
+      "name": "Western SARE Professional and Producer",
+      "discoveryUrl": "https://western.sare.org",
+      "status": "imported",
+      "initialUnresolved": "Check the closed October 2026 call and producer requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://western.sare.org/grants/professional-producer/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-western-sare",
+          "programId": "western-sare-professional-producer"
+        }
+      ],
+      "findings": [
+        "Official page says closed, opens 2027. No exact future dates; next terms may change and awards depend on USDA-NIFA authorization."
+      ],
+      "unresolved": [
+        "2027 dates, confirmed award currency and next-call eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-041",
+      "name": "JRS Biodiversity Foundation",
+      "discoveryUrl": "https://jrsbiodiversity.org",
+      "status": "imported",
+      "initialUnresolved": "Verify inquiry route and biodiversity informatics scope.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://jrsbiodiversity.org/how-to-apply/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-jrs-biodiversity",
+          "programId": "jrs-funding-inquiry"
+        }
+      ],
+      "findings": [
+        "Ideas may be submitted as funding inquiries. Overview's 2022 call is closed; inquiry is not a verified current competition."
+      ],
+      "unresolved": [
+        "Geographic fit, current award and next call"
+      ]
+    },
+    {
+      "id": "history-lead-042",
+      "name": "Halcyon Africa Agriculture and Food Security Accelerator",
+      "discoveryUrl": "https://www.halcyonhouse.org",
+      "status": "imported",
+      "initialUnresolved": "Separate initial application and invitation stages; confirm venture-location requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://halcyonaccelerator.org/africa-innovation-in-ag-2027/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-halcyon",
+          "programId": "halcyon-africa-ag-2027"
+        }
+      ],
+      "findings": [
+        "October 30 deadline applies only to invited applicants. Hybrid 2027 cohort includes Ghana and Kenya residencies; cutoff time unverified."
+      ],
+      "unresolved": [
+        "Final award currency, travel coverage and cutoff timezone"
+      ]
+    },
+    {
+      "id": "history-lead-043",
+      "name": "Keeling Curve Prize",
+      "discoveryUrl": "https://www.globalwarmingmitigationproject.org",
+      "status": "imported",
+      "initialUnresolved": "Expected annual opening is not a confirmed call.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.climatecurve.org/applications-closed",
+        "https://kcp-conduit.org/apply/kcp/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-climate-curve",
+          "programId": "keeling-curve-prize"
+        }
+      ],
+      "findings": [
+        "Official site and application portal currently closed. Site describes annual November 1 opening; no dated new call inferred from that recurrence."
+      ],
+      "unresolved": [
+        "Confirmed next cycle, award terms, eligibility and deadline"
+      ]
+    },
+    {
+      "id": "history-lead-044",
+      "name": "Seeding The Future Global Food System Challenge",
+      "discoveryUrl": "https://www.seedingthefuture.org",
+      "status": "imported",
+      "initialUnresolved": "Verify 2027 dates and tier-specific maturity requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.welthungerhilfe.org/global-food-system-challenge/f/",
+        "https://www.seedingthefuture.org/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-seeding-future",
+          "programId": "seeding-future-2027"
+        }
+      ],
+      "findings": [
+        "Future call announced for January 1–February 15, 2027. Seed, Growth and Grand Prize have distinct maturity criteria."
+      ],
+      "unresolved": [
+        "Cutoff timezone, final award agreement and fiscal sponsorship"
+      ]
+    },
+    {
+      "id": "history-lead-045",
+      "name": "Honnold Foundation Core Fund",
+      "discoveryUrl": "https://www.honnoldfoundation.org",
+      "status": "imported",
+      "initialUnresolved": "Confirm next cycle, charitable status and technical partners.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.honnoldfoundation.org/become-a-partner"
+      ],
+      "programs": [
+        {
+          "fundId": "local-honnold",
+          "programId": "honnold-core-2026"
+        }
+      ],
+      "findings": [
+        "2026 applications closed February 12 at 5 p.m. EST; fall disbursement is not a second application window."
+      ],
+      "unresolved": [
+        "Next intake and final grant terms"
+      ]
+    },
+    {
+      "id": "history-lead-046",
+      "name": "Zayed Sustainability Prize",
+      "discoveryUrl": "https://zayedsustainabilityprize.com",
+      "status": "imported",
+      "initialUnresolved": "Review category-specific eligibility and next cycle dates.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://zayedsustainabilityprize.com/en"
+      ],
+      "programs": [
+        {
+          "fundId": "local-zayed-prize",
+          "programId": "zayed-2027"
+        }
+      ],
+      "findings": [
+        "Official timeline places submission closing in June 2026 and finalists in September; January 2027 is the award ceremony, not a deadline."
+      ],
+      "unresolved": [
+        "Exact closing day, next call, category eligibility and award terms"
+      ]
+    },
+    {
+      "id": "history-lead-047",
+      "name": "Milken-Motsepe Circular Economy Prize",
+      "discoveryUrl": "https://milkeninstitute.org",
+      "status": "imported",
+      "initialUnresolved": "Historical 2026 lead; verify current phase and organization requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://milkeninstitute.org/content-hub/news-releases/10-companies-named-semifinalists-2-million-milken-motsepe-prize-circular-economy",
+        "https://milkeninstitute.org/index.php/content-hub/news-releases/milken-institute-and-motsepe-foundation-announce-winners-2-million-milken-motsepe-prize-ai-and"
+      ],
+      "programs": [
+        {
+          "fundId": "local-milken-motsepe",
+          "programId": "milken-circular-2026"
+        }
+      ],
+      "findings": [
+        "Registration ended August 13 at 2 p.m. Eastern. Semifinalists announced October 15."
+      ],
+      "unresolved": [
+        "Future intake and interpretation of combined revenue/capital threshold"
+      ]
+    },
+    {
+      "id": "history-lead-048",
+      "name": "African Union Innovating Education in Africa",
+      "discoveryUrl": "https://au.int",
+      "status": "imported",
+      "initialUnresolved": "Verify new call; previous year's window is not current eligibility.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://au.int/sites/default/files/announcements/46204-annc-Revised_Call_for_Submissions_IEA_2026_EN_rev.pdf"
+      ],
+      "programs": [
+        {
+          "fundId": "local-african-union",
+          "programId": "au-education-2026"
+        }
+      ],
+      "findings": [
+        "Deadline April 30, 2026 at 23:00 EAT; English or French submissions."
+      ],
+      "unresolved": [
+        "Next call and fiscal sponsorship"
+      ]
+    },
+    {
+      "id": "history-lead-049",
+      "name": "Google Africa Applied AI Lab",
+      "discoveryUrl": "https://africa.googleblog.com",
+      "status": "non-cash-program",
+      "initialUnresolved": "Historical 2026 cohort; establish the current call and AI product requirement.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://blog.google/intl/en-africa/company-news/outreach-and-initiatives/accelerating-africas-digital-renaissance-by-investing-in-infrastructure-and-agentic-ai/"
+      ],
+      "programs": [],
+      "findings": [
+        "Applied AI Lab verified; August 31, 2026 deadline passed. Announcement establishes model access and expert collaboration, but no cash award or investment commitment to applicants. Retain as a closed support lead, not a funding grant."
+      ],
+      "unresolved": [
+        "Applied AI Lab verified; August 31, 2026 deadline passed. Announcement establishes model access and expert collaboration, but no cash award or investment commitment to applicants. Retain as a closed support lead, not a funding grant."
+      ]
+    },
+    {
+      "id": "history-lead-050",
+      "name": "Youth4Climate Call for Solutions",
+      "discoveryUrl": "https://www.youth4climate.info",
+      "status": "imported",
+      "initialUnresolved": "Verify current round, age and entity conditions.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://community.youth4climate.info/dashboard/call-solutions-2026-0"
+      ],
+      "programs": [
+        {
+          "fundId": "local-youth4climate",
+          "programId": "youth4climate-2026"
+        }
+      ],
+      "findings": [
+        "Official page confirms closed; no future intake inferred."
+      ],
+      "unresolved": [
+        "Next call and country-specific eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-051",
+      "name": "YouthADAPT",
+      "discoveryUrl": "https://gca.org",
+      "status": "imported",
+      "initialUnresolved": "Verify current round, business eligibility and financial-record requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://gca.org/gca-project/africa-youth-adaptation-solutions-challenge/",
+        "https://gca.org/youthadaptchallenge/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-gca-youthadapt",
+          "programId": "youthadapt"
+        }
+      ],
+      "findings": [
+        "Program and historical support verified. Detailed page describes the third, women-owned-business cycle; do not carry that eligibility into an unannounced new call."
+      ],
+      "unresolved": [
+        "Current cycle, deadline, age and ownership conditions"
+      ]
+    },
+    {
+      "id": "history-lead-052",
+      "name": "Africa Prize for Engineering Innovation",
+      "discoveryUrl": "https://raeng.org.uk",
+      "status": "imported",
+      "initialUnresolved": "Confirm current cycle and individual applicant rules.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://africaprize.raeng.org.uk/about-the-prize/how-to-apply",
+        "https://raeng.org.uk/news/the-2027-africa-prize-for-engineering-innovation-calls-for-applications-across-sub-saharan-africa",
+        "https://africaprize.raeng.org.uk/about-the-prize/eligibility/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-raeng",
+          "programId": "africa-prize-2027"
+        }
+      ],
+      "findings": [
+        "Current intake closed; 2028 cycle expected to open in 2027 with no exact dates confirmed."
+      ],
+      "unresolved": [
+        "Next cycle dates and final eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-053",
+      "name": "F5 STEM and AI education grants",
+      "discoveryUrl": "https://www.f5.com/company/global-good",
+      "status": "imported",
+      "initialUnresolved": "Verify charitable eligibility and current cycle.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.f5.com/company/global-good",
+        "https://www.linkedin.com/posts/f5_we-believe-access-to-stem-education-and-ai-activity-7467213371596128256-8zVc"
+      ],
+      "programs": [
+        {
+          "fundId": "local-f5",
+          "programId": "f5-stem-ai-2026"
+        }
+      ],
+      "findings": [
+        "F5's own announcement gives June 15 deadline; current overview offers 2027 notifications, not a new application call."
+      ],
+      "unresolved": [
+        "Detailed organizational conditions, fiscal sponsorship and 2027 dates"
+      ]
+    },
+    {
+      "id": "history-lead-054",
+      "name": "IFC SME Growth Accelerator",
+      "discoveryUrl": "https://www.ifc.org",
+      "status": "unresolved",
+      "initialUnresolved": "Confirm whether opportunity is funded support or an investment/accelerator service.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.ifc.org/en/what-we-do/products-and-services/how-to-apply-for-financing"
+      ],
+      "programs": [],
+      "findings": [
+        "No official IFC corroboration found for the named SME Growth Accelerator. Discovery listings lead to a separate ifcgrants.org domain whose affiliation was not established. Hold; do not import its claimed grant amounts, deadline or application link."
+      ],
+      "unresolved": [
+        "No official IFC corroboration found for the named SME Growth Accelerator. Discovery listings lead to a separate ifcgrants.org domain whose affiliation was not established. Hold; do not import its claimed grant amounts, deadline or application link."
+      ]
+    },
+    {
+      "id": "history-lead-055",
+      "name": "Ma Earth funding rounds",
+      "discoveryUrl": "https://www.maearth.com",
+      "status": "imported",
+      "initialUnresolved": "Identify current round, application route and any nomination requirement.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://maearth.com/fundraise",
+        "https://news.maearth.com/p/applications-for-funding-round-3-close-may-31"
+      ],
+      "programs": [
+        {
+          "fundId": "local-ma-earth",
+          "programId": "ma-earth-round4"
+        }
+      ],
+      "findings": [
+        "Round 4 is announced for April 22, 2027; the project application window is not separately established. Round 3 applications closed May 31, 2026. Do not treat the later donor round as an application deadline."
+      ],
+      "unresolved": [
+        "Round 4 application opening, deadline, selection rules and final matching award"
+      ]
+    },
+    {
+      "id": "history-lead-056",
+      "name": "REA DARES solar grants",
+      "discoveryUrl": "https://rea.gov.ng",
+      "status": "imported",
+      "initialUnresolved": "Distinguish performance-based grants, tenders and implementation partnerships.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://nep.rea.gov.ng/dares.html",
+        "https://www.nep.rea.gov.ng/apply-dares.html",
+        "https://rea.gov.ng/apply",
+        "https://nep.rea.gov.ng/assets/documents/resource-hub/DARES_PIM_Final.pdf"
+      ],
+      "programs": [
+        {
+          "fundId": "local-rea",
+          "programId": "rea-dares"
+        }
+      ],
+      "findings": [
+        "Named mini-grid and standalone solar grant components are corroborated. The DARES registration page offers forms, while REA's central page says applications are not being taken. Confirm component intake before applying."
+      ],
+      "unresolved": [
+        "Current component intake, rates, co-financing, eligibility and deadline"
+      ]
+    },
+    {
+      "id": "history-lead-057",
+      "name": "Solar Power Naija",
+      "discoveryUrl": "https://rea.gov.ng",
+      "status": "imported",
+      "initialUnresolved": "Establish participation and financing conditions; not automatically a grant.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://spn.rea.gov.ng/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-rea",
+          "programId": "solar-power-naija"
+        }
+      ],
+      "findings": [
+        "Official page says upstream and downstream applications are closed. This is loan finance, not a cash grant; terms and credit approval apply."
+      ],
+      "unresolved": [
+        "Next intake, current lending terms and collateral requirements"
+      ]
+    },
+    {
+      "id": "history-lead-058",
+      "name": "All On",
+      "discoveryUrl": "https://www.all-on.com",
+      "status": "imported",
+      "initialUnresolved": "Investment and blended finance require instrument-specific classification.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.all-on.com/offgrid-challenge.html"
+      ],
+      "programs": [
+        {
+          "fundId": "local-all-on",
+          "programId": "all-on-challenge-2026"
+        }
+      ],
+      "findings": [
+        "Official page explicitly says the application window is closed despite retaining an invitation above it."
+      ],
+      "unresolved": [
+        "Exact past cutoff, next intake, investment versus grant structure and detailed eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-059",
+      "name": "Green Finance Investment Facility",
+      "discoveryUrl": "https://rea.gov.ng",
+      "status": "unresolved",
+      "initialUnresolved": "Financing facility, not a verified individual grant; confirm mechanism.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://rea.gov.ng/",
+        "https://www.fcmb.com/"
+      ],
+      "programs": [],
+      "findings": [
+        "Secondary reports describe a Green Finance Investment Facility, but targeted REA and FCMB searches did not establish an official applicant-facing offer or terms. Hold pending primary evidence; reported capitalization is not a grant amount."
+      ],
+      "unresolved": [
+        "Secondary reports describe a Green Finance Investment Facility, but targeted REA and FCMB searches did not establish an official applicant-facing offer or terms. Hold pending primary evidence; reported capitalization is not a grant amount."
+      ]
+    },
+    {
+      "id": "history-lead-060",
+      "name": "Tony Elumelu Foundation Entrepreneurship Programme",
+      "discoveryUrl": "https://www.tonyelumelufoundation.org",
+      "status": "imported",
+      "initialUnresolved": "Confirm current cycle, business age and applicant eligibility.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.tonyelumelufoundation.org/press-releases/apply-tef-entrepreneurship-programme-2026"
+      ],
+      "programs": [
+        {
+          "fundId": "local-tony-elumelu",
+          "programId": "tef-entrepreneurship-2026"
+        }
+      ],
+      "findings": [
+        "The 2026 window ended March 1; the cohort has been announced. Seed capital is non-refundable, with training and mentorship."
+      ],
+      "unresolved": [
+        "Next intake and full business-age, applicant-age and disbursement conditions"
+      ]
+    },
+    {
+      "id": "history-lead-061",
+      "name": "UNDP Nigeria off-grid initiatives",
+      "discoveryUrl": "https://www.undp.org/nigeria",
+      "status": "program-directory",
+      "initialUnresolved": "Program activity is not evidence of an external grant call.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.undp.org/nigeria/projects/national-child-project-under-gef-africa-minigrids-program",
+        "https://rea.gov.ng/wp-content/uploads/2023/07/AMP-ADVERT-2023-V4.pdf"
+      ],
+      "programs": [],
+      "findings": [
+        "Official evidence identifies an ongoing Nigeria Africa Minigrids project, not a current general grant call. A 2023 pilot prequalification notice is indexed but its PDF now returns 404. Hold out of application catalog until a specific accessible call is established."
+      ],
+      "unresolved": [
+        "Official evidence identifies an ongoing Nigeria Africa Minigrids project, not a current general grant call. A 2023 pilot prequalification notice is indexed but its PDF now returns 404. Hold out of application catalog until a specific accessible call is established."
+      ]
+    },
+    {
+      "id": "history-lead-062",
+      "name": "Acumen Green RISE West Africa Fellowship",
+      "discoveryUrl": "https://acumenacademy.org",
+      "status": "non-cash-program",
+      "initialUnresolved": "Check geographic and leadership requirements and next cycle.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://fellowship.acumenacademy.org/green-rise-west-africa-fellowship-2026"
+      ],
+      "programs": [],
+      "findings": [
+        "Official fellowship says no funding is provided as part of the program. Tuition/support and a separate possible later Angels application do not constitute an awarded grant. 2026 applications closed May 11; Acumen is already represented."
+      ],
+      "unresolved": [
+        "Official fellowship says no funding is provided as part of the program. Tuition/support and a separate possible later Angels application do not constitute an awarded grant. 2026 applications closed May 11; Acumen is already represented."
+      ]
+    },
+    {
+      "id": "history-lead-063",
+      "name": "Shell Foundation ClimaFii accelerator",
+      "discoveryUrl": "https://shellfoundation.org",
+      "status": "imported",
+      "initialUnresolved": "Verify delivery partners, current intake and instrument.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://shellfoundation.org/press-release/shell-foundation-and-accion-open-applications-for-climafii-alliance-second-cohort/",
+        "https://bfaglobal.com/climafii/insights/climafii-alliance-announces-second-cohort-deploying-productive-use-energy-and-electric-mobility-solutions-for-microenterprises-in-africa/"
+      ],
+      "programs": [
+        {
+          "fundId": "reccZG8TtBrCwLG7R",
+          "programId": "climafii-africa-cohort2"
+        }
+      ],
+      "findings": [
+        "Implementing partner announced the selected second Africa cohort on April 30, 2026. That cohort is closed; no subsequent intake was established."
+      ],
+      "unresolved": [
+        "Next intake, exact past deadline and financing/eligibility terms"
+      ]
+    },
+    {
+      "id": "history-lead-064",
+      "name": "GET.invest Finance Catalyst",
+      "discoveryUrl": "https://www.get-invest.eu",
+      "status": "non-cash-program",
+      "initialUnresolved": "Advisory support is distinct from cash grants.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.get-invest.eu/finance-access-advisory/"
+      ],
+      "programs": [],
+      "findings": [
+        "Finance Catalyst is financing advisory support, not a direct cash grant. Keep as a funding-readiness resource; no cash award imported."
+      ],
+      "unresolved": [
+        "Finance Catalyst is financing advisory support, not a direct cash grant. Keep as a funding-readiness resource; no cash award imported."
+      ]
+    },
+    {
+      "id": "history-lead-065",
+      "name": "EEP Africa",
+      "discoveryUrl": "https://eepafrica.org",
+      "status": "imported",
+      "initialUnresolved": "Verify country coverage and current call requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://eepafrica.org/call-for-proposals/",
+        "https://eepafrica.org/documents/EEP-Africa-CfP2026-Guidelines_FINAL.pdf"
+      ],
+      "programs": [
+        {
+          "fundId": "local-eep-africa",
+          "programId": "eep-africa-2026"
+        }
+      ],
+      "findings": [
+        "2026 call closed. The March EOI was the initial intake; later full-proposal dates were for shortlisted applicants only. NGOs, charities, research and government institutions may partner but cannot lead."
+      ],
+      "unresolved": [
+        "Next call and project-specific repayability"
+      ]
+    },
+    {
+      "id": "history-lead-066",
+      "name": "Segal African Visionary Fellowship",
+      "discoveryUrl": "https://www.segalfamilyfoundation.org",
+      "status": "non-cash-program",
+      "initialUnresolved": "Existing funder; distinguish invitation or partner-only access.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.segalfamilyfoundation.org/our-partners/african-visionary-fellowship/",
+        "https://www.segalfamilyfoundation.org/who-we-are/faq/"
+      ],
+      "programs": [],
+      "findings": [
+        "African Visionary Fellowship selects from existing Segal grantees and provides capacity, mentorship and connections. No separate cash award or open application established. Segal's grant program is already represented."
+      ],
+      "unresolved": [
+        "African Visionary Fellowship selects from existing Segal grantees and provides capacity, mentorship and connections. No separate cash award or open application established. Segal's grant program is already represented."
+      ]
+    },
+    {
+      "id": "history-lead-067",
+      "name": "California Arts Council General Operating Support",
+      "discoveryUrl": "https://arts.ca.gov",
+      "status": "imported",
+      "initialUnresolved": "Verify cycle and arts-organization eligibility.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://arts.ca.gov/wp-content/uploads/2026/03/2026_genops_guidelines.pdf"
+      ],
+      "programs": [
+        {
+          "fundId": "local-california-arts-council",
+          "programId": "cac-general-operations-2026"
+        }
+      ],
+      "findings": [
+        "Closed 2026 intake. Grant activity through September 2027 is not an open application period. Individuals, for-profits, schools and state/federal agencies are excluded."
+      ],
+      "unresolved": [
+        "Next round; fiscal sponsor documentation and complete expense restrictions"
+      ]
+    },
+    {
+      "id": "history-lead-068",
+      "name": "California Arts Council Arts and Youth",
+      "discoveryUrl": "https://arts.ca.gov",
+      "status": "imported",
+      "initialUnresolved": "Separate program and closed historical deadlines.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://arts.ca.gov/grant_program/arts-youth/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-california-arts-council",
+          "programId": "cac-arts-youth-2026"
+        }
+      ],
+      "findings": [
+        "2026 intake closed; no matching funds required. Individuals, for-profits, schools, school districts, PTAs and state/federal agencies cannot apply."
+      ],
+      "unresolved": [
+        "Next round and full fiscal sponsor/expense rules"
+      ]
+    },
+    {
+      "id": "history-lead-069",
+      "name": "California Arts Council Impact Projects",
+      "discoveryUrl": "https://arts.ca.gov",
+      "status": "imported",
+      "initialUnresolved": "Verify current program and budget conditions.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://arts.ca.gov/grant_program/impact-projects/",
+        "https://arts.ca.gov/2026_impactprojects_guidelines"
+      ],
+      "programs": [
+        {
+          "fundId": "local-california-arts-council",
+          "programId": "cac-impact-projects-2026"
+        }
+      ],
+      "findings": [
+        "The 2026 intake is closed. Youth arts education belongs in Arts and Youth; grant activity dates do not reopen applications."
+      ],
+      "unresolved": [
+        "Next round and full fiscal sponsor/expense rules"
+      ]
+    },
+    {
+      "id": "history-lead-070",
+      "name": "ACTA Apprenticeship Program",
+      "discoveryUrl": "https://www.actaonline.org",
+      "status": "imported",
+      "initialUnresolved": "Existing ACTA identity; distinct from Living Cultures.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://actaonline.org/program/apprenticeships/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-acta",
+          "programId": "acta-apprenticeship-2026"
+        }
+      ],
+      "findings": [
+        "2026 recipients are already listed and activity began July 1. No next intake established. Some older exclusion text still names 2024 participants; recheck repeat-applicant rules."
+      ],
+      "unresolved": [
+        "Next intake, past cutoff and updated repeat-participation exclusions"
+      ]
+    },
+    {
+      "id": "history-lead-071",
+      "name": "LA DCA NEAR and CO-UP",
+      "discoveryUrl": "https://culturela.org",
+      "status": "imported",
+      "initialUnresolved": "Confirm each 2027–28 program and applicant route separately.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://culture.lacity.gov/grants/near-co-op"
+      ],
+      "programs": [
+        {
+          "fundId": "local-la-city-cultural-affairs",
+          "programId": "la-near-2027-28"
+        },
+        {
+          "fundId": "local-la-city-cultural-affairs",
+          "programId": "la-co-up-2027-28"
+        }
+      ],
+      "findings": [
+        "October 30, 11:59 pm; timezone not explicit. Reimbursement contract, subject to city budget.",
+        "October 30, 11:59 pm; timezone unstated. Reimbursement: $12,000 artist/$3,000 administration; budget contingent."
+      ],
+      "unresolved": [
+        "Cutoff timezone; venue exceptions and complete contract exclusions",
+        "County versus City headquarters conflict, cutoff timezone and contract exclusions"
+      ]
+    },
+    {
+      "id": "history-lead-072",
+      "name": "LA DCA Outdoor Festivals and Parades",
+      "discoveryUrl": "https://culturela.org",
+      "status": "imported",
+      "initialUnresolved": "Future-cycle lead; do not invent an application date.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://culture.lacity.gov/grants/cultural-grant-program-org",
+        "https://culture.lacity.gov/grants"
+      ],
+      "programs": [
+        {
+          "fundId": "local-la-city-cultural-affairs",
+          "programId": "la-outdoor-festivals-2027-28"
+        }
+      ],
+      "findings": [
+        "2027–28 program intake closed August 28, 2026; project-year label is not a future application date."
+      ],
+      "unresolved": [
+        "Next intake and category-specific documentation"
+      ]
+    },
+    {
+      "id": "history-lead-073",
+      "name": "LA DCA Public-Space Activation Fund",
+      "discoveryUrl": "https://culturela.org",
+      "status": "imported",
+      "initialUnresolved": "Confirm current call and project-location rules.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://dcaredesign.org/artsactivate/",
+        "https://culture.lacity.gov/grants"
+      ],
+      "programs": [
+        {
+          "fundId": "local-la-city-cultural-affairs",
+          "programId": "la-public-space-activation"
+        }
+      ],
+      "findings": [
+        "Conflicting official pages: redesigned page says preparing to reopen for 2025–26 while also saying open; city index retains a July 2024 deadline. No current intake confirmed."
+      ],
+      "unresolved": [
+        "Current intake, current ceiling, exact eligibility and sponsorship terms"
+      ]
+    },
+    {
+      "id": "history-lead-074",
+      "name": "CNRA Youth Community Access",
+      "discoveryUrl": "https://resources.ca.gov",
+      "status": "imported",
+      "initialUnresolved": "Verify Round 4 status and eligible youth/outdoor activities.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://water.ca.gov/CNRAHome/grants/youth",
+        "https://raptr.resources.ca.gov/GrantDefinitions/PublicIndex"
+      ],
+      "programs": [
+        {
+          "fundId": "local-california-natural-resources",
+          "programId": "cnra-youth-access-round4"
+        }
+      ],
+      "findings": [
+        "Concepts due November 4, 2026; source says midnight without an explicit timezone. January invitations and March 2027 full proposals are later stages. Source indexed successfully; direct retrieval subsequently returned 403."
+      ],
+      "unresolved": [
+        "Award bounds, exact cutoff timezone, age definitions and detailed eligible costs"
+      ]
+    },
+    {
+      "id": "history-lead-075",
+      "name": "Walmart Spark Good Local Grants",
+      "discoveryUrl": "https://walmart.org",
+      "status": "imported",
+      "initialUnresolved": "Verify cycle, charitable validation and facility geography.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.walmart.org/sg/Join-Spark-Good/program/local-grants",
+        "https://www.walmart.org/what-we-do/strengthening-community/spark-good/spark-good-facility-giving",
+        "https://www.walmart.org/content/walmart-org/en_us/how-we-give/grant-eligibility.html"
+      ],
+      "programs": [
+        {
+          "fundId": "local-walmart",
+          "programId": "walmart-spark-good-cycle3-2026"
+        }
+      ],
+      "findings": [
+        "FY27 cycle 3 corresponds to the calendar-2026 grant year. Electronic payment setup and nondiscrimination/reputation rules apply."
+      ],
+      "unresolved": [
+        "Cutoff timezone, local facility decisions and organization-specific verification"
+      ]
+    },
+    {
+      "id": "history-lead-076",
+      "name": "LA Neighborhood Purposes Grants",
+      "discoveryUrl": "https://clerk.lacity.gov",
+      "status": "imported",
+      "initialUnresolved": "Council-specific budgets and charitable eligibility need review.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://clerk.lacity.gov/neighborhood-council-elections-and-funding/neighborhood-council-funding/documents-and-forms-page",
+        "https://clerk.lacity.gov/sites/g/files/wph1491/files/2021-02/NPG%20NC%20Information%20Packet%2002-2018.pdf",
+        "https://wattsnc.org/funding/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-la-neighborhood-councils",
+          "programId": "la-neighborhood-purposes"
+        }
+      ],
+      "findings": [
+        "Apply through the relevant council. Local meeting deadlines and budget availability vary; this is not a single citywide open round."
+      ],
+      "unresolved": [
+        "Council-specific budget, timing, contract thresholds and applicant eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-077",
+      "name": "US Bank Community Possible",
+      "discoveryUrl": "https://www.usbank.com/about-us-bank/community.html",
+      "status": "imported",
+      "initialUnresolved": "Verify Play track and eligible service-area locations.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.usbank.com/about-us-bank/community/community-possible-grant-program.html"
+      ],
+      "programs": [
+        {
+          "fundId": "local-us-bank",
+          "programId": "usbank-community-possible"
+        }
+      ],
+      "findings": [
+        "New organizations may submit an LOI year-round. Existing partners apply annually by invitation. Operating support requires the organization's whole mission to fit."
+      ],
+      "unresolved": [
+        "Award range, geographic market fit and invitation timing"
+      ]
+    },
+    {
+      "id": "history-lead-078",
+      "name": "Society for Science STEM Action Grants",
+      "discoveryUrl": "https://www.societyforscience.org",
+      "status": "imported",
+      "initialUnresolved": "Verify 2027 call and nonprofit eligibility.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.societyforscience.org/stem-outreach-programs/stem-action-grants/",
+        "https://www.societyforscience.org/stem-outreach-programs/stem-action-grants/about/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-society-for-science",
+          "programId": "stem-action-2026"
+        },
+        {
+          "fundId": "local-society-for-science",
+          "programId": "stem-action-2027"
+        }
+      ],
+      "findings": [
+        "2026 recipients selected. Teachers should use the separate STEM Research program.",
+        "Official page announces December 2026 opening, without a day or closing date. 2026 terms are retained in the separate closed program; do not assume unchanged 2027 rules."
+      ],
+      "unresolved": [
+        "Detailed geographic and sponsorship rules",
+        "Exact opening, closing date, award and 2027 eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-079",
+      "name": "LA2050 Grants Challenge",
+      "discoveryUrl": "https://la2050.org",
+      "status": "imported",
+      "initialUnresolved": "Verify 2027 call; prior stage deadlines stay historical.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://la2050.org/grants-challenge/welcome"
+      ],
+      "programs": [
+        {
+          "fundId": "local-goldhirsh",
+          "programId": "la2050-2026"
+        }
+      ],
+      "findings": [
+        "Initial screening closed April 22; invited proposals closed June 5. October is award notification, not an intake deadline."
+      ],
+      "unresolved": [
+        "Next intake, applicant legal-status criteria and award bounds"
+      ]
+    },
+    {
+      "id": "history-lead-080",
+      "name": "NEA Grants for Arts Projects",
+      "discoveryUrl": "https://www.arts.gov",
+      "status": "imported",
+      "initialUnresolved": "Verify fiscal-year cycle, application stages and charitable requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.arts.gov/grants/grants-for-arts-projects"
+      ],
+      "programs": [
+        {
+          "fundId": "local-nea",
+          "programId": "nea-arts-projects-july2026"
+        }
+      ],
+      "findings": [
+        "Part 1 closed July 9, 11:59 pm Eastern; Part 2 closed July 21. Individuals, for-profits, fiscal sponsor applications and state/regional arts agencies excluded."
+      ],
+      "unresolved": [
+        "Next cycle and discipline-specific rules"
+      ]
+    },
+    {
+      "id": "history-lead-081",
+      "name": "NEH Public Humanities Projects",
+      "discoveryUrl": "https://www.neh.gov",
+      "status": "imported",
+      "initialUnresolved": "Verify deadline, program status and humanities eligibility.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.neh.gov/grants/public/public-humanities-projects",
+        "https://www.neh.gov/sites/default/files/2026-10/Public%20Humanities%20Projects%202026%20NOFO.pdf"
+      ],
+      "programs": [
+        {
+          "fundId": "local-neh",
+          "programId": "neh-public-humanities-dec2026"
+        }
+      ],
+      "findings": [
+        "Deadline December 16, 11:59 pm Eastern. Follow the amended NOFO; the opportunity number still contains December 9. NOFO project start begins November 2027 while overview says October."
+      ],
+      "unresolved": [
+        "Project-start discrepancy, fiscal sponsorship and category-specific limitations"
+      ]
+    },
+    {
+      "id": "history-lead-082",
+      "name": "California Humanities Humanities for All",
+      "discoveryUrl": "https://calhum.org",
+      "status": "imported",
+      "initialUnresolved": "Verify program continuity, stage and current applicant terms.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://calhum.org/humanities-for-all/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-california-humanities",
+          "programId": "humanities-for-all-projects"
+        }
+      ],
+      "findings": [
+        "Program page explicitly suspends cycles until further notice. Reinstated funding supports existing commitments; generic portal calendar is not evidence of reopening."
+      ],
+      "unresolved": [
+        "Reopening and revised terms"
+      ]
+    },
+    {
+      "id": "history-lead-083",
+      "name": "CPUC CEA-LAT",
+      "discoveryUrl": "https://www.cpuc.ca.gov",
+      "status": "imported",
+      "initialUnresolved": "Historical Round 2 lead; confirm current eligibility and cycle.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.cpuc.ca.gov/capacitygrants"
+      ],
+      "programs": [
+        {
+          "fundId": "local-cpuc",
+          "programId": "cpuc-cea-lat-round3"
+        }
+      ],
+      "findings": [
+        "Restricted third cycle closes October 30 at 11:59 pm; source does not state timezone."
+      ],
+      "unresolved": [
+        "Cutoff timezone, per-award ceiling and full legal-status/cost rules"
+      ]
+    },
+    {
+      "id": "history-lead-084",
+      "name": "LA County Economic Opportunity Grant",
+      "discoveryUrl": "https://opportunity.lacounty.gov",
+      "status": "imported",
+      "initialUnresolved": "Verify current round and small-business/nonprofit conditions.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://opportunity.lacounty.gov/eog/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-la-economic-opportunity",
+          "programId": "la-economic-opportunity-grant"
+        }
+      ],
+      "findings": [
+        "County explicitly reports EOG closed across its completed phases. Old launch announcements and application guides do not establish current access."
+      ],
+      "unresolved": [
+        "Any successor call and phase-specific historical eligibility"
+      ]
+    },
+    {
+      "id": "history-lead-085",
+      "name": "Edge City SHIFT Grants",
+      "discoveryUrl": "https://www.shiftgrants.org",
+      "status": "imported",
+      "initialUnresolved": "No new round verified; retain as watchlist.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.shiftgrants.org/_files/ugd/213a1a_789ee644a7d9479a98b3992620f9fc5a.pdf",
+        "https://www.shiftgrants.org/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-shift",
+          "programId": "shift-round001"
+        }
+      ],
+      "findings": [
+        "Published call is round 001 from 2025. Cohorts 001 and 002 are showcased; no new intake established despite an old Apply link."
+      ],
+      "unresolved": [
+        "Next intake, award tiers and binding reciprocity terms"
+      ]
+    },
+    {
+      "id": "history-lead-086",
+      "name": "Blockchain for Good Alliance Awards",
+      "discoveryUrl": "https://chainforgood.org",
+      "status": "imported",
+      "initialUnresolved": "Verify a dated current award cycle.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.chainforgood.org/oscar",
+        "https://chainforgood.org/bga-impact-report-2025.pdf"
+      ],
+      "programs": [
+        {
+          "fundId": "local-blockchain-for-good",
+          "programId": "bga-sdgs-challenge-2024"
+        }
+      ],
+      "findings": [
+        "The award application page is a historical 2024 event. Its submission-update deadline is not a verified initial application deadline. 2025 impact report confirms later awards but no current award call."
+      ],
+      "unresolved": [
+        "Next awards intake, per-winner amounts and detailed participation terms"
+      ]
+    },
+    {
+      "id": "history-lead-087",
+      "name": "Mercy Corps Ventures / Prosper",
+      "discoveryUrl": "https://www.mercycorpsventures.com/climate-lab",
+      "status": "imported",
+      "initialUnresolved": "Resolve successor organization and distinguish venture investment from grant funding.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.prosperglobalventures.com/blog/call-for-proposals-tech-solutions-for-climate-resilience-in-colombia",
+        "https://www.mercycorpsventures.com/climate-lab"
+      ],
+      "programs": [
+        {
+          "fundId": "local-prosper-ventures",
+          "programId": "prosper-climate-colombia-2026"
+        }
+      ],
+      "findings": [
+        "Closed February 9, 2026, 9 pm Colombia time. Spanish or English submissions. Former Mercy Corps Ventures site redirects to Prosper; same program identity retained."
+      ],
+      "unresolved": [
+        "Next call and award currency"
+      ]
+    },
+    {
+      "id": "history-lead-088",
+      "name": "Rocket Pool GMC",
+      "discoveryUrl": "https://dao.rocketpool.net",
+      "status": "imported",
+      "initialUnresolved": "Verify current round and protocol contribution scope.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://dao.rocketpool.net/t/round-42-gmc-call-for-grant-applications-deadline-is-november-7/4070",
+        "https://rocketpool.net/governance/grants-management-committee"
+      ],
+      "programs": [
+        {
+          "fundId": "local-rocket-pool",
+          "programId": "rocket-pool-gmc-round42"
+        }
+      ],
+      "findings": [
+        "November 7, 23:59 UTC deadline. Late submissions move to the next period. Bounties and retrospective awards use separate threads."
+      ],
+      "unresolved": [
+        "Award size, payment asset and contract terms"
+      ]
+    },
+    {
+      "id": "history-lead-089",
+      "name": "ROGEAP catalytic grants",
+      "discoveryUrl": "https://www.ecowas.int",
+      "status": "imported",
+      "initialUnresolved": "Find official call and eligible off-grid enterprise countries.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://rogeappfm.com/Publicity/ROGEAP-4th-call-CTF-en.pdf",
+        "https://ecowas.rogeap.org/en/grant-application-form/",
+        "https://rogeappfm.com/index.php"
+      ],
+      "programs": [
+        {
+          "fundId": "local-rogeap",
+          "programId": "rogeap-ctf-round4"
+        }
+      ],
+      "findings": [
+        "May 2026 CTF notice corroborated; its cutoff could not be recovered after subsequent retrieval failures. Separate fifth DGIS Mauritania call closed October 1 despite remaining under Open Calls."
+      ],
+      "unresolved": [
+        "CTF intake status, cutoff, legal eligibility, denomination and current grant windows"
+      ]
+    },
+    {
+      "id": "history-lead-090",
+      "name": "Shutter Champions",
+      "discoveryUrl": "https://www.shutter.network",
+      "status": "imported",
+      "initialUnresolved": "Historical round; verify current mechanism and eligibility.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://blog.shutter.network/shutter-champions-melee-2/"
+      ],
+      "programs": [
+        {
+          "fundId": "local-shutter",
+          "programId": "shutter-champions-melee2"
+        }
+      ],
+      "findings": [
+        "June 16–30 was the slate proposal period; July voting dates are not applications. Token purchase/holding requirements concern voters, not general grant eligibility."
+      ],
+      "unresolved": [
+        "Next round, final allocations and recipient terms"
+      ]
+    },
+    {
+      "id": "history-lead-091",
+      "name": "Optimism Growth Grants",
+      "discoveryUrl": "https://gov.optimism.io",
+      "status": "imported",
+      "initialUnresolved": "Separate seasons and deployment or growth conditions.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://atlas.optimism.io/missions/growth-grants"
+      ],
+      "programs": [
+        {
+          "fundId": "local-optimism",
+          "programId": "optimism-growth-season9"
+        }
+      ],
+      "findings": [
+        "Official program page is closed and says Atlas would be discontinued September 18, 2026. No successor intake verified."
+      ],
+      "unresolved": [
+        "Successor platform, next round, award cap and payment conditions"
+      ]
+    },
+    {
+      "id": "history-lead-092",
+      "name": "DOE SBIR/STTR",
+      "discoveryUrl": "https://science.osti.gov/sbir",
+      "status": "imported",
+      "initialUnresolved": "Historical deadline; confirm US small-business and topic requirements.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.energy.gov/technologycommercialization/doe-small-business-innovation-research-sbir-and-small-business",
+        "https://science.osti.gov/sbir/Funding-Opportunities"
+      ],
+      "programs": [
+        {
+          "fundId": "local-us-doe",
+          "programId": "doe-sbir-genesis-2026"
+        },
+        {
+          "fundId": "local-us-doe",
+          "programId": "doe-sbir-phase1-future"
+        }
+      ],
+      "findings": [
+        "Now administered by OTC; the Genesis Phase I call is explicitly closed. Phase II access is for eligible prior awardees contacted directly.",
+        "OTC expects a broader Phase I opportunity later in fall 2026. No dated opening, deadline or finalized terms verified; this is conditional future access."
+      ],
+      "unresolved": [
+        "Exact prior cutoff, award bounds and topic-specific eligibility",
+        "Published solicitation, opening, deadline, topics and awards"
+      ]
+    },
+    {
+      "id": "history-lead-093",
+      "name": "Africa Climate Change Fund",
+      "discoveryUrl": "https://www.afdb.org",
+      "status": "imported",
+      "initialUnresolved": "Verify current call and applicant eligibility.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://afdb.smapply.org/prog/africa_climate_change_fund_fourth_call_for_proposals/",
+        "https://afdb.smapply.org/prog/lst/",
+        "https://accf.afdb.org/en/news/fourth-call-proposals-key-updates"
+      ],
+      "programs": [
+        {
+          "fundId": "local-afdb-accf",
+          "programId": "accf-call4"
+        }
+      ],
+      "findings": [
+        "Official portal lists the fourth call ending November 29, 2024. Subsequent evaluation updates do not reopen intake."
+      ],
+      "unresolved": [
+        "Next call, detailed NGO/CBO registration requirements and project-specific cost terms"
+      ]
+    },
+    {
+      "id": "history-lead-094",
+      "name": "Sovereign Tech Fund",
+      "discoveryUrl": "https://www.sovereign.tech",
+      "status": "imported",
+      "initialUnresolved": "Review current application route and duplicate-funding restrictions.",
+      "attemptedOn": "2026-10-29",
+      "officialSources": [
+        "https://www.sovereign.tech/programs/fund"
+      ],
+      "programs": [
+        {
+          "fundId": "local-sovereign-tech",
+          "programId": "sovereign-tech-fund"
+        }
+      ],
+      "findings": [
+        "Official application route is available without a stated round cutoff; allow about six months through review and contracting. Described as investment/work commissions; not assumed equity funding or an unrestricted charitable grant."
+      ],
+      "unresolved": [
+        "Award size, detailed contract/payment structure and fiscal sponsorship"
+      ]
+    }
+  ],
+  "verificationSummary": {
+    "checkedOn": "2026-10-29",
+    "baselineCommit": "8063e1d34329b7dd628dae9f70fa576607d48499",
+    "leadsReviewed": 94,
+    "leadsImported": 81,
+    "programsAdded": 87,
+    "fundersAdded": 64,
+    "existingFundersPreserved": 630,
+    "dispositions": {
+      "not-a-grant": 1,
+      "imported": 81,
+      "program-directory": 4,
+      "unresolved": 4,
+      "non-cash-program": 4
+    },
+    "limit": "Verification attempts cover all 94 queued leads, not every historical source or every eligibility clause. Unsupported calls stay outside the catalog; partial evidence and retrieval failures remain explicit."
+  }
 }
