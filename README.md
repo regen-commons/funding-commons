@@ -6,6 +6,14 @@ Site: https://funding-commons.vercel.app
 
 Publication status: public on Vercel since October 16, 2026. The OpenAI Site registered in `.openai/hosting.json` was never deployed.
 
+## Current review branch: maintenance and deadline pulse
+
+The proposed catalog contains **630 funders**. Twelve historical leads have been checked against public official sources and added, while all 618 prior funder objects remain exactly preserved. `research/history-import-baseline.json` records their hashes and tests enforce preservation. The search index contains 675 program/overview documents.
+
+The funding pulse shows sourced available program windows closing within two or three weeks. It separates inquiry and partner routes, labels unverified cutoff times, excludes closed/conditional/unconfirmed calls, and opens the exact program's terms. It refreshes as dates pass. Catalog availability is not a personal eligibility decision.
+
+[Maintenance workflow](docs/maintenance.md) documents Monday discovery and Thursday freshness reviews through draft PRs. [Historical intake](research/history-intake.json) retains 94 pending program leads separately from the 12 additions; discovery pointers do not establish current terms. Private research captures are kept outside the repository. No merge or production deployment is included in this work.
+
 ## First October 29 import
 
 The first import brought the local catalog to 603 funders: all 593 original records plus ten approved priority additions (NLnet, ARDC, Cisco, D-Prize, Whitley, Rufford, CFH, Mozilla, ACTA and IKI). Their original funder objects are unchanged. The supplemental manifest preserves official evidence and research context; the public records retain unknowns, historical amounts, ACTA’s closed round and IKI’s conditional future call. New manual prerequisite questions keep eligibility separate from thematic fit. This local import has not been deployed.
@@ -14,7 +22,7 @@ Validation: build and 95 tests passed; all 593 pre-import funder objects compare
 
 ## Remaining October 29 programs
 
-The catalog now contains 618 funders after importing the remaining 20 program entries: 15 new funders, additional Mozilla and LA County tracks, and three programs appended to Internet Society Foundation and Open Technology Fund. All prior identities and program revisions remain intact. The supplemental manifest keeps additions to original funders separate from immutable source research. Closed rounds, historical amounts, conditional future calls and unresolved terms retain their labels. Unknown dollar currencies remain null in canonical award bounds. This local expansion has not been deployed.
+That import brought the catalog to 618 funders by adding the remaining 20 program entries: 15 new funders, additional Mozilla and LA County tracks, and three programs appended to Internet Society Foundation and Open Technology Fund. All prior identities and program revisions remain intact. The supplemental manifest keeps additions to original funders separate from immutable source research. Closed rounds, historical amounts, conditional future calls and unresolved terms retain their labels. Unknown dollar currencies remain null in canonical award bounds. This local expansion has not been deployed.
 
 Validation: build and all 98 tests passed. All 603 prior IDs, programs and source revisions are retained; 600 full funder objects are unchanged, with only Mozilla, Internet Society Foundation and Open Technology Fund receiving appended programs. Browser checks confirmed 618 funds, Nigeria ICCA’s unconfirmed intake and the original Internet Society program alongside both closed connectivity tracks. The index contains 663 program/overview documents.
 

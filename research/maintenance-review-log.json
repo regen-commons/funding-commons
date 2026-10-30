@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "fundId": "local-github-secure-oss",
+      "programId": "github-secure-oss",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://github.com/open-source/github-secure-open-source-fund"
+      ],
+      "nextReviewOn": "2026-11-26",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-floss-fund",
+      "programId": "floss-fund",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://floss.fund/faq/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-geode-labs",
+      "programId": "geode-labs",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://geode.build/apply"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-ty-danjuma",
+      "programId": "ty-danjuma",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://tydanjumafoundation.org/grantmaking/discretionary-grants/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-emergent-ventures",
+      "programId": "emergent-ventures",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.mercatus.org/emergent-ventures"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-fid",
+      "programId": "fid",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://fundinnovation.dev/en/launch-project",
+        "https://fundinnovation.dev/en/approach"
+      ],
+      "nextReviewOn": "2026-11-26",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-interledger",
+      "programId": "interledger",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://interledger.org/grant/fellowship/"
+      ],
+      "nextReviewOn": "2026-11-26",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-zero-foodprint",
+      "programId": "zero-foodprint",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.zerofoodprint.org/apply",
+        "https://drive.google.com/file/d/1hXD6faJRzOoUKe5kexyv9l1G2tl5-IOa/view"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-lido-lego",
+      "programId": "lido-lego",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://lido.fi/lego"
+      ],
+      "nextReviewOn": "2026-11-26",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-obol",
+      "programId": "obol",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://docs.obol.org/community-and-governance/community/grants-program",
+        "https://blog.obol.org/the-obol-grants-program-is-now-live/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-ssv",
+      "programId": "ssv",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "partial",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://ssv.network/get-funded"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-gooddollar",
+      "programId": "gooddollar",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "partial",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    }
+  ]
+}

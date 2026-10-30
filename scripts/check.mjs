@@ -6,6 +6,7 @@ const root = fileURLToPath(new URL("../", import.meta.url));
 for (const f of [
   "dist/app.js",
   "dist/domain.mjs",
+  "dist/deadlines.mjs",
   "dist/storage.mjs",
   "dist/matching.mjs",
   "dist/matching-client.mjs",
@@ -27,6 +28,7 @@ for (const f of [
   "styles.css",
   "app.js",
   "domain.mjs",
+  "deadlines.mjs",
   "storage.mjs",
   "matching.mjs",
   "matching-client.mjs",

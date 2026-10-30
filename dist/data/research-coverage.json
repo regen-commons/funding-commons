@@ -1,22 +1,22 @@
 {
   "version": 1,
   "checkedOn": "2026-10-29",
-  "recordCount": 618,
+  "recordCount": 630,
   "baselineCount": 593,
   "researchCounts": {
     "not_a_funder": 18,
-    "program_reviewed": 577,
+    "program_reviewed": 589,
     "source_reviewed": 14,
     "unresolved": 9
   },
   "fieldCoverage": {
-    "focus": 606,
-    "eligibility": 519,
-    "numericAward": 164,
-    "currentNumericAward": 76,
-    "datedDeadline": 155,
-    "upcomingDatedDeadline": 28,
-    "applicationRoute": 480
+    "focus": 618,
+    "eligibility": 531,
+    "numericAward": 166,
+    "currentNumericAward": 78,
+    "datedDeadline": 156,
+    "upcomingDatedDeadline": 29,
+    "applicationRoute": 490
   },
   "sourceWarningCount": 5,
   "records": [
@@ -21753,10 +21753,265 @@
         "https://www.lacountyarts.org/funding/organizational-grant-program/ogp-grantseekers/apply/ogp-grantseekers-calculator-explained"
       ],
       "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-github-secure-oss",
+      "name": "GitHub",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://github.com/open-source/github-secure-open-source-fund"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-floss-fund",
+      "name": "FLOSS/fund",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://floss.fund/faq/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-geode-labs",
+      "name": "Geode Labs",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://geode.build/apply"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-ty-danjuma",
+      "name": "TY Danjuma Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://tydanjumafoundation.org/grantmaking/discretionary-grants/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-emergent-ventures",
+      "name": "Mercatus Center",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.mercatus.org/emergent-ventures"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-fid",
+      "name": "Fund for Innovation in Development",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://fundinnovation.dev/en/launch-project",
+        "https://fundinnovation.dev/en/approach"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-interledger",
+      "name": "Interledger Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://interledger.org/grant/fellowship/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-zero-foodprint",
+      "name": "Zero Foodprint",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.zerofoodprint.org/apply",
+        "https://drive.google.com/file/d/1hXD6faJRzOoUKe5kexyv9l1G2tl5-IOa/view"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-lido-lego",
+      "name": "Lido Ecosystem Grants Organization",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://lido.fi/lego"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-obol",
+      "name": "Obol Collective",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://docs.obol.org/community-and-governance/community/grants-program",
+        "https://blog.obol.org/the-obol-grants-program-is-now-live/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-ssv",
+      "name": "SSV Network",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": false
+      },
+      "sources": [
+        "https://ssv.network/get-funded"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-gooddollar",
+      "name": "GoodDollar",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": false
+      },
+      "sources": [
+        "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d"
+      ],
+      "retrievals": []
     }
   ],
   "notes": "All original and supplemental records have a research disposition. Source overviews, program terms and failed/unresolved checks are distinct. Unknown terms remain unknown. Retrieval entries describe collection, not a claim that terms were verified. Original30 pilot reviews were retained from October14; expanded research was checked October15.",
-  "compiledAt": "2026-10-30T02:00:45.705160+00:00",
+  "compiledAt": "2026-10-30T02:03:37.697630+00:00",
   "fieldDefinitions": {
     "currentNumericAward": "A numeric amount in published program terms, even if that intake is closed; not a promise of current availability.",
     "datedDeadline": "At least one source closing date, including historical or closed calls.",

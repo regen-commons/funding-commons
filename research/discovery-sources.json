@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "checkedOn": "2026-10-29",
+  "sources": [
+    {
+      "name": "Grants.gov",
+      "url": "https://www.grants.gov/",
+      "role": "official-call-directory",
+      "scope": "US federal grants",
+      "result": "reachable"
+    },
+    {
+      "name": "California Grants Portal",
+      "url": "https://www.grants.ca.gov/",
+      "role": "official-call-directory",
+      "scope": "California grants and loans; distinguish instruments",
+      "result": "reachable"
+    },
+    {
+      "name": "Terra Viva Grants",
+      "url": "https://www.terravivagrants.org/",
+      "role": "discovery-only",
+      "scope": "Agriculture, energy, environment and developing countries",
+      "result": "reachable"
+    },
+    {
+      "name": "FundsforNGOs",
+      "url": "https://www.fundsforngos.org/",
+      "role": "discovery-only",
+      "scope": "NGO calls; corroborate on official sources",
+      "result": "fetch-blocked-403"
+    }
+  ],
+  "directSources": "Use official sources in the catalog and historical intake queue. Rotate categories and regions; record failures and skipped coverage, and verify each new program at its owner."
+}

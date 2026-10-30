@@ -4866,6 +4866,1884 @@
           "relatedEntities": []
         }
       ]
+    },
+    {
+      "fund": {
+        "id": "local-github-secure-oss",
+        "name": "GitHub",
+        "displayName": "GitHub",
+        "program": "",
+        "description": "Security support and maintainer funding for established open-source projects.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Open source",
+          "Software security"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://github.com/open-source/github-secure-open-source-fund",
+        "evidenceUrl": "https://github.com/open-source/github-secure-open-source-fund",
+        "additionalSources": [],
+        "sourceUrl": "https://github.com/open-source/github-secure-open-source-fund",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "github-secure-oss",
+          "upstreamRecordId": null,
+          "aliases": "GitHub"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-github-secure-oss",
+        "researchedOn": "2026-10-29",
+        "name": "GitHub",
+        "summary": "Security support and maintainer funding for established open-source projects.",
+        "themes": [
+          "Open source",
+          "Software security"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "github-secure-oss",
+            "name": "Secure Open Source Fund",
+            "instrument": "grant",
+            "focus": [
+              "Open source",
+              "Software security"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [],
+              "applicantCountries": [],
+              "scope": "GitHub Sponsors-supported regions; confirm the applicant location.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Individuals",
+                "Small teams"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Maintainers aged 18+ in a GitHub Sponsors-supported region, with an active GitHub profile; no GitHub group employees.",
+                "Open licence, community adoption and governance; up to two participants per project.",
+                "Commit to 15 hours over three weeks and subsequent six- and twelve-month check-ins."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": "USD",
+              "min": 10000,
+              "max": 10000,
+              "durationMonths": null,
+              "basis": "current_offer",
+              "note": "Per project: 6,000 during the program, then 2,000 at each of two check-ins."
+            },
+            "application": {
+              "route": "rolling",
+              "url": "https://github.com/open-source/github-secure-open-source-fund",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "Rolling applications are considered for future sessions; no next session date established."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://github.com/open-source/github-secure-open-source-fund",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Fiscal sponsorship and project-specific cost eligibility",
+              "Decision and payment timing"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://github.com/open-source/github-secure-open-source-fund",
+            "title": "Secure Open Source Fund",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Open source",
+          "Software security"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://github.com/open-source/github-secure-open-source-fund",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-floss-fund",
+        "name": "FLOSS/fund",
+        "displayName": "FLOSS/fund",
+        "program": "",
+        "description": "Supports widely used free and open-source software and its maintainers.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Open source",
+          "Digital infrastructure"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://floss.fund/faq/",
+        "evidenceUrl": "https://floss.fund/faq/",
+        "additionalSources": [],
+        "sourceUrl": "https://floss.fund/faq/",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "floss-fund",
+          "upstreamRecordId": null,
+          "aliases": "FLOSS/fund"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-floss-fund",
+        "researchedOn": "2026-10-29",
+        "name": "FLOSS/fund",
+        "summary": "Supports widely used free and open-source software and its maintainers.",
+        "themes": [
+          "Open source",
+          "Digital infrastructure"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "floss-fund",
+            "name": "Open-source sustainability funding",
+            "instrument": "grant",
+            "focus": [
+              "Open source",
+              "Digital infrastructure"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [],
+              "applicantCountries": [],
+              "scope": "Global project scope; legal and payment documentation varies by jurisdiction.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Individuals",
+                "Organizations",
+                "Communities"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Existing, widely used project; very new or little-used projects are not currently considered.",
+                "Publish a funding.json manifest; applicant or legal entity needs a bank account and required tax documentation."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": null,
+              "min": null,
+              "max": null,
+              "durationMonths": null,
+              "basis": "not_stated",
+              "note": "FAQ states up to $100,000 per year, with request increments. Dollar currency not explicitly identified in reviewed FAQ; numerical bounds remain unset."
+            },
+            "application": {
+              "route": "open",
+              "url": "https://floss.fund/faq/",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "Public directory submissions are evaluated quarterly. No current submission cutoff is stated; a missing cutoff does not establish rolling awards."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://floss.fund/faq/",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Dollar currency and valid request increments",
+              "Fiscal sponsorship and jurisdiction-specific payment requirements"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://floss.fund/faq/",
+            "title": "Open-source sustainability funding",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Open source",
+          "Digital infrastructure"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://floss.fund/faq/",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-geode-labs",
+        "name": "Geode Labs",
+        "displayName": "Geode Labs",
+        "program": "",
+        "description": "Funds Ethereum research, education and community infrastructure.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Open source",
+          "Ethereum",
+          "Education"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://geode.build/apply",
+        "evidenceUrl": "https://geode.build/apply",
+        "additionalSources": [],
+        "sourceUrl": "https://geode.build/apply",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "geode-labs",
+          "upstreamRecordId": null,
+          "aliases": "Geode Labs"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-geode-labs",
+        "researchedOn": "2026-10-29",
+        "name": "Geode Labs",
+        "summary": "Funds Ethereum research, education and community infrastructure.",
+        "themes": [
+          "Open source",
+          "Ethereum",
+          "Education"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "geode-labs",
+            "name": "Ethereum community infrastructure grants",
+            "instrument": "grant",
+            "focus": [
+              "Open source",
+              "Ethereum",
+              "Education"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [],
+              "applicantCountries": [],
+              "scope": "Application asks where the initiative will operate; no exhaustive country eligibility list established.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Organizations",
+                "Communities",
+                "Groups"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Explain the Ethereum problem, team capability, milestones and budget.",
+                "Identify an individual or entity for KYC."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": null,
+              "min": null,
+              "max": null,
+              "durationMonths": null,
+              "basis": "not_stated",
+              "note": "Per-award amount and currency not established."
+            },
+            "application": {
+              "route": "open",
+              "url": "https://geode.build/apply",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "A live application form is available. No deadline or recurring intake commitment is stated."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://geode.build/apply",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Fiscal sponsorship and project-specific cost eligibility",
+              "Decision and payment timing"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://geode.build/apply",
+            "title": "Ethereum community infrastructure grants",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Open source",
+          "Ethereum",
+          "Education"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://geode.build/apply",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-ty-danjuma",
+        "name": "TY Danjuma Foundation",
+        "displayName": "TY Danjuma Foundation",
+        "program": "",
+        "description": "Short health and education interventions responding to needs in Nigeria.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Health",
+          "Education",
+          "Humanitarian response"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://tydanjumafoundation.org/grantmaking/discretionary-grants/",
+        "evidenceUrl": "https://tydanjumafoundation.org/grantmaking/discretionary-grants/",
+        "additionalSources": [],
+        "sourceUrl": "https://tydanjumafoundation.org/grantmaking/discretionary-grants/",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "ty-danjuma",
+          "upstreamRecordId": null,
+          "aliases": "TY Danjuma Foundation"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-ty-danjuma",
+        "researchedOn": "2026-10-29",
+        "name": "TY Danjuma Foundation",
+        "summary": "Short health and education interventions responding to needs in Nigeria.",
+        "themes": [
+          "Health",
+          "Education",
+          "Humanitarian response"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "ty-danjuma",
+            "name": "Discretionary Grants",
+            "instrument": "grant",
+            "focus": [
+              "Health",
+              "Education",
+              "Humanitarian response"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [
+                "NG"
+              ],
+              "applicantCountries": [],
+              "scope": "Nigeria.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Nonprofit organizations"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Registered nonprofit working in Nigeria with verifiable relevant experience.",
+                "Short intervention with measurable outcomes in health or education; comply with foundation reviews."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": "NGN",
+              "min": null,
+              "max": null,
+              "durationMonths": null,
+              "basis": "not_stated",
+              "note": "Source wording about one to five million naira is ambiguous. Confirm the ceiling before budgeting."
+            },
+            "application": {
+              "route": "open",
+              "url": "https://tydanjumafoundation.org/grantmaking/discretionary-grants/",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "Discretionary application link is available between annual calls. No dated cutoff stated."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://tydanjumafoundation.org/grantmaking/discretionary-grants/",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Award ceiling",
+              "Fiscal sponsorship",
+              "Eligibility of equipment and construction costs"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://tydanjumafoundation.org/grantmaking/discretionary-grants/",
+            "title": "Discretionary Grants",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Health",
+          "Education",
+          "Humanitarian response"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://tydanjumafoundation.org/grantmaking/discretionary-grants/",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-emergent-ventures",
+        "name": "Mercatus Center",
+        "displayName": "Mercatus Center",
+        "program": "",
+        "description": "Supports unusual, scalable ideas with substantial social benefit.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Social innovation",
+          "Research",
+          "Entrepreneurship"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://www.mercatus.org/emergent-ventures",
+        "evidenceUrl": "https://www.mercatus.org/emergent-ventures",
+        "additionalSources": [],
+        "sourceUrl": "https://www.mercatus.org/emergent-ventures",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "emergent-ventures",
+          "upstreamRecordId": null,
+          "aliases": "Mercatus Center"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-emergent-ventures",
+        "researchedOn": "2026-10-29",
+        "name": "Mercatus Center",
+        "summary": "Supports unusual, scalable ideas with substantial social benefit.",
+        "themes": [
+          "Social innovation",
+          "Research",
+          "Entrepreneurship"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "emergent-ventures",
+            "name": "Emergent Ventures",
+            "instrument": "grant",
+            "focus": [
+              "Social innovation",
+              "Research",
+              "Entrepreneurship"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [],
+              "applicantCountries": [],
+              "scope": "Worldwide program with dedicated regional tranches, including Africa and the Caribbean.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Individuals"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Applicants must be at least 13; one application per applicant and project.",
+                "AI-written applications are rejected; only AI proofreading is permitted."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": null,
+              "min": null,
+              "max": null,
+              "durationMonths": null,
+              "basis": "not_stated",
+              "note": "Per-award amount and currency not established."
+            },
+            "application": {
+              "route": "open",
+              "url": "https://www.mercatus.org/emergent-ventures",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "Application available with no stated deadline. Africa and Caribbean support is a dedicated tranche."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://www.mercatus.org/emergent-ventures",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Organization or fiscal sponsor application structure",
+              "Per-award amount and currency",
+              "Selection and payment timing"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mercatus.org/emergent-ventures",
+            "title": "Emergent Ventures",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Social innovation",
+          "Research",
+          "Entrepreneurship"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://www.mercatus.org/emergent-ventures",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-fid",
+        "name": "Fund for Innovation in Development",
+        "displayName": "Fund for Innovation in Development",
+        "program": "",
+        "description": "Tests innovations that reduce poverty and inequality after the prototype stage.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Poverty reduction",
+          "Evaluation",
+          "Social innovation"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://fundinnovation.dev/en/launch-project",
+        "evidenceUrl": "https://fundinnovation.dev/en/launch-project",
+        "additionalSources": [],
+        "sourceUrl": "https://fundinnovation.dev/en/launch-project",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "fid",
+          "upstreamRecordId": null,
+          "aliases": "Fund for Innovation in Development"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-fid",
+        "researchedOn": "2026-10-29",
+        "name": "Fund for Innovation in Development",
+        "summary": "Tests innovations that reduce poverty and inequality after the prototype stage.",
+        "themes": [
+          "Poverty reduction",
+          "Evaluation",
+          "Social innovation"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "fid",
+            "name": "Pilot grants",
+            "instrument": "grant",
+            "focus": [
+              "Poverty reduction",
+              "Evaluation",
+              "Social innovation"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [],
+              "applicantCountries": [],
+              "scope": "Work in OECD DAC low- or middle-income countries, excluding Burkina Faso, Mali and Niger. Verify the current list.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Organizations",
+                "Collectives"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Organizations and collectives may apply, including consortia; individuals and international organizations are excluded.",
+                "Pilot must be beyond prototyping; demonstrate impact, cost-effectiveness and potential to scale."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": "EUR",
+              "min": null,
+              "max": 200000,
+              "durationMonths": null,
+              "basis": "current_offer",
+              "note": "Pilot-stage ceiling; other stages have distinct terms."
+            },
+            "application": {
+              "route": "rolling",
+              "url": "https://fundinnovation.dev/en/launch-project",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "Official call is open throughout the year. This record covers Pilot funding, not every preparation or scale-up stage."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://fundinnovation.dev/en/launch-project",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              },
+              {
+                "fields": [
+                  "award",
+                  "applicants",
+                  "focus"
+                ],
+                "url": "https://fundinnovation.dev/en/approach",
+                "note": "Pilot ceiling and post-prototype requirement; impact, cost-effectiveness and scaling criteria.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Project-specific eligible costs",
+              "Payment timetable and legal contracting requirements"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://fundinnovation.dev/en/launch-project",
+            "title": "Pilot grants",
+            "checkedOn": "2026-10-29"
+          },
+          {
+            "url": "https://fundinnovation.dev/en/approach",
+            "title": "FID stages and evaluation criteria",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Poverty reduction",
+          "Evaluation",
+          "Social innovation"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://fundinnovation.dev/en/launch-project",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-interledger",
+        "name": "Interledger Foundation",
+        "displayName": "Interledger Foundation",
+        "program": "",
+        "description": "Supports independent work on inclusive and interoperable financial systems.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Financial inclusion",
+          "Open technology",
+          "Education"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://interledger.org/grant/fellowship/",
+        "evidenceUrl": "https://interledger.org/grant/fellowship/",
+        "additionalSources": [],
+        "sourceUrl": "https://interledger.org/grant/fellowship/",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "interledger",
+          "upstreamRecordId": null,
+          "aliases": "Interledger Foundation"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-interledger",
+        "researchedOn": "2026-10-29",
+        "name": "Interledger Foundation",
+        "summary": "Supports independent work on inclusive and interoperable financial systems.",
+        "themes": [
+          "Financial inclusion",
+          "Open technology",
+          "Education"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "interledger",
+            "name": "Fellowship — 2026 closed cycle",
+            "instrument": "fellowship",
+            "focus": [
+              "Financial inclusion",
+              "Open technology",
+              "Education"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [],
+              "applicantCountries": [],
+              "scope": "Worldwide mission; applicant-specific location and contracting requirements need confirmation.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Individuals"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Emerging researchers, developers, educators, advocates and community organizers working on financial access.",
+                "English fluency; proposal, budget, milestones, CV and references."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": null,
+              "min": null,
+              "max": null,
+              "durationMonths": 12,
+              "basis": "historical",
+              "note": "Closed-cycle page lists a $72,000 stipend and $20,000 project budget. Confirm currency and future terms; these are not an open offer."
+            },
+            "application": {
+              "route": "closed",
+              "url": "https://interledger.org/grant/fellowship/",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "Official page explicitly closes the 2026 application window. No future round opening or deadline verified."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://interledger.org/grant/fellowship/",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Next call dates",
+              "Currency and future award terms",
+              "Country and contracting restrictions"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://interledger.org/grant/fellowship/",
+            "title": "Fellowship — 2026 closed cycle",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Financial inclusion",
+          "Open technology",
+          "Education"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://interledger.org/grant/fellowship/",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-zero-foodprint",
+        "name": "Zero Foodprint",
+        "displayName": "Zero Foodprint",
+        "program": "",
+        "description": "Supports regenerative practices on food-producing farms and ranches.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Regenerative agriculture",
+          "Soil carbon"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://www.zerofoodprint.org/apply",
+        "evidenceUrl": "https://www.zerofoodprint.org/apply",
+        "additionalSources": [],
+        "sourceUrl": "https://www.zerofoodprint.org/apply",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "zero-foodprint",
+          "upstreamRecordId": null,
+          "aliases": "Zero Foodprint"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-zero-foodprint",
+        "researchedOn": "2026-10-29",
+        "name": "Zero Foodprint",
+        "summary": "Supports regenerative practices on food-producing farms and ranches.",
+        "themes": [
+          "Regenerative agriculture",
+          "Soil carbon"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "zero-foodprint",
+            "name": "Restore Grants — October 2026",
+            "instrument": "grant",
+            "focus": [
+              "Regenerative agriculture",
+              "Soil carbon"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [
+                "US"
+              ],
+              "applicantCountries": [],
+              "scope": "Agricultural operations in California, Colorado, Oregon and Washington, United States.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Farm owners",
+                "Farm managers"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Farm or ranch must produce food or beverages for human consumption in CA, CO, OR or WA.",
+                "Approved practice, technical assistance provider and owner permission required.",
+                "Prior Restore obligations must be complete; one award per round and lifetime cap applies."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": null,
+              "min": null,
+              "max": null,
+              "durationMonths": 12,
+              "basis": "current_offer",
+              "note": "Guidelines state $1,500–$25,000 plus technical assistance; currency not explicitly named in the reviewed text. Lifetime recipient cap is $75,000."
+            },
+            "application": {
+              "route": "open",
+              "url": "https://www.zerofoodprint.org/apply",
+              "opensOn": "2026-10-01",
+              "closesOn": "2026-11-04",
+              "deadlineInstant": null,
+              "note": "October-round guidelines establish October 1–November 4, 2026. Page says midnight without a timezone; no exact instant inferred. An older FAQ says closed; the dated October guidelines and current call header establish this round."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://www.zerofoodprint.org/apply",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              },
+              {
+                "fields": [
+                  "application",
+                  "applicants",
+                  "award",
+                  "geography",
+                  "costs"
+                ],
+                "url": "https://drive.google.com/file/d/1hXD6faJRzOoUKe5kexyv9l1G2tl5-IOa/view",
+                "note": "Dated October-round rules establish the window, locations, implementation requirements and award structure.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Exact cutoff time and timezone",
+              "Currency confirmation",
+              "Project-specific practice and cost eligibility"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.zerofoodprint.org/apply",
+            "title": "Restore Grants — October 2026",
+            "checkedOn": "2026-10-29"
+          },
+          {
+            "url": "https://drive.google.com/file/d/1hXD6faJRzOoUKe5kexyv9l1G2tl5-IOa/view",
+            "title": "Restore October 2026 guidelines (public funder-linked PDF)",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Regenerative agriculture",
+          "Soil carbon"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://www.zerofoodprint.org/apply",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-lido-lego",
+        "name": "Lido Ecosystem Grants Organization",
+        "displayName": "Lido Ecosystem Grants Organization",
+        "program": "",
+        "description": "Funds contributions that benefit Lido and the wider Ethereum staking ecosystem.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Ethereum",
+          "Open source",
+          "Staking infrastructure"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://lido.fi/lego",
+        "evidenceUrl": "https://lido.fi/lego",
+        "additionalSources": [],
+        "sourceUrl": "https://lido.fi/lego",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "lido-lego",
+          "upstreamRecordId": null,
+          "aliases": "Lido Ecosystem Grants Organization"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-lido-lego",
+        "researchedOn": "2026-10-29",
+        "name": "Lido Ecosystem Grants Organization",
+        "summary": "Funds contributions that benefit Lido and the wider Ethereum staking ecosystem.",
+        "themes": [
+          "Ethereum",
+          "Open source",
+          "Staking infrastructure"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "lido-lego",
+            "name": "LEGO grants",
+            "instrument": "grant",
+            "focus": [
+              "Ethereum",
+              "Open source",
+              "Staking infrastructure"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [],
+              "applicantCountries": [],
+              "scope": "No exhaustive country or applicant registration rules established.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Individuals",
+                "Projects",
+                "Community initiatives"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Explain benefits to Lido, team capability, deliverables, cost and schedule.",
+                "Funding requires approval under the appropriate tier."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": "USD",
+              "min": null,
+              "max": null,
+              "durationMonths": null,
+              "basis": "current_offer",
+              "note": "Tiers: up to 1,000; up to 10,000; up to 100,000; and above 100,000. There is no single overall program ceiling."
+            },
+            "application": {
+              "route": "inquiry",
+              "url": "https://lido.fi/lego",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "Start with a relevant LEGO contact, discuss scope and terms, then proceed to committee or DAO review. No general deadline stated."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://lido.fi/lego",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Fiscal sponsorship and project-specific cost eligibility",
+              "Decision and payment timing"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://lido.fi/lego",
+            "title": "LEGO grants",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Ethereum",
+          "Open source",
+          "Staking infrastructure"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://lido.fi/lego",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-obol",
+        "name": "Obol Collective",
+        "displayName": "Obol Collective",
+        "program": "",
+        "description": "Historical milestone funding for distributed-validator infrastructure and community contributions.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Ethereum",
+          "Distributed validators",
+          "Open source"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://docs.obol.org/community-and-governance/community/grants-program",
+        "evidenceUrl": "https://docs.obol.org/community-and-governance/community/grants-program",
+        "additionalSources": [],
+        "sourceUrl": "https://docs.obol.org/community-and-governance/community/grants-program",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "obol",
+          "upstreamRecordId": null,
+          "aliases": "Obol Collective"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-obol",
+        "researchedOn": "2026-10-29",
+        "name": "Obol Collective",
+        "summary": "Historical milestone funding for distributed-validator infrastructure and community contributions.",
+        "themes": [
+          "Ethereum",
+          "Distributed validators",
+          "Open source"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "obol",
+            "name": "Grants Program — paused",
+            "instrument": "grant",
+            "focus": [
+              "Ethereum",
+              "Distributed validators",
+              "Open source"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [],
+              "applicantCountries": [],
+              "scope": "Current geographic and legal eligibility unresolved while paused.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Individuals",
+                "Teams"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Historical tracks required a concrete contribution to Obol; any replacement program will need fresh eligibility review."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": null,
+              "min": null,
+              "max": null,
+              "durationMonths": null,
+              "basis": "historical",
+              "note": "Historical grants were negotiated in USD-equivalent terms and paid in OBOL tokens; no current offer."
+            },
+            "application": {
+              "route": "closed",
+              "url": "https://docs.obol.org/community-and-governance/community/grants-program",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "Current documentation says the program is paused for redesign. The 2025 announcement describing rolling intake is historical; no reopening date verified."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://docs.obol.org/community-and-governance/community/grants-program",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              },
+              {
+                "fields": [
+                  "focus",
+                  "award"
+                ],
+                "url": "https://blog.obol.org/the-obol-grants-program-is-now-live/",
+                "note": "Historical track design and token payment; superseded for application status by current documentation.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Reopening and redesigned program terms",
+              "Current eligibility and award terms"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://docs.obol.org/community-and-governance/community/grants-program",
+            "title": "Grants Program — paused",
+            "checkedOn": "2026-10-29"
+          },
+          {
+            "url": "https://blog.obol.org/the-obol-grants-program-is-now-live/",
+            "title": "Historical launch announcement",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Ethereum",
+          "Distributed validators",
+          "Open source"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://docs.obol.org/community-and-governance/community/grants-program",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-ssv",
+        "name": "SSV Network",
+        "displayName": "SSV Network",
+        "program": "",
+        "description": "Supports teams building staking applications, services and tools on SSV.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Ethereum",
+          "Staking infrastructure",
+          "Open source"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://ssv.network/get-funded",
+        "evidenceUrl": "https://ssv.network/get-funded",
+        "additionalSources": [],
+        "sourceUrl": "https://ssv.network/get-funded",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "ssv",
+          "upstreamRecordId": null,
+          "aliases": "SSV Network"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-ssv",
+        "researchedOn": "2026-10-29",
+        "name": "SSV Network",
+        "summary": "Supports teams building staking applications, services and tools on SSV.",
+        "themes": [
+          "Ethereum",
+          "Staking infrastructure",
+          "Open source"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "ssv",
+            "name": "Decentralized staking grants",
+            "instrument": "grant",
+            "focus": [
+              "Ethereum",
+              "Staking infrastructure",
+              "Open source"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [],
+              "applicantCountries": [],
+              "scope": "Country restrictions and applicant legal requirements not established.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Development teams"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Development teams building applications, services or tooling on the SSV protocol."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": null,
+              "min": null,
+              "max": null,
+              "durationMonths": null,
+              "basis": "not_stated",
+              "note": "The advertised $5 million is a program pool, not an individual grant. Per-award bounds are unknown."
+            },
+            "application": {
+              "route": "unconfirmed",
+              "url": "https://ssv.network/get-funded",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "Official page links to a grant application but current intake and complete eligibility terms have not been verified."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://ssv.network/get-funded",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Current application intake",
+              "Per-award amount and currency",
+              "Country, legal and cost eligibility"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://ssv.network/get-funded",
+            "title": "Decentralized staking grants",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Ethereum",
+          "Staking infrastructure",
+          "Open source"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://ssv.network/get-funded",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "local-gooddollar",
+        "name": "GoodDollar",
+        "displayName": "GoodDollar",
+        "program": "",
+        "description": "Supports builders integrating G$ into practical applications.",
+        "descriptionBasis": "primary",
+        "sectors": [
+          "Financial inclusion",
+          "Open source",
+          "Community payments"
+        ],
+        "regions": [],
+        "approaches": [],
+        "grantBands": [],
+        "website": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d",
+        "evidenceUrl": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d",
+        "additionalSources": [],
+        "sourceUrl": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d",
+        "access": "unconfirmed",
+        "accessDetail": "",
+        "amount": "",
+        "timing": "",
+        "deadlineDate": null,
+        "deadlineInstant": null,
+        "verifiedOn": "2026-10-29",
+        "qualityFlags": [],
+        "fieldsFilled": 0,
+        "aliasNote": "",
+        "origin": {
+          "kind": "supplemental-research",
+          "batchId": "history-2026-10-29",
+          "candidateId": "gooddollar",
+          "upstreamRecordId": null,
+          "aliases": "GoodDollar"
+        }
+      },
+      "enrichment": {
+        "sourceRecordId": "local-gooddollar",
+        "researchedOn": "2026-10-29",
+        "name": "GoodDollar",
+        "summary": "Supports builders integrating G$ into practical applications.",
+        "themes": [
+          "Financial inclusion",
+          "Open source",
+          "Community payments"
+        ],
+        "regions": [],
+        "programs": [
+          {
+            "id": "gooddollar",
+            "name": "GoodBuilders — future round unconfirmed",
+            "instrument": "grant",
+            "focus": [
+              "Financial inclusion",
+              "Open source",
+              "Community payments"
+            ],
+            "beneficiaries": [],
+            "geography": {
+              "workCountries": [],
+              "applicantCountries": [],
+              "scope": "No exhaustive country eligibility list established.",
+              "exclusions": []
+            },
+            "applicants": {
+              "types": [
+                "Individuals",
+                "Teams"
+              ],
+              "fiscalSponsorship": "unknown",
+              "requirements": [
+                "Build an integration or useful application of G$; future round criteria require fresh confirmation."
+              ],
+              "exclusions": []
+            },
+            "award": {
+              "currency": null,
+              "min": null,
+              "max": null,
+              "durationMonths": null,
+              "basis": "historical",
+              "note": "Earlier material describes a multi-round reward pool, not a current per-project award."
+            },
+            "application": {
+              "route": "unconfirmed",
+              "url": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d",
+              "opensOn": null,
+              "closesOn": null,
+              "deadlineInstant": null,
+              "note": "Official program material describes earlier rounds. Season 5 dates, budget and application terms were not confirmed on October 29; no predicted opening is recorded."
+            },
+            "costs": {
+              "supported": [],
+              "excluded": []
+            },
+            "evidence": [
+              {
+                "fields": [
+                  "focus",
+                  "applicants",
+                  "geography",
+                  "award",
+                  "application"
+                ],
+                "url": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d",
+                "note": "Official program page supports the recorded terms; unspecified fields remain unknown.",
+                "checkedOn": "2026-10-29"
+              }
+            ],
+            "unknowns": [
+              "Season 5 announcement, opening and deadline",
+              "Per-project award and payment currency",
+              "Current eligibility and costs"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d",
+            "title": "GoodBuilders — future round unconfirmed",
+            "checkedOn": "2026-10-29"
+          }
+        ],
+        "researchNotes": "Historical lead independently checked against public official sources on October 29, 2026. Only the named program is covered. Unknowns and closed rounds remain explicit.",
+        "reviewStatus": "program_reviewed",
+        "focus": [
+          "Financial inclusion",
+          "Open source",
+          "Community payments"
+        ],
+        "evidence": [
+          {
+            "fields": [
+              "summary",
+              "focus",
+              "themes"
+            ],
+            "url": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d",
+            "note": "Official program scope.",
+            "checkedOn": "2026-10-29"
+          }
+        ]
+      },
+      "researchContext": {
+        "batch": "history-2026-10-29",
+        "privacy": "Public official evidence only; private discovery notes are held outside this repository.",
+        "geography": {
+          "countryArraysAreExhaustive": false
+        }
+      }
     }
   ],
   "programAdditions": [

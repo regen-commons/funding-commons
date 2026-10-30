@@ -1274,6 +1274,213 @@
       "kind": "prerequisite"
     },
     {
+      "id": "history-requirement-1",
+      "fundId": "local-github-secure-oss",
+      "programId": "github-secure-oss",
+      "kind": "prerequisite",
+      "requirement": "Maintainers aged 18+ in a GitHub Sponsors-supported region, with an active GitHub profile; no GitHub group employees.",
+      "sourceUrl": "https://github.com/open-source/github-secure-open-source-fund",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-2",
+      "fundId": "local-github-secure-oss",
+      "programId": "github-secure-oss",
+      "kind": "prerequisite",
+      "requirement": "Open licence, community adoption and governance; up to two participants per project.",
+      "sourceUrl": "https://github.com/open-source/github-secure-open-source-fund",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-3",
+      "fundId": "local-github-secure-oss",
+      "programId": "github-secure-oss",
+      "kind": "prerequisite",
+      "requirement": "Commit to 15 hours over three weeks and subsequent six- and twelve-month check-ins.",
+      "sourceUrl": "https://github.com/open-source/github-secure-open-source-fund",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-floss-fund",
+      "programId": "floss-fund",
+      "kind": "prerequisite",
+      "requirement": "Existing, widely used project; very new or little-used projects are not currently considered.",
+      "sourceUrl": "https://floss.fund/faq/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-2",
+      "fundId": "local-floss-fund",
+      "programId": "floss-fund",
+      "kind": "prerequisite",
+      "requirement": "Publish a funding.json manifest; applicant or legal entity needs a bank account and required tax documentation.",
+      "sourceUrl": "https://floss.fund/faq/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-geode-labs",
+      "programId": "geode-labs",
+      "kind": "prerequisite",
+      "requirement": "Explain the Ethereum problem, team capability, milestones and budget.",
+      "sourceUrl": "https://geode.build/apply",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-2",
+      "fundId": "local-geode-labs",
+      "programId": "geode-labs",
+      "kind": "prerequisite",
+      "requirement": "Identify an individual or entity for KYC.",
+      "sourceUrl": "https://geode.build/apply",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-ty-danjuma",
+      "programId": "ty-danjuma",
+      "kind": "prerequisite",
+      "requirement": "Registered nonprofit working in Nigeria with verifiable relevant experience.",
+      "sourceUrl": "https://tydanjumafoundation.org/grantmaking/discretionary-grants/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-2",
+      "fundId": "local-ty-danjuma",
+      "programId": "ty-danjuma",
+      "kind": "prerequisite",
+      "requirement": "Short intervention with measurable outcomes in health or education; comply with foundation reviews.",
+      "sourceUrl": "https://tydanjumafoundation.org/grantmaking/discretionary-grants/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-emergent-ventures",
+      "programId": "emergent-ventures",
+      "kind": "prerequisite",
+      "requirement": "Applicants must be at least 13; one application per applicant and project.",
+      "sourceUrl": "https://www.mercatus.org/emergent-ventures",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-2",
+      "fundId": "local-emergent-ventures",
+      "programId": "emergent-ventures",
+      "kind": "prerequisite",
+      "requirement": "AI-written applications are rejected; only AI proofreading is permitted.",
+      "sourceUrl": "https://www.mercatus.org/emergent-ventures",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-fid",
+      "programId": "fid",
+      "kind": "prerequisite",
+      "requirement": "Organizations and collectives may apply, including consortia; individuals and international organizations are excluded.",
+      "sourceUrl": "https://fundinnovation.dev/en/approach",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-2",
+      "fundId": "local-fid",
+      "programId": "fid",
+      "kind": "prerequisite",
+      "requirement": "Pilot must be beyond prototyping; demonstrate impact, cost-effectiveness and potential to scale.",
+      "sourceUrl": "https://fundinnovation.dev/en/approach",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-interledger",
+      "programId": "interledger",
+      "kind": "prerequisite",
+      "requirement": "Emerging researchers, developers, educators, advocates and community organizers working on financial access.",
+      "sourceUrl": "https://interledger.org/grant/fellowship/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-2",
+      "fundId": "local-interledger",
+      "programId": "interledger",
+      "kind": "prerequisite",
+      "requirement": "English fluency; proposal, budget, milestones, CV and references.",
+      "sourceUrl": "https://interledger.org/grant/fellowship/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-zero-foodprint",
+      "programId": "zero-foodprint",
+      "kind": "prerequisite",
+      "requirement": "Farm or ranch must produce food or beverages for human consumption in CA, CO, OR or WA.",
+      "sourceUrl": "https://drive.google.com/file/d/1hXD6faJRzOoUKe5kexyv9l1G2tl5-IOa/view",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-2",
+      "fundId": "local-zero-foodprint",
+      "programId": "zero-foodprint",
+      "kind": "prerequisite",
+      "requirement": "Approved practice, technical assistance provider and owner permission required.",
+      "sourceUrl": "https://drive.google.com/file/d/1hXD6faJRzOoUKe5kexyv9l1G2tl5-IOa/view",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-3",
+      "fundId": "local-zero-foodprint",
+      "programId": "zero-foodprint",
+      "kind": "prerequisite",
+      "requirement": "Prior Restore obligations must be complete; one award per round and lifetime cap applies.",
+      "sourceUrl": "https://drive.google.com/file/d/1hXD6faJRzOoUKe5kexyv9l1G2tl5-IOa/view",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-lido-lego",
+      "programId": "lido-lego",
+      "kind": "prerequisite",
+      "requirement": "Explain benefits to Lido, team capability, deliverables, cost and schedule.",
+      "sourceUrl": "https://lido.fi/lego",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-2",
+      "fundId": "local-lido-lego",
+      "programId": "lido-lego",
+      "kind": "prerequisite",
+      "requirement": "Funding requires approval under the appropriate tier.",
+      "sourceUrl": "https://lido.fi/lego",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-obol",
+      "programId": "obol",
+      "kind": "prerequisite",
+      "requirement": "Historical tracks required a concrete contribution to Obol; any replacement program will need fresh eligibility review.",
+      "sourceUrl": "https://docs.obol.org/community-and-governance/community/grants-program",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-ssv",
+      "programId": "ssv",
+      "kind": "prerequisite",
+      "requirement": "Development teams building applications, services or tooling on the SSV protocol.",
+      "sourceUrl": "https://ssv.network/get-funded",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "history-requirement-1",
+      "fundId": "local-gooddollar",
+      "programId": "gooddollar",
+      "kind": "prerequisite",
+      "requirement": "Build an integration or useful application of G$; future round criteria require fresh confirmation.",
+      "sourceUrl": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d",
+      "checkedOn": "2026-10-29"
+    },
+    {
       "fundId": "recUN8nEtimhdGZeE",
       "programId": "nonprofit-corporate-grants",
       "id": "verizon-public-charity-or-school",

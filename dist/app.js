@@ -25,6 +25,7 @@ import {
 } from "./domain.mjs";
 import { COUNTRIES, US_STATES, FUNDING_INSTRUMENTS } from "./storage.mjs";
 import {
+  programFund,
   createLexicalIndex,
   rankFunds,
   projectText,
@@ -33,6 +34,7 @@ import {
   MATCH_GROUPS,
   THEMATIC_FIT_RUBRIC,
 } from "./matching.mjs";
+import { upcomingWindows, deadlineLabel } from "./deadlines.mjs";
 import { MODEL } from "./semantic-config.mjs";
 import { LocalMatcher } from "./matching-client.mjs";
 
@@ -111,7 +113,8 @@ let state = { ...baseState },
   saved = emptySaved(),
   selected = [],
   currentFund = null,
-  detailList = "general";
+  detailList = "general",
+  detailProgramId = null;
 let returnFocus = null,
   undoState = null,
   toastTimer,
@@ -427,7 +430,7 @@ function cardMatch(f) {
 }
 function matchDetails(f) {
   const m = matchResults.get(f.id);
-  if (!m) return "";
+  if (!m || m.program?.id !== f.displayProgramId) return "";
   const conditions = m.eligibility.programs.flatMap((p) => p.checks).filter((c) => c.field === "condition");
   const automated = m.eligibility.programs.flatMap((p) => p.checks).filter((c) => c.field !== "condition");
   return `<section class="detail-section match-explanation"><h3>Why this appears for your project</h3>${cardMatch(f)}<p>${m.program ? `Matched program: <strong>${escape(m.program.name)}</strong>. ` : "This overview has no verified program terms. "}Thematic fit compares your description and tags with documented program focus. It does not include geography, legal status, funding preferences, award size, deadlines or unconfirmed prerequisites.</p><details class="quality-details"><summary>How the fit grade is calculated</summary><p>${escape(m.thematicFit.basis)} Related word forms count once, and broad organizational language does not count as specific topic evidence. Sparse evidence is limited to Partial overlap. ${m.method === "semantic" ? `Raw on-device cosine similarity: ${m.cosine.toFixed(3)}. The local semantic signal grades ${m.thematicFit.semanticGrade}/100 on the disclosed relevance rubric.` : "Keyword mode uses the specific shared terms only. AI and keyword grades may differ."}</p><p>Shared-term evidence grade: ${m.thematicFit.keywordGrade}/100. ${m.thematicFit.score == null ? "There is not enough specific documented focus for a numeric fit assessment." : `Final thematic fit: <strong>${m.thematicFit.score}/100</strong>.`}</p><p>80–100: Strong thematic fit; 60–79: Relevant themes; 40–59: Partial thematic overlap; below 40: Limited thematic overlap. These are heuristic evidence bands, not measured funding probabilities. They need validation against human-reviewed matches.</p><p>Specific shared terms: ${THEMATIC_FIT_RUBRIC.sharedTermGrades.slice(1).map((grade, i, all) => `${i + 1}${i === all.length - 1 ? "+" : ""} → ${grade}`).join(", ")}. Word forms such as culture/cultural and art/arts count once. Semantic cosine anchors: ${THEMATIC_FIT_RUBRIC.semanticAnchors.map(([cosine, grade]) => `${cosine.toFixed(2)} → ${grade}`).join(", ")}. The higher supported signal sets the fit grade. Broad-only focus is left unassessed; sparse purpose evidence cannot exceed 59. No score is based on a fund’s rank among the 593 records.</p></details><h4>Readiness and shortlist priority</h4><p><strong>${escape(m.readiness.label)}.</strong> Ranking considers the documented application route and the checks below. A high thematic fit can still have an eligibility conflict or a closed application cycle. Research leads need relevant thematic fit and the existing shortlist checks; a fit grade never overrides those checks.</p>${m.limits.length ? `<ul>${[...new Set(m.limits.map((l) => l.reason))].map((reason) => `<li>${escape(reason)}</li>`).join("")}</ul>` : ""}<p>${escape(m.award)}</p><p><strong>Geographic scope:</strong> ${escape(m.geography)}</p>${m.geographic.reasons.length ? `<ul>${m.geographic.reasons.map((r) => `<li>${escape(r)}</li>`).join("")}</ul>` : ""}<h4>Country and applicant checks</h4>${automated.length ? `<ul>${automated.map((c) => `<li><strong>${c.outcome === "conflict" ? "Conflict with your profile" : c.stale ? "Source needs rechecking" : c.missing ? "Profile detail missing" : c.outsidePriority ? "Outside published priority; exceptions may apply" : c.partial ? "Only part of your scope overlaps" : "No conflict found in this check"}:</strong> ${escape(c.reason)} ${link(c.sourceUrl, "Official rule")} <small>Checked ${escape(c.checkedOn)}</small></li>`).join("")}</ul>` : "<p>No executable country/applicant checks for this program. Review the official scope.</p>"}<h4>Program prerequisites and priorities</h4><p>Answer for this project only. Answers stay in this browser and its backups. “Yes” is self-reported, not funder approval. Changing project details clears these answers; a changed source date requires confirmation again.</p>${conditions.length ? conditions.map((c) => `<div class="condition-check"><label for="condition-${escape(c.id)}"><strong>${c.kind === "priority" ? "Selection priority" : "Required condition"}:</strong> ${escape(c.requirement)}</label><p>${link(c.sourceUrl, "Official condition")} · checked ${escape(c.checkedOn)}${c.stale ? " · source needs rechecking" : ""}</p><select id="condition-${escape(c.id)}" data-condition-key="${escape(c.key)}" data-source-date="${escape(c.checkedOn)}"${c.stale ? " disabled" : ""}><option value="">Not confirmed</option><option value="yes"${c.answer === "yes" ? " selected" : ""}>Yes, this project meets it</option><option value="no"${c.answer === "no" ? " selected" : ""}>No, this project does not meet it</option></select><small>${c.outcome === "conflict" ? "Known prerequisite conflict: research priority is 0; thematic fit is unchanged." : c.outcome === "self_reported" ? "Self-reported; verify before applying." : c.kind === "priority" ? "A priority is not a hard exclusion." : "Unconfirmed prerequisites limit ranking; the applicable limits appear above."}</small></div>`).join("") : "<p>No structured prerequisites for this program yet. This does not mean there are none. Read all requirements below.</p>"}<p>Country overlap does not establish city, county, partner or sponsor eligibility. All documented requirements still need review.</p>${m.alternatives.length ? `<h4>Other researched programs</h4><ul>${m.alternatives.map((p) => `<li>${escape(p.name)} · ${p.thematicFit.score == null ? "fit not assessed" : p.thematicFit.score + "/100 thematic fit"} · ${escape(ACCESS[p.access]?.label || p.access)} · ${escape(p.readiness.label)}</li>`).join("")}</ul><p>Each program is scored using its own purpose and terms. All program sources remain below.</p>` : ""}</section>`;
@@ -435,8 +438,49 @@ function matchDetails(f) {
 function missingCard(id) {
   return `<article class="fund-card"><div class="card-body"><h4 class="fund-name">Saved record unavailable</h4><p class="card-description">This source record is not in the current snapshot. It stays in your list and exports until you remove it.</p><p class="description-note">${escape(id)}</p></div><div class="card-footer"><button type="button" class="button button-text" data-action="save" data-id="${escape(id)}">Remove from saved</button></div></article>`;
 }
+let deadlineHorizon = 21;
+let showAllDeadlines = false;
+let deadlineSignature = "";
+function renderDeadlines() {
+  if (!snapshot) return;
+  const section = $("deadline-pulse");
+  section.hidden = state.view === "saved";
+  const windows = upcomingWindows(funds, new Date(), deadlineHorizon);
+  const signature = JSON.stringify([deadlineHorizon, showAllDeadlines, windows.map(w => [w.fund.id, w.program.id, w.days, w.instant])]);
+  if (signature === deadlineSignature) return;
+  deadlineSignature = signature;
+  const focused = document.activeElement;
+  const focusProgram = focused?.dataset?.action === "deadline-program" ? focused.dataset.program : null;
+  $("deadline-count").textContent = `${windows.length} program windows`;
+  const shown = showAllDeadlines ? windows : windows.slice(0, 3);
+  $("deadline-windows").innerHTML = shown.length ? shown.map((w) => {
+    const urgency = w.days === 0 ? "Due today" : w.days === 1 ? "Due tomorrow" : `Due in ${w.days} days`;
+    return `<li class="deadline-card"><div class="deadline-card-top"><span class="deadline-urgency${w.days <= 3 ? " soon" : ""}">${escape(urgency)}</span><span class="deadline-route">${escape(ACCESS[w.fund.access].label)}</span></div><h4>${escape(w.program.name)}</h4><p class="deadline-funder">${escape(w.fund.displayName)}</p><p class="deadline-date"><time datetime="${escape(w.fund.deadlineInstant || w.date)}">${escape(deadlineLabel(w))}</time></p><p class="deadline-precision">${w.instant !== null ? "Shown in your timezone" : "Cutoff time or timezone unverified"}</p><p class="deadline-scope">${escape(w.program.geography.scope || "Geographic eligibility needs review.")}</p><div class="deadline-card-bottom"><span>Source checked ${escape(w.checkedOn)}</span><button type="button" class="button button-text" data-action="deadline-program" data-id="${escape(w.fund.id)}" data-program="${escape(w.program.id)}">Review terms <span aria-hidden="true">↗</span><span class="sr-only"> for ${escape(w.program.name)}</span></button></div></li>`;
+  }).join("") : '<li class="deadline-empty">No sourced, currently available program windows close in this period. Explore the directory for rolling routes and future calls.</li>';
+  const more = $("deadline-more");
+  more.hidden = windows.length <= 3;
+  more.textContent = showAllDeadlines ? "Show fewer windows" : `View all ${windows.length} windows`;
+  more.setAttribute("aria-expanded", String(showAllDeadlines));
+  if (focusProgram) {
+    const replacement = [...$("deadline-windows").querySelectorAll("button")].find(b => b.dataset.program === focusProgram);
+    (replacement || $("deadline-title")).focus({ preventScroll: true });
+  }
+}
+$("deadline-horizon").addEventListener("change", (event) => {
+  deadlineHorizon = Number(event.target.value);
+  showAllDeadlines = false;
+  renderDeadlines();
+});
+// Refresh the pulse when returning to a tab, and while it remains open.
+window.addEventListener("focus", renderDeadlines);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) renderDeadlines();
+});
+setInterval(() => { if (!document.hidden) renderDeadlines(); }, 60000);
+
 function render() {
   if (!snapshot) return;
+  renderDeadlines();
   const focused = document.activeElement,
     focusKey = focused?.dataset?.action,
     focusId = focused?.dataset?.id;
@@ -637,17 +681,22 @@ function link(url, label, cls = "source-link") {
     ? `<a class="${cls}" href="${escape(safe)}" target="_blank" rel="noopener noreferrer">${escape(label)} ${icon("external")}<span class="sr-only"> (opens in a new tab)</span></a>`
     : "";
 }
-function openFund(id, push = true, refresh = false) {
+function openFund(id, push = true, refresh = false, programId = null) {
+  if (refresh) programId = detailProgramId;
+  else detailProgramId = programId;
   const priorFocusId = refresh ? document.activeElement?.id : null;
   const priorScroll = fundDialog.scrollTop;
   const priorList = detailList;
   const noteSelection = refresh && priorFocusId === "fund-notes" ? [$("fund-notes").selectionStart, $("fund-notes").selectionEnd] : null;
-  const f = matchResults.get(id)?.fund || byId.get(id);
+  const base = byId.get(id);
+  const program = base?.enrichment?.programs.find((p) => p.id === programId);
+  const f = program ? programFund(base, program) : matchResults.get(id)?.fund || base;
   if (!f) {
     notify("That record is not in this directory snapshot.");
     if (push) return;
     const u = new URL(location.href);
     u.searchParams.delete("fund");
+    u.searchParams.delete("program");
     history.replaceState(history.state, "", u);
     return;
   }
@@ -701,6 +750,8 @@ function openFund(id, push = true, refresh = false) {
       before,
     );
     before.searchParams.set("fund", id);
+    if (program) before.searchParams.set("program", program.id);
+    else before.searchParams.delete("program");
     history.pushState({ fundOverlay: true }, "", before);
   }
 }
@@ -739,12 +790,14 @@ function closeFund(fromHistory = false) {
   persist();
   if (fundDialog.open) fundDialog.close();
   currentFund = null;
+  detailProgramId = null;
   if (!fromHistory) {
     const url = new URL(location.href);
     if (url.searchParams.has("fund")) {
       if (history.state?.fundOverlay) history.back();
       else {
         url.searchParams.delete("fund");
+        url.searchParams.delete("program");
         history.replaceState(history.state, "", url);
       }
     }
@@ -966,7 +1019,7 @@ function enrichmentDetails(f) {
     : "";
   const unknownTerms = `<dl class="detail-grid"><div><dt>Applicant eligibility</dt><dd>No program eligibility verified.</dd></div><div><dt>Award range</dt><dd>No current per-award range verified.</dd></div><div><dt>Application deadline</dt><dd>No dated deadline verified. This does not establish rolling intake.</dd></div><div><dt>Next step</dt><dd>${status === "not_a_funder" ? "Review this as a funding resource or service; an external grant route has not been established." : "Check an official program or grantmaking policy before applying."}</dd></div></dl>`;
   return `<section class="detail-section"><h3>${escape(RESEARCH[status])}</h3><p class="description-note">${reviewed ? "Official sources checked" : "Source resolution attempted"} ${escape(r.researchedOn)}. Program coverage is limited to the named streams; a reviewed source does not confirm eligibility or an open call.</p>${(f.sourceWarnings || []).length ? `<div class="source-warning"><strong>Source integrity concern</strong><ul>${f.sourceWarnings.map((w) => `<li>${escape(w.reason)} Affected address: ${escape(w.url)}</li>`).join("")}</ul><p>Links to this source are disabled while the record remains available for review.</p></div>` : ""}${r.researchNotes ? `<p>${escape(r.researchNotes)}</p>` : ""}${followUp}${r.focus.length ? `<h4>Source-backed mission and focus</h4>${bullets(r.focus)}` : ""}${!r.programs.length ? unknownTerms : ""}
-  ${r.programs.map((p) => `<article class="program-research"><h4>${escape(p.name)}</h4><p>${escape(p.instrument)} · ${escape(ACCESS[p.application.route]?.label || p.application.route)}</p><h5>Focus and beneficiaries</h5>${bullets([...p.focus, ...p.beneficiaries])}<h5>Where work and applicants can be based</h5><p>${escape(p.geography.scope || "Geographic eligibility not established.")}</p>${p.geography.workCountries.length ? `<p>Work countries mentioned: ${escape(p.geography.workCountries.join(", "))}</p>` : ""}${p.geography.applicantCountries.length ? `<p>Applicant countries mentioned: ${escape(p.geography.applicantCountries.join(", "))}</p>` : ""}${p.geography.exclusions.length ? bullets(p.geography.exclusions) : ""}<h5>Applicant requirements</h5>${bullets([...p.applicants.types, ...p.applicants.requirements])}<p>Fiscal sponsorship: ${escape({ accepted: "Explicitly accepted", not_accepted: "Explicitly not accepted", unknown: "Not verified" }[p.applicants.fiscalSponsorship])}.</p>${p.applicants.exclusions.length ? `<p><strong>Exclusions</strong></p>${bullets(p.applicants.exclusions)}` : ""}<h5>Award and timing</h5><p><strong>${escape(amountLabel(f, p.award))}</strong></p><p>${escape(p.award.note || "Award size not established.")}</p><p>${escape(p.application.note)}</p>${p.application.opensOn ? `<p>Source opening date: ${escape(p.application.opensOn)}</p>` : ""}${p.application.closesOn ? `<p>Source closing date: ${escape(p.application.closesOn)}${p.application.deadlineInstant ? " · " + escape(p.application.deadlineInstant) : " · exact time not verified"}</p>` : ""}${link(p.application.url, "Application information")}<h5>Supported costs</h5>${bullets(p.costs.supported)}${p.costs.excluded.length ? `<p><strong>Excluded costs</strong></p>${bullets(p.costs.excluded)}` : ""}<h5>Information still to confirm</h5>${bullets(p.unknowns)}<details class="quality-details"><summary>Evidence behind this program</summary><ul>${p.evidence.map((e) => `<li><p>${escape(e.note)}</p>${link(e.url, "Official evidence")} <span class="description-note">Checked ${escape(e.checkedOn)}</span></li>`).join("")}</ul></details></article>`).join("")}
+  ${r.programs.map((p) => `<article class="program-research" id="program-${escape(p.id)}" tabindex="-1"><h4>${escape(p.name)}</h4><p>${escape(p.instrument)} · ${escape(ACCESS[p.application.route]?.label || p.application.route)}</p><h5>Focus and beneficiaries</h5>${bullets([...p.focus, ...p.beneficiaries])}<h5>Where work and applicants can be based</h5><p>${escape(p.geography.scope || "Geographic eligibility not established.")}</p>${p.geography.workCountries.length ? `<p>Work countries mentioned: ${escape(p.geography.workCountries.join(", "))}</p>` : ""}${p.geography.applicantCountries.length ? `<p>Applicant countries mentioned: ${escape(p.geography.applicantCountries.join(", "))}</p>` : ""}${p.geography.exclusions.length ? bullets(p.geography.exclusions) : ""}<h5>Applicant requirements</h5>${bullets([...p.applicants.types, ...p.applicants.requirements])}<p>Fiscal sponsorship: ${escape({ accepted: "Explicitly accepted", not_accepted: "Explicitly not accepted", unknown: "Not verified" }[p.applicants.fiscalSponsorship])}.</p>${p.applicants.exclusions.length ? `<p><strong>Exclusions</strong></p>${bullets(p.applicants.exclusions)}` : ""}<h5>Award and timing</h5><p><strong>${escape(amountLabel(f, p.award))}</strong></p><p>${escape(p.award.note || "Award size not established.")}</p><p>${escape(p.application.note)}</p>${p.application.opensOn ? `<p>Source opening date: ${escape(p.application.opensOn)}</p>` : ""}${p.application.closesOn ? `<p>Source closing date: ${escape(p.application.closesOn)}${p.application.deadlineInstant ? " · " + escape(p.application.deadlineInstant) : " · exact time not verified"}</p>` : ""}${link(p.application.url, "Application information")}<h5>Supported costs</h5>${bullets(p.costs.supported)}${p.costs.excluded.length ? `<p><strong>Excluded costs</strong></p>${bullets(p.costs.excluded)}` : ""}<h5>Information still to confirm</h5>${bullets(p.unknowns)}<details class="quality-details"><summary>Evidence behind this program</summary><ul>${p.evidence.map((e) => `<li><p>${escape(e.note)}</p>${link(e.url, "Official evidence")} <span class="description-note">Checked ${escape(e.checkedOn)}</span></li>`).join("")}</ul></details></article>`).join("")}
   ${r.evidence.length ? `<details class="quality-details"><summary>Evidence behind the overview</summary><ul>${r.evidence.map((e) => `<li><p>${escape(e.note)}</p>${link(e.url, "Official evidence")} <span class="description-note">Checked ${escape(e.checkedOn)}</span></li>`).join("")}</ul></details>` : ""}
   ${r.sources.length ? `<details class="quality-details"><summary>All reviewed official sources (${r.sources.length})</summary><ul>${r.sources.map((source) => `<li>${link(source.url, source.title)} <span class="description-note">Checked ${escape(source.checkedOn)}</span></li>`).join("")}</ul></details>` : "<p>No official source could be verified in this pass. This record remains available for further research.</p>"}</section>`;
 }
@@ -980,6 +1033,17 @@ document.addEventListener("click", async (event) => {
     return;
   }
   switch (action) {
+    case "deadline-more":
+      showAllDeadlines = !showAllDeadlines;
+      renderDeadlines();
+      break;
+    case "deadline-program": {
+      openFund(id, true, false, target.dataset.program);
+      const section = $("program-" + target.dataset.program);
+      section?.focus({ preventScroll: true });
+      section?.scrollIntoView({ block: "start" });
+      break;
+    }
     case "fund-section": {
       const section = $(target.dataset.section);
       if (section && fundDialog.contains(section)) {
@@ -1185,7 +1249,8 @@ window.addEventListener("popstate", () => {
   }
   const fund = new URLSearchParams(location.search).get("fund");
   if (fund) {
-    if (currentFund?.id !== fund) openFund(fund, false);
+    const programId = new URLSearchParams(location.search).get("program");
+    if (!fundDialog.open || currentFund?.id !== fund || (programId && currentFund?.displayProgramId !== programId)) openFund(fund, false, false, programId);
   } else if (fundDialog.open) closeFund(true);
 });
 window.addEventListener("storage", (e) => {
@@ -1304,7 +1369,7 @@ async function load() {
     render();
     loadMatchingData();
     const id = new URLSearchParams(location.search).get("fund");
-    if (id) openFund(id, false);
+    if (id) openFund(id, false, false, new URLSearchParams(location.search).get("program"));
   } catch (error) {
     $("result-count").textContent = "Directory unavailable";
     $("results").setAttribute("aria-busy", "false");
