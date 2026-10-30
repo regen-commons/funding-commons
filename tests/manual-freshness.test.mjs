@@ -150,3 +150,16 @@ test('unresolved historical leads and incomplete discovery remain held with expl
   assert.equal(coverage.discovery.heldNewLeads.length,3);
   assert.ok(coverage.discovery.heldNewLeads.every(r=>r.unresolved));
 });
+
+// These hashes come from the independent PR heads before combining their ledgers.
+test('combining discovery and freshness preserves both complete run records and entry sets', () => {
+  const runs = read('research/maintenance-history/manual-thursday-2026-10-29/ledger-integration-baseline.json');
+  assert.deepEqual(runs.map(r=>r.entryCount),[9,253]);
+  for(const expected of runs) {
+    const entries=log.entries.filter(e=>e.runId===expected.runId);
+    assert.equal(entries.length,expected.entryCount,expected.runId);
+    assert.equal(hash(entries),expected.entriesSha256,expected.runId);
+    assert.equal(hash(log.runs.find(r=>r.id===expected.runId)),expected.runSha256,expected.runId);
+    assert.equal(log.runs.filter(r=>r.id===expected.runId).length,1,expected.runId);
+  }
+});

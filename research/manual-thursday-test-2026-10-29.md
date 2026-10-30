@@ -68,3 +68,9 @@ The currently merged generated historical report remains affected by the known p
 The first build attempt found a copied dependency symlink without its local target; installing the existing local cache target resolved it. The successful build uses the explicit Node 24.20.0 and Bun paths requested for this test. Dependency/model caches and raw fetched text/PDFs are not committed. Published artifacts contain public URLs, metadata and scoped paraphrases; no private Drive/Linear captures or contact lists were added.
 
 Delivery is a draft PR labeled `automated/codex`. No PR is merged and no production deployment or promotion is performed. Existing automatic previews and checks remain enabled. Remaining work is the exact source/record backlog above, resolution of the two proposed revisions, and the separate historical-report correction in PR #6. This manual run does not test whether the weekly timer fires.
+
+## PR review follow-up
+
+PR #7 is now stacked on PR #6. The combined ledger retains all 112 previous entries, nine Monday entries and 253 Thursday entries (374 total), with both full run records. The integration baseline pins the independent PR heads before combination; a regression check rejects dropping or changing either run's entries. The original 694-record inventory and coverage counts above describe the manual test's starting catalog; the combined branch includes PR #6's five additions and frozen historical report.
+
+A fresh direct HTTPS check of the Keeling Curve portal returned the same 2027 response checksum as source-361 (`e933fada8c58ad1aafffc84f89bb0980ce86d67a733bf1fe6b294cc74fcc6e10`). A web retrieval returned an older 2026 page. This version discrepancy does not establish new terms: the direct capture supports the original scoped finding, while the main site's closure remains unresolved. Both revision proposals stay unapplied. See [the review record](pr-review-2026-10-29.md) for the combined validation and merge order.
