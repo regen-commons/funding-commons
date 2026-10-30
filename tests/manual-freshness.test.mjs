@@ -1,3 +1,4 @@
+import {auditCatalog} from './helpers/audit-revisions.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -11,7 +12,7 @@ const coverage = read('research/freshness-coverage-2026-10-29.json');
 const inventory = read('research/freshness-inventory-2026-10-29.json');
 const log = read('research/maintenance-review-log.json');
 const archive = read('research/maintenance-history/manual-thursday-2026-10-29/proposals.json');
-const funds = read('dist/data/funders.json').funds;
+const funds = auditCatalog(read('dist/data/funders.json')).funds;
 const sourceById = new Map(coverage.sources.map(s => [s.id,s]));
 const runId = 'manual-thursday-2026-10-29';
 const sorted = rows => [...rows].sort((a,b) => {
@@ -114,7 +115,7 @@ test('partial field reviews retain unknowns and never advance whole-record verif
   assert.equal(coverage.summary.allSelected.completeTermReviews,0);
 });
 
-test('proposed revisions retain exact prior records and remain unapplied', () => {
+test('manual-review proposals retain exact prior records at their historical revision', () => {
   assert.equal(archive.applied,false);
   assert.equal(archive.proposals.length,2);
   for(const p of archive.proposals) {
