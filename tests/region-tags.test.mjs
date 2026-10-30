@@ -1,3 +1,4 @@
+import {auditCatalog,auditInput,auditFileHash} from './helpers/audit-revisions.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -32,7 +33,7 @@ test('region corrections recover every prior full record and input without chang
   assert.equal(archive.baseCommit,'1c86877af0db2a7f0465412008ec067103b8dc39');
   assert.equal(funds.length,archive.catalogRecordCount);
   assert.deepEqual(archive.revisions.map(r=>r.fundId),['local-cdfw','local-funbio']);
-  const prior = funds.map(f => {
+  const prior = auditCatalog({funds}).funds.map(f => {
     const revision=archive.revisions.find(r=>r.fundId===f.id);
     if (!revision) return f;
     assert.equal(hash(revision.priorFundRecord),revision.priorFundSha256);
@@ -45,7 +46,7 @@ test('region corrections recover every prior full record and input without chang
     return restored;
   });
   assert.equal(hash(prior),archive.priorCatalogFundsSha256,'all 699 prior full records recover exactly');
-  const manifest=read('research/supplemental-funders.json');
+  const manifest=auditInput('research/supplemental-funders.json');
   for(const revision of archive.revisions) {
     const index=manifest.funds.findIndex(r=>r.fund.id===revision.fundId);
     const restored=structuredClone(manifest.funds[index]);
@@ -55,7 +56,7 @@ test('region corrections recover every prior full record and input without chang
   }
   assert.equal(hash(manifest),archive.priorManifestSha256);
   for(const [path,expected] of Object.entries(archive.unchangedFilesSha256))
-    assert.equal(createHash('sha256').update(fs.readFileSync(new URL(path,root))).digest('hex'),expected,path);
+    assert.equal(auditFileHash(path),expected,path);
 });
 
 test('normal import reproduces corrected regions and all retained program terms', () => {
