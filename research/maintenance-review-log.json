@@ -2118,6 +2118,1016 @@
       ],
       "nextReviewOn": "2026-11-05",
       "note": "African Visionary Fellowship selects from existing Segal grantees and provides capacity, mentorship and connections. No separate cash award or open application established. Segal's grant program is already represented."
+    },
+    {
+      "runId": "manual-monday-discovery-2026-10-29",
+      "fundId": "local-hacker-initiative",
+      "programId": "hacker-initiative-signal-noise-2026",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "applicants",
+        "application",
+        "award",
+        "costs",
+        "focus",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://hackerinitiative.org/",
+        "https://docs.google.com/forms/d/e/1FAIpQLSc_6C9WO9PEXS3r1BN_Qq5LOL9xtoEux0pC6xTmxUlpxlanxg/viewform",
+        "https://hackerinitiative.org/grant-guidelines/",
+        "https://hackerinitiative.org/application-faq/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Manual test. Only recorded fields verified; explicit unknowns and failed supplementary sources remain. See run coverage."
+    },
+    {
+      "runId": "manual-monday-discovery-2026-10-29",
+      "fundId": "local-linux-australia",
+      "programId": "linux-australia-project-2026",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "applicants",
+        "application",
+        "award",
+        "costs",
+        "focus",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://linux.org.au/grants-program/",
+        "https://linux.org.au/wp-content/uploads/2021/02/linux_australia_grants_guidelines.pdf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Manual test. Only recorded fields verified; explicit unknowns and failed supplementary sources remain. See run coverage."
+    },
+    {
+      "runId": "manual-monday-discovery-2026-10-29",
+      "fundId": "local-linux-australia",
+      "programId": "linux-australia-community-2026",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "applicants",
+        "application",
+        "award",
+        "costs",
+        "focus",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://linux.org.au/grants-program/",
+        "https://linux.org.au/wp-content/uploads/2021/02/linux_australia_grants_guidelines.pdf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Manual test. Only recorded fields verified; explicit unknowns and failed supplementary sources remain. See run coverage."
+    },
+    {
+      "runId": "manual-monday-discovery-2026-10-29",
+      "fundId": "local-people-powered",
+      "programId": "people-powered-cda-2027",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "applicants",
+        "application",
+        "award",
+        "focus",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://www.peoplepowered.org/climate-democracy-accelerator"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Manual test. Only recorded fields verified; explicit unknowns and failed supplementary sources remain. See run coverage."
+    },
+    {
+      "runId": "manual-monday-discovery-2026-10-29",
+      "fundId": "local-cdfw",
+      "programId": "cdfw-mojave-tortoise-2026",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "applicants",
+        "application",
+        "award",
+        "costs",
+        "focus",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://wildlife.ca.gov/Grants/Restoration-Grants",
+        "https://www.grants.ca.gov/grants/mojave-desert-tortoise-recovery/",
+        "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=247793&inline="
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Manual test. Only recorded fields verified; explicit unknowns and failed supplementary sources remain. See run coverage."
+    },
+    {
+      "runId": "manual-monday-discovery-2026-10-29",
+      "fundId": "local-funbio",
+      "programId": "funbio-floresta-viva-sao-francisco-2026",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "applicants",
+        "application",
+        "award",
+        "focus",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://chamadas.funbio.org.br/floresta-viva-sao-francisco"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Manual test. Only recorded fields verified; explicit unknowns and failed supplementary sources remain. See run coverage."
+    },
+    {
+      "runId": "manual-monday-discovery-2026-10-29",
+      "fundId": "local-cpuc",
+      "programId": "cpuc-cea-lat-round3",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "application",
+        "applicants"
+      ],
+      "sourceUrls": [
+        "https://www.cpuc.ca.gov/capacitygrants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Bounded unchanged-term review; original catalog program and source revision retained. Unknowns remain."
+    },
+    {
+      "runId": "manual-monday-discovery-2026-10-29",
+      "fundId": "recu4Uz6BAlTZmsjv",
+      "programId": "2027-global-climate-challenge",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "application"
+      ],
+      "sourceUrls": [
+        "https://solve.mit.edu/challenges/2027-global-climate-challenge"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Bounded unchanged-term review; original catalog program and source revision retained. Unknowns remain."
+    },
+    {
+      "runId": "manual-monday-discovery-2026-10-29",
+      "fundId": "local-undp-gef",
+      "programId": "undp-nigeria-icca-regular",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.undp.org/nigeria/news/call-proposals-indigenous-peoples-and-local-communities-conserved-areas-and-territories-global-support-initiative-icca-gsi-phase-2"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Bounded unchanged-term review; original catalog program and source revision retained. Unknowns remain."
+    }
+  ],
+  "runs": [
+    {
+      "id": "manual-monday-discovery-2026-10-29",
+      "runType": "manual-test",
+      "localDate": "2026-10-29",
+      "timeZone": "America/Los_Angeles",
+      "scheduledTimerObserved": false,
+      "executionModel": "gpt-6-astra",
+      "reasoningEffort": "xhigh",
+      "executionNote": "Immediate user-requested manual test; model and reasoning setting supplied by the user. Not evidence that the Monday timer fired.",
+      "branch": "codex/test-monday-discovery-2026-10-29",
+      "baselineCommit": "4688d55232b847b422370441fa1e79d5273a0ec8",
+      "openPullRequestsAtStart": [
+        "https://github.com/regen-commons/funding-commons/pull/3"
+      ],
+      "pendingHistoricalLeadsAtStart": 0,
+      "unresolvedHistoricalLeadsRevisited": [
+        "history-lead-020",
+        "history-lead-023",
+        "history-lead-054",
+        "history-lead-059"
+      ],
+      "historicalDispositionsChanged": 0,
+      "additions": [
+        {
+          "fundId": "local-hacker-initiative",
+          "programIds": [
+            "hacker-initiative-signal-noise-2026"
+          ]
+        },
+        {
+          "fundId": "local-linux-australia",
+          "programIds": [
+            "linux-australia-project-2026",
+            "linux-australia-community-2026"
+          ]
+        },
+        {
+          "fundId": "local-people-powered",
+          "programIds": [
+            "people-powered-cda-2027"
+          ]
+        },
+        {
+          "fundId": "local-cdfw",
+          "programIds": [
+            "cdfw-mojave-tortoise-2026"
+          ]
+        },
+        {
+          "fundId": "local-funbio",
+          "programIds": [
+            "funbio-floresta-viva-sao-francisco-2026"
+          ]
+        }
+      ],
+      "revisedPrograms": [],
+      "sourceCounts": {
+        "selected": 37,
+        "attempted": 37,
+        "retrieved": 31,
+        "verified": 17,
+        "failed": 8,
+        "reviewedNoTerms": 12,
+        "unreviewed": 0,
+        "retrievalFailed": 6
+      },
+      "countDefinition": "Unique explicitly opened/clicked URLs, deduplicating repeated reads and redirects. Retrieved means a response body was available, including two unusable shells. Verified means only listed fields were actually reviewed against official evidence. Failed includes six retrieval errors plus two unusable bodies. Reviewed-no-terms includes discovery/portfolio/wrapper pages; none counts as verified program terms. Search-only leads and links not opened are excluded from these source counts and listed separately.",
+      "sources": [
+        {
+          "id": "source-01",
+          "url": "https://hackerinitiative.org/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "focus",
+            "geography",
+            "award",
+            "application"
+          ],
+          "finding": "2026 Signal/Noise call, worldwide community purpose and USD 5,000–25,000 range reviewed.",
+          "scope": [
+            "open-source public goods",
+            "global",
+            "community education"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-02",
+          "url": "https://linux.org.au/grants-program/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "focus",
+            "geography",
+            "applicants",
+            "application",
+            "award",
+            "costs"
+          ],
+          "finding": "Two 2026 categories, member application route and November 15, 23:59 anywhere-on-Earth cutoff reviewed. Shared $30k pool is not an individual award.",
+          "scope": [
+            "open-source public goods",
+            "community education"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-03",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSc_6C9WO9PEXS3r1BN_Qq5LOL9xtoEux0pC6xTmxUlpxlanxg/viewform",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "application",
+            "applicants",
+            "costs"
+          ],
+          "finding": "Official owner-linked form page 1 establishes November 9, 11:59 pm PST; English submission and legal/sanctions requirements reviewed. No form submitted.",
+          "scope": [],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-04",
+          "url": "https://linux.org.au/wp-content/uploads/2021/02/linux_australia_grants_guidelines.pdf",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "award",
+            "applicants",
+            "costs"
+          ],
+          "finding": "Both pages reviewed. No per-grant bounds; prior AUD awards are historical. Budget justification, open outputs, hardware limit and reporting reviewed.",
+          "scope": [],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-05",
+          "url": "https://hackerinitiative.org/grant-guidelines/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "applicants",
+            "costs",
+            "focus"
+          ],
+          "finding": "Applicant types and exclusions reviewed; committee eligibility differs from the dated form. Conflict retained.",
+          "scope": [],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-06",
+          "url": "https://hackerinitiative.org/application-faq/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "application",
+            "applicants",
+            "instrument"
+          ],
+          "finding": "Once-per-project rule, grant instrument and reporting reviewed. Generic frequency and pool are not used as a new round or award bound.",
+          "scope": [],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-07",
+          "url": "https://www.grants.gov/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Official directory reachable; homepage is not call evidence.",
+          "scope": [
+            "registry",
+            "US/global"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-08",
+          "url": "https://www.grants.ca.gov/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Reviewed recent listings and followed Mojave Desert Tortoise Recovery. Remaining portal inventory not enumerated.",
+          "scope": [
+            "registry",
+            "California"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-09",
+          "url": "https://www.terravivagrants.org/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Discovery-only directory; followed energy/climate category.",
+          "scope": [
+            "registry",
+            "global"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-10",
+          "url": "https://www.fundsforngos.org/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "failed",
+          "review": "failed",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "HTTP 403. No listings or terms established.",
+          "scope": [
+            "registry",
+            "global"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-11",
+          "url": "https://www.codevelop.fund/dpi-for-people-and-planet",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Reviewed full initiative page: five winners and partnership contact, no new applicant-facing call. history-lead-020 remains unresolved.",
+          "scope": [
+            "global",
+            "digital inclusion",
+            "climate"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-12",
+          "url": "https://vrbs.wtf/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "failed",
+          "review": "failed",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "HTTP 403. Targeted search did not recover official terms. history-lead-023 remains unresolved.",
+          "scope": [
+            "open-source public goods"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-13",
+          "url": "https://www.ifc.org/en/what-we-do/products-and-services/how-to-apply-for-financing",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Official financing policy reviewed. Does not corroborate the named SME Growth Accelerator; no claims imported from ifcgrants.org. history-lead-054 remains unresolved.",
+          "scope": [
+            "global"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-14",
+          "url": "https://rea.gov.ng/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Agency/program navigation reviewed; no applicant-facing Green Finance Investment Facility terms established. history-lead-059 remains unresolved.",
+          "scope": [
+            "Nigeria",
+            "community energy"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-15",
+          "url": "https://www.cpuc.ca.gov/capacitygrants",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "application",
+            "applicants"
+          ],
+          "finding": "Round 3 still closes October 30 at 11:59 pm; no timezone. Headquarters ZIP 91326 and no previous CEA-LAT award requirements unchanged.",
+          "scope": [
+            "California",
+            "community energy"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-16",
+          "url": "https://casa.org.br/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Reviewed community/environment scope and followed calls directory; portfolio stories do not establish open intake.",
+          "scope": [
+            "Brazil",
+            "restoration/climate",
+            "community energy",
+            "cultural/community education"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-17",
+          "url": "https://www.nac.org.za/funding-news/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "failed",
+          "review": "failed",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Direct retrieval timed out. Search excerpt cannot establish complete current-call inventory.",
+          "scope": [
+            "South Africa",
+            "cultural/community education"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-18",
+          "url": "https://www.grants.gov/search-grants",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "failed",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Retrieved search shell ending in Loading with no usable results. Zero counters are not evidence of zero opportunities.",
+          "scope": [
+            "registry",
+            "US/global"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-19",
+          "url": "https://www.terravivagrants.org/category/energy-climate-change/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Reviewed first-page discovery listings. Followed People Powered and MIT Solve to owners. Aggregator November 2 MIT deadline contradicted by official November 6 deadline; catalog unchanged.",
+          "scope": [
+            "registry",
+            "restoration/climate",
+            "community energy",
+            "global"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-20",
+          "url": "https://www.grants.ca.gov/grants/mojave-desert-tortoise-recovery/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "award",
+            "applicants",
+            "geography",
+            "application"
+          ],
+          "finding": "State listing reviewed: program pool, applicant classes, geography, date. 04:00 time lacks timezone; not normalized.",
+          "scope": [
+            "California",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-21",
+          "url": "https://www.nac.org.za/new-call-for-the-nac-annual-project-funding-applications-for-2026-2027/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "application",
+            "applicants",
+            "award"
+          ],
+          "finding": "Annual arts call closed March 13, 2026; R350,000 maximum and listed applicant types reviewed. No reopening established; not imported as a current call.",
+          "scope": [
+            "South Africa",
+            "cultural/community education"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-22",
+          "url": "https://wildlife.ca.gov/Grants/Restoration-Grants",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "focus",
+            "application",
+            "award"
+          ],
+          "finding": "Owner announcement confirms the tortoise call and December 3 date. Followed linked guidelines.",
+          "scope": [
+            "California",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-23",
+          "url": "https://casa.org.br/chamadas/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "application"
+          ],
+          "finding": "Directory labels displayed calls closed, including the existing simplified community call. No reopened round found on this page; other closed calls not individually verified.",
+          "scope": [
+            "Brazil",
+            "restoration/climate",
+            "cultural/community education"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-24",
+          "url": "https://www.peoplepowered.org/climate-democracy-accelerator",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "focus",
+            "geography",
+            "application",
+            "applicants",
+            "award"
+          ],
+          "finding": "Application/eligibility/due-diligence sections reviewed. Deadline November 27 23:59 UTC; nonprofit-government partnership and conditional USD 10,000 implementation funding; additional competitive bonus kept separate.",
+          "scope": [
+            "global",
+            "Brazil",
+            "community energy",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-25",
+          "url": "https://solve.mit.edu/challenges/2027-global-climate-challenge",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "application"
+          ],
+          "finding": "Timeline confirms November 6, 2026 noon EST, matching existing program. No new round or revision required.",
+          "scope": [
+            "global",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-26",
+          "url": "https://chamadas.funbio.org.br/florestas-viva-sao-francisco",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "failed",
+          "review": "failed",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Inline plural-path URL inaccessible through research tool. Singular production URL later recovered; failed attempt retained.",
+          "scope": [
+            "Brazil",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-27",
+          "url": "https://www.fcmbgroup.com/about-us/sustainability",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Sustainability and finance overview reviewed, but no named Green Finance Investment Facility application terms. history-lead-059 remains unresolved.",
+          "scope": [
+            "Nigeria",
+            "community energy"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-28",
+          "url": "https://www.nep.rea.gov.ng/apply-dares.html",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Program registration wrappers retrieved; embedded applications not reviewed. Existing rea-dares terms left unchanged; no current grant window inferred.",
+          "scope": [
+            "Nigeria",
+            "community energy"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-29",
+          "url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=247793&inline=",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "geography",
+            "applicants",
+            "application",
+            "costs"
+          ],
+          "finding": "October 2026 tortoise PDF body reviewed (sections 3–10 and schedule); metadata title is stale. Deadline date established, timezone absent; conflicting workshop dates retained.",
+          "scope": [
+            "California",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-30",
+          "url": "https://www.undp.org/nigeria/press-releases/mastercard-foundation-and-undp-launch-applications-cohort-2-young-africa-innovates-yai-programme",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "instrument",
+            "applicants",
+            "focus"
+          ],
+          "finding": "Cohort 2 announcement reviewed. Incubation, mentoring and exposure to financing are described; direct cash award not promised. Held as non-cash program, not a verified grant.",
+          "scope": [
+            "Nigeria",
+            "digital inclusion",
+            "community energy"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-31",
+          "url": "https://www.undp.org/nigeria/news/call-proposals-indigenous-peoples-and-local-communities-conserved-areas-and-territories-global-support-initiative-icca-gsi-phase-2",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "award",
+            "applicants",
+            "application"
+          ],
+          "finding": "Existing regular-grant USD 50,000 ceiling, registered CSO experience and cofinance requirements reviewed. No cutoff in reviewed text; existing unconfirmed intake preserved. Catalytic stream held for further separate review.",
+          "scope": [
+            "Nigeria",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-32",
+          "url": "https://www.gcip.rea.gov.ng/adverts.html",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Page has Apply Here link but no dated call terms; differs from older search excerpt saying open soon. Followed notice, which failed.",
+          "scope": [
+            "Nigeria",
+            "community energy"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-33",
+          "url": "https://chamadas.funbio.org.br/",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "reviewed-no-terms",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Production directory lists Sao Francisco, Articulação Institucional and Porto Sul. Followed Sao Francisco; other two call regulations not reviewed.",
+          "scope": [
+            "Brazil",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-34",
+          "url": "https://chamadas.funbio.org.br/slug%3Dfloresta-viva-sao-francisco",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "failed",
+          "review": "failed",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Directory link returned HTTP 500. Correct singular URL later recovered.",
+          "scope": [
+            "Brazil",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-35",
+          "url": "https://www.gcip.rea.gov.ng/eoi-advert.html",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "failed",
+          "review": "failed",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Linked application notice returned HTTP 502; no call imported.",
+          "scope": [
+            "Nigeria",
+            "community energy"
+          ],
+          "nextReviewOn": "2026-11-05"
+        },
+        {
+          "id": "source-36",
+          "url": "https://chamadas.funbio.org.br/floresta-viva-sao-francisco",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "verified",
+          "verifiedOn": "2026-10-29",
+          "fields": [
+            "focus",
+            "geography",
+            "applicants",
+            "award",
+            "application"
+          ],
+          "finding": "Production overview reviewed: Edital 04/2026, two-year nonprofit/cooperative eligibility, target watersheds, BRL pool and December 2 at 19:00 Brasília cutoff. Individual award and regulation details unknown.",
+          "scope": [
+            "Brazil",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-26"
+        },
+        {
+          "id": "source-37",
+          "url": "https://chamadas.funbio.org.br/floresta-viva-sao-francisco/download/regulamento?id=95b0e8a0-3da3-4935-964c-b6dbc92c183c",
+          "attemptedOn": "2026-10-29",
+          "retrieval": "retrieved",
+          "review": "failed",
+          "verifiedOn": null,
+          "fields": [],
+          "finding": "Retrieved only tracking/iframe shell, no readable regulation. Overview verified separately; full terms remain incomplete.",
+          "scope": [
+            "Brazil",
+            "restoration/climate"
+          ],
+          "nextReviewOn": "2026-11-05"
+        }
+      ],
+      "searches": [
+        {
+          "query": "site.ifc.org \"SME Growth Accelerator\"",
+          "outcome": "No corroborating ifc.org result; unrelated and unaffiliated listings rejected.",
+          "searchedOn": "2026-10-29"
+        },
+        {
+          "query": "site.rea.gov.ng \"Green Finance Investment Facility\"",
+          "outcome": "No applicant-facing official call returned.",
+          "searchedOn": "2026-10-29"
+        },
+        {
+          "query": "site.fcmb.com \"Green Finance\"",
+          "outcome": "Followed FCMB Group sustainability; no named applicant offer.",
+          "searchedOn": "2026-10-29"
+        },
+        {
+          "query": "site.vrbs.wtf grants apply",
+          "outcome": "No usable official terms returned.",
+          "searchedOn": "2026-10-29"
+        },
+        {
+          "query": "2026 grants restoration climate November call proposals [domains: grants.ca.gov]",
+          "outcome": "Used registry homepage recent listing and owner call; search alone not treated as verified terms.",
+          "searchedOn": "2026-10-29"
+        },
+        {
+          "query": "2026 edital comunidades restauração apoio inscrições [domains: casa.org.br, funbio.org.br]",
+          "outcome": "Staging/preproduction FUNBIO search hits used only as leads; production page separately recovered.",
+          "searchedOn": "2026-10-29"
+        },
+        {
+          "query": "2026 open call community arts funding November [domains: nac.org.za, nlcsa.org.za]",
+          "outcome": "NAC annual and PESP7 results were dated earlier in 2026; reviewed annual call; current directory timed out.",
+          "searchedOn": "2026-10-29"
+        },
+        {
+          "query": "2026 grants community energy digital inclusion Nigeria November [domains: rea.gov.ng, ng.undp.org, undp.org]",
+          "outcome": "Reviewed YAI, ICCA, REA/DARES and GCIP; no unsupported current cash grant imported.",
+          "searchedOn": "2026-10-29"
+        }
+      ],
+      "deferredLeads": [
+        {
+          "name": "FUNBIO Articulação Institucional 11/2026",
+          "discoveryUrl": "https://chamadas.funbio.org.br/",
+          "status": "unreviewed-call-terms",
+          "reason": "Directory date November 23 observed; individual regulation not selected in this bounded pass."
+        },
+        {
+          "name": "FUNBIO Porto Sul 10/2026",
+          "discoveryUrl": "https://chamadas.funbio.org.br/",
+          "status": "unreviewed-call-terms",
+          "reason": "Directory date November 9 observed; individual regulation not selected in this bounded pass."
+        },
+        {
+          "name": "Allianz / Social Shifters MoveNow",
+          "discoveryUrl": "https://www.terravivagrants.org/category/energy-climate-change/",
+          "status": "unreviewed-call-terms",
+          "reason": "Aggregator-only lead; owner terms not opened."
+        },
+        {
+          "name": "Earth Journalism Network India renewable energy stories",
+          "discoveryUrl": "https://www.terravivagrants.org/category/energy-climate-change/",
+          "status": "unreviewed-call-terms",
+          "reason": "Aggregator-only lead; owner terms not opened."
+        },
+        {
+          "name": "NAC PESP7",
+          "discoveryUrl": "https://www.nac.org.za/new-call-for-presidential-employment-stimulus-programme-pesp-7-applications/",
+          "status": "unreviewed-call-terms",
+          "reason": "Search excerpt has historical May 29 close; full call not reviewed."
+        },
+        {
+          "name": "ICCA Nigeria catalytic NGO stream",
+          "discoveryUrl": "https://www.undp.org/nigeria/news/call-proposals-indigenous-peoples-and-local-communities-conserved-areas-and-territories-global-support-initiative-icca-gsi-phase-2",
+          "status": "partial-review",
+          "reason": "Separate role appears in existing source; full applicant route/current intake unresolved. Do not merge into regular-grant program."
+        },
+        {
+          "name": "Young Africa Innovates cohort 2",
+          "discoveryUrl": "https://www.undp.org/nigeria/press-releases/mastercard-foundation-and-undp-launch-applications-cohort-2-young-africa-innovates-yai-programme",
+          "status": "non-cash-program",
+          "reason": "Verified incubation/mentoring announcement, no direct cash award established; do not duplicate Mastercard/UNDP identity as a cash grant."
+        },
+        {
+          "name": "GCIP Nigeria",
+          "discoveryUrl": "https://www.gcip.rea.gov.ng/adverts.html",
+          "status": "failed-verification",
+          "reason": "Application notice HTTP 502; current round unknown."
+        }
+      ],
+      "coverageLimitations": [
+        "Grants.gov search returned only a loading shell; US federal opportunity inventory was not enumerated. FundsforNGOs returned 403.",
+        "South Africa: NAC annual call reviewed as historical; current funding directory timed out and PESP7 full terms remain unreviewed. No NLC listing was verified.",
+        "Nigeria: Vrbs unrelated global historical lead still blocked; Green Finance Investment Facility lacks official offer. GCIP notice failed; DARES embedded forms unreviewed. ICCA intake remains unconfirmed.",
+        "Brazil: FUNBIO overview recovered, regulation unreadable. Two other displayed FUNBIO calls and individual closed Casa calls not fully reviewed.",
+        "Terra Viva coverage is the first energy/climate page only. Two selected aggregator leads remain unreviewed at owners; other pages/categories were not enumerated.",
+        "All requested regions/themes received a bounded search or official-page review; this is not an exhaustive registry or catalog freshness audit. No claim to Thursday 125-record coverage.",
+        "No applications submitted, member/authenticated forms completed, funders contacted, private Drive/Linear notes accessed, merge or deployment performed."
+      ],
+      "deferredLeadCounts": {
+        "unreviewedCallTerms": 5,
+        "partiallyReviewed": 1,
+        "nonCashProgram": 1,
+        "failedVerification": 1
+      },
+      "deduplication": {
+        "baselineRecordsCompared": 694,
+        "identityMatchesForNewFunders": 0,
+        "comparison": "Names, aliases, domains, application and source URLs compared across the full baseline; no existing Hacker Initiative/No Starch, Linux Australia, People Powered/CDA, CDFW or FUNBIO identity found. Two Linux categories share one funder and 2026 cycle; FUNBIO is the call operator, not merged with BNDES or Axia. Existing CPUC, MIT Solve and UNDP/GEF rounds retained. No open PR returned by GitHub at start."
+      },
+      "validation": {
+        "import": "passed; 699 records / all 593 original IDs",
+        "build": "passed; pinned model assets and 768 search documents",
+        "tests": "118 passed; 0 failed; 0 skipped",
+        "preservation": "all 694 previous full records unchanged; 721 programs and 1824 sources retained; 112 prior review entries and original historical queue unchanged",
+        "diffCheck": "passed",
+        "note": "Report records manual test verification, not a timer event. New tests pin the previous full catalog and completed October 15 audit."
+      },
+      "result": "completed-with-coverage-gaps",
+      "pullRequestCheck": {
+        "runnerSearchResult": "empty",
+        "coordinatorVerified": [
+          "https://github.com/regen-commons/funding-commons/pull/3"
+        ],
+        "finding": "The search tool returned no rows even though documentation-only PR #3 was open. Its scope does not overlap these additions. Empty search results require a repository-wide open-PR cross-check."
+      },
+      "coordinatorReview": {
+        "automaticPrPreviews": "Existing configuration retained; automatic preview and checks are permitted. No merge or production deployment is authorized.",
+        "historicalReport": "Freeze the exact e0d199f pre-supplemental snapshot; its date label does not establish contemporaneous October 15 field counts."
+      }
     }
   ]
 }

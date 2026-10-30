@@ -152,7 +152,11 @@ if baseline:
         'outcomes':dict(collections.Counter(row['outcome'] for row in followups)),
     }
     snapshot['followUpSummary']=followup_summary
-    followup_report={**followup_summary,'fieldCoverage':field_counts,'records':[{'checkedOn':baseline['checkedOn'],**row} for row in followups],
+    # The pre-supplemental published audit report is frozen evidence, not a live metric.
+    completed=read('research/deepening-result.json')
+    if any(completed.get(k)!=v for k,v in followup_summary.items()):
+        raise ValueError('Completed follow-up result belongs to another audit.')
+    followup_report={**followup_summary,'fieldCoverage':completed['fieldCoverage'],'records':[{'checkedOn':baseline['checkedOn'],**row} for row in followups],
         'notes':'Each target received a policy follow-up. A reviewed policy may be invitation-only, closed or historical. No current date or amount is inferred from an older award, and remaining gaps are not eligibility rejections.'}
     (ROOT/'dist/data/research-followup.json').write_text(json.dumps(followup_report,ensure_ascii=False,indent=2)+'\n')
 (ROOT/'dist/data/funders.json').write_text(json.dumps(snapshot,ensure_ascii=False,separators=(',',':')))
