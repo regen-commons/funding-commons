@@ -1479,6 +1479,26 @@
       "requirement": "Build an integration or useful application of G$; future round criteria require fresh confirmation.",
       "sourceUrl": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d",
       "checkedOn": "2026-10-29"
+    },
+    {
+      "fundId": "recUN8nEtimhdGZeE",
+      "programId": "nonprofit-corporate-grants",
+      "id": "verizon-public-charity-or-school",
+      "category": "applicant_model",
+      "requirement": "Applicant is an IRS-recognized 501(c)(3) public charity with an eligible 509(a)(1), 509(a)(2), or approved 509(a)(3) classification OR a nonprofit K–12 school registered with NCES. General NGO status alone does not establish either route; fiscal-sponsor acceptance is unconfirmed.",
+      "sourceUrl": "https://www.verizon.com/about/responsibility/grant-requirements",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
+    },
+    {
+      "fundId": "recUN8nEtimhdGZeE",
+      "programId": "nonprofit-corporate-grants",
+      "id": "verizon-education-beneficiaries",
+      "category": "beneficiary",
+      "requirement": "Funded activities align with a published Verizon funding priority. An education request promotes digital skills for K–12 students or teachers; university-only training does not meet that education scope. The K–12 restriction does not apply to other funding priorities.",
+      "sourceUrl": "https://www.verizon.com/about/responsibility/grant-requirements",
+      "checkedOn": "2026-10-29",
+      "kind": "prerequisite"
     }
   ]
 }

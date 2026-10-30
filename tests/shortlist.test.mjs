@@ -90,7 +90,7 @@ test('research leads have purpose evidence and a current direct or inquiry route
  const ranked=rank(funds,base,high(funds));assert.equal(ranked.length,630);assert.equal(new Set(ranked.map(m=>m.fund.id)).size,630);
  assert.ok(ranked.some(m=>m.group==='lead'));assert.ok(ranked.some(m=>m.group!=='lead'));
  for(const [i,m] of ranked.entries()){
-  assert.ok(['lead','check','limited','outside'].includes(m.group));
+  assert.ok(['lead','check','unverified','limited','outside'].includes(m.group));
   if(i)assert.ok(ranked[i-1].score>=m.score);
   if(m.group==='lead'){
    assert.ok(m.fitScore>=.25&&m.score>=30);assert.ok(['open','rolling','inquiry'].includes(m.access));
