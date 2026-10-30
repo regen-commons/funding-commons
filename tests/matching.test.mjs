@@ -35,8 +35,8 @@ const index = createLexicalIndex(funds);
 const at = new Date("2026-10-15T12:00:00Z");
 test("baseline and semantic ranking preserve every ID, deterministic order and complete-method coverage", () => {
   const a = rankFunds(funds, project, index, rules, null, at);
-  assert.equal(a.length, 618);
-  assert.equal(new Set(a.map((m) => m.fund.id)).size, 618);
+  assert.equal(a.length, 630);
+  assert.equal(new Set(a.map((m) => m.fund.id)).size, 630);
   assert.deepEqual(a, rankFunds(funds, project, index, rules, null, at));
   assert.ok(a.every((m) => m.method === "baseline"));
   assert.ok(a[0].shared.length > 0);

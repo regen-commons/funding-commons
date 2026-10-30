@@ -1,0 +1,764 @@
+{
+  "version": 1,
+  "checkedOn": "2026-10-29",
+  "scope": "Historical funding leads, deduplicated by program where identifiable. Discovery URLs are pointers, not verified terms. This queue is separate from the catalog and supplies no deadlines or eligibility decisions.",
+  "imported": [
+    {
+      "fundId": "local-github-secure-oss",
+      "programId": "github-secure-oss",
+      "name": "GitHub",
+      "sourceUrl": "https://github.com/open-source/github-secure-open-source-fund"
+    },
+    {
+      "fundId": "local-floss-fund",
+      "programId": "floss-fund",
+      "name": "FLOSS/fund",
+      "sourceUrl": "https://floss.fund/faq/"
+    },
+    {
+      "fundId": "local-geode-labs",
+      "programId": "geode-labs",
+      "name": "Geode Labs",
+      "sourceUrl": "https://geode.build/apply"
+    },
+    {
+      "fundId": "local-ty-danjuma",
+      "programId": "ty-danjuma",
+      "name": "TY Danjuma Foundation",
+      "sourceUrl": "https://tydanjumafoundation.org/grantmaking/discretionary-grants/"
+    },
+    {
+      "fundId": "local-emergent-ventures",
+      "programId": "emergent-ventures",
+      "name": "Mercatus Center",
+      "sourceUrl": "https://www.mercatus.org/emergent-ventures"
+    },
+    {
+      "fundId": "local-fid",
+      "programId": "fid",
+      "name": "Fund for Innovation in Development",
+      "sourceUrl": "https://fundinnovation.dev/en/launch-project"
+    },
+    {
+      "fundId": "local-interledger",
+      "programId": "interledger",
+      "name": "Interledger Foundation",
+      "sourceUrl": "https://interledger.org/grant/fellowship/"
+    },
+    {
+      "fundId": "local-zero-foodprint",
+      "programId": "zero-foodprint",
+      "name": "Zero Foodprint",
+      "sourceUrl": "https://www.zerofoodprint.org/apply"
+    },
+    {
+      "fundId": "local-lido-lego",
+      "programId": "lido-lego",
+      "name": "Lido Ecosystem Grants Organization",
+      "sourceUrl": "https://lido.fi/lego"
+    },
+    {
+      "fundId": "local-obol",
+      "programId": "obol",
+      "name": "Obol Collective",
+      "sourceUrl": "https://docs.obol.org/community-and-governance/community/grants-program"
+    },
+    {
+      "fundId": "local-ssv",
+      "programId": "ssv",
+      "name": "SSV Network",
+      "sourceUrl": "https://ssv.network/get-funded"
+    },
+    {
+      "fundId": "local-gooddollar",
+      "programId": "gooddollar",
+      "name": "GoodDollar",
+      "sourceUrl": "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d"
+    }
+  ],
+  "pending": [
+    {
+      "id": "history-lead-001",
+      "name": "GoodDollar House of Alignment",
+      "discoveryUrl": "https://discourse.gooddollar.org",
+      "status": "needs-verification",
+      "unresolved": "Confirm a public application route; membership allocations are not general open grants."
+    },
+    {
+      "id": "history-lead-002",
+      "name": "Gitcoin funding rounds",
+      "discoveryUrl": "https://grants.gitcoin.co",
+      "status": "needs-verification",
+      "unresolved": "Identify the allocator, round and current eligibility; no blanket open status."
+    },
+    {
+      "id": "history-lead-003",
+      "name": "Giveth quadratic funding",
+      "discoveryUrl": "https://giveth.io/qf",
+      "status": "needs-verification",
+      "unresolved": "Project registration and eligibility for a matching round are separate."
+    },
+    {
+      "id": "history-lead-004",
+      "name": "Octant epochs",
+      "discoveryUrl": "https://octant.build",
+      "status": "needs-verification",
+      "unresolved": "Separate concluded Epoch 12 from Epoch 13 and later allocation windows."
+    },
+    {
+      "id": "history-lead-005",
+      "name": "Prezenti pools",
+      "discoveryUrl": "https://www.prezenti.xyz",
+      "status": "needs-verification",
+      "unresolved": "Confirm each pool's transaction thresholds and access route."
+    },
+    {
+      "id": "history-lead-006",
+      "name": "Celo Proof of Ship",
+      "discoveryUrl": "https://www.celopg.eco/programs/proof-of-ship",
+      "status": "needs-verification",
+      "unresolved": "Recheck the current season and ecosystem requirements."
+    },
+    {
+      "id": "history-lead-007",
+      "name": "Celo Builder Fund",
+      "discoveryUrl": "https://www.celopg.eco",
+      "status": "needs-verification",
+      "unresolved": "Resolve the current program URL and intake."
+    },
+    {
+      "id": "history-lead-008",
+      "name": "Arbitrum Foundation grants",
+      "discoveryUrl": "https://arbitrum.foundation/grants",
+      "status": "needs-verification",
+      "unresolved": "Separate grant funding from audit subsidies and gas credits."
+    },
+    {
+      "id": "history-lead-009",
+      "name": "Arbitrum Security Program",
+      "discoveryUrl": "https://blog.arbitrum.foundation/introducing-the-arbitrum-security-program-apply-to-secure-your-smart-contracts/",
+      "status": "needs-verification",
+      "unresolved": "Verify current audit subsidy terms; distinguish in-kind support from cash."
+    },
+    {
+      "id": "history-lead-010",
+      "name": "ArbiFuel",
+      "discoveryUrl": "https://blog.arbitrum.foundation/arbifuel-is-live-arbitrum-builders-claim-your-gas-fee-sponsorship/",
+      "status": "needs-verification",
+      "unresolved": "Verify gas sponsorship availability and deployment conditions."
+    },
+    {
+      "id": "history-lead-011",
+      "name": "Arbitrum Open House buildathons",
+      "discoveryUrl": "https://blog.arbitrum.foundation",
+      "status": "needs-verification",
+      "unresolved": "Historical Singapore event; identify a new call before assigning dates."
+    },
+    {
+      "id": "history-lead-012",
+      "name": "Arbitrum DAO domain allocators",
+      "discoveryUrl": "https://forum.arbitrum.foundation",
+      "status": "needs-verification",
+      "unresolved": "Separate seasons and domains; prior project awards do not establish open intake."
+    },
+    {
+      "id": "history-lead-013",
+      "name": "Safe Ecosystem Foundation grants",
+      "discoveryUrl": "https://safefoundation.org/grants",
+      "status": "needs-verification",
+      "unresolved": "Check current RFPs and program pauses; do not reuse spontaneous-grant terms."
+    },
+    {
+      "id": "history-lead-014",
+      "name": "Artizen seasons and Greenpill fund",
+      "discoveryUrl": "https://artizen.fund",
+      "status": "needs-verification",
+      "unresolved": "Resolve program continuity and any current funding route; historical participation is not open intake."
+    },
+    {
+      "id": "history-lead-015",
+      "name": "Fast Forward accelerator",
+      "discoveryUrl": "https://www.ffwd.org",
+      "status": "needs-verification",
+      "unresolved": "Recheck the 2027 cohort, past deadline extension and nonprofit eligibility."
+    },
+    {
+      "id": "history-lead-016",
+      "name": "Climate Collective AI x Nature Accelerator",
+      "discoveryUrl": "https://climatecollective.org/accelerator",
+      "status": "needs-verification",
+      "unresolved": "Verify cohort status and applicant requirements."
+    },
+    {
+      "id": "history-lead-017",
+      "name": "Climate Collective Green Accountability Cohort",
+      "discoveryUrl": "https://climatecollective.org/green-accountability-cohort",
+      "status": "needs-verification",
+      "unresolved": "Historical window; confirm a new round before assigning current terms."
+    },
+    {
+      "id": "history-lead-018",
+      "name": "GCC Digital Commons Fund",
+      "discoveryUrl": "https://www.gccofficial.org/en",
+      "status": "needs-verification",
+      "unresolved": "Verify current cohort, eligibility and currency."
+    },
+    {
+      "id": "history-lead-019",
+      "name": "Gnosis ecosystem funding",
+      "discoveryUrl": "https://world.gnosis.io",
+      "status": "needs-verification",
+      "unresolved": "Identify a named grant stream and current applicant route."
+    },
+    {
+      "id": "history-lead-020",
+      "name": "Co-Develop / DPGA climate funding",
+      "discoveryUrl": "https://www.codevelop.fund",
+      "status": "needs-verification",
+      "unresolved": "Confirm whether there is an external call; DPG recognition alone is not funding."
+    },
+    {
+      "id": "history-lead-021",
+      "name": "Lido Community Staking Grants",
+      "discoveryUrl": "https://operatorportal.lido.fi/community-lifeguards-initiative/lido-community-staking-grants",
+      "status": "needs-verification",
+      "unresolved": "Distinct from LEGO; confirm operator and infrastructure requirements."
+    },
+    {
+      "id": "history-lead-022",
+      "name": "OSV Fellowships and Grants",
+      "discoveryUrl": "https://osv.llc",
+      "status": "needs-verification",
+      "unresolved": "Confirm current cycle; historical application dates are not future deadlines."
+    },
+    {
+      "id": "history-lead-023",
+      "name": "Vrbs DAO grants",
+      "discoveryUrl": "https://vrbs.wtf",
+      "status": "needs-verification",
+      "unresolved": "Establish the general funding mechanism and current proposal rules."
+    },
+    {
+      "id": "history-lead-024",
+      "name": "Survival and Flourishing Fund climate round",
+      "discoveryUrl": "https://survivalandflourishing.fund/2026/application",
+      "status": "needs-verification",
+      "unresolved": "Verify cycle closure, eligibility and current speculation-grant terms."
+    },
+    {
+      "id": "history-lead-025",
+      "name": "ENS Public Goods Small Grants",
+      "discoveryUrl": "https://ensgrants.xyz",
+      "status": "needs-verification",
+      "unresolved": "Verify current round and public-goods eligibility."
+    },
+    {
+      "id": "history-lead-026",
+      "name": "Interledger on Campus Mini-Grants",
+      "discoveryUrl": "https://interledger.org",
+      "status": "needs-verification",
+      "unresolved": "Distinct from the fellowship; verify student and institution requirements."
+    },
+    {
+      "id": "history-lead-027",
+      "name": "Filecoin ProPGF",
+      "discoveryUrl": "https://app.filpgf.io/programs/1479/",
+      "status": "needs-verification",
+      "unresolved": "Separate historical Batch 3 from current rounds and technical prerequisites."
+    },
+    {
+      "id": "history-lead-028",
+      "name": "Filecoin Open Grants",
+      "discoveryUrl": "https://filecoin.io",
+      "status": "needs-verification",
+      "unresolved": "Resolve current program and storage or protocol integration requirements."
+    },
+    {
+      "id": "history-lead-029",
+      "name": "NLnet NGI Fediversity",
+      "discoveryUrl": "https://nlnet.nl/propose",
+      "status": "needs-verification",
+      "unresolved": "Existing NLnet identity; distinct program and historical round need review."
+    },
+    {
+      "id": "history-lead-030",
+      "name": "NLnet NGI TALER",
+      "discoveryUrl": "https://nlnet.nl/propose",
+      "status": "needs-verification",
+      "unresolved": "Existing NLnet identity; verify current program-specific application status."
+    },
+    {
+      "id": "history-lead-031",
+      "name": "NLnet NGI Zero Commons",
+      "discoveryUrl": "https://nlnet.nl/propose",
+      "status": "needs-verification",
+      "unresolved": "Existing NLnet identity; do not duplicate Restack or recycle past calls."
+    },
+    {
+      "id": "history-lead-032",
+      "name": "Ethereum Foundation ESP",
+      "discoveryUrl": "https://esp.ethereum.foundation",
+      "status": "needs-verification",
+      "unresolved": "Review current RFPs and wishlist; avoid a generic open-grant inference."
+    },
+    {
+      "id": "history-lead-033",
+      "name": "USDA Conservation Innovation Grants",
+      "discoveryUrl": "https://www.nrcs.usda.gov/programs-initiatives/cig-conservation-innovation-grants",
+      "status": "needs-verification",
+      "unresolved": "Separate national and state calls, applicant eligibility and closed rounds."
+    },
+    {
+      "id": "history-lead-034",
+      "name": "Darwin Initiative",
+      "discoveryUrl": "https://www.darwininitiative.org.uk/how-to-apply/",
+      "status": "needs-verification",
+      "unresolved": "Round 32 is historical; distinguish Main from Capability and Capacity."
+    },
+    {
+      "id": "history-lead-035",
+      "name": "GEF SGP CSO Challenge",
+      "discoveryUrl": "https://csochallenge.org",
+      "status": "needs-verification",
+      "unresolved": "Confirm region and CSO eligibility; an expected Africa round is conditional."
+    },
+    {
+      "id": "history-lead-036",
+      "name": "California RCD funding",
+      "discoveryUrl": "https://www.nrcs.usda.gov",
+      "status": "needs-verification",
+      "unresolved": "Broad lead, not one grant; identify the local conservation district and call."
+    },
+    {
+      "id": "history-lead-037",
+      "name": "California water grants",
+      "discoveryUrl": "https://water.ca.gov",
+      "status": "needs-verification",
+      "unresolved": "Identify a named program, geography and applicant type."
+    },
+    {
+      "id": "history-lead-038",
+      "name": "EPA grants",
+      "discoveryUrl": "https://www.epa.gov/grants",
+      "status": "needs-verification",
+      "unresolved": "Program family only; qualify a specific current solicitation."
+    },
+    {
+      "id": "history-lead-039",
+      "name": "NEEF grants",
+      "discoveryUrl": "https://www.neefusa.org",
+      "status": "needs-verification",
+      "unresolved": "Identify the relevant current environmental grant."
+    },
+    {
+      "id": "history-lead-040",
+      "name": "Western SARE Professional and Producer",
+      "discoveryUrl": "https://western.sare.org",
+      "status": "needs-verification",
+      "unresolved": "Check the closed October 2026 call and producer requirements."
+    },
+    {
+      "id": "history-lead-041",
+      "name": "JRS Biodiversity Foundation",
+      "discoveryUrl": "https://jrsbiodiversity.org",
+      "status": "needs-verification",
+      "unresolved": "Verify inquiry route and biodiversity informatics scope."
+    },
+    {
+      "id": "history-lead-042",
+      "name": "Halcyon Africa Agriculture and Food Security Accelerator",
+      "discoveryUrl": "https://www.halcyonhouse.org",
+      "status": "needs-verification",
+      "unresolved": "Separate initial application and invitation stages; confirm venture-location requirements."
+    },
+    {
+      "id": "history-lead-043",
+      "name": "Keeling Curve Prize",
+      "discoveryUrl": "https://www.globalwarmingmitigationproject.org",
+      "status": "needs-verification",
+      "unresolved": "Expected annual opening is not a confirmed call."
+    },
+    {
+      "id": "history-lead-044",
+      "name": "Seeding The Future Global Food System Challenge",
+      "discoveryUrl": "https://www.seedingthefuture.org",
+      "status": "needs-verification",
+      "unresolved": "Verify 2027 dates and tier-specific maturity requirements."
+    },
+    {
+      "id": "history-lead-045",
+      "name": "Honnold Foundation Core Fund",
+      "discoveryUrl": "https://www.honnoldfoundation.org",
+      "status": "needs-verification",
+      "unresolved": "Confirm next cycle, charitable status and technical partners."
+    },
+    {
+      "id": "history-lead-046",
+      "name": "Zayed Sustainability Prize",
+      "discoveryUrl": "https://zayedsustainabilityprize.com",
+      "status": "needs-verification",
+      "unresolved": "Review category-specific eligibility and next cycle dates."
+    },
+    {
+      "id": "history-lead-047",
+      "name": "Milken-Motsepe Circular Economy Prize",
+      "discoveryUrl": "https://milkeninstitute.org",
+      "status": "needs-verification",
+      "unresolved": "Historical 2026 lead; verify current phase and organization requirements."
+    },
+    {
+      "id": "history-lead-048",
+      "name": "African Union Innovating Education in Africa",
+      "discoveryUrl": "https://au.int",
+      "status": "needs-verification",
+      "unresolved": "Verify new call; previous year's window is not current eligibility."
+    },
+    {
+      "id": "history-lead-049",
+      "name": "Google Africa Applied AI Lab",
+      "discoveryUrl": "https://africa.googleblog.com",
+      "status": "needs-verification",
+      "unresolved": "Historical 2026 cohort; establish the current call and AI product requirement."
+    },
+    {
+      "id": "history-lead-050",
+      "name": "Youth4Climate Call for Solutions",
+      "discoveryUrl": "https://www.youth4climate.info",
+      "status": "needs-verification",
+      "unresolved": "Verify current round, age and entity conditions."
+    },
+    {
+      "id": "history-lead-051",
+      "name": "YouthADAPT",
+      "discoveryUrl": "https://gca.org",
+      "status": "needs-verification",
+      "unresolved": "Verify current round, business eligibility and financial-record requirements."
+    },
+    {
+      "id": "history-lead-052",
+      "name": "Africa Prize for Engineering Innovation",
+      "discoveryUrl": "https://raeng.org.uk",
+      "status": "needs-verification",
+      "unresolved": "Confirm current cycle and individual applicant rules."
+    },
+    {
+      "id": "history-lead-053",
+      "name": "F5 STEM and AI education grants",
+      "discoveryUrl": "https://www.f5.com/company/global-good",
+      "status": "needs-verification",
+      "unresolved": "Verify charitable eligibility and current cycle."
+    },
+    {
+      "id": "history-lead-054",
+      "name": "IFC SME Growth Accelerator",
+      "discoveryUrl": "https://www.ifc.org",
+      "status": "needs-verification",
+      "unresolved": "Confirm whether opportunity is funded support or an investment/accelerator service."
+    },
+    {
+      "id": "history-lead-055",
+      "name": "Ma Earth funding rounds",
+      "discoveryUrl": "https://www.maearth.com",
+      "status": "needs-verification",
+      "unresolved": "Identify current round, application route and any nomination requirement."
+    },
+    {
+      "id": "history-lead-056",
+      "name": "REA DARES solar grants",
+      "discoveryUrl": "https://rea.gov.ng",
+      "status": "needs-verification",
+      "unresolved": "Distinguish performance-based grants, tenders and implementation partnerships."
+    },
+    {
+      "id": "history-lead-057",
+      "name": "Solar Power Naija",
+      "discoveryUrl": "https://rea.gov.ng",
+      "status": "needs-verification",
+      "unresolved": "Establish participation and financing conditions; not automatically a grant."
+    },
+    {
+      "id": "history-lead-058",
+      "name": "All On",
+      "discoveryUrl": "https://www.all-on.com",
+      "status": "needs-verification",
+      "unresolved": "Investment and blended finance require instrument-specific classification."
+    },
+    {
+      "id": "history-lead-059",
+      "name": "Green Finance Investment Facility",
+      "discoveryUrl": "https://rea.gov.ng",
+      "status": "needs-verification",
+      "unresolved": "Financing facility, not a verified individual grant; confirm mechanism."
+    },
+    {
+      "id": "history-lead-060",
+      "name": "Tony Elumelu Foundation Entrepreneurship Programme",
+      "discoveryUrl": "https://www.tonyelumelufoundation.org",
+      "status": "needs-verification",
+      "unresolved": "Confirm current cycle, business age and applicant eligibility."
+    },
+    {
+      "id": "history-lead-061",
+      "name": "UNDP Nigeria off-grid initiatives",
+      "discoveryUrl": "https://www.undp.org/nigeria",
+      "status": "needs-verification",
+      "unresolved": "Program activity is not evidence of an external grant call."
+    },
+    {
+      "id": "history-lead-062",
+      "name": "Acumen Green RISE West Africa Fellowship",
+      "discoveryUrl": "https://acumenacademy.org",
+      "status": "needs-verification",
+      "unresolved": "Check geographic and leadership requirements and next cycle."
+    },
+    {
+      "id": "history-lead-063",
+      "name": "Shell Foundation ClimaFii accelerator",
+      "discoveryUrl": "https://shellfoundation.org",
+      "status": "needs-verification",
+      "unresolved": "Verify delivery partners, current intake and instrument."
+    },
+    {
+      "id": "history-lead-064",
+      "name": "GET.invest Finance Catalyst",
+      "discoveryUrl": "https://www.get-invest.eu",
+      "status": "needs-verification",
+      "unresolved": "Advisory support is distinct from cash grants."
+    },
+    {
+      "id": "history-lead-065",
+      "name": "EEP Africa",
+      "discoveryUrl": "https://eepafrica.org",
+      "status": "needs-verification",
+      "unresolved": "Verify country coverage and current call requirements."
+    },
+    {
+      "id": "history-lead-066",
+      "name": "Segal African Visionary Fellowship",
+      "discoveryUrl": "https://www.segalfamilyfoundation.org",
+      "status": "needs-verification",
+      "unresolved": "Existing funder; distinguish invitation or partner-only access."
+    },
+    {
+      "id": "history-lead-067",
+      "name": "California Arts Council General Operating Support",
+      "discoveryUrl": "https://arts.ca.gov",
+      "status": "needs-verification",
+      "unresolved": "Verify cycle and arts-organization eligibility."
+    },
+    {
+      "id": "history-lead-068",
+      "name": "California Arts Council Arts and Youth",
+      "discoveryUrl": "https://arts.ca.gov",
+      "status": "needs-verification",
+      "unresolved": "Separate program and closed historical deadlines."
+    },
+    {
+      "id": "history-lead-069",
+      "name": "California Arts Council Impact Projects",
+      "discoveryUrl": "https://arts.ca.gov",
+      "status": "needs-verification",
+      "unresolved": "Verify current program and budget conditions."
+    },
+    {
+      "id": "history-lead-070",
+      "name": "ACTA Apprenticeship Program",
+      "discoveryUrl": "https://www.actaonline.org",
+      "status": "needs-verification",
+      "unresolved": "Existing ACTA identity; distinct from Living Cultures."
+    },
+    {
+      "id": "history-lead-071",
+      "name": "LA DCA NEAR and CO-UP",
+      "discoveryUrl": "https://culturela.org",
+      "status": "needs-verification",
+      "unresolved": "Confirm each 2027–28 program and applicant route separately."
+    },
+    {
+      "id": "history-lead-072",
+      "name": "LA DCA Outdoor Festivals and Parades",
+      "discoveryUrl": "https://culturela.org",
+      "status": "needs-verification",
+      "unresolved": "Future-cycle lead; do not invent an application date."
+    },
+    {
+      "id": "history-lead-073",
+      "name": "LA DCA Public-Space Activation Fund",
+      "discoveryUrl": "https://culturela.org",
+      "status": "needs-verification",
+      "unresolved": "Confirm current call and project-location rules."
+    },
+    {
+      "id": "history-lead-074",
+      "name": "CNRA Youth Community Access",
+      "discoveryUrl": "https://resources.ca.gov",
+      "status": "needs-verification",
+      "unresolved": "Verify Round 4 status and eligible youth/outdoor activities."
+    },
+    {
+      "id": "history-lead-075",
+      "name": "Walmart Spark Good Local Grants",
+      "discoveryUrl": "https://walmart.org",
+      "status": "needs-verification",
+      "unresolved": "Verify cycle, charitable validation and facility geography."
+    },
+    {
+      "id": "history-lead-076",
+      "name": "LA Neighborhood Purposes Grants",
+      "discoveryUrl": "https://clerk.lacity.gov",
+      "status": "needs-verification",
+      "unresolved": "Council-specific budgets and charitable eligibility need review."
+    },
+    {
+      "id": "history-lead-077",
+      "name": "US Bank Community Possible",
+      "discoveryUrl": "https://www.usbank.com/about-us-bank/community.html",
+      "status": "needs-verification",
+      "unresolved": "Verify Play track and eligible service-area locations."
+    },
+    {
+      "id": "history-lead-078",
+      "name": "Society for Science STEM Action Grants",
+      "discoveryUrl": "https://www.societyforscience.org",
+      "status": "needs-verification",
+      "unresolved": "Verify 2027 call and nonprofit eligibility."
+    },
+    {
+      "id": "history-lead-079",
+      "name": "LA2050 Grants Challenge",
+      "discoveryUrl": "https://la2050.org",
+      "status": "needs-verification",
+      "unresolved": "Verify 2027 call; prior stage deadlines stay historical."
+    },
+    {
+      "id": "history-lead-080",
+      "name": "NEA Grants for Arts Projects",
+      "discoveryUrl": "https://www.arts.gov",
+      "status": "needs-verification",
+      "unresolved": "Verify fiscal-year cycle, application stages and charitable requirements."
+    },
+    {
+      "id": "history-lead-081",
+      "name": "NEH Public Humanities Projects",
+      "discoveryUrl": "https://www.neh.gov",
+      "status": "needs-verification",
+      "unresolved": "Verify deadline, program status and humanities eligibility."
+    },
+    {
+      "id": "history-lead-082",
+      "name": "California Humanities Humanities for All",
+      "discoveryUrl": "https://calhum.org",
+      "status": "needs-verification",
+      "unresolved": "Verify program continuity, stage and current applicant terms."
+    },
+    {
+      "id": "history-lead-083",
+      "name": "CPUC CEA-LAT",
+      "discoveryUrl": "https://www.cpuc.ca.gov",
+      "status": "needs-verification",
+      "unresolved": "Historical Round 2 lead; confirm current eligibility and cycle."
+    },
+    {
+      "id": "history-lead-084",
+      "name": "LA County Economic Opportunity Grant",
+      "discoveryUrl": "https://opportunity.lacounty.gov",
+      "status": "needs-verification",
+      "unresolved": "Verify current round and small-business/nonprofit conditions."
+    },
+    {
+      "id": "history-lead-085",
+      "name": "Edge City SHIFT Grants",
+      "discoveryUrl": "https://www.shiftgrants.org",
+      "status": "needs-verification",
+      "unresolved": "No new round verified; retain as watchlist."
+    },
+    {
+      "id": "history-lead-086",
+      "name": "Blockchain for Good Alliance Awards",
+      "discoveryUrl": "https://chainforgood.org",
+      "status": "needs-verification",
+      "unresolved": "Verify a dated current award cycle."
+    },
+    {
+      "id": "history-lead-087",
+      "name": "Mercy Corps Ventures / Prosper",
+      "discoveryUrl": "https://www.mercycorpsventures.com/climate-lab",
+      "status": "needs-verification",
+      "unresolved": "Resolve successor organization and distinguish venture investment from grant funding."
+    },
+    {
+      "id": "history-lead-088",
+      "name": "Rocket Pool GMC",
+      "discoveryUrl": "https://dao.rocketpool.net",
+      "status": "needs-verification",
+      "unresolved": "Verify current round and protocol contribution scope."
+    },
+    {
+      "id": "history-lead-089",
+      "name": "ROGEAP catalytic grants",
+      "discoveryUrl": "https://www.ecowas.int",
+      "status": "needs-verification",
+      "unresolved": "Find official call and eligible off-grid enterprise countries."
+    },
+    {
+      "id": "history-lead-090",
+      "name": "Shutter Champions",
+      "discoveryUrl": "https://www.shutter.network",
+      "status": "needs-verification",
+      "unresolved": "Historical round; verify current mechanism and eligibility."
+    },
+    {
+      "id": "history-lead-091",
+      "name": "Optimism Growth Grants",
+      "discoveryUrl": "https://gov.optimism.io",
+      "status": "needs-verification",
+      "unresolved": "Separate seasons and deployment or growth conditions."
+    },
+    {
+      "id": "history-lead-092",
+      "name": "DOE SBIR/STTR",
+      "discoveryUrl": "https://science.osti.gov/sbir",
+      "status": "needs-verification",
+      "unresolved": "Historical deadline; confirm US small-business and topic requirements."
+    },
+    {
+      "id": "history-lead-093",
+      "name": "Africa Climate Change Fund",
+      "discoveryUrl": "https://www.afdb.org",
+      "status": "needs-verification",
+      "unresolved": "Verify current call and applicant eligibility."
+    },
+    {
+      "id": "history-lead-094",
+      "name": "Sovereign Tech Fund",
+      "discoveryUrl": "https://www.sovereign.tech",
+      "status": "needs-verification",
+      "unresolved": "Review current application route and duplicate-funding restrictions."
+    }
+  ],
+  "alreadyRepresented": [
+    "NLnet Restack",
+    "Cisco Global Impact Cash Grants",
+    "Internet Society Community-Centered Connectivity",
+    "Open Technology Fund Internet Freedom Fund",
+    "ACTA Living Cultures",
+    "LA County OGP and CIAG",
+    "Mozilla Human Scale AI",
+    "Draper Richards Kaplan Foundation",
+    "The Pollination Project",
+    "Awesome Foundation",
+    "Rufford Small Grants",
+    "Conservation, Food and Health Foundation",
+    "Ashoka Fellowship",
+    "Echoing Green Fellowship",
+    "Mastercard Foundation",
+    "Patrick J. McGovern Foundation Data and Society Accelerator"
+  ],
+  "excludedCategories": [
+    "Private awards, applications, budgets, relationship and contact notes",
+    "Registration and charity compliance tasks",
+    "Generic databases and grant aggregators without a named opportunity",
+    "Software discounts and general pro bono or corporate sponsorship leads without a verified funding program"
+  ],
+  "coverageLimit": "36 Drive search pages (12 per keyword: funding, grant, opportunities); more pages remained. Metadata was indexed, and selected trackers and scout reports were read. Four Linear workspaces were searched, including archived results. Search is not an exhaustive audit of every file, comment, attachment or folder."
+}
