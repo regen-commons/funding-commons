@@ -18,9 +18,9 @@ The 13 held leads remain in the ledger: four lack sufficient official corroborat
 
 ## Preservation and validation
 
-The baseline is commit `8063e1d34329b7dd628dae9f70fa576607d48499`. The [preservation baseline](history-verification-baseline.json) and tests compare every previous field, program and source. Only appended terms and the derived additional-source list are permitted for Shell Foundation, NLnet, ACTA, Interledger and Lido. The original 94 discovery records are also checked by hash.
+The baseline is commit `0eaa5e73bef68d2fbcce7a6da51ac447c5374bd2`. The [preservation baseline](history-verification-baseline.json) and tests compare every previous field, program and source. Only appended terms and the derived additional-source list are permitted for Shell Foundation, NLnet, ACTA, Interledger and Lido. The original 94 discovery records are also checked by hash. The baseline includes the Verizon eligibility correction already merged in PR #4; integration updates only that record hash, preserving the corrected terms.
 
-Validation: `python3 scripts/import-data.py`, `bun run build`, `bun run test` (109 passing), and `git diff --check`. The search index was regenerated for all 694 funders. No new dependencies or application logic were needed. UI changes update catalog totals only; the existing deadline pulse consumes the new records. Local Modern Web Guidance tooling was unavailable; no online package refresh was requested.
+Validation: `python3 scripts/import-data.py`, `bun run build`, `bun run test` (114 passing), and `git diff --check`. The search index was regenerated for all 694 funders. No new dependencies or application logic were needed. UI changes update catalog totals only; the existing deadline pulse consumes the new records. Local Modern Web Guidance tooling was unavailable; no online package refresh was requested.
 
 ## Disposition by lead
 
