@@ -21656,7 +21656,7 @@
   },
   {
     "sourceRecordId": "recUN8nEtimhdGZeE",
-    "researchedOn": "2026-10-15",
+    "researchedOn": "2026-10-29",
     "name": "Verizon Foundation",
     "summary": "Supports digital inclusion, education, workforce development and community resilience through corporate programs, partnerships and giving.",
     "themes": [],
@@ -21695,6 +21695,8 @@
           ],
           "fiscalSponsorship": "unknown",
           "requirements": [
+            "Applicant is an IRS-recognized 501(c)(3) public charity with an eligible 509(a)(1), 509(a)(2), or approved 509(a)(3) classification OR a nonprofit K–12 school registered with NCES. General NGO status alone does not establish either route; fiscal-sponsor acceptance is unconfirmed.",
+            "Funded activities align with a published Verizon funding priority. An education request promotes digital skills for K–12 students or teachers; university-only training does not meet that education scope. The K–12 restriction does not apply to other funding priorities.",
             "Community benefit and legal compliance.",
             "Schools must be nonprofit and NCES-registered.",
             "Normally at least85% direct costs; greater indirect shares require justification."
@@ -21745,6 +21747,14 @@
             "url": "https://www.verizon.com/about/responsibility",
             "note": "The reviewed official funder or program overview supports the listed focus.",
             "checkedOn": "2026-10-15"
+          },
+          {
+            "fields": [
+              "programs.0.applicants"
+            ],
+            "url": "https://www.verizon.com/about/responsibility/grant-requirements",
+            "checkedOn": "2026-10-29",
+            "note": "Rechecked IRS public-charity or NCES nonprofit school routes and the education-specific K–12 beneficiary requirement; other priority areas do not inherit an unconditional school-age restriction."
           }
         ],
         "unknowns": [
@@ -21763,7 +21773,7 @@
       {
         "url": "https://www.verizon.com/about/responsibility/grant-requirements",
         "title": "Nonprofit corporate grants — official program guidance",
-        "checkedOn": "2026-10-15"
+        "checkedOn": "2026-10-29"
       }
     ],
     "evidence": [
@@ -21777,7 +21787,7 @@
         "checkedOn": "2026-10-15"
       }
     ],
-    "researchNotes": "The responsibility site includes grant requirements and several non-grant services. Product or employee programs are not general external grant offers."
+    "researchNotes": "The responsibility site includes grant requirements and several non-grant services. Product or employee programs are not general external grant offers. Applicant and conditional education-beneficiary requirements rechecked October 29, 2026. Answers remain self-reported; no applicant-country exclusion or fiscal-sponsor acceptance is inferred."
   },
   {
     "sourceRecordId": "recDvpyWIZWZdJx7u",
