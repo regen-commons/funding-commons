@@ -1481,6 +1481,1226 @@
       "checkedOn": "2026-10-29"
     },
     {
+      "id": "gitcoin-gg24-requirement-1",
+      "fundId": "local-gitcoin",
+      "programId": "gitcoin-gg24",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Fit the selected domain and its allocator-specific rules",
+      "sourceUrl": "https://gitcoin.co/campaigns",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "giveth-qf-requirement-1",
+      "fundId": "local-giveth",
+      "programId": "giveth-qf",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Meet the selected round's project eligibility and anti-abuse rules",
+      "sourceUrl": "https://docs.giveth.io/quadraticfunding",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "octant-epoch-13-requirement-1",
+      "fundId": "local-octant",
+      "programId": "octant-epoch-13",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Selected privacy project cohort",
+      "sourceUrl": "https://octant.substack.com/p/epoch-13-meet-the-13-teams-advancing",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "prezenti-anchor-2026-requirement-1",
+      "fundId": "local-prezenti",
+      "programId": "prezenti-anchor-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Demonstrate real usage and a path to Celo transaction or protocol revenue growth",
+      "sourceUrl": "https://www.prezenti.xyz/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "prezenti-boost-requirement-1",
+      "fundId": "local-prezenti",
+      "programId": "prezenti-boost",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Invitation; demonstrated traction in another ecosystem",
+      "sourceUrl": "https://www.prezenti.xyz/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "prezenti-frontier-2026-requirement-1",
+      "fundId": "local-prezenti",
+      "programId": "prezenti-frontier-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Celo mainnet deployment used by builders or agents; ERC-8004 and Self Protocol Agent ID compliance",
+      "sourceUrl": "https://www.prezenti.xyz/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "celo-proof-of-ship-requirement-1",
+      "fundId": "local-celo",
+      "programId": "celo-proof-of-ship",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Build on Celo and satisfy the monthly submission criteria",
+      "sourceUrl": "https://celo.org/builders",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "celo-builders-fund-requirement-1",
+      "fundId": "local-celo",
+      "programId": "celo-builders-fund",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Build a venture-viable application on Celo",
+      "sourceUrl": "https://celo.org/builders",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "arbitrum-security-2026-requirement-1",
+      "fundId": "local-arbitrum-foundation",
+      "programId": "arbitrum-security-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Arbitrum project with audit-ready code; agree subsidy and sign ecosystem commitment agreement, including any exclusivity terms",
+      "sourceUrl": "https://blog.arbitrum.foundation/introducing-the-arbitrum-security-program-apply-to-secure-your-smart-contracts/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "arbifuel-requirement-1",
+      "fundId": "local-arbitrum-foundation",
+      "programId": "arbifuel",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Eligible early-stage Arbitrum application, wallet or payments team",
+      "sourceUrl": "https://blog.arbitrum.foundation/arbifuel-is-live-arbitrum-builders-claim-your-gas-fee-sponsorship/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "arbitrum-open-house-singapore-2026-requirement-1",
+      "fundId": "local-arbitrum-foundation",
+      "programId": "arbitrum-open-house-singapore-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Build for Arbitrum One or eligible Robinhood Chain tracks",
+      "sourceUrl": "https://blog.arbitrum.foundation/open-house-singapore-applications-are-now-open/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "arbitrum-dao-domain-grants-requirement-1",
+      "fundId": "local-arbitrum-dao",
+      "programId": "arbitrum-dao-domain-grants",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Milestone-based work benefiting Arbitrum and the relevant allocator domain",
+      "sourceUrl": "https://arbitrum.foundation/grants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "safe-open-calls-requirement-1",
+      "fundId": "local-safe",
+      "programId": "safe-open-calls",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Satisfy a specific forum RFP's scope and milestones",
+      "sourceUrl": "https://safefoundation.org/grants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "fast-forward-2027-requirement-1",
+      "fundId": "local-fast-forward",
+      "programId": "fast-forward-2027",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Nonprofit business model and an existing minimum viable product",
+      "sourceUrl": "https://www.ffwd.org/accelerator",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "ai-nature-accelerator-requirement-1",
+      "fundId": "local-climate-collective",
+      "programId": "ai-nature-accelerator",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "AI-enabled venture addressing nature or biodiversity challenges",
+      "sourceUrl": "https://climatecollective.org/accelerator",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "green-accountability-2024-requirement-1",
+      "fundId": "local-climate-collective",
+      "programId": "green-accountability-2024",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Technology for climate accountability; consortium must designate a lead",
+      "sourceUrl": "https://climatecollective.org/green-accountability-cohort",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "gcc-digital-commons-requirement-1",
+      "fundId": "local-gcc",
+      "programId": "gcc-digital-commons",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Demonstrate public value aligned with GCC's mission",
+      "sourceUrl": "https://www.gccofficial.org/en",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "gnosis-events-requirement-1",
+      "fundId": "local-gnosis",
+      "programId": "gnosis-events",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Event proposal to onboard a community to Gnosis App and Circles",
+      "sourceUrl": "https://world.gnosis.io/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "lido-community-staking-requirement-1",
+      "fundId": "local-lido-lego",
+      "programId": "lido-community-staking",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Work must benefit community operators or Ethereum staking; submit a scoped proposal and completion report",
+      "sourceUrl": "https://operatorportal.lido.fi/community-lifeguards-initiative",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "osv-fellowship-2026-requirement-1",
+      "fundId": "local-osv",
+      "programId": "osv-fellowship-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Researchers, builders or creatives advancing a proposed project",
+      "sourceUrl": "https://www.osv.llc/fellowships",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "sff-climate-2026-requirement-1",
+      "fundId": "local-survival-flourishing",
+      "programId": "sff-climate-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Theme supplemental application; Speculation Grant required for guaranteed evaluation",
+      "sourceUrl": "https://survivalandflourishing.fund/2026/application",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "interledger-campus-2026-requirement-1",
+      "fundId": "local-interledger",
+      "programId": "interledger-campus-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Student-led club project; institutional letter confirming fund management and oversight; project no longer than three months",
+      "sourceUrl": "https://community.interledger.org/interledger/interledger-foundation-launches-interledger-on-campus-grant-program-to-support-student-led-2dkk",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "filecoin-propgf-batch3-requirement-1",
+      "fundId": "local-filecoin",
+      "programId": "filecoin-propgf-batch3",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Milestone-based work aligned with Filecoin priorities; standard project scope three to six months",
+      "sourceUrl": "https://app.filpgf.io/programs/1479",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "filecoin-open-grants-requirement-1",
+      "fundId": "local-filecoin",
+      "programId": "filecoin-open-grants",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Benefit the Filecoin network; self-managed team; open-source work dual-licensed MIT and Apache 2.0",
+      "sourceUrl": "https://fil.org/grants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "nlnet-fediversity-final-requirement-1",
+      "fundId": "local-nlnet",
+      "programId": "nlnet-fediversity-final",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Open-source results advancing the Fediversity hosting stack",
+      "sourceUrl": "https://nlnet.nl/fediversity/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "nlnet-taler-final-requirement-1",
+      "fundId": "local-nlnet",
+      "programId": "nlnet-taler-final",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Free and open-source results advancing GNU Taler; cumulative applicant ceiling EUR 60,000",
+      "sourceUrl": "https://nlnet.nl/taler/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "ethereum-esp-requirement-1",
+      "fundId": "local-ethereum-foundation",
+      "programId": "ethereum-esp",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Outputs open-source or freely available; meet the selected Wishlist or RFP scope",
+      "sourceUrl": "https://esp.ethereum.foundation/applicants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "darwin-main-r32-stage2-requirement-1",
+      "fundId": "local-darwin",
+      "programId": "darwin-main-r32-stage2",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Stage 2 invitation after July 20 first-stage deadline; evidence-based biodiversity and poverty outcomes",
+      "sourceUrl": "https://www.darwininitiative.org.uk/how-to-apply/main-applications/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "darwin-extra-r32-stage2-requirement-1",
+      "fundId": "local-darwin",
+      "programId": "darwin-extra-r32-stage2",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Stage 2 invitation after July 1 first-stage deadline; scale evidence from prior Biodiversity Challenge Funds projects",
+      "sourceUrl": "https://www.darwininitiative.org.uk/how-to-apply/extra-applications/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "gef-cso-africa-lac-asia-2026-requirement-1",
+      "fundId": "local-gef-cso-challenge",
+      "programId": "gef-cso-africa-lac-asia-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "CSO authorized to receive foreign charitable funds with its own bank account; scale proven solutions; comply with regional country list",
+      "sourceUrl": "https://csochallenge.org/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "ca-urban-streams-2026-requirement-1",
+      "fundId": "local-california-dwr",
+      "programId": "ca-urban-streams-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Community-based restoration with public outreach and education; full application requires invitation",
+      "sourceUrl": "https://water.ca.gov/Work-With-Us/Grants-And-Loans/Urban-Streams",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "neef-greening-stem-2026-requirement-1",
+      "fundId": "local-neef",
+      "programId": "neef-greening-stem-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Public schools serving grades 6–12 and community partners in the listed target communities",
+      "sourceUrl": "https://www.neefusa.org/2026-2027-environmental-education-initiative-lyondellbasell-greening-stem-grants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "western-sare-professional-producer-requirement-1",
+      "fundId": "local-western-sare",
+      "programId": "western-sare-professional-producer",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Agricultural technical advisor leads with at least three producers; integrate research and education",
+      "sourceUrl": "https://western.sare.org/grants/professional-producer/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "jrs-funding-inquiry-requirement-1",
+      "fundId": "local-jrs-biodiversity",
+      "programId": "jrs-funding-inquiry",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Organization applicant; individuals excluded; full proposal only through a call or specific solicitation",
+      "sourceUrl": "https://jrsbiodiversity.org/how-to-apply/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "halcyon-africa-ag-2027-requirement-1",
+      "fundId": "local-halcyon",
+      "programId": "halcyon-africa-ag-2027",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Invitation after October 23 eligibility deadline; CEO/decision-maker working full-time; age 21+ by start; English; MVP with paid-pilot or revenue traction; attend all residencies and sessions",
+      "sourceUrl": "https://halcyonaccelerator.org/africa-innovation-in-ag-2027/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "seeding-future-2027-requirement-1",
+      "fundId": "local-seeding-future",
+      "programId": "seeding-future-2027",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Organization applicant with proof of concept; for-profits pre-Series A with assets at most $10m; no harm to other challenge domains",
+      "sourceUrl": "https://www.welthungerhilfe.org/global-food-system-challenge/f/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "honnold-core-2026-requirement-1",
+      "fundId": "local-honnold",
+      "programId": "honnold-core-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Community connection; charitable status or fiscal sponsor, or eligible US Tribal entity; most funding for solar infrastructure; identified technical installer",
+      "sourceUrl": "https://www.honnoldfoundation.org/become-a-partner",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "milken-circular-2026-requirement-1",
+      "fundId": "local-milken-motsepe",
+      "programId": "milken-circular-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Over two years operating; published combined revenue/raised-capital threshold above $500k; institutional partnerships; readiness to deploy over $1m",
+      "sourceUrl": "https://milkeninstitute.org/content-hub/news-releases/10-companies-named-semifinalists-2-million-milken-motsepe-prize-circular-economy",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "au-education-2026-requirement-1",
+      "fundId": "local-african-union",
+      "programId": "au-education-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "AU citizen leading a registered, licensed organization implementing a proven education innovation; one innovation per organization; past IEA recipients excluded",
+      "sourceUrl": "https://au.int/sites/default/files/announcements/46204-annc-Revised_Call_for_Submissions_IEA_2026_EN_rev.pdf",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "youth4climate-2026-requirement-1",
+      "fundId": "local-youth4climate",
+      "programId": "youth4climate-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Lead aged 18–29; organizations must be legally registered and majority youth-led; use required budget/workplan templates and video",
+      "sourceUrl": "https://community.youth4climate.info/dashboard/call-solutions-2026-0",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "africa-prize-2027-requirement-1",
+      "fundId": "local-raeng",
+      "programId": "africa-prize-2027",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Lead over 18 and English-proficient; working prototype/MVP with commercial traction; prior Africa Prize participants and specified Academy alumni excluded",
+      "sourceUrl": "https://africaprize.raeng.org.uk/about-the-prize/how-to-apply",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "f5-stem-ai-2026-requirement-1",
+      "fundId": "local-f5",
+      "programId": "f5-stem-ai-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Nonprofit providing STEM and AI education",
+      "sourceUrl": "https://www.f5.com/company/global-good",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "ma-earth-round4-requirement-1",
+      "fundId": "local-ma-earth",
+      "programId": "ma-earth-round4",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Established community-led nature project with a track record",
+      "sourceUrl": "https://maearth.com/fundraise",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "ma-earth-round4-requirement-2",
+      "fundId": "local-ma-earth",
+      "programId": "ma-earth-round4",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Host partner if not a registered nonprofit or outside Stripe-supported countries",
+      "sourceUrl": "https://maearth.com/fundraise",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "rea-dares-requirement-1",
+      "fundId": "local-rea",
+      "programId": "rea-dares",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Qualify under the relevant DARES component; prior NEP participation does not waive requalification",
+      "sourceUrl": "https://nep.rea.gov.ng/dares.html",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "solar-power-naija-requirement-1",
+      "fundId": "local-rea",
+      "programId": "solar-power-naija",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Eligible Nigerian solar value-chain business and lender approval",
+      "sourceUrl": "https://spn.rea.gov.ng/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "all-on-challenge-2026-requirement-1",
+      "fundId": "local-all-on",
+      "programId": "all-on-challenge-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Clean energy business or developer implementing scalable electricity access in Nigeria",
+      "sourceUrl": "https://www.all-on.com/offgrid-challenge.html",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "tef-entrepreneurship-2026-requirement-1",
+      "fundId": "local-tony-elumelu",
+      "programId": "tef-entrepreneurship-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "African founder; final business-stage and training conditions must be checked",
+      "sourceUrl": "https://www.tonyelumelufoundation.org/press-releases/apply-tef-entrepreneurship-programme-2026",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "climafii-africa-cohort2-requirement-1",
+      "fundId": "reccZG8TtBrCwLG7R",
+      "programId": "climafii-africa-cohort2",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Early-stage enterprise delivering energy or mobility solutions for microenterprises",
+      "sourceUrl": "https://shellfoundation.org/press-release/shell-foundation-and-accion-open-applications-for-climafii-alliance-second-cohort/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "eep-africa-2026-requirement-1",
+      "fundId": "local-eep-africa",
+      "programId": "eep-africa-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Private company, startup or social enterprise registered at least six months before the call",
+      "sourceUrl": "https://eepafrica.org/call-for-proposals/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "eep-africa-2026-requirement-2",
+      "fundId": "local-eep-africa",
+      "programId": "eep-africa-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Strong local presence or local partners and a commercially sustainable project",
+      "sourceUrl": "https://eepafrica.org/call-for-proposals/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "eep-africa-2026-requirement-3",
+      "fundId": "local-eep-africa",
+      "programId": "eep-africa-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "30–50% co-financing; repayment may be required",
+      "sourceUrl": "https://eepafrica.org/call-for-proposals/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "eep-africa-2026-requirement-4",
+      "fundId": "local-eep-africa",
+      "programId": "eep-africa-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Kenya, Botswana, Mauritius, Namibia and South Africa projects must address clean-energy e-waste",
+      "sourceUrl": "https://eepafrica.org/call-for-proposals/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cac-general-operations-2026-requirement-1",
+      "fundId": "local-california-arts-council",
+      "programId": "cac-general-operations-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Eligible California nonprofit, local/Tribal government or fiscally sponsored arts organization; two years of arts activity and active state standing",
+      "sourceUrl": "https://arts.ca.gov/wp-content/uploads/2026/03/2026_genops_guidelines.pdf",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cac-general-operations-2026-requirement-2",
+      "fundId": "local-california-arts-council",
+      "programId": "cac-general-operations-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Revenue ceiling: $1.5 million for arts producers/presenters; $5 million for arts service organizations",
+      "sourceUrl": "https://arts.ca.gov/wp-content/uploads/2026/03/2026_genops_guidelines.pdf",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cac-general-operations-2026-requirement-3",
+      "fundId": "local-california-arts-council",
+      "programId": "cac-general-operations-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Cannot also apply to 2026 State-Local Partners; two consecutive awards require a one-year break",
+      "sourceUrl": "https://arts.ca.gov/wp-content/uploads/2026/03/2026_genops_guidelines.pdf",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cac-arts-youth-2026-requirement-1",
+      "fundId": "local-california-arts-council",
+      "programId": "cac-arts-youth-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Eligible California nonprofit, local/Tribal government or fiscally sponsored arts organization; two years of arts activity and active state standing",
+      "sourceUrl": "https://arts.ca.gov/grant_program/arts-youth/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cac-arts-youth-2026-requirement-2",
+      "fundId": "local-california-arts-council",
+      "programId": "cac-arts-youth-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Revenue below $5 million; cannot also apply for Impact Projects",
+      "sourceUrl": "https://arts.ca.gov/grant_program/arts-youth/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cac-impact-projects-2026-requirement-1",
+      "fundId": "local-california-arts-council",
+      "programId": "cac-impact-projects-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Eligible California nonprofit, local/Tribal government or fiscally sponsored arts organization with two years of arts activity",
+      "sourceUrl": "https://arts.ca.gov/grant_program/impact-projects/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cac-impact-projects-2026-requirement-2",
+      "fundId": "local-california-arts-council",
+      "programId": "cac-impact-projects-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Revenue below $3 million; cannot also apply to Arts and Youth",
+      "sourceUrl": "https://arts.ca.gov/grant_program/impact-projects/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cac-impact-projects-2026-requirement-3",
+      "fundId": "local-california-arts-council",
+      "programId": "cac-impact-projects-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Artist/community collaboration responding to a community-defined issue",
+      "sourceUrl": "https://arts.ca.gov/grant_program/impact-projects/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "acta-apprenticeship-2026-requirement-1",
+      "fundId": "local-acta",
+      "programId": "acta-apprenticeship-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Mentor and apprentice apply together; apprentice has prior practice in the tradition",
+      "sourceUrl": "https://actaonline.org/program/apprenticeships/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "acta-apprenticeship-2026-requirement-2",
+      "fundId": "local-acta",
+      "programId": "acta-apprenticeship-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Mentor authorized to work and receive payment in the US; one application per participant",
+      "sourceUrl": "https://actaonline.org/program/apprenticeships/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "acta-apprenticeship-2026-requirement-3",
+      "fundId": "local-acta",
+      "programId": "acta-apprenticeship-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Orientation, documentation, public sharing and evaluations required",
+      "sourceUrl": "https://actaonline.org/program/apprenticeships/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-near-2027-28-requirement-1",
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-near-2027-28",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Independent LA County artist; not enrolled in a degree/certificate program during the grant cycle",
+      "sourceUrl": "https://culture.lacity.gov/grants/near-co-op",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-near-2027-28-requirement-2",
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-near-2027-28",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "200 hours, 11 workshops and public finale; host letters and eligible non-arts venue",
+      "sourceUrl": "https://culture.lacity.gov/grants/near-co-op",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-near-2027-28-requirement-3",
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-near-2027-28",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Lead artist named once across NEAR/CO-UP; prior DCA contracts in good standing",
+      "sourceUrl": "https://culture.lacity.gov/grants/near-co-op",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-co-up-2027-28-requirement-1",
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-co-up-2027-28",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Social justice nonprofit with at least $100,000 operating budget and 20% advocacy resources; arts nonprofits cannot lead",
+      "sourceUrl": "https://culture.lacity.gov/grants/near-co-op",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-co-up-2027-28-requirement-2",
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-co-up-2027-28",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "New independent teaching-artist collaboration; 200 hours, 11 workshops, finale and host letters",
+      "sourceUrl": "https://culture.lacity.gov/grants/near-co-op",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-outdoor-festivals-2027-28-requirement-1",
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-outdoor-festivals-2027-28",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Eligible nonprofit or charitable organization partnering with arts expertise",
+      "sourceUrl": "https://culture.lacity.gov/grants/cultural-grant-program-org",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-outdoor-festivals-2027-28-requirement-2",
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-outdoor-festivals-2027-28",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "At least one year of the proposed event and evidence of prior audiences",
+      "sourceUrl": "https://culture.lacity.gov/grants/cultural-grant-program-org",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-outdoor-festivals-2027-28-requirement-3",
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-outdoor-festivals-2027-28",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "1:1 matching support and category-specific qualifications",
+      "sourceUrl": "https://culture.lacity.gov/grants/cultural-grant-program-org",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-public-space-activation-requirement-1",
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-public-space-activation",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "LA community entrepreneur or organization connected to the site, with venue support letter",
+      "sourceUrl": "https://dcaredesign.org/artsactivate/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-public-space-activation-requirement-2",
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-public-space-activation",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Allow 3–5 months for event planning",
+      "sourceUrl": "https://dcaredesign.org/artsactivate/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cnra-youth-access-round4-requirement-1",
+      "fundId": "local-california-natural-resources",
+      "programId": "cnra-youth-access-round4",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "State/local public agency, nonprofit or California Native American tribe",
+      "sourceUrl": "https://water.ca.gov/CNRAHome/grants/youth",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cnra-youth-access-round4-requirement-2",
+      "fundId": "local-california-natural-resources",
+      "programId": "cnra-youth-access-round4",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Concept proposal first; full proposal only after invitation",
+      "sourceUrl": "https://water.ca.gov/CNRAHome/grants/youth",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "walmart-spark-good-cycle3-2026-requirement-1",
+      "fundId": "local-walmart",
+      "programId": "walmart-spark-good-cycle3-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Eligible nonprofit, school, public or faith-based entity serving the same area as the facility",
+      "sourceUrl": "https://www.walmart.org/sg/Join-Spark-Good/program/local-grants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "walmart-spark-good-cycle3-2026-requirement-2",
+      "fundId": "local-walmart",
+      "programId": "walmart-spark-good-cycle3-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Spark Good account and Deed verification; maximum 25 pending/approved applications",
+      "sourceUrl": "https://www.walmart.org/sg/Join-Spark-Good/program/local-grants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "walmart-spark-good-cycle3-2026-requirement-3",
+      "fundId": "local-walmart",
+      "programId": "walmart-spark-good-cycle3-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "No repeat award from the same facility in one fiscal year",
+      "sourceUrl": "https://www.walmart.org/sg/Join-Spark-Good/program/local-grants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-neighborhood-purposes-requirement-1",
+      "fundId": "local-la-neighborhood-councils",
+      "programId": "la-neighborhood-purposes",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Eligible nonprofit or public school providing a public benefit; conflict-of-interest review",
+      "sourceUrl": "https://clerk.lacity.gov/neighborhood-council-elections-and-funding/neighborhood-council-funding/documents-and-forms-page",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-neighborhood-purposes-requirement-2",
+      "fundId": "local-la-neighborhood-councils",
+      "programId": "la-neighborhood-purposes",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Council agenda, vote, available budget and City Clerk approval",
+      "sourceUrl": "https://clerk.lacity.gov/neighborhood-council-elections-and-funding/neighborhood-council-funding/documents-and-forms-page",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "usbank-community-possible-requirement-1",
+      "fundId": "local-us-bank",
+      "programId": "usbank-community-possible",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "501(c)(3) organization with nondiscrimination policy serving designated U.S. Bank communities",
+      "sourceUrl": "https://www.usbank.com/about-us-bank/community/community-possible-grant-program.html",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "usbank-community-possible-requirement-2",
+      "fundId": "local-us-bank",
+      "programId": "usbank-community-possible",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Full application requires invitation; capital requests require prior funding relationship",
+      "sourceUrl": "https://www.usbank.com/about-us-bank/community/community-possible-grant-program.html",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "stem-action-2026-requirement-1",
+      "fundId": "local-society-for-science",
+      "programId": "stem-action-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Community nonprofit; new foundational grantees have operating budget below $500,000",
+      "sourceUrl": "https://www.societyforscience.org/stem-outreach-programs/stem-action-grants/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "stem-action-2026-requirement-2",
+      "fundId": "local-society-for-science",
+      "programId": "stem-action-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Capacity grant requires three years of previous STEM Action support",
+      "sourceUrl": "https://www.societyforscience.org/stem-outreach-programs/stem-action-grants/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la2050-2026-requirement-1",
+      "fundId": "local-goldhirsh",
+      "programId": "la2050-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Pass organization screening before an invited funding proposal",
+      "sourceUrl": "https://la2050.org/grants-challenge/welcome",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la2050-2026-requirement-2",
+      "fundId": "local-goldhirsh",
+      "programId": "la2050-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Proposal responds to the issues selected by public voting",
+      "sourceUrl": "https://la2050.org/grants-challenge/welcome",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "nea-arts-projects-july2026-requirement-1",
+      "fundId": "local-nea",
+      "programId": "nea-arts-projects-july2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "US 501(c)(3), state/local government or federally recognized tribe",
+      "sourceUrl": "https://www.arts.gov/grants/grants-for-arts-projects",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "nea-arts-projects-july2026-requirement-2",
+      "fundId": "local-nea",
+      "programId": "nea-arts-projects-july2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Five years of arts programming and at least $20,000 annual operating expenses",
+      "sourceUrl": "https://www.arts.gov/grants/grants-for-arts-projects",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "nea-arts-projects-july2026-requirement-3",
+      "fundId": "local-nea",
+      "programId": "nea-arts-projects-july2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "1:1 cash/in-kind match; generally one application per year",
+      "sourceUrl": "https://www.arts.gov/grants/grants-for-arts-projects",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "neh-public-humanities-dec2026-requirement-1",
+      "fundId": "local-neh",
+      "programId": "neh-public-humanities-dec2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Eligible US nonprofit, accredited public/nonprofit higher education institution, state/local agency or federally recognized tribe",
+      "sourceUrl": "https://www.neh.gov/grants/public/public-humanities-projects",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "neh-public-humanities-dec2026-requirement-2",
+      "fundId": "local-neh",
+      "programId": "neh-public-humanities-dec2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Current SAM.gov and Grants.gov registrations",
+      "sourceUrl": "https://www.neh.gov/grants/public/public-humanities-projects",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "neh-public-humanities-dec2026-requirement-3",
+      "fundId": "local-neh",
+      "programId": "neh-public-humanities-dec2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Named humanities scholars with commitment letters; lecture/forum proposals must address NOFO interest areas",
+      "sourceUrl": "https://www.neh.gov/grants/public/public-humanities-projects",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "humanities-for-all-projects-requirement-1",
+      "fundId": "local-california-humanities",
+      "programId": "humanities-for-all-projects",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "California nonprofit or non-federal public agency",
+      "sourceUrl": "https://calhum.org/humanities-for-all/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "humanities-for-all-projects-requirement-2",
+      "fundId": "local-california-humanities",
+      "programId": "humanities-for-all-projects",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Equivalent non-federal cash/in-kind match",
+      "sourceUrl": "https://calhum.org/humanities-for-all/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cpuc-cea-lat-round3-requirement-1",
+      "fundId": "local-cpuc",
+      "programId": "cpuc-cea-lat-round3",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Community-based organization headquartered in ZIP code 91326",
+      "sourceUrl": "https://www.cpuc.ca.gov/capacitygrants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cpuc-cea-lat-round3-requirement-2",
+      "fundId": "local-cpuc",
+      "programId": "cpuc-cea-lat-round3",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "No previous CEA-LAT funding",
+      "sourceUrl": "https://www.cpuc.ca.gov/capacitygrants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "cpuc-cea-lat-round3-requirement-3",
+      "fundId": "local-cpuc",
+      "programId": "cpuc-cea-lat-round3",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "TECH Clean California outreach and education; full guidelines apply",
+      "sourceUrl": "https://www.cpuc.ca.gov/capacitygrants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "la-economic-opportunity-grant-requirement-1",
+      "fundId": "local-la-economic-opportunity",
+      "programId": "la-economic-opportunity-grant",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Historical microbusiness, small-business or nonprofit relief criteria varied by phase",
+      "sourceUrl": "https://opportunity.lacounty.gov/eog/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "shift-round001-requirement-1",
+      "fundId": "local-shift",
+      "programId": "shift-round001",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Scientific or technical project aligned with d/acc; milestones and progress updates",
+      "sourceUrl": "https://www.shiftgrants.org/_files/ugd/213a1a_789ee644a7d9479a98b3992620f9fc5a.pdf",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "shift-round001-requirement-2",
+      "fundId": "local-shift",
+      "programId": "shift-round001",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Open publishing by default; exceptions require approval",
+      "sourceUrl": "https://www.shiftgrants.org/_files/ugd/213a1a_789ee644a7d9479a98b3992620f9fc5a.pdf",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "bga-sdgs-challenge-2024-requirement-1",
+      "fundId": "local-blockchain-for-good",
+      "programId": "bga-sdgs-challenge-2024",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Blockchain solution aligned with UN SDGs and working demonstration",
+      "sourceUrl": "https://www.chainforgood.org/oscar",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "prosper-climate-colombia-2026-requirement-1",
+      "fundId": "local-prosper-ventures",
+      "programId": "prosper-climate-colombia-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "For-profit pre-seed/seed startup operating in Colombia",
+      "sourceUrl": "https://www.prosperglobalventures.com/blog/call-for-proposals-tech-solutions-for-climate-resilience-in-colombia",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "prosper-climate-colombia-2026-requirement-2",
+      "fundId": "local-prosper-ventures",
+      "programId": "prosper-climate-colombia-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Tech-enabled climate resilience for vulnerable communities, with delivery capacity and sustainable scaling plan",
+      "sourceUrl": "https://www.prosperglobalventures.com/blog/call-for-proposals-tech-solutions-for-climate-resilience-in-colombia",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "rocket-pool-gmc-round42-requirement-1",
+      "fundId": "local-rocket-pool",
+      "programId": "rocket-pool-gmc-round42",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Applicant undertakes the proposed work and demonstrates benefit to Rocket Pool",
+      "sourceUrl": "https://dao.rocketpool.net/t/round-42-gmc-call-for-grant-applications-deadline-is-november-7/4070",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "rocket-pool-gmc-round42-requirement-2",
+      "fundId": "local-rocket-pool",
+      "programId": "rocket-pool-gmc-round42",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Post the grant template publicly in the round's official forum thread by the cutoff",
+      "sourceUrl": "https://dao.rocketpool.net/t/round-42-gmc-call-for-grant-applications-deadline-is-november-7/4070",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "rogeap-ctf-round4-requirement-1",
+      "fundId": "local-rogeap",
+      "programId": "rogeap-ctf-round4",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Off-grid solar startup/SME meeting the relevant company-stage criteria",
+      "sourceUrl": "https://rogeappfm.com/Publicity/ROGEAP-4th-call-CTF-en.pdf",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "rogeap-ctf-round4-requirement-2",
+      "fundId": "local-rogeap",
+      "programId": "rogeap-ctf-round4",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Matching track: 25% own contribution; market-entry track: 10%",
+      "sourceUrl": "https://rogeappfm.com/Publicity/ROGEAP-4th-call-CTF-en.pdf",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "rogeap-ctf-round4-requirement-3",
+      "fundId": "local-rogeap",
+      "programId": "rogeap-ctf-round4",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Market-entry track limited to Gambia, Liberia and Nigeria",
+      "sourceUrl": "https://rogeappfm.com/Publicity/ROGEAP-4th-call-CTF-en.pdf",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "shutter-champions-melee2-requirement-1",
+      "fundId": "local-shutter",
+      "programId": "shutter-champions-melee2",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Funding slates submitted by listed DAO delegates, Security Council members or Keypers",
+      "sourceUrl": "https://blog.shutter.network/shutter-champions-melee-2/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "shutter-champions-melee2-requirement-2",
+      "fundId": "local-shutter",
+      "programId": "shutter-champions-melee2",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Slate proposers cannot fund themselves or affiliated organizations; future contributions only",
+      "sourceUrl": "https://blog.shutter.network/shutter-champions-melee-2/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "optimism-growth-season9-requirement-1",
+      "fundId": "local-optimism",
+      "programId": "optimism-growth-season9",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Launched application on a supported Superchain network",
+      "sourceUrl": "https://atlas.optimism.io/missions/growth-grants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "optimism-growth-season9-requirement-2",
+      "fundId": "local-optimism",
+      "programId": "optimism-growth-season9",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Growth plan measuring DEX TVL or fees in priority pairs",
+      "sourceUrl": "https://atlas.optimism.io/missions/growth-grants",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "doe-sbir-genesis-2026-requirement-1",
+      "fundId": "local-us-doe",
+      "programId": "doe-sbir-genesis-2026",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "For-profit US small business meeting SBA eligibility and relevant research-topic requirements",
+      "sourceUrl": "https://www.energy.gov/technologycommercialization/doe-small-business-innovation-research-sbir-and-small-business",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "doe-sbir-phase1-future-requirement-1",
+      "fundId": "local-us-doe",
+      "programId": "doe-sbir-phase1-future",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "For-profit US small business; final solicitation and SBA rules govern",
+      "sourceUrl": "https://www.energy.gov/technologycommercialization/doe-small-business-innovation-research-sbir-and-small-business",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "accf-call4-requirement-1",
+      "fundId": "local-afdb-accf",
+      "programId": "accf-call4",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Eligible public/intergovernmental body, African fund/research institute or qualifying NGO/CBO",
+      "sourceUrl": "https://afdb.smapply.org/prog/africa_climate_change_fund_fourth_call_for_proposals/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "accf-call4-requirement-2",
+      "fundId": "local-afdb-accf",
+      "programId": "accf-call4",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Private sector and UN agency participation requires case-by-case approval",
+      "sourceUrl": "https://afdb.smapply.org/prog/africa_climate_change_fund_fourth_call_for_proposals/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "accf-call4-requirement-3",
+      "fundId": "local-afdb-accf",
+      "programId": "accf-call4",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Pass eligibility stage and concept review before invitation to full proposal",
+      "sourceUrl": "https://afdb.smapply.org/prog/africa_climate_change_fund_fourth_call_for_proposals/",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "sovereign-tech-fund-requirement-1",
+      "fundId": "local-sovereign-tech",
+      "programId": "sovereign-tech-fund",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Established foundational FOSS technology; prototypes and end-user apps are outside scope",
+      "sourceUrl": "https://www.sovereign.tech/programs/fund",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "sovereign-tech-fund-requirement-2",
+      "fundId": "local-sovereign-tech",
+      "programId": "sovereign-tech-fund",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Proposed work costs more than EUR 50,000 and has no duplicate public financing",
+      "sourceUrl": "https://www.sovereign.tech/programs/fund",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "sovereign-tech-fund-requirement-3",
+      "fundId": "local-sovereign-tech",
+      "programId": "sovereign-tech-fund",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "Reusable code/documentation licenses and maintainer/community expertise or endorsement",
+      "sourceUrl": "https://www.sovereign.tech/programs/fund",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "id": "sovereign-tech-fund-requirement-4",
+      "fundId": "local-sovereign-tech",
+      "programId": "sovereign-tech-fund",
+      "category": "manual",
+      "kind": "prerequisite",
+      "requirement": "German or English application through official platform",
+      "sourceUrl": "https://www.sovereign.tech/programs/fund",
+      "checkedOn": "2026-10-29"
+    },
+    {
       "fundId": "recUN8nEtimhdGZeE",
       "programId": "nonprofit-corporate-grants",
       "id": "verizon-public-charity-or-school",

@@ -87,7 +87,7 @@ test('Nigeria solar hubs do not shortlist US transmission; unknown and mixed RAF
 });
 
 test('research leads have purpose evidence and a current direct or inquiry route; all other records remain browsable',()=>{
- const ranked=rank(funds,base,high(funds));assert.equal(ranked.length,630);assert.equal(new Set(ranked.map(m=>m.fund.id)).size,630);
+ const ranked=rank(funds,base,high(funds));assert.equal(ranked.length,694);assert.equal(new Set(ranked.map(m=>m.fund.id)).size,694);
  assert.ok(ranked.some(m=>m.group==='lead'));assert.ok(ranked.some(m=>m.group!=='lead'));
  for(const [i,m] of ranked.entries()){
   assert.ok(['lead','check','unverified','limited','outside'].includes(m.group));

@@ -13,8 +13,8 @@ test('supplemental import preserves immutable upstream identities and distinct p
  assert.equal(ids.length,593);
  assert.equal(new Set(ids).size,593);
  assert.deepEqual(data.funds.slice(0,593).map(f=>f.id),ids);
- assert.equal(data.funds.length,630);
- assert.equal(manifest.funds.length,37);
+ assert.equal(data.funds.length,694);
+ assert.equal(manifest.funds.length,101);
  for(const {fund} of manifest.funds){
   assert.match(fund.id,/^local-/);
   assert.equal(fund.origin.upstreamRecordId,null);
@@ -85,8 +85,8 @@ test('additional tracks share funder identities without replacing prior program 
  assert.equal(get('local-mozilla').find(p=>p.id==='mozilla-human-scale-ai').award.max,300000);
  assert.equal(get('local-mozilla').find(p=>p.id==='mozilla-independent-fellow-2027').instrument,'fellowship');
  assert.equal(get('local-la-county-arts').length,2);
- assert.equal(manifest.programAdditions.length,3);
- assert.equal(manifest.funds.reduce((n,row)=>n+row.enrichment.programs.length,0)+manifest.programAdditions.length,42);
+ assert.equal(manifest.programAdditions.length,4);
+ assert.equal(manifest.funds.reduce((n,row)=>n+row.enrichment.programs.length,0)+manifest.programAdditions.length,129);
 });
 
 test('unknown currency, award terms and intake dates never become invented bounds or rolling access',()=>{

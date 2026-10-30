@@ -1,22 +1,22 @@
 {
   "version": 1,
   "checkedOn": "2026-10-29",
-  "recordCount": 630,
+  "recordCount": 694,
   "baselineCount": 593,
   "researchCounts": {
     "not_a_funder": 18,
-    "program_reviewed": 589,
+    "program_reviewed": 653,
     "source_reviewed": 14,
     "unresolved": 9
   },
   "fieldCoverage": {
-    "focus": 618,
-    "eligibility": 531,
-    "numericAward": 166,
-    "currentNumericAward": 78,
-    "datedDeadline": 156,
-    "upcomingDatedDeadline": 29,
-    "applicationRoute": 490
+    "focus": 682,
+    "eligibility": 595,
+    "numericAward": 184,
+    "currentNumericAward": 83,
+    "datedDeadline": 190,
+    "upcomingDatedDeadline": 38,
+    "applicationRoute": 550
   },
   "sourceWarningCount": 5,
   "records": [
@@ -17022,8 +17022,8 @@
       "name": "Shell Foundation",
       "reviewStatus": "program_reviewed",
       "checkedOn": "2026-10-16",
-      "sourceCount": 3,
-      "programCount": 1,
+      "sourceCount": 5,
+      "programCount": 2,
       "fields": {
         "focus": true,
         "eligibility": true,
@@ -17036,7 +17036,9 @@
       "sources": [
         "https://shellfoundation.org/",
         "https://shellfoundation.org/mobilising-catalytic-finance/",
-        "https://shellfoundation.org/partner-with-us/"
+        "https://shellfoundation.org/partner-with-us/",
+        "https://shellfoundation.org/press-release/shell-foundation-and-accion-open-applications-for-climafii-alliance-second-cohort/",
+        "https://bfaglobal.com/climafii/insights/climafii-alliance-announces-second-cohort-deploying-productive-use-energy-and-electric-mobility-solutions-for-microenterprises-in-africa/"
       ],
       "retrievals": [],
       "followUp": {
@@ -21204,8 +21206,8 @@
       "name": "NLnet Foundation",
       "reviewStatus": "program_reviewed",
       "checkedOn": "2026-10-29",
-      "sourceCount": 3,
-      "programCount": 1,
+      "sourceCount": 7,
+      "programCount": 4,
       "fields": {
         "focus": true,
         "eligibility": true,
@@ -21218,7 +21220,11 @@
       "sources": [
         "https://nlnet.nl/restack/",
         "https://nlnet.nl/restack/eligibility/",
-        "https://nlnet.nl/news/2026/20261020-AI-policy.html"
+        "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+        "https://nlnet.nl/fediversity/",
+        "https://nlnet.nl/taler/",
+        "https://nlnet.nl/taler/faq/index.html",
+        "https://nlnet.nl/commonsfund/"
       ],
       "retrievals": []
     },
@@ -21388,8 +21394,8 @@
       "name": "Alliance for California Traditional Arts",
       "reviewStatus": "program_reviewed",
       "checkedOn": "2026-10-29",
-      "sourceCount": 2,
-      "programCount": 1,
+      "sourceCount": 3,
+      "programCount": 2,
       "fields": {
         "focus": true,
         "eligibility": true,
@@ -21401,7 +21407,8 @@
       },
       "sources": [
         "https://actaonline.org/program/living-cultures-grant/",
-        "https://actaonline.submittable.com/submit"
+        "https://actaonline.submittable.com/submit",
+        "https://actaonline.org/program/apprenticeships/"
       ],
       "retrievals": []
     },
@@ -21886,19 +21893,21 @@
       "name": "Interledger Foundation",
       "reviewStatus": "program_reviewed",
       "checkedOn": "2026-10-29",
-      "sourceCount": 1,
-      "programCount": 1,
+      "sourceCount": 3,
+      "programCount": 2,
       "fields": {
         "focus": true,
         "eligibility": true,
-        "numericAward": false,
+        "numericAward": true,
         "currentNumericAward": false,
-        "datedDeadline": false,
+        "datedDeadline": true,
         "upcomingDatedDeadline": false,
         "applicationRoute": true
       },
       "sources": [
-        "https://interledger.org/grant/fellowship/"
+        "https://interledger.org/grant/fellowship/",
+        "https://community.interledger.org/interledger/interledger-foundation-launches-interledger-on-campus-grant-program-to-support-student-led-2dkk",
+        "https://interledger.org/grant/education/"
       ],
       "retrievals": []
     },
@@ -21929,19 +21938,20 @@
       "name": "Lido Ecosystem Grants Organization",
       "reviewStatus": "program_reviewed",
       "checkedOn": "2026-10-29",
-      "sourceCount": 1,
-      "programCount": 1,
+      "sourceCount": 2,
+      "programCount": 2,
       "fields": {
         "focus": true,
         "eligibility": true,
-        "numericAward": false,
-        "currentNumericAward": false,
+        "numericAward": true,
+        "currentNumericAward": true,
         "datedDeadline": false,
         "upcomingDatedDeadline": false,
         "applicationRoute": true
       },
       "sources": [
-        "https://lido.fi/lego"
+        "https://lido.fi/lego",
+        "https://operatorportal.lido.fi/community-lifeguards-initiative"
       ],
       "retrievals": []
     },
@@ -22008,10 +22018,1408 @@
         "https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d"
       ],
       "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-gitcoin",
+      "name": "Gitcoin",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://gitcoin.co/campaigns",
+        "https://grants.gitcoin.co/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-giveth",
+      "name": "Giveth",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": false
+      },
+      "sources": [
+        "https://docs.giveth.io/quadraticfunding",
+        "https://giveth.io/qf"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-octant",
+      "name": "Octant / Golem Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://octant.substack.com/p/epoch-13-meet-the-13-teams-advancing",
+        "https://octant.substack.com/p/final-hours-of-epoch-13-closing-livestream"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-prezenti",
+      "name": "Prezenti",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 3,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.prezenti.xyz/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-celo",
+      "name": "Celo",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 2,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://celo.org/builders",
+        "https://forum.celo.org/t/season-2-celo-foundation-retrospective/13524",
+        "https://forum.celo.org/t/celo-season-1-program-overview/12484"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-arbitrum-foundation",
+      "name": "Arbitrum Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 5,
+      "programCount": 3,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://blog.arbitrum.foundation/introducing-the-arbitrum-security-program-apply-to-secure-your-smart-contracts/",
+        "https://arbitrum.foundation/grants",
+        "https://blog.arbitrum.foundation/arbifuel-is-live-arbitrum-builders-claim-your-gas-fee-sponsorship/",
+        "https://blog.arbitrum.foundation/open-house-singapore-applications-are-now-open/",
+        "https://blog.arbitrum.foundation/founder-house-singapore-apply-now-to-launch-products-on-arbitrum-one-robinhood-chain/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-arbitrum-dao",
+      "name": "Arbitrum DAO",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://arbitrum.foundation/grants",
+        "https://blog.arbitrum.foundation/arbifuel-is-live-arbitrum-builders-claim-your-gas-fee-sponsorship/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-safe",
+      "name": "Safe Ecosystem Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://safefoundation.org/grants"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-artizen",
+      "name": "Artizen",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://artizen.fund/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-fast-forward",
+      "name": "Fast Forward",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.ffwd.org/accelerator"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-climate-collective",
+      "name": "Climate Collective",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 2,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://climatecollective.org/accelerator",
+        "https://climatecollective.org/green-accountability-cohort"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-gcc",
+      "name": "GCC",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.gccofficial.org/en",
+        "https://www.gccofficial.org/application"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-gnosis",
+      "name": "Gnosis",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://world.gnosis.io/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-osv",
+      "name": "O'Shaughnessy Ventures",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.osv.llc/fellowships"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-survival-flourishing",
+      "name": "Survival and Flourishing Fund",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://survivalandflourishing.fund/2026/application"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-ens",
+      "name": "ENS DAO",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://ensgrants.xyz/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-filecoin",
+      "name": "Filecoin Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 2,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://app.filpgf.io/programs/1479",
+        "https://fil.org/grants",
+        "https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-ethereum-foundation",
+      "name": "Ethereum Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://esp.ethereum.foundation/applicants"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-usda-nrcs",
+      "name": "USDA Natural Resources Conservation Service",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": false
+      },
+      "sources": [
+        "https://www.nrcs.usda.gov/programs-initiatives/conservation-innovation-grants"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-darwin",
+      "name": "Darwin Initiative",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 2,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.darwininitiative.org.uk/how-to-apply/main-applications/",
+        "https://www.darwininitiative.org.uk/how-to-apply/extra-applications/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-gef-cso-challenge",
+      "name": "IUCN / GEF SGP CSO Challenge",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://csochallenge.org/",
+        "https://csochallenge.org/uploads/SGP_CSO_Concept_Guidance_For_Applicants.pdf"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-california-dwr",
+      "name": "California Department of Water Resources",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://water.ca.gov/Work-With-Us/Grants-And-Loans/Urban-Streams",
+        "https://water.ca.gov/grants/",
+        "https://water.ca.gov/urbanstreams/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-neef",
+      "name": "National Environmental Education Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.neefusa.org/2026-2027-environmental-education-initiative-lyondellbasell-greening-stem-grants",
+        "https://www.neefusa.org/what-we-do/grants/grants"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-western-sare",
+      "name": "Western SARE",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://western.sare.org/grants/professional-producer/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-jrs-biodiversity",
+      "name": "JRS Biodiversity Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://jrsbiodiversity.org/how-to-apply/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-halcyon",
+      "name": "Halcyon",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://halcyonaccelerator.org/africa-innovation-in-ag-2027/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-climate-curve",
+      "name": "Climate Curve",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.climatecurve.org/applications-closed",
+        "https://kcp-conduit.org/apply/kcp/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-seeding-future",
+      "name": "Seeding The Future Foundation / Welthungerhilfe",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.welthungerhilfe.org/global-food-system-challenge/f/",
+        "https://www.seedingthefuture.org/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-honnold",
+      "name": "Honnold Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.honnoldfoundation.org/become-a-partner"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-zayed-prize",
+      "name": "Zayed Sustainability Prize",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://zayedsustainabilityprize.com/en"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-milken-motsepe",
+      "name": "Milken Institute / Motsepe Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://milkeninstitute.org/content-hub/news-releases/10-companies-named-semifinalists-2-million-milken-motsepe-prize-circular-economy",
+        "https://milkeninstitute.org/index.php/content-hub/news-releases/milken-institute-and-motsepe-foundation-announce-winners-2-million-milken-motsepe-prize-ai-and"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-african-union",
+      "name": "African Union",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://au.int/sites/default/files/announcements/46204-annc-Revised_Call_for_Submissions_IEA_2026_EN_rev.pdf"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-youth4climate",
+      "name": "UNDP / Youth4Climate",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://community.youth4climate.info/dashboard/call-solutions-2026-0"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-gca-youthadapt",
+      "name": "Global Center on Adaptation / AfDB",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": false
+      },
+      "sources": [
+        "https://gca.org/gca-project/africa-youth-adaptation-solutions-challenge/",
+        "https://gca.org/youthadaptchallenge/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-raeng",
+      "name": "Royal Academy of Engineering",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://africaprize.raeng.org.uk/about-the-prize/how-to-apply",
+        "https://raeng.org.uk/news/the-2027-africa-prize-for-engineering-innovation-calls-for-applications-across-sub-saharan-africa",
+        "https://africaprize.raeng.org.uk/about-the-prize/eligibility/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-f5",
+      "name": "F5",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.f5.com/company/global-good",
+        "https://www.linkedin.com/posts/f5_we-believe-access-to-stem-education-and-ai-activity-7467213371596128256-8zVc"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-ma-earth",
+      "name": "Ma Earth",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://maearth.com/fundraise",
+        "https://news.maearth.com/p/applications-for-funding-round-3-close-may-31"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-rea",
+      "name": "Rural Electrification Agency Nigeria",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 5,
+      "programCount": 2,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://nep.rea.gov.ng/dares.html",
+        "https://www.nep.rea.gov.ng/apply-dares.html",
+        "https://rea.gov.ng/apply",
+        "https://nep.rea.gov.ng/assets/documents/resource-hub/DARES_PIM_Final.pdf",
+        "https://spn.rea.gov.ng/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-all-on",
+      "name": "All On",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.all-on.com/offgrid-challenge.html"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-tony-elumelu",
+      "name": "Tony Elumelu Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.tonyelumelufoundation.org/press-releases/apply-tef-entrepreneurship-programme-2026"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-eep-africa",
+      "name": "EEP Africa",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://eepafrica.org/call-for-proposals/",
+        "https://eepafrica.org/documents/EEP-Africa-CfP2026-Guidelines_FINAL.pdf"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-california-arts-council",
+      "name": "California Arts Council",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 4,
+      "programCount": 3,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://arts.ca.gov/wp-content/uploads/2026/03/2026_genops_guidelines.pdf",
+        "https://arts.ca.gov/grant_program/arts-youth/",
+        "https://arts.ca.gov/grant_program/impact-projects/",
+        "https://arts.ca.gov/2026_impactprojects_guidelines"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-la-city-cultural-affairs",
+      "name": "Los Angeles Department of Cultural Affairs",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 4,
+      "programCount": 4,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://culture.lacity.gov/grants/near-co-op",
+        "https://culture.lacity.gov/grants/cultural-grant-program-org",
+        "https://culture.lacity.gov/grants",
+        "https://dcaredesign.org/artsactivate/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-california-natural-resources",
+      "name": "California Natural Resources Agency",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://water.ca.gov/CNRAHome/grants/youth",
+        "https://raptr.resources.ca.gov/GrantDefinitions/PublicIndex"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-walmart",
+      "name": "Walmart",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.walmart.org/sg/Join-Spark-Good/program/local-grants",
+        "https://www.walmart.org/what-we-do/strengthening-community/spark-good/spark-good-facility-giving",
+        "https://www.walmart.org/content/walmart-org/en_us/how-we-give/grant-eligibility.html"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-la-neighborhood-councils",
+      "name": "Los Angeles Neighborhood Councils",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://clerk.lacity.gov/neighborhood-council-elections-and-funding/neighborhood-council-funding/documents-and-forms-page",
+        "https://clerk.lacity.gov/sites/g/files/wph1491/files/2021-02/NPG%20NC%20Information%20Packet%2002-2018.pdf",
+        "https://wattsnc.org/funding/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-us-bank",
+      "name": "U.S. Bank Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.usbank.com/about-us-bank/community/community-possible-grant-program.html"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-society-for-science",
+      "name": "Society for Science",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 2,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.societyforscience.org/stem-outreach-programs/stem-action-grants/",
+        "https://www.societyforscience.org/stem-outreach-programs/stem-action-grants/about/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-goldhirsh",
+      "name": "Goldhirsh Foundation / LA2050",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://la2050.org/grants-challenge/welcome"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-nea",
+      "name": "National Endowment for the Arts",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.arts.gov/grants/grants-for-arts-projects"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-neh",
+      "name": "National Endowment for the Humanities",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": true,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.neh.gov/grants/public/public-humanities-projects",
+        "https://www.neh.gov/sites/default/files/2026-10/Public%20Humanities%20Projects%202026%20NOFO.pdf"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-california-humanities",
+      "name": "California Humanities",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://calhum.org/humanities-for-all/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-cpuc",
+      "name": "California Public Utilities Commission",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.cpuc.ca.gov/capacitygrants"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-la-economic-opportunity",
+      "name": "Los Angeles County Department of Economic Opportunity",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://opportunity.lacounty.gov/eog/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-shift",
+      "name": "SHIFT Grants — Edge City and Nodes",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.shiftgrants.org/_files/ugd/213a1a_789ee644a7d9479a98b3992620f9fc5a.pdf",
+        "https://www.shiftgrants.org/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-blockchain-for-good",
+      "name": "Blockchain for Good Alliance",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.chainforgood.org/oscar",
+        "https://chainforgood.org/bga-impact-report-2025.pdf"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-prosper-ventures",
+      "name": "Prosper Global Ventures (formerly Mercy Corps Ventures)",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.prosperglobalventures.com/blog/call-for-proposals-tech-solutions-for-climate-resilience-in-colombia",
+        "https://www.mercycorpsventures.com/climate-lab"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-rocket-pool",
+      "name": "Rocket Pool DAO",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": true,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://dao.rocketpool.net/t/round-42-gmc-call-for-grant-applications-deadline-is-november-7/4070",
+        "https://rocketpool.net/governance/grants-management-committee"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-rogeap",
+      "name": "ECOWAS ROGEAP",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": false
+      },
+      "sources": [
+        "https://rogeappfm.com/Publicity/ROGEAP-4th-call-CTF-en.pdf",
+        "https://ecowas.rogeap.org/en/grant-application-form/",
+        "https://rogeappfm.com/index.php"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-shutter",
+      "name": "Shutter DAO",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://blog.shutter.network/shutter-champions-melee-2/"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-optimism",
+      "name": "Optimism Foundation",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://atlas.optimism.io/missions/growth-grants"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-us-doe",
+      "name": "U.S. Department of Energy",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 2,
+      "programCount": 2,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.energy.gov/technologycommercialization/doe-small-business-innovation-research-sbir-and-small-business",
+        "https://science.osti.gov/sbir/Funding-Opportunities"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-afdb-accf",
+      "name": "African Development Bank — Africa Climate Change Fund",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 3,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": true,
+        "currentNumericAward": false,
+        "datedDeadline": true,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://afdb.smapply.org/prog/africa_climate_change_fund_fourth_call_for_proposals/",
+        "https://afdb.smapply.org/prog/lst/",
+        "https://accf.afdb.org/en/news/fourth-call-proposals-key-updates"
+      ],
+      "retrievals": []
+    },
+    {
+      "sourceRecordId": "local-sovereign-tech",
+      "name": "Sovereign Tech Agency",
+      "reviewStatus": "program_reviewed",
+      "checkedOn": "2026-10-29",
+      "sourceCount": 1,
+      "programCount": 1,
+      "fields": {
+        "focus": true,
+        "eligibility": true,
+        "numericAward": false,
+        "currentNumericAward": false,
+        "datedDeadline": false,
+        "upcomingDatedDeadline": false,
+        "applicationRoute": true
+      },
+      "sources": [
+        "https://www.sovereign.tech/programs/fund"
+      ],
+      "retrievals": []
     }
   ],
   "notes": "All original and supplemental records have a research disposition. Source overviews, program terms and failed/unresolved checks are distinct. Unknown terms remain unknown. Retrieval entries describe collection, not a claim that terms were verified. Original30 pilot reviews were retained from October14; expanded research was checked October15.",
-  "compiledAt": "2026-10-30T02:03:37.697630+00:00",
+  "compiledAt": "2026-10-30T02:08:05.976607+00:00",
   "fieldDefinitions": {
     "currentNumericAward": "A numeric amount in published program terms, even if that intake is closed; not a promise of current availability.",
     "datedDeadline": "At least one source closing date, including historical or closed calls.",

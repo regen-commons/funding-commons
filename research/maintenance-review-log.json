@@ -219,6 +219,1905 @@
       ],
       "nextReviewOn": "2026-11-05",
       "note": "Only recorded terms verified. See program unknowns; partial means current intake remains unconfirmed."
+    },
+    {
+      "fundId": "local-gitcoin",
+      "programId": "gitcoin-gg24",
+      "leadId": "history-lead-002",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://gitcoin.co/campaigns",
+        "https://grants.gitcoin.co/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Current campaign index marks GG24 ended in 2025; the older round landing page still says applications open. No new round dates established. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-giveth",
+      "programId": "giveth-qf",
+      "leadId": "history-lead-003",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "partial",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://docs.giveth.io/quadraticfunding",
+        "https://giveth.io/qf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "QF mechanism verified, but the live round page is in maintenance. No active application window established. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-octant",
+      "programId": "octant-epoch-13",
+      "leadId": "history-lead-004",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://octant.substack.com/p/epoch-13-meet-the-13-teams-advancing",
+        "https://octant.substack.com/p/final-hours-of-epoch-13-closing-livestream"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "The 13-project cohort was selected before the October 14–22 allocation window, which has ended. Allocation dates are not application deadlines. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-prezenti",
+      "programId": "prezenti-anchor-2026",
+      "leadId": "history-lead-005",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.prezenti.xyz/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Dated 2026 call overrides the stale Season 3 closed banner. Date-only cutoff; time and timezone unverified. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-prezenti",
+      "programId": "prezenti-boost",
+      "leadId": "history-lead-005",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants"
+      ],
+      "sourceUrls": [
+        "https://www.prezenti.xyz/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Invitation-only onboarding with Celo Core Co. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-prezenti",
+      "programId": "prezenti-frontier-2026",
+      "leadId": "history-lead-005",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.prezenti.xyz/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "2026 intake; date-only cutoff. Open-source work preferred. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-celo",
+      "programId": "celo-proof-of-ship",
+      "leadId": "history-lead-006",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://celo.org/builders",
+        "https://forum.celo.org/t/season-2-celo-foundation-retrospective/13524"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official builder page lists the monthly program live. Current month's cutoff and detailed rules need confirmation. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-celo",
+      "programId": "celo-builders-fund",
+      "leadId": "history-lead-007",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://celo.org/builders",
+        "https://forum.celo.org/t/celo-season-1-program-overview/12484"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official builder page lists the fund live; investment terms require direct confirmation. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-arbitrum-foundation",
+      "programId": "arbitrum-security-2026",
+      "leadId": "history-lead-009",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://blog.arbitrum.foundation/introducing-the-arbitrum-security-program-apply-to-secure-your-smart-contracts/",
+        "https://arbitrum.foundation/grants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "September 2026 program is listed active. Covers the agreed initial audit; subsidy is negotiated. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-arbitrum-foundation",
+      "programId": "arbifuel",
+      "leadId": "history-lead-010",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://blog.arbitrum.foundation/arbifuel-is-live-arbitrum-builders-claim-your-gas-fee-sponsorship/",
+        "https://arbitrum.foundation/grants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Listed active. Gas credits only; no general cash award. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-arbitrum-foundation",
+      "programId": "arbitrum-open-house-singapore-2026",
+      "leadId": "history-lead-011",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://blog.arbitrum.foundation/open-house-singapore-applications-are-now-open/",
+        "https://blog.arbitrum.foundation/founder-house-singapore-apply-now-to-launch-products-on-arbitrum-one-robinhood-chain/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Buildathon ended October 4; in-person Founder House ran October 23–25, 2026. Event dates do not establish application deadlines. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-arbitrum-dao",
+      "programId": "arbitrum-dao-domain-grants",
+      "leadId": "history-lead-012",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants"
+      ],
+      "sourceUrls": [
+        "https://arbitrum.foundation/grants",
+        "https://blog.arbitrum.foundation/arbifuel-is-live-arbitrum-builders-claim-your-gas-fee-sponsorship/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Current official directory marks the DAO Grant Program inactive and complete; older active announcements are historical. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-safe",
+      "programId": "safe-open-calls",
+      "leadId": "history-lead-013",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants"
+      ],
+      "sourceUrls": [
+        "https://safefoundation.org/grants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Current funding uses specific open calls on the Safe forum. No single universal intake or deadline. OBRA is paused and Wave 1 concluded. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-artizen",
+      "programId": "artizen-seasons-paused",
+      "leadId": "history-lead-014",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application"
+      ],
+      "sourceUrls": [
+        "https://artizen.fund/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official homepage announces operations paused and directs existing users to claim payouts or withdraw. No active Greenpill or new-season application established. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-fast-forward",
+      "programId": "fast-forward-2027",
+      "leadId": "history-lead-015",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.ffwd.org/accelerator"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Published application period ended September 7, 2026 at 11:59 p.m. Pacific; cohort runs February–June 2027. No later extension verified. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-climate-collective",
+      "programId": "ai-nature-accelerator",
+      "leadId": "history-lead-016",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://climatecollective.org/accelerator"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official overview says enrolling and offers contact for the next cohort. Exact application window and funded terms remain unconfirmed. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-climate-collective",
+      "programId": "green-accountability-2024",
+      "leadId": "history-lead-017",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://climatecollective.org/green-accountability-cohort"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Archived six-month 2024 cohort. No new round inferred. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-gcc",
+      "programId": "gcc-digital-commons",
+      "leadId": "history-lead-018",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://www.gccofficial.org/en",
+        "https://www.gccofficial.org/application"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official FAQ accepts project, event and individual applications, reviewed by its operations team and voting committee. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-gnosis",
+      "programId": "gnosis-events",
+      "leadId": "history-lead-019",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants"
+      ],
+      "sourceUrls": [
+        "https://world.gnosis.io/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official page invites event pitches but describes grants as being considered. Conditional future funding; no committed grant intake or opening date established. Only the conditional offer is verified."
+    },
+    {
+      "fundId": "local-lido-lego",
+      "programId": "lido-community-staking",
+      "leadId": "history-lead-021",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://operatorportal.lido.fi/community-lifeguards-initiative"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Contact the committee. Larger or out-of-scope requests are redirected to LEGO. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-osv",
+      "programId": "osv-fellowship-2026",
+      "leadId": "history-lead-022",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.osv.llc/fellowships"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Published 2026 deadline has passed; recipients retain ownership. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-survival-flourishing",
+      "programId": "sff-climate-2026",
+      "leadId": "history-lead-024",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://survivalandflourishing.fund/2026/application"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "2026 round closed. Late rolling submissions may be considered in a future round; they do not reopen this round. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-ens",
+      "programId": "ens-small-grants-archive",
+      "leadId": "history-lead-025",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application"
+      ],
+      "sourceUrls": [
+        "https://ensgrants.xyz/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official site says the program shut down. Rounds ran July 2022–June 2024; no proposals or votes accepted. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-interledger",
+      "programId": "interledger-campus-2026",
+      "leadId": "history-lead-026",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://community.interledger.org/interledger/interledger-foundation-launches-interledger-on-campus-grant-program-to-support-student-led-2dkk",
+        "https://interledger.org/grant/education/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Rolling applications were limited to the March–July 2026 window. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-filecoin",
+      "programId": "filecoin-propgf-batch3",
+      "leadId": "history-lead-027",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://app.filpgf.io/programs/1479"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Program page explicitly marks applications closed. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-filecoin",
+      "programId": "filecoin-open-grants",
+      "leadId": "history-lead-028",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://fil.org/grants",
+        "https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Submit a GitHub proposal. Official repository says proposals are reviewed continuously. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-nlnet",
+      "programId": "nlnet-fediversity-final",
+      "leadId": "history-lead-029",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://nlnet.nl/fediversity/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Final call closed August 1, 2026; project delivery continuing into 2027 does not mean applications remain open. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-nlnet",
+      "programId": "nlnet-taler-final",
+      "leadId": "history-lead-030",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://nlnet.nl/taler/",
+        "https://nlnet.nl/taler/faq/index.html"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Final call closed August 1, 2026. Delivery schedule extension is not an intake extension. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-nlnet",
+      "programId": "nlnet-commons-final",
+      "leadId": "history-lead-031",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application"
+      ],
+      "sourceUrls": [
+        "https://nlnet.nl/commonsfund/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Thirteenth and final call closed June 1, 2026. Existing Restack record is a different program. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-ethereum-foundation",
+      "programId": "ethereum-esp",
+      "leadId": "history-lead-032",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants"
+      ],
+      "sourceUrls": [
+        "https://esp.ethereum.foundation/applicants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Apply to an applicable Wishlist or RFP; specific deadlines and deliverables vary. For-profit teams may apply for public outputs. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-usda-nrcs",
+      "programId": "nrcs-cig-classic",
+      "leadId": "history-lead-033",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "partial",
+      "fields": [
+        "focus",
+        "application",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://www.nrcs.usda.gov/programs-initiatives/conservation-innovation-grants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Named competitive conservation program verified. No current national solicitation established in the reviewed overview. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-darwin",
+      "programId": "darwin-main-r32-stage2",
+      "leadId": "history-lead-034",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.darwininitiative.org.uk/how-to-apply/main-applications/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "New applications closed. November 30 is only for invited stage 2 applicants. Cutoff time and timezone unverified. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-darwin",
+      "programId": "darwin-extra-r32-stage2",
+      "leadId": "history-lead-034",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.darwininitiative.org.uk/how-to-apply/extra-applications/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "New applications closed. November 2 is an invited stage 2 deadline, not a new applicant call. Projects run two to five years. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-gef-cso-challenge",
+      "programId": "gef-cso-africa-lac-asia-2026",
+      "leadId": "history-lead-035",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://csochallenge.org/",
+        "https://csochallenge.org/uploads/SGP_CSO_Concept_Guidance_For_Applicants.pdf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Regional call closed. Eastern Europe/Caucasus/Central Asia used an earlier August 7 deadline. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-california-dwr",
+      "programId": "ca-urban-streams-2026",
+      "leadId": "history-lead-037",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://water.ca.gov/Work-With-Us/Grants-And-Loans/Urban-Streams",
+        "https://water.ca.gov/grants/",
+        "https://water.ca.gov/urbanstreams/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Concept proposals open first business day through last Friday monthly. Invited full applications begin January 4, 2027. Monthly rule is retained without inventing a one-off cutoff. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-neef",
+      "programId": "neef-greening-stem-2026",
+      "leadId": "history-lead-039",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://www.neefusa.org/2026-2027-environmental-education-initiative-lyondellbasell-greening-stem-grants",
+        "https://www.neefusa.org/what-we-do/grants/grants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "October 8, 2026 at 11:59 p.m. Pacific deadline passed; directory says no open grants. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-western-sare",
+      "programId": "western-sare-professional-producer",
+      "leadId": "history-lead-040",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://western.sare.org/grants/professional-producer/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official page says closed, opens 2027. No exact future dates; next terms may change and awards depend on USDA-NIFA authorization. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-jrs-biodiversity",
+      "programId": "jrs-funding-inquiry",
+      "leadId": "history-lead-041",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants"
+      ],
+      "sourceUrls": [
+        "https://jrsbiodiversity.org/how-to-apply/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Ideas may be submitted as funding inquiries. Overview's 2022 call is closed; inquiry is not a verified current competition. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-halcyon",
+      "programId": "halcyon-africa-ag-2027",
+      "leadId": "history-lead-042",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://halcyonaccelerator.org/africa-innovation-in-ag-2027/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "October 30 deadline applies only to invited applicants. Hybrid 2027 cohort includes Ghana and Kenya residencies; cutoff time unverified. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-climate-curve",
+      "programId": "keeling-curve-prize",
+      "leadId": "history-lead-043",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application"
+      ],
+      "sourceUrls": [
+        "https://www.climatecurve.org/applications-closed",
+        "https://kcp-conduit.org/apply/kcp/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official site and application portal currently closed. Site describes annual November 1 opening; no dated new call inferred from that recurrence. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-seeding-future",
+      "programId": "seeding-future-2027",
+      "leadId": "history-lead-044",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.welthungerhilfe.org/global-food-system-challenge/f/",
+        "https://www.seedingthefuture.org/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Future call announced for January 1–February 15, 2027. Seed, Growth and Grand Prize have distinct maturity criteria. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-honnold",
+      "programId": "honnold-core-2026",
+      "leadId": "history-lead-045",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.honnoldfoundation.org/become-a-partner"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "2026 applications closed February 12 at 5 p.m. EST; fall disbursement is not a second application window. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-zayed-prize",
+      "programId": "zayed-2027",
+      "leadId": "history-lead-046",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application"
+      ],
+      "sourceUrls": [
+        "https://zayedsustainabilityprize.com/en"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official timeline places submission closing in June 2026 and finalists in September; January 2027 is the award ceremony, not a deadline. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-milken-motsepe",
+      "programId": "milken-circular-2026",
+      "leadId": "history-lead-047",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://milkeninstitute.org/content-hub/news-releases/10-companies-named-semifinalists-2-million-milken-motsepe-prize-circular-economy",
+        "https://milkeninstitute.org/index.php/content-hub/news-releases/milken-institute-and-motsepe-foundation-announce-winners-2-million-milken-motsepe-prize-ai-and"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Registration ended August 13 at 2 p.m. Eastern. Semifinalists announced October 15. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-african-union",
+      "programId": "au-education-2026",
+      "leadId": "history-lead-048",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://au.int/sites/default/files/announcements/46204-annc-Revised_Call_for_Submissions_IEA_2026_EN_rev.pdf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Deadline April 30, 2026 at 23:00 EAT; English or French submissions. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-youth4climate",
+      "programId": "youth4climate-2026",
+      "leadId": "history-lead-050",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://community.youth4climate.info/dashboard/call-solutions-2026-0"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official page confirms closed; no future intake inferred. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-gca-youthadapt",
+      "programId": "youthadapt",
+      "leadId": "history-lead-051",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "partial",
+      "fields": [
+        "focus",
+        "application",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://gca.org/gca-project/africa-youth-adaptation-solutions-challenge/",
+        "https://gca.org/youthadaptchallenge/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Program and historical support verified. Detailed page describes the third, women-owned-business cycle; do not carry that eligibility into an unannounced new call. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-raeng",
+      "programId": "africa-prize-2027",
+      "leadId": "history-lead-052",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://africaprize.raeng.org.uk/about-the-prize/how-to-apply",
+        "https://raeng.org.uk/news/the-2027-africa-prize-for-engineering-innovation-calls-for-applications-across-sub-saharan-africa",
+        "https://africaprize.raeng.org.uk/about-the-prize/eligibility/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Current intake closed; 2028 cycle expected to open in 2027 with no exact dates confirmed. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-f5",
+      "programId": "f5-stem-ai-2026",
+      "leadId": "history-lead-053",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.f5.com/company/global-good",
+        "https://www.linkedin.com/posts/f5_we-believe-access-to-stem-education-and-ai-activity-7467213371596128256-8zVc"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "F5's own announcement gives June 15 deadline; current overview offers 2027 notifications, not a new application call. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-ma-earth",
+      "programId": "ma-earth-round4",
+      "leadId": "history-lead-055",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://maearth.com/fundraise",
+        "https://news.maearth.com/p/applications-for-funding-round-3-close-may-31"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Round 4 is announced for April 22, 2027; the project application window is not separately established. Round 3 applications closed May 31, 2026. Do not treat the later donor round as an application deadline. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-rea",
+      "programId": "rea-dares",
+      "leadId": "history-lead-056",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "partial",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://nep.rea.gov.ng/dares.html",
+        "https://www.nep.rea.gov.ng/apply-dares.html",
+        "https://rea.gov.ng/apply",
+        "https://nep.rea.gov.ng/assets/documents/resource-hub/DARES_PIM_Final.pdf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Named mini-grid and standalone solar grant components are corroborated. The DARES registration page offers forms, while REA's central page says applications are not being taken. Confirm component intake before applying. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-rea",
+      "programId": "solar-power-naija",
+      "leadId": "history-lead-057",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://spn.rea.gov.ng/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official page says upstream and downstream applications are closed. This is loan finance, not a cash grant; terms and credit approval apply. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-all-on",
+      "programId": "all-on-challenge-2026",
+      "leadId": "history-lead-058",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.all-on.com/offgrid-challenge.html"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official page explicitly says the application window is closed despite retaining an invitation above it. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-tony-elumelu",
+      "programId": "tef-entrepreneurship-2026",
+      "leadId": "history-lead-060",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.tonyelumelufoundation.org/press-releases/apply-tef-entrepreneurship-programme-2026"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "The 2026 window ended March 1; the cohort has been announced. Seed capital is non-refundable, with training and mentorship. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "reccZG8TtBrCwLG7R",
+      "programId": "climafii-africa-cohort2",
+      "leadId": "history-lead-063",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://shellfoundation.org/press-release/shell-foundation-and-accion-open-applications-for-climafii-alliance-second-cohort/",
+        "https://bfaglobal.com/climafii/insights/climafii-alliance-announces-second-cohort-deploying-productive-use-energy-and-electric-mobility-solutions-for-microenterprises-in-africa/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Implementing partner announced the selected second Africa cohort on April 30, 2026. That cohort is closed; no subsequent intake was established. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-eep-africa",
+      "programId": "eep-africa-2026",
+      "leadId": "history-lead-065",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://eepafrica.org/call-for-proposals/",
+        "https://eepafrica.org/documents/EEP-Africa-CfP2026-Guidelines_FINAL.pdf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "2026 call closed. The March EOI was the initial intake; later full-proposal dates were for shortlisted applicants only. NGOs, charities, research and government institutions may partner but cannot lead. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-california-arts-council",
+      "programId": "cac-general-operations-2026",
+      "leadId": "history-lead-067",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://arts.ca.gov/wp-content/uploads/2026/03/2026_genops_guidelines.pdf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Closed 2026 intake. Grant activity through September 2027 is not an open application period. Individuals, for-profits, schools and state/federal agencies are excluded. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-california-arts-council",
+      "programId": "cac-arts-youth-2026",
+      "leadId": "history-lead-068",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://arts.ca.gov/grant_program/arts-youth/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "2026 intake closed; no matching funds required. Individuals, for-profits, schools, school districts, PTAs and state/federal agencies cannot apply. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-california-arts-council",
+      "programId": "cac-impact-projects-2026",
+      "leadId": "history-lead-069",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://arts.ca.gov/grant_program/impact-projects/",
+        "https://arts.ca.gov/2026_impactprojects_guidelines"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "The 2026 intake is closed. Youth arts education belongs in Arts and Youth; grant activity dates do not reopen applications. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-acta",
+      "programId": "acta-apprenticeship-2026",
+      "leadId": "history-lead-070",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://actaonline.org/program/apprenticeships/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "2026 recipients are already listed and activity began July 1. No next intake established. Some older exclusion text still names 2024 participants; recheck repeat-applicant rules. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-near-2027-28",
+      "leadId": "history-lead-071",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://culture.lacity.gov/grants/near-co-op"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "October 30, 11:59 pm; timezone not explicit. Reimbursement contract, subject to city budget. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-co-up-2027-28",
+      "leadId": "history-lead-071",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://culture.lacity.gov/grants/near-co-op"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "October 30, 11:59 pm; timezone unstated. Reimbursement: $12,000 artist/$3,000 administration; budget contingent. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-outdoor-festivals-2027-28",
+      "leadId": "history-lead-072",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://culture.lacity.gov/grants/cultural-grant-program-org",
+        "https://culture.lacity.gov/grants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "2027–28 program intake closed August 28, 2026; project-year label is not a future application date. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-la-city-cultural-affairs",
+      "programId": "la-public-space-activation",
+      "leadId": "history-lead-073",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "partial",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://dcaredesign.org/artsactivate/",
+        "https://culture.lacity.gov/grants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Conflicting official pages: redesigned page says preparing to reopen for 2025–26 while also saying open; city index retains a July 2024 deadline. No current intake confirmed. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-california-natural-resources",
+      "programId": "cnra-youth-access-round4",
+      "leadId": "history-lead-074",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://water.ca.gov/CNRAHome/grants/youth",
+        "https://raptr.resources.ca.gov/GrantDefinitions/PublicIndex"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Concepts due November 4, 2026; source says midnight without an explicit timezone. January invitations and March 2027 full proposals are later stages. Source indexed successfully; direct retrieval subsequently returned 403. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-walmart",
+      "programId": "walmart-spark-good-cycle3-2026",
+      "leadId": "history-lead-075",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.walmart.org/sg/Join-Spark-Good/program/local-grants",
+        "https://www.walmart.org/what-we-do/strengthening-community/spark-good/spark-good-facility-giving",
+        "https://www.walmart.org/content/walmart-org/en_us/how-we-give/grant-eligibility.html"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "FY27 cycle 3 corresponds to the calendar-2026 grant year. Electronic payment setup and nondiscrimination/reputation rules apply. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-la-neighborhood-councils",
+      "programId": "la-neighborhood-purposes",
+      "leadId": "history-lead-076",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://clerk.lacity.gov/neighborhood-council-elections-and-funding/neighborhood-council-funding/documents-and-forms-page",
+        "https://clerk.lacity.gov/sites/g/files/wph1491/files/2021-02/NPG%20NC%20Information%20Packet%2002-2018.pdf",
+        "https://wattsnc.org/funding/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Apply through the relevant council. Local meeting deadlines and budget availability vary; this is not a single citywide open round. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-us-bank",
+      "programId": "usbank-community-possible",
+      "leadId": "history-lead-077",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://www.usbank.com/about-us-bank/community/community-possible-grant-program.html"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "New organizations may submit an LOI year-round. Existing partners apply annually by invitation. Operating support requires the organization's whole mission to fit. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-society-for-science",
+      "programId": "stem-action-2026",
+      "leadId": "history-lead-078",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.societyforscience.org/stem-outreach-programs/stem-action-grants/",
+        "https://www.societyforscience.org/stem-outreach-programs/stem-action-grants/about/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "2026 recipients selected. Teachers should use the separate STEM Research program. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-society-for-science",
+      "programId": "stem-action-2027",
+      "leadId": "history-lead-078",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application"
+      ],
+      "sourceUrls": [
+        "https://www.societyforscience.org/stem-outreach-programs/stem-action-grants/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official page announces December 2026 opening, without a day or closing date. 2026 terms are retained in the separate closed program; do not assume unchanged 2027 rules. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-goldhirsh",
+      "programId": "la2050-2026",
+      "leadId": "history-lead-079",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://la2050.org/grants-challenge/welcome"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Initial screening closed April 22; invited proposals closed June 5. October is award notification, not an intake deadline. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-nea",
+      "programId": "nea-arts-projects-july2026",
+      "leadId": "history-lead-080",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.arts.gov/grants/grants-for-arts-projects"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Part 1 closed July 9, 11:59 pm Eastern; Part 2 closed July 21. Individuals, for-profits, fiscal sponsor applications and state/regional arts agencies excluded. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-neh",
+      "programId": "neh-public-humanities-dec2026",
+      "leadId": "history-lead-081",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.neh.gov/grants/public/public-humanities-projects",
+        "https://www.neh.gov/sites/default/files/2026-10/Public%20Humanities%20Projects%202026%20NOFO.pdf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Deadline December 16, 11:59 pm Eastern. Follow the amended NOFO; the opportunity number still contains December 9. NOFO project start begins November 2027 while overview says October. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-california-humanities",
+      "programId": "humanities-for-all-projects",
+      "leadId": "history-lead-082",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://calhum.org/humanities-for-all/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Program page explicitly suspends cycles until further notice. Reinstated funding supports existing commitments; generic portal calendar is not evidence of reopening. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-cpuc",
+      "programId": "cpuc-cea-lat-round3",
+      "leadId": "history-lead-083",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.cpuc.ca.gov/capacitygrants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Restricted third cycle closes October 30 at 11:59 pm; source does not state timezone. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-la-economic-opportunity",
+      "programId": "la-economic-opportunity-grant",
+      "leadId": "history-lead-084",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://opportunity.lacounty.gov/eog/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "County explicitly reports EOG closed across its completed phases. Old launch announcements and application guides do not establish current access. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-shift",
+      "programId": "shift-round001",
+      "leadId": "history-lead-085",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.shiftgrants.org/_files/ugd/213a1a_789ee644a7d9479a98b3992620f9fc5a.pdf",
+        "https://www.shiftgrants.org/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Published call is round 001 from 2025. Cohorts 001 and 002 are showcased; no new intake established despite an old Apply link. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-blockchain-for-good",
+      "programId": "bga-sdgs-challenge-2024",
+      "leadId": "history-lead-086",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.chainforgood.org/oscar",
+        "https://chainforgood.org/bga-impact-report-2025.pdf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "The award application page is a historical 2024 event. Its submission-update deadline is not a verified initial application deadline. 2025 impact report confirms later awards but no current award call. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-prosper-ventures",
+      "programId": "prosper-climate-colombia-2026",
+      "leadId": "history-lead-087",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.prosperglobalventures.com/blog/call-for-proposals-tech-solutions-for-climate-resilience-in-colombia",
+        "https://www.mercycorpsventures.com/climate-lab"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Closed February 9, 2026, 9 pm Colombia time. Spanish or English submissions. Former Mercy Corps Ventures site redirects to Prosper; same program identity retained. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-rocket-pool",
+      "programId": "rocket-pool-gmc-round42",
+      "leadId": "history-lead-088",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants"
+      ],
+      "sourceUrls": [
+        "https://dao.rocketpool.net/t/round-42-gmc-call-for-grant-applications-deadline-is-november-7/4070",
+        "https://rocketpool.net/governance/grants-management-committee"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "November 7, 23:59 UTC deadline. Late submissions move to the next period. Bounties and retrospective awards use separate threads. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-rogeap",
+      "programId": "rogeap-ctf-round4",
+      "leadId": "history-lead-089",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "partial",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://rogeappfm.com/Publicity/ROGEAP-4th-call-CTF-en.pdf",
+        "https://ecowas.rogeap.org/en/grant-application-form/",
+        "https://rogeappfm.com/index.php"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "May 2026 CTF notice corroborated; its cutoff could not be recovered after subsequent retrieval failures. Separate fifth DGIS Mauritania call closed October 1 despite remaining under Open Calls. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-shutter",
+      "programId": "shutter-champions-melee2",
+      "leadId": "history-lead-090",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://blog.shutter.network/shutter-champions-melee-2/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "June 16–30 was the slate proposal period; July voting dates are not applications. Token purchase/holding requirements concern voters, not general grant eligibility. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-optimism",
+      "programId": "optimism-growth-season9",
+      "leadId": "history-lead-091",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://atlas.optimism.io/missions/growth-grants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official program page is closed and says Atlas would be discontinued September 18, 2026. No successor intake verified. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-us-doe",
+      "programId": "doe-sbir-genesis-2026",
+      "leadId": "history-lead-092",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://www.energy.gov/technologycommercialization/doe-small-business-innovation-research-sbir-and-small-business",
+        "https://science.osti.gov/sbir/Funding-Opportunities"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Now administered by OTC; the Genesis Phase I call is explicitly closed. Phase II access is for eligible prior awardees contacted directly. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-us-doe",
+      "programId": "doe-sbir-phase1-future",
+      "leadId": "history-lead-092",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography"
+      ],
+      "sourceUrls": [
+        "https://www.energy.gov/technologycommercialization/doe-small-business-innovation-research-sbir-and-small-business"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "OTC expects a broader Phase I opportunity later in fall 2026. No dated opening, deadline or finalized terms verified; this is conditional future access. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-afdb-accf",
+      "programId": "accf-call4",
+      "leadId": "history-lead-093",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://afdb.smapply.org/prog/africa_climate_change_fund_fourth_call_for_proposals/",
+        "https://afdb.smapply.org/prog/lst/",
+        "https://accf.afdb.org/en/news/fourth-call-proposals-key-updates"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official portal lists the fourth call ending November 29, 2024. Subsequent evaluation updates do not reopen intake. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "fundId": "local-sovereign-tech",
+      "programId": "sovereign-tech-fund",
+      "leadId": "history-lead-094",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "verified",
+      "fields": [
+        "focus",
+        "application",
+        "applicants",
+        "geography",
+        "award"
+      ],
+      "sourceUrls": [
+        "https://www.sovereign.tech/programs/fund"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official application route is available without a stated round cutoff; allow about six months through review and contracting. Described as investment/work commissions; not assumed equity funding or an unrestricted charitable grant. Verification covers only recorded terms; unknowns were not verified."
+    },
+    {
+      "leadId": "history-lead-001",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "not-a-grant",
+      "fields": [
+        "disposition"
+      ],
+      "sourceUrls": [
+        "https://discourse.gooddollar.org/t/gip-26-begin-distributions-to-house-of-alignment/8890"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Governance membership and G$ redistribution pilot, not unrestricted project funding. Member staking, redistribution and governance approval apply; no general intake established."
+    },
+    {
+      "leadId": "history-lead-008",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "program-directory",
+      "fields": [
+        "disposition"
+      ],
+      "sourceUrls": [
+        "https://arbitrum.foundation/grants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Umbrella listing, not an additional undifferentiated grant. Named ASP, ArbiFuel, Open House and DAO streams are handled in leads 9–12."
+    },
+    {
+      "leadId": "history-lead-020",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": null,
+      "result": "unresolved",
+      "fields": [],
+      "sourceUrls": [
+        "https://www.codevelop.fund/dpi-for-people-and-planet",
+        "https://www.codevelop.fund/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Climate DPI initiative and investments verified; reviewed page describes winners and partnerships, not an open grant call. DPG recognition is not itself funding. Hold until a specific applicant route and terms are established."
+    },
+    {
+      "leadId": "history-lead-023",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": null,
+      "result": "unresolved",
+      "fields": [],
+      "sourceUrls": [
+        "https://vrbs.wtf/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official site returned 403; targeted official-domain searches did not recover usable program terms. Do not infer closure or import a grant from historical descriptions."
+    },
+    {
+      "leadId": "history-lead-036",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "program-directory",
+      "fields": [
+        "disposition"
+      ],
+      "sourceUrls": [
+        "https://www.conservation.ca.gov/dlrp/RCD/Pages/Index.aspx"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "RCDs are local public conservation districts and delivery partners. Historical lead does not identify a district or applicant funding scheme; retain as a sourcing route, not a generic new grant."
+    },
+    {
+      "leadId": "history-lead-038",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "program-directory",
+      "fields": [
+        "disposition"
+      ],
+      "sourceUrls": [
+        "https://www.epa.gov/grants"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "EPA portal lists many independent programs and directs applicants to specific NOFOs. No particular historical program identified; retain as discovery source rather than a fabricated universal grant."
+    },
+    {
+      "leadId": "history-lead-049",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "non-cash-program",
+      "fields": [
+        "disposition"
+      ],
+      "sourceUrls": [
+        "https://blog.google/intl/en-africa/company-news/outreach-and-initiatives/accelerating-africas-digital-renaissance-by-investing-in-infrastructure-and-agentic-ai/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Applied AI Lab verified; August 31, 2026 deadline passed. Announcement establishes model access and expert collaboration, but no cash award or investment commitment to applicants. Retain as a closed support lead, not a funding grant."
+    },
+    {
+      "leadId": "history-lead-054",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": null,
+      "result": "unresolved",
+      "fields": [],
+      "sourceUrls": [
+        "https://www.ifc.org/en/what-we-do/products-and-services/how-to-apply-for-financing"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "No official IFC corroboration found for the named SME Growth Accelerator. Discovery listings lead to a separate ifcgrants.org domain whose affiliation was not established. Hold; do not import its claimed grant amounts, deadline or application link."
+    },
+    {
+      "leadId": "history-lead-059",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": null,
+      "result": "unresolved",
+      "fields": [],
+      "sourceUrls": [
+        "https://rea.gov.ng/",
+        "https://www.fcmb.com/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Secondary reports describe a Green Finance Investment Facility, but targeted REA and FCMB searches did not establish an official applicant-facing offer or terms. Hold pending primary evidence; reported capitalization is not a grant amount."
+    },
+    {
+      "leadId": "history-lead-061",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "program-directory",
+      "fields": [
+        "disposition"
+      ],
+      "sourceUrls": [
+        "https://www.undp.org/nigeria/projects/national-child-project-under-gef-africa-minigrids-program",
+        "https://rea.gov.ng/wp-content/uploads/2023/07/AMP-ADVERT-2023-V4.pdf"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official evidence identifies an ongoing Nigeria Africa Minigrids project, not a current general grant call. A 2023 pilot prequalification notice is indexed but its PDF now returns 404. Hold out of application catalog until a specific accessible call is established."
+    },
+    {
+      "leadId": "history-lead-062",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "non-cash-program",
+      "fields": [
+        "disposition"
+      ],
+      "sourceUrls": [
+        "https://fellowship.acumenacademy.org/green-rise-west-africa-fellowship-2026"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Official fellowship says no funding is provided as part of the program. Tuition/support and a separate possible later Angels application do not constitute an awarded grant. 2026 applications closed May 11; Acumen is already represented."
+    },
+    {
+      "leadId": "history-lead-064",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "non-cash-program",
+      "fields": [
+        "disposition"
+      ],
+      "sourceUrls": [
+        "https://www.get-invest.eu/finance-access-advisory/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "Finance Catalyst is financing advisory support, not a direct cash grant. Keep as a funding-readiness resource; no cash award imported."
+    },
+    {
+      "leadId": "history-lead-066",
+      "attemptedOn": "2026-10-29",
+      "verifiedOn": "2026-10-29",
+      "result": "non-cash-program",
+      "fields": [
+        "disposition"
+      ],
+      "sourceUrls": [
+        "https://www.segalfamilyfoundation.org/our-partners/african-visionary-fellowship/",
+        "https://www.segalfamilyfoundation.org/who-we-are/faq/"
+      ],
+      "nextReviewOn": "2026-11-05",
+      "note": "African Visionary Fellowship selects from existing Segal grantees and provides capacity, mentorship and connections. No separate cash award or open application established. Segal's grant program is already represented."
     }
   ]
 }
