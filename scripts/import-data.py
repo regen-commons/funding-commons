@@ -152,7 +152,7 @@ if baseline:
         'outcomes':dict(collections.Counter(row['outcome'] for row in followups)),
     }
     snapshot['followUpSummary']=followup_summary
-    # A completed October 15 audit is historical evidence, not a live catalog metric.
+    # The pre-supplemental published audit report is frozen evidence, not a live metric.
     completed=read('research/deepening-result.json')
     if any(completed.get(k)!=v for k,v in followup_summary.items()):
         raise ValueError('Completed follow-up result belongs to another audit.')

@@ -3,10 +3,5 @@
   "framework": null,
   "installCommand": "bun install --frozen-lockfile",
   "buildCommand": "bun run build && bun run test",
-  "outputDirectory": "dist",
-  "git": {
-    "deploymentEnabled": {
-      "codex/test-monday-discovery-2026-10-29": false
-    }
-  }
+  "outputDirectory": "dist"
 }

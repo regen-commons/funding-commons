@@ -72,7 +72,7 @@ test('new deadlines retain established timezones, unknowns and conditional award
   assert.ok(!upcomingWindows(data.funds,new Date('2026-11-16T12:00:00Z'),21).some(w=>w.program.id.startsWith('linux-australia-')));
 });
 
-test('importing additions cannot rewrite the completed October 15 audit; validation rejects corrupted historical coverage', () => {
+test('importing additions preserves the frozen pre-supplemental audit; validation rejects corrupted historical coverage', () => {
   const provenance=read('research/deepening-result-provenance.json');
   const completed=fs.readFileSync(new URL('research/deepening-result.json',root));
   assert.equal(provenance.originalSha256,'82846451880d8c72c58c13ff9a73a1d33d960b18f76382b76a3a1a11d5e31bd2');

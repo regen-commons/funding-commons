@@ -2314,7 +2314,9 @@
       "executionNote": "Immediate user-requested manual test; model and reasoning setting supplied by the user. Not evidence that the Monday timer fired.",
       "branch": "codex/test-monday-discovery-2026-10-29",
       "baselineCommit": "4688d55232b847b422370441fa1e79d5273a0ec8",
-      "openPullRequestsAtStart": [],
+      "openPullRequestsAtStart": [
+        "https://github.com/regen-commons/funding-commons/pull/3"
+      ],
       "pendingHistoricalLeadsAtStart": 0,
       "unresolvedHistoricalLeadsRevisited": [
         "history-lead-020",
@@ -3114,14 +3116,18 @@
         "diffCheck": "passed",
         "note": "Report records manual test verification, not a timer event. New tests pin the previous full catalog and completed October 15 audit."
       },
-      "deploymentControl": {
-        "file": "vercel.json",
-        "branch": "codex/test-monday-discovery-2026-10-29",
-        "deploymentEnabled": false,
-        "reason": "Prevent the authorized branch push from triggering Vercel Git preview deployment; saved Codex automation unchanged.",
-        "documentation": "https://vercel.com/docs/project-configuration/git-configuration#git.deploymentenabled"
+      "result": "completed-with-coverage-gaps",
+      "pullRequestCheck": {
+        "runnerSearchResult": "empty",
+        "coordinatorVerified": [
+          "https://github.com/regen-commons/funding-commons/pull/3"
+        ],
+        "finding": "The search tool returned no rows even though documentation-only PR #3 was open. Its scope does not overlap these additions. Empty search results require a repository-wide open-PR cross-check."
       },
-      "result": "completed-with-coverage-gaps"
+      "coordinatorReview": {
+        "automaticPrPreviews": "Existing configuration retained; automatic preview and checks are permitted. No merge or production deployment is authorized.",
+        "historicalReport": "Freeze the exact e0d199f pre-supplemental snapshot; its date label does not establish contemporaneous October 15 field counts."
+      }
     }
   ]
 }
