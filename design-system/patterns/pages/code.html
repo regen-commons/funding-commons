@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    // Applies a saved or requested theme before first paint. Without it the page follows the system.
+    (function () {
+      var theme = null;
+      try { theme = new URLSearchParams(location.search).get("theme") || localStorage.getItem("rc-theme"); } catch (e) {}
+      if (theme === "light" || theme === "dark") {
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="color-scheme"]').content = theme;
+      }
+    })();
+  </script>
+  <title>Code entry example</title>
+  <link rel="icon" href="../../brand/logo/favicon.svg">
+  <link rel="preload" href="../../fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../css/index.css">
+</head>
+<body>
+<div class="rc-page">
+  <a class="rc-skip-link" href="#main">Skip to content</a>
+  <header class="rc-app-header">
+    <a class="rc-logo" href="home.html"><svg class="rc-logo-mark" aria-hidden="true"><use href="../../brand/icons.svg#mark"/></svg>Tend</a>
+  </header>
+  <main class="rc-main" id="main">
+    <div class="rc-narrow">
+      <h1 class="rc-heading" data-size="page">Enter your code</h1>
+      <section class="rc-code-panel" aria-label="Enter your code">
+        <p>We sent a code to <strong>ana@example.org</strong>. <a href="finish.html">Wrong email?</a></p>
+        <form class="rc-form" action="saved.html">
+          <div class="rc-field">
+            <label for="code">Code from your email</label>
+            <p class="rc-hint" id="code-hint">It can take a minute to arrive. Check your spam folder if it does not.</p>
+            <input class="rc-input" data-kind="code" id="code" name="code" type="text" inputmode="numeric" autocomplete="one-time-code" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" maxlength="14" aria-describedby="code-hint" required>
+          </div>
+          <div class="rc-code-panel-actions">
+            <button class="rc-button" data-variant="primary" type="submit">Save my initiative</button>
+            <button class="rc-button" data-variant="quiet" type="button">Send a new code</button>
+          </div>
+        </form>
+      </section>
+      <p class="rc-save-status" data-state="device"><svg class="rc-icon" data-size="sm" aria-hidden="true"><use href="../../brand/icons.svg#device"/></svg>Your initiative stays safe on this device while you check your email.</p>
+      <p class="rc-meta">Preview from the <a href="../index.html">pattern library</a>. Every organisation on this page is fictional.</p>
+    </div>
+  </main>
+</div>
+</body>
+</html>

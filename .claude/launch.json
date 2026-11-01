@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "patterns",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "design:serve"
+      ],
+      "port": 4173
+    }
+  ]
+}
