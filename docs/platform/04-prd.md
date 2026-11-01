@@ -1,7 +1,7 @@
 # Product requirements: Regen Commons Tend (working name)
 
 Status: draft for council review · Author: Afolabi Aiyeloja with Claude · Date: 2026-10-31
-Companion documents: [proposal brief](01-proposal-brief.md) · [business model canvas](02-business-model-canvas.md) · [logical architecture](03-logical-architecture.md) · [technical spec](05-technical-spec.md) · [research digest](06-research-digest.md)
+Companion documents: [proposal brief](01-proposal-brief.md) · [business model canvas](02-business-model-canvas.md) · [logical architecture](03-logical-architecture.md) · [technical spec](05-technical-spec.md) · [research digest](06-research-digest.md) · [agent scaffolding](07-agent-scaffolding.md) · [saving and accounts](08-accounts-and-saving.md) · [open decisions](open-decisions.md) · [design system](../../DESIGN.md)
 
 ## 1. Summary
 
@@ -53,7 +53,7 @@ Personas are deliberately framed by lens rather than by organisation type, becau
 
 ## 5. Core concepts and vocabulary
 
-- Initiative: a project, organisation, collective or place-based effort. Four public fields: name, location(s), description, links. Everything else is derived and editable.
+- Initiative: a project, organisation, collective or place-based effort. Four public fields: name, location(s), description, links. Everything else is derived and editable. It starts as a draft in the browser, becomes private when saved, and is shared only if its owner chooses. See [saving and accounts](08-accounts-and-saving.md).
 - Need: something an initiative is looking for, with one or more forms of capital, a place scope, a timeframe and the exchange terms it would accept.
 - Offer: something an initiative has in surplus and can give, exchange, sell or commit, with the same structure plus capacity.
 - Forms of capital (from Roland and Landua, used by Regen Commons already): financial, material, living, social, intellectual, experiential, cultural, spiritual. A need or offer can carry several.
@@ -63,14 +63,17 @@ Personas are deliberately framed by lens rather than by organisation type, becau
 - Recipe: a partnership forming around an opportunity or a shared problem. It names the base (the opportunity or problem), the ingredients needed (lenses and forms of capital), who has joined, status (forming, drafting, submitted, funded, not this time) and a working doc. This is the Partnerships tab of the hub doc, made live.
 - Place: a bioregion, subrealm, realm, watershed basin, country or a custom named place. Initiatives relate to places as based in, works in, or global.
 - Pulse: the weekly email digest, personal to each initiative and region.
-- Member: a Regen Commons member profile (existing data model). A platform account is a prospective member until they complete membership.
+- Account: an email that can sign in. An account holds saved initiatives. It is not membership.
+- Member: a Regen Commons member profile (existing data model). A person becomes a member only by choosing to apply.
 - Steward: a council member with the existing steward role; stewards tidy, they do not filter.
 
 ## 6. Experience
 
 ### 6.1 Principles
 
-Fun, simple, intuitive. Conversation over forms. Speak or paste first, edit second. Show value before asking for anything. Mobile first. Progress saved locally so nothing is lost. Everything the AI derives is shown as an editable card, never silently applied. Plain language in the Regen Commons voice: warm, second person, botanical, no jargon.
+Fun, simple, intuitive. Conversation over forms. Speak or paste first, edit second. Show value before asking for anything. Mobile first. Progress saved locally so nothing is lost. Everything the AI derives is shown as an editable card, never silently applied. Plain language in the Regen Commons voice: warm, second person, no jargon, with botanical language kept to places where nothing depends on it.
+
+All interface work follows [DESIGN.md](../../DESIGN.md) and the three books it applies: *Don't Make Me Think* for how people use it, *Refactoring UI* for how screens show what matters, and *Atomic Design* for how the system stays whole. Labels use the plain names in [VOICE.md](../../design-system/brand/VOICE.md). Domain terms in this document, such as recipe, pulse and lens, are not necessarily what people read.
 
 ### 6.2 The three-step conversation
 
@@ -82,11 +85,11 @@ Step 2, Your needs. Prompt: "What would unlock the next chapter?" Guidance text 
 
 Step 3, Your offers. Prompt: "What do you have in surplus?" Guidance by form of capital: a track record with a funder (social), a methodology (intellectual), land or a venue (living, material), a workshop you run (experiential), a story or art practice (cultural), a ceremony or practice of care (spiritual), a tool or dataset (intellectual, material). Each offer card: title, description, forms of capital, capacity (how much, how often), place scope, terms (gift, exchange, paid, commitment), who it is for.
 
-Finish. "Your card" preview; visibility (private draft, members only, public); sharing scope (publish to open networks such as Murmurations; share consented records with the knowledge commons); sign in with an email code to publish. A draft never requires sign-in and lives in the browser until published.
+Finish. First matches come first, with "your card" beside them. Then three separate decisions, not one form. Keep it: an email and a code save a private copy. Who can see it: Only you (the default), People signed in, or Anyone. Sharing onward: open networks such as Murmurations and the knowledge commons, off by default. A draft never requires an email and lives in the browser until saved. See [saving and accounts](08-accounts-and-saving.md).
 
 Each step must be completable by voice only, by typing only, and by upload only. Each step must work with no AI at all (plain fields with sensible defaults) so the product never blocks on a model download.
 
-### 6.3 What the user sees after publishing
+### 6.3 What the user sees after finishing
 
 - Matches: two tabs, Partners and Opportunities. Partner cards show why (a need you have that they offer, an offer you have that they need, shared place, shared theme, complementary lens) and a strength band. Opportunity cards show the solo fit and readiness from the existing engine, plus "stronger with" one or two suggested partners and the reason (covers a requirement, brings a missing lens, is in the required geography). Actions: save, dismiss with reason, say hello (consented introduction relay), open a recipe.
 - Recipes: open a recipe from an opportunity or a problem; name the ingredients needed; others join with what they bring; a working doc link; status. Recipes are visible to members by default and optionally public.
@@ -112,8 +115,8 @@ Intake and records
 - R2 The four public initiative fields plus derived chips (stage, lenses, themes, beneficiaries, languages, scale) and optional eligibility details.
 - R3 Need and offer cards with forms of capital (multi-select of eight), place scope, timeframe or capacity, exchange terms and status (open, met, withdrawn, expired).
 - R4 Location capture that accepts free text, "global", multiple places, and an optional pin or place search; the system attaches bioregion, subrealm, realm, watershed basin and country, shown as removable chips.
-- R5 Editing after publication with revision history; records show last confirmed date; records unconfirmed for 180 days are marked "may be out of date" and excluded from pulse suggestions until confirmed.
-- R6 Import of the September 2026 hub doc rows and the existing local project profiles as drafts for their owners to claim.
+- R5 Editing after saving with revision history; records show last confirmed date; records unconfirmed for 180 days are marked "may be out of date" and excluded from pulse suggestions until confirmed.
+- R6 Import of the September 2026 hub doc rows and the existing local project profiles as unconfirmed records for their owners to claim. Imported records show in pencil until claimed.
 
 AI assistance
 
@@ -129,7 +132,7 @@ Matching
 - R13 Opportunity matching that reuses the existing thematic-fit, readiness and research-priority engine for the solo score.
 - R14 Partnership scoring: for each strong-but-gated opportunity, identify the gaps (requirement, geography, lens) and propose one or two partners that close them, with a partnership score and reasons.
 - R15 Feedback loop: save, dismiss with reason, and introduction outcomes are recorded and used to tune weights; exposure caps keep any one initiative or funder from dominating pulses.
-- R16 Matching runs for private drafts in the browser against public records, so a visitor sees value before publishing.
+- R16 Matching runs for drafts in the browser against shared records, so a visitor sees value before giving an email. Saved private initiatives keep one-way matches and never appear in anyone else's.
 
 Places and curation
 
@@ -145,15 +148,15 @@ Recipes and introductions
 
 Pulse and notifications
 
-- R23 Weekly pulse per published initiative with new partners, closing opportunities, regional needs, recipes needing an ingredient, and the "still accurate" confirmation; unsubscribe and frequency controls; regional pulses for stewards and funders who opt in.
+- R23 Opt-in weekly pulse per saved initiative, off by default, with new partners, closing opportunities, regional needs, recipes needing an ingredient, and the "still accurate" confirmation; unsubscribe and frequency controls; regional pulses for stewards and funders who opt in.
 - R24 Transactional emails: sign-in code, introduction requests and acceptances, recipe updates, steward notices.
 
 Accounts, membership and access
 
-- R25 Email plus one-time code sign-in using the shared Regen Commons Supabase Auth project; no passwords; no third-party sign-in.
-- R26 A platform profile per account linked to a Regen Commons member profile when one exists; a "complete your membership" path that pre-fills the six-step application from the initiative.
-- R27 Visibility levels: private draft, members only, public; and sharing scopes: open directory networks, knowledge commons. Changing scope stops future sharing and emits a retraction event to connected networks.
-- R28 Access tiers configurable by stewards: open (anyone can browse and publish), members-first (publishing open, matches and pulse for members and prospective members), members-only (whole platform behind membership). Phase 0 and 1 run open; the council can tighten later without a code change.
+- R25 Email plus one-time code sign-in using the shared Regen Commons Supabase Auth project; no passwords; no third-party sign-in; asks for an email and nothing else.
+- R26 A platform profile per account, linked to a Regen Commons member profile only when one exists; a separate "apply for membership" path that pre-fills the six-step application from the initiative, offered in context and never straight after saving.
+- R27 Visibility levels: private, network and public, chosen by the owner, with private as the default; and sharing scopes: open directory networks, knowledge commons, off by default. Changing scope stops future sharing and emits a retraction event to connected networks. Stewards cannot read private initiatives.
+- R28 Access tiers configurable by stewards: open (anyone can browse, save and share), members-first (saving open, matches and pulse for members and people who have applied), members-only (whole platform behind membership). Phase 0 and 1 run open; the council can tighten later without a code change.
 
 Interoperability and knowledge
 
@@ -166,15 +169,34 @@ Stewardship and operations
 
 - R33 Steward desk sections listed in 6.4, built on the existing revision, reason and audit pattern.
 - R34 Funder catalog pipeline unchanged in substance: Monday discovery and Thursday freshness produce reviewed pull requests; the platform imports the published catalog on deploy and on a schedule.
-- R35 Metrics for stewards and funders: initiatives published, needs met, introductions accepted, recipes submitted and funded, pulse engagement, regional coverage; shown as counts with definitions, never as vanity dashboards.
+- R35 Metrics for stewards and funders: initiatives shared, needs met, introductions accepted, recipes submitted and funded, pulse engagement, regional coverage; shown as counts with definitions, never as vanity dashboards.
+
+Saving and accounts
+
+- R36 Saving is separate from sharing: an email and a code store a private copy, with no name, password or other field requested.
+- R37 Browsing, search, the full conversation, local AI, matches for a draft, copying your own draft, help and privacy pages never require an email.
+- R38 The request for an email is inline, offered once per moment, and tied to what it does for the person. Declining is one tap and stays declined. No modal, wall, partial results or pre-checked box.
+- R39 The code step accepts paste, keeps what was typed on error, allows fixing a wrong email and resending after 60 seconds, survives a round trip to the mail app, and then resumes the action that asked for it.
+- R40 Signing in merges local drafts without overwriting or duplicating. One email can hold several initiatives.
+- R41 A status line always says where the work lives: on this device, or saved.
+- R42 People can export everything and delete their account, which deletes private initiatives and retracts anything shared.
+- R43 An introduction can share a card with one recipient after confirmation, without changing its visibility.
+
+Design quality
+
+- R44 Every screen is built from the design system: tokens from [DESIGN.md](../../DESIGN.md), patterns from the [inventory](../../design-system/COMPONENTS.md), words from [VOICE.md](../../design-system/brand/VOICE.md).
+- R45 Every UI change passes the [five-minute review](../../DESIGN.md#how-we-follow-them). New screens pass the [checklist](../../design-system/principles/ui-review-checklist.md).
+- R46 Anything the assistant derives shows in pencil until a person confirms it.
+- R47 Three people test the product every two weeks through Phase 1, then monthly. Fixes follow the [testing plan](../../design-system/principles/usability-testing.md).
 
 ## 8. Quality requirements
 
-- Privacy: drafts stay in the browser; embeddings of published text may be stored server-side; audio and files never leave the device without explicit consent; cloud AI calls store hashes and derived fields, not raw prompts; the user can view and export their consent and AI-call ledger; retraction propagates to connected networks.
+- Privacy: drafts stay in the browser until the person saves; saved initiatives are private until the person shares them; embeddings of saved text may be stored server-side; audio and files never leave the device without explicit consent; cloud AI calls store hashes and derived fields, not raw prompts; the user can view and export their consent and AI-call ledger; retraction propagates to connected networks.
 - Performance: first meaningful paint under 2 s on a mid-range Android over 4G; the directory and matching work before any model download; local extraction returns a draft within 20 s on a desktop WebGPU tier and within 60 s on the mobile tier, with the keyword fallback instant.
 - Reliability: no data loss on tab close or network drop; idempotent writes; email delivery failures never lose the underlying record.
 - Security: row-level security on every table; stewards authorised by the existing active-steward predicate; no service-role key in the browser; origin checks on write endpoints; rate limits on sign-in and intake; content security policy on the app shell.
-- Accessibility: WCAG 2.2 AA for the intake, matches, recipes and places pages; reduced-motion honoured by all animation including canvases.
+- Accessibility: WCAG 2.2 AA for the intake, matches, recipes and places pages; reduced-motion honoured by all animation including canvases; text survives 200 percent zoom and the largest browser text size.
+- Design system: tests fail on stale tokens, contrast below AA in either theme, raw values in CSS, undocumented patterns and copy that breaks the voice rules.
 - Internationalisation: UI strings externalised from the start; transcription multilingual; Portuguese and Spanish UI by Phase 2 (Brazil and Latin America are active regions in the network).
 - Openness: source code under an open licence agreed with the council (AGPL-3.0 keeps the option of reusing Coop code; see the technical spec); public data under an open data licence with attribution; schemas published.
 
@@ -182,7 +204,7 @@ Stewardship and operations
 
 Phase names follow the Regen Commons stages of growth. Dates assume one lead builder with agentic tooling and steward time from the council; they are targets, not promises.
 
-Phase 0, Seed (now to 14 November 2026): rebrand under Regen Commons on the chosen subdomain; three-step intake with typed input and light local extraction; needs and offers with forms of capital; public initiative directory; partner suggestions next to each fund; email-code sign-in; import of the hub doc rows; present at the Community Spotlight on 5 November; evidence of working local AI with real users for the Mozilla Human-Scale AI application due 20 November.
+Phase 0, Seed (now to 14 November 2026): agent scaffolding first ([plan](07-agent-scaffolding.md)); the design system, in React on top of the CSS already defined; rebrand under Regen Commons on the chosen subdomain; three-step intake with typed input and light local extraction; needs and offers with forms of capital; public initiative directory; partner suggestions next to each fund; saving with an email code, private by default; the first usability round; import of the hub doc rows; present at the Community Spotlight on 5 November; evidence of working local AI with real users for the Mozilla Human-Scale AI application due 20 November.
 
 Phase 1, Sprout (mid November 2026 to February 2027): voice and file input; local AI tiering with consented cloud fallback; reciprocal partner matching with reasons; opportunity partnership scoring; weekly pulse; steward desk sections; place assignment (bioregion, watershed) and place pages; Murmurations publishing; open data export; Portuguese and Spanish UI.
 
@@ -194,14 +216,15 @@ Phase 3, Tree (second half of 2027): offerings and commitments ledger; optional 
 
 Measured monthly from Phase 1; targets for end of Phase 2.
 
-- Published initiatives: 150, across at least 12 bioregions and all five lenses.
+- Shared initiatives: 150, across at least 12 bioregions and all five lenses.
+- Saving: time from tapping save to saved on a phone under 90 seconds; people return after choosing Not now. Report the share of finished conversations that save, without a target until usability rounds give a baseline.
 - Needs and offers per initiative: median 3 needs and 2 offers, at least 60 percent carrying a non-financial form of capital.
 - Introductions accepted: 40 percent of requests; at least 50 accepted introductions.
 - Recipes: 20 opened, 8 submitted, 3 funded or otherwise resourced.
 - Pulse: 35 percent weekly open rate; 70 percent of records confirmed within 90 days.
 - Local AI share: at least 80 percent of extractions and transcriptions run locally.
-- Membership: 30 percent of publishing accounts start a Regen Commons membership application.
-- Stewardship: median time from publish to steward review under 7 days; no record older than 180 days without a confirmation prompt.
+- Membership: count how many accounts choose to apply. No target, because a target invites pressure on people who came for something else.
+- Stewardship: median time from sharing to steward review under 7 days; no record older than 180 days without a confirmation prompt.
 
 ## 11. Risks and mitigations
 
@@ -218,6 +241,8 @@ Measured monthly from Phase 1; targets for end of Phase 2.
 | Shared Supabase project migration drift | One migration owner (decided in the technical spec); schema namespaced; CI applies all migrations from a clean database |
 
 ## 12. Open decisions for the council
+
+The current list, with owners and recommendations, is in [open decisions](open-decisions.md). The original questions were:
 
 1. Name and subdomain (recommendation and alternatives in the proposal brief).
 2. Access tier at launch: open, with members-first considered for Phase 2.

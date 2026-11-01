@@ -15,7 +15,7 @@ This document describes the shape of the system: the parts, what each owns, how 
 | Exchange | Everything that leaves or enters the platform: email, Murmurations, KOI events, knowledge commons exports, later commitment pools | Identifiers, hashes, consent scopes, retraction | Vercel functions, Edge Functions |
 | Stewardship | Curation, verification, challenges, metrics, catalog research | Steward commands, pulse controls, research workflow | Steward desk on regencommons.com; repository automation |
 
-The ordering is deliberate: a person can get value from the Experience and Intelligence layers with nothing stored anywhere but their device. Records begin only at publish. Exchange begins only with consent. Stewardship tidies; it never gates publishing in the open tier.
+The ordering is deliberate: a person can get value from the Experience and Intelligence layers with nothing stored anywhere but their device. Records begin only when a person saves, and they stay private until that person shares them. Exchange begins only with consent. Stewardship tidies; it never gates publishing in the open tier.
 
 ## 2. Context
 
@@ -32,7 +32,7 @@ flowchart TB
   KC[Regen Knowledge Commons]
   CLC[Cosmo-Local Credit pools<br/>Phase 3]
   NET[Partner networks<br/>Bloom, Greenpill, ReFi DAO,<br/>Regen Coordination, BioFi]
-  P -->|describe, publish, respond| W
+  P -->|describe, save, share, respond| W
   W -->|matches, pulse, intros, recipes| P
   F -->|browse regions, publish calls| W
   S -->|verify, curate, challenges| W
@@ -94,7 +94,7 @@ flowchart LR
 
 What each container owns:
 
-- App shell: routing, theme (shared Regen Commons tokens), offline cache, capability detection, consent dialogs.
+- App shell: routing, theme and components from the [design system](../../DESIGN.md), offline cache, capability detection, consent dialogs.
 - Conversation guide: the state machine for the three steps, prompts, confirmation cards, nudges; works with any tier including "no model".
 - AI workers: Whisper transcription, extraction with a small instruct model or the browser's built-in model, the embedding model already shipped by Funding Commons. Nothing in a worker touches the network except pinned model files from the app origin.
 - Local store: drafts (IndexedDB), the local AI ledger, cached models (Cache API), cached public corpus for private matching.
@@ -134,7 +134,7 @@ erDiagram
 
 Concepts and their owners:
 
-- Initiative, Need, Offer: owned by the people who publish them; four public initiative fields; everything else derived and editable; dated and confirmable.
+- Initiative, Need, Offer: owned by the people who save them; four public initiative fields; everything else derived and editable; dated and confirmable. Lifecycle: draft on the device, then private, network or public by the owner's choice. See [saving and accounts](08-accounts-and-saving.md).
 - Place: a reference, never typed free-hand into records; bioregion, subrealm, realm, basin, country, custom.
 - Funder, Program, conditions, rules: owned by the research workflow; the platform reads, never edits.
 - Match: computed, explained, versioned; a person's reactions (save, dismiss, contact) are owned by them.
@@ -170,9 +170,14 @@ sequenceDiagram
   U->>G: edits, confirms, continues to needs and offers
   G->>W: embed initiative, needs, offers (local)
   G->>G: private matching against cached public corpus
-  G-->>U: first matches before publishing
-  U->>D: sign in with email code · publish (visibility, share scopes)
-  D-->>U: published; nightly batch refreshes matches; pulse scheduled
+  G-->>U: first matches before any email
+  opt person keeps it
+    U->>D: email and code · save, private by default
+    D-->>U: saved, one-way matches continue, first email with the card
+  end
+  opt person chooses later
+    U->>D: who can see it, share scopes, weekly update
+  end
 ```
 
 ### 5.2 Matching
@@ -199,8 +204,9 @@ flowchart LR
 ```mermaid
 flowchart TB
   R[Record: initiative, need, offer, recipe] --> V{visibility}
-  V -->|private draft| L[(Device only)]
-  V -->|members| M[(Supabase, member-readable)]
+  V -->|draft| L[(Device only)]
+  V -->|private| O[(Supabase, owner only)]
+  V -->|network| M[(Supabase, readable when signed in)]
   V -->|public| P[(Supabase, public API, JSON export)]
   P --> SC{share scopes}
   SC -->|murmurations| MU[Murmurations profile + index post]
@@ -214,14 +220,14 @@ flowchart TB
 
 ### 5.4 Weekly pulse
 
-Composer selects eligible initiatives (published, pulse consent, confirmed within 180 days or due for a confirmation prompt), gathers new partner matches, closing opportunities in the initiative's themes and places, nearby needs its offers could meet, recipes needing its ingredient, applies exposure caps, writes one outbox row per recipient with an idempotency key, and the sender delivers through Resend in batches with retries. Every pulse carries the one-tap "still accurate" link that refreshes the record's confirmed date.
+Composer selects eligible initiatives (saved, pulse consent, confirmed within 180 days or due for a confirmation prompt), gathers new partner matches, closing opportunities in the initiative's themes and places, nearby needs its offers could meet, recipes needing its ingredient, applies exposure caps, writes one outbox row per recipient with an idempotency key, and the sender delivers through Resend in batches with retries. Every pulse carries the one-tap "still accurate" link that refreshes the record's confirmed date.
 
 ## 6. Decentralisation posture
 
 The council's open question was how to avoid building a new centre. The answer is structural, not aspirational:
 
 1. Local first. Drafts, transcription, extraction, embeddings and private matching run on the device. A person can use the conversation and see matches without an account.
-2. Owned records. People publish their own records, see where they went, and can withdraw them; retraction propagates to every network they were shared with.
+2. Owned records. People save and share their own records, see where they went, and can withdraw them; retraction propagates to every network they were shared with.
 3. Open identifiers and schemas. Every public record has a stable reference identifier and a content hash; profiles are published in Murmurations schemas; exports are JSON and CSV; vocabularies are published.
 4. One node among nodes. The platform is a KOI partial node (publisher) and a Murmurations publisher; it does not try to be the index. Knowledge enters the Regen Knowledge Commons only through that project's review, never by direct write.
 5. Forkable. Open-source code, an open data licence and a documented deploy let another network run its own instance with its own Supabase project; instances exchange through the same open channels. The Regen Commons instance is the first, not the only.
@@ -259,4 +265,7 @@ One migration owner. Two Vercel projects. One Supabase project. One Resend accou
 | A5 | Murmurations and KOI as exchange channels; knowledge commons by review bundle | Custom federation API | Standards-first interoperability; no direct writes to shared knowledge |
 | A6 | Offerings and off-chain commitments now, pools later | Wallets at launch | Phase 3 anchoring without data migration; no web3 friction in intake |
 | A7 | Places as references (One Earth bioregions, HydroBASINS, countries) | Free-text regions only | Enables watershed curation and regional pulses; requires licence confirmation and a geocoder |
-| A8 | React PWA on shared tokens | Vanilla HTML like the main site | Worker-heavy conversational UI needs a component model; tokens keep the brand consistent |
+| A8 | React PWA on the shared design system | Vanilla HTML like the main site | Worker-heavy conversational UI needs a component model; tokens and patterns keep the brand consistent |
+| A9 | Saving is separate from sharing; private by default; stewards cannot read private initiatives | Publish as one step; device-only until public | People can keep work across devices without going public; the privacy promise changes and needs row-level security tests |
+| A10 | `DESIGN.md` as the single token source, with layered CSS and a pattern library in this repository | Copy tokens per app; a shared repository from day one | One source for all surfaces; moves to a shared repository when a second app needs more than tokens |
+| A11 | Agent scaffolding before UI code | Add guidance as problems appear | Agents write most of the code, so instructions and checks are part of the foundation |

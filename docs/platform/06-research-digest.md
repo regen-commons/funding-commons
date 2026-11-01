@@ -127,7 +127,17 @@ Requirements that shape the architecture: an OSI licence; working technology wit
 
 Checked against regenerative, web3 and commons usage. No notable collision: Tend, Connect, Hearth (Kinship runs "Hearth Gatherings" in an adjacent circle), Compass, Commons Connect, Reciprocity, Mycorrhiza. Collisions: Network (Regen Network, Bloom Network, Greenpill Network), Weave (WeaveDB, Bioregional Weaving Labs, The Weaving Lab), Guild (Guild.xyz, Greenpill Dev Guild), Confluence (Atlassian, Confluence Philanthropy), Mycelium (MycoFi and others), Hub (Regen Hub, Regen Impact Hub, Regen Coordination hub), Atlas (Optimism Atlas, Regen Atlas, Octant Atlas), Watershed (Watershed Technology), Loom (Loom, Loom Network), Kin (Kin token, The Kin DAO, Kinship Earth), Bloom, Pollinate (Pollination, Regeneration Pollination), Mesh, Nexus, Grove (Grove, formerly Pocket Network), Offers (Offers and Needs Market, Murmurations offers and wants), Alliance.
 
-## 13. Gaps and things to verify before building
+## 13. Interface books and design tooling
+
+UI work follows three books, held by the team as licensed PDFs and not committed. Notes in our own words, with page references, are in [design-system/principles](../../design-system/principles/README.md).
+
+- Steve Krug, *Don't Make Me Think, Revisited*, third edition, 2014. Source of the plain-label rule, the trunk test, the saving approach and the usability testing plan. It has no data on sign-up timing, so that recommendation is a hypothesis.
+- Adam Wathan and Steve Schoger, *Refactoring UI*. Source of the scales, the action hierarchy and the depth rules. It shaped the colour ramps pinned to the website's values.
+- Brad Frost, *Atomic Design*, 2016. Source of the pattern levels, lifecycle, naming test and governance. It predates design tokens, so those are our own extension.
+
+Format: Google's DesignMD (`@google/design.md` 0.4.0), also used by Green Goods and Coop. Contrast checks found that the website's `--ink-dim` token and its light-theme gold, amber, circuit, teal and sage fail as small text, and that copper hairlines measure about 1.3:1. The system corrects these for products without changing any website value.
+
+## 14. Gaps and things to verify before building
 
 - One Earth shapefile request and licence confirmation for a non-commercial commons; BasinATLAS as the CC BY alternative.
 - Native Land Digital written permission if territory names are ever cached on records.

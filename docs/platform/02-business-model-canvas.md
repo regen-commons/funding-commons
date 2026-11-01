@@ -38,7 +38,7 @@ Differentiators: local AI by default; eight-capital needs and offers (no compara
 
 ## 4. Customer relationships
 
-Self-serve first. Stewards tidy, they do not filter. Regional calls build recipes with artists and researchers. Challenges create accountability and a measurable outcome (groups formed, proposals submitted). Introductions are relayed with consent, never cold. A funder desk (Phase 2) gives allocators a curated regional view and a way to publish calls.
+Self-serve first, with value shown before any email is asked for. An account is not membership. Stewards tidy, they do not filter. Regional calls build recipes with artists and researchers. Challenges create accountability and a measurable outcome (groups formed, proposals submitted). Introductions are relayed with consent, never cold. A funder desk (Phase 2) gives allocators a curated regional view and a way to publish calls.
 
 ## 5. Revenue and resourcing
 
@@ -56,7 +56,7 @@ Ranked by likelihood for 2027. The platform is a public good; the aim is to cove
 ## 6. Key resources
 
 - The funder catalog: 699 funders, 768 program documents, 1,588 official source URLs, researched eligibility rules and conditions, a Monday discovery and Thursday freshness routine that produces reviewed pull requests.
-- The Regen Commons substrate: the Supabase project with Auth, members and stewards; the steward desk; the design tokens and fonts; the brand and the constitution; the member organisations.
+- The Regen Commons substrate: the Supabase project with Auth, members and stewards; the steward desk; the brand, tokens and fonts, now defined as a shared [design system](../../DESIGN.md); the constitution; the member organisations.
 - The local AI stack already in production (embeddings and ranking) and the proven patterns from Coop (tiering, repair loops, review gates, on-device Whisper).
 - Relationships: Metagov and KOI, Grassroots Economics and Cosmo-Local Credit, Bloom, Greenpill, ReFi DAO, Regen Coordination, BioFi, Fito Network (the original 593-record snapshot), the Regen Knowledge Commons group.
 - A lead builder with agentic tooling, and council members willing to steward regions.
@@ -96,7 +96,7 @@ Housed under Regen Commons as a resource open to all networks; the council are t
 
 ## 11. Value returned to the commons
 
-Every published record strengthens the commons: a trusted directory, regional needs maps, recipes that worked, and structured sources for the knowledge commons. The platform makes Regen Commons membership tangible (a utility, not only a constitution) and gives the network a coherent story for funders: place-based communities plus research plus tooling plus culture, coordinated around capital in all its forms.
+Every shared record strengthens the commons: a trusted directory, regional needs maps, recipes that worked, and structured sources for the knowledge commons. The platform makes Regen Commons membership tangible (a utility, not only a constitution) and gives the network a coherent story for funders: place-based communities plus research plus tooling plus culture, coordinated around capital in all its forms.
 
 ## 12. Deliberately out of scope
 

@@ -1,14 +1,14 @@
 # Technical specification: Regen Commons Tend (working name)
 
 Status: draft for review · Date: 2026-10-31 · Audience: builders and technical reviewers
-Companion documents: [PRD](04-prd.md) · [logical architecture](03-logical-architecture.md) · [research digest](06-research-digest.md) (sources for every external fact below)
+Companion documents: [PRD](04-prd.md) · [logical architecture](03-logical-architecture.md) · [research digest](06-research-digest.md) (sources for every external fact below) · [saving and accounts](08-accounts-and-saving.md) · [agent scaffolding](07-agent-scaffolding.md) · [open decisions](open-decisions.md) · [design system](../../DESIGN.md)
 
-Requirement identifiers (R1 to R35) refer to the PRD.
+Requirement identifiers (R1 to R47) refer to the PRD.
 
 ## 1. Design principles
 
-1. Local first. Drafts, embeddings for private matching, transcription and extraction run in the browser. The server holds only what a person chose to publish, plus the funder catalog.
-2. Reuse what Regen Commons already runs: the Supabase project "Regen Commons / Website" (Auth, `members`, `steward_roles`, the steward desk), the Resend sending domains, the design tokens and fonts, and the Funding Commons research pipeline and matching rubric.
+1. Local first. Drafts, embeddings for private matching, transcription and extraction run in the browser. The server holds only what a person chose to save or share, plus the funder catalog.
+2. Reuse what Regen Commons already runs: the Supabase project "Regen Commons / Website" (Auth, `members`, `steward_roles`, the steward desk), the Resend sending domains, the brand, tokens and fonts, and the Funding Commons research pipeline and matching rubric.
 3. Open by default: open schemas, open identifiers, export anytime, open source.
 4. Small surface, explicit contracts. Every AI output is validated against a schema. Every write is idempotent and revisioned. Every cross-network share is consented and retractable.
 5. Nothing blocks on a model. Every flow works with plain fields and keyword matching.
@@ -70,7 +70,9 @@ flowchart LR
 | Decision | Choice | Why |
 |---|---|---|
 | Where the code lives | Evolve `regen-commons/funding-commons` into the platform: `app/` (new PWA), `api/` (Vercel functions), `supabase/` (platform migrations, see 3.3), `research/` and `scripts/` unchanged | Keeps the catalog pipeline, tests and history in one place; the directory UI is rebuilt inside the new app rather than kept as a second site |
-| Frontend | TypeScript, Vite, React 19, no CSS framework; design tokens and fonts copied from the website repo; CSS modules on those tokens; Workers for AI | The intake is stateful and worker-heavy; a component model pays for itself. The website's component CSS is not packaged and is desktop-first, so components are re-implemented on the shared tokens, as the steward desk already did |
+| Frontend | TypeScript, Vite, React 19, no CSS framework; Workers for AI | The intake is stateful and worker-heavy; a component model pays for itself |
+| Design system | Root `DESIGN.md` in the DesignMD format generates the tokens. `design-system/` holds layered CSS, fonts, brand and voice guides, and a pattern library. React components in `app/src/ui` stay thin and render those classes | One source for the static library, the app and later the website. Website values are preserved and checked against a pinned copy. The website's component CSS is desktop-first, so it is not copied. See the [decision log](../../design-system/decision-log.md) |
+| Agent guidance | `AGENTS.md`, skills, rules, hooks and checks, built before UI code | Most code is written by agents. See the [scaffolding plan](07-agent-scaffolding.md) |
 | Backend | Supabase (Postgres 17, pgvector, PostGIS, Auth, Storage, Edge Functions, pg_cron) plus Vercel Node functions for anything that needs server-held secrets or outbound calls | One trust boundary for data and auth; Vercel for the app shell and proxies |
 | Auth | Supabase Auth email one-time code, verified from the browser with `verifyOtp`, `shouldCreateUser: true` for the platform | Same identity pool as the steward desk; code-first avoids magic-link breakage in mobile mail clients |
 | Email | Resend through the Supabase Send Email hook (auth mail) and the Resend REST API from Edge Functions (pulse, intros, notices) | One React Email pipeline, idempotency keys, tags, per-subdomain reputation |
@@ -120,12 +122,12 @@ Themes reuse the funder catalog's theme vocabulary (the `sectors` and program `f
 ```sql
 create table tend.profiles (
   user_id uuid primary key references auth.users(id) on delete cascade,
-  display_name text not null,
+  display_name text,                                    -- never asked for at sign-in; set later if the person wants one
   email text not null,
   member_id uuid references public.members(id),      -- link to a Regen Commons member profile when one exists
   membership_status text,                               -- mirror of members.membership_status, refreshed by trigger
   locale text not null default 'en',
-  digest_frequency text not null default 'weekly' check (digest_frequency in ('weekly','fortnightly','off')),
+  digest_frequency text not null default 'off' check (digest_frequency in ('weekly','fortnightly','off')),  -- opt-in only
   created_at timestamptz not null default now()
 );
 ```
@@ -149,8 +151,10 @@ create table tend.initiatives (
   languages text[] not null default '{}',
   scale text,                                            -- local, regional, national, global, free text allowed
   eligibility jsonb not null default '{}',               -- optional: legalForm, registrationCountry, applicantType, fundingInstruments, orgSize
-  visibility text not null default 'draft' check (visibility in ('draft','members','public')),
-  share_scopes text[] not null default '{}',             -- 'murmurations','knowledge_commons','koi'
+  visibility text not null default 'private' check (visibility in ('private','network','public')),  -- a draft never reaches this table
+  status text not null default 'active' check (status in ('active','withdrawn')),
+  steward_hidden boolean not null default false,         -- set by a steward with a reason; never applies to private rows
+  share_scopes text[] not null default '{}',             -- 'murmurations','knowledge_commons','koi'; off by default
   confirmed_at timestamptz,                              -- last "still accurate" confirmation
   embedding vector(256),                                 -- mxbai-embed-xsmall-v1, computed in the browser
   rid text unique,                                       -- orn:regencommons.initiative:<uuid>
@@ -334,7 +338,7 @@ create table tend.outbox (
 ### 4.8 Row-level security (summary)
 
 - `profiles`: owner read and update.
-- `initiatives`, `needs`, `offers`: owner and `initiative_people` editors full access through commands; `anon` and `authenticated` may select rows with `visibility = 'public'`; `authenticated` with `profiles.membership_status = 'active'` or any signed-in account (configurable tier, R28) may select `visibility = 'members'`; stewards select all through the existing `private.is_active_steward()` predicate.
+- `initiatives`, `needs`, `offers`: owner and `initiative_people` editors full access through commands; `anon` and `authenticated` may select rows with `visibility = 'public'`; `authenticated` with `profiles.membership_status = 'active'` or any signed-in account (configurable tier, R28) may select `visibility = 'network'`; stewards select `network` and `public` rows through the existing `private.is_active_steward()` predicate and never `private` rows. Aggregate counts come from views that expose no row data.
 - `matches`: subject owner reads; written only by the matching job (restricted role).
 - `recipes`, `recipe_members`, `intros`: members read per visibility; writes through commands.
 - `consents`, `ai_runs`: owner read; insert through commands; never updated except `withdrawn_at`.
@@ -343,11 +347,12 @@ create table tend.outbox (
 
 ## 5. Identity and access
 
+- Saving and sign-in are one flow, described in [saving and accounts](08-accounts-and-saving.md). No row exists until a code is confirmed, and the first row is created by a command that takes the local draft ID as its idempotency key, so a retry cannot duplicate it. Local drafts are merged at sign-in without overwriting.
 - Sign-in: `supabase.auth.signInWithOtp({ email, options: { shouldCreateUser: true } })` then `verifyOtp({ email, token, type: 'email' })`. The UI is code-first (six or eight digits as configured project-wide; the project currently uses eight-digit codes with a one-hour expiry). A secondary link with `token_hash` to `/auth/confirm` is included for people who prefer tapping. Rate limits: Supabase's per-IP limits plus the hook's own sender limit; the app throttles resend to once per 60 s.
 - Email template: the project's OTP template is shared with the steward desk and currently worded for stewards. Decision: move auth mail to the Send Email hook so the template can branch on `email_data.redirect_to` host (platform vs desk) and on locale, with the website's branded table layout.
 - Sessions: supabase-js in the browser (publishable key, RLS enforced). The steward desk keeps its host-only cookie model; the two do not share a session, which is acceptable because stewards use the desk on `regencommons.com`.
 - Access tiers (R28): a `tend.settings` row `access_tier in ('open','members_first','members_only')` read by policies through a stable function; the council changes it without a deploy.
-- Membership link (R26): "Complete your membership" opens `regencommons.com/join` with the initiative's name, location, links and description pre-filled through a signed, short-lived handoff token; after approval the steward desk links `tend.profiles.member_id` (extension of the existing `link-profile` command and `member_events` audit).
+- Membership link (R26): an account is not membership. "Apply for membership", offered in context and never straight after saving, opens `regencommons.com/join` with the initiative's name, location, links and description pre-filled through a signed, short-lived handoff token; after approval the steward desk links `tend.profiles.member_id` (extension of the existing `link-profile` command and `member_events` audit).
 
 ## 6. AI pipeline
 
@@ -409,7 +414,7 @@ export const OffersExtraction = z.object({ offers: z.array(OfferCard).max(6) });
 2. Chunk to about 1,500 tokens; extract per chunk; merge cards by embedding similarity (cosine >= 0.9 means the same card); final pass over the merged set.
 3. Validate with Zod; on failure run `jsonrepair` and re-parse; then re-prompt once with the issue list; after two failures keep valid fields and mark the rest "needs your touch".
 4. Snap themes to the catalog vocabulary by nearest neighbour on the shared embedding model; show unmatched themes as free tags.
-5. Present cards; the user edits and confirms. Nothing is saved server-side until publish.
+5. Present cards; the user edits and confirms. Nothing is saved server-side until the person saves.
 6. Log a local `ai_run` record in IndexedDB (tier, model, latency, schema pass, repair used). Users can opt in to send these metrics (no text) to improve tiering.
 
 Evaluation: a fixtures folder with golden, noisy, low-signal and adversarial samples per step (the Coop method); CI measures schema pass rate, repair rate and median latency per tier on a reference machine; a release gate requires >= 95 percent schema pass on golden samples for the default model of each tier.
@@ -466,7 +471,7 @@ For an opportunity O and subject A with a solo score capped by at least one gap:
 ### 7.5 Computation and fairness (R15, R16)
 
 - Private drafts: computed in the browser against the public corpus (initiatives, needs, offers, programs are downloadable as a signed, versioned snapshot; a few thousand rows is small).
-- Published initiatives: a nightly job (Supabase Edge Function on pg_cron, or Vercel Cron) recomputes `tend.matches` incrementally for initiatives changed in the last day plus a rolling refresh; `engine_version` is stored with every row so rubric changes are auditable.
+- Saved initiatives, including private ones, which get one-way matches and never appear as a partner for anyone else: a nightly job (Supabase Edge Function on pg_cron, or Vercel Cron) recomputes `tend.matches` incrementally for initiatives changed in the last day plus a rolling refresh; `engine_version` is stored with every row so rubric changes are auditable.
 - Exposure caps: in pulses, no initiative or funder appears to more than 10 percent of recipients in a week; ties are broken toward records with fewer prior impressions (an envy-reducing rotation, not a full stable matching).
 - Feedback: `state` transitions on `matches` and introduction outcomes are the training signal; weights are tuned offline and shipped as a new `engine_version`. No online learning in the first year.
 
@@ -484,10 +489,10 @@ For an opportunity O and subject A with a solo score capped by at least one gap:
 
 ## 9. Pulse and email (R23, R24)
 
-- Composer: a Supabase Edge Function `pulse-compose` scheduled by `pg_cron` every Monday 07:00 UTC enqueues one `tend.outbox` row per eligible initiative with the rendered payload: new partner matches since last pulse (max 3), opportunities closing within 21 days in the initiative's themes and places (max 5, from the existing Funding Pulse logic), open needs in the same basin or bioregion that the initiative's offers could meet (max 3), recipes forming that need an ingredient the initiative carries (max 2), and the one-tap confirmation link (signed token, extends `confirmed_at`).
+- Composer: a Supabase Edge Function `pulse-compose` scheduled by `pg_cron` every Monday 07:00 UTC enqueues one `tend.outbox` row per eligible initiative whose owner opted in, and skips empty weeks, with the rendered payload: new partner matches since last pulse (max 3), opportunities closing within 21 days in the initiative's themes and places (max 5, from the existing Funding Pulse logic), open needs in the same basin or bioregion that the initiative's offers could meet (max 3), recipes forming that need an ingredient the initiative carries (max 2), and the one-tap confirmation link (signed token, extends `confirmed_at`).
 - Sender: Edge Function `outbox-send` claims rows with a lease, renders React Email templates, calls Resend `/emails/batch` in groups of 100 with `Idempotency-Key = outbox.idempotency_key`, records `provider_message_id` or a fixed failure code, and retries up to three times over 24 hours (the website's retry rule).
 - Deliverability: send pulses from `mail.regencommons.com` (new verified subdomain), auth mail from `auth.regencommons.com` (existing), with DMARC on the root; disable click tracking on transactional mail; `List-Unsubscribe` and `List-Unsubscribe-Post` headers on every pulse; a per-profile `digest_frequency`; regional pulses for stewards and funders are opt-in audiences in Resend.
-- Volumes: 150 initiatives and 50 regional subscribers means under 1,000 emails a month, inside Resend's free tier; budget the $20 Pro tier for headroom and 30-day data retention.
+- Volumes: 150 initiatives and 50 regional subscribers means under 1,000 pulse emails a month, inside Resend's monthly free allowance. Saving adds a code and a first email per person, and the free tier caps at 100 a day, so a demo can hit that limit. Move to the $20 Pro tier before any public invitation.
 
 ## 10. Interoperability (R29 to R32)
 
@@ -520,10 +525,10 @@ The existing desk (`regencommons.com/admin`) gains a `tend` section group using 
 - Content Security Policy on the app shell: `default-src 'self'`; `connect-src` limited to the app origin, the Supabase project, the model asset origin (self-hosted model files under `/models` as today, checksum-verified) and nothing else; `worker-src 'self' blob:`; `wasm-unsafe-eval` for ONNX Runtime; no third-party fonts or analytics.
 - Models and runtime are served from the app origin with pinned revisions and SHA-256 checks (the current practice), not from the Hugging Face hub at runtime.
 - Write endpoints require a same-origin `Origin` header and JSON; bodies capped (64 KB; files go directly to Storage with RLS).
-- Rate limits: sign-in requests throttled client-side and by Supabase; publish and intro commands limited per account per hour in a `private.limits` table (the website's intake quota pattern).
+- Rate limits: sign-in requests throttled client-side and by Supabase; save, share and intro commands limited per account per hour in a `private.limits` table (the website's intake quota pattern).
 - Secrets: provider keys, KOI private key and geocoder keys only in Vercel and Supabase secrets; a restricted Postgres role for jobs; no service-role key anywhere in app code.
-- Privacy posture documented on a public page: what stays local, what is stored, what is shared where, how to retract, how to export, retention (drafts never leave the device; published records until withdrawn; AI ledger 24 months; outbox payloads 30 days).
-- Abuse: honeypot fields, steward hide with reason, duplicate detection by name and link similarity on publish, no public email addresses, intro relay with accept gate.
+- Privacy posture documented on a public page: what stays local, what is stored, what is shared where, how to retract, how to export, retention (drafts stay on the device until saved; saved and shared records until withdrawn or deleted; AI ledger 24 months; outbox payloads 30 days). It also says that people who administer the database can technically read stored records under the data policy, so "Only you" describes the product, not the database.
+- Abuse: honeypot fields, steward hide with reason, duplicate detection by name and link similarity when a record is shared, no public email addresses, intro relay with accept gate.
 
 ## 13. Observability and operations
 
@@ -534,9 +539,11 @@ The existing desk (`regencommons.com/admin`) gains a `tend` section group using 
 ## 14. Verification
 
 - Unit: Zod contracts, extraction merge logic, scoring functions with golden fixtures (ports of the existing `tests/matching.test.mjs`, `scoring`, `thematic-fit`, `deadlines`).
-- SQL: suites run on a disposable Postgres 17 applying all migrations; policy tests for each role (anon, authenticated non-member, member, steward, owner); command idempotency and revision conflicts.
+- SQL: suites run on a disposable Postgres 17 applying all migrations; policy tests for each role (anon, authenticated non-member, member, steward, owner), including that a steward cannot read a private initiative; command idempotency and revision conflicts.
+- Design system: `tests/design-system.test.mjs` runs in CI. It covers stale tokens, the DesignMD linter, website values, contrast in both themes, raw values in CSS, undocumented or unused patterns, inventory lineage, copy rules and document links.
 - AI: fixture-based schema pass, repair and latency per tier; a manual device matrix (iPhone 11 on iOS 26, mid-range Android, M-series Mac, Windows laptop with integrated GPU, Firefox desktop) recorded before each phase release.
-- Browser: Playwright flows for the three steps by typing, by voice fixture and by upload fixture; matches; recipes; sign-in; accessibility checks with axe; reduced motion.
+- Browser: Playwright flows for the three steps by typing, by voice fixture and by upload fixture; matches; recipes; saving, including wrong email, wrong code, a mail-app round trip and draft merge; accessibility checks with axe; reduced motion.
+- People: three participants every two weeks through Phase 1, following the [testing plan](../../design-system/principles/usability-testing.md).
 - Email: rendered previews of every template; a staging audience; bounce handling verified before Phase 1.
 - Interoperability: Murmurations profile validation against the library schemas; KOI envelope signing verified against the Python reference implementation in CI (a tiny Python job).
 
@@ -544,7 +551,7 @@ The existing desk (`regencommons.com/admin`) gains a `tend` section group using 
 
 1. The static directory becomes a route in the new app; the data files, embedding runtime and matching modules move into `app/` with their tests. Deep links `?fund=<id>` keep working through a redirect map.
 2. Local project profiles (`funding-commons:saved:v2`) are importable as a draft initiative; favourites become saved opportunity matches; notes stay local.
-3. The September 2026 hub doc rows (seven initiatives, eight recipes) are imported as unclaimed drafts; owners claim them by signing in with the contact email recorded in the doc.
+3. The September 2026 hub doc rows (seven initiatives, eight recipes) are imported as unclaimed records and shown in pencil; owners claim them by signing in with the contact email recorded in the doc.
 4. The research workflow and its tests stay as they are; only the import target changes (JSON release plus the `tend.programs` load).
 5. The current Vercel project keeps serving `funding-commons.vercel.app` with a redirect to the subdomain once DNS is live.
 
@@ -552,13 +559,13 @@ The existing desk (`regencommons.com/admin`) gains a `tend` section group using 
 
 | Phase | Requirements | Infrastructure |
 |---|---|---|
-| 0 Seed | R1 (typed input), R2, R3, R5 (basic), R6, R11, R13, R12 (basic reasons), R25, R28 (open), R34 | Vercel project, subdomain, `tend` schema v1, catalog import, OTP sign-in, hub import |
-| 1 Sprout | R1 (voice, files), R4, R7, R8, R9, R10, R12 full, R14, R16, R17, R18, R23, R24, R27, R29, R33 (initiatives, needs, offers, pulse) | Model tiering, consent ledger, PostGIS places, pulse composer and outbox, Murmurations publishing, desk extension v1 |
-| 2 Flowering | R15, R19, R20, R21, R22, R26, R28 (members-first), R30, R31, R33 (recipes, matching, challenges), R35 | KOI partial node, knowledge commons export, funder accounts, feedback loop, metrics views, community inference option |
+| 0 Seed | R1 (typed input), R2, R3, R5 (basic), R6, R11, R13, R12 (basic reasons), R25, R27 (visibility), R28 (open), R34, R36 to R39, R41, R44 to R47 | Agent scaffolding, React layer on the design system, Vercel project, subdomain, `tend` schema v1, catalog import, OTP save flow with the Send Email hook, hub import |
+| 1 Sprout | R1 (voice, files), R4, R7, R8, R9, R10, R12 full, R14, R16, R17, R18, R23, R24, R27 (sharing), R29, R33 (initiatives, needs, offers, pulse), R40, R42 | Model tiering, consent ledger, PostGIS places, pulse composer and outbox, Murmurations publishing, desk extension v1 |
+| 2 Flowering | R15, R19, R20, R21, R22, R26, R28 (members-first), R30, R31, R33 (recipes, matching, challenges), R35, R43 | KOI partial node, knowledge commons export, funder accounts, feedback loop, metrics views, community inference option |
 | 3 Tree | R32 anchoring, federation | CLC pilot, shared schema repository, multi-instance exchange |
 
 ## 17. Decisions log and open technical questions
 
 Decided here (to be ratified by the council): shared Supabase project with a single migration owner and a `tend` schema; React plus Vite PWA; AGPL-3.0 code licence proposed; code-first OTP in the browser; Resend through the Send Email hook; Anthropic Haiku 5.5 as the default consented cloud provider with Cloudflare Workers AI as an alternative; mxbai embeddings retained; One Earth bioregions (CC BY-NC 4.0, obtained by request) plus HydroBASINS under the WWF licence or BasinATLAS under CC BY 4.0 as place references.
 
-Open: (1) who administers DNS for `regencommons.com` and the subdomain CNAME; (2) whether the Regen KOI coordinator or Metagov's node is the first-contact node; (3) the One Earth dataset request and whether the non-commercial clause is compatible with any future paid tier (if not, switch the bioregion layer to RESOLVE ecoregions); (4) written confirmation from Native Land Digital if territory names are ever cached on records; (5) whether the website repository or a new shared repository owns migrations from Phase 1; (6) the Zero Data Retention arrangement with Anthropic for the organisation account; (7) the exact OTP template wording change and whether the steward desk adopts the Send Email hook at the same time.
+The current list of open questions, with recommendations, is in [open decisions](open-decisions.md). When this spec was first drafted they were: (1) who administers DNS for `regencommons.com` and the subdomain CNAME; (2) whether the Regen KOI coordinator or Metagov's node is the first-contact node; (3) the One Earth dataset request and whether the non-commercial clause is compatible with any future paid tier (if not, switch the bioregion layer to RESOLVE ecoregions); (4) written confirmation from Native Land Digital if territory names are ever cached on records; (5) whether the website repository or a new shared repository owns migrations from Phase 1; (6) the Zero Data Retention arrangement with Anthropic for the organisation account; (7) the exact OTP template wording change and whether the steward desk adopts the Send Email hook at the same time.

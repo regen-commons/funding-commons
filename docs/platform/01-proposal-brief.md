@@ -1,7 +1,7 @@
 # Proposal brief: from Funding Commons to Regen Commons Tend
 
 Status: proposal for the Regen Commons council and partner networks · Date: 2026-10-31 · Contact: Afolabi Aiyeloja
-Deeper documents: [business model canvas](02-business-model-canvas.md) · [logical architecture](03-logical-architecture.md) · [product requirements](04-prd.md) · [technical specification](05-technical-spec.md) · [research digest](06-research-digest.md)
+Deeper documents: [business model canvas](02-business-model-canvas.md) · [logical architecture](03-logical-architecture.md) · [product requirements](04-prd.md) · [technical specification](05-technical-spec.md) · [research digest](06-research-digest.md) · [saving and accounts](08-accounts-and-saving.md) · [agent scaffolding](07-agent-scaffolding.md) · [open decisions](open-decisions.md) · [design system](../../DESIGN.md)
 
 ## The proposal in one paragraph
 
@@ -21,7 +21,9 @@ Funding Commons (funding-commons.vercel.app) is a public, browser-local director
 2. Your needs. "What would unlock the next chapter?" Each need becomes a card with forms of capital, amount if financial, timeframe, where, and the exchange terms you would accept (gift, exchange, paid, commitment).
 3. Your offers. "What do you have in surplus?" The same structure, with capacity: a track record with a funder, a methodology, land or a venue, a workshop, a story practice, a tool, a dataset.
 
-Then: partners ranked with reasons; opportunities ranked with a solo score and a "stronger with" partner suggestion; recipes to open or join around an opportunity; a weekly pulse for your work and your region; a one-tap "still accurate" that keeps the commons trustworthy. Nothing leaves the device until you publish; nothing is shared onward without consent; everything can be withdrawn.
+Then: partners ranked with reasons; opportunities ranked with a solo score and a "stronger with" partner suggestion; recipes to open or join around an opportunity; a weekly pulse for your work and your region; a one-tap "still accurate" that keeps the commons trustworthy. Your work stays on your device until you choose to save it, stays private until you choose to share it, and can be withdrawn at any time.
+
+Saving asks for an email and nothing else, and only after you have seen your first matches. You never have to "create an account". People keep their work because it helps them: on any device, with a reminder before a fund closes, and with a way to reach a partner.
 
 ## What is different
 
@@ -54,12 +56,16 @@ Regen Commons. The platform is the first tangible member utility: a reason to jo
 
 | Phase | Window | What ships | Gate |
 |---|---|---|---|
-| Seed | now to 14 November 2026 | Rebrand on the subdomain; typed three-step intake with light local extraction; needs and offers with forms of capital; public directory; partner suggestions next to funds; email-code sign-in; hub doc import; demo at Community Spotlight on 5 November | Working AI with real users documented for the Mozilla proposal by 20 November |
+| Seed | now to 14 November 2026 | Agent scaffolding and the Regen Commons design system first; rebrand on the subdomain; typed three-step intake with light local extraction; needs and offers with forms of capital; public directory; partner suggestions next to funds; saving with an email code, private by default; the first usability round; hub doc import; demo at Community Spotlight on 5 November | Working AI with real users documented for the Mozilla proposal by 20 November |
 | Sprout | mid November 2026 to February 2027 | Voice and file input; local AI tiering with consented cloud fallback; reciprocal partner matching with reasons; partnership scoring; weekly pulse; steward desk sections; bioregion and watershed places and pages; Murmurations publishing; open data export; Portuguese and Spanish | 100 published initiatives across 8 bioregions; pulse open rate above 30 percent |
 | Flowering | March to June 2027 | Recipes with join flows and introduction relay; challenge cohorts; regional pulses for funders; knowledge commons export and KOI partial node; members-first tier; needs-of-the-place synthesis; funder accounts; matching feedback loop | 20 recipes opened, 8 submitted; first funder subscribers |
 | Tree | second half of 2027 | Offerings and commitments ledger; Cosmo-Local Credit anchoring for one pilot bioregion; cross-pool coordination with partner networks; federation and shared schema repository | Council policy on shared data; a second network running an instance |
 
 Web3 elements are not needed at the start. The first three phases are email, browser and Postgres. Phase 3 anchors existing records; it does not change how people use the product.
+
+## How it gets built well
+
+Interface work follows a shared [design system](../../DESIGN.md): the Regen Commons brand defined in code, with every website value preserved and new scales added, built around three books on usability, visual design and design systems. Three people test the product every two weeks. Coding agents work from [shared instructions, skills and checks](07-agent-scaffolding.md) adapted from Green Goods and the Regen Commons site, so the work stays consistent with one lead builder.
 
 ## What it costs and how it is sustained
 
@@ -67,11 +73,14 @@ Infrastructure is about USD 65 per month (Supabase Pro, Vercel Pro, Resend) plus
 
 ## Decisions requested from the council
 
+The full list, with recommendations, is in [open decisions](open-decisions.md). The main ones are:
+
 1. House the platform under Regen Commons on tend.regencommons.com (or Connect), open to all networks.
 2. Approve the open tier at launch and the AGPL-3.0 code licence with CC BY 4.0 for public data.
 3. Agree the shared Supabase project with a single migration owner and a dedicated schema, and the extension of the steward desk.
 4. Name two or three pilot bioregions or watersheds from existing nodes for Phase 2 place synthesis.
 5. Back the Mozilla Human-Scale AI application with Metagov and KOI as partners, and confirm the receiving entity.
+6. Agree that saved initiatives are private to their owner, with stewards unable to read them, and that the brand changes in the design system stand for products.
 
 ## Open questions we propose to keep open
 

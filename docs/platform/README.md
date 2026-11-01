@@ -10,7 +10,12 @@ Planning documents for growing Funding Commons into a platform where regenerativ
 | [04 Product requirements](04-prd.md) | Users, experience, numbered requirements, phases, success measures, risks | Builders, stewards, designers |
 | [05 Technical specification](05-technical-spec.md) | Stack, schema, auth, AI tiers and contracts, matching, places, email, interoperability, security, verification | Builders |
 | [06 Research digest](06-research-digest.md) | The evidence and sources behind the decisions | Anyone checking a claim |
+| [07 Agent scaffolding](07-agent-scaffolding.md) | The instructions, skills, rules and checks coding agents will use, and what we took from Green Goods and the Regen Commons site | Builders |
+| [08 Saving and accounts](08-accounts-and-saving.md) | How initiatives get saved, and how an email earns its place | Council, builders, designers |
+| [Open decisions](open-decisions.md) | Everything unresolved, with a recommendation and an owner | Council, builders |
 
-Status: drafts for review. Nothing here is a council decision until recorded as one. The working name "Tend" is a recommendation; see the brief for alternatives and the collision check.
+The design system lives at the repository root: [DESIGN.md](../../DESIGN.md) holds the tokens and interface principles, and [design-system/](../../design-system/README.md) holds the brand, voice, CSS and pattern library.
+
+Status: drafts for review. Nothing here is a council decision until recorded in [open decisions](open-decisions.md). The working name "Tend" is a recommendation; see the brief for alternatives and the collision check.
 
 Related repository docs: [maintenance workflow](../maintenance.md) for the funder catalog, [matching and screening](../matching-screening.md) for the current rubric.
