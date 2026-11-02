@@ -82,7 +82,7 @@ has not loaded it.
 | A bug report, failing check or unexpected behavior | [debug](.claude/skills/debug/SKILL.md) |
 | Reviewing a diff, branch or pull request | [review](.claude/skills/review/SKILL.md) |
 | Commit, push or draft pull request | [ship](.claude/skills/ship/SKILL.md) |
-| Monday discovery, Thursday freshness, any catalog change | The [catalog guide](research/AGENTS.md) for the files and checks, and [docs/maintenance.md](docs/maintenance.md) for the research workflow |
+| Monday discovery, Thursday freshness, any catalog change | [catalog-research](.claude/skills/catalog-research/SKILL.md), with the [catalog guide](research/AGENTS.md) for files and checks |
 | A screen, component, CSS, token or copy change | [design](.claude/skills/design/SKILL.md) |
 | Product requirements and decisions | [PRD](docs/platform/04-prd.md), [technical spec](docs/platform/05-technical-spec.md), [open decisions](docs/platform/open-decisions.md) |
 
