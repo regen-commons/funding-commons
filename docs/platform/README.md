@@ -12,6 +12,7 @@ Planning documents for growing Funding Commons into a platform where regenerativ
 | [06 Research digest](06-research-digest.md) | The evidence and sources behind the decisions | Anyone checking a claim |
 | [07 Agent scaffolding](07-agent-scaffolding.md) | The instructions, skills, rules and checks coding agents will use, and what we took from Green Goods and the Regen Commons site | Builders |
 | [08 Saving and accounts](08-accounts-and-saving.md) | How initiatives get saved, and how an email earns its place | Council, builders, designers |
+| [09 Repository layout](09-repository-layout.md) | Where the live site, catalog, design system, app, API and migrations live, and what each move must keep working | Builders |
 | [Open decisions](open-decisions.md) | Everything unresolved, with a recommendation and an owner | Council, builders |
 
 The design system lives at the repository root: [DESIGN.md](../../DESIGN.md) holds the tokens and interface principles, and [design-system/](../../design-system/README.md) holds the brand, voice, CSS and pattern library.
