@@ -46,8 +46,8 @@ Rules:
 ## Names
 
 - **Regen Commons** is the organisation and the commons. Write it in two words with both capitals.
-- **Product names** sit beside the mark, top-left, and return to that product's home. A short verb such as Tend cannot explain itself, so it always appears near a plain tagline on first contact.
-- **Tend** is a working name that the council has not yet confirmed. See the [open decisions](../../docs/platform/open-decisions.md). Keep it out of component names and tokens, so a rename touches only copy and configuration.
+- **Product names** sit beside the mark, top-left, and return to that product's home. A short word such as Weave cannot explain itself, so it always appears near a plain tagline on first contact.
+- **Weave** is a working name that the council has not yet confirmed. See the [open decisions](../../docs/platform/open-decisions.md). Keep it out of component names and tokens, so a rename touches only copy and configuration.
 
 ## Colour story
 

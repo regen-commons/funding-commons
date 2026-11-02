@@ -1,6 +1,6 @@
-# Proposal brief: from Funding Commons to Regen Commons Tend
+# Proposal brief: from Funding Commons to Regen Commons Weave
 
-Status: proposal for the Regen Commons council and partner networks · Date: 2026-10-31 · Contact: Afolabi Aiyeloja
+Status: proposal for the Regen Commons council and partner networks · Date: 2026-11-02 · Contact: Afolabi Aiyeloja
 Deeper documents: [business model canvas](02-business-model-canvas.md) · [logical architecture](03-logical-architecture.md) · [product requirements](04-prd.md) · [technical specification](05-technical-spec.md) · [research digest](06-research-digest.md) · [saving and accounts](08-accounts-and-saving.md) · [agent scaffolding](07-agent-scaffolding.md) · [open decisions](open-decisions.md) · [design system](../../DESIGN.md)
 
 ## The proposal in one paragraph
@@ -17,13 +17,13 @@ Funding Commons (funding-commons.vercel.app) is a public, browser-local director
 
 ## What people will experience
 
-1. Your initiative. Say it like you would to a friend outside the movement, drop a deck or a link, or type. The guide drafts four public fields (name, locations, description, links) and a few chips to confirm (stage, lenses, themes, place). Locations attach a bioregion and a watershed automatically.
+1. Your initiative. Say it like you would to a friend outside the movement, drop a deck or a link, or type. The guide drafts four public fields (name, locations, description, links) and nothing more is asked: everything else (stage, lenses, themes, place) is derived from the description, locations and links, and shown only so it can be corrected. Locations attach a bioregion and a watershed automatically.
 2. Your needs. "What would unlock the next chapter?" Each need becomes a card with forms of capital, amount if financial, timeframe, where, and the exchange terms you would accept (gift, exchange, paid, commitment).
 3. Your offers. "What do you have in surplus?" The same structure, with capacity: a track record with a funder, a methodology, land or a venue, a workshop, a story practice, a tool, a dataset.
 
-Then: partners ranked with reasons; opportunities ranked with a solo score and a "stronger with" partner suggestion; recipes to open or join around an opportunity; a weekly pulse for your work and your region; a one-tap "still accurate" that keeps the commons trustworthy. Your work stays on your device until you choose to save it, stays private until you choose to share it, and can be withdrawn at any time.
+Then: partners ranked with reasons: before you share, a teaser shows how many partners match and why, with names hidden; names and contacts open once you add your own project to the list of initiatives (give to get). Anyone can still browse the public directory; opportunities ranked with a solo score and a "stronger with" partner suggestion; recipes to open or join around an opportunity; a weekly pulse for your work and your region; a one-tap "still accurate" that keeps the commons trustworthy. Your work stays on your device until you choose to save it, stays private until you choose to share it, and can be withdrawn at any time.
 
-Saving asks for an email and nothing else, and only after you have seen your first matches. You never have to "create an account". People keep their work because it helps them: on any device, with a reminder before a fund closes, and with a way to reach a partner.
+Saving asks for an email and nothing else, and only after you have seen your first opportunities and the partner teaser. You never have to "create an account". People keep their work because it helps them: on any device, with a reminder before a fund closes, and with a way to reach a partner.
 
 ## What is different
 
@@ -36,7 +36,7 @@ Saving asks for an email and nothing else, and only after you have seen your fir
 
 ## Name
 
-Recommendation: Tend, at tend.regencommons.com. It continues the site's own language ("What do you already tend?", "A living network, tended together"), it is a verb that fits each step (tend your initiative, your needs, your offers; stewards tend the commons; the pulse tends freshness), and the collision check found no notable use in the regenerative, web3 or commons space. Fallback: Connect (clear, also collision-free). Expressive alternates: Hearth, Reciprocity (one of the seven Regen Commons values and the heart of commitment pooling), Compass, Mycorrhiza (the precise metaphor for exchange between different kinds of beings, but hard to say). Ruled out by collisions: Network (Regen Network, Bloom Network, Greenpill Network), Weave (WeaveDB, Bioregional Weaving Labs, The Weaving Lab), Guild (Guild.xyz, Greenpill Dev Guild), Confluence (Atlassian, Confluence Philanthropy), Mycelium (MycoFi and many others), Hub (Regen Hub, Regen Impact Hub, the Regen Coordination hub), Atlas (Optimism Atlas, Regen Atlas), Watershed (Watershed Technology), Loom, Kin, Bloom. Feature names inside the product stay plain: Initiatives, Needs and Offers, Opportunities, Recipes, Places, Pulse, and later Pools.
+Recommendation: Weave, at weave.regencommons.com. It says what the platform does: it weaves initiatives, needs and offers into partnerships across networks and places, and it sits easily beside the site's own language ("What do you already tend?", "A living network, tended together"). The trade-off is collisions: WeaveDB, Bioregional Weaving Labs and The Weaving Lab already use the word, so always pair it with the Regen Commons name and approach the weaving labs as allies. Fallback: Connect (clear, also collision-free). Expressive alternates: Tend (collision-free and closest to the site's own language), Hearth, Reciprocity (one of the seven Regen Commons values and the heart of commitment pooling), Compass, Mycorrhiza (the precise metaphor for exchange between different kinds of beings, but hard to say). Ruled out by collisions: Network (Regen Network, Bloom Network, Greenpill Network), Guild (Guild.xyz, Greenpill Dev Guild), Confluence (Atlassian, Confluence Philanthropy), Mycelium (MycoFi and many others), Hub (Regen Hub, Regen Impact Hub, the Regen Coordination hub), Atlas (Optimism Atlas, Regen Atlas), Watershed (Watershed Technology), Loom, Kin, Bloom. Feature names inside the product stay plain: Initiatives, Needs and Offers, Opportunities, Recipes, Places, Pulse, and later Pools.
 
 ## How it serves the wider work
 
@@ -56,26 +56,26 @@ Regen Commons. The platform is the first tangible member utility: a reason to jo
 
 | Phase | Window | What ships | Gate |
 |---|---|---|---|
-| Seed | now to 14 November 2026 | Agent scaffolding and the Regen Commons design system first; rebrand on the subdomain; typed three-step intake with light local extraction; needs and offers with forms of capital; public directory; partner suggestions next to funds; saving with an email code, private by default; the first usability round; hub doc import; demo at Community Spotlight on 5 November | Working AI with real users documented for the Mozilla proposal by 20 November |
-| Sprout | mid November 2026 to February 2027 | Voice and file input; local AI tiering with consented cloud fallback; reciprocal partner matching with reasons; partnership scoring; weekly pulse; steward desk sections; bioregion and watershed places and pages; Murmurations publishing; open data export; Portuguese and Spanish | 100 published initiatives across 8 bioregions; pulse open rate above 30 percent |
-| Flowering | March to June 2027 | Recipes with join flows and introduction relay; challenge cohorts; regional pulses for funders; knowledge commons export and KOI partial node; members-first tier; needs-of-the-place synthesis; funder accounts; matching feedback loop | 20 recipes opened, 8 submitted; first funder subscribers |
-| Tree | second half of 2027 | Offerings and commitments ledger; Cosmo-Local Credit anchoring for one pilot bioregion; cross-pool coordination with partner networks; federation and shared schema repository | Council policy on shared data; a second network running an instance |
+| Phase 0, Seed: the first version | November 2026 (early demo at Community Spotlight on 5 November) | Agent scaffolding and the Regen Commons design system first, so the product carries Regen Commons branding and identity from day one; voice, file and typed input with local AI extraction in the browser and consented cloud fallback; the four public fields, with stage, lenses, themes and place derived; needs and offers with forms of capital; public directory of initiatives; partner matches with reasons, shown once you share your project; opportunities with partner suggestions; saving with an email code, private by default; hub doc import; the first usability round | Working local AI with real users documented for the Mozilla proposal by 20 November; the full first version live by 30 November |
+| Phase 1, Sprout | December 2026 to February 2027 | Partnership scoring refinements; weekly pulse; steward desk sections; bioregion and watershed pages; Murmurations publishing; open data export; Portuguese and Spanish | 100 published initiatives across 8 bioregions; pulse open rate above 30 percent |
+| Phase 2, Flowering | March to May 2027 | Recipes with join flows and introduction relay; challenge cohorts; regional pulses for funders; knowledge commons export and KOI partial node; members-first tier; needs-of-the-place synthesis; funder accounts; matching feedback loop | 20 recipes opened, 8 submitted; first funder subscribers |
+| Phase 3, Tree | from June 2027 | Offerings and commitments ledger; Cosmo-Local Credit anchoring for one pilot bioregion; cross-pool coordination with partner networks; federation and shared schema repository | Council policy on shared data; a second network running an instance |
 
 Web3 elements are not needed at the start. The first three phases are email, browser and Postgres. Phase 3 anchors existing records; it does not change how people use the product.
 
 ## How it gets built well
 
-Interface work follows a shared [design system](../../DESIGN.md): the Regen Commons brand defined in code, with every website value preserved and new scales added, built around three books on usability, visual design and design systems. Three people test the product every two weeks. Coding agents work from [shared instructions, skills and checks](07-agent-scaffolding.md) adapted from Green Goods and the Regen Commons site, so the work stays consistent with one lead builder.
+Interface work follows a shared [design system](../../DESIGN.md): the Regen Commons brand defined in code, with every website value preserved and new scales added, built around three books on usability, visual design and design systems. One usability round with real users runs before 30 November; the regular testing rhythm is set after launch. Coding agents work from [shared instructions, skills and checks](07-agent-scaffolding.md) adapted from Green Goods and the Regen Commons site, so the work stays consistent with one lead builder.
 
 ## What it costs and how it is sustained
 
-Infrastructure is about USD 65 per month (Supabase Pro, Vercel Pro, Resend) plus under USD 10 per month of consented cloud AI at expected rates; an optional community inference server would add about EUR 214 per month in Phase 2. The real cost is a lead builder (half to one full-time equivalent) and steward time. Sustainability comes from grants for public-interest and local-AI infrastructure (Mozilla, NLnet's next window, Climate Collective, Humanity AI's next call, regen rounds), Regen Commons membership as the platform becomes the member utility, funder and network subscriptions for regional pulses and curated pipelines in Phase 2, and facilitation of challenge cohorts. Fiscal rails: Open Source Collective (10 percent) unless Regen Commons has its own entity by then. Details in the business model canvas.
+Infrastructure starts at about USD 0 per month: Supabase's free plan or the existing Regen Commons project, Resend's free plan (3,000 emails a month), and Vercel's Hobby plan, in the Regen Commons team that already hosts the website and Funding Commons. Paid plans come in only when needed: Vercel Pro (USD 20 per developer seat) once grant money pays a builder, because Hobby is for non-commercial use only; Supabase Pro (about USD 25) when the full place maps (2 to 4 GB against a 500 MB free limit) or daily backups are needed; Resend Pro (USD 20) when traffic requires it. Consented cloud AI adds under USD 10 per month at expected rates; an optional community inference server would add about EUR 214 per month in Phase 2. The real cost is a full-time lead builder in November (afo, working with coding agents), then half to one full-time equivalent, plus steward time. Sustainability comes from grants for public-interest and local-AI infrastructure (Mozilla, NLnet's next window, Climate Collective, Humanity AI's next call, regen rounds), Regen Commons membership as the platform becomes the member utility, funder and network subscriptions for regional pulses and curated pipelines in Phase 2, and facilitation of challenge cohorts. Fiscal rails: Open Source Collective (10 percent) unless Regen Commons has its own entity by then. Details in the business model canvas.
 
 ## Decisions requested from the council
 
 The full list, with recommendations, is in [open decisions](open-decisions.md). The main ones are:
 
-1. House the platform under Regen Commons on tend.regencommons.com (or Connect), open to all networks.
+1. House the platform under Regen Commons on weave.regencommons.com (or Connect), open to all networks.
 2. Approve the open tier at launch and the AGPL-3.0 code licence with CC BY 4.0 for public data.
 3. Agree the shared Supabase project with a single migration owner and a dedicated schema, and the extension of the steward desk.
 4. Name two or three pilot bioregions or watersheds from existing nodes for Phase 2 place synthesis.
@@ -84,7 +84,7 @@ The full list, with recommendations, is in [open decisions](open-decisions.md). 
 
 ## Open questions we propose to keep open
 
-Which KOI node is the first contact (Regen KOI run by Gaia AI or Metagov's); whether the Knowledge Commons will add Opportunity, Need and Offer classes; how Bloom's offers-and-needs sessions and Flow currency cross-pool with Tend's records; when the members-first tier starts; and how regional curators are recognised and resourced.
+Which KOI node is the first contact (Regen KOI run by Gaia AI or Metagov's); whether the Knowledge Commons will add Opportunity, Need and Offer classes; how Bloom's offers-and-needs sessions and Flow currency cross-pool with Weave's records; when the members-first tier starts; and how regional curators are recognised and resourced.
 
 ## Links
 

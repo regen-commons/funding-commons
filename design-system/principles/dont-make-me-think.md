@@ -4,7 +4,7 @@ Our users are community organisers, researchers, artists and funders, many on ph
 
 ## Arriving
 
-- **Home answers the newcomer's questions on one phone screen:** what this is, what is here, what I can do, why here, where to start (119, 128-129). Show a plain tagline of six to eight words beside the name, a start action, a way to search and one sign of life, such as funds closing soon (125-127, 115). A short verb like Tend cannot do this alone (32).
+- **Home answers the newcomer's questions on one phone screen:** what this is, what is here, what I can do, why here, where to start (119, 128-129). Show a plain tagline of six to eight words beside the name, a start action, a way to search and one sign of life, such as funds closing soon (125-127, 115). A short verb like Weave cannot do this alone (32).
 - **People also land deep.** Links from email and social media open the exact record and orient the visitor from there (121-122, 185-186).
 - **Protect Home.** Partnerships, places, updates and lenses will all want space. Each addition displaces something, so keep a priority list (129-130).
 

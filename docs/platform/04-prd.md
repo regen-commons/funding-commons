@@ -1,4 +1,4 @@
-# Product requirements: Regen Commons Tend (working name)
+# Product requirements: Regen Commons Weave (working name)
 
 Status: draft for council review · Author: Afolabi Aiyeloja with Claude · Date: 2026-10-31
 Companion documents: [proposal brief](01-proposal-brief.md) · [business model canvas](02-business-model-canvas.md) · [logical architecture](03-logical-architecture.md) · [technical spec](05-technical-spec.md) · [research digest](06-research-digest.md) · [agent scaffolding](07-agent-scaffolding.md) · [saving and accounts](08-accounts-and-saving.md) · [open decisions](open-decisions.md) · [design system](../../DESIGN.md)
@@ -79,19 +79,19 @@ All interface work follows [DESIGN.md](../../DESIGN.md) and the three books it a
 
 The guide is a small conversational panel ("the Gardener" in prototypes; name to be decided) with a text box, a microphone button and an attach button. Each step has a goal, a few guiding prompts, and a confirmation card.
 
-Step 1, Your initiative. Prompt: "Tell me about your work the way you would to a friend outside the movement." Inputs: free text, voice (transcribed locally), a website or social link (fetched server-side and summarised), an uploaded deck or PDF (parsed locally). Output card with the four public fields: name, location(s) (free text; "global" allowed; multiple places allowed; an optional map pin or place search attaches bioregion, subrealm, realm, watershed and country chips), description (two to four sentences in the initiative's own words, lightly edited), links. Hidden derived fields shown as chips to confirm or remove: stage (seed, sprout, flowering, tree), lenses, themes (aligned with the funder catalog's theme vocabulary), beneficiaries, languages, scale. Optional eligibility details (legal form, registration country, applicant type, funding instruments preferred) are offered as "this helps us screen funds for you" and can be skipped.
+Step 1, Your initiative. Prompt: "Tell me about your work the way you would to a friend outside the movement." Inputs: free text, voice (transcribed locally), a website or social link (fetched server-side and summarised), an uploaded deck or PDF (parsed locally). Output card with the four public fields: name, location(s) (free text; "global" allowed; multiple places allowed; an optional map pin or place search attaches bioregion, subrealm, realm, watershed and country chips), description (two to four sentences in the initiative's own words, lightly edited), links. Nothing else is asked. Stage (seed, sprout, flowering, tree), lenses, themes (aligned with the funder catalog's theme vocabulary), beneficiaries, languages and scale are derived from the description, locations and links, and shown only so they can be corrected. Eligibility details (legal form, registration country, applicant type, funding instruments preferred) are derived where possible and can be added later from the matches screen; they are never asked during intake.
 
 Step 2, Your needs. Prompt: "What would unlock the next chapter?" Guidance text and examples: money with an amount and purpose; a co-applicant with a specific profile; an introduction; land access; a template; a reviewer; volunteers; equipment; a fiscal host. The guide listens, drafts two to five need cards and asks for confirmation. Each card: title, one-line description, forms of capital, amount and currency (financial only), timeframe and urgency, place scope (here, our region, anywhere), exchange terms acceptable (gift, exchange, paid, commitment, open), what you would do with it. The guide nudges once: "Most initiatives need financial capital. What else would help?"
 
 Step 3, Your offers. Prompt: "What do you have in surplus?" Guidance by form of capital: a track record with a funder (social), a methodology (intellectual), land or a venue (living, material), a workshop you run (experiential), a story or art practice (cultural), a ceremony or practice of care (spiritual), a tool or dataset (intellectual, material). Each offer card: title, description, forms of capital, capacity (how much, how often), place scope, terms (gift, exchange, paid, commitment), who it is for.
 
-Finish. First matches come first, with "your card" beside them. Then three separate decisions, not one form. Keep it: an email and a code save a private copy. Who can see it: Only you (the default), People signed in, or Anyone. Sharing onward: open networks such as Murmurations and the knowledge commons, off by default. A draft never requires an email and lives in the browser until saved. See [saving and accounts](08-accounts-and-saving.md).
+Finish. First opportunities and the partner teaser come first, with "your card" beside them. Then three separate decisions, not one form. Keep it: an email and a code save a private copy. Who can see it: Only you (the default), People signed in, or Anyone. Sharing onward: open networks such as Murmurations and the knowledge commons, off by default. A draft never requires an email and lives in the browser until saved. See [saving and accounts](08-accounts-and-saving.md).
 
 Each step must be completable by voice only, by typing only, and by upload only. Each step must work with no AI at all (plain fields with sensible defaults) so the product never blocks on a model download.
 
 ### 6.3 What the user sees after finishing
 
-- Matches: two tabs, Partners and Opportunities. Partner cards show why (a need you have that they offer, an offer you have that they need, shared place, shared theme, complementary lens) and a strength band. Opportunity cards show the solo fit and readiness from the existing engine, plus "stronger with" one or two suggested partners and the reason (covers a requirement, brings a missing lens, is in the required geography). Actions: save, dismiss with reason, say hello (consented introduction relay), open a recipe.
+- Matches: two tabs, Partners and Opportunities. Partners work as give to get: before an initiative is shared, the tab shows how many partners match and why, with names hidden; names, cards and "say hello" open once the person adds their own initiative to the list. Anyone can still browse the public directory. Partner cards show why (a need you have that they offer, an offer you have that they need, shared place, shared theme, complementary lens) and a strength band. Opportunity cards show the solo fit and readiness from the existing engine, plus "stronger with" one or two suggested partners and the reason (covers a requirement, brings a missing lens, is in the required geography). Actions: save, dismiss with reason, say hello (consented introduction relay), open a recipe.
 - Recipes: open a recipe from an opportunity or a problem; name the ingredients needed; others join with what they bring; a working doc link; status. Recipes are visible to members by default and optionally public.
 - Places: a bioregion or watershed page lists initiatives, open needs, offers, opportunities with regional scope, and recipes forming. Later it carries a synthesised "needs of this place" summary built from consented records.
 - Directory: the existing funder directory stays, with the matching panel pointing at the user's initiative instead of a local project profile.
@@ -112,7 +112,7 @@ Requirement identifiers are stable so the technical spec and tests can reference
 Intake and records
 
 - R1 Three-step intake with voice, text, link and file input; each step independently savable; drafts stored locally without sign-in.
-- R2 The four public initiative fields plus derived chips (stage, lenses, themes, beneficiaries, languages, scale) and optional eligibility details.
+- R2 The four public initiative fields are the only ones asked for. Stage, lenses, themes, beneficiaries, languages, scale and eligibility details are derived from the description, locations and links, and shown only for correction.
 - R3 Need and offer cards with forms of capital (multi-select of eight), place scope, timeframe or capacity, exchange terms and status (open, met, withdrawn, expired).
 - R4 Location capture that accepts free text, "global", multiple places, and an optional pin or place search; the system attaches bioregion, subrealm, realm, watershed basin and country, shown as removable chips.
 - R5 Editing after saving with revision history; records show last confirmed date; records unconfirmed for 180 days are marked "may be out of date" and excluded from pulse suggestions until confirmed.
@@ -121,7 +121,7 @@ Intake and records
 AI assistance
 
 - R7 Local transcription of voice notes; multilingual by default; audio never leaves the device unless the user opts into cloud transcription.
-- R8 Local extraction of the initiative draft, need cards and offer cards from text, transcript or parsed documents, constrained to the platform's schemas; every derived field is shown for confirmation.
+- R8 Local extraction of the initiative draft, need cards and offer cards from text, transcript or parsed documents, constrained to the platform's schemas; every derived field is shown so it can be corrected, without asking extra questions.
 - R9 Capability detection that chooses a local tier (browser model, desktop WebGPU model, mobile WebGPU model, WASM keyword mode) and shows the user which tier is active and what it costs to download.
 - R10 Consented cloud fallback for extraction and transcription: default off; consent per session or per field; the dialog names provider, model, region, retention and exactly what is sent; a consent and call ledger the user can view and export.
 - R11 Heuristic (no-model) fallback that still produces valid cards from keywords and simple rules.
@@ -132,7 +132,7 @@ Matching
 - R13 Opportunity matching that reuses the existing thematic-fit, readiness and research-priority engine for the solo score.
 - R14 Partnership scoring: for each strong-but-gated opportunity, identify the gaps (requirement, geography, lens) and propose one or two partners that close them, with a partnership score and reasons.
 - R15 Feedback loop: save, dismiss with reason, and introduction outcomes are recorded and used to tune weights; exposure caps keep any one initiative or funder from dominating pulses.
-- R16 Matching runs for drafts in the browser against shared records, so a visitor sees value before giving an email. Saved private initiatives keep one-way matches and never appear in anyone else's.
+- R16 Opportunity matching and a partner teaser (how many partners match and why, names hidden) run for drafts in the browser, so a visitor sees value before giving an email. Partner names, cards and introductions open only for initiatives added to the shared list (give to get). Private initiatives see the teaser only and never appear in anyone else's matches.
 
 Places and curation
 
@@ -174,20 +174,20 @@ Stewardship and operations
 Saving and accounts
 
 - R36 Saving is separate from sharing: an email and a code store a private copy, with no name, password or other field requested.
-- R37 Browsing, search, the full conversation, local AI, matches for a draft, copying your own draft, help and privacy pages never require an email.
+- R37 Browsing, search, the full conversation, local AI, opportunity matches and the partner teaser for a draft, copying your own draft, help and privacy pages never require an email.
 - R38 The request for an email is inline, offered once per moment, and tied to what it does for the person. Declining is one tap and stays declined. No modal, wall, partial results or pre-checked box.
 - R39 The code step accepts paste, keeps what was typed on error, allows fixing a wrong email and resending after 60 seconds, survives a round trip to the mail app, and then resumes the action that asked for it.
 - R40 Signing in merges local drafts without overwriting or duplicating. One email can hold several initiatives.
 - R41 A status line always says where the work lives: on this device, or saved.
 - R42 People can export everything and delete their account, which deletes private initiatives and retracts anything shared.
-- R43 An introduction can share a card with one recipient after confirmation, without changing its visibility.
+- R43 Introductions open once the initiative is shared (give to get); an introduction then shows the full card to one recipient after confirmation, without changing its visibility.
 
 Design quality
 
 - R44 Every screen is built from the design system: tokens from [DESIGN.md](../../DESIGN.md), patterns from the [inventory](../../design-system/COMPONENTS.md), words from [VOICE.md](../../design-system/brand/VOICE.md).
 - R45 Every UI change passes the [five-minute review](../../DESIGN.md#how-we-follow-them). New screens pass the [checklist](../../design-system/principles/ui-review-checklist.md).
-- R46 Anything the assistant derives shows in pencil until a person confirms it.
-- R47 Three people test the product every two weeks through Phase 1, then monthly. Fixes follow the [testing plan](../../design-system/principles/usability-testing.md).
+- R46 Anything the assistant derives shows in pencil until a person confirms or corrects it; derived details never block the flow.
+- R47 One usability round with real users runs before 30 November; the regular testing rhythm is set after launch. Fixes follow the [testing plan](../../design-system/principles/usability-testing.md).
 
 ## 8. Quality requirements
 
@@ -197,20 +197,20 @@ Design quality
 - Security: row-level security on every table; stewards authorised by the existing active-steward predicate; no service-role key in the browser; origin checks on write endpoints; rate limits on sign-in and intake; content security policy on the app shell.
 - Accessibility: WCAG 2.2 AA for the intake, matches, recipes and places pages; reduced-motion honoured by all animation including canvases; text survives 200 percent zoom and the largest browser text size.
 - Design system: tests fail on stale tokens, contrast below AA in either theme, raw values in CSS, undocumented patterns and copy that breaks the voice rules.
-- Internationalisation: UI strings externalised from the start; transcription multilingual; Portuguese and Spanish UI by Phase 2 (Brazil and Latin America are active regions in the network).
+- Internationalisation: UI strings externalised from the start; transcription multilingual; Portuguese and Spanish UI by the end of Phase 1 (Brazil and Latin America are active regions in the network).
 - Openness: source code under an open licence agreed with the council (AGPL-3.0 keeps the option of reusing Coop code; see the technical spec); public data under an open data licence with attribution; schemas published.
 
 ## 9. Scope by phase
 
-Phase names follow the Regen Commons stages of growth. Dates assume one lead builder with agentic tooling and steward time from the council; they are targets, not promises.
+Phase names follow the Regen Commons stages of growth. Dates assume a full-time lead builder in November (afo, working with coding agents), then half to one full-time equivalent, plus steward time from the council; they are targets, not promises.
 
-Phase 0, Seed (now to 14 November 2026): agent scaffolding first ([plan](07-agent-scaffolding.md)); the design system, in React on top of the CSS already defined; rebrand under Regen Commons on the chosen subdomain; three-step intake with typed input and light local extraction; needs and offers with forms of capital; public initiative directory; partner suggestions next to each fund; saving with an email code, private by default; the first usability round; import of the hub doc rows; present at the Community Spotlight on 5 November; evidence of working local AI with real users for the Mozilla Human-Scale AI application due 20 November.
+Phase 0, Seed: the first version (November 2026, live by 30 November): agent scaffolding first ([plan](07-agent-scaffolding.md)); the design system, in React on top of the CSS already defined, so the product carries Regen Commons branding and identity from day one; three-step intake with voice, file and typed input, local AI extraction in the browser and consented cloud fallback; the four public fields with everything else derived; needs and offers with forms of capital; public initiative directory; partner matches with reasons behind give to get, with a teaser before sharing; opportunities with partner suggestions; saving with an email code, private by default; import of the hub doc rows; one usability round; an early demo at the Community Spotlight on 5 November; evidence of working local AI with real users for the Mozilla Human-Scale AI application due 20 November.
 
-Phase 1, Sprout (mid November 2026 to February 2027): voice and file input; local AI tiering with consented cloud fallback; reciprocal partner matching with reasons; opportunity partnership scoring; weekly pulse; steward desk sections; place assignment (bioregion, watershed) and place pages; Murmurations publishing; open data export; Portuguese and Spanish UI.
+Phase 1, Sprout (December 2026 to February 2027): partnership scoring refinements; weekly pulse; steward desk sections; place assignment (bioregion, watershed) and place pages; Murmurations publishing; open data export; Portuguese and Spanish UI.
 
-Phase 2, Flowering (March to June 2027): recipes with join flows and introductions relay; challenge cohorts; regional pulses for funders and stewards; knowledge commons export and KOI partial node; member-first access tier; needs-of-the-place synthesis with sources; funder accounts for publishing calls; matching feedback loop.
+Phase 2, Flowering (March to May 2027): recipes with join flows and introductions relay; challenge cohorts; regional pulses for funders and stewards; knowledge commons export and KOI partial node; member-first access tier; needs-of-the-place synthesis with sources; funder accounts for publishing calls; matching feedback loop.
 
-Phase 3, Tree (second half of 2027): offerings and commitments ledger; optional anchoring to Cosmo-Local Credit pools for a pilot bioregion; cross-pool coordination with partner networks; federation (other networks run the open-source app and exchange via KOI and Murmurations); governance of shared data under council policy.
+Phase 3, Tree (from June 2027): offerings and commitments ledger; optional anchoring to Cosmo-Local Credit pools for a pilot bioregion; cross-pool coordination with partner networks; federation (other networks run the open-source app and exchange via KOI and Murmurations); governance of shared data under council policy.
 
 ## 10. Success measures
 
@@ -230,7 +230,7 @@ Measured monthly from Phase 1; targets for end of Phase 2.
 
 | Risk | Mitigation |
 |---|---|
-| Builder bandwidth is thin and the plan is wide | Phase 0 is two weeks of narrow scope; every later feature ships behind a flag; the funder catalog pipeline is already automated |
+| Builder bandwidth is thin and the plan is wide | Phase 0 is one month with the full core scope and a full-time lead working with coding agents; the order of cuts is agreed in advance if November slips; every later feature ships behind a flag; the funder catalog pipeline is already automated |
 | Local models are too heavy for phones | Tiering with a 570 MB mobile model, keyword fallback, and consented cloud; download size shown before fetching; home-screen install encouraged on iOS |
 | Stale records | Confirmation prompts in the pulse, visible confirmed dates, exclusion from suggestions after 180 days |
 | Matching feels arbitrary | Every suggestion explains itself; dismiss reasons feed weights; stewards can inspect weights and feedback |

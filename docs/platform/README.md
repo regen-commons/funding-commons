@@ -1,4 +1,4 @@
-# Platform plan: Regen Commons Tend (working name)
+# Platform plan: Regen Commons Weave (working name)
 
 Planning documents for growing Funding Commons into a platform where regenerative initiatives share who they are, their needs and their offers across eight forms of capital, and are matched to partners and funding opportunities, with bioregion and watershed curation. Drafted 2026-10-31 from the council sync of 30 October 2026, the bioregional knowledge commons planning call, the Regen Partnerships and Funding Hub doc, the Regen Commons website and steward desk, Coop, the Regen Knowledge Commons repository, and the research in the digest.
 
@@ -16,6 +16,10 @@ Planning documents for growing Funding Commons into a platform where regenerativ
 
 The design system lives at the repository root: [DESIGN.md](../../DESIGN.md) holds the tokens and interface principles, and [design-system/](../../design-system/README.md) holds the brand, voice, CSS and pattern library.
 
-Status: drafts for review. Nothing here is a council decision until recorded in [open decisions](open-decisions.md). The working name "Tend" is a recommendation; see the brief for alternatives and the collision check.
+Status: drafts for review. Nothing here is a council decision until recorded in [open decisions](open-decisions.md). The working name "Weave" is a recommendation; see the brief for alternatives and the collision check.
 
 Related repository docs: [maintenance workflow](../maintenance.md) for the funder catalog, [matching and screening](../matching-screening.md) for the current rubric.
+
+## Handover prompts
+
+Prompts to start the next sessions: [interface design first](handover/01-ui-design-first.md) and [repository scaffolding and agent skills](handover/02-repo-scaffolding.md). The living plan doc, which these files mirror as of 2 November 2026, is at https://claude.ai/artifact/YEjb6QGeaF5iGLaQRczUhH.

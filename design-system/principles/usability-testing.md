@@ -4,7 +4,7 @@ Phases 0 and 1 run no third-party analytics, so watching people is our main feed
 
 ## Rhythm
 
-- A fixed slot every second week until Phase 1 ends, then monthly: half a day, three participants, same-day debrief.
+- One round before the first version goes live on 30 November: half a day, three participants, same-day debrief. The regular rhythm is set after launch.
 - Before the first public demo, run two sessions on anything clickable. If nothing is clickable yet, use the current Funding Commons site and the shared partnerships document as a baseline.
 - Sketches count. Don't wait for a build.
 

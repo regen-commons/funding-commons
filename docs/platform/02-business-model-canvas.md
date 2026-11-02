@@ -1,4 +1,4 @@
-# Business model canvas: Regen Commons Tend (working name)
+# Business model canvas: Regen Commons Weave (working name)
 
 Status: draft for council review · Date: 2026-10-31
 Companion documents: [proposal brief](01-proposal-brief.md) · [PRD](04-prd.md) · [research digest](06-research-digest.md)
@@ -18,7 +18,7 @@ This is a commons, so the canvas has the nine standard blocks plus three that ma
 
 ## 2. Value propositions
 
-For initiatives: tell your story once, by voice if you like, and get ranked partners and funding opportunities with reasons, every week, for your region. Your needs and offers across eight forms of capital become legible to funders who only saw money before.
+For initiatives: tell your story once, by voice if you like, share it, and get ranked partners and funding opportunities with reasons, every week, for your region. Your needs and offers across eight forms of capital become legible to funders who only saw money before.
 
 For funders: see who is ready to apply together, what a watershed or bioregion needs, and which initiatives already hold the living, cultural and social capital a grant should multiply.
 
@@ -83,9 +83,9 @@ Catalog curation (weekly), platform development by phase, steward verification a
 
 | Item | 2027 estimate | Note |
 |---|---|---|
-| Lead builder | 0.5 to 1.0 FTE | The main cost; funded by grants and membership |
+| Lead builder | 0.5 to 1.0 FTE (full time in November 2026 for the first version) | The main cost; funded by grants and membership |
 | Steward and regional curator time | 4 to 8 hours per week across the council | Partly volunteer today; budget stipends in grant proposals |
-| Infrastructure | about USD 65 per month: Supabase Pro 25, Vercel Pro 20, Resend 20 | Cloud AI under USD 10 per month at a 20 percent fallback rate |
+| Infrastructure | about USD 0 per month to start on free plans (Supabase or the existing Regen Commons project, Vercel Hobby, Resend); about USD 65 per month once Vercel Pro 20 (one developer seat), Supabase Pro 25 and Resend Pro 20 are needed | Cloud AI under USD 10 per month at a 20 percent fallback rate |
 | Community inference server (optional, Phase 2) | about EUR 214 per month | Only if the network prefers self-hosted fallback over vendor APIs |
 | Research routines | Existing compute for weekly Codex runs | Already operating |
 | Legal and policy | Data licence, consent policy, terms; fiscal host fees if grants land | One-off plus a percentage of grants |

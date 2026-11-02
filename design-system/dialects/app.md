@@ -1,14 +1,14 @@
 ---
 version: alpha
 name: Regen Commons App Dialect
-description: Rules for the Tend installable web app on top of the core system.
+description: Rules for the Weave installable web app on top of the core system.
 extends: ../../DESIGN.md
 surface: app
 ---
 
 # App dialect
 
-Tend runs on phones first, often on weak connections, for people who may visit once a month. Plain task screens carry the work.
+Weave runs on phones first, often on weak connections, for people who may visit once a month. Plain task screens carry the work.
 
 - **Theme:** follow the system. The control lives in settings with System, Light and Dark. No header toggle.
 - **Type:** base 16 px. Inputs stay at 16 px, so phones do not zoom. Reading text uses `reading-lg` in conversation and `reading-md` in cards.

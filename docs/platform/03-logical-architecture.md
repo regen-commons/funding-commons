@@ -1,4 +1,4 @@
-# Logical architecture: Regen Commons Tend (working name)
+# Logical architecture: Regen Commons Weave (working name)
 
 Status: draft for review · Date: 2026-10-31
 Companion documents: [PRD](04-prd.md) · [technical spec](05-technical-spec.md) · [proposal brief](01-proposal-brief.md)
@@ -24,7 +24,7 @@ flowchart TB
   P[People running initiatives<br/>place-based, tech, research, culture]
   F[Funders, allocators,<br/>bioregional financing facilities]
   S[Stewards and council]
-  W((Tend<br/>tend.regencommons.com))
+  W((Weave<br/>weave.regencommons.com))
   RC[Regen Commons site<br/>members, join, steward desk]
   FC[Funder catalog research<br/>funding-commons repository]
   MU[Murmurations index]
@@ -68,7 +68,7 @@ flowchart LR
   end
   subgraph Data["Supabase: Regen Commons / Website"]
     Auth[Auth<br/>email code]
-    DB[(Postgres<br/>schema tend + existing public/private)]
+    DB[(Postgres<br/>schema weave + existing public/private)]
     Fn[Edge Functions<br/>send-email hook, pulse-compose, outbox-send, match-batch]
     Sched[pg_cron]
   end
@@ -166,14 +166,14 @@ sequenceDiagram
     end
   end
   W-->>G: draft + confidence
-  G-->>U: card with four fields and chips to confirm
+  G-->>U: card with four fields; derived details shown for correction
   U->>G: edits, confirms, continues to needs and offers
   G->>W: embed initiative, needs, offers (local)
   G->>G: private matching against cached public corpus
-  G-->>U: first matches before any email
+  G-->>U: opportunities and partner teaser before any email
   opt person keeps it
     U->>D: email and code · save, private by default
-    D-->>U: saved, one-way matches continue, first email with the card
+    D-->>U: saved, partner names open once shared, first email with the card
   end
   opt person chooses later
     U->>D: who can see it, share scopes, weekly update
@@ -226,7 +226,7 @@ Composer selects eligible initiatives (saved, pulse consent, confirmed within 18
 
 The council's open question was how to avoid building a new centre. The answer is structural, not aspirational:
 
-1. Local first. Drafts, transcription, extraction, embeddings and private matching run on the device. A person can use the conversation and see matches without an account.
+1. Local first. Drafts, transcription, extraction, embeddings and private matching run on the device. A person can use the conversation and see opportunity matches and the partner teaser without an account.
 2. Owned records. People save and share their own records, see where they went, and can withdraw them; retraction propagates to every network they were shared with.
 3. Open identifiers and schemas. Every public record has a stable reference identifier and a content hash; profiles are published in Murmurations schemas; exports are JSON and CSV; vocabularies are published.
 4. One node among nodes. The platform is a KOI partial node (publisher) and a Murmurations publisher; it does not try to be the index. Knowledge enters the Regen Knowledge Commons only through that project's review, never by direct write.
@@ -242,8 +242,8 @@ Where KOI and Coop come in:
 
 ```mermaid
 flowchart LR
-  DNS[regencommons.com DNS<br/>CNAME tend to Vercel] --> V[Vercel project: tend<br/>static + Node functions + cron]
-  V --> SB[Supabase project<br/>Regen Commons / Website<br/>schema tend + existing]
+  DNS[regencommons.com DNS<br/>CNAME weave to Vercel] --> V[Vercel project: weave<br/>static + Node functions + cron]
+  V --> SB[Supabase project<br/>Regen Commons / Website<br/>schema weave + existing]
   SB --> RS[Resend<br/>auth.regencommons.com<br/>mail.regencommons.com]
   RC[Vercel project: regencommons.com<br/>site + /admin] --> SB
   GH[GitHub: regen-commons/funding-commons<br/>app, api, research, tests] --> V
@@ -252,14 +252,14 @@ flowchart LR
   CX[Codex routines<br/>Monday discovery, Thursday freshness] --> GH
 ```
 
-One migration owner. Two Vercel projects. One Supabase project. One Resend account with two sending subdomains. The research routines keep producing reviewed pull requests; nothing recurring merges or deploys on its own.
+One migration owner. Two Vercel projects in the Regen Commons team. One Supabase project. One Resend account with two sending subdomains. The research routines keep producing reviewed pull requests; nothing recurring merges or deploys on its own.
 
 ## 8. Architecture decisions (summary)
 
 | ID | Decision | Alternatives considered | Consequence |
 |---|---|---|---|
 | A1 | Local-first AI with consented cloud fallback | Cloud-only; local-only | Works on weak devices without betraying the sovereignty story; needs a consent ledger and tiering |
-| A2 | Shared Supabase project, dedicated `tend` schema, single migration owner | Separate project with member sync | Reuses Auth, members and stewards directly; requires migration discipline and namespacing |
+| A2 | Shared Supabase project, dedicated `weave` schema, single migration owner | Separate project with member sync | Reuses Auth, members and stewards directly; requires migration discipline and namespacing |
 | A3 | Steward desk extended, not duplicated | Admin on the subdomain | One login and release for stewards; the website repo must accept a UI module and SQL by pull request |
 | A4 | Reuse the Funding Commons rubric for solo scores; add partner and partnership layers | New model-based ranker | Keeps the audited, explainable rubric; partnership logic is additive |
 | A5 | Murmurations and KOI as exchange channels; knowledge commons by review bundle | Custom federation API | Standards-first interoperability; no direct writes to shared knowledge |

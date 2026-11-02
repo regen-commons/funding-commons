@@ -12,7 +12,7 @@ The single list of what is unresolved. Each entry has a recommendation, so a dec
 
 | ID | Question | Recommendation | Needed by | Status |
 |---|---|---|---|---|
-| D1 | What is the product called, and at which subdomain? | Tend at tend.regencommons.com, with Connect as the fallback. Test with outsiders first, because a verb cannot say what the product is. Keep it beside a plain tagline. | Before the first public demo, 5 November | Open |
+| D1 | What is the product called, and at which subdomain? | Weave at weave.regencommons.com, with Connect as the fallback and Tend if the Weave collisions prove a problem. Test with outsiders first, because a verb cannot say what the product is. Keep it beside a plain tagline. | Before the first public demo, 5 November | Open |
 | D2 | Which access tier at launch? | Open: anyone can browse and save. Consider members-first in Phase 2. | Phase 0 | Open |
 | D3 | Which code licence? | AGPL-3.0, which keeps Coop reuse possible. Apache-2.0 if maximum reuse by partners matters more. | Phase 0 | Open |
 | D4 | Which data licence for public records? | CC BY 4.0. | Phase 0 | Open |
@@ -29,7 +29,7 @@ The single list of what is unresolved. Each entry has a recommendation, so a dec
 | ID | Question | Recommendation | Needed by | Status |
 |---|---|---|---|---|
 | D12 | Who owns Supabase migrations? | The website repository for Phase 0, and a shared `regen-commons/supabase` repository from Phase 1. | Phase 0 | Open |
-| D13 | Who administers DNS for regencommons.com, and which Vercel team holds the project? | Confirm with whoever runs the website project. It is not visible from the accounts used so far. | Phase 0 | Open |
+| D13 | Who administers DNS for regencommons.com, and who manages the Regen Commons Vercel team? | Confirm with whoever runs the website project. It is not visible from the accounts used so far. | Phase 0 | Open |
 | D14 | Six or eight digits for sign-in codes? | Six, with attempt limits. It is a project-wide setting, so agree it with the steward desk. | Phase 0 | Open |
 | D15 | Does the steward desk move to the Send Email hook at the same time? | Yes. One template pipeline, branching by app. | Phase 0 | Open |
 | D16 | Where does the design system live long term? | Here until the website or desk adopts more than tokens, then a shared `regen-commons` repository. | When a second app needs it | Open |
@@ -40,6 +40,8 @@ The single list of what is unresolved. Each entry has a recommendation, so a dec
 | D21 | Which KOI node is first contact? | Ask the Regen KOI coordinator and Metagov. Take whichever responds with a test path. | Phase 2 | Open |
 | D22 | Will the Knowledge Commons add Opportunity, Need and Offer classes? | Propose them, with this platform as the fixture source. | Phase 2 | Open |
 | D23 | How long do inactive saved initiatives stay? | Until deleted, with a yearly "still want this?" email after 24 months of no sign-in. Delete only after notice. | Phase 1 | Open |
+| D24 | Where is the app hosted? | Vercel, as a new project in the Regen Commons team beside the website and Funding Commons. The team is on Hobby now and moves to Pro (USD 20 per developer seat) once needed, at the latest when grant money pays a builder, because Hobby is for non-commercial use only. | Phase 0 | Decided (afo, 2 November 2026) |
+| D25 | When do we move to paid plans? | Only when the full place layers (2 to 4 GB against Supabase's 500 MB free limit), daily backups or traffic need them: Vercel Pro USD 20 per developer seat once a builder is paid or per-minute cron is needed, Supabase Pro USD 25, Resend Pro USD 20 when daily sends approach 100. Until then a nightly database dump stands in for backups. | Phase 1 | Open |
 
 ## Waiting on people
 
@@ -52,6 +54,7 @@ The single list of what is unresolved. Each entry has a recommendation, so a dec
 | T5 | Do people understand pencil against ink? | Watch the review step | Test |
 | T6 | Does the save moment work: when do people save, and do they return after Not now? | Task 4 of the testing plan, plus step counts | Test |
 | T7 | Does a seven-word tagline explain the product to outsiders? | Home tour task. Candidate: Find partners and funding for regenerative work | Test |
+| T8 | Does the partner teaser (matches shown, names hidden until you share) encourage sharing, or put people off? | Watch the matches step in the November usability round, plus the share rate | Test |
 
 ## Decided
 

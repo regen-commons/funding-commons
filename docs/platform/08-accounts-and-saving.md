@@ -8,7 +8,7 @@ People should give an email because it does something for them, not because a wa
 ## The decision
 
 1. **Separate saving from sharing.** Saving keeps a private copy on the server. Sharing is a later, separate choice. The old flow tied both together at "publish".
-2. **Show value first.** The whole conversation and the first matches work with no email.
+2. **Show value first.** The whole conversation, the first opportunities and the partner teaser work with no email.
 3. **Ask for an email and nothing else.** No name, no password, no organisation, no boxes to tick.
 4. **Never say "create an account".** Say "Keep this initiative" and "Email me a code". There is one door, and it has one family of verbs: save and sign in.
 5. **Ask inline, once per moment.** No modal and no wall. If someone chooses Not now, that prompt stays gone.
@@ -23,7 +23,7 @@ An initiative moves through these states. People read the words in the second co
 | State | Label | Where it lives | Who can see it |
 |---|---|---|---|
 | Draft | Saved on this device only | The browser (IndexedDB) | Only that browser |
-| Private | Only you | `tend.initiatives`, `visibility = 'private'` | The owner and editors they add |
+| Private | Only you | `weave.initiatives`, `visibility = 'private'` | The owner and editors they add |
 | Network | People signed in | `visibility = 'network'` | Anyone signed in, narrowed by the access tier |
 | Public | Anyone | `visibility = 'public'` | Everyone, plus any sharing the owner turned on |
 | Withdrawn | Withdrawn | `status = 'withdrawn'` | The owner, who can restore or delete it |
@@ -33,15 +33,15 @@ Rules:
 
 - **Only the owner changes visibility.** A steward can hide a shared record, but never make a record more visible.
 - **Moving to Private, or withdrawing,** stops future sharing and sends a retraction to connected networks.
-- **Private initiatives get one-way matches.** They see partners and funding. They never appear in anyone else's matches, lists, place pages or counts per initiative.
+- **Private initiatives get funding matches and the partner teaser.** They see ranked opportunities and how many partners match and why, with names hidden; partner names open once they share (give to get). They never appear in anyone else's matches, lists, place pages or counts per initiative.
 - **Stewards cannot read private initiatives.** Nothing there has been shared, so there is nothing to tidy. Aggregate counts are fine.
-- **An introduction shares with one person.** Asking for an introduction shows your card to that recipient only, after you confirm. It does not change your visibility. A private initiative can therefore make contact without going public.
+- **An introduction shares with one person.** Introductions open with partner names, once your initiative is shared on the list. Asking for one then shows your full card to that recipient only, after you confirm, without changing what anyone else can see.
 - **One email can hold several initiatives.** An initiative can add editors later.
 
 Examples:
 
 - Ana finishes all three steps on her phone and closes the tab. She comes back the next day in the same browser, and the draft is there. No email was involved.
-- Ana saves with her email, then signs in on a laptop. She sees her initiative, private, with her matches.
+- Ana saves with her email, then signs in on a laptop. She sees her initiative, private, with her funding matches and the partner teaser.
 - Ana started a second draft on the laptop before signing in. After the code she sees both, and chooses to keep them as two initiatives or replace the saved one. Nothing is silently overwritten.
 - Ana types the wrong email. Nothing is created until a code is confirmed. She taps Wrong email?, fixes it, and her draft is untouched.
 - A steward opens the desk. Ana's private initiative does not appear, and a direct query is refused by row-level security.
@@ -53,7 +53,7 @@ Examples:
 - Search and filters.
 - The full three-step conversation, by typing, speaking or attaching a file.
 - Local AI, and consenting to cloud AI for one step.
-- Seeing matches for a draft, with all of its reasons.
+- Seeing funding matches for a draft and the partner teaser (how many partners match and why), with all of their reasons.
 - Copying or downloading your own draft.
 - Help, privacy pages, and the "still accurate" and unsubscribe links in email.
 
@@ -76,7 +76,7 @@ Gated actions say so before the tap: "They need a way to reply, so this asks for
 Each moment appears once, inline, in the flow of the page.
 
 1. **After the first confirmed card.** The status line reads "Saved on this device only" and links to saving. Nothing else moves.
-2. **When matches first appear.** The panel sits right after the first partner match, because the person has now seen what they would keep. See the [finish example](../../design-system/patterns/pages/finish.html).
+2. **When matches first appear.** The panel sits right after the first opportunities and the partner teaser, because the person has now seen what they would keep. See the [finish example](../../design-system/patterns/pages/finish.html).
 3. **At the action that needs it.** Remind me, Ask for an introduction, Ask to join, Who can see it.
 
 Never at arrival, never in a modal, never mid-recording or mid-edit, and never again after Not now, except when the person taps an action that needs it.
@@ -135,7 +135,7 @@ The privacy page must say all of this plainly:
 
 - Saving stores a copy on Regen Commons servers. Embeddings computed in the browser are stored with it, so matches can continue.
 - People who administer the database can technically read stored records. They are bound by the published data policy. So the label "Only you" describes the product, and the privacy page explains the limit. If that is not acceptable for some groups, they can stay on a device-only draft.
-- The matching job reads private embeddings through a restricted role, to produce one-way matches.
+- The matching job reads private embeddings through a restricted role, to produce funding matches and the partner teaser.
 - How to export everything and how to delete everything. Deleting an account deletes its private initiatives and retracts anything shared.
 
 ## Technical changes
@@ -144,16 +144,16 @@ The privacy page must say all of this plainly:
 - **Row-level security.** The owner and editors read private rows. Stewards read `network` and `public` rows only. Policy tests cover steward against private.
 - **Auth email.** The project's sign-in template is worded for stewards. Move to the Send Email hook before any public test, branching on the requesting app.
 - **Code length.** The project uses eight digits today. Six is easier on phones and safe with attempt limits. It is a project-wide setting, so the steward desk changes too. See the [open decisions](open-decisions.md).
-- **Creating users.** The Tend client sends `shouldCreateUser: true`. The steward desk stays as it is.
+- **Creating users.** The Weave client sends `shouldCreateUser: true`. The steward desk stays as it is.
 - **Shared limits.** Email rate limits and any captcha are project-wide, so public traffic can affect steward sign-in. Set limits with that in mind, and test them.
-- **Sending volume.** Every save sends a code and a first email. Resend's free tier allows 100 emails a day, so move to the paid tier before a public launch or a demo that invites sign-ups.
+- **Sending volume.** Every save sends a code and a first email. Resend's free tier allows 100 emails a day, so move to the paid tier (USD 20) when daily sends approach 100, or before a large public invitation.
 - **Draft merge.** On sign-in, compare local drafts with saved initiatives. Never overwrite. Use the local draft ID as an idempotency key, so a retry cannot create a duplicate.
 - **Session.** supabase-js keeps its session in `localStorage`, which relies on the strict content security policy in the spec.
 - **Mail-app round trip.** Keep the pending email and the action to resume in local storage, so returning from the mail app lands on the code step.
 
 ## What we measure
 
-First-party, anonymous step counts only, with no third-party analytics. Watching people monthly matters more than these numbers.
+First-party, anonymous step counts only, with no third-party analytics. Watching people use it matters more than these numbers.
 
 - Time from tapping save to saved, on a phone.
 - Share of finished conversations that save.
@@ -166,13 +166,13 @@ Do not use accounts created as a measure of success.
 ## Considered and rejected
 
 - **Anonymous Supabase sign-ins** before the email. They add a server copy nobody asked for, a merge problem and an abuse surface. The local draft already covers this need.
-- **Showing only the top matches until saved.** It conflicts with R16 and with showing value first, and it reads as a trick. Revisit only if testing gives a strong reason.
+- **Holding matches back until an email arrives.** Funding matches and the partner teaser never wait for an email. Only partner names wait, and they wait for sharing, not for saving (R16): giving to the commons is the price, not an email.
 - **Magic links only.** They break in mobile mail apps that open links in an internal browser. Code first, with a link as a secondary option.
 - **Passwords and third-party sign-in.** More to manage, more to explain, and no benefit at this scale. R25 already excludes them.
 - **Requiring an email at the start of the conversation.** It asks for trust before giving anything back.
 
 ## Build order
 
-- **Phase 0:** local draft, status line, code panel, private save, the visibility choice, the auth email hook, row-level security with tests. Reminders can wait.
+- **Phase 0:** local draft, status line, code panel, private save, the visibility choice, the auth email hook, the partner teaser with names opening on share, row-level security with tests. Reminders can wait.
 - **Phase 1:** reminders, the weekly update opt-in, draft merge across devices, export and delete, real-count sharing nudges.
 - **Phase 2:** editors, per-recipient sharing for introductions, the claiming flow for imported records beyond the seed rows.
