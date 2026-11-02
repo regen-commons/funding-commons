@@ -13,7 +13,8 @@ const canonical = v => Array.isArray(v) ? v.map(canonical) : v && typeof v === '
   ? Object.fromEntries(Object.keys(v).sort().map(k => [k, canonical(v[k])])) : v;
 const hash = v => createHash('sha256').update(JSON.stringify(canonical(v))).digest('hex');
 const archive = read('research/maintenance-history/region-tags-2026-10-29/revisions.json');
-const funds = read('dist/data/funders.json').funds;
+const catalog = read('dist/data/funders.json');
+const funds = catalog.funds;
 
 test('CDFW and FUNBIO remain discoverable when search is combined with their work-region filter', () => {
   for (const [id,q,region] of [
@@ -62,7 +63,8 @@ test('normal import reproduces corrected regions and all retained program terms'
   const dir=fs.mkdtempSync(join(tmpdir(),'funding-region-import-'));
   try {
     for(const path of ['research','scripts','dist/data']) fs.cpSync(new URL(path,root),join(dir,path),{recursive:true});
-    const result=spawnSync('python3',['scripts/import-data.py'],{cwd:dir,encoding:'utf8'});
+    // Pin the clock to the committed compile so a passing deadline cannot change the expected catalog.
+    const result=spawnSync('python3',['scripts/import-data.py','--as-of',catalog.compiledAt],{cwd:dir,encoding:'utf8'});
     assert.equal(result.status,0,result.stderr);
     assert.deepEqual(JSON.parse(fs.readFileSync(join(dir,'dist/data/funders.json'))).funds,funds);
   } finally { fs.rmSync(dir,{recursive:true,force:true}); }
