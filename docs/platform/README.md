@@ -22,4 +22,4 @@ Related repository docs: [maintenance workflow](../maintenance.md) for the funde
 
 ## Handover prompts
 
-Prompts to start the next sessions: [interface design first](handover/01-ui-design-first.md) and [repository scaffolding and agent skills](handover/02-repo-scaffolding.md). The living plan doc, which these files mirror as of 2 November 2026, is at https://claude.ai/artifact/YEjb6QGeaF5iGLaQRczUhH.
+Prompts for the next two sessions, which run in parallel: an [interface prototype](handover/01-ui-design-first.md) to click through as an Artifact before anything is built, and the [repository foundation and agent skills](handover/02-repo-scaffolding.md), with a Green Goods layout and the design system as a package. The living plan doc, which these files mirror as of 2 November 2026, is at https://claude.ai/artifact/YEjb6QGeaF5iGLaQRczUhH.
