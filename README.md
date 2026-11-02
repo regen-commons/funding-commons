@@ -8,7 +8,7 @@ Publication status: public on Vercel since October 16, 2026. The OpenAI Site reg
 
 ## Platform plan and design system
 
-[docs/platform](docs/platform/README.md) holds the plan for growing this site into a Regen Commons platform for initiatives, needs, offers and partner matching. [DESIGN.md](DESIGN.md) and [design-system/](design-system/README.md) define the Regen Commons design system and brand in code. Neither changes the live site in `dist/`.
+[docs/platform](docs/platform/README.md) holds the plan for growing this site into a Regen Commons platform for initiatives, needs, offers and partner matching. [DESIGN.md](DESIGN.md) and [packages/design-system/](packages/design-system/README.md) define the Regen Commons design system and brand in code. Neither changes the live site in `dist/`.
 
 ## Catalog and maintenance
 

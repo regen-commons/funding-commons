@@ -88,7 +88,7 @@ Keep it under about 150 lines. It owns:
 - **Domain language.** Initiative, need, offer, form of capital, lens, opportunity, match, recipe, place, pulse, member, steward. Point to the owning definitions; do not restate them.
 - **Skills and read-when-relevant routing.** A short table, as in the site's guide.
 - **Checks.** The ladder below.
-- **Writing.** `humanize-writing` for prose, [VOICE.md](../../design-system/brand/VOICE.md) for product copy.
+- **Writing.** `humanize-writing` for prose, [VOICE.md](../../packages/design-system/brand/VOICE.md) for product copy.
 
 It also records the facts that trip agents today. The local vector files are ignored build output, so `bun run build` must run before `bun run test` after catalog changes, or the vector tests fail on stale files. The import test used to compare a clock-dependent import with the committed catalog and failed on the day after a deadline passed; it now reruns the import as of the catalog's `compiledAt`, so a change to the importer has to keep `--as-of` working.
 
@@ -105,18 +105,18 @@ It also records the facts that trip agents today. The local vector files are ign
 | `data-change` | Migrations, RLS, steward commands | Site's `supabase/AGENTS.md` plus migration ownership rules | Phase 0 |
 | `intake-ai` | Prompts, extraction contracts, model tiers, consent flows | New, using Coop's method | Phase 1 |
 | `matching` | Scoring weights, reasons, `engine_version` | New, built on [docs/matching-screening.md](../matching-screening.md) | Phase 1 |
-| `usability-test` | Running the monthly test and turning findings into work | New; plan in [design-system/principles/usability-testing.md](../../design-system/principles/usability-testing.md) | Phase 1 |
+| `usability-test` | Running the monthly test and turning findings into work | New; plan in [packages/design-system/principles/usability-testing.md](../../packages/design-system/principles/usability-testing.md) | Phase 1 |
 | `interop` | Murmurations, KOI and Knowledge Commons sharing, retraction | New | Phase 2 |
 
-The `design` skill carries the rule that UI work follows the three books. It reads [DESIGN.md](../../DESIGN.md) and the [notes on each book](../../design-system/principles/README.md), and it requires:
+The `design` skill carries the rule that UI work follows the three books. It reads [DESIGN.md](../../DESIGN.md) and the [notes on each book](../../packages/design-system/principles/README.md), and it requires:
 
 1. **Start from the feature, not the layout.** Design the smallest useful version first, with real and worst-case content.
-2. **Find the existing pattern.** Check the [component inventory](../../design-system/COMPONENTS.md) and reuse it, or record why not.
+2. **Find the existing pattern.** Check the [component inventory](../../packages/design-system/COMPONENTS.md) and reuse it, or record why not.
 3. **Place it.** Name its level (atom, molecule, organism, template, page) and add it to the pattern library in the same change.
 4. **Use only tokens.** A value outside the scales is drift.
 5. **Design every state.** Empty, loading, partial, error, offline, long content and first use.
 6. **Run the [five-minute review](../../DESIGN.md#how-we-follow-them).** Report the result in the handoff.
-7. **Record decisions.** Settled questions go in the [decision log](../../design-system/decision-log.md).
+7. **Record decisions.** Settled questions go in the [decision log](../../packages/design-system/decision-log.md).
 
 Skills follow the site's frontmatter (`name`, `description`), stay under about 300 lines and move detail into linked files. They never grant authority: a skill's existence does not permit publishing, deploying or messaging.
 
@@ -165,7 +165,7 @@ Every piece of rendered proof names its class: `fixture`, `local Supabase`, `pre
 Each step is one small pull request with its own check. The [repository layout](09-repository-layout.md#build-order) gives each step's contents in full.
 
 1. **Workspace and foundation.** Bun workspaces, `AGENTS.md`, `CLAUDE.md`, `research/AGENTS.md`, `.claude/skills` with `plan`, `debug`, `review`, `ship`, the `.agents/skills` symlink. Check: a fresh agent session can answer where to work and which check to run without reading anything else, and `bun run build && bun run test` still passes.
-2. **Design-system package.** Move `design-system/` to `packages/design-system/`, then add the `design` skill, `.claude/rules/frontend-design.md`, the package's `AGENTS.md`, and `design:check` in CI. Check: the design-system tests pass with only path changes, and a raw hex value in the package's CSS fails them.
+2. **Design-system package.** Move `packages/design-system/` to `packages/design-system/`, then add the `design` skill, `.claude/rules/frontend-design.md`, the package's `AGENTS.md`, and `design:check` in CI. Check: the design-system tests pass with only path changes, and a raw hex value in the package's CSS fails them.
 3. **Development flow and guardrails.** `.claude/launch.json`, hooks, command policy, `scripts/quality/check-guidance.mjs`. Check: each blocked action fails in a test; links and frontmatter are validated in CI.
 4. **Catalog skill.** Move the maintenance guide into `catalog-research` once #9 has merged or closed, and update the two saved Codex routines. Check: the next Monday run follows the skill with no behavior change.
 5. **App shell and API.** `packages/app` and `packages/api` with their guides and a health check. The `supabase/` guide and `data-change` arrive with the first migration.

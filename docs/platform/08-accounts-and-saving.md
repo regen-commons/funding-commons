@@ -1,7 +1,7 @@
 # Saving initiatives and accounts
 
 Status: proposal · Date: 2026-10-31
-Companion documents: [PRD](04-prd.md) · [technical spec](05-technical-spec.md) · [DESIGN.md](../../DESIGN.md) · [example pages](../../design-system/patterns/pages/finish.html)
+Companion documents: [PRD](04-prd.md) · [technical spec](05-technical-spec.md) · [DESIGN.md](../../DESIGN.md) · [example pages](../../packages/design-system/patterns/pages/finish.html)
 
 People should give an email because it does something for them, not because a wall stops them. So saving is separate from sharing, and an email is only requested at the moment it helps. The rest of this document says how.
 
@@ -14,7 +14,7 @@ People should give an email because it does something for them, not because a wa
 5. **Ask inline, once per moment.** No modal and no wall. If someone chooses Not now, that prompt stays gone.
 6. **Give true reasons.** Work saved only in a browser can vanish. Say so where it is true, and do not invent any other pressure.
 
-The books have no data on when to ask for sign-up. Krug's chapters on goodwill and mobile point this way, but this remains a hypothesis to test with people. See the [testing plan](../../design-system/principles/usability-testing.md).
+The books have no data on when to ask for sign-up. Krug's chapters on goodwill and mobile point this way, but this remains a hypothesis to test with people. See the [testing plan](../../packages/design-system/principles/usability-testing.md).
 
 ## Lifecycle
 
@@ -76,14 +76,14 @@ Gated actions say so before the tap: "They need a way to reply, so this asks for
 Each moment appears once, inline, in the flow of the page.
 
 1. **After the first confirmed card.** The status line reads "Saved on this device only" and links to saving. Nothing else moves.
-2. **When matches first appear.** The panel sits right after the first opportunities and the partner teaser, because the person has now seen what they would keep. See the [finish example](../../design-system/patterns/pages/finish.html).
+2. **When matches first appear.** The panel sits right after the first opportunities and the partner teaser, because the person has now seen what they would keep. See the [finish example](../../packages/design-system/patterns/pages/finish.html).
 3. **At the action that needs it.** Remind me, Ask for an introduction, Ask to join, Who can see it.
 
 Never at arrival, never in a modal, never mid-recording or mid-edit, and never again after Not now, except when the person taps an action that needs it.
 
 ## The flow
 
-The [code panel](../../design-system/COMPONENTS.md#organisms) does this everywhere.
+The [code panel](../../packages/design-system/COMPONENTS.md#organisms) does this everywhere.
 
 1. **Email.** One field. It requests a code and subscribes to nothing.
 2. **Code.** One field with `autocomplete="one-time-code"` and `inputmode="numeric"`. It accepts a pasted code, with or without spaces. The page says where the code went, with Wrong email? and Send a new code after 60 seconds.

@@ -2,11 +2,11 @@
 
 Settled questions, so each session does not reopen them. Entries are append-only. Change a decision by adding a new entry that supersedes the old one.
 
-Status: `open` while unanswered, `proposed` until the council or the maker confirms it, `locked` once confirmed, `codified` once tests or tokens enforce it, `superseded` once replaced. Nothing here is `locked` as of 2026-10-31. Confirmation of product-wide choices belongs to the council. See [open decisions](../docs/platform/open-decisions.md).
+Status: `open` while unanswered, `proposed` until the council or the maker confirms it, `locked` once confirmed, `codified` once tests or tokens enforce it, `superseded` once replaced. Nothing here is `locked` as of 2026-10-31. Confirmation of product-wide choices belongs to the council. See [open decisions](../../docs/platform/open-decisions.md).
 
 ## DL-001: DESIGN.md is the single source of tokens
 
-**Status:** codified. Root `DESIGN.md` in the DesignMD format holds all tokens and reasoning. `scripts/design/generate-tokens.mjs` produces CSS and JSON, and tests fail on stale output. Green Goods and Coop use the same format. Groups the format lacks (fonts, motion, shadows) live in a fenced block in the same file, so there is still one source. The linter runs on a pinned `@google/design.md` 0.4.0, a newer release than Green Goods' 0.1.1.
+**Status:** codified. Root `DESIGN.md` in the DesignMD format holds all tokens and reasoning. `packages/design-system/scripts/generate-tokens.mjs` produces CSS and JSON, and tests fail on stale output. Green Goods and Coop use the same format. Groups the format lacks (fonts, motion, shadows) live in a fenced block in the same file, so there is still one source. The linter runs on a pinned `@google/design.md` 0.4.0, a newer release than Green Goods' 0.1.1.
 
 ## DL-002: Keep every website value
 
@@ -54,7 +54,7 @@ Status: `open` while unanswered, `proposed` until the council or the maker confi
 
 ## DL-013: The system lives here until a second consumer needs it
 
-**Status:** proposed. `design-system/` is self-contained, outside `dist/`, so deploys are unaffected and it can move to a shared `regen-commons` repository when the website or desk adopts it. Moving it is an [open decision](../docs/platform/open-decisions.md).
+**Status:** proposed. `packages/design-system/` is self-contained, outside `dist/`, so deploys are unaffected and it can move to a shared `regen-commons` repository when the website or desk adopts it. Moving it is an [open decision](../../docs/platform/open-decisions.md).
 
 ## DL-014: Plain labels first, tested with people
 
@@ -62,7 +62,7 @@ Status: `open` while unanswered, `proposed` until the council or the maker confi
 
 ## DL-015: One CSS source, thin React components
 
-**Status:** proposed. React components in `app/src/ui` render these classes and own no visual CSS. The *Atomic Design* notes proposed CSS modules per component. One global layered source keeps the library, app and website adoption simple. Revisit if class collisions appear.
+**Status:** proposed. React components in `packages/app/src/ui` render these classes and own no visual CSS. The *Atomic Design* notes proposed CSS modules per component. One global layered source keeps the library, app and website adoption simple. Revisit if class collisions appear.
 
 ## DL-016: Static pattern library for now
 
@@ -74,4 +74,4 @@ Status: `open` while unanswered, `proposed` until the council or the maker confi
 
 ## DL-018: The save prompt is inline, once per seam
 
-**Status:** proposed. Saving appears as a panel in the page flow, after a person has seen value, never as a modal or wall. The panel is the same pattern everywhere. A dismissed prompt stays dismissed. See [08-accounts-and-saving.md](../docs/platform/08-accounts-and-saving.md).
+**Status:** proposed. Saving appears as a panel in the page flow, after a person has seen value, never as a modal or wall. The panel is the same pattern everywhere. A dismissed prompt stays dismissed. See [08-accounts-and-saving.md](../../docs/platform/08-accounts-and-saving.md).

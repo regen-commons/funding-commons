@@ -1,6 +1,6 @@
 # Regen Commons brand
 
-This guide defines the brand across the website, the steward desk, products and email. [DESIGN.md](../../DESIGN.md) owns exact values, and [VOICE.md](VOICE.md) owns language. Everything here describes what regencommons.com already does, except where marked as a proposal.
+This guide defines the brand across the website, the steward desk, products and email. [DESIGN.md](../../../DESIGN.md) owns exact values, and [VOICE.md](VOICE.md) owns language. Everything here describes what regencommons.com already does, except where marked as a proposal.
 
 ## What it is
 
@@ -47,11 +47,11 @@ Rules:
 
 - **Regen Commons** is the organisation and the commons. Write it in two words with both capitals.
 - **Product names** sit beside the mark, top-left, and return to that product's home. A short word such as Weave cannot explain itself, so it always appears near a plain tagline on first contact.
-- **Weave** is a working name that the council has not yet confirmed. See the [open decisions](../../docs/platform/open-decisions.md). Keep it out of component names and tokens, so a rename touches only copy and configuration.
+- **Weave** is a working name that the council has not yet confirmed. See the [open decisions](../../../docs/platform/open-decisions.md). Keep it out of component names and tokens, so a rename touches only copy and configuration.
 
 ## Colour story
 
-The palette comes from soil, plants and metal in low light. [DESIGN.md](../../DESIGN.md#colors) has the values.
+The palette comes from soil, plants and metal in low light. [DESIGN.md](../../../DESIGN.md#colors) has the values.
 
 | Name | Role in the brand |
 |---|---|

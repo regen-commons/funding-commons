@@ -10,8 +10,8 @@ You are designing the interface for Weave, the first version of the Regen Common
 
 1. The living plan doc: https://claude.ai/artifact/YEjb6QGeaF5iGLaQRczUhH (tabs: Proposal brief, Product requirements, Saving and accounts, Design system, Open decisions). For requirements and decisions it wins over the repository. Note any difference.
 2. In `regen-commons/funding-commons`, an up-to-date `origin/docs/tend-platform-plan` whose history includes "docs(platform): sync plan with the living doc and add handover prompts". If it doesn't, stop and tell me. Read `docs/platform/01-proposal-brief.md`, `docs/platform/04-prd.md` (sections 6 and 7, R1 to R47), `docs/platform/08-accounts-and-saving.md` and `docs/platform/open-decisions.md`.
-3. The design system: `DESIGN.md`, `design-system/README.md`, `design-system/brand/BRAND.md`, `design-system/brand/VOICE.md`, `design-system/COMPONENTS.md`, `design-system/decision-log.md`, and `design-system/principles/` (the three books, the review checklist and the usability testing plan).
-4. The example pages in `design-system/patterns/pages/` (home, step-needs, finish, matches, matches-empty, code, saved). Run `bun run design:serve` and open `http://localhost:4173/patterns/index.html` to see them rendered.
+3. The design system: `DESIGN.md`, `packages/design-system/README.md`, `packages/design-system/brand/BRAND.md`, `packages/design-system/brand/VOICE.md`, `packages/design-system/COMPONENTS.md`, `packages/design-system/decision-log.md`, and `packages/design-system/principles/` (the three books, the review checklist and the usability testing plan).
+4. The example pages in `packages/design-system/patterns/pages/` (home, step-needs, finish, matches, matches-empty, code, saved). Run `bun run design:serve` and open `http://localhost:4173/patterns/index.html` to see them rendered.
 
 The foundation session may move these files while you work. Read them from a temporary worktree of one commit of that branch, outside the main checkout, and record which commit you used.
 
@@ -44,12 +44,12 @@ Add a small control bar with a screen list, the state switcher, a theme choice (
 
 ## How to build it
 
-- Use the design system itself, not a copy of its values. Publish `design-system/css/`, `design-system/tokens/tokens.generated.css` and `design-system/fonts/` unchanged, at the same relative paths, as the Artifact's supporting files, and link only `css/index.css`. Its imports load the fonts, tokens and layers. Anything new goes in one separate prototype stylesheet that uses only tokens, with each new pattern marked as proposed.
+- Use the design system itself, not a copy of its values. Publish `packages/design-system/css/`, `packages/design-system/tokens/tokens.generated.css` and `packages/design-system/fonts/` unchanged, at the same relative paths, as the Artifact's supporting files, and link only `css/index.css`. Its imports load the fonts, tokens and layers. Anything new goes in one separate prototype stylesheet that uses only tokens, with each new pattern marked as proposed.
 - Start from the feature, not the layout. List the screens and states and the `COMPONENTS.md` patterns each one uses. Flag any new pattern you need and say why no existing one fits.
 - Use fictional example content, and say so on every screen. Simulate the AI and the network: show the real download, consent and offline prompts, but call no model and no service.
 - Collect nothing. The email and code steps run in page state only, and nothing typed is sent or stored.
 - Publish early (home and step 1), then keep updating the same Artifact so its link stays the same. It is private by default; do not share it or make it public.
-- Run the five-minute review in `design-system/principles/ui-review-checklist.md` on every screen at 360 px and 1280 px in both themes.
+- Run the five-minute review in `packages/design-system/principles/ui-review-checklist.md` on every screen at 360 px and 1280 px in both themes.
 - Draft the script for the one usability round that runs before 30 November: three participants, tasks from `usability-testing.md`, run on this prototype. Include a task on whether the partner teaser makes people want to share. `usability-testing.md` has no such task yet (its task 8 is the weekly update), so propose the wording.
 
 ## Done means

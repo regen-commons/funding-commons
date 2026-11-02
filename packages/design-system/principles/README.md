@@ -12,7 +12,7 @@ The PDFs are licensed copies held by the team and are never committed. Buy your 
 
 Two working documents turn the books into habits.
 
-- [ui-review-checklist.md](ui-review-checklist.md) has the checks for any UI change. The [five-minute review](../../DESIGN.md#how-we-follow-them) is the short version.
+- [ui-review-checklist.md](ui-review-checklist.md) has the checks for any UI change. The [five-minute review](../../../DESIGN.md#how-we-follow-them) is the short version.
 - [usability-testing.md](usability-testing.md) is the plan for watching people use the product.
 
-Where the books conflict with each other or with this product, [DESIGN.md](../../DESIGN.md) and the [decision log](../decision-log.md) record what we chose. All three are guidance about typical situations. When real users show otherwise, believe the users.
+Where the books conflict with each other or with this product, [DESIGN.md](../../../DESIGN.md) and the [decision log](../decision-log.md) record what we chose. All three are guidance about typical situations. When real users show otherwise, believe the users.

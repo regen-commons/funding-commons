@@ -46,10 +46,10 @@ tests, ask which distinct failure each assertion catches.
 For any screen, component, CSS or copy change, apply the
 [five-minute review](../../../DESIGN.md#how-we-follow-them) on a rendered page at
 360 px and at a wide width, in both themes. Larger changes use the
-[review checklist](../../../design-system/principles/ui-review-checklist.md). Flag
+[review checklist](../../../packages/design-system/principles/ui-review-checklist.md). Flag
 raw values instead of tokens, one-off components where a pattern exists, colour as
 the only signal, hover-only actions, unlabeled inputs, controls that do not work
-yet, and copy that breaks [VOICE.md](../../../design-system/brand/VOICE.md).
+yet, and copy that breaks [VOICE.md](../../../packages/design-system/brand/VOICE.md).
 
 ## Obtain proportionate evidence
 
