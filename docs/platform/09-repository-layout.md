@@ -31,7 +31,7 @@ packages/
 supabase/                         platform migrations, created with the first one
 .claude/                          skills, rules, context, settings.json, launch.json
 .agents/skills -> ../.claude/skills
-.codex/                           config.toml, hooks.json, hooks/
+.codex/                           config.toml, hooks.json
 .github/workflows/                validate.yml (unchanged), design.yml, guidance.yml
 ```
 

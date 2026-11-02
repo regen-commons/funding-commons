@@ -99,8 +99,9 @@ Run the focused check for the behavior you changed, then what the ladder adds.
 | Catalog data or the importer | `bun run research:import` when research inputs changed, then `bun run build`, then `bun run test` |
 | The live site's interface | `bun run build`, `bun run test`, and a rendered check at 360 px and 1280 px with the keyboard |
 | Tokens or the design system | `bun run design:check` and `bun run --filter @regen-commons/design-system test` |
-| Docs and guidance | Every changed link resolves. The design-system test checks the design documents' links |
-| Before push (what CI runs) | `bun install --frozen-lockfile`, `bun run build`, `bun run test`, `bun run design:check`, `git diff --exit-code`, `git diff --check` |
+| Docs, guidance, skills or rules | `bun run guidance:check` |
+| Hooks or checkers in `scripts/harness/` and `scripts/quality/` | `node --test scripts/harness/*.test.mjs scripts/quality/*.test.mjs` |
+| Before push (what CI runs) | `bun install --frozen-lockfile`, `bun run build`, `bun run test`, `bun run design:check`, `bun run guidance:check`, `git diff --exit-code`, `git diff --check` |
 
 Two traps. After catalog changes, run `bun run build` before `bun run test`, because
 the vector files are ignored build output and the tests fail on stale ones. The
@@ -122,11 +123,16 @@ commands you ran and what they showed, including checks you could not run.
 ## Writing
 
 Use `humanize-writing` for prose people read, such as docs, pull requests and
-handoffs. Product copy follows [VOICE.md](packages/design-system/brand/VOICE.md): sentence
-case, plain words, no em dashes and no arrows. Lead with the outcome, keep code,
-commands and paths exact, and say what is uncertain or unverified.
+handoffs. Product copy follows [VOICE.md](packages/design-system/brand/VOICE.md):
+sentence case, plain words, no em dashes and no arrows. Lead with the outcome, keep
+code, commands and paths exact, and say what is uncertain or unverified.
 
 ## Harness files
 
 `CLAUDE.md` only imports this file. Keep repository policy here, not in
-harness-specific files.
+harness-specific files. Hooks in `.claude/settings.json` and `.codex/hooks.json` run
+the same scripts in `scripts/harness/`: they block `bun test`, `.env` reads and edits
+to secrets or generated files, ask before broad staging, force pushes, discarding
+work, merges and deploys, and ask for the matching checks before you stop. Do not
+weaken or work around them; change them in a reviewed pull request with their tests.
+Preview servers start from `.claude/launch.json`.
