@@ -85,7 +85,8 @@ function checkCommands(root, files) {
         const name = filter?.replace(/^['"]|['"]$/g, "");
         if (!filter) {
           if (!rootScripts[script]) failures.push(`${file}: \`bun run ${script}\` is not a root package.json script`);
-        } else if (name.includes("*")) {
+        } else if (name.includes("*") || /^<[\w-]+>$/.test(name)) {
+          // A glob or a placeholder such as <package>: some package must have the script.
           if (![...packages.values()].some((pkg) => pkg.scripts[script])) failures.push(`${file}: no workspace package has a \`${script}\` script`);
         } else if (!packages.has(name)) failures.push(`${file}: \`bun run --filter ${name}\` names no workspace package`);
         else if (!packages.get(name).scripts[script]) failures.push(`${file}: \`bun run --filter ${name} ${script}\` is not a script in packages/${packages.get(name).dir}/package.json`);

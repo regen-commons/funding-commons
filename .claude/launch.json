@@ -18,6 +18,17 @@
         "design:serve"
       ],
       "port": 4173
+    },
+    {
+      "name": "app",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "--filter",
+        "@weave/app",
+        "dev"
+      ],
+      "port": 5173
     }
   ]
 }

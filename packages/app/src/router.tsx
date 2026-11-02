@@ -1,0 +1,39 @@
+// A small history router for the shell. Replace it with a router library when pages
+// need nested layouts or data loading; until then this keeps the app dependency-free.
+import { useSyncExternalStore, type AnchorHTMLAttributes, type MouseEvent } from "react";
+
+const listeners = new Set<() => void>();
+
+function subscribe(listener: () => void): () => void {
+  listeners.add(listener);
+  window.addEventListener("popstate", listener);
+  return () => {
+    listeners.delete(listener);
+    window.removeEventListener("popstate", listener);
+  };
+}
+
+/** The current pathname, kept in step with links and the back button. */
+export function usePathname(): string {
+  return useSyncExternalStore(subscribe, () => window.location.pathname, () => "/");
+}
+
+export function navigate(to: string): void {
+  if (to === window.location.pathname) return;
+  window.history.pushState(null, "", to);
+  for (const listener of listeners) listener();
+}
+
+type LinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & { href: string };
+
+/** An in-app link: a plain anchor that changes page without a reload. */
+export function Link({ href, onClick, ...props }: LinkProps) {
+  function handleClick(event: MouseEvent<HTMLAnchorElement>) {
+    onClick?.(event);
+    const modified = event.metaKey || event.ctrlKey || event.shiftKey || event.altKey;
+    if (event.defaultPrevented || event.button !== 0 || modified || props.target) return;
+    event.preventDefault();
+    navigate(href);
+  }
+  return <a href={href} onClick={handleClick} {...props} />;
+}
