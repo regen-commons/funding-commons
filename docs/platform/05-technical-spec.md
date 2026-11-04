@@ -81,7 +81,7 @@ flowchart LR
 
 ### 3.2 Runtime versions to pin
 
-Transformers.js `@huggingface/transformers` 4.3.2 (upgrade from 4.2.0; 4.3 enables WebGPU on Safari 26 and exposes `getSupportedDevices`), `@huggingface/transformers-structured-output` 4.3.2, `onnxruntime-web` as resolved by Transformers.js, `@supabase/supabase-js` 2.118.0 (matching the website), `zod` 4.x, `pdfjs-dist` 6.4.x, `mammoth` 1.13.x, SheetJS CE 0.20.3 from the vendor tarball, `tesseract.js` 7.x, `jsonrepair` 3.15.x, React 19.2.x, Vite 6.x, Node 22 on Vercel, Bun 1.4.2 for the research scripts as today.
+Transformers.js `@huggingface/transformers` 4.3.2 (upgrade from 4.2.0; 4.3 enables WebGPU on Safari 26 and exposes `getSupportedDevices`), `@huggingface/transformers-structured-output` 4.3.2, `onnxruntime-web` as resolved by Transformers.js, `@supabase/supabase-js` 2.118.0 (matching the website), `zod` 4.x, `pdfjs-dist` 6.4.x, `mammoth` 1.13.x, SheetJS CE 0.20.3 from the vendor tarball, `tesseract.js` 7.x, `jsonrepair` 3.15.x, React 19.3.x, Vite 8.x with `vite-plugin-pwa` 2.x, TypeScript 6.0 (not 7.0, whose package drops the compiler JavaScript API that `@vercel/node` uses to build functions), Node 24 locally, in CI and on Vercel, and Bun 1.4.2 for installs and scripts as today. The app shell pins React 19.3.1, Vite 8.3.5, `@vitejs/plugin-react` 6.1.2, `vite-plugin-pwa` 2.0.0 and TypeScript 6.0.3.
 
 ### 3.3 Supabase project and migration ownership
 

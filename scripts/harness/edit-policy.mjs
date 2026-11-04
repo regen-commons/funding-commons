@@ -20,6 +20,10 @@ const BLOCKED = [
     message: "`packages/design-system/tokens/` is generated. Edit the tokens in `DESIGN.md`, then run `bun run design:tokens`.",
   },
   {
+    test: (path) => path.startsWith("packages/app/public/brand/"),
+    message: "`packages/app/public/brand/` is copied from the design system on every dev start and build. Change the file in `packages/design-system/brand/`.",
+  },
+  {
     test: (path) => /^dist\/data\/(funders|research-coverage|research-followup[^/]*)\.json$/.test(path),
     message: "This catalog output is generated. Change the inputs in `research/`, then run `bun run research:import`.",
   },

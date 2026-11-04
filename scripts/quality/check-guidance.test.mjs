@@ -55,6 +55,7 @@ const cases = [
   ["an unknown root script", { "docs/notes.md": "Run `bun run lint`.\n" }, /`bun run lint` is not a root package\.json script/],
   ["an unknown package", { "packages/x/AGENTS.md": "Run `bun run --filter @t/y test`.\n" }, /`bun run --filter @t\/y` names no workspace package/],
   ["an unknown package script", { "packages/x/AGENTS.md": "Run `bun run --filter @t/x build`.\n" }, /is not a script in packages\/x\/package\.json/],
+  ["a placeholder for a script no package has", { "docs/notes.md": "Run `bun run --filter <package> lint`.\n" }, /no workspace package has a `lint` script/],
   ["a skill whose name differs from its folder", { ".claude/skills/plan/SKILL.md": SKILL.replace("name: plan", "name: planning") }, /frontmatter name must be "plan"/],
   ["a skill without a description", { ".claude/skills/plan/SKILL.md": "---\nname: plan\n---\n\n# Plan\n" }, /needs a description/],
   ["a skill longer than the limit", { ".claude/skills/plan/SKILL.md": SKILL + "line\n".repeat(300) }, /move detail into linked files/],

@@ -13,6 +13,8 @@ decisions.
 |---|---|---|
 | Live site and funder catalog | `research/`, catalog `scripts/`, `tests/`, `dist/`, `serve.mjs`, `src/` | [research/AGENTS.md](research/AGENTS.md) |
 | Design system (`@regen-commons/design-system`) | `DESIGN.md`, `packages/design-system/` | [packages/design-system/AGENTS.md](packages/design-system/AGENTS.md) |
+| Weave app (`@weave/app`): React PWA, root of the Weave Vercel project | `packages/app/` | [packages/app/AGENTS.md](packages/app/AGENTS.md) |
+| Weave API (`@weave/api`): Vercel function handlers | `packages/api/` | [packages/api/AGENTS.md](packages/api/AGENTS.md) |
 | Platform plan | `docs/platform/` | [docs/platform/README.md](docs/platform/README.md) |
 | Agent guidance and skills | `AGENTS.md`, `CLAUDE.md`, `.claude/`, `.agents/` | This file |
 
@@ -99,6 +101,8 @@ Run the focused check for the behavior you changed, then what the ladder adds.
 | Catalog data or the importer | `bun run research:import` when research inputs changed, then `bun run build`, then `bun run test` |
 | The live site's interface | `bun run build`, `bun run test`, and a rendered check at 360 px and 1280 px with the keyboard |
 | Tokens or the design system | `bun run design:check` and `bun run --filter @regen-commons/design-system test` |
+| A workspace package | `bun run --filter <package> test` and `bun run --filter <package> typecheck`, as its guide says |
+| The app's interface | Also the `app` server from `.claude/launch.json`, checked at 360 px and 1280 px in both themes with the keyboard, and the five-minute review |
 | Docs, guidance, skills or rules | `bun run guidance:check` |
 | Hooks or checkers in `scripts/harness/` and `scripts/quality/` | `node --test scripts/harness/*.test.mjs scripts/quality/*.test.mjs` |
 | Before push (what CI runs) | `bun install --frozen-lockfile`, `bun run build`, `bun run test`, `bun run design:check`, `bun run guidance:check`, `git diff --exit-code`, `git diff --check` |

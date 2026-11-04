@@ -142,6 +142,7 @@ test("edits to secrets and generated files are blocked in both harnesses", () =>
     ".env",
     "packages/app/.env.local",
     "packages/design-system/tokens/tokens.generated.css",
+    "packages/app/public/brand/icons.svg",
     "dist/data/funders.json",
     "dist/data/research-followup-round-1.json",
     "dist/data/program-conditions.json",
