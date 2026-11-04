@@ -8,7 +8,8 @@
     "build": "node scripts/build-ai.mjs && node scripts/check.mjs",
     "prepare:ai": "node scripts/build-ai.mjs",
     "research:collect": "python3 scripts/collect-sources.py",
-    "research:import": "python3 scripts/import-data.py"
+    "research:import": "python3 scripts/import-data.py",
+    "research:revise": "python3 scripts/revise-program.py"
   },
   "packageManager": "bun@1.4.2",
   "dependencies": {
