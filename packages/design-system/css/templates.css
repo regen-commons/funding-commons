@@ -1,0 +1,81 @@
+/* Templates: page layouts. Phone first. Columns are added as space allows. */
+.rc-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto 1fr auto;
+  min-block-size: 100dvh;
+}
+
+.rc-main {
+  container-type: inline-size;
+  inline-size: 100%;
+  max-inline-size: var(--page-width);
+  margin-inline: auto;
+  padding-block: var(--space-5) var(--space-8);
+  padding-inline: var(--gutter);
+}
+
+.rc-stack {
+  display: grid;
+  gap: var(--space-5);
+  min-inline-size: 0;
+}
+.rc-stack[data-gap="wide"] { gap: var(--space-7); }
+
+/* Conversation step and finish: one column, then a sticky record beside it. */
+.rc-step-layout {
+  display: grid;
+  gap: var(--space-6);
+}
+.rc-step-main {
+  display: grid;
+  gap: var(--space-5);
+  min-inline-size: 0;
+}
+@container (min-width: 56.25rem) {
+  .rc-step-layout {
+    grid-template-columns: minmax(0, var(--prose-width)) minmax(0, 22rem);
+    justify-content: space-between;
+    align-items: start;
+  }
+  .rc-step-layout > * { grid-column: 1; }
+  .rc-step-layout > .rc-step-aside {
+    position: sticky;
+    inset-block-start: var(--space-5);
+    grid-column: 2;
+    grid-row: 1 / span 6;
+  }
+}
+
+/* List pages: one comfortable column. */
+.rc-list-layout {
+  display: grid;
+  gap: var(--space-5);
+  max-inline-size: var(--list-width);
+}
+
+/* Focused pages: sign-in and confirming steps. */
+.rc-narrow {
+  display: grid;
+  gap: var(--space-5);
+  max-inline-size: var(--form-width);
+  margin-inline: auto;
+}
+
+/* Home: says what this is and where to start on one phone screen. */
+.rc-home-hero {
+  display: grid;
+  gap: var(--space-5);
+  max-inline-size: var(--prose-width);
+  padding-block: var(--space-5);
+}
+.rc-home-actions {
+  display: grid;
+  gap: var(--space-2);
+}
+@container (min-width: 37.5rem) {
+  .rc-home-actions {
+    grid-auto-flow: column;
+    justify-content: start;
+  }
+}

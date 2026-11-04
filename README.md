@@ -6,6 +6,10 @@ Site: https://funding-commons.vercel.app
 
 Publication status: public on Vercel since October 16, 2026. The OpenAI Site registered in `.openai/hosting.json` was never deployed.
 
+## Platform plan and design system
+
+[docs/platform](docs/platform/README.md) holds the plan for growing this site into a Regen Commons platform for initiatives, needs, offers and partner matching. [DESIGN.md](DESIGN.md) and [packages/design-system/](packages/design-system/README.md) define the Regen Commons design system and brand in code. Neither changes the live site in `dist/`.
+
 ## Catalog and maintenance
 
 The catalog contains **699 funders** and 768 program/overview search documents. The [Monday discovery test](research/manual-monday-test-2026-10-29.md) adds five funders and six programs while preserving all 694 prior full records. Official-source review of all 94 remaining historical leads supports **87 program entries from 81 leads**, across 64 new funders and five existing funders. Thirteen leads remain outside the catalog with recorded reasons. [The review report](research/history-verification-2026-10-29.md) links every disposition and its official evidence.

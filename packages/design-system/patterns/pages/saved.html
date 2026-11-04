@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    // Applies a saved or requested theme before first paint. Without it the page follows the system.
+    (function () {
+      var theme = null;
+      try { theme = new URLSearchParams(location.search).get("theme") || localStorage.getItem("rc-theme"); } catch (e) {}
+      if (theme === "light" || theme === "dark") {
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="color-scheme"]').content = theme;
+      }
+    })();
+  </script>
+  <title>Saved example</title>
+  <link rel="icon" href="../../brand/logo/favicon.svg">
+  <link rel="preload" href="../../fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../css/index.css">
+</head>
+<body>
+<div class="rc-page">
+  <a class="rc-skip-link" href="#main">Skip to content</a>
+  <header class="rc-app-header">
+    <a class="rc-logo" href="home.html"><svg class="rc-logo-mark" aria-hidden="true"><use href="../../brand/icons.svg#mark"/></svg>Weave</a>
+    <nav class="rc-app-nav" aria-label="Main">
+      <a href="matches.html">Partners</a>
+      <a href="matches.html">Funding</a>
+      <a href="#">Places</a>
+    </nav>
+    <p class="rc-save-status" data-state="account"><svg class="rc-icon" data-size="sm" aria-hidden="true"><use href="../../brand/icons.svg#done"/></svg>Saved</p>
+  </header>
+  <main class="rc-main" id="main">
+    <div class="rc-narrow">
+      <div class="rc-notice" data-tone="success" role="status">
+        <svg class="rc-icon" aria-hidden="true"><use href="../../brand/icons.svg#done"/></svg>
+        <div class="rc-notice-body">
+          <p class="rc-notice-title">Saved. Only you can see it.</p>
+          <p>We emailed you a link back to it, with your first matches.</p>
+        </div>
+      </div>
+      <h1 class="rc-heading" data-size="page">Who can see your initiative?</h1>
+      <p>Partners can only find you and reply if you share it. You can change this at any time.</p>
+      <form class="rc-form" action="matches.html">
+        <fieldset class="rc-choice-group">
+          <legend>Choose one</legend>
+          <label class="rc-choice">
+            <input class="rc-check" type="radio" name="visibility" value="private" checked>
+            <span class="rc-choice-text"><span class="rc-choice-title"><svg class="rc-icon" data-size="sm" aria-hidden="true"><use href="../../brand/icons.svg#lock"/></svg>Only you</span><span class="rc-choice-note">You still see your matches. Nobody can find you.</span></span>
+          </label>
+          <label class="rc-choice">
+            <input class="rc-check" type="radio" name="visibility" value="members">
+            <span class="rc-choice-text"><span class="rc-choice-title"><svg class="rc-icon" data-size="sm" aria-hidden="true"><use href="../../brand/icons.svg#people"/></svg>People signed in</span><span class="rc-choice-note">Other initiatives can see it and ask for an introduction.</span></span>
+          </label>
+          <label class="rc-choice">
+            <input class="rc-check" type="radio" name="visibility" value="public">
+            <span class="rc-choice-text"><span class="rc-choice-title"><svg class="rc-icon" data-size="sm" aria-hidden="true"><use href="../../brand/icons.svg#globe"/></svg>Anyone</span><span class="rc-choice-note">It gets a public page you can link to.</span></span>
+          </label>
+        </fieldset>
+        <div class="rc-action-bar">
+          <button class="rc-button" data-variant="primary" type="submit">Save this choice</button>
+          <a class="rc-button" data-variant="quiet" href="matches.html">See my matches</a>
+        </div>
+      </form>
+      <p class="rc-meta">Preview from the <a href="../index.html">pattern library</a>. Every organisation on this page is fictional.</p>
+    </div>
+  </main>
+  <nav class="rc-bottom-nav" aria-label="Main">
+    <a href="home.html"><svg class="rc-icon" aria-hidden="true"><use href="../../brand/icons.svg#home"/></svg>Home</a>
+    <a href="matches.html"><svg class="rc-icon" aria-hidden="true"><use href="../../brand/icons.svg#people"/></svg>Partners</a>
+    <a href="matches.html"><svg class="rc-icon" aria-hidden="true"><use href="../../brand/icons.svg#funding"/></svg>Funding</a>
+    <a href="#"><svg class="rc-icon" aria-hidden="true"><use href="../../brand/icons.svg#place"/></svg>Places</a>
+  </nav>
+</div>
+</body>
+</html>

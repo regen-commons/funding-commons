@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    // Applies a saved or requested theme before first paint. Without it the page follows the system.
+    (function () {
+      var theme = null;
+      try { theme = new URLSearchParams(location.search).get("theme") || localStorage.getItem("rc-theme"); } catch (e) {}
+      if (theme === "light" || theme === "dark") {
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="color-scheme"]').content = theme;
+      }
+    })();
+  </script>
+  <title>Home example</title>
+  <link rel="icon" href="../../brand/logo/favicon.svg">
+  <link rel="preload" href="../../fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../css/index.css">
+</head>
+<body>
+<div class="rc-page">
+  <a class="rc-skip-link" href="#main">Skip to content</a>
+  <header class="rc-app-header">
+    <a class="rc-logo" href="home.html"><svg class="rc-logo-mark" aria-hidden="true"><use href="../../brand/icons.svg#mark"/></svg>Weave</a>
+    <nav class="rc-app-nav" aria-label="Main">
+      <a href="matches.html">Partners</a>
+      <a href="matches.html">Funding</a>
+      <a href="#">Places</a>
+    </nav>
+    <a class="rc-button" data-variant="quiet" data-size="sm" href="code.html">Sign in</a>
+  </header>
+  <main class="rc-main" id="main">
+    <div class="rc-stack" data-gap="wide">
+      <section class="rc-home-hero">
+        <h1 class="rc-heading" data-size="hero">Find partners and funding for regenerative work</h1>
+        <p class="rc-prose">Say what your initiative needs and what it can offer. See who could work with you and which funds fit.</p>
+        <div class="rc-home-actions">
+          <a class="rc-button" data-variant="primary" data-size="lg" href="step-needs.html">Describe your initiative</a>
+          <a class="rc-button" data-variant="secondary" data-size="lg" href="matches.html">Search funding</a>
+        </div>
+        <div><a class="rc-button" data-variant="quiet" data-size="sm" href="matches.html">12 funds close in the next 30 days</a></div>
+      </section>
+      <section class="rc-stack" aria-labelledby="kinds">
+        <h2 id="kinds" class="rc-heading" data-size="section">Money is one of eight kinds of support</h2>
+        <ul class="rc-tag-list">
+          <li><span class="rc-tag" data-capital="living"><span class="rc-tile" aria-hidden="true">Li</span>Land and living things</span></li>
+          <li><span class="rc-tag" data-capital="material"><span class="rc-tile" aria-hidden="true">Ma</span>Tools and equipment</span></li>
+          <li><span class="rc-tag" data-capital="intellectual"><span class="rc-tile" aria-hidden="true">In</span>Knowledge</span></li>
+          <li><span class="rc-tag" data-capital="experiential"><span class="rc-tile" aria-hidden="true">Ex</span>Skills and know-how</span></li>
+          <li><span class="rc-tag" data-capital="social"><span class="rc-tile" aria-hidden="true">So</span>Relationships</span></li>
+          <li><span class="rc-tag" data-capital="financial"><span class="rc-tile" aria-hidden="true">Fi</span>Money</span></li>
+          <li><span class="rc-tag" data-capital="cultural"><span class="rc-tile" aria-hidden="true">Cu</span>Culture and story</span></li>
+          <li><span class="rc-tag" data-capital="spiritual"><span class="rc-tile" aria-hidden="true">Sp</span>Care and spirit</span></li>
+        </ul>
+      </section>
+      <p class="rc-meta">Preview from the <a href="../index.html">pattern library</a>. Every organisation on this page is fictional.</p>
+    </div>
+  </main>
+  <nav class="rc-bottom-nav" aria-label="Main">
+    <a href="home.html" aria-current="page"><svg class="rc-icon" aria-hidden="true"><use href="../../brand/icons.svg#home"/></svg>Home</a>
+    <a href="matches.html"><svg class="rc-icon" aria-hidden="true"><use href="../../brand/icons.svg#people"/></svg>Partners</a>
+    <a href="matches.html"><svg class="rc-icon" aria-hidden="true"><use href="../../brand/icons.svg#funding"/></svg>Funding</a>
+    <a href="#"><svg class="rc-icon" aria-hidden="true"><use href="../../brand/icons.svg#place"/></svg>Places</a>
+  </nav>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "catalog",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 4176
+    },
+    {
+      "name": "patterns",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "design:serve"
+      ],
+      "port": 4173
+    },
+    {
+      "name": "app",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "--filter",
+        "@weave/app",
+        "dev"
+      ],
+      "port": 5173
+    }
+  ]
+}
