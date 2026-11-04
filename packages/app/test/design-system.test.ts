@@ -4,6 +4,8 @@ import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { test } from "node:test";
 import { fileURLToPath } from "node:url";
+import { CAPITALS } from "../src/capitals.ts";
+import { ICON_NAMES } from "../src/ui/icons.ts";
 
 const APP = fileURLToPath(new URL("../", import.meta.url));
 const SYSTEM = fileURLToPath(new URL("../../design-system/", import.meta.url));
@@ -41,9 +43,21 @@ test("markup uses no inline styles or raw values", () => {
     const text = read(path);
     assert.doesNotMatch(text, /\bstyle=/, `${relativeName(path)} sets an inline style`);
     assert.doesNotMatch(text, /#[0-9a-fA-F]{3,8}\b(?!["'`]?[\w-]*\s*[:{])/, `${relativeName(path)} has a hex colour`);
-    assert.doesNotMatch(text, /\b(?:rgba?|hsla?|oklch)\(/, `${relativeName(path)} has a raw colour`);
+    assert.doesNotMatch(text, /\b(?:rgba?|hsla?|hwb|lab|lch|oklab|oklch|color)\(/, `${relativeName(path)} has a raw colour`);
     assert.doesNotMatch(text, /\b\d+(?:\.\d+)?px\b/, `${relativeName(path)} has a raw pixel value`);
   }
+});
+
+test("forms of capital and icons match what the design system defines", () => {
+  const css = files(join(SYSTEM, "css")).filter((path) => path.endsWith(".css")).map(read).join("\n");
+  const voice = read(join(SYSTEM, "brand/VOICE.md"));
+  for (const capital of CAPITALS) {
+    assert.ok(css.includes(`[data-capital="${capital.key}"]`), `the design system has no colour for ${capital.key}`);
+    assert.ok(voice.includes(`| ${capital.label} |`), `VOICE.md has no plain name "${capital.label}"`);
+  }
+  const sprite = new Set([...read(join(SYSTEM, "brand/icons.svg")).matchAll(/<symbol id="([^"]+)"/g)].map((match) => match[1]));
+  const used = markup.flatMap((path) => [...read(path).matchAll(/icons\.svg#([\w-]+)/g)].map((match) => match[1]));
+  for (const name of [...ICON_NAMES, ...used]) assert.ok(sprite.has(name), `brand/icons.svg has no icon "${name}"`);
 });
 
 test("copy follows the voice rules: no em dashes, arrows or middle dots", () => {

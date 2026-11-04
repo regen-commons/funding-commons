@@ -1,9 +1,9 @@
 import { CAPITALS } from "../capitals.ts";
 import { pathTo } from "../routes.ts";
 import { ButtonLink } from "../ui/ButtonLink.tsx";
-import { CapitalTag } from "../ui/CapitalTag.tsx";
 import { Heading } from "../ui/Heading.tsx";
 import { HomeHero, Stack } from "../ui/layouts.tsx";
+import { Tag } from "../ui/Tag.tsx";
 
 export function Home({ title }: { title: string }) {
   return (
@@ -34,7 +34,7 @@ export function Home({ title }: { title: string }) {
         <ul className="rc-tag-list">
           {CAPITALS.map((capital) => (
             <li key={capital.key}>
-              <CapitalTag capital={capital} />
+              <Tag capital={capital} />
             </li>
           ))}
         </ul>
