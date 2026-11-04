@@ -28,8 +28,8 @@ work, such as `claude/<topic>` or `codex/<topic>`; the catalog routines use `cod
 ## Validate the actual change
 
 Inspect the complete proposed diff, including new files, and run what the
-[check ladder](../../../AGENTS.md#checks) names for it. Before a push, run what CI
-runs: `bun run build`, `bun run test`, `git diff --exit-code` and `git diff --check`.
+[check ladder](../../../AGENTS.md#checks) names for it. Before a push, run the
+ladder's "Before push" row, which is what CI runs.
 Documentation and guidance changes need their links, referenced commands and skill
 metadata checked, not the application suites.
 

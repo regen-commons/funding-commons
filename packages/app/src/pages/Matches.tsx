@@ -11,7 +11,7 @@ export function Matches({ title }: { title: string }) {
         {title}
       </Heading>
       <EmptyState
-        title="No matches yet"
+        title="No partners here yet"
         action={
           <ButtonLink href={pathTo("initiative")} variant="primary">
             Describe your initiative

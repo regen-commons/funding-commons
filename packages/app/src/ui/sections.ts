@@ -1,8 +1,9 @@
-import type { IconName } from "./Icon.tsx";
+import type { RouteName } from "../routes.ts";
+import type { IconName } from "./icons.ts";
 
 /** The app's top-level sections, shared by the header and the bottom navigation. */
-export const SECTIONS: readonly { label: string; href: string; icon: IconName }[] = [
-  { label: "Home", href: "/", icon: "home" },
-  { label: "Partners", href: "/matches", icon: "people" },
-  { label: "Funding", href: "/directory", icon: "funding" },
+export const SECTIONS: readonly { label: string; route: RouteName; icon: IconName }[] = [
+  { label: "Home", route: "home", icon: "home" },
+  { label: "Partners", route: "matches", icon: "people" },
+  { label: "Funding", route: "directory", icon: "funding" },
 ];

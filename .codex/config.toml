@@ -10,6 +10,7 @@
 hooks = true
 
 [shell_environment_policy]
-inherit = "all"
-# Provider keys never reach commands run in this repository.
-exclude = ["AWS_*", "AZURE_*", "ANTHROPIC_*", "OPENAI_API_KEY"]
+# Your own inherit and exclude settings still apply; Codex merges this table key by key.
+# This turns on Codex's built-in filter, which keeps variables whose names contain KEY,
+# SECRET or TOKEN out of the commands it runs here.
+ignore_default_excludes = false

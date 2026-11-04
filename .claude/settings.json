@@ -3,7 +3,7 @@
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Bash",
+        "matcher": "Bash|Monitor|mcp__terminal__run_in_terminal",
         "hooks": [
           {
             "type": "command",
@@ -19,6 +19,15 @@
             "type": "command",
             "command": "node \"$CLAUDE_PROJECT_DIR/scripts/harness/edit-policy.mjs\" pre",
             "statusMessage": "Checking the edit policy..."
+          }
+        ]
+      },
+      {
+        "matcher": "Read|Grep",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/harness/edit-policy.mjs\" read"
           }
         ]
       }

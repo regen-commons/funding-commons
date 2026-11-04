@@ -11,7 +11,7 @@ const STUBS: Record<string, { guidance: string; next: { route: RouteName; label:
     next: { route: "needs", label: "Go to the needs step" },
   },
   needs: {
-    guidance: "Here you will list what would unlock the next chapter, from money to tools, knowledge and relationships.",
+    guidance: "Here you will list what your initiative needs next, from money to tools, knowledge and relationships.",
     next: { route: "offers", label: "Go to the offers step" },
   },
   offers: {

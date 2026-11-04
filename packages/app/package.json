@@ -9,7 +9,7 @@
     "build": "tsc -p tsconfig.json && tsc -p tsconfig.node.json && node scripts/copy-brand.mjs && vite build",
     "preview": "vite preview --port 4174 --strictPort",
     "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.node.json",
-    "test": "node --test test/*.test.ts"
+    "test": "node --conditions=source --test test/*.test.ts"
   },
   "dependencies": {
     "@regen-commons/design-system": "workspace:*",

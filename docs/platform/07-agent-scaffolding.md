@@ -3,9 +3,9 @@
 Status: proposal · Date: 2026-10-31
 Companion documents: [PRD](04-prd.md) · [technical spec](05-technical-spec.md) · [DESIGN.md](../../DESIGN.md)
 
-Build the agent scaffolding before any product UI, as the first slice of Phase 0. Most of this code will be written by coding agents, so the instructions, skills and checks they read are part of the product's foundation. The shape below follows the Green Goods workspace layout set out in the [repository layout](09-repository-layout.md), keeps the guides as small as the Regen Commons site's, and adds only the Green Goods guardrails this repository will actually use. Nothing in this document is built yet.
+Build the agent scaffolding before any product UI, as the first slice of Phase 0. Most of this code will be written by coding agents, so the instructions, skills and checks they read are part of the product's foundation. The shape below follows the Green Goods workspace layout set out in the [repository layout](09-repository-layout.md), keeps the guides as small as the Regen Commons site's, and adds only the Green Goods guardrails this repository will actually use. Steps 1 to 5 of the build order were built in November 2026, and the [repository layout](09-repository-layout.md) records where each piece lives.
 
-This repository has no `AGENTS.md`, `CLAUDE.md`, skills or hooks today. Its only agent guidance is [docs/maintenance.md](../maintenance.md) for the Monday and Thursday catalog routines.
+Before that, the repository had no `AGENTS.md`, `CLAUDE.md`, skills or hooks, and its only agent guidance was [docs/maintenance.md](../maintenance.md) for the Monday and Thursday catalog routines.
 
 ## What the existing repositories teach
 
@@ -165,7 +165,7 @@ Every piece of rendered proof names its class: `fixture`, `local Supabase`, `pre
 Each step is one small pull request with its own check. The [repository layout](09-repository-layout.md#build-order) gives each step's contents in full.
 
 1. **Workspace and foundation.** Bun workspaces, `AGENTS.md`, `CLAUDE.md`, `research/AGENTS.md`, `.claude/skills` with `plan`, `debug`, `review`, `ship`, the `.agents/skills` symlink. Check: a fresh agent session can answer where to work and which check to run without reading anything else, and `bun run build && bun run test` still passes.
-2. **Design-system package.** Move `packages/design-system/` to `packages/design-system/`, then add the `design` skill, `.claude/rules/frontend-design.md`, the package's `AGENTS.md`, and `design:check` in CI. Check: the design-system tests pass with only path changes, and a raw hex value in the package's CSS fails them.
+2. **Design-system package.** Move `design-system/` to `packages/design-system/`, then add the `design` skill, `.claude/rules/frontend-design.md`, the package's `AGENTS.md`, and `design:check` in CI. Check: the design-system tests pass with only path changes, and a raw hex value in the package's CSS fails them.
 3. **Development flow and guardrails.** `.claude/launch.json`, hooks, command policy, `scripts/quality/check-guidance.mjs`. Check: each blocked action fails in a test; links and frontmatter are validated in CI.
 4. **Catalog skill.** Move the maintenance guide into `catalog-research` once #9 has merged or closed, and update the two saved Codex routines. Check: the next Monday run follows the skill with no behavior change.
 5. **App shell and API.** `packages/app` and `packages/api` with their guides and a health check. The `supabase/` guide and `data-change` arrive with the first migration.

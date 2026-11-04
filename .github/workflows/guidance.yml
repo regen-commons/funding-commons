@@ -30,4 +30,4 @@ jobs:
       # Links, documented scripts, skill frontmatter, rules, package guides and the symlink.
       - run: bun run guidance:check
       # Every configured Claude Code and Codex hook, and the checker's own fixtures.
-      - run: node --test scripts/harness/*.test.mjs scripts/quality/*.test.mjs
+      - run: bun run test:harness

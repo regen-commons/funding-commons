@@ -13,7 +13,7 @@ export function Directory({ title }: { title: string }) {
       <EmptyState
         title="The directory moves here next"
         action={
-          <ButtonLink href="https://funding-commons.vercel.app/" variant="primary" external>
+          <ButtonLink href="https://funding-commons.vercel.app/" variant="primary">
             Open the current directory
           </ButtonLink>
         }

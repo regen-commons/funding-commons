@@ -540,7 +540,7 @@ The existing desk (`regencommons.com/admin`) gains a `weave` section group using
 
 - Unit: Zod contracts, extraction merge logic, scoring functions with golden fixtures (ports of the existing `tests/matching.test.mjs`, `scoring`, `thematic-fit`, `deadlines`).
 - SQL: suites run on a disposable Postgres 17 applying all migrations; policy tests for each role (anon, authenticated non-member, member, steward, owner), including that a steward cannot read a private initiative; command idempotency and revision conflicts.
-- Design system: `tests/design-system.test.mjs` runs in CI. It covers stale tokens, the DesignMD linter, website values, contrast in both themes, raw values in CSS, undocumented or unused patterns, inventory lineage, copy rules and document links.
+- Design system: `packages/design-system/test/design-system.test.mjs` runs in CI. It covers stale tokens, the DesignMD linter, website values, contrast in both themes, raw values in CSS, undocumented or unused patterns, inventory lineage, copy rules and document links.
 - AI: fixture-based schema pass, repair and latency per tier; a manual device matrix (iPhone 11 on iOS 26, mid-range Android, M-series Mac, Windows laptop with integrated GPU, Firefox desktop) recorded before each phase release.
 - Browser: Playwright flows for the three steps by typing, by voice fixture and by upload fixture; matches; recipes; saving, including wrong email, wrong code, a mail-app round trip and draft merge; accessibility checks with axe; reduced motion.
 - People: one usability round with real users before 30 November, following the [testing plan](../../packages/design-system/principles/usability-testing.md); the regular rhythm is set after launch.

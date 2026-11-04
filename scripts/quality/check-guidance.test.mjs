@@ -73,6 +73,12 @@ for (const [name, changes, expected, options] of cases) {
   });
 }
 
+test("heading anchors follow GitHub's slugs", () => {
+  const notes = "# Notes\n\n## Elevation & Depth\n\nSee [depth](#elevation--depth).\n";
+  assert.deepEqual(failuresWith({ "docs/notes.md": notes }), []);
+  assert.ok(failuresWith({ "docs/notes.md": notes.replace("--", "-") }).some((failure) => /missing heading/.test(failure)));
+});
+
 test("code spans, fenced blocks and external links are not read as relative links", () => {
   const notes = "Use `[x](missing.md)` and [the site](https://example.org/missing.md).\n\n```md\n[y](missing.md)\n```\n";
   assert.deepEqual(failuresWith({ "docs/notes.md": notes }), []);

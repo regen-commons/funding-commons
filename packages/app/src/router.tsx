@@ -26,12 +26,14 @@ export function navigate(to: string): void {
 
 type LinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & { href: string };
 
-/** An in-app link: a plain anchor that changes page without a reload. */
+/** A plain anchor that changes page without a reload when it points inside the app. */
 export function Link({ href, onClick, ...props }: LinkProps) {
   function handleClick(event: MouseEvent<HTMLAnchorElement>) {
     onClick?.(event);
     const modified = event.metaKey || event.ctrlKey || event.shiftKey || event.altKey;
-    if (event.defaultPrevented || event.button !== 0 || modified || props.target) return;
+    // Other sites, mail links and downloads load the ordinary way.
+    const inApp = href.startsWith("/") && !href.startsWith("//") && props.download === undefined;
+    if (event.defaultPrevented || event.button !== 0 || modified || props.target || !inApp) return;
     event.preventDefault();
     navigate(href);
   }
