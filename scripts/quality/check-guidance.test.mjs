@@ -52,6 +52,8 @@ test("a consistent repository passes", () => {
 const cases = [
   ["a link to a missing file", { "docs/notes.md": "See [the plan](plan.md).\n" }, /docs\/notes\.md: link to a missing file: plan\.md/],
   ["a link to a missing heading", { "docs/notes.md": "See [checks](../AGENTS.md#tests).\n" }, /link to a missing heading: \.\.\/AGENTS\.md#tests/],
+  ["a titled link to a missing file", { "docs/notes.md": "See [the plan](plan.md \"Plan\").\n" }, /link to a missing file: plan\.md/],
+  ["a reference link to a missing file", { "docs/notes.md": "See [the plan][plan].\n\n[plan]: plan.md\n" }, /link to a missing file: plan\.md/],
   ["an unknown root script", { "docs/notes.md": "Run `bun run lint`.\n" }, /`bun run lint` is not a root package\.json script/],
   ["an unknown package", { "packages/x/AGENTS.md": "Run `bun run --filter @t/y test`.\n" }, /`bun run --filter @t\/y` names no workspace package/],
   ["an unknown package script", { "packages/x/AGENTS.md": "Run `bun run --filter @t/x build`.\n" }, /is not a script in packages\/x\/package\.json/],
@@ -77,6 +79,17 @@ test("heading anchors follow GitHub's slugs", () => {
   const notes = "# Notes\n\n## Elevation & Depth\n\nSee [depth](#elevation--depth).\n";
   assert.deepEqual(failuresWith({ "docs/notes.md": notes }), []);
   assert.ok(failuresWith({ "docs/notes.md": notes.replace("--", "-") }).some((failure) => /missing heading/.test(failure)));
+});
+
+test("files beside the skill folders, footnotes and Windows line endings pass", () => {
+  const crlf = (text) => text.replace(/\n/g, "\r\n");
+  const changes = {
+    ".claude/skills/.DS_Store": "",
+    ".claude/skills/plan/SKILL.md": crlf(SKILL),
+    ".claude/rules/frontend.md": crlf("---\npaths:\n  - \"packages/x/**\"\n---\n\n# Rules\n"),
+    "docs/notes.md": "A claim.[^1]\n\n[^1]: Source note, not a link.\n",
+  };
+  assert.deepEqual(failuresWith(changes), []);
 });
 
 test("code spans, fenced blocks and external links are not read as relative links", () => {

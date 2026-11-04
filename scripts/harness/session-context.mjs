@@ -11,7 +11,7 @@ const SECTIONS = ["Essential rules", "Shared checkout safety"];
 /** The named second-level sections of an AGENTS.md, in order, with their headings. */
 export function essentialRules(guide) {
   return SECTIONS.map((title) => {
-    const match = new RegExp(`^## ${title}\\n([\\s\\S]*?)(?=^## |(?![\\s\\S]))`, "m").exec(guide);
+    const match = new RegExp(`^## ${title}\\r?\\n([\\s\\S]*?)(?=^## |(?![\\s\\S]))`, "m").exec(guide);
     return match ? `## ${title}\n${match[1].trim()}` : "";
   }).filter(Boolean).join("\n\n");
 }

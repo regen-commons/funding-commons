@@ -101,7 +101,7 @@ A package for shared contracts, such as the Zod schemas in [spec 6.2](05-technic
 - Their saved prompts read latest `main`. This work targets `docs/tend-platform-plan`, so nothing reaches them until that branch merges.
 - Their commands stay the same and run from the repository root: `python3 scripts/import-data.py`, `bun run build`, `bun run test`, `git diff --check`.
 - Their prompts name `docs/maintenance.md`. Step 4 adds the skill. When the guide's text moves after #9, the old path keeps a short pointer, so an unedited prompt still reaches the same instructions. Step 4 gives the exact prompt edits.
-- As saved, they start projectless from the home folder rather than in this repository, so this repository's Codex config and hooks should not load for them. If they do, or if the routines move to a project target, the command policy applies. It stops only for `bun test`, `git add -A`, force pushes and destructive resets, and the maintenance guide asks for none of these.
+- As saved, they start projectless from the home folder rather than in this repository, so this repository's Codex config and hooks should not load for them. If they do, or if the routines move to a project target, the command policy applies, and in Codex every ask is a block: `bun test`, broad staging, force pushes, discarding work (`reset --hard`, `checkout --`, `restore`, `clean`, `stash`, deleting branches or worktrees), merges and deploys. The maintenance guide asks for none of these.
 - 07 planned `.codex/config.toml` with no network in the sandbox. The catalog build downloads pinned model files in a fresh worktree, and discovery reads official sources, so the project config leaves network access alone.
 
 ### The import and its tests
