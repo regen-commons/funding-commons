@@ -3,7 +3,8 @@
 Use the [root guide](../AGENTS.md) for shared workflow. This guide covers the funder
 catalog (`research/`, the catalog scripts in `scripts/`, `tests/`) and the live
 static site (`dist/`, `serve.mjs`, `src/embedding-runtime.js`). The Monday discovery
-and Thursday freshness workflow is in [docs/maintenance.md](../docs/maintenance.md);
+and Thursday freshness workflow is in [docs/maintenance.md](../docs/maintenance.md),
+reached through the [catalog-research skill](../.claude/skills/catalog-research/SKILL.md);
 read it before any catalog change. The current matching rubric is in
 [docs/matching-screening.md](../docs/matching-screening.md).
 
