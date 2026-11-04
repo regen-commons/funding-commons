@@ -3,7 +3,7 @@
 Status: proposal · Date: 2026-10-31
 Companion documents: [PRD](04-prd.md) · [technical spec](05-technical-spec.md) · [DESIGN.md](../../DESIGN.md)
 
-Build the agent scaffolding before any product UI, as the first slice of Phase 0. Most of this code will be written by coding agents, so the instructions, skills and checks they read are part of the product's foundation. The shape below takes the small layout of the Regen Commons site and adds only the Green Goods guardrails this repository will actually use. Nothing in this document is built yet.
+Build the agent scaffolding before any product UI, as the first slice of Phase 0. Most of this code will be written by coding agents, so the instructions, skills and checks they read are part of the product's foundation. The shape below follows the Green Goods workspace layout set out in the [repository layout](09-repository-layout.md), keeps the guides as small as the Regen Commons site's, and adds only the Green Goods guardrails this repository will actually use. Nothing in this document is built yet.
 
 This repository has no `AGENTS.md`, `CLAUDE.md`, skills or hooks today. Its only agent guidance is [docs/maintenance.md](../maintenance.md) for the Monday and Thursday catalog routines.
 
@@ -11,6 +11,7 @@ This repository has no `AGENTS.md`, `CLAUDE.md`, skills or hooks today. Its only
 
 | Pattern | Seen in | Decision | Why |
 |---|---|---|---|
+| Bun workspace over `packages/*`, with a guide, scripts and checks per package | Green Goods | Adopt | Each runtime gets its own rules and proof. Tooling choices are in the [repository layout](09-repository-layout.md) |
 | Root `AGENTS.md` holds repository policy; `CLAUDE.md` only imports it | Green Goods, Regen Commons site, Knowledge Commons | Adopt | One authority for every agent; no drift between harnesses |
 | Scoped `AGENTS.md` per surface, routed from a root table | Green Goods, site (`admin/`, `api/`, `supabase/`) | Adopt | Agents read only the rules for what they touch |
 | Skills canonical in one folder, `.agents/skills` symlinked for Codex | Green Goods (`.claude/skills`), site (`skills/`) | Adopt, using `.claude/skills` | Both harnesses discover one copy |
@@ -33,6 +34,7 @@ This repository has no `AGENTS.md`, `CLAUDE.md`, skills or hooks today. Its only
 | Plan folders (`.plans/{ideas,backlog,active}`) with hubs | Green Goods | Adopt lightly, only when a plan outgrows `docs/platform` | Code and CI must never depend on them |
 | `dev-surfaces` and `.claude/launch.json` | Green Goods, Coop | Adopt `launch.json` only | Preview servers start the same way every time |
 | Check selector with intents and receipts (`check --plan --intent`) | Green Goods | Skip for now | Worth it when the suite is slow; a table in `AGENTS.md` is enough today |
+| turbo, `ci-gate.yml` with path-filtered workflows, Biome, oxlint, knip | Green Goods | Skip for now | The whole suite runs in about 20 seconds. Each has a trigger for revisiting in the [repository layout](09-repository-layout.md#what-we-skip-and-when-to-revisit) |
 | Agent teams, Codex lanes, Linear routing, QA app, Plan Hub closeout | Green Goods | Skip | Sized for a much larger project |
 | Agent definitions and skill registries | Coop | Skip | Skill frontmatter is enough |
 | Storybook | Green Goods | Defer to the first React components | The static pattern library covers Phase 0 |
@@ -43,31 +45,35 @@ This repository has no `AGENTS.md`, `CLAUDE.md`, skills or hooks today. Its only
 AGENTS.md                         shared policy, routing table, checks
 CLAUDE.md                         "@AGENTS.md" and nothing else
 DESIGN.md                         canonical tokens, rationale, interface principles
-app/AGENTS.md                     PWA: routes, states, offline, browser proof
-api/AGENTS.md                     Vercel functions: consent, secrets, validation
-supabase/AGENTS.md                schema, RLS, commands, one migration owner
 research/AGENTS.md                catalog evidence and preservation rules
-design-system/AGENTS.md           tokens, patterns, how to add a component
+packages/app/AGENTS.md            PWA: routes, states, offline, browser proof
+packages/api/AGENTS.md            Vercel functions: consent, secrets, validation
+packages/design-system/AGENTS.md  tokens, patterns, how to add a component
+supabase/AGENTS.md                schema, RLS, commands, one migration owner
 .claude/
   settings.json                   hooks below
   launch.json                     catalog, pattern library, app preview servers
-  rules/frontend-design.md        paths: app/**, design-system/**
+  rules/frontend-design.md        paths: packages/app/**, packages/design-system/**
   rules/typescript.md             paths: **/*.{ts,tsx}
   rules/sql.md                    paths: supabase/**
-  rules/ai.md                     paths: app/src/ai/**, api/ai/**
+  rules/ai.md                     paths: packages/app/src/ai/**, packages/api/src/ai/**
   context/product.md              users, vocabulary, lifecycle, non-goals
   context/testing.md              what proof each kind of change needs
   context/validation.md           the check ladder and evidence labels
   skills/                         canonical skills, list below
 .agents/skills -> ../.claude/skills
 .codex/
-  config.toml                     project doc fallback, no network in sandbox
+  config.toml                     project doc fallback; network stays on for the catalog build and discovery
   hooks.json, hooks/              same policy as Claude
-.github/
-  workflows/validate.yml          existing build and test job, plus design and guidance checks
+.github/workflows/
+  validate.yml                    existing build and test job, unchanged
+  design.yml                      bun run design:check
+  guidance.yml                    bun run guidance:check and the hook tests
 scripts/harness/command-policy.mjs
 scripts/quality/check-guidance.mjs
 ```
+
+Each guide is written when its folder first exists. The [repository layout](09-repository-layout.md) places the packages and says why the live site and catalog stay at the root.
 
 `docs/platform/` keeps product and architecture decisions, and [open-decisions.md](open-decisions.md) stays the single list of what is unresolved. A `.plans/active/<name>/` folder appears only when one piece of work needs more execution state than a pull request can hold.
 
@@ -84,7 +90,7 @@ Keep it under about 150 lines. It owns:
 - **Checks.** The ladder below.
 - **Writing.** `humanize-writing` for prose, [VOICE.md](../../design-system/brand/VOICE.md) for product copy.
 
-It also records two facts that trip agents today. The local vector files are ignored build output, so `bun run build` must run before `bun run test` after catalog changes, or the vector tests fail on stale files. And the import test compares a clock-dependent import with the committed catalog, so it can fail on the day after a deadline passes.
+It also records the facts that trip agents today. The local vector files are ignored build output, so `bun run build` must run before `bun run test` after catalog changes, or the vector tests fail on stale files. The import test used to compare a clock-dependent import with the committed catalog and failed on the day after a deadline passed; it now reruns the import as of the catalog's `compiledAt`, so a change to the importer has to keep `--as-of` working.
 
 ## Skills
 
@@ -156,13 +162,13 @@ Every piece of rendered proof names its class: `fixture`, `local Supabase`, `pre
 
 ## Build order
 
-Each step is one small pull request with its own check.
+Each step is one small pull request with its own check. The [repository layout](09-repository-layout.md#build-order) gives each step's contents in full.
 
-1. **Foundation.** `AGENTS.md`, `CLAUDE.md`, `.claude/skills` with `plan`, `debug`, `review`, `ship`, the `.agents/skills` symlink. Check: a fresh agent session can answer where to work and which check to run without reading anything else.
-2. **Design wiring.** `design` skill, `.claude/rules/frontend-design.md`, `design-system/AGENTS.md`, and `design:check` in CI. Check: a raw hex value in `design-system/css` fails CI.
-3. **Guardrails.** Hooks, command policy, `scripts/quality/check-guidance.mjs`. Check: each blocked action fails in a test; links and frontmatter are validated in CI.
-4. **Catalog skill.** Move the maintenance guide into `catalog-research` and update the two saved Codex routines. Check: the next Monday run follows the skill with no behavior change.
-5. **App and data guides.** `app/`, `api/`, `supabase/` guides and `data-change`, written when those folders first exist.
+1. **Workspace and foundation.** Bun workspaces, `AGENTS.md`, `CLAUDE.md`, `research/AGENTS.md`, `.claude/skills` with `plan`, `debug`, `review`, `ship`, the `.agents/skills` symlink. Check: a fresh agent session can answer where to work and which check to run without reading anything else, and `bun run build && bun run test` still passes.
+2. **Design-system package.** Move `design-system/` to `packages/design-system/`, then add the `design` skill, `.claude/rules/frontend-design.md`, the package's `AGENTS.md`, and `design:check` in CI. Check: the design-system tests pass with only path changes, and a raw hex value in the package's CSS fails them.
+3. **Development flow and guardrails.** `.claude/launch.json`, hooks, command policy, `scripts/quality/check-guidance.mjs`. Check: each blocked action fails in a test; links and frontmatter are validated in CI.
+4. **Catalog skill.** Move the maintenance guide into `catalog-research` once #9 has merged or closed, and update the two saved Codex routines. Check: the next Monday run follows the skill with no behavior change.
+5. **App shell and API.** `packages/app` and `packages/api` with their guides and a health check. The `supabase/` guide and `data-change` arrive with the first migration.
 6. **AI and matching.** `intake-ai`, `matching` and the eval fixtures with Phase 1.
 
 Steps 1 to 4 fit before the Phase 0 UI work and should be small, because the site and Green Goods versions already exist to adapt.
