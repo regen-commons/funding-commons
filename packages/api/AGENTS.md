@@ -15,11 +15,17 @@ Weave project's root is `packages/app`. So each handler lives here, in
 file. Handlers use the Web signature: export `GET`, `POST` and so on, taking a
 `Request` and returning a `Response`. They run on the Node runtime, never Edge.
 
-`bun run build` type-checks: Vercel compiles the handlers when it deploys the app.
+Each handler's `exports` entry has three targets. `types` and the `source` condition
+point at `src/<name>.ts`, which type checks, tests and the app's dev server read. The
+default target is the compiled `dist/<name>.js`, which the deployed function imports:
+Vercel ships the TypeScript it compiles as `.js`, so an export that points at a `.ts`
+file fails to load once deployed. `bun run build` writes `dist/`, and the Weave
+project builds this package before the app. `src/exports.test.ts` checks every entry.
 In development, the app's Vite server answers `/api/*` from the same entry files.
 
 ## Boundaries
 
+- TypeScript follows the [TypeScript rules](../../.claude/rules/typescript.md).
 - Secrets live only in Vercel and Supabase settings. Never commit one, log one or
   return one. No service-role key: data calls use the person's own token, so
   row-level security still applies.

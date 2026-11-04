@@ -1,5 +1,6 @@
 // Vercel deploys api/*.ts from this package. Each entry must be one re-export of a
-// handler in @weave/api, and must load the way the deployed function will.
+// handler in @weave/api and must load. Tests read the handler's source through the
+// "source" condition; the deployed function loads its compiled file from dist/.
 import assert from "node:assert/strict";
 import { readdirSync, readFileSync } from "node:fs";
 import { test } from "node:test";

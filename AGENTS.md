@@ -93,7 +93,9 @@ or messaging.
 
 ## Checks
 
-Run the focused check for the behavior you changed, then what the ladder adds.
+Run the focused check for the behavior you changed, then what the ladder adds. Root
+`bun run build` and `bun run test` cover the live site and catalog, and they are
+what its Vercel deploy runs. `bun run ci` runs every check the CI workflows run.
 
 | When | Run |
 |---|---|
@@ -104,8 +106,8 @@ Run the focused check for the behavior you changed, then what the ladder adds.
 | A workspace package | `bun run --filter <package> test` and `bun run --filter <package> typecheck`, as its guide says |
 | The app's interface | Also the `app` server from `.claude/launch.json`, checked at 360 px and 1280 px in both themes with the keyboard, and the five-minute review |
 | Docs, guidance, skills or rules | `bun run guidance:check` |
-| Hooks or checkers in `scripts/harness/` and `scripts/quality/` | `node --test scripts/harness/*.test.mjs scripts/quality/*.test.mjs` |
-| Before push (what CI runs) | `bun install --frozen-lockfile`, `bun run build`, `bun run test`, `bun run design:check`, `bun run guidance:check`, `git diff --exit-code`, `git diff --check` |
+| Hooks or checkers in `scripts/harness/` and `scripts/quality/` | `bun run test:harness` |
+| Before push (what CI runs) | `bun install --frozen-lockfile`, then `bun run ci`, `git diff --exit-code` and `git diff --check` |
 
 Two traps. After catalog changes, run `bun run build` before `bun run test`, because
 the vector files are ignored build output and the tests fail on stale ones. The
@@ -135,8 +137,10 @@ code, commands and paths exact, and say what is uncertain or unverified.
 
 `CLAUDE.md` only imports this file. Keep repository policy here, not in
 harness-specific files. Hooks in `.claude/settings.json` and `.codex/hooks.json` run
-the same scripts in `scripts/harness/`: they block `bun test`, `.env` reads and edits
-to secrets or generated files, ask before broad staging, force pushes, discarding
-work, merges and deploys, and ask for the matching checks before you stop. Do not
-weaken or work around them; change them in a reviewed pull request with their tests.
+the same scripts in `scripts/harness/`: they block `bun test`, reading `.env` files
+and editing secrets or generated files; ask before broad staging, force pushes,
+discarding work, merges and deploys; and, when you stop, ask for the checks that
+match the files your session edited. They guard ordinary commands, not every way a
+shell can run one. Do not weaken or work around them; change them in a reviewed pull
+request with their tests.
 Preview servers start from `.claude/launch.json`.

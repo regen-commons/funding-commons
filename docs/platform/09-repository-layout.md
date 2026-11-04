@@ -63,7 +63,7 @@ A package for shared contracts, such as the Zod schemas in [spec 6.2](05-technic
 
 | Pattern | How it lands here |
 |---|---|
-| Bun workspace over `packages/*` with scoped names | Every package uses the same script names: `build`, `typecheck` and `test`, plus `lint` once a linter exists. Root scripts fan out with `bun run --filter '*'`, which runs packages in dependency order, skips packages without the script and fails when any package fails (checked with Bun 1.4.2). |
+| Bun workspace over `packages/*` with scoped names | Every package uses the same script names: `build`, `typecheck` and `test`, plus `lint` once a linter exists. `bun run --filter '*'` runs packages in dependency order, skips packages without the script and fails when any package fails (checked with Bun 1.4.2). Root `build` and `test` stay the live site's own; `bun run ci` runs them and every package's. |
 | Root `DESIGN.md` generating the shared package's CSS | `DESIGN.md` stays at the root and generates `packages/design-system/tokens/`. |
 | Root `AGENTS.md` routing to a scoped guide per surface; `CLAUDE.md` only imports it | Guides for `research/` and each package. Rows are added as each surface arrives, so the table never points at something missing. |
 | `.claude/skills` canonical, `.agents/skills` symlinked for Codex | Skills adapted from the website's `plan`, `debug`, `review` and `ship`, then `design` and `catalog-research`. |
@@ -71,7 +71,7 @@ A package for shared contracts, such as the Zod schemas in [spec 6.2](05-technic
 | Guidance checker in `scripts/quality/` | Relative links, documented `bun run` scripts and skill frontmatter. |
 | Path-scoped `.claude/rules/` and a few `.claude/context/` files | Added with the paths they cover. |
 | One `vercel.json` per deployable package, each Vercel project rooted at its package | As Green Goods does for client, admin and QA. The live project keeps the root. |
-| A workflow per check | `design.yml` and `guidance.yml` beside the existing `validate.yml`. |
+| A workflow per check | `design.yml`, `guidance.yml` and `weave.yml` beside the existing `validate.yml`, each running its own checks once. |
 | `bunfig.toml` | A three-day minimum release age for newly resolved versions, and no implicit `.env` loading. Green Goods' `[run] bun = true` is not adopted, because it would run the `node --test` scripts under Bun. |
 
 ## What we skip, and when to revisit
@@ -92,7 +92,7 @@ A package for shared contracts, such as the Zod schemas in [spec 6.2](05-technic
 
 - Root `vercel.json` stays as it is. Vercel still runs `bun install --frozen-lockfile`, then `bun run build && bun run test` at the root, and serves `dist/`.
 - The lockfile grows with each package and is committed in the same pull request. With packages present, Bun 1.4.2 switches to its isolated linker. The catalog build, which bundles Transformers.js with esbuild and copies the ONNX runtime out of `node_modules`, and all 149 tests pass under it (checked in a scratch copy).
-- Root `build` and `test` also build and test every package, so a broken package would fail the live site's deploy. CI runs the same commands on every pull request and catches it first.
+- Root `build` and `test` stay the live site's own, so its deploy runs what it ran before and a broken package cannot hold up a catalog update. The packages build and test in their own workflows, and `bun run ci` runs everything CI runs.
 - The Weave app deploys from a second Vercel project rooted at `packages/app`. funding-commons.vercel.app keeps serving `dist/` until the subdomain is live and the redirect in spec 15 is added.
 - The existing project's Ignored Build Step skips previews, and the new project does not exist yet, so no preview deploys come from this work.
 

@@ -14,5 +14,5 @@
     "resolveJsonModule": true,
     "skipLibCheck": true
   },
-  "include": ["vite.config.ts", "api", "test"]
+  "include": ["vite.config.ts", "dev", "api", "test"]
 }
