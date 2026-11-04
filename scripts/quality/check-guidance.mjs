@@ -15,8 +15,8 @@ const DESCRIPTION_LIMIT = 1024;
 // Files whose commands agents follow. Older catalog reports may name retired scripts.
 const COMMAND_SOURCES = /(^|\/)(AGENTS|CLAUDE|SKILL|README)\.md$|^\.claude\/|^docs\//;
 
-/** The same heading slugs the design-system link test uses. */
-export const slug = (heading) => heading.toLowerCase().replace(/[^\w\s-]/g, "").trim().replace(/\s+/g, "-");
+/** GitHub's heading anchors: closing hashes and punctuation dropped, lower case, each space a hyphen. */
+export const slug = (heading) => heading.replace(/\s+#+\s*$/, "").trim().toLowerCase().replace(/[^\p{L}\p{M}\p{N}\p{Pc} -]/gu, "").replace(/ /g, "-");
 
 const read = (root, path) => readFileSync(join(root, path), "utf8");
 const readJson = (root, path) => JSON.parse(read(root, path));

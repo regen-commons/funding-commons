@@ -230,7 +230,8 @@ test("fonts, licenses and icons referenced by the system exist", () => {
 
 test("design documents have working relative links and no em dashes", () => {
   const docs = ["DESIGN.md", ...walk("packages/design-system", (path) => path.endsWith(".md")), "docs/platform/07-agent-scaffolding.md", "docs/platform/08-accounts-and-saving.md", "docs/platform/open-decisions.md"];
-  const slug = (heading) => heading.toLowerCase().replace(/[^\w\s-]/g, "").trim().replace(/\s+/g, "-");
+  // GitHub's heading anchors, as scripts/quality/check-guidance.mjs computes them.
+  const slug = (heading) => heading.replace(/\s+#+\s*$/, "").trim().toLowerCase().replace(/[^\p{L}\p{M}\p{N}\p{Pc} -]/gu, "").replace(/ /g, "-");
   for (const doc of docs) {
     const text = read(doc);
     assert.doesNotMatch(text, /—/, `${doc} has an em dash`);

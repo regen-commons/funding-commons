@@ -1,18 +1,22 @@
 #!/usr/bin/env node
-// File edit guardrails shared by the Claude Code and Codex hooks.
+// File guardrails shared by the Claude Code and Codex hooks.
 //
-// Usage: node scripts/harness/edit-policy.mjs pre|post < hook-event.json
+// Usage: node scripts/harness/edit-policy.mjs pre|post|read < hook-event.json
 // "pre" blocks edits to secrets and generated files. "post" adds a notice to the
-// agent's context after an edit to a critical or configuration surface.
-import { readFileSync } from "node:fs";
-import { isAbsolute, relative, resolve } from "node:path";
+// agent's context after an edit to a critical or configuration surface, and records
+// the edit for the stop check. "read" blocks reading secrets with Claude Code's Read
+// and Grep tools.
+import { existsSync, readFileSync } from "node:fs";
+import { dirname, isAbsolute, join, relative, resolve, sep } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { isSecretPath, SECRET_READ } from "./secrets.mjs";
+import { recordEdits } from "./session-edits.mjs";
 
 const ROOT = fileURLToPath(new URL("../../", import.meta.url));
 
 const BLOCKED = [
   {
-    test: (path) => /(^|\/)\.env($|\.)/.test(path) && !path.endsWith(".env.example"),
+    test: isSecretPath,
     message: "Do not edit `.env` files. Keep secrets out of the repository; document a new variable in `.env.example`.",
   },
   {
@@ -39,23 +43,33 @@ const NOTICES = [
     message: "Critical surface (auth, data access, consent, server secrets or sharing). Read every touched line, prove the failure paths, and plan a second review before merge.",
   },
   {
-    test: (path) => /(^|\/)(package\.json|bun\.lock|bunfig\.toml|vercel\.json)$/.test(path) || /^\.github\/workflows\//.test(path) || /^\.(claude|codex|agents)\//.test(path) || /^scripts\/harness\//.test(path) || /(^|\/)(AGENTS|CLAUDE)\.md$/.test(path),
+    test: (path) => /(^|\/)(package\.json|bun\.lock|bunfig\.toml|vercel\.json)$/.test(path) || /^\.github\/workflows\//.test(path) || /^\.(claude|codex|agents)\//.test(path) || /^scripts\/(harness|quality)\//.test(path) || /(^|\/)(AGENTS|CLAUDE)\.md$/.test(path),
     message: "Manifest, lockfile, workflow or agent configuration. Keep the change to what the task needs and state how you validated it.",
   },
 ];
 
-/** Repository-relative paths named by a Claude or Codex edit event. */
-export function editedPaths(event, root = ROOT) {
+/** Absolute paths named by a Claude or Codex file tool event. */
+export function eventFiles(event, root = ROOT) {
   const input = event?.tool_input ?? {};
   const paths = [input.file_path, input.path, input.notebook_path];
   if (typeof input.command === "string" || typeof input.patch === "string") {
     const patch = input.patch ?? input.command;
     for (const match of patch.matchAll(/^\*\*\* (?:Add|Update|Delete) File: (.+)$|^\*\*\* Move to: (.+)$/gm)) paths.push(match[1] ?? match[2]);
   }
-  return [...new Set(paths.filter((path) => typeof path === "string" && path.trim()).map((path) => {
-    const absolute = isAbsolute(path) ? path : resolve(event?.cwd ?? root, path);
-    return relative(root, absolute).split("\\").join("/");
-  }))];
+  return [...new Set(paths.filter((path) => typeof path === "string" && path.trim()).map((path) => (isAbsolute(path) ? path : resolve(event?.cwd ?? root, path))))];
+}
+
+/** A file's path inside the Git work tree that holds it, so files in a nested worktree meet the same rules. */
+export function workTreePath(file, root = ROOT) {
+  for (let dir = dirname(file); ; dir = dirname(dir)) {
+    if (existsSync(join(dir, ".git"))) return relative(dir, file).split(sep).join("/");
+    if (dirname(dir) === dir) return relative(root, file).split(sep).join("/");
+  }
+}
+
+/** Repository-relative paths named by a Claude or Codex file tool event. */
+export function editedPaths(event, root = ROOT) {
+  return eventFiles(event, root).map((file) => workTreePath(file, root));
 }
 
 export function evaluateEdit(paths) {
@@ -67,8 +81,8 @@ export function evaluateEdit(paths) {
 
 function main() {
   const phase = process.argv[2];
-  if (!["pre", "post"].includes(phase)) {
-    console.error("Edit policy: expected pre or post.");
+  if (!["pre", "post", "read"].includes(phase)) {
+    console.error("Edit policy: expected pre, post or read.");
     process.exitCode = 2;
     return;
   }
@@ -78,14 +92,27 @@ function main() {
     console.error("Edit policy: invalid event input; no policy decision. Normal permissions apply.");
     return;
   }
-  const { blocked, notices } = evaluateEdit(editedPaths(event));
+  const files = eventFiles(event);
+  const paths = files.map((file) => workTreePath(file));
+  if (phase === "read") {
+    const secrets = paths.filter(isSecretPath);
+    if (secrets.length) {
+      console.error(`BLOCKED: ${secrets.join(", ")}: ${SECRET_READ}`);
+      process.exitCode = 2;
+    }
+    return;
+  }
+  const { blocked, notices } = evaluateEdit(paths);
   if (phase === "pre" && blocked.length) {
     for (const message of blocked) console.error(`BLOCKED: ${message}`);
     process.exitCode = 2;
-  } else if (phase === "post" && notices.length) {
-    process.stdout.write(JSON.stringify({
-      hookSpecificOutput: { hookEventName: "PostToolUse", additionalContext: notices.join("\n") },
-    }));
+  } else if (phase === "post") {
+    recordEdits(event.session_id, files);
+    if (notices.length) {
+      process.stdout.write(JSON.stringify({
+        hookSpecificOutput: { hookEventName: "PostToolUse", additionalContext: notices.join("\n") },
+      }));
+    }
   }
 }
 
