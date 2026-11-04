@@ -63,13 +63,13 @@ supabase/AGENTS.md                schema, RLS, commands, one migration owner
   skills/                         canonical skills, list below
 .agents/skills -> ../.claude/skills
 .codex/
-  config.toml                     project doc fallback; network stays on for the catalog build and discovery
-  hooks.json, hooks/              same policy as Claude
+  config.toml                     hooks on, provider keys kept out of the shell, sandbox network left as set
+  hooks.json                      the same scripts in scripts/harness/ as the Claude hooks
 .github/workflows/
   validate.yml                    existing build and test job, unchanged
   design.yml                      bun run design:check
   guidance.yml                    bun run guidance:check and the hook tests
-scripts/harness/command-policy.mjs
+scripts/harness/                  command, edit, compaction and stop policies, shared by both harnesses
 scripts/quality/check-guidance.mjs
 ```
 
