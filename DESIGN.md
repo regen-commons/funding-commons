@@ -290,9 +290,9 @@ components:
 
 # Regen Commons design system
 
-This file is the single source for Regen Commons design tokens and the reasoning behind them. Coding agents and people read it first. The generator turns the tokens above into [tokens.generated.css](design-system/tokens/tokens.generated.css) and [tokens.generated.json](design-system/tokens/tokens.generated.json). Never edit those by hand.
+This file is the single source for Regen Commons design tokens and the reasoning behind them. Coding agents and people read it first. The generator turns the tokens above into [tokens.generated.css](packages/design-system/tokens/tokens.generated.css) and [tokens.generated.json](packages/design-system/tokens/tokens.generated.json). Never edit those by hand.
 
-The rest of the system lives in [design-system/](design-system/README.md): the CSS, fonts, brand guide, voice guide, pattern library and decision log. Every value that already exists on [regencommons.com](https://regencommons.com) is carried over exactly. A test compares them with a pinned copy of the website's tokens.
+The rest of the system lives in [packages/design-system/](packages/design-system/README.md): the CSS, fonts, brand guide, voice guide, pattern library and decision log. Every value that already exists on [regencommons.com](https://regencommons.com) is carried over exactly. A test compares them with a pinned copy of the website's tokens.
 
 ## Overview
 
@@ -389,7 +389,7 @@ Tokens are generated into explicit theme blocks instead of using `light-dark()`.
 - Space Grotesk is for tasks and data. Source Serif is for reading, from 16 px up. Fraunces is for titles, never for controls.
 - Buttons and labels use sentence case. Capitals are reserved for `label-sm` and used sparingly.
 - Prose stays within 45 to 75 characters per line (`--prose-width`). Left-align text. Centre three lines at most. Right-align numbers.
-- Fonts are subset to Latin. Yoruba and Vietnamese marks fall back to the system face until [latin-ext subsets](design-system/decision-log.md) are added.
+- Fonts are subset to Latin. Yoruba and Vietnamese marks fall back to the system face until [latin-ext subsets](packages/design-system/decision-log.md) are added.
 
 ## Layout
 
@@ -429,7 +429,7 @@ Border widths mean something: 1 px divides, 2 px marks selection or emphasis, 3 
 
 ## Components
 
-[COMPONENTS.md](design-system/COMPONENTS.md) lists every pattern with its level, status, parts and content limits. The [pattern library](design-system/patterns/index.html) shows them running. CSS lives in [design-system/css](design-system/css/) and uses cascade layers: `tokens`, `base`, `atoms`, `molecules`, `organisms`, `templates`.
+[COMPONENTS.md](packages/design-system/COMPONENTS.md) lists every pattern with its level, status, parts and content limits. The [pattern library](packages/design-system/patterns/index.html) shows them running. CSS lives in [packages/design-system/css](packages/design-system/css/) and uses cascade layers: `tokens`, `base`, `atoms`, `molecules`, `organisms`, `templates`.
 
 - **Buttons** rank actions. One solid primary per region, an outlined secondary, a link-style quiet action. The danger fill appears only on the confirming step of a destructive action.
 - **Fields** put the label above the control, the hint between them and the error below, using an icon, words and a 2 px edge. Hints are never placeholders.
@@ -441,7 +441,7 @@ Names describe structure, not content. `Card`, not NeedCard. Product words live 
 
 ## Interface Principles
 
-UI work follows three books. Page numbers are PDF pages of the editions the team holds. The PDFs are not in this repository. The [principles folder](design-system/principles/README.md) has fuller notes on how each applies here, and the [review checklist](design-system/principles/ui-review-checklist.md) turns them into checks.
+UI work follows three books. Page numbers are PDF pages of the editions the team holds. The PDFs are not in this repository. The [principles folder](packages/design-system/principles/README.md) has fuller notes on how each applies here, and the [review checklist](packages/design-system/principles/ui-review-checklist.md) turns them into checks.
 
 ### How people use what we build
 
@@ -500,11 +500,11 @@ Run this five-minute review on any UI change, on a rendered page at 360 px and a
 6. **Fill it badly.** Try empty, one, many, a very long name, Portuguese, an error and offline.
 7. **Use the keyboard.** Tab through it, then try both themes, 200 percent text size and reduced motion.
 
-Report the result in the handoff. The [checklist](design-system/principles/ui-review-checklist.md) has the full list for larger changes.
+Report the result in the handoff. The [checklist](packages/design-system/principles/ui-review-checklist.md) has the full list for larger changes.
 
 ## Voice
 
-[VOICE.md](design-system/brand/VOICE.md) owns product language: the voice, the tone map, the plain-name vocabulary and the words to avoid. Warm botanical language lives in titles, empty states and the website. Errors, consent, privacy and money always use exact, plain words.
+[VOICE.md](packages/design-system/brand/VOICE.md) owns product language: the voice, the tone map, the plain-name vocabulary and the words to avoid. Warm botanical language lives in titles, empty states and the website. Errors, consent, privacy and money always use exact, plain words.
 
 ## Do's and Don'ts
 

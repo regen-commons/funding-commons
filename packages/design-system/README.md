@@ -14,7 +14,7 @@ Then open <http://localhost:4173/patterns/index.html>.
 
 | Path | What it holds |
 |---|---|
-| [`../DESIGN.md`](../DESIGN.md) | The source of all tokens, plus the reasoning and interface principles. Start here. |
+| [`../../DESIGN.md`](../../DESIGN.md) | The source of all tokens, plus the reasoning and interface principles. Start here. |
 | [`brand/BRAND.md`](brand/BRAND.md) | The brand: character, mark, names, colour and type stories, imagery |
 | [`brand/VOICE.md`](brand/VOICE.md) | Voice, tone map, plain names, words to avoid |
 | [`COMPONENTS.md`](COMPONENTS.md) | Every pattern with status, limits and lineage, and how to add one |
@@ -33,6 +33,8 @@ Then open <http://localhost:4173/patterns/index.html>.
 <meta name="color-scheme" content="light dark">
 <link rel="stylesheet" href="/design-system/css/index.css">
 ```
+
+From a workspace package, import the same CSS by name: `import "@regen-commons/design-system/css";`.
 
 The page then follows the system theme. To pin a theme, set `data-theme="light"` or `data-theme="dark"` on the root or on a section. To restore a saved choice before first paint, use the short inline script at the top of [patterns/pages/home.html](patterns/pages/home.html).
 
@@ -55,7 +57,7 @@ bun run design:check
 ```
 
 ```bash
-node --test tests/design-system.test.mjs
+bun run --filter @regen-commons/design-system test
 ```
 
 The tests check that generated files are current, the linter is clean, website values are preserved, every role pair meets contrast in both themes, CSS uses only tokens, every class is documented and used, this file's links resolve, and example pages use plain copy and labelled fields.

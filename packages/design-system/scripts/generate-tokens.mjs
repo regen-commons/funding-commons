@@ -5,10 +5,10 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
 
-const ROOT = fileURLToPath(new URL("../../", import.meta.url));
+const ROOT = fileURLToPath(new URL("../../../", import.meta.url));
 export const DESIGN_PATH = join(ROOT, "DESIGN.md");
-export const CSS_PATH = join(ROOT, "design-system/tokens/tokens.generated.css");
-export const JSON_PATH = join(ROOT, "design-system/tokens/tokens.generated.json");
+export const CSS_PATH = join(ROOT, "packages/design-system/tokens/tokens.generated.css");
+export const JSON_PATH = join(ROOT, "packages/design-system/tokens/tokens.generated.json");
 
 const DARK_SUFFIX = "-dark";
 const FONT_ROLES = { "Space Grotesk": "font-sans", "Source Serif 4": "font-serif", Fraunces: "font-display" };
@@ -157,7 +157,7 @@ export function buildTokens(source) {
   const missing = Object.keys(lightBlock).filter((name) => !(name in darkBlock));
   if (missing.length) throw new Error(`Tokens missing a dark value: ${missing.join(", ")}.`);
 
-  const css = `/* Generated from DESIGN.md by scripts/design/generate-tokens.mjs. Edit DESIGN.md, then run: bun run design:tokens */
+  const css = `/* Generated from DESIGN.md by packages/design-system/scripts/generate-tokens.mjs. Edit DESIGN.md, then run: bun run design:tokens */
 :root {
   color-scheme: light dark;
 

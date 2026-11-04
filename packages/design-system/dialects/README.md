@@ -1,6 +1,6 @@
 # Dialects
 
-Each surface speaks the same language with its own emphasis. A dialect adds rules for one surface, and it never changes token values. If a dialect needs a new value, add it to [DESIGN.md](../../DESIGN.md).
+Each surface speaks the same language with its own emphasis. A dialect adds rules for one surface, and it never changes token values. If a dialect needs a new value, add it to [DESIGN.md](../../../DESIGN.md).
 
 | Dialect | Surface | Status |
 |---|---|---|

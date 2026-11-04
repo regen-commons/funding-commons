@@ -1,6 +1,6 @@
 # Refactoring UI in this product
 
-This book supplies the tactics behind our scales and screens. [DESIGN.md](../../DESIGN.md) holds the resulting values.
+This book supplies the tactics behind our scales and screens. [DESIGN.md](../../../DESIGN.md) holds the resulting values.
 
 ## Starting
 

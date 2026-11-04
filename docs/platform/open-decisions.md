@@ -21,7 +21,7 @@ The single list of what is unresolved. Each entry has a recommendation, so a dec
 | D7 | Which networks are the first sharing targets? | Murmurations index, yes. Regen KOI, confirm with its operators. Hylo, link only. Bloom's offers and needs sessions, import with consent. | Phase 1 | Open |
 | D8 | Which places pilot the Phase 2 place synthesis and Phase 3 pool? | Pick two or three from existing nodes: San Francisco Bay and Central Valley, Lagos lagoon and Niger delta, southern Brazil, a Central American watershed. | Phase 1 | Open |
 | D9 | Which entity receives funds for the Mozilla application? | Open Source Collective at 10 percent, unless Regen Commons has its own entity by then. | 20 November | Open |
-| D10 | Do the brand changes stand? This covers capital hue changes, square tiles, madder for errors, and plain stage labels. | Yes, for products. The website keeps its current look until it chooses to adopt them. See the [decision log](../../design-system/decision-log.md). | Phase 0 | Open |
+| D10 | Do the brand changes stand? This covers capital hue changes, square tiles, madder for errors, and plain stage labels. | Yes, for products. The website keeps its current look until it chooses to adopt them. See the [decision log](../../packages/design-system/decision-log.md). | Phase 0 | Open |
 | D11 | Who owns the design system and represents its users? | The lead builder as maker, one steward as user representative. | Phase 0 | Open |
 
 ## For the builders
@@ -47,7 +47,7 @@ The single list of what is unresolved. Each entry has a recommendation, so a dec
 
 | ID | Question | How it gets answered | Status |
 |---|---|---|---|
-| T1 | Does "initiative" read clearly, or is "project or group" better? | Name test in the [usability rounds](../../design-system/principles/usability-testing.md) | Test |
+| T1 | Does "initiative" read clearly, or is "project or group" better? | Name test in the [usability rounds](../../packages/design-system/principles/usability-testing.md) | Test |
 | T2 | Partnership or recipe? | Name test | Test |
 | T3 | Do plain capital labels work, such as "Care and spirit", and are eight too many for a card? | Name test, plus watching the offers step | Test |
 | T4 | Does the assistant need a persona, such as the Gardener? | Compare "Assistant" with a named guide. "Assistant" is the default until then. | Test |

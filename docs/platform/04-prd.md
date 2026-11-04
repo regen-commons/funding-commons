@@ -73,7 +73,7 @@ Personas are deliberately framed by lens rather than by organisation type, becau
 
 Fun, simple, intuitive. Conversation over forms. Speak or paste first, edit second. Show value before asking for anything. Mobile first. Progress saved locally so nothing is lost. Everything the AI derives is shown as an editable card, never silently applied. Plain language in the Regen Commons voice: warm, second person, no jargon, with botanical language kept to places where nothing depends on it.
 
-All interface work follows [DESIGN.md](../../DESIGN.md) and the three books it applies: *Don't Make Me Think* for how people use it, *Refactoring UI* for how screens show what matters, and *Atomic Design* for how the system stays whole. Labels use the plain names in [VOICE.md](../../design-system/brand/VOICE.md). Domain terms in this document, such as recipe, pulse and lens, are not necessarily what people read.
+All interface work follows [DESIGN.md](../../DESIGN.md) and the three books it applies: *Don't Make Me Think* for how people use it, *Refactoring UI* for how screens show what matters, and *Atomic Design* for how the system stays whole. Labels use the plain names in [VOICE.md](../../packages/design-system/brand/VOICE.md). Domain terms in this document, such as recipe, pulse and lens, are not necessarily what people read.
 
 ### 6.2 The three-step conversation
 
@@ -184,10 +184,10 @@ Saving and accounts
 
 Design quality
 
-- R44 Every screen is built from the design system: tokens from [DESIGN.md](../../DESIGN.md), patterns from the [inventory](../../design-system/COMPONENTS.md), words from [VOICE.md](../../design-system/brand/VOICE.md).
-- R45 Every UI change passes the [five-minute review](../../DESIGN.md#how-we-follow-them). New screens pass the [checklist](../../design-system/principles/ui-review-checklist.md).
+- R44 Every screen is built from the design system: tokens from [DESIGN.md](../../DESIGN.md), patterns from the [inventory](../../packages/design-system/COMPONENTS.md), words from [VOICE.md](../../packages/design-system/brand/VOICE.md).
+- R45 Every UI change passes the [five-minute review](../../DESIGN.md#how-we-follow-them). New screens pass the [checklist](../../packages/design-system/principles/ui-review-checklist.md).
 - R46 Anything the assistant derives shows in pencil until a person confirms or corrects it; derived details never block the flow.
-- R47 One usability round with real users runs before 30 November; the regular testing rhythm is set after launch. Fixes follow the [testing plan](../../design-system/principles/usability-testing.md).
+- R47 One usability round with real users runs before 30 November; the regular testing rhythm is set after launch. Fixes follow the [testing plan](../../packages/design-system/principles/usability-testing.md).
 
 ## 8. Quality requirements
 

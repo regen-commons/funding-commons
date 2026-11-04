@@ -18,7 +18,7 @@ You are laying the foundation of the `regen-commons/funding-commons` repository 
 
 1. `docs/platform/07-agent-scaffolding.md`, the plan you are carrying out, including which Green Goods patterns to adopt and which to skip.
 2. `docs/platform/05-technical-spec.md` sections 2 and 3, and `docs/platform/04-prd.md` section 9.
-3. `DESIGN.md`, `design-system/README.md`, `design-system/brand/VOICE.md` and `docs/maintenance.md`.
+3. `DESIGN.md`, `packages/design-system/README.md`, `packages/design-system/brand/VOICE.md` and `docs/maintenance.md`.
 4. Green Goods, the structure to follow. Local clone: `/Users/afo/Code/greenpill/green-goods`. Read `origin/develop`, its default branch, not the working copy. It is a Bun workspace (`packages/*` and `docs`) run through turbo (`build`, `lint`, `typecheck`, `test`). Its root `AGENTS.md` routes to a scoped `AGENTS.md` in each package, and its root `DESIGN.md` generates the CSS in `packages/shared/src/styles/`. It also has `.claude/` (skills, rules, context, `settings.json`, `launch.json`), `.agents/skills`, `.codex/`, `scripts/harness/` and `scripts/quality/`, and a CI workflow per package behind `ci-gate.yml`.
 5. The Regen Commons website (`regen-commons/website`). Local clone: `/Users/afo/Code/regen/regen-commons-site`. Read `origin/main`, because the checkout has been seen on a stale branch. Its `skills/` (plan, debug, review, ship) are the adapted versions to start from. Its `admin/`, `api/` and `supabase/` guides show what a scoped `AGENTS.md` looks like at this project's size.
 

@@ -1,6 +1,6 @@
 # UI review checklist
 
-Use the [five-minute review](../../DESIGN.md#how-we-follow-them) for every UI change. Use this list for new screens and larger changes. Test on a rendered page at 360 px, then across widths up to 1440 px. Report what you checked, with screenshots and the proof class from the handoff. Letters mark the source: K for Krug, R for *Refactoring UI*, A for *Atomic Design*.
+Use the [five-minute review](../../../DESIGN.md#how-we-follow-them) for every UI change. Use this list for new screens and larger changes. Test on a rendered page at 360 px, then across widths up to 1440 px. Report what you checked, with screenshots and the proof class from the handoff. Letters mark the source: K for Krug, R for *Refactoring UI*, A for *Atomic Design*.
 
 ## Arriving and finding the way
 

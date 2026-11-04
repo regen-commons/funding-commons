@@ -129,7 +129,7 @@ Checked against regenerative, web3 and commons usage. No notable collision: Tend
 
 ## 13. Interface books and design tooling
 
-UI work follows three books, held by the team as licensed PDFs and not committed. Notes in our own words, with page references, are in [design-system/principles](../../design-system/principles/README.md).
+UI work follows three books, held by the team as licensed PDFs and not committed. Notes in our own words, with page references, are in [packages/design-system/principles](../../packages/design-system/principles/README.md).
 
 - Steve Krug, *Don't Make Me Think, Revisited*, third edition, 2014. Source of the plain-label rule, the trunk test, the saving approach and the usability testing plan. It has no data on sign-up timing, so that recommendation is a hypothesis.
 - Adam Wathan and Steve Schoger, *Refactoring UI*. Source of the scales, the action hierarchy and the depth rules. It shaped the colour ramps pinned to the website's values.

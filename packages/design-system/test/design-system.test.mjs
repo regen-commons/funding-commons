@@ -4,27 +4,27 @@ import { dirname, join, resolve } from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
 import { lint } from "@google/design.md/linter";
-import { buildTokens, readDesign, readRamps } from "../scripts/design/generate-tokens.mjs";
+import { buildTokens, readDesign, readRamps } from "../scripts/generate-tokens.mjs";
 
-const ROOT = fileURLToPath(new URL("../", import.meta.url));
+const ROOT = fileURLToPath(new URL("../../../", import.meta.url));
 const read = (path) => readFileSync(join(ROOT, path), "utf8");
 const designSource = read("DESIGN.md");
 const { design } = readDesign(designSource);
-const tokens = JSON.parse(read("design-system/tokens/tokens.generated.json"));
-const tokensCss = read("design-system/tokens/tokens.generated.css");
+const tokens = JSON.parse(read("packages/design-system/tokens/tokens.generated.json"));
+const tokensCss = read("packages/design-system/tokens/tokens.generated.css");
 
-const CSS_FILES = ["base", "atoms", "molecules", "organisms", "templates"].map((name) => `design-system/css/${name}.css`);
-const LIBRARY_CSS = "design-system/patterns/library.css";
-const PAGE_NAMES = readdirSync(join(ROOT, "design-system/patterns/pages")).filter((file) => file.endsWith(".html"));
-const PAGES = Object.fromEntries(PAGE_NAMES.map((file) => [file.replace(".html", ""), read(`design-system/patterns/pages/${file}`)]));
-const LIBRARY = read("design-system/patterns/index.html");
+const CSS_FILES = ["base", "atoms", "molecules", "organisms", "templates"].map((name) => `packages/design-system/css/${name}.css`);
+const LIBRARY_CSS = "packages/design-system/patterns/library.css";
+const PAGE_NAMES = readdirSync(join(ROOT, "packages/design-system/patterns/pages")).filter((file) => file.endsWith(".html"));
+const PAGES = Object.fromEntries(PAGE_NAMES.map((file) => [file.replace(".html", ""), read(`packages/design-system/patterns/pages/${file}`)]));
+const LIBRARY = read("packages/design-system/patterns/index.html");
 
 const stripComments = (css) => css.replace(/\/\*[\s\S]*?\*\//g, "");
 const classesIn = (html) => new Set([...html.matchAll(/class="([^"]+)"/g)].flatMap((match) => match[1].split(/\s+/)).filter((name) => name.startsWith("rc-")));
 const cssClasses = () => new Set(CSS_FILES.flatMap((file) => [...stripComments(read(file)).matchAll(/\.(rc-[a-z0-9-]+)/g)].map((match) => match[1])));
 
 function walk(dir, predicate) {
-  return readdirSync(join(ROOT, dir)).flatMap((name) => {
+  return readdirSync(join(ROOT, dir)).filter((name) => name !== "node_modules").flatMap((name) => {
     const path = `${dir}/${name}`;
     if (statSync(join(ROOT, path)).isDirectory()) return walk(path, predicate);
     return predicate(path) ? [path] : [];
@@ -48,11 +48,11 @@ const contrast = (a, b) => {
 test("generated tokens match DESIGN.md", () => {
   const { css, json } = buildTokens(designSource);
   assert.equal(tokensCss, css, "Run: bun run design:tokens");
-  assert.equal(read("design-system/tokens/tokens.generated.json"), json, "Run: bun run design:tokens");
+  assert.equal(read("packages/design-system/tokens/tokens.generated.json"), json, "Run: bun run design:tokens");
 });
 
 test("DESIGN.md and the dialects pass the DesignMD linter with no warnings", () => {
-  const files = ["DESIGN.md", ...walk("design-system/dialects", (path) => path.endsWith(".md") && !path.endsWith("README.md"))];
+  const files = ["DESIGN.md", ...walk("packages/design-system/dialects", (path) => path.endsWith(".md") && !path.endsWith("README.md"))];
   for (const file of files) {
     const report = lint(read(file));
     assert.deepEqual(report.findings.filter((finding) => finding.severity !== "info"), [], file);
@@ -68,7 +68,7 @@ test("every colour token comes from the ramp table", () => {
 });
 
 test("website token values are preserved under their website names", () => {
-  const source = read("design-system/source/website-design-tokens.css");
+  const source = read("packages/design-system/source/website-design-tokens.css");
   const blocks = [...stripComments(source).matchAll(/(:root|\[data-theme="light"\])\s*\{([\s\S]*?)\}/g)];
   const parse = (body) => Object.fromEntries([...body.matchAll(/--([\w-]+):\s*([^;]+);/g)].map((match) => [match[1], match[2].trim()]));
   const [layout, dark, light] = blocks.map((block) => parse(block[2]));
@@ -159,14 +159,14 @@ test("every class is defined, documented and shown", () => {
   const used = classesIn([LIBRARY, ...Object.values(PAGES)].join("\n"));
   assert.deepEqual([...defined].filter((name) => !used.has(name)), [], "CSS classes with no example");
   assert.deepEqual([...used].filter((name) => !defined.has(name)), [], "Classes used without CSS");
-  const inventory = read("design-system/COMPONENTS.md");
+  const inventory = read("packages/design-system/COMPONENTS.md");
   const documented = [...inventory.matchAll(/`(rc-[a-z0-9-]+)`/g)].map((match) => match[1]);
   for (const name of documented) assert.ok(defined.has(name), `COMPONENTS.md lists ${name}, which has no CSS`);
   for (const name of defined) assert.ok(documented.some((doc) => name === doc || name.startsWith(`${doc}-`)), `${name} is not documented`);
 });
 
 test("the inventory's lineage and status match the example pages", () => {
-  const inventory = read("design-system/COMPONENTS.md");
+  const inventory = read("packages/design-system/COMPONENTS.md");
   const rows = [...inventory.matchAll(/^\| [^|]+ \| `(rc-[a-z0-9-]+)` \| (stable|candidate|deprecated) \|.*\| ([^|]+) \|$/gm)];
   assert.ok(rows.length > 40, "Expected the pattern tables to parse");
   const sectionOf = (index) => [...inventory.slice(0, index).matchAll(/^## (\w+)/gm)].at(-1)[1];
@@ -219,17 +219,17 @@ test("each focused region has at most one primary action", () => {
 });
 
 test("fonts, licenses and icons referenced by the system exist", () => {
-  const fontsCss = read("design-system/fonts/fonts.css");
-  for (const match of fontsCss.matchAll(/url\("\.\/([^"]+)"\)/g)) assert.ok(existsSync(join(ROOT, "design-system/fonts", match[1])), match[1]);
-  for (const family of ["fraunces", "source-serif-4", "space-grotesk"]) assert.ok(existsSync(join(ROOT, `design-system/fonts/${family}-OFL.txt`)), family);
-  const icons = new Set([...read("design-system/brand/icons.svg").matchAll(/<symbol id="([^"]+)"/g)].map((match) => match[1]));
+  const fontsCss = read("packages/design-system/fonts/fonts.css");
+  for (const match of fontsCss.matchAll(/url\("\.\/([^"]+)"\)/g)) assert.ok(existsSync(join(ROOT, "packages/design-system/fonts", match[1])), match[1]);
+  for (const family of ["fraunces", "source-serif-4", "space-grotesk"]) assert.ok(existsSync(join(ROOT, `packages/design-system/fonts/${family}-OFL.txt`)), family);
+  const icons = new Set([...read("packages/design-system/brand/icons.svg").matchAll(/<symbol id="([^"]+)"/g)].map((match) => match[1]));
   for (const html of [LIBRARY, ...Object.values(PAGES)]) {
     for (const match of html.matchAll(/icons\.svg#([\w-]+)/g)) assert.ok(icons.has(match[1]), `Missing icon: ${match[1]}`);
   }
 });
 
 test("design documents have working relative links and no em dashes", () => {
-  const docs = ["DESIGN.md", ...walk("design-system", (path) => path.endsWith(".md")), "docs/platform/07-agent-scaffolding.md", "docs/platform/08-accounts-and-saving.md", "docs/platform/open-decisions.md"];
+  const docs = ["DESIGN.md", ...walk("packages/design-system", (path) => path.endsWith(".md")), "docs/platform/07-agent-scaffolding.md", "docs/platform/08-accounts-and-saving.md", "docs/platform/open-decisions.md"];
   const slug = (heading) => heading.toLowerCase().replace(/[^\w\s-]/g, "").trim().replace(/\s+/g, "-");
   for (const doc of docs) {
     const text = read(doc);

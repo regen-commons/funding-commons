@@ -12,7 +12,7 @@ decisions.
 | Surface | Paths | Guide |
 |---|---|---|
 | Live site and funder catalog | `research/`, catalog `scripts/`, `tests/`, `dist/`, `serve.mjs`, `src/` | [research/AGENTS.md](research/AGENTS.md) |
-| Design system | `DESIGN.md`, `design-system/` | [design-system/README.md](design-system/README.md) |
+| Design system (`@regen-commons/design-system`) | `DESIGN.md`, `packages/design-system/` | [packages/design-system/AGENTS.md](packages/design-system/AGENTS.md) |
 | Platform plan | `docs/platform/` | [docs/platform/README.md](docs/platform/README.md) |
 | Agent guidance and skills | `AGENTS.md`, `CLAUDE.md`, `.claude/`, `.agents/` | This file |
 
@@ -29,10 +29,10 @@ Add a row here when a package or scoped guide arrives, not before.
   pull request.
 - This repository is public. Keep secrets, `.env` files, contact details, private
   captures and private call content out of commits, logs and pull requests.
-- Never hand-edit generated files. `design-system/tokens/` comes from `DESIGN.md`
-  through `bun run design:tokens`, and most of `dist/data/` comes from the importer
-  and the build, as the catalog guide lists. Commit regenerated output with the
-  inputs that changed it; CI fails when a build changes tracked files.
+- Never hand-edit generated files. `packages/design-system/tokens/` comes from
+  `DESIGN.md` through `bun run design:tokens`, and most of `dist/data/` comes from the
+  importer and the build, as the catalog guide lists. Commit regenerated output with
+  the inputs that changed it; CI fails when a build changes tracked files.
 - `main` deploys the live site through Vercel from the root `vercel.json`. Do not
   change deployment configuration, the Ignored Build Step or DNS as part of other
   work.
@@ -66,7 +66,7 @@ Use the platform's terms in code, data and documents: initiative, need, offer, f
 of capital, lens, opportunity, match, recipe, place, pulse, account, member and
 steward. The [PRD](docs/platform/04-prd.md#5-core-concepts-and-vocabulary) defines
 them; do not redefine them elsewhere. People read the plain labels in
-[VOICE.md](design-system/brand/VOICE.md#plain-names) instead, such as "partnership"
+[VOICE.md](packages/design-system/brand/VOICE.md#plain-names) instead, such as "partnership"
 for recipe and "kind of support" for form of capital. An opportunity is never an
 eligibility decision.
 
@@ -83,7 +83,7 @@ has not loaded it.
 | Reviewing a diff, branch or pull request | [review](.claude/skills/review/SKILL.md) |
 | Commit, push or draft pull request | [ship](.claude/skills/ship/SKILL.md) |
 | Monday discovery, Thursday freshness, any catalog change | The [catalog guide](research/AGENTS.md) for the files and checks, and [docs/maintenance.md](docs/maintenance.md) for the research workflow |
-| A screen, component, CSS or copy change | [DESIGN.md](DESIGN.md), then [design-system/README.md](design-system/README.md) |
+| A screen, component, CSS, token or copy change | [design](.claude/skills/design/SKILL.md) |
 | Product requirements and decisions | [PRD](docs/platform/04-prd.md), [technical spec](docs/platform/05-technical-spec.md), [open decisions](docs/platform/open-decisions.md) |
 
 A skill never grants authority: its existence does not permit publishing, deploying
@@ -98,9 +98,9 @@ Run the focused check for the behavior you changed, then what the ladder adds.
 | Any change | The focused test for the behavior, such as `node --test tests/matching.test.mjs`, and `git diff --check` |
 | Catalog data or the importer | `bun run research:import` when research inputs changed, then `bun run build`, then `bun run test` |
 | The live site's interface | `bun run build`, `bun run test`, and a rendered check at 360 px and 1280 px with the keyboard |
-| Tokens or the design system | `bun run design:check` and `node --test tests/design-system.test.mjs` |
-| Docs and guidance | Every changed link resolves. `node --test tests/design-system.test.mjs` checks the design documents' links |
-| Before push (what CI runs) | `bun install --frozen-lockfile`, `bun run build`, `bun run test`, `git diff --exit-code`, `git diff --check` |
+| Tokens or the design system | `bun run design:check` and `bun run --filter @regen-commons/design-system test` |
+| Docs and guidance | Every changed link resolves. The design-system test checks the design documents' links |
+| Before push (what CI runs) | `bun install --frozen-lockfile`, `bun run build`, `bun run test`, `bun run design:check`, `git diff --exit-code`, `git diff --check` |
 
 Two traps. After catalog changes, run `bun run build` before `bun run test`, because
 the vector files are ignored build output and the tests fail on stale ones. The
@@ -122,7 +122,7 @@ commands you ran and what they showed, including checks you could not run.
 ## Writing
 
 Use `humanize-writing` for prose people read, such as docs, pull requests and
-handoffs. Product copy follows [VOICE.md](design-system/brand/VOICE.md): sentence
+handoffs. Product copy follows [VOICE.md](packages/design-system/brand/VOICE.md): sentence
 case, plain words, no em dashes and no arrows. Lead with the outcome, keep code,
 commands and paths exact, and say what is uncertain or unverified.
 

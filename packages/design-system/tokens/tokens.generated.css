@@ -1,4 +1,4 @@
-/* Generated from DESIGN.md by scripts/design/generate-tokens.mjs. Edit DESIGN.md, then run: bun run design:tokens */
+/* Generated from DESIGN.md by packages/design-system/scripts/generate-tokens.mjs. Edit DESIGN.md, then run: bun run design:tokens */
 :root {
   color-scheme: light dark;
 

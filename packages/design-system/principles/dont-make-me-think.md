@@ -37,7 +37,7 @@ The three-step conversation risks hiding structure, so always show a step map an
 - **Goodwill is limited.** It depends on the person and the moment. Hiding things, asking for more than the task needs, and sloppy errors drain it. Saving steps and owning mistakes refills it (204-211).
 - **Volunteer unwelcome facts:** eligibility limits, stale data, what is stored (209).
 - **Errors say what happened and keep what was typed** (210-211).
-- **Persuade honestly.** No pre-checked or half-hidden opt-ins (231-233). The saving flow in [08-accounts-and-saving.md](../../docs/platform/08-accounts-and-saving.md) comes directly from this chapter.
+- **Persuade honestly.** No pre-checked or half-hidden opt-ins (231-233). The saving flow in [08-accounts-and-saving.md](../../../docs/platform/08-accounts-and-saving.md) comes directly from this chapter.
 
 ## Accessibility
 

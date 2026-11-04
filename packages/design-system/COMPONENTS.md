@@ -111,7 +111,7 @@ These have no code yet. They come with the phase that first needs them, and stay
 3. **Name it.** Blur the content and describe what remains, without product nouns. `Card`, not NeedCard.
 4. **Compose.** Include smaller patterns. Never copy their markup.
 5. **Take content as input.** Show empty, one, many, long, stale, error, no-assistant, dark and light.
-6. **Check it.** Resize continuously from 320 to 1440 px, use the keyboard, then run the [review](../DESIGN.md#how-we-follow-them).
+6. **Check it.** Resize continuously from 320 to 1440 px, use the keyboard, then run the [review](../../DESIGN.md#how-we-follow-them).
 7. **Record it.** Add a row here, show it in the library, and re-check every listed use if you changed a stable pattern.
 8. **Promote it.** On its second real use, mark it `stable` and add a changelog line. When changing a stable pattern, say whether it modifies, adds or removes. Deprecate instead of deleting.
 
@@ -119,4 +119,4 @@ A pull request lists the patterns it touched, every use it re-checked, screensho
 
 ## In React
 
-Phase 0 adds thin React components in `app/src/ui`, one per pattern, that render this markup and these classes. CSS stays here, so the static library and the app share one source. A live `/library` route then replaces the static pages, and lineage comes from the import graph instead of this table.
+Phase 0 adds thin React components in `packages/app/src/ui`, one per pattern, that render this markup and these classes. CSS stays here, so the static library and the app share one source. A live `/library` route then replaces the static pages, and lineage comes from the import graph instead of this table.
