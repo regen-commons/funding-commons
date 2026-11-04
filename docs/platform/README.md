@@ -13,6 +13,7 @@ Planning documents for growing Funding Commons into a platform where regenerativ
 | [07 Agent scaffolding](07-agent-scaffolding.md) | The instructions, skills, rules and checks coding agents will use, and what we took from Green Goods and the Regen Commons site | Builders |
 | [08 Saving and accounts](08-accounts-and-saving.md) | How initiatives get saved, and how an email earns its place | Council, builders, designers |
 | [09 Repository layout](09-repository-layout.md) | Where the live site, catalog, design system, app, API and migrations live, and what each move must keep working | Builders |
+| [Interface prototype](prototype/README.md) | The click-through design of the first version, the decisions from its two reviews, and how to run it | Builders, designers, council |
 | [Open decisions](open-decisions.md) | Everything unresolved, with a recommendation and an owner | Council, builders |
 
 The design system has two homes: [DESIGN.md](../../DESIGN.md) at the repository root holds the tokens and interface principles, and the [design-system package](../../packages/design-system/README.md) holds the brand, voice, CSS and pattern library.
@@ -23,4 +24,4 @@ Related repository docs: [maintenance workflow](../maintenance.md) for the funde
 
 ## Handover prompts
 
-Prompts for the next two sessions, which run in parallel: an [interface prototype](handover/01-ui-design-first.md) to click through as an Artifact before anything is built, and the [repository foundation and agent skills](handover/02-repo-scaffolding.md), with a Green Goods layout and the design system as a package. The living plan doc, which these files mirror as of 2 November 2026, is at https://claude.ai/artifact/YEjb6QGeaF5iGLaQRczUhH.
+The first two ran in parallel and are done: an [interface prototype](handover/01-ui-design-first.md) to click through as an Artifact before anything was built, and the [repository foundation and agent skills](handover/02-repo-scaffolding.md), with a Green Goods layout and the design system as a package. The third, [building the interface](handover/03-interface-implementation.md), turns [the prototype](prototype/README.md) and the decisions from its reviews into the app. The living plan doc, which these files mirror as of 2 November 2026, is at https://claude.ai/artifact/YEjb6QGeaF5iGLaQRczUhH.
