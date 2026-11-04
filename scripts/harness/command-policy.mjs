@@ -261,10 +261,13 @@ function gitDecision(values) {
   const operands = options.filter((arg) => arg && !arg.startsWith("-"));
 
   if (subcommand === "push") {
-    const forced = flags.some((arg) => /^--force(?:$|=|-with-lease)/.test(arg)) || hasShortFlag(flags, "f") || operands.some((arg) => arg.startsWith("+"));
-    if (!forced) return null;
-    const toMain = operands.slice(1).some((arg) => /^(?:\+?[^:]*:)?\+?(?:refs\/heads\/)?(?:main|master)$/.test(arg));
-    return toMain ? block("Never force-push to main.") : ask("Force push: confirm the branch is yours alone before rewriting it.");
+    // A mirror push rewrites every remote ref, main included, and deletes the rest.
+    const mirror = flags.includes("--mirror");
+    const forced = mirror || flags.some((arg) => /^--force(?:$|=|-with-lease)/.test(arg)) || hasShortFlag(flags, "f") || operands.some((arg) => arg.startsWith("+"));
+    const toMain = mirror || operands.slice(1).some((arg) => /^(?:\+?[^:]*:)?\+?(?:refs\/heads\/)?(?:main|master)$/.test(arg));
+    if (forced) return toMain ? block("Never force-push to main.") : ask("Force push: confirm the branch is yours alone before rewriting it.");
+    const deletes = flags.includes("--delete") || hasShortFlag(flags, "d") || operands.slice(1).some((arg) => arg.startsWith(":"));
+    return deletes ? ask("Deleting a remote branch can remove another session's work. Confirm the branch is yours.") : null;
   }
   if (subcommand === "add" && (flags.includes("--all") || flags.includes("--update") || hasShortFlag(flags, "A") || hasShortFlag(flags, "u") || operands.some((arg) => [".", "./", ":/", ":/.", "*"].includes(arg)))) {
     return ask("Broad staging can sweep in another session's work. Stage the task's paths by name instead.");
@@ -274,14 +277,21 @@ function gitDecision(values) {
   }
   if (subcommand === "reset" && flags.includes("--hard")) return ask("`git reset --hard` discards uncommitted work, including other sessions' work.");
   if (subcommand === "clean" && (flags.includes("--force") || hasShortFlag(flags, "f"))) return ask("`git clean` deletes untracked files, including other sessions' new files.");
-  if (subcommand === "checkout" && (options.includes("--") || operands.includes("."))) return ask("This `git checkout` discards uncommitted changes.");
+  if (subcommand === "checkout" && (options.includes("--") || operands.includes(".") || flags.includes("--force") || hasShortFlag(flags, "f"))) return ask("This `git checkout` discards uncommitted changes.");
+  if (subcommand === "switch" && (flags.includes("--discard-changes") || flags.includes("--force") || hasShortFlag(flags, "f"))) return ask("This `git switch` discards uncommitted changes.");
+  if (subcommand === "worktree" && operands[0] === "remove" && (flags.includes("--force") || hasShortFlag(flags, "f"))) {
+    return ask("`git worktree remove --force` deletes the worktree's uncommitted changes, which may be another session's.");
+  }
   if (subcommand === "restore") {
     const staged = flags.includes("--staged") || hasShortFlag(flags, "S");
     const worktree = flags.includes("--worktree") || hasShortFlag(flags, "W");
     if (!staged || worktree) return ask("`git restore` discards uncommitted changes.");
   }
   if (subcommand === "stash" && !["list", "show"].includes(operands[0])) return ask("The stash stack is shared by every worktree of this repository. Use a work-in-progress commit instead.");
-  if (subcommand === "branch" && hasShortFlag(flags, "D")) return ask("`git branch -D` deletes a branch whether or not it is merged.");
+  const deleting = flags.includes("--delete") || hasShortFlag(flags, "d");
+  if (subcommand === "branch" && (hasShortFlag(flags, "D") || (deleting && (flags.includes("--force") || hasShortFlag(flags, "f"))))) {
+    return ask("`git branch -D` deletes a branch whether or not it is merged.");
+  }
   return null;
 }
 
@@ -310,8 +320,10 @@ function commandDecision(executable, values, words) {
     ["promote", "rollback", "redeploy", "alias", "dns", "domains", "env", "remove", "rm"].includes(values[1]))) {
     return ask("This changes a live deployment, domain or project setting, which needs the person's explicit approval.");
   }
-  if (executable === "supabase" && ((values[1] === "db" && (values[2] === "push" || (values[2] === "reset" && values.includes("--linked")))) ||
-    values[1] === "link" || values[1] === "secrets" || (values[1] === "projects" && values[2] === "create") || (values[1] === "functions" && values[2] === "deploy"))) {
+  // --linked and --db-url point a command at a hosted database instead of the local one.
+  const hosted = values.includes("--linked") || values.some((value) => value === "--db-url" || value.startsWith("--db-url="));
+  if (executable === "supabase" && (hosted || (values[1] === "db" && values[2] === "push") || values[1] === "link" || values[1] === "secrets" ||
+    (values[1] === "projects" && values[2] === "create") || (values[1] === "functions" && values[2] === "deploy"))) {
     return ask("This touches a hosted Supabase project. Migrations reach it only through the website repository's release step.");
   }
   return null;

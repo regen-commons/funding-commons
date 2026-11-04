@@ -11,6 +11,9 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const SKILL_LINE_LIMIT = 300;
+// Inline links, with or without a title, and reference definitions. Footnotes are not links.
+const INLINE_LINK = /\]\((?!#\s)([^)\s]+)(?:\s+(?:"[^"]*"|'[^']*'))?\)/g;
+const REFERENCE_LINK = /^ {0,3}\[(?!\^)[^\]]+\]:\s*<?([^\s>]+)>?/gm;
 const DESCRIPTION_LIMIT = 1024;
 // Files whose commands agents follow. Older catalog reports may name retired scripts.
 const COMMAND_SOURCES = /(^|\/)(AGENTS|CLAUDE|SKILL|README)\.md$|^\.claude\/|^docs\//;
@@ -27,11 +30,11 @@ function markdownFiles(root) {
 }
 
 function frontMatter(text) {
-  const block = /^---\n([\s\S]*?)\n---\n/.exec(text);
+  const block = /^---\r?\n([\s\S]*?)\r?\n---\r?\n/.exec(text);
   if (!block) return null;
   const fields = {};
   let current;
-  for (const line of block[1].split("\n")) {
+  for (const line of block[1].split(/\r?\n/)) {
     const field = /^([\w-]+):\s*(.*)$/.exec(line);
     if (field) {
       current = field[1];
@@ -52,11 +55,12 @@ function checkLinks(root, files) {
   };
   for (const file of files) {
     const body = read(root, file).replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
-    for (const match of body.matchAll(/\]\((?!https?:|mailto:|#\s)([^)\s]+)\)/g)) {
-      const [path, anchor] = match[1].split("#");
+    const links = [...body.matchAll(INLINE_LINK), ...body.matchAll(REFERENCE_LINK)].map((match) => match[1]);
+    for (const link of links.filter((target) => !/^(?:https?|mailto):/.test(target))) {
+      const [path, anchor] = link.split("#");
       const target = path ? resolve(root, dirname(file), decodeURI(path)) : join(root, file);
-      if (!existsSync(target)) failures.push(`${file}: link to a missing file: ${match[1]}`);
-      else if (anchor && target.endsWith(".md") && !anchorsOf(target).has(anchor)) failures.push(`${file}: link to a missing heading: ${match[1]}`);
+      if (!existsSync(target)) failures.push(`${file}: link to a missing file: ${link}`);
+      else if (anchor && target.endsWith(".md") && !anchorsOf(target).has(anchor)) failures.push(`${file}: link to a missing heading: ${link}`);
     }
   }
   return failures;
@@ -101,7 +105,7 @@ function checkSkills(root) {
   const skillsDir = join(root, ".claude/skills");
   const guide = existsSync(join(root, "AGENTS.md")) ? read(root, "AGENTS.md") : "";
   if (!existsSync(skillsDir)) return failures;
-  for (const name of readdirSync(skillsDir)) {
+  for (const name of readdirSync(skillsDir, { withFileTypes: true }).filter((entry) => entry.isDirectory()).map((entry) => entry.name)) {
     const path = `.claude/skills/${name}/SKILL.md`;
     if (!existsSync(join(root, path))) {
       failures.push(`.claude/skills/${name}: missing SKILL.md`);

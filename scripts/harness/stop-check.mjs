@@ -33,7 +33,7 @@ export const LADDER_ROWS = [
 
 /** The ladder table in the "Checks" section of AGENTS.md, from each "When" cell to its "Run" cell. */
 export function checkLadder(guide) {
-  const section = /^## Checks\n([\s\S]*?)(?=^#{2,3} |(?![\s\S]))/m.exec(guide)?.[1] ?? "";
+  const section = /^## Checks\r?\n([\s\S]*?)(?=^#{2,3} |(?![\s\S]))/m.exec(guide)?.[1] ?? "";
   const rows = new Map();
   for (const line of section.split("\n")) {
     const cells = line.trim().split("|").slice(1, -1).map((cell) => cell.trim());
