@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { FixtureContext } from "../fixtures.ts";
-import { EMPTY_FILTERS, selectRecords, type CapitalKey } from "../listing.ts";
+import { EMPTY_FILTERS, selectRecords, partnerAccess, type CapitalKey } from "../listing.ts";
 import { navigate } from "../router.tsx";
 import { pathTo } from "../routes.ts";
 import { ButtonLink } from "../ui/ButtonLink.tsx";
@@ -10,6 +10,9 @@ import { FilterBar } from "../ui/FilterBar.tsx";
 import { ListingCard } from "../ui/ListingCard.tsx";
 import { Heading } from "../ui/Heading.tsx";
 import { ListLayout } from "../ui/layouts.tsx";
+import { ShareCard } from "../ui/ShareCard.tsx";
+import { useDraft } from "../describe/use-draft.ts";
+import { hasDraft } from "../describe/view.ts";
 
 export function ListPage({
   title,
@@ -26,7 +29,12 @@ export function ListPage({
     ...EMPTY_FILTERS,
     search: new URLSearchParams(window.location.search).get("q") ?? "",
   }));
-  const records = fixture ? (kind === "funding" ? fixture.funding : fixture.initiatives) : [];
+  const device = useDraft();
+  const [dismissed, setDismissed] = useState<Record<string, string>>({});
+  const [dismissing, setDismissing] = useState<string | null>(null);
+  const [restored, setRestored] = useState<string | null>(null);
+  const records =
+    import.meta.env.DEV && fixture ? (kind === "funding" ? fixture.funding : fixture.initiatives) : [];
   const personalized = !!fixture && fixture.scenario !== "visitor";
   const visibleFilters = personalized
     ? filters
@@ -54,20 +62,41 @@ export function ListPage({
             ? "Find people whose work complements yours."
             : "See the work people are sharing."}
       </p>
-      {partners && fixture?.scenario !== "shared" ? (
-        <section className="rc-card">
-          <h2 className="rc-card-title">Partners open when you share</h2>
-          <p>
-            {fixture && fixture.scenario !== "visitor"
-              ? `${records.length} example partners match. Share your initiative to see their cards.`
-              : "Describe your initiative to find funding and see how many partners match."}
-          </p>
-          <div className="rc-action-bar">
-            <ButtonLink variant="primary" href={pathTo("initiative")}>
-              Describe your initiative
-            </ButtonLink>
+      {fixture?.state === "error" ? (
+        <section className="rc-notice" data-tone="warning">
+          <div className="rc-notice-body">
+            <h2 className="rc-notice-title">The example list did not load</h2>
+            <p>Your search and filter choices are still here.</p>
+            <button className="rc-button" data-variant="secondary" type="button" onClick={retry}>
+              Try again
+            </button>
           </div>
         </section>
+      ) : fixture?.state === "loading" ? (
+        <section className="rc-stack" aria-busy="true" aria-label="Loading example list">
+          <p role="status">Loading examples</p>
+          <div className="rc-skeleton" />
+          <div className="rc-skeleton" />
+        </section>
+      ) : partners && !partnerAccess(fixture?.scenario) ? (
+        <ShareCard count={fixture && fixture.scenario !== "visitor" ? records.length : null}>
+          <p className="rc-meta">
+            {fixture
+              ? "Fictional count only. No names or individual reasons are shown before sharing."
+              : "Partner matching and sharing are not connected yet. The number of matches is not known."}
+          </p>
+          <div className="rc-action-bar">
+            <ButtonLink
+              variant="primary"
+              href={hasDraft(device.draft) || personalized ? pathTo("settings") : pathTo("initiative")}
+            >
+              {hasDraft(device.draft) || personalized ? "Save or load your card" : "Describe your initiative"}
+            </ButtonLink>
+            <ButtonLink variant="secondary" href={pathTo("initiatives")}>
+              Browse all initiatives
+            </ButtonLink>
+          </div>
+        </ShareCard>
       ) : !records.length ? (
         <EmptyState
           title={kind === "funding" ? "Funding is in the current directory" : "No initiatives here yet"}
@@ -84,22 +113,6 @@ export function ListPage({
             ? "Every funder and program remains available in Funding Commons."
             : "Shared initiatives will appear here."}
         </EmptyState>
-      ) : fixture?.state === "error" ? (
-        <section className="rc-notice" data-tone="warning">
-          <div className="rc-notice-body">
-            <h2 className="rc-notice-title">The example list did not load</h2>
-            <p>Your search and filter choices are still here.</p>
-            <button className="rc-button" data-variant="secondary" type="button" onClick={retry}>
-              Try again
-            </button>
-          </div>
-        </section>
-      ) : fixture?.state === "loading" ? (
-        <section className="rc-stack" aria-busy="true" aria-label="Loading example list">
-          <p role="status">Loading examples</p>
-          <div className="rc-skeleton" />
-          <div className="rc-skeleton" />
-        </section>
       ) : (
         <>
           {fixture?.state === "offline" && (
@@ -122,7 +135,95 @@ export function ListPage({
             <CardGrid>
               {selected.map((record) => (
                 <li key={record.id}>
-                  <ListingCard record={record} personalized={personalized && kind !== "initiatives"} />
+                  {partners && dismissed[record.id] ? (
+                    <article className="rc-card">
+                      <h2 className="rc-card-title">Hidden: {record.title}</h2>
+                      <p className="rc-meta">
+                        {dismissed[record.id]}. This example choice stays in this page.
+                      </p>
+                      <button
+                        className="rc-button"
+                        data-variant="quiet"
+                        type="button"
+                        autoFocus
+                        onClick={() => {
+                          setRestored(record.id);
+                          setDismissed((previous) => {
+                            const next = { ...previous };
+                            delete next[record.id];
+                            return next;
+                          });
+                        }}
+                      >
+                        Undo hide
+                      </button>
+                    </article>
+                  ) : (
+                    <ListingCard
+                      record={record}
+                      personalized={personalized && kind !== "initiatives"}
+                      actions={
+                        partners && (
+                          <>
+                            {dismissing === record.id ? (
+                              <fieldset className="rc-field">
+                                <legend>Why is it not a fit?</legend>
+                                <div className="rc-action-bar">
+                                  {[
+                                    "Too far away",
+                                    "Not what we need",
+                                    "Already in touch",
+                                    "Another reason",
+                                  ].map((reason) => (
+                                    <button
+                                      key={reason}
+                                      autoFocus={reason === "Too far away"}
+                                      className="rc-button"
+                                      data-variant="secondary"
+                                      type="button"
+                                      onClick={() => {
+                                        setDismissed({
+                                          ...dismissed,
+                                          [record.id]: reason,
+                                        });
+                                        setDismissing(null);
+                                      }}
+                                    >
+                                      {reason}
+                                    </button>
+                                  ))}
+                                  <button
+                                    className="rc-button"
+                                    data-variant="quiet"
+                                    type="button"
+                                    onClick={() => {
+                                      setDismissing(null);
+                                      setRestored(record.id);
+                                    }}
+                                  >
+                                    Cancel
+                                  </button>
+                                </div>
+                              </fieldset>
+                            ) : (
+                              <button
+                                className="rc-button"
+                                data-variant="quiet"
+                                type="button"
+                                autoFocus={restored === record.id}
+                                onClick={() => {
+                                  setRestored(null);
+                                  setDismissing(record.id);
+                                }}
+                              >
+                                Not a fit
+                              </button>
+                            )}
+                          </>
+                        )
+                      }
+                    />
+                  )}
                 </li>
               ))}
             </CardGrid>

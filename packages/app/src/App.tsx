@@ -57,7 +57,7 @@ function content(route: Route, fixture?: FixtureContext) {
     case "initiative-detail":
       return (
         <RecordDetail
-          funding={false}
+          fixture={fixture}
           record={fixture?.initiatives.find((record) => record.id === route.id)}
         />
       );
