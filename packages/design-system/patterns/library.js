@@ -107,3 +107,41 @@ for (const example of document.querySelectorAll("[data-list-example]")) {
   example.addEventListener("change", update);
   search.addEventListener("input", update);
 }
+
+// Describe examples keep edits in the current document; no files or words are sent.
+const answerExample = document.querySelector("[data-example-answer]");
+answerExample?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const input = document.querySelector("#example-words");
+  if (!input.value.trim()) return;
+  const item = document.createElement("li"); item.className = "rc-conversation-turn"; item.dataset.from = "person";
+  const label = document.createElement("p"); label.className = "rc-conversation-label"; label.textContent = "You";
+  const text = document.createElement("p"); text.className = "rc-message"; text.dataset.from = "person"; text.textContent = input.value.trim();
+  item.append(label, text); document.querySelector("[data-example-conversation]").append(item); input.value = "";
+});
+document.querySelector("[data-example-edit]")?.addEventListener("click", (event) => {
+  const field = document.querySelector("[data-example-edit-field]"); const text = document.querySelector("#example-answer"); const input = document.querySelector("#example-edit");
+  if (field.hidden) { field.hidden = false; text.hidden = true; event.currentTarget.textContent = "Keep changes"; input.focus(); }
+  else if (input.value.trim()) { text.textContent = input.value.trim(); field.hidden = true; text.hidden = false; event.currentTarget.textContent = "Edit your words"; }
+});
+document.querySelector("[data-example-file]")?.addEventListener("change", (event) => {
+  for (const file of event.currentTarget.files ?? []) {
+    const item = document.createElement("li"); item.className = "rc-attachment"; item.textContent = `${file.name}, local reference only`;
+    document.querySelector("[data-example-attachments]").append(item);
+  }
+});
+for (const button of document.querySelectorAll("[data-example-keep]")) button.addEventListener("click", () => {
+  button.closest(".rc-proposal").dataset.state = "confirmed"; button.closest(".rc-proposal").querySelector(".rc-proposal-source").textContent = "Kept by you"; button.textContent = "Kept"; button.disabled = true;
+});
+for (const button of document.querySelectorAll("[data-example-remove]")) button.addEventListener("click", () => {
+  const proposal = button.closest(".rc-proposal"); const value = proposal.querySelector("[data-example-proposal-value]");
+  const keep = proposal.querySelector("[data-example-keep]");
+  if (button.dataset.removed) { value.textContent = button.dataset.previous; delete button.dataset.removed; delete proposal.dataset.state; button.textContent = "Remove"; keep.disabled = false; proposal.querySelector(".rc-proposal-source").textContent = "Keyword guess. Check this."; }
+  else { button.dataset.previous = value.textContent; value.textContent = "Removed from this example"; button.dataset.removed = "true"; proposal.dataset.state = "confirmed"; button.textContent = "Undo remove"; keep.disabled = true; proposal.querySelector(".rc-proposal-source").textContent = "Removed. Undo is available."; }
+  keep.textContent = "Keep";
+});
+document.querySelector("[data-example-review]")?.addEventListener("submit", (event) => {
+  event.preventDefault(); const pending = document.querySelector(".rc-proposal:not([data-state=confirmed])");
+  document.querySelector("[data-example-review-status]").textContent = pending ? "Keep or remove each detail first." : "Example card checked. Nothing was shared.";
+});
+document.querySelector("#review-name")?.addEventListener("input", (event) => { document.querySelector("[data-example-preview]").textContent = event.currentTarget.value || "Your initiative"; });

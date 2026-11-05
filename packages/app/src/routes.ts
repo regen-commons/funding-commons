@@ -2,6 +2,7 @@
 export type RouteName =
   | "home"
   | "initiative"
+  | "check-card"
   | "needs"
   | "offers"
   | "finish"
@@ -28,6 +29,7 @@ export const ROUTES: readonly Route[] = [
     section: "home",
   },
   { name: "initiative", path: "/start/initiative", title: "Tell us about your initiative", form: true },
+  { name: "check-card", path: "/start/initiative/check", title: "Check your card", form: true },
   { name: "needs", path: "/start/needs", title: "What does your initiative need?", form: true },
   { name: "offers", path: "/start/offers", title: "What can your initiative offer?", form: true },
   { name: "finish", path: "/start/finish", title: "Your initiative", form: true },
@@ -82,7 +84,7 @@ export function fixtureHref(href: string, search: string, enabled: boolean): str
   if (!enabled || !href.startsWith("/") || href.startsWith("//")) return href;
   const url = new URL(href, "https://weave.example.org");
   const source = new URLSearchParams(search);
-  for (const key of ["fixture", "state"]) {
+  for (const key of ["fixture", "state", "view"]) {
     const value = source.get(key);
     if (value && !url.searchParams.has(key)) url.searchParams.set(key, value);
   }

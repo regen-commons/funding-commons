@@ -1,15 +1,21 @@
-import type { FixtureContext } from "../fixtures.ts";
+import { DESCRIBE_VIEWS, type FixtureContext } from "../fixtures.ts";
 import { navigate } from "../router.tsx";
 export function FixtureControls({ fixture }: { fixture: FixtureContext }) {
   function set(key: string, value: string) {
     const url = new URL(window.location.href);
     url.searchParams.set(key, value);
+    if (key === "view")
+      url.pathname = ["review", "correcting", "kept"].includes(value)
+        ? "/start/initiative/check"
+        : "/start/initiative";
     navigate(`${url.pathname}${url.search}`);
   }
   return (
     <aside className="rc-notice" data-tone="info" aria-label="Example controls">
       <details className="rc-notice-body">
-        <summary className="rc-footer-link">Fictional examples. Nothing is sent or saved.</summary>
+        <summary className="rc-footer-link">
+          Fictional examples. Changes are temporary; nothing is sent.
+        </summary>
         <div className="rc-action-bar">
           <div className="rc-field">
             <label htmlFor="example-scenario">Example initiative</label>
@@ -42,6 +48,23 @@ export function FixtureControls({ fixture }: { fixture: FixtureContext }) {
               <option value="long">Long content</option>
             </select>
           </div>
+          {window.location.pathname.startsWith("/start/initiative") && (
+            <div className="rc-field">
+              <label htmlFor="describe-example">Describe example</label>
+              <select
+                className="rc-input"
+                id="describe-example"
+                value={fixture.describe}
+                onChange={(event) => set("view", event.target.value)}
+              >
+                {DESCRIBE_VIEWS.map((view) => (
+                  <option key={view} value={view}>
+                    {view.replaceAll("-", " ")}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
         </div>
       </details>
     </aside>

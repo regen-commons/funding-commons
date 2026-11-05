@@ -66,6 +66,23 @@ Prototype implementation questions:
 | D35 | How does per-field cloud consent in R10 fit the prototype's session-level dialog? | Keep R10's explicit consent and ledger requirements. The prototype omits per-field selection; agree the sent-field preview, scope, withdrawal and local/server record boundary before a cloud adapter is connected. Do not silently broaden session consent. | Council's data-policy owner and technical specification owner | Before live cloud fallback | Open |
 | D36 | Are conversation questions a fixed short script or chosen by the on-device model from missing details? | Begin with the prototype's fixed short script as a labelled default that also works in keyword mode. Compare model-chosen questions only after testing confirms they improve completion without asking for extra fields or blocking on a download. | Maker and technical specification owner | Step 3 | Open |
 
+### Step 3 runtime proposal for D32
+
+The maker approved these two narrow implementation changes for Step 3:
+
+- Add `zod@4.6.7` (MIT) as a direct dependency of `@weave/app`, with the lockfile. Use one validated draft schema for persisted data and model replies, and derive the browser's JSON response constraint from it. The existing design-linter dependency on Zod 3 stays intact. This needs no CSP change.
+- Permit browser-managed Prompt API sessions through the window API while keeping app-managed downloaded inference in a Worker. The specification's blanket Worker rule cannot apply to the native API: [Chrome documents that it is not exposed in Web Workers](https://developer.chrome.com/docs/ai/prompt-api#permission_policy_iframes_and_web_workers). Use an already available browser model only after a tap; do not initiate browser model or speech-pack downloads with unknown sizes.
+
+Downloaded inference remains a separate D32 gate. The runtime candidate is the repository's existing pinned `@huggingface/transformers@4.2.0`, added explicitly to the app only after approval. Benchmark and license-check the smaller-model proposals, measure exact bytes, and choose approved hosting before connecting it. For same-origin WASM assets, the anticipated CSP delta is only `wasm-unsafe-eval` in `script-src`; keep `connect-src` and `worker-src` restricted to self and avoid blob workers. No downloaded runtime, model download, model hosting or CSP change is authorized by this proposal.
+
+The keyword path, locally stored conversation, file/link references, review card and interface fixtures can proceed independently. PDF text uses the separately approved parser below; Office and OCR parsing still need dependency approvals. Retain unread files locally without claiming their content was read. Native speech must pass [the local `available({ langs, processLocally: true })` check](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/available_static); never fall back to a remote recognizer silently. D35 still blocks any live cloud adapter.
+
+### Step 3 PDF deck parser proposal
+
+The prototype's attached PDF deck is shown as read on the device. The maker approved this parser in Step 3: add `pdfjs-dist@6.5.438` (Apache-2.0) to the app for text extraction only, using a same-origin Worker and disabling eval, font loading and WASM. Keep the existing CSP unchanged; request a separate, exact approval if verification shows any CSP delta is needed. Enforce the existing 25 MB file cap, cancel parsing with the build task, keep original bytes in the device draft and report scanned pages with no readable text. No remote PDF viewer, upload or OCR/model download is included. Office and OCR parsers remain separate dependency gates.
+
+Step 3 verifies a two-page synthetic PDF under the unchanged production CSP, including one page without text, retained source bytes and offline rebuilding from the service-worker cache. This is fixture evidence in HeadlessChrome 149, not the real-user local-AI evidence due on 20 November. D32 still needs exact model manifests, approved hosting and device participants. D35 still needs provider, region, retention and consent decisions before cloud calls can open.
+
 ## Waiting on people
 
 | ID | Question | Recommendation and how it gets checked | Owner | Status |

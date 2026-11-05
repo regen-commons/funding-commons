@@ -22,9 +22,10 @@ test("the frame has four browsing sections, detail pages, finish and Settings; s
   for (const path of ["/", "/partners", "/funding", "/initiatives", "/settings", "/start/finish"])
     assert.ok(matchRoute(path), path);
   assert.equal(matchRoute("/save"), undefined);
+  assert.equal(matchRoute("/start/initiative/check")?.name, "check-card");
   assert.deepEqual(
     ROUTES.filter((route) => route.form).map((route) => route.name),
-    ["initiative", "needs", "offers", "finish"],
+    ["initiative", "check-card", "needs", "offers", "finish"],
   );
 });
 test("details resolve validated identifiers, preserve section cues and accept a trailing slash", () => {
@@ -54,6 +55,7 @@ test("fixture navigation preserves only example controls on internal development
     fixtureHref("/funding?state=ready", "?fixture=shared&state=error", true),
     "/funding?state=ready&fixture=shared",
   );
+  assert.equal(fixtureHref("/start/initiative/check", "?fixture=draft&view=correcting", true), "/start/initiative/check?fixture=draft&view=correcting");
   for (const href of ["https://example.org", "//example.org", "#main"])
     assert.equal(fixtureHref(href, "?fixture=shared", true), href);
   assert.equal(fixtureHref("/settings", "?fixture=shared", false), "/settings");

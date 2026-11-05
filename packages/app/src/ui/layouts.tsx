@@ -43,3 +43,8 @@ export function HomeHero({
     </section>
   );
 }
+
+/** Step layout template: a working column with a record alongside it on wide screens. */
+export function StepLayout({ children, aside }: { children: ReactNode; aside: ReactNode }) {
+  return <div className="rc-step-layout"><div className="rc-step-main">{children}</div><aside className="rc-step-aside">{aside}</aside></div>;
+}

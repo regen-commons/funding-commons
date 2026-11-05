@@ -360,16 +360,20 @@ create table weave.outbox (
 
 | Tier | Detection | Engine and model | Footprint |
 |---|---|---|---|
-| T0 browser model | `LanguageModel.availability() !== 'unavailable'` (Chrome 148+ desktop, Edge preview) | Prompt API with `responseConstraint` = JSON Schema from Zod | 0 MB app download |
+| T0 browser model | Feature-detected `LanguageModel.availability(...) === 'available'`, with supported text languages | Prompt API with `responseConstraint` = JSON Schema from Zod, after a tap | 0 MB app download; no browser model download initiated |
 | T1 desktop WebGPU | `navigator.gpu` adapter with `maxBufferSize >= 2 GiB`, `deviceMemory` unknown or >= 8, storage quota headroom >= 3 GB, not touch-only | Transformers.js `device: 'webgpu'`, `dtype: 'q4f16'`, Qwen3-1.7B (1.43 GB) default; SmolLM3-3B optional | 1.4 to 2.1 GB cached once |
 | T2 mobile WebGPU | WebGPU present but `maxBufferSize < 2 GiB` or iOS/iPadOS 26 or `deviceMemory <= 4` | Transformers.js Qwen3-0.6B q4f16 (570 MB), context capped at 2k tokens, total weights under 600 MB | 570 MB |
 | T3 WASM | no WebGPU | Embeddings and reranking stay local (existing mxbai model, 24 MB); extraction uses heuristics or T4 with consent | 40 MB |
 | T4 cloud (consented) | user opts in | Server proxy to Claude Haiku 5.5 (zero data retention organisation, EU inference where available) or Cloudflare Workers AI (Gemma 4 26B-A4B) | none |
 | Heuristic | always | keyword banks per capital form and lens, sentence splitting, regex for amounts and dates | none |
 
-Rules: show the exact download size from `ModelRegistry.get_file_metadata` before fetching; request `navigator.storage.persist()`; run all inference in a Web Worker; watch `device.lost`; warm the model in the background and answer with the heuristic draft immediately (the Coop cold-start policy); tear down idle models after 15 minutes; never auto-download more than 600 MB on a touch device; encourage home-screen install on iOS to escape the seven-day storage purge.
+Rules: show the exact download size from `ModelRegistry.get_file_metadata` before fetching; request `navigator.storage.persist()`; run app-managed downloaded inference in a Web Worker; browser-managed Prompt API sessions use the window API, which is not exposed in Workers; watch `device.lost`; warm the model in the background and answer with the heuristic draft immediately (the Coop cold-start policy); tear down idle models after 15 minutes; never auto-download more than 600 MB on a touch device; encourage home-screen install on iOS to escape the seven-day storage purge.
+
+Step 3 connects keyword extraction and already available native capabilities only. `downloadable` and `downloading` do not enable the native option. The [D32 approvals and remaining gates](open-decisions.md#step-3-runtime-proposal-for-d32) permit Zod and the native Window exception; downloaded inference stays behind an unavailable adapter. No model weights, hosting or CSP change is included. Keyword extraction runs in a Worker where supported, with a text fallback; the four-field manual path requires no inference. Native sessions are created only for a requested build and destroyed on completion, failure or cancellation. A failed model leaves the keyword draft available for review.
 
 ### 6.2 Contracts (Zod, single source of truth)
+
+The implemented initiative and device-draft schemas live in [contracts.ts](../../packages/app/src/describe/contracts.ts), using the approved Zod 4.6.7. They validate stored data and model replies; the remaining contracts below describe later steps. Device drafts retain raw unfinished answers, links, review edits and original file Blobs in IndexedDB. One writer per tab serializes saves, with an atomic stored-revision comparison to prevent another tab's draft being overwritten. Failed reads preserve the stored record; failed writes keep recovery text and truthful memory-only status. Source revisions invalidate stale builds. Public fields remain editable; confirmed derived values and removals survive rebuilding.
 
 ```ts
 export const CapitalForm = z.enum(['financial','material','living','social','intellectual','experiential','cultural','spiritual']);
@@ -421,11 +425,13 @@ Evaluation: a fixtures folder with golden, noisy, low-signal and adversarial sam
 
 ### 6.4 Transcription (R7)
 
-Whisper through Transformers.js: `whisper-base` (about 77 MB int8, multilingual) on T2 and T3, `whisper-large-v3-turbo` q4f16 (about 0.56 GB) on T1. Capture with `AudioWorklet` at 16 kHz mono Float32; 30 s chunks with 5 s stride; language auto-detect; the transcript is shown and editable before extraction. The Web Speech API is offered only on Chrome when `SpeechRecognition.available({ processLocally: true })` succeeds; never on Safari without a notice that audio may leave the device. Cloud transcription (Cloudflare Workers AI Whisper or Claude audio when available) only under a separate `cloud_transcription` consent.
+Whisper through Transformers.js remains planned: `whisper-base` (about 77 MB int8, multilingual) on T2 and T3, `whisper-large-v3-turbo` q4f16 (about 0.56 GB) on T1. Capture with `AudioWorklet` at 16 kHz mono Float32; 30 s chunks with 5 s stride; language auto-detect; the transcript is shown and editable before extraction. Step 3 offers Web Speech only when `processLocally` exists and `SpeechRecognition.available({ langs: [language], processLocally: true })` returns `available`. Set `processLocally = true` before starting. Do not install a language pack or fall back to remote recognition. Cloud transcription remains a separate adapter under `cloud_transcription` consent.
 
 ### 6.5 Document and image input (R1, R8)
 
 PDF text through pdf.js; when a page yields no text, render to canvas and OCR with tesseract.js (cap at 10 pages on mobile; offer cloud OCR under consent). DOCX through mammoth. XLSX and CSV through SheetJS. PPTX through OOXML unzip and `<a:t>` run extraction. Images: optional SmolVLM-256M (about 190 MB q4f16) caption on T1 and T2 to describe project photos; otherwise the image is kept as an attachment only. File size caps: 25 MB per file, processed entirely in the browser; files are uploaded to Supabase Storage only if the user attaches them to the published initiative.
+
+Step 3 implements plain text, Markdown, CSV text and PDF text with approved `pdfjs-dist@6.5.438`. PDF parsing owns a same-origin module Worker, disables eval, WASM and font loading, and terminates with the build task. The worker is precached for offline use under the existing CSP. Original bytes remain in the device draft. Pages with no readable text and unsupported files are reported, not silently treated as read. Office parsing, OCR and image models above remain dependency gates; link fetching needs the server adapter. No file upload is connected.
 
 ### 6.6 Consented cloud fallback (R10)
 

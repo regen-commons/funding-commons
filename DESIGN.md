@@ -444,6 +444,8 @@ Border widths mean something: 1 px divides, 2 px marks selection or emphasis, 3 
 - **Fields** put the label above the control, the hint between them and the error below, using an icon, words and a 2 px edge. Hints are never placeholders.
 - **Cards** have one bold element, the title. Initiative, need, offer, opportunity, partner and partnership differ only in which slots they fill.
 - **Proposals** show values the assistant suggested in pencil. Nothing derived is applied without a person confirming it.
+- **Conversation** asks one short thing at a time. A large local Speak action comes first when available, with typing and attachments below. The card fills in beside the conversation on wide screens and follows it on phones. Build my card opens review: four public fields and derived details with Keep, Change and Remove. Confirmed corrections stay fixed across builds; Remove offers Undo. Full words remain on the device even when the public description is shortened.
+- **Local assistant choices** explain privacy before asking for a tap. A download needs an exact size, cancellation, resumption and removal. Keyword and manual entry remain usable meanwhile. An unavailable service is shown only as a labelled development example, never as a working production choice.
 - **Empty states** act as a first screen: a short headline, one line of guidance, one action, and no filters.
 
 Names describe structure, not content. `Card`, not NeedCard. Product words live in variants and pages.
