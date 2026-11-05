@@ -1,3 +1,5 @@
+import { useSocialFixture } from "../social/context.tsx";
+import { SocialAction } from "../social/Action.tsx";
 import { useState } from "react";
 import type { FixtureContext } from "../fixtures.ts";
 import { EMPTY_FILTERS, selectRecords, type CapitalKey } from "../listing.ts";
@@ -22,6 +24,10 @@ export function ListPage({
   fixture?: FixtureContext;
   subject?: { needs: readonly CapitalKey[]; offers: readonly CapitalKey[] };
 }) {
+  const social = useSocialFixture();
+  const shared = social
+    ? social.state.saved && social.state.visibility === "public"
+    : fixture?.scenario === "shared";
   const [filters, setFilters] = useState(() => ({
     ...EMPTY_FILTERS,
     search: new URLSearchParams(window.location.search).get("q") ?? "",
@@ -54,7 +60,7 @@ export function ListPage({
             ? "Find people whose work complements yours."
             : "See the work people are sharing."}
       </p>
-      {partners && fixture?.scenario !== "shared" ? (
+      {partners && !shared ? (
         <section className="rc-card">
           <h2 className="rc-card-title">Partners open when you share</h2>
           <p>
@@ -62,6 +68,7 @@ export function ListPage({
               ? `${records.length} example partners match. Share your initiative to see their cards.`
               : "Describe your initiative to find funding and see how many partners match."}
           </p>
+          {import.meta.env.DEV && fixture && <SocialAction intent={{ kind: "share" }} inline />}
           <div className="rc-action-bar">
             <ButtonLink variant="primary" href={pathTo("initiative")}>
               Describe your initiative
@@ -122,7 +129,7 @@ export function ListPage({
             <CardGrid>
               {selected.map((record) => (
                 <li key={record.id}>
-                  <ListingCard record={record} personalized={personalized && kind !== "initiatives"} />
+                  <ListingCard record={record} personalized={personalized && kind !== "initiatives"} actions={import.meta.env.DEV && fixture && partners && <SocialAction intent={{ kind: "intro", ids: [record.id], names: [record.title] }} />} />
                 </li>
               ))}
             </CardGrid>

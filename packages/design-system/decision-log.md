@@ -135,3 +135,10 @@ device backup and offers restoration. No new CSS pattern or token is needed.
 This interim page entry differs from DL-027's contextual dialog; the full contextual
 flow remains later work. Sharing, introductions and data-control services stay
 outside this connection. See the [private contract](../../docs/platform/08-accounts-and-saving.md#private-account-connection).
+
+Step 7 replaces the interim page-only entry with the explicitly opened account task
+and the same email/code panel inline on Finish. Verification still lists saved
+cards before a person chooses Save or Load, preserving the approved private
+connection's recovery rule. Sharing, reminders and introductions have a separate,
+labelled in-memory adapter and no production transport. The council decisions
+remain proposed.

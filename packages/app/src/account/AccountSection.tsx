@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useId, useState } from "react";
 import { parseSummaries, type InitiativeSummary } from "@weave/api/account-contract";
 import { useDraft } from "../describe/use-draft.ts";
 import { revise } from "../describe/contracts.ts";
@@ -14,16 +14,33 @@ function pendingEmail(): string {
     return "";
   }
 }
-export function AccountSection() {
+function pendingResendAt(): number {
+  try {
+    const value = Number(sessionStorage.getItem("weave-code-resend-at"));
+    return Number.isFinite(value) ? Math.min(value, Date.now() + 60000) : 0;
+  } catch {
+    return 0;
+  }
+}
+export function AccountSection({
+  compact = false,
+  autoFocus = false,
+}: {
+  compact?: boolean;
+  autoFocus?: boolean;
+}) {
+  const id = useId();
+  const Title = compact ? "h3" : "h2";
   const { state, refresh, clear } = useAccount();
   const { controller, draft, ready, storage } = useDraft();
   const [email, setEmail] = useState(pendingEmail);
   const [code, setCode] = useState("");
   const [sent, setSent] = useState(() => !!pendingEmail());
+  const [focusCode, setFocusCode] = useState(false);
   useEffect(() => {
-    if (sent) document.getElementById("account-code")?.focus();
-  }, [sent]);
-  const [resendAt, setResendAt] = useState(0);
+    if (sent && (autoFocus || focusCode)) document.getElementById(`${id}-code`)?.focus();
+  }, [sent, id, autoFocus, focusCode]);
+  const [resendAt, setResendAt] = useState(() => pendingEmail() ? pendingResendAt() : 0);
   const [now, setNow] = useState(Date.now());
   useEffect(() => {
     if (!sent || Date.now() >= resendAt) return;
@@ -36,9 +53,20 @@ export function AccountSection() {
       else sessionStorage.removeItem("weave-pending-email");
     } catch {}
   }, [email, sent]);
+  function startCooldown() {
+    const requestedAt = Date.now();
+    setResendAt(requestedAt + 60000);
+    setNow(requestedAt);
+    try {
+      sessionStorage.setItem("weave-code-resend-at", String(requestedAt + 60000));
+    } catch {}
+  }
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState("");
   const [failed, setFailed] = useState(false);
+  useEffect(() => {
+    if (failed && !busy && sent) document.getElementById(`${id}-code`)?.focus();
+  }, [failed, busy, sent, id]);
   const [selected, setSelected] = useState<InitiativeSummary | null>(null);
   const [backups, setBackups] = useState<DraftBackup[]>([]);
   const [backup, setBackup] = useState<DraftBackup | null>(null);
@@ -124,10 +152,10 @@ export function AccountSection() {
     setMessage("Your saved card is loaded. Any previous device draft is kept in Device backups below.");
   }
   return (
-    <section className="rc-stack" aria-labelledby="account-title" aria-busy={busy}>
-      <h2 className="rc-heading" data-size="section" id="account-title">
-        Your account
-      </h2>
+    <section className="rc-stack" aria-labelledby={`${id}-title`} aria-busy={busy}>
+      <Title className="rc-heading" data-size="section" id={`${id}-title`}>
+        {compact ? "Keep this initiative" : "Your account"}
+      </Title>
       {import.meta.env.DEV && state?.fixture && (
         <p className="rc-notice" data-tone="info">
           Local account example. Use example@weave.test and code 12345678. No email is sent.
@@ -180,7 +208,8 @@ export function AccountSection() {
                 } else {
                   await accountRequest("", { action: "request_code", email });
                   setSent(true);
-                  setResendAt(Date.now() + 60000);
+                  setFocusCode(true);
+                  startCooldown();
                   setMessage(
                     "If sign-in is available for this address, a code is on its way. Check your inbox and spam folder.",
                   );
@@ -189,10 +218,12 @@ export function AccountSection() {
             }}
           >
             <div className="rc-field">
-              <label htmlFor="account-email">Email address</label>
+              <label htmlFor={`${id}-email`}>Email address</label>
               <input
                 className="rc-input"
-                id="account-email"
+                id={`${id}-email`}
+                autoFocus={autoFocus && !sent}
+                data-task-focus={autoFocus && !sent || undefined}
                 type="email"
                 autoComplete="email"
                 spellCheck={false}
@@ -206,16 +237,18 @@ export function AccountSection() {
             </div>
             {sent && (
               <div className="rc-field">
-                <label htmlFor="account-code">Sign-in code</label>
+                <label htmlFor={`${id}-code`}>Sign-in code</label>
                 <input
                   className="rc-input"
-                  id="account-code"
+                  id={`${id}-code`}
+                  autoFocus={autoFocus || focusCode}
+                  data-task-focus={autoFocus || undefined}
                   type="text"
                   inputMode="numeric"
                   autoComplete="one-time-code"
                   pattern={`[0-9]{${state.otpDigits}}`}
                   minLength={state.otpDigits}
-                  maxLength={state.otpDigits}
+                  maxLength={state.otpDigits * 2}
                   required
                   value={code}
                   disabled={busy}
@@ -241,7 +274,7 @@ export function AccountSection() {
                     onClick={() =>
                       void run(async () => {
                         await accountRequest("", { action: "request_code", email });
-                        setResendAt(Date.now() + 60000);
+                        startCooldown();
                         setMessage("If sign-in is available, another code is on its way.");
                       })
                     }
@@ -411,9 +444,9 @@ export function AccountSection() {
           </div>
         </section>
       )}
-      {backups.length > 0 && (
-        <section className="rc-stack" aria-labelledby="backups-title">
-          <h3 className="rc-heading" data-size="section" id="backups-title">
+      {!compact && backups.length > 0 && (
+        <section className="rc-stack" aria-labelledby={`${id}-backups`}>
+          <h3 className="rc-heading" data-size="section" id={`${id}-backups`}>
             Device backups
           </h3>
           <p>
@@ -469,6 +502,11 @@ export function AccountSection() {
             </div>
           )}
         </section>
+      )}
+      {compact && (
+        <p>
+          <a href="/settings">Saved cards and device backups</a>
+        </p>
       )}
       {busy && <p role="status">Connecting to your account</p>}
       {message && (

@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import type { ListingRecord } from "../listing.ts";
 import { STAGE_LABELS } from "../listing.ts";
 import { fullDate } from "../home.ts";
@@ -15,11 +16,13 @@ export function ListingCard({
   personalized = false,
   level = 2,
   days,
+  actions,
 }: {
   record: ListingRecord;
   personalized?: boolean;
   level?: 2 | 3;
   days?: number;
+  actions?: ReactNode;
 }) {
   const Title = level === 3 ? "h3" : "h2";
   return (
@@ -79,6 +82,7 @@ export function ListingCard({
           Read the example
         </ButtonLink>
       </div>
+      {actions && <div className="rc-action-bar">{actions}</div>}
     </Card>
   );
 }
