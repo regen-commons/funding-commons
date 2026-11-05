@@ -116,9 +116,16 @@ test("revocation clears the cookie; unavailable providers and failed remote sign
     ).json(),
     { available: false },
   );
-  assert.deepEqual(await (await GET(new Request("https://weave.test/api/account"))).json(), {
-    available: false,
-  });
+  const enabled = process.env.WEAVE_ACCOUNTS_ENABLED;
+  try {
+    process.env.WEAVE_ACCOUNTS_ENABLED = "false";
+    assert.deepEqual(await (await GET(new Request("https://weave.test/api/account"))).json(), {
+      available: false,
+    });
+  } finally {
+    if (enabled === undefined) delete process.env.WEAVE_ACCOUNTS_ENABLED;
+    else process.env.WEAVE_ACCOUNTS_ENABLED = enabled;
+  }
   provider.authorize = async () => {
     throw new Error("private provider detail");
   };
