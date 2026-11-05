@@ -172,6 +172,7 @@ spacing:
   pad: clamp(1.8rem, 6vw, 5rem)
   form-width: 448px
   prose-width: 576px
+  card-min-width: 288px
   list-width: 640px
   page-width: 1120px
 components:
@@ -369,7 +370,7 @@ Tokens are generated into explicit theme blocks instead of using `light-dark()`.
 
 | Token | Size | Face and weight | Line height | Use |
 |---|---|---|---|---|
-| `label-sm` | 12 | Space Grotesk 600, capitals, +0.08em | 1.4 | Record kind eyebrow, at most three words |
+| `label-sm` | 12 | Space Grotesk 600, +0.08em | 1.4 | Factual record label, sentence case |
 | `label-md` | 14 | Space Grotesk 600 | 1.45 | Field labels, tile glyphs |
 | `body-sm` | 14 | Space Grotesk 400 | 1.45 | Hints, meta, table cells |
 | `body-md` | 16 | Space Grotesk 400 | 1.5 | Interface text, inputs |
@@ -387,7 +388,7 @@ Tokens are generated into explicit theme blocks instead of using `light-dark()`.
 - 12 px is the floor. Nothing is smaller, including on the website when it adopts this scale.
 - Each screen uses two weights in the task layer: 400 and 600. Fraunces uses its own weights in titles. Weight 300 appears only from 48 px up.
 - Space Grotesk is for tasks and data. Source Serif is for reading, from 16 px up. Fraunces is for titles, never for controls.
-- Buttons and labels use sentence case. Capitals are reserved for `label-sm` and used sparingly.
+- Buttons and labels use sentence case. No decorative labels above headings; a factual label stays only when the heading cannot carry it (DL-028).
 - Prose stays within 45 to 75 characters per line (`--prose-width`). Left-align text. Centre three lines at most. Right-align numbers.
 - Fonts are subset to Latin. Yoruba and Vietnamese marks fall back to the system face until [latin-ext subsets](packages/design-system/decision-log.md) are added.
 
@@ -395,11 +396,12 @@ Tokens are generated into explicit theme blocks instead of using `light-dark()`.
 
 Spacing comes from one scale: 4, 8, 12, 16, 24, 32, 40, 56, 80, 112, 160 px, as `--space-1` to `--space-11`. Neighbouring steps differ by at least 25 percent, so a choice is never subtle.
 
-- Design for 360 px first. Add columns as space allows. Never stretch a column to fill a wide screen.
+- Design for 360 px first. Partners, Funding and Initiatives use card grids on wide screens, with columns at least `--card-min-width` (18 rem). Cards in a row share a height and keep actions at the bottom.
+- Every page shares the logo's left edge. Only home heroes and empty states may centre; narrow tasks stay at that edge.
 - Prefer container queries, so a pattern adapts to its slot. Use `--form-width`, `--prose-width`, `--list-width` and `--page-width` as limits, not percentages.
 - Put more space around a group than inside it. Inside a group use `--space-2`. Between groups use `--space-5` or more.
 - Page gutter is `--gutter`, 16 px at 360. Section rhythm is 56, 80 and 112 px by width.
-- Controls are 48 px high. 44 px is the smallest target, for dense toolbars. 56 px is for the single action on a focused screen.
+- Controls are 48 px high. 44 px is the smallest target, for dense toolbars. A field and its paired button both use `--control-lg-height` (56 px). Keep the steps of a flow at a steady height.
 - Text must survive 200 percent zoom and the largest browser text size without clipping.
 
 ## Elevation & Depth
@@ -415,6 +417,10 @@ There are five levels, tied to distance from the page. Light themes use shadows 
 | 4 | `--shadow-4` | Dialogs |
 
 Inputs use `--shadow-inset` to read as recessed. Use space or a surface step before reaching for a border, and keep hairlines under five per screen. The website's paper grain and mycelium canvas stay behind one hero region at most, never behind inputs or rows, and they stop under reduced motion.
+
+### Motion
+
+Motion explains what changed: pages cross-fade, cards arrive together and linked cards lift on hover. Use `--duration-fast`, `--duration-base`, `--duration-slow` and `--ease-out`. All animation and transitions stop under reduced motion. The home woven-thread backdrop is the only decorative motion and becomes still. Start a new page at the top with its heading focused; keep phone heroes short (DL-029).
 
 ## Shapes
 

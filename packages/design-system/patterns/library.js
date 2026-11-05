@@ -58,3 +58,44 @@ for (const example of document.querySelectorAll("[data-example]")) {
 for (const button of document.querySelectorAll("[data-open-dialog]")) {
   button.addEventListener("click", () => document.getElementById(button.dataset.openDialog)?.showModal());
 }
+
+// Local native overlay enhancements, shared with the app.
+import { connectPopover, connectTooltip } from "../behaviors/overlays.js";
+for (const trigger of document.querySelectorAll("[data-tooltip]")) {
+  const panel = document.getElementById(trigger.dataset.tooltip);
+  if (panel) connectTooltip(trigger, panel);
+}
+for (const trigger of document.querySelectorAll("[data-popup]")) {
+  const panel = document.getElementById(trigger.dataset.popup);
+  if (panel) connectPopover(trigger, panel);
+}
+for (const example of document.querySelectorAll("[data-list-example]")) {
+  const search = example.querySelector("input[type=search]");
+  const grid = example.querySelector("[data-example-grid]");
+  const records = [...example.querySelectorAll("[data-example-record]")];
+  const checks = [...example.querySelectorAll("[data-example-country]")];
+  function update() {
+    const countries = checks.filter((check) => check.checked).map((check) => check.value);
+    let count = 0;
+    for (const record of records) {
+      record.hidden = !record.textContent.toLowerCase().includes(search.value.trim().toLowerCase()) || (countries.length > 0 && !countries.includes(record.dataset.country));
+      if (!record.hidden) count++;
+    }
+    const direction = example.querySelector("[data-example-sort]").value === "reverse" ? -1 : 1;
+    records.sort((a, b) => direction * a.querySelector("h2").textContent.localeCompare(b.querySelector("h2").textContent)).forEach((record) => grid.append(record));
+    example.querySelector("[data-example-count]").textContent = `${count} of ${records.length} examples`;
+    const chips = example.querySelector("[data-example-chips]");
+    chips.replaceChildren();
+    for (const check of checks.filter((check) => check.checked)) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "rc-chip";
+      button.textContent = `Remove ${check.value}`;
+      button.addEventListener("click", () => { check.checked = false; update(); });
+      chips.append(button);
+    }
+  }
+  example.querySelector("[data-example-search]").addEventListener("submit", (event) => { event.preventDefault(); update(); });
+  example.addEventListener("change", update);
+  search.addEventListener("input", update);
+}

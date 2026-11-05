@@ -87,9 +87,10 @@ Use one door and one family of verbs: Save and Sign in. Account and membership a
 
 ## Mechanics
 
-- Sentence case everywhere. Capitals only in the small record label.
+- Sentence case everywhere, including factual record labels.
 - A button says what happens: Save my initiative, not Submit. An action keeps its name through the flow.
 - No arrows in links or buttons. No em dashes in product copy.
+- No decorative kickers or eyebrows above headings. Keep a factual label only where no heading can carry its meaning, in sentence case (DL-028).
 - Write dates in full: 30 November 2026. Write money with the currency: R$ 60,000.
 - Merge labels into values: "3 needs, 2 offers", not "Needs: 3".
 - Leave room for Portuguese and Spanish, which often run a third longer than English. Never build a sentence from fragments.

@@ -79,6 +79,14 @@ The tests check that generated files are current, the linter is clean, website v
 
 ## Changelog
 
+### Unreleased, Step 1
+
+- Added Card grid, Filter bar, Menu, Tooltip, Footer, Media, Link preview, Inline field and Account button patterns, plus research and culture icons. New initiative and funding examples exercise them.
+- Modified stable App header, Card, Page shell, List layout and Narrow layout: one left edge, two-line listing titles, bottom actions and four navigation sections. Existing example uses were updated and rechecked.
+- Fixed the minimum button target width, including short quiet actions in existing examples.
+- Modified Eyebrow to factual sentence-case labels only. Deprecated Tabs for partner/funding navigation in favour of separate pages; keep the CSS for sibling views through Phase 0, with removal considered at its phase gate.
+- Added the framework-free `./overlays` behaviour export; dispose listeners when a React component unmounts.
+
 ### 0.1.0, 2026-10-31
 
 First definition: tokens from the website, new scales, CSS through templates, pattern library, brand and voice guides.

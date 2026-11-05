@@ -123,6 +123,7 @@
   --pad: clamp(1.8rem, 6vw, 5rem);
   --form-width: 28rem;
   --prose-width: 36rem;
+  --card-min-width: 18rem;
   --list-width: 40rem;
   --page-width: 70rem;
 

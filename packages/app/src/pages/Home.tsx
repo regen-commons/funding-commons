@@ -14,7 +14,7 @@ export function Home({ title }: { title: string }) {
             <ButtonLink href={pathTo("initiative")} variant="primary" size="lg">
               Describe your initiative
             </ButtonLink>
-            <ButtonLink href={pathTo("directory")} variant="secondary" size="lg">
+            <ButtonLink href={pathTo("funding")} variant="secondary" size="lg">
               Search funding
             </ButtonLink>
           </>
@@ -24,7 +24,8 @@ export function Home({ title }: { title: string }) {
           {title}
         </Heading>
         <p className="rc-prose">
-          Say what your initiative needs and what it can offer. See who could work with you and which funds fit.
+          Say what your initiative needs and what it can offer. See who could work with you and which funds
+          fit.
         </p>
       </HomeHero>
       <section className="rc-stack" aria-labelledby="kinds">

@@ -46,8 +46,7 @@
   align-items: center;
   gap: var(--space-1);
   font: var(--type-label-sm);
-  letter-spacing: var(--type-label-sm-tracking);
-  text-transform: uppercase;
+  letter-spacing: normal;
   color: var(--text-accent);
 }
 
@@ -99,6 +98,7 @@
 
 /* Button: one solid primary per region, then outlined, then link-style. */
 .rc-button {
+  min-inline-size: var(--control-sm-height);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -486,3 +486,31 @@ textarea.rc-input {
 @media (forced-colors: active) {
   .rc-surface[data-level="raised"] { border: var(--border-thin) solid CanvasText; }
 }
+
+/* Media: a supplied image, or an explicitly labelled synthetic placeholder. */
+.rc-media {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: var(--space-2);
+  aspect-ratio: 16 / 9;
+  inline-size: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: var(--surface-tint);
+  color: var(--text-muted);
+  font: var(--type-body-sm);
+}
+.rc-media > img { inline-size: 100%; block-size: 100%; object-fit: cover; }
+.rc-media[data-size="thumb"] { inline-size: var(--space-9); flex: none; aspect-ratio: 1; }
+.rc-account {
+  display: inline-grid;
+  place-items: center;
+  inline-size: var(--control-sm-height);
+  min-block-size: var(--control-sm-height);
+  border-radius: var(--radius-full);
+  background: var(--surface-tint);
+  color: var(--link);
+  font: var(--type-title-sm);
+}
+.rc-tag[data-kind="work"] { border: var(--border-thin) solid var(--control-line); background: transparent; color: inherit; }

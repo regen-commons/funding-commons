@@ -2,11 +2,15 @@
 .rc-page {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr auto auto;
   min-block-size: 100dvh;
 }
 
 .rc-main {
+  display: grid;
+  align-content: start;
+  gap: var(--space-5);
+  view-transition-name: rc-content;
   container-type: inline-size;
   inline-size: 100%;
   max-inline-size: var(--page-width);
@@ -47,11 +51,11 @@
   }
 }
 
-/* List pages: one comfortable column. */
+/* List pages use the available page width; prose retains its own measure. */
 .rc-list-layout {
   display: grid;
   gap: var(--space-5);
-  max-inline-size: var(--list-width);
+  min-inline-size: 0;
 }
 
 /* Focused pages: sign-in and confirming steps. */
@@ -59,7 +63,6 @@
   display: grid;
   gap: var(--space-5);
   max-inline-size: var(--form-width);
-  margin-inline: auto;
 }
 
 /* Home: says what this is and where to start on one phone screen. */
@@ -79,3 +82,31 @@
     justify-content: start;
   }
 }
+
+/* Card grid: resilient single column on phones, equal-height cards across wide rows. */
+.rc-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--card-min-width)), 1fr));
+  gap: var(--space-5);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.rc-card-grid > li { display: flex; min-inline-size: 0; }
+.rc-card-grid > li > .rc-card { inline-size: 100%; }
+@media (prefers-reduced-motion: no-preference) {
+  .rc-main { animation: rc-arrive var(--duration-base) var(--ease-out); }
+  .rc-card-grid > li { animation: rc-card-arrive var(--duration-slow) var(--ease-out) both; }
+  .rc-card-grid > li:nth-child(3n + 2) { animation-delay: var(--duration-fast); }
+  .rc-card-grid > li:nth-child(3n) { animation-delay: calc(var(--duration-fast) * 2); }
+}
+@keyframes rc-arrive { from { opacity: 0; } to { opacity: 1; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  ::view-transition-group(rc-content) { animation-duration: var(--duration-base); animation-timing-function: var(--ease-out); }
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*) { animation: none; }
+}
+
+@keyframes rc-card-arrive { from { opacity: 0; transform: translateY(var(--space-3)); } to { opacity: 1; transform: translateY(0); } }

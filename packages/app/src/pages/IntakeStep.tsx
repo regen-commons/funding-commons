@@ -11,12 +11,13 @@ const STUBS: Record<string, { guidance: string; next: { route: RouteName; label:
     next: { route: "needs", label: "Go to the needs step" },
   },
   needs: {
-    guidance: "Here you will list what your initiative needs next, from money to tools, knowledge and relationships.",
+    guidance:
+      "Here you will list what your initiative needs next, from money to tools, knowledge and relationships.",
     next: { route: "offers", label: "Go to the offers step" },
   },
   offers: {
     guidance: "Here you will list what you have to share, such as land, skills, a method or a track record.",
-    next: { route: "matches", label: "See partners and funding" },
+    next: { route: "finish", label: "See the finish page" },
   },
 };
 
