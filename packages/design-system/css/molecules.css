@@ -536,3 +536,25 @@ a.rc-save-status:hover { color: var(--on-surface); }
 .rc-link-preview-text > a { font: var(--type-title-sm); }
 /* Price and date metadata above a listing title also reserve two lines. */
 .rc-card[data-layout="listing"] > .rc-meta:first-child { min-block-size: 2lh; }
+
+/* Section: a heading, optional browse action and its related content. */
+.rc-section { display: grid; gap: var(--space-4); min-inline-size: 0; }
+.rc-section-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--space-2) var(--space-4); }
+
+/* Tile card: a large glyph, its framework title and a plain meaning. */
+.rc-tile-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  inline-size: 100%;
+  block-size: 100%;
+  padding: var(--space-3);
+  border-radius: var(--card-radius);
+  background: var(--surface-raised);
+  color: var(--on-surface-raised);
+  box-shadow: var(--shadow-1);
+}
+.rc-tile-card > .rc-tile { --tile-size: var(--space-8); grid-row: span 2; font: var(--type-headline-sm); }
+.rc-tile-card-title { font: var(--type-title-sm); }
+.rc-tile-card-meaning { font: var(--type-body-sm); color: var(--text-secondary); }

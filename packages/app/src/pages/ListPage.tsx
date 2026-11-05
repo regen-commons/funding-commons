@@ -1,66 +1,16 @@
 import { useState } from "react";
 import type { FixtureContext } from "../fixtures.ts";
-import {
-  EMPTY_FILTERS,
-  selectRecords,
-  STAGE_LABELS,
-  type ListingRecord,
-  type CapitalKey,
-} from "../listing.ts";
-import { Link, navigate } from "../router.tsx";
-import { pathTo, recordPath } from "../routes.ts";
+import { EMPTY_FILTERS, selectRecords, type CapitalKey } from "../listing.ts";
+import { navigate } from "../router.tsx";
+import { pathTo } from "../routes.ts";
 import { ButtonLink } from "../ui/ButtonLink.tsx";
-import { Card, CardGrid } from "../ui/Card.tsx";
+import { CardGrid } from "../ui/Card.tsx";
 import { EmptyState } from "../ui/EmptyState.tsx";
 import { FilterBar } from "../ui/FilterBar.tsx";
-import { Fit } from "../ui/Fit.tsx";
+import { ListingCard } from "../ui/ListingCard.tsx";
 import { Heading } from "../ui/Heading.tsx";
 import { ListLayout } from "../ui/layouts.tsx";
-import { Media } from "../ui/Media.tsx";
-import { WorkTag } from "../ui/WorkTag.tsx";
 
-const date = (iso: string) =>
-  new Intl.DateTimeFormat("en", { dateStyle: "long", timeZone: "UTC" }).format(new Date(`${iso}T00:00:00Z`));
-function RecordCard({ record, personalized }: { record: ListingRecord; personalized: boolean }) {
-  return (
-    <Card>
-      {record.kind === "initiative" && <Media />}
-      {record.amount && (
-        <p className="rc-meta">
-          {record.amount}
-          {record.closes ? `, closes ${date(record.closes)}` : ""}
-        </p>
-      )}
-      <h2 className="rc-card-title">
-        <Link href={recordPath(record.kind, record.id)}>{record.title}</Link>
-      </h2>
-      {personalized && record.fit && (
-        <Fit
-          level={record.fit}
-          explanation={`${record.reasons.join(" ")} Fictional example fit; check eligibility with the funder.`}
-        />
-      )}
-      <p className="rc-card-meta">
-        {record.place}
-        {record.kind === "initiative" ? `, ${STAGE_LABELS[record.stage]}` : ""}
-      </p>
-      <ul className="rc-tag-list" aria-label="Type of work">
-        {record.work.map((work) => (
-          <li key={work}>
-            <WorkTag work={work} />
-          </li>
-        ))}
-      </ul>
-      <p className="rc-card-summary">{record.description}</p>
-      <p className="rc-meta">Example confirmed {date(record.confirmed)}</p>
-      <div className="rc-action-bar">
-        <ButtonLink href={recordPath(record.kind, record.id)} variant="secondary">
-          Read the example
-        </ButtonLink>
-      </div>
-    </Card>
-  );
-}
 export function ListPage({
   title,
   kind,
@@ -72,7 +22,10 @@ export function ListPage({
   fixture?: FixtureContext;
   subject?: { needs: readonly CapitalKey[]; offers: readonly CapitalKey[] };
 }) {
-  const [filters, setFilters] = useState(EMPTY_FILTERS);
+  const [filters, setFilters] = useState(() => ({
+    ...EMPTY_FILTERS,
+    search: new URLSearchParams(window.location.search).get("q") ?? "",
+  }));
   const records = fixture ? (kind === "funding" ? fixture.funding : fixture.initiatives) : [];
   const personalized = !!fixture && fixture.scenario !== "visitor";
   const visibleFilters = personalized
@@ -169,7 +122,7 @@ export function ListPage({
             <CardGrid>
               {selected.map((record) => (
                 <li key={record.id}>
-                  <RecordCard record={record} personalized={personalized && kind !== "initiatives"} />
+                  <ListingCard record={record} personalized={personalized && kind !== "initiatives"} />
                 </li>
               ))}
             </CardGrid>

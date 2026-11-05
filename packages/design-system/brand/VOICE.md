@@ -6,7 +6,7 @@ This guide owns the words in Regen Commons products. It applies to labels, messa
 
 The voice stays the same everywhere.
 
-- **Plain first.** Use the word a newcomer would use. Explain framework terms in help, not in labels.
+- **Plain first.** Use the word a newcomer would use. The eight kinds keep their framework names as titles, with a plain meaning beneath and examples in a tooltip (DL-026).
 - **Warm and direct.** Write to one person, as "you". Use "we" only when Regen Commons actually does something.
 - **Honest.** Say what is uncertain, what is stored, who can see it and what happens next.
 - **Specific.** Name the place, the fund, the date and the amount. Avoid general claims about impact.
@@ -40,15 +40,15 @@ The left column is the domain language used in data, code and documents. The mid
 | initiative | initiative, with "project or group" as the test alternative | Explain it once in the first step |
 | need | what you need | |
 | offer | what you can offer | Test "what you can share" |
-| form of capital | kind of support | Framework names appear in help |
-| Living | Land and living things | |
-| Material | Tools and equipment | |
-| Intellectual | Knowledge | |
-| Experiential | Skills and know-how | |
-| Social | Relationships | |
-| Financial | Money | |
-| Cultural | Culture and story | |
-| Spiritual | Care and spirit | |
+| form of capital | kind of support | The eight titles below keep their plain meaning alongside them; compact tags explain it in a tooltip |
+| Living | Living | Land and living things |
+| Material | Material | Tools and equipment |
+| Intellectual | Intellectual | Knowledge |
+| Experiential | Experiential | Skills and know-how |
+| Social | Social | Relationships |
+| Financial | Financial | Money |
+| Cultural | Cultural | Culture and story |
+| Spiritual | Spiritual | Care and spirit |
 | lens | type of work | |
 | Seed, Sprout, Flowering, Tree | Just starting, Getting going, Up and running, Long established | The website keeps its stage names |
 | recipe | partnership | Roles we need, what it is for |

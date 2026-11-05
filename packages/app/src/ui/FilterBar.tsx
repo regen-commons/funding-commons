@@ -76,7 +76,7 @@ export function FilterBar({
     {
       key: "support",
       label: "Support",
-      options: CAPITALS.map((value) => ({ value: value.key, label: value.label })),
+      options: CAPITALS.map((value) => ({ value: value.key, label: `${value.title}: ${value.label}` })),
     },
   ];
   const update = (key: MultiKey, value: string) =>

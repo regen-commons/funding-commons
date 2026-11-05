@@ -27,11 +27,11 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Logo | `rc-logo` | stable | Mark and product name. Returns home. Part: `rc-logo-mark` |  |  | code, finish, funding, home, initiatives, matches, matches-empty, saved, settings, step-needs |
 | Button | `rc-button` | stable | Starts an action | `data-variant`: primary, secondary, quiet, danger. `data-size`: sm, lg. `data-width`: full. `aria-busy`, `disabled` | Label under five words. One primary per region | code, finish, funding, home, initiatives, matches, matches-empty, saved, settings, step-needs |
 | Icon button | `rc-icon-button` | stable | An action with a widely known icon, such as close |  | Requires `aria-label` | library only |
-| Input | `rc-input` | stable | Text, select and text area | `data-kind`: code. `aria-invalid`, `disabled` | Always inside a Field | code, finish, funding, initiatives, settings, step-needs |
+| Input | `rc-input` | stable | Text, select and text area | `data-kind`: code. `aria-invalid`, `disabled` | Always inside a Field | code, finish, funding, home, initiatives, settings, step-needs |
 | Check | `rc-check` | stable | Native checkbox and radio |  |  | funding, initiatives, saved |
 | Switch | `rc-switch` | stable | A setting that applies at once | `role="switch"` | Never pre-checked for email | library only |
 | Chip | `rc-chip` | stable | A choice you tap. Part: `rc-chip-remove` | Selectable, removable | 44 px high | library only |
-| Tag | `rc-tag` | stable | A label you read | Plain, with an icon, `data-capital` | Three words | funding, home, initiatives, step-needs |
+| Tag | `rc-tag` | stable | A label you read | Plain, with an icon, `data-capital` | Three words | funding, initiatives, step-needs |
 | Tile | `rc-tile` | stable | Glyph for a form of capital | `data-state`: suggested, empty | Two letters | home, step-needs |
 | Stage | `rc-stage` | stable | Stage of growth, with icon and plain word | `data-stage`: seed, sprout, flowering, tree |  | finish, matches, step-needs |
 | Fit | `rc-fit` | stable | Strength of a match as a word and bar. Part: `rc-fit-bar` | `data-level`: strong, good, possible | Never a number | finish, funding, initiatives, matches |
@@ -42,7 +42,7 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Skip link | `rc-skip-link` | stable | First stop for keyboard users |  | On every page | code, finish, funding, home, initiatives, matches, matches-empty, saved, settings, step-needs |
 | Visually hidden | `rc-visually-hidden` | stable | Text only for assistive technology |  |  | step-needs |
 
-| Media | `rc-media` | stable | Supplied image or labelled synthetic placeholder; fixed aspect ratio | `data-size`: thumb | No third-party app images until D30 | funding, initiatives |
+| Media | `rc-media` | stable | Supplied image or labelled synthetic placeholder; fixed aspect ratio | `data-size`: thumb | No third-party app images until D30 | funding, home, initiatives |
 | Account button | `rc-account` | stable | Opens Settings from the header |  | Accessible name required; live state needs sign-in adapter | funding, initiatives, settings |
 
 ## Molecules
@@ -50,31 +50,34 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Pattern | Class | Status | Job and parts | Variants | Limits | Used in |
 |---|---|---|---|---|---|---|
 | Form | `rc-form` | stable | Stacks fields at the right rhythm |  | 28 rem wide | code, finish, saved |
-| Field | `rc-field` | stable | Label, hint, control, error. Parts: `rc-hint`, `rc-error` |  | Label always visible | code, finish, funding, initiatives, settings |
+| Field | `rc-field` | stable | Label, hint, control, error. Parts: `rc-hint`, `rc-error` |  | Label always visible | code, finish, funding, home, initiatives, settings |
 | Composer | `rc-composer` | candidate | The box a person writes in. Part: `rc-composer-actions` | Speak and Attach when working |  | step-needs |
 | Proposal | `rc-proposal` | candidate | A suggested value awaiting confirmation. Parts: `rc-proposal-source`, `rc-proposal-value` | `data-state`: confirmed | Value under 12 words | step-needs |
 | Choice group | `rc-choice-group` | candidate | Selectable cards for a short vocabulary. Parts: `rc-choice`, `rc-choice-text`, `rc-choice-title`, `rc-choice-note` | Radio or checkbox | Five options for radios | saved |
 | Stepper | `rc-stepper` | candidate | Where you are in a short sequence. Part: `rc-stepper-mark` | `aria-current`, `data-state`: done | Three to five steps | step-needs |
 | Reason | `rc-reasons` | stable | Why something appears for you. Part: `rc-reason` |  | Three lines of one sentence | finish, matches |
-| Card | `rc-card` | stable | One record. Parts: `rc-card-header`, `rc-card-title`, `rc-card-meta`, `rc-card-summary` | `data-stage`, `data-kind`: need, offer. `data-pencil`, `data-layout`: listing | Listing titles reserve two lines; summaries three lines | finish, funding, initiatives, matches, step-needs |
-| Tag list | `rc-tag-list` | stable | A row of tags |  |  | funding, home, initiatives, step-needs |
+| Card | `rc-card` | stable | One record. Parts: `rc-card-header`, `rc-card-title`, `rc-card-meta`, `rc-card-summary` | `data-stage`, `data-kind`: need, offer. `data-pencil`, `data-layout`: listing | Listing titles reserve two lines; summaries three lines | finish, funding, home, initiatives, matches, step-needs |
+| Tag list | `rc-tag-list` | stable | A row of tags |  |  | funding, initiatives, step-needs |
 | Tile list | `rc-tile-list` | candidate | A row of tiles with each state in words |  | Eight tiles | step-needs |
 | Record | `rc-record` | candidate | What is known, with room for what is missing | `data-empty` on a value |  | step-needs |
 | Stamp | `rc-stamp` | stable | Last confirmed, and a way to confirm again |  |  | finish, matches |
 | Notice | `rc-notice` | candidate | A message in the flow of the page. Parts: `rc-notice-body`, `rc-notice-title` | `data-tone`: success, info, warning, danger | Two sentences | saved |
 | Message | `rc-message` | candidate | One turn of conversation | `data-from`: assistant, person |  | step-needs |
 | Tabs | `rc-tabs` | deprecated | Sibling views only; Partners and Funding use separate pages | `aria-current` | Three tabs on a phone, with counts | library only |
-| Action bar | `rc-action-bar` | stable | The things you can do with a record |  | One primary | finish, funding, initiatives, matches, saved, step-needs |
+| Action bar | `rc-action-bar` | stable | The things you can do with a record |  | One primary | finish, funding, home, initiatives, matches, saved, step-needs |
 | Progress | `rc-progress` | candidate | A long task, with a way to stop |  |  | library only |
-| Save status | `rc-save-status` | stable | Says where the work lives | `data-state`: device, account | Visible through the intake | code, finish, funding, initiatives, matches, saved, settings, step-needs |
-| Search | `rc-search` | candidate | A box, a button and the word Search |  | No scope menu before results | library only |
+| Save status | `rc-save-status` | stable | Says where the work lives | `data-state`: device, account | Visible through the intake | code, finish, funding, home, initiatives, matches, saved, settings, step-needs |
+| Search | `rc-search` | candidate | A box, a button and the word Search |  | No scope menu before results | home |
 | Breadcrumbs | `rc-breadcrumbs` | candidate | A place inside its larger places |  |  | library only |
 | Facts | `rc-facts` | candidate | Plain terms for consent and privacy |  |  | library only |
 | Empty state | `rc-empty` | candidate | A first screen with one thing to do. Part: `rc-empty-title` |  | One action, no filters | matches-empty |
 
-| Tooltip | `rc-tooltip` | stable | Explains a compact sign. Parts: `rc-tooltip-wrap`, `rc-tooltip-trigger` | Native interest and hint, local fallback | Hoverable, dismissible with Escape, same words for screen readers | funding, initiatives |
-| Inline field | `rc-inline-field` | stable | A field and action at the same large height | Wraps on phones | Use inside a labelled Field | funding, initiatives |
+| Tooltip | `rc-tooltip` | stable | Explains a compact sign. Parts: `rc-tooltip-wrap`, `rc-tooltip-trigger` | Native interest and hint, local fallback | Hoverable, dismissible with Escape, same words for screen readers | funding, home, initiatives, step-needs |
+| Inline field | `rc-inline-field` | stable | A field and action at the same large height | Wraps on phones | Use inside a labelled Field | funding, home, initiatives |
 | Link preview | `rc-link-preview` | stable | Supplied external link, title and preview. Part: `rc-link-preview-text` | Optional Media thumbnail | Never fetch from the browser; no preview service yet | funding, initiatives |
+
+| Section | `rc-section` | candidate | Groups a heading, content and optional browse action. Part: `rc-section-head` | | Heading with one supporting line at most | home |
+| Tile card | `rc-tile-card` | candidate | Glyph, framework title and plain meaning. Parts: `rc-tile-card-title`, `rc-tile-card-meaning` | `data-capital` | One tooltip trigger; meaning stays visible | home |
 
 ## Organisms
 
@@ -93,6 +96,9 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Menu | `rc-menu` | stable | Native controls in a popover. Parts: `rc-menu-group`, `rc-menu-option` | Local fallback without Popover API | Named fieldset, visible close action, Escape and outside dismissal | funding, initiatives |
 | Footer | `rc-footer` | stable | Weave, Your data and Regen Commons links. Parts: `rc-footer-grid`, `rc-footer-title`, `rc-footer-row`, `rc-footer-link` | `data-slim`: true | Every page; slim row on focused steps | code, finish, funding, home, initiatives, matches, matches-empty, saved, settings, step-needs |
 
+| Numbered list | `rc-numbered-list` | candidate | Three ordered cards. Parts: `rc-numbered-item`, `rc-numbered-number`, `rc-numbered-title` | First card links to the start | One linked entry; remaining cards explain later steps | home |
+| Tile grid | `rc-tile-grid` | candidate | Equal-size Tile cards with tooltips | | Eight forms of capital | home |
+
 ## Templates
 
 | Pattern | Class | Status | Job and parts | Variants | Limits | Used in |
@@ -101,9 +107,9 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Step layout | `rc-step-layout` | stable | One column, then a sticky side panel. Parts: `rc-step-main`, `rc-step-aside` |  |  | finish, step-needs |
 | List layout | `rc-list-layout` | stable | Full-width list with its own prose measure |  | Card grid columns at least 18 rem | funding, initiatives, matches, matches-empty |
 | Narrow layout | `rc-narrow` | stable | Focused single tasks |  | 28 rem | code, saved, settings |
-| Home hero | `rc-home-hero` | candidate | Says what this is and where to start. Part: `rc-home-actions` |  | Fits one phone screen | home |
+| Home hero | `rc-home-hero` | candidate | Centred heading, start action, search and one sign of life. Parts: `rc-home-actions`, `rc-home-live`, `rc-woven-backdrop` | Still backdrop under reduced motion | Short phone hero; decorative threads stay within it | home |
 
-| Card grid | `rc-card-grid` | stable | Equal-height record cards, bottom actions and aligned fit lines | Responsive columns at least `--card-min-width` | Full width with one column on phones | finish, funding, initiatives, matches |
+| Card grid | `rc-card-grid` | stable | Equal-height record cards, bottom actions and aligned fit lines | Responsive columns at least `--card-min-width` | Full width with one column on phones | finish, funding, home, initiatives, matches |
 
 ## Planned
 
@@ -166,3 +172,13 @@ The logo, main content and footer share a left edge. Main sections are Home, Par
 ### Inline field
 
 Pair a labelled field and button at `--control-lg-height`, allowing wrapping when needed. New pages start at the top with the heading focused after in-app navigation. Durations and easing come from tokens, with all motion stopped under reduced motion. Flow-height refinements continue with the conversation and save patterns in later steps.
+
+## Home composition
+
+Home has five parts: the hero, three numbered steps, eight kinds of support, recently shared initiatives and the three upcoming funding deadlines that close first (review decisions 7 and 10). The first numbered card is the way into describing. Steps 2 and 3 explain what follows. Do not promise working speech, attachments or saving before those features exist.
+
+The hero's decorative SVG threads inherit capital colour tokens and move slowly using duration and easing tokens. Under reduced motion the same weave stays still; forced colours hide it. It is hidden from assistive technology and cannot intercept a tap. There is no canvas loop or animation script.
+
+Support cards use Living, Material, Intellectual, Experiential, Social, Financial, Cultural and Spiritual as titles, with the plain meaning beneath and examples in a tooltip. Compact tags keep the same title and explain the meaning in help (DL-026, revisiting DL-014).
+
+Recently shared uses the supplied sharing date, not last confirmation. Upcoming funding excludes past, unknown and rolling deadlines, shows days left and the full date, and keeps the earliest three. A closing date alone is not eligibility. Fixtures name their reference date; no sample count or sample record appears in production. Loading, empty, partial, offline and error states keep the hero, steps and kinds usable.

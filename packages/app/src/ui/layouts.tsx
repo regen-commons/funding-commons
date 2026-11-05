@@ -20,11 +20,26 @@ export function NarrowLayout({ children }: { children: ReactNode }) {
 }
 
 /** Home hero template (`rc-home-hero`): what this is and where to start. */
-export function HomeHero({ actions, children }: { actions: ReactNode; children: ReactNode }) {
+export function HomeHero({
+  actions,
+  search,
+  live,
+  children,
+}: {
+  actions: ReactNode;
+  search?: ReactNode;
+  live?: ReactNode;
+  children: ReactNode;
+}) {
   return (
-    <section className="rc-home-hero">
+    <section className="rc-home-hero" aria-labelledby="home-title">
+      <svg className="rc-woven-backdrop" aria-hidden="true" focusable="false">
+        <use href="/brand/weave-threads.svg#threads" />
+      </svg>
       {children}
       <div className="rc-home-actions">{actions}</div>
+      {search}
+      <div className="rc-home-live">{live}</div>
     </section>
   );
 }

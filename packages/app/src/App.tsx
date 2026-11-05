@@ -17,7 +17,7 @@ import { FixtureControls } from "./ui/FixtureControls.tsx";
 function content(route: Route, fixture?: FixtureContext) {
   switch (route.name) {
     case "home":
-      return <Home title={route.title} />;
+      return <Home fixture={fixture} />;
     case "initiative":
     case "needs":
     case "offers":

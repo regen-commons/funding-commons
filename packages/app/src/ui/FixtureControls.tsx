@@ -35,6 +35,7 @@ export function FixtureControls({ fixture }: { fixture: FixtureContext }) {
             >
               <option value="ready">Ready</option>
               <option value="empty">Empty</option>
+              <option value="partial">Partial</option>
               <option value="loading">Loading</option>
               <option value="offline">Offline</option>
               <option value="error">Error</option>

@@ -18,6 +18,8 @@ export interface ListingRecord {
   readonly fit?: Fit;
   readonly reasons: readonly string[];
   readonly confirmed: string;
+  /** Supplied public sharing date, distinct from last confirmation. */
+  readonly sharedOn?: string;
   readonly amount?: string;
   readonly closes?: string;
 }

@@ -67,21 +67,46 @@
 
 /* Home: says what this is and where to start on one phone screen. */
 .rc-home-hero {
+  position: relative;
+  isolation: isolate;
   display: grid;
-  gap: var(--space-5);
-  max-inline-size: var(--prose-width);
-  padding-block: var(--space-5);
+  justify-items: center;
+  gap: var(--space-4);
+  padding-block: var(--space-4) var(--space-6);
+  text-align: center;
+}
+.rc-home-hero > .rc-heading { max-inline-size: var(--list-width); font: var(--type-headline-lg); }
+.rc-home-hero .rc-heading em { color: var(--text-accent); }
+.rc-home-hero > .rc-prose { max-inline-size: var(--prose-width); }
+.rc-home-hero > .rc-field { inline-size: 100%; text-align: start; }
+.rc-home-hero .rc-home-actions { inline-size: 100%; max-inline-size: var(--list-width); }
+.rc-home-live { min-block-size: var(--control-sm-height); }
+.rc-woven-backdrop {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  overflow: hidden;
+  pointer-events: none;
 }
 .rc-home-actions {
   display: grid;
   gap: var(--space-2);
 }
 @container (min-width: 37.5rem) {
+  .rc-home-hero { padding-block: var(--space-8); gap: var(--space-5); }
+  .rc-home-hero > .rc-heading { font: var(--type-headline-hero); }
   .rc-home-actions {
     grid-auto-flow: column;
-    justify-content: start;
+    justify-content: center;
   }
 }
+@media (prefers-reduced-motion: no-preference) {
+  .rc-woven-backdrop > use { animation: rc-weave calc(var(--duration-slow) * 40) var(--ease-out) infinite alternate; }
+}
+@keyframes rc-weave { to { transform: translate(var(--space-4), var(--space-2)); } }
+@media (forced-colors: active) { .rc-woven-backdrop { display: none; } }
 
 /* Card grid: resilient single column on phones, equal-height cards across wide rows. */
 .rc-card-grid {

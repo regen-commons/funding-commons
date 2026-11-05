@@ -79,6 +79,12 @@ The tests check that generated files are current, the linter is clean, website v
 
 ## Changelog
 
+### Unreleased, Step 2
+
+- Added four candidate patterns: Section, Tile card, Numbered list and Tile grid. Expanded the Home hero with search, one sign of life and a decorative SVG weave that stays still under reduced motion. The home example now shows all five parts.
+- Modified stable Tag copy to use framework titles with plain meanings in help (DL-026); updated the intake example and rechecked its consumers. Card and Card grid now also supply Home's public previews, with section-level heading order.
+- Home previews use sharing dates and upcoming deadlines with labelled fixture dates. Production has no sample records or invented activity; live feeds remain separate work.
+
 ### Unreleased, Step 1
 
 - Added Card grid, Filter bar, Menu, Tooltip, Footer, Media, Link preview, Inline field and Account button patterns, plus research and culture icons. New initiative and funding examples exercise them.
