@@ -7,8 +7,8 @@ framework. It is the root directory of the Weave Vercel project. Read the
 [app dialect](../design-system/dialects/app.md) before changing a screen.
 
 The route table in [src/routes.ts](src/routes.ts) owns pages and their section cues.
-Home, frame, lists and the three-step intake through Finish are built. Full
-details and account flows follow in later steps. Development fixtures require an
+Home, frame, lists, the three-step intake through Finish, Funding and opportunity
+detail are built. Initiative details and account flows follow in later steps. Development fixtures require an
 explicit `?fixture=draft` (or visitor, private, shared); `view` selects Describe
 states; `intake` selects Needs, Offers and Finish examples. Without that parameter,
 development uses the real device draft too.
@@ -25,6 +25,7 @@ production. Account saving still needs its adapter.
 | `src/pages/` | Pages composed from `src/ui` |
 | `src/describe/` | Validated device draft, IndexedDB writer and local extraction adapters |
 | `src/intake/` | Need/offer contracts, review rules, local extraction and checked-card text |
+| `src/funding/` | Validated catalog release, local scoring, optional funding details and example team coverage |
 | `api/` | One-line Vercel entry files that re-export `@weave/api` handlers |
 | `dev/` | The dev server's `/api` bridge, which answers the way Vercel does |
 | `public/brand/` | Copied from the design system by `scripts/copy-brand.mjs`; ignored by Git |
@@ -58,6 +59,13 @@ production. Account saving still needs its adapter.
   the entry test fails on anything else.
 - funding-commons.vercel.app is a different Vercel project, rooted at the repository
   root. Nothing here changes it.
+- Funding imports the authoritative matching, domain and profile vocabularies from
+  the root `dist/*.mjs` sources. Keep the rubric and live site intact; do not fork
+  the engine into app code. Public catalog JSON is bundled and precached separately
+  from private device drafts. Missing screening data must remain explicit.
+- Team requirements, coverage and introductions remain labelled development
+  examples until D29 and the service adapters are ready. Private views show counts
+  only; unknown requirements and counts stay unknown in production.
 
 ## Checks
 

@@ -198,7 +198,7 @@
 /* The same filter bar on every list. Menus hold native checks, not ARIA menu items. */
 .rc-filter-bar { display: grid; min-inline-size: 0; gap: var(--space-3); }
 .rc-filter-controls, .rc-active-filters { display: flex; flex-wrap: wrap; align-items: end; gap: var(--space-2); }
-.rc-filter-controls > .rc-field { flex: 1; }
+.rc-filter-controls > .rc-field { flex: 1 1 var(--card-min-width); min-inline-size: min(100%, var(--card-min-width)); }
 .rc-filter-controls .rc-button[data-active="true"] { box-shadow: inset 0 0 0 var(--border-thick) var(--action); }
 .rc-menu { min-inline-size: min(var(--card-min-width), calc(100vw - var(--space-6))); }
 .rc-menu-group { display: grid; margin: 0; padding: 0; border: 0; gap: var(--space-1); }
@@ -266,3 +266,10 @@
 .rc-ask-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: var(--space-2); }
 .rc-ask-count { font: var(--type-label-md); color: var(--text-secondary); white-space: nowrap; }
 .rc-share-card { display: grid; gap: var(--space-4); overflow-wrap: anywhere; }
+/* Team slots describe requirements; picks never establish eligibility. */
+.rc-team-slots { display: grid; gap: var(--space-4); list-style: none; padding: 0; margin: 0; }
+.rc-team-slot { display: grid; gap: var(--space-2); min-inline-size: 0; padding: var(--space-4); border-radius: var(--radius-md); background: var(--surface-raised); overflow-wrap: anywhere; }
+.rc-team-candidates { display: grid; gap: var(--space-2); list-style: none; padding: 0; margin: 0; }
+.rc-team-candidate { display: flex; align-items: start; gap: var(--space-3); min-block-size: var(--control-height); padding: var(--space-2); cursor: pointer; }
+.rc-team-candidate > span { display: grid; gap: var(--space-1); min-inline-size: 0; }
+.rc-team-coverage { display: grid; gap: var(--space-2); padding: var(--space-3); border-inline-start: var(--border-thick) solid var(--control-line); }

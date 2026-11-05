@@ -62,7 +62,7 @@ export function matchRoute(pathname: string): Route | undefined {
     const prefix = route.path.slice(0, -3);
     if (alias.startsWith(prefix)) {
       const id = alias.slice(prefix.length);
-      if (/^[a-z0-9-]+$/.test(id)) return { ...route, id };
+      if ((route.name === "opportunity" ? /^[a-zA-Z0-9_-]+$/ : /^[a-z0-9-]+$/).test(id)) return { ...route, id };
     }
   }
   return undefined;
@@ -73,7 +73,7 @@ export function pathTo(name: RouteName): string {
   return route.path;
 }
 export function recordPath(kind: "initiative" | "funding", id: string): string {
-  if (!/^[a-z0-9-]+$/.test(id)) throw new Error("Record identifiers must be slugs");
+  if (!(kind === "funding" ? /^[a-zA-Z0-9_-]+$/ : /^[a-z0-9-]+$/).test(id)) throw new Error("Record identifiers must be valid catalog IDs or initiative slugs");
   return `/${kind === "initiative" ? "initiatives" : "funding"}/${id}`;
 }
 export function documentTitle(route: Route | undefined): string {

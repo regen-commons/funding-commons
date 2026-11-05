@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "../validation.ts";
 import { CAPITALS } from "../capitals.ts";
 import { AttachmentSchema, FileReadSchema, TurnSchema, LinkSchema } from "../describe/source-contracts.ts";
 

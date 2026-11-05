@@ -34,6 +34,7 @@ test("details resolve validated identifiers, preserve section cues and accept a 
   assert.equal(matchRoute("/initiatives/orchard/")?.id, "orchard");
   assert.equal(matchRoute("/initiatives/orchard")?.section, "initiatives");
   assert.equal(matchRoute("/funding/water")?.name, "opportunity");
+  assert.equal(matchRoute("/funding/recCapital_ID")?.id, "recCapital_ID");
   for (const path of ["/initiatives/a/b", "/funding/%2F", "/start", "/funding-commons"])
     assert.equal(matchRoute(path), undefined, path);
   assert.equal(recordPath("initiative", "orchard"), "/initiatives/orchard");

@@ -79,6 +79,12 @@ The tests check that generated files are current, the linter is clean, website v
 
 ## Changelog
 
+### Unreleased, Step 5
+
+- Added Team slots with private count and shared candidate examples, distinct requirement coverage and one reviewed example request per selected initiative. Added Opportunity and private Opportunity examples.
+- Reused Card, Fit, Facts, Filter bar and Step layout for catalog programs and details. Filter fields wrap at the card width so Sort retains a usable target on phones. The live catalog rubric and source dates remain authoritative; no tokens changed.
+- Funding and Finish can read the bundled public catalog and score on the device. Unverified offers, closed cycles and resources stay distinct; live team requirements, reminders and introductions retain their approval and service gates.
+
 ### Unreleased, Step 4
 
 - Added Ask card and Ask list patterns for needs and offers, with an editor, a five-card counter, equal treatment of all eight kinds, overflow, removal and Undo. Added the Share card as a candidate and Needs, Offers and Intake finish examples.

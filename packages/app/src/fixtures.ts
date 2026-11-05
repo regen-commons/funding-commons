@@ -6,6 +6,8 @@ import { emptyAskStep } from "./intake/contracts.ts";
 import { answerStep, changeStep, decide, formFromAsk, reconcile, reviewStep } from "./intake/state.ts";
 import { chunksFrom, keywordExtraction } from "./intake/keywords.ts";
 import type { ListingRecord } from "./listing.ts";
+import { parseBundle } from "./funding/catalog.ts";
+import type { TeamAsk } from "./funding/team.ts";
 export type Scenario = "visitor" | "draft" | "private" | "shared";
 export type ListState = "ready" | "empty" | "loading" | "offline" | "error" | "long" | "partial";
 export type DescribeView =
@@ -394,4 +396,103 @@ export function intakeFixture(view: IntakeView, path: string) {
     draft = revise(draft, { [kind]: step });
   }
   return draft;
+}
+
+export function fundingFixture(fixture: FixtureContext) {
+  const funds = fixture.funding
+    .map((record) =>
+      fixture.state === "long"
+        ? {
+            ...record,
+            title: "Fundo Comunitário de Aprendizagem e Cuidado das Nascentes do Vale das Sementes",
+            description: record.description.repeat(8),
+          }
+        : record,
+    )
+    .map((record) => ({
+      id: record.id,
+      name: record.title,
+      displayName: record.title,
+      description: record.description,
+      sectors: ["restoration", "water"],
+      regions: [record.country],
+      approaches: [],
+      access: "open",
+      amount: record.amount ?? "Award not stated",
+      timing: "Fictional call",
+      deadlineDate: record.closes ?? null,
+      deadlineInstant: null,
+      verifiedOn: record.confirmed,
+      website: "https://example.org",
+      evidenceUrl: "https://example.org",
+      enrichment: {
+        reviewStatus: "program_reviewed",
+        focus: ["restoration", "water"],
+        sources: [{ url: "https://example.org", checkedOn: record.confirmed }],
+        programs: [
+          {
+            id: `${record.id}-call`,
+            name: record.title,
+            instrument: "grant",
+            focus: ["restoration", "water", "community learning"],
+            beneficiaries: [],
+            geography: { scope: record.place, workCountries: [], applicantCountries: [], exclusions: [] },
+            applicants: {
+              types: ["organisations"],
+              fiscalSponsorship: "unknown",
+              requirements: ["Registered organisations with accounts in this fictional example."],
+              exclusions: [],
+            },
+            award: {
+              currency: null,
+              min: null,
+              max: null,
+              basis: "not_stated",
+              note: record.amount ?? "Not stated",
+            },
+            application: {
+              route: "open",
+              url: "https://example.org",
+              opensOn: null,
+              closesOn: record.closes ?? null,
+              deadlineInstant: null,
+              note: "Fictional application route",
+            },
+            evidence: [{ url: "https://example.org", checkedOn: record.confirmed }],
+            unknowns: ["This is invented content, not a real funder's terms."],
+          },
+        ],
+      },
+    }));
+  return parseBundle(
+    { funds, compiledAt: `${fixture.asOf}T12:00:00Z`, researchCheckedOn: fixture.asOf },
+    { version: 1, rules: [] },
+    { version: 1, conditions: [] },
+  );
+}
+export function teamFixture(view: string | null): TeamAsk[] {
+  if (view === "alone") return [];
+  const orchard = {
+    id: "orchard-circle",
+    name: "Orchard learning circle",
+    reason: "A fictional registered host with four years of accounts.",
+  };
+  const water = {
+    id: "river-maps",
+    name: "River maps collective",
+    reason: "A fictional research group monitoring springs and publishing data.",
+  };
+  return [
+    {
+      id: "host",
+      label: "A registered partner with two years of accounts",
+      candidates: view === "nogap" ? [] : [orchard],
+    },
+    {
+      id: "monitor",
+      label: "A research or monitoring partner",
+      candidates: view === "nogap" ? [] : [orchard, water],
+    },
+    { id: "country", label: "A co-applicant working in another country", candidates: [] },
+  ];
 }

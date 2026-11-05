@@ -448,6 +448,7 @@ Border widths mean something: 1 px divides, 2 px marks selection or emphasis, 3 
 - **Needs and offers** use the same Ask card, with all applicable kinds of support shown alike. Keep, Change and Remove are explicit decisions. Each list has a counter and at most five active cards; overflow stays in the source words and is named. Undo respects the same limit. Finish brings funding, a count-only Share card and the person's checked card together; unavailable feeds keep their counts unknown.
 - **Local assistant choices** explain privacy before asking for a tap. A download needs an exact size, cancellation, resumption and removal. Keyword and manual entry remain usable meanwhile. An unavailable service is shown only as a labelled development example, never as a working production choice.
 - **Empty states** act as a first screen: a short headline, one line of guidance, one action, and no filters.
+- **Funding** keeps thematic fit apart from readiness and research priority. Visitors browse without invented fit. Program source dates, unknowns and eligibility checks remain visible. Team slots show requirements and count distinct asks and selected initiatives; private initiatives see counts only. Example coverage never establishes eligibility or changes the solo rubric.
 
 Names describe structure, not content. `Card`, not NeedCard. Product words live in variants and pages.
 
