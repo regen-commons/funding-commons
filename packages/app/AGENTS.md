@@ -6,10 +6,13 @@ Use the [root guide](../../AGENTS.md) for shared workflow and the
 framework. It is the root directory of the Weave Vercel project. Read the
 [app dialect](../design-system/dialects/app.md) before changing a screen.
 
-Today it is a shell: stub routes for home, the three intake steps, matches, the
-directory and saving, listed in [src/routes.ts](src/routes.ts). Each stub says what
-the page will do and offers one working link. Never show a control that does not
-work yet.
+The route table in [src/routes.ts](src/routes.ts) owns pages and their section cues.
+The frame and list patterns are built; intake and full detail compositions still
+arrive in later steps. Development uses labelled invented fixtures with visitor,
+draft, private and shared scenarios, plus empty, loading, offline, error and long
+states. `import.meta.env.DEV` removes those fixtures and Saved/account examples
+from production; real sign-in and saving need their adapters. A standalone saving
+route has been removed in favour of the planned in-place flow.
 
 ## Structure
 

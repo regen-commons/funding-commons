@@ -6,7 +6,7 @@ type HeadingProps = { level: 1 | 2; size: "hero" | "page" | "section"; id?: stri
 export function Heading({ level, size, id, children }: HeadingProps) {
   const Tag = level === 1 ? "h1" : "h2";
   return (
-    <Tag className="rc-heading" data-size={size} id={id}>
+    <Tag className="rc-heading" data-size={size} id={id} tabIndex={level === 1 ? -1 : undefined}>
       {children}
     </Tag>
   );

@@ -9,7 +9,7 @@ export function Stack({ wide, children }: { wide?: boolean; children: ReactNode 
   );
 }
 
-/** List layout template (`rc-list-layout`): one comfortable list column. */
+/** List layout template (`rc-list-layout`): the available page width. */
 export function ListLayout({ children }: { children: ReactNode }) {
   return <div className="rc-list-layout">{children}</div>;
 }

@@ -2,6 +2,10 @@
 // need nested layouts or data loading; until then this keeps the app dependency-free.
 import { useSyncExternalStore, type AnchorHTMLAttributes, type MouseEvent } from "react";
 
+import { fixtureHref } from "./routes.ts";
+
+import { flushSync } from "react-dom";
+
 const listeners = new Set<() => void>();
 
 function subscribe(listener: () => void): () => void {
@@ -15,19 +19,29 @@ function subscribe(listener: () => void): () => void {
 
 /** The current pathname, kept in step with links and the back button. */
 export function usePathname(): string {
-  return useSyncExternalStore(subscribe, () => window.location.pathname, () => "/");
+  return useSyncExternalStore(
+    subscribe,
+    () => window.location.pathname + window.location.search,
+    () => "/",
+  );
 }
 
 export function navigate(to: string): void {
-  if (to === window.location.pathname) return;
-  window.history.pushState(null, "", to);
-  for (const listener of listeners) listener();
+  if (to === window.location.pathname + window.location.search) return;
+  const update = () => {
+    window.history.pushState(null, "", to);
+    for (const listener of listeners) listener();
+  };
+  if (document.startViewTransition && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.startViewTransition(() => flushSync(update));
+  } else update();
 }
 
 type LinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & { href: string };
 
 /** A plain anchor that changes page without a reload when it points inside the app. */
 export function Link({ href, onClick, ...props }: LinkProps) {
+  href = fixtureHref(href, window.location.search, import.meta.env.DEV);
   function handleClick(event: MouseEvent<HTMLAnchorElement>) {
     onClick?.(event);
     const modified = event.metaKey || event.ctrlKey || event.shiftKey || event.altKey;

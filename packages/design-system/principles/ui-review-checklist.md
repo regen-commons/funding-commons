@@ -6,6 +6,9 @@ Use the [five-minute review](../../../DESIGN.md#how-we-follow-them) for every UI
 
 - [ ] Home's first phone screen has a plain tagline of six to eight words, a start action and search. (K)
 - [ ] Home shows signed-in state, one sign of life and at most one teaser. (K)
+- [ ] Every page has the footer, with a slim row on focused steps.
+- [ ] Partners, Funding and Initiatives are pages, with search, filter menus, removable chips, count and sort on lists.
+- [ ] New pages start at the top with the heading focused; phone heroes stay short.
 - [ ] Every page has a prominent name that matches the label tapped to reach it. (K)
 - [ ] The product name sits top-left and returns home. (K)
 - [ ] The current section, step or tab has at least two cues, and an active tab joins its content. (K)
@@ -31,12 +34,17 @@ Use the [five-minute review](../../../DESIGN.md#how-we-follow-them) for every UI
 - [ ] Labels are merged into values where possible. (R)
 - [ ] Prose runs 45 to 75 characters on wide screens, and 35 to 45 on a 360 px phone. (R)
 - [ ] No text under 12 px, and capitals are three words at most with 0.05 to 0.1em tracking. (R)
+- [ ] No decorative label sits above a heading; factual labels use sentence case.
+- [ ] Card titles reserve two lines, fit and price lines align across a row, and actions sit at the bottom.
+- [ ] Every compact sign has a tooltip usable by pointer, keyboard and screen reader.
 - [ ] Mixed sizes share a baseline, numbers align right, and centred text is three lines at most. (R)
 
 ## Seeing
 
 - [ ] Sizes, gaps, radii, shadows and colours come from tokens, with no raw values or inline styles. (R, A)
 - [ ] The gap inside a group is at most half the gap between groups. (R)
+- [ ] Wide lists use card grids with columns at least 18 rem and equal heights, sharing the logo's left edge.
+- [ ] A field and its paired button use the large control height; flow steps keep a steady height.
 - [ ] At 360 px there is no horizontal scroll, the gutter is 16 px and widths use limits. (R)
 - [ ] Text meets 4.5:1 on its rendered background. Large text and control boundaries meet 3:1. (R, K)
 - [ ] Meaning survives greyscale and colour-blind simulation, with a word, icon or shape alongside colour. (R)

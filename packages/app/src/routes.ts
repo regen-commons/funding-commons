@@ -1,46 +1,90 @@
-/** Every page in the app. Names are stable keys; titles are what people read. */
-export type RouteName = "home" | "initiative" | "needs" | "offers" | "matches" | "directory" | "save";
-
+/** Stable page keys; visible names follow the approved prototype. */
+export type RouteName =
+  | "home"
+  | "initiative"
+  | "needs"
+  | "offers"
+  | "finish"
+  | "partners"
+  | "funding"
+  | "initiatives"
+  | "initiative-detail"
+  | "opportunity"
+  | "settings";
 export interface Route {
   readonly name: RouteName;
   readonly path: string;
-  /** The page's one heading, echoed in the browser tab. */
   readonly title: string;
-  /** Form pages keep only the product name in the header, as the app dialect says. */
   readonly form: boolean;
+  readonly section?: "home" | "partners" | "funding" | "initiatives";
+  readonly id?: string;
 }
-
 export const ROUTES: readonly Route[] = [
-  { name: "home", path: "/", title: "Find partners and funding for regenerative work", form: false },
+  {
+    name: "home",
+    path: "/",
+    title: "Find partners and funding for regenerative work",
+    form: false,
+    section: "home",
+  },
   { name: "initiative", path: "/start/initiative", title: "Tell us about your initiative", form: true },
   { name: "needs", path: "/start/needs", title: "What does your initiative need?", form: true },
   { name: "offers", path: "/start/offers", title: "What can your initiative offer?", form: true },
-  { name: "matches", path: "/matches", title: "Partners for you", form: false },
-  { name: "directory", path: "/directory", title: "Funding directory", form: false },
-  { name: "save", path: "/save", title: "Keep your initiative", form: true },
+  { name: "finish", path: "/start/finish", title: "Your initiative", form: true },
+  { name: "partners", path: "/partners", title: "Partners", form: false, section: "partners" },
+  { name: "funding", path: "/funding", title: "Funding", form: false, section: "funding" },
+  { name: "initiatives", path: "/initiatives", title: "Initiatives", form: false, section: "initiatives" },
+  {
+    name: "initiative-detail",
+    path: "/initiatives/:id",
+    title: "Initiative",
+    form: false,
+    section: "initiatives",
+  },
+  { name: "opportunity", path: "/funding/:id", title: "Opportunity", form: false, section: "funding" },
+  { name: "settings", path: "/settings", title: "Settings", form: false },
 ];
-
-/** The three steps of the intake conversation, in order (PRD 6.2). */
 export const INTAKE_STEPS = [
   { route: "initiative", label: "Initiative" },
   { route: "needs", label: "Needs" },
   { route: "offers", label: "Offers" },
 ] as const satisfies readonly { route: RouteName; label: string }[];
-
-/** The route for a pathname, ignoring a trailing slash, or undefined when none matches. */
 export function matchRoute(pathname: string): Route | undefined {
   const path = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
-  return ROUTES.find((route) => route.path === path);
+  const alias = path === "/matches" ? "/partners" : path === "/directory" ? "/funding" : path;
+  for (const route of ROUTES) {
+    if (!route.path.includes(":id")) {
+      if (route.path === alias) return route;
+      continue;
+    }
+    const prefix = route.path.slice(0, -3);
+    if (alias.startsWith(prefix)) {
+      const id = alias.slice(prefix.length);
+      if (/^[a-z0-9-]+$/.test(id)) return { ...route, id };
+    }
+  }
+  return undefined;
 }
-
 export function pathTo(name: RouteName): string {
   const route = ROUTES.find((candidate) => candidate.name === name);
-  if (!route) throw new Error(`No route named ${name}`);
+  if (!route || route.path.includes(":id")) throw new Error(`Route ${name} needs a valid destination`);
   return route.path;
 }
-
-/** The browser tab title for a page; home carries the product name alone. */
+export function recordPath(kind: "initiative" | "funding", id: string): string {
+  if (!/^[a-z0-9-]+$/.test(id)) throw new Error("Record identifiers must be slugs");
+  return `/${kind === "initiative" ? "initiatives" : "funding"}/${id}`;
+}
 export function documentTitle(route: Route | undefined): string {
-  if (!route) return "Page not found | Weave";
-  return route.name === "home" ? "Weave" : `${route.title} | Weave`;
+  return !route ? "Page not found | Weave" : route.name === "home" ? "Weave" : `${route.title} | Weave`;
+}
+/** Keep development scenarios while following internal links; never add them to external links. */
+export function fixtureHref(href: string, search: string, enabled: boolean): string {
+  if (!enabled || !href.startsWith("/") || href.startsWith("//")) return href;
+  const url = new URL(href, "https://weave.example.org");
+  const source = new URLSearchParams(search);
+  for (const key of ["fixture", "state"]) {
+    const value = source.get(key);
+    if (value && !url.searchParams.has(key)) url.searchParams.set(key, value);
+  }
+  return `${url.pathname}${url.search}${url.hash}`;
 }

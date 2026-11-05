@@ -1,0 +1,23 @@
+import assert from "node:assert/strict";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
+import { test } from "node:test";
+import { fileURLToPath } from "node:url";
+
+const assets = fileURLToPath(new URL("../dist/assets/", import.meta.url));
+test("production bundles exclude the development fixture records and controls", (context) => {
+  if (!existsSync(assets)) {
+    context.skip("Build @weave/app first; CI builds before running this check.");
+    return;
+  }
+  const scripts = readdirSync(assets).filter((path) => path.endsWith(".js"));
+  assert.ok(scripts.length > 0, "Expected built JavaScript");
+  const bundle = scripts.map((path) => readFileSync(`${assets}/${path}`, "utf8")).join("\n");
+  for (const fixtureOnly of [
+    "Orchard learning circle",
+    "Willow tools cooperative",
+    "example-scenario",
+    "EXAMPLE_SUBJECT",
+  ]) {
+    assert.ok(!bundle.includes(fixtureOnly), `${fixtureOnly} leaked into the production bundle`);
+  }
+});

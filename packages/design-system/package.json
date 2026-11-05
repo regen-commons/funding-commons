@@ -9,7 +9,11 @@
     "./tokens.css": "./tokens/tokens.generated.css",
     "./tokens.json": "./tokens/tokens.generated.json",
     "./fonts.css": "./fonts/fonts.css",
-    "./brand/*": "./brand/*"
+    "./brand/*": "./brand/*",
+    "./overlays": {
+      "types": "./behaviors/overlays.d.ts",
+      "default": "./behaviors/overlays.js"
+    }
   },
   "scripts": {
     "tokens": "node scripts/generate-tokens.mjs",
