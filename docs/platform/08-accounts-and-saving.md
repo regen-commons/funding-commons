@@ -1,6 +1,6 @@
 # Saving initiatives and accounts
 
-Status: proposed full flow; private connection prepared for review · Updated: 5 November 2026
+Status: proposed full flow; private account connection live · Updated: 5 November 2026
 Companion documents: [PRD](04-prd.md) · [technical spec](05-technical-spec.md) · [DESIGN.md](../../DESIGN.md) · [example pages](../../packages/design-system/patterns/pages/finish.html)
 
 This Step 0 revision places [prototype decisions 17 to 20 and 24](prototype/review-decisions.md#saving-sharing-and-partners), with the small-task presentation from decision 23. Two ways to be on Weave, partners for shared initiatives and one email door remain council proposals in [D26 to D28](open-decisions.md#for-the-council), recorded as proposed in [DL-019 to DL-021](../../packages/design-system/decision-log.md#dl-019-partners-are-for-shared-initiatives). The technical specification and example pages still describe parts of the earlier flow; their follow-up changes are tracked in the review decisions. No schema, sign-in service or email has changed.
@@ -10,8 +10,8 @@ People should give an email because it does something for them, not because a wa
 ## Private account connection
 
 The November 5 implementation connects a narrow private-saving flow to the existing
-Regen Commons Website Supabase project (`ztygpuzldujfsqrubxic`). It is prepared in
-review PRs and is disabled until release approval. The rest of this document remains
+Regen Commons Website Supabase project (`ztygpuzldujfsqrubxic`). It is live at
+[Weave](https://weave.regencommons.com) after authorized release. The rest of this document remains
 the proposed full flow. This slice brings account saving forward from interface
 Step 7; it does not require finishing the remaining fixture screens first.
 
@@ -40,7 +40,7 @@ Step 7; it does not require finishing the remaining fixture screens first.
   website PR proposes generic sign-in template wording that works for both apps;
   it does not install the planned email hook or send a first-save email.
 
-Server-only variables for the **Weave Vercel project**, after approval:
+Server-only variables configured for the **Weave Vercel project**, production only:
 
 | Variable | Value |
 |---|---|
@@ -49,19 +49,25 @@ Server-only variables for the **Weave Vercel project**, after approval:
 | `WEAVE_SUPABASE_PUBLISHABLE_KEY` | The project's publishable key, held in server settings |
 | `WEAVE_OTP_DIGITS` | `8`, matching the existing shared Auth setting |
 
-The website repository owns `20261105082413_weave_private_accounts.sql` and the
-[release instructions](https://github.com/regen-commons/regen-commons-site/blob/main/docs/weave-accounts.md).
-Review migration and app PRs together, obtain an independent second Auth/RLS review,
-then request approval for hosted migration, Data API schema exposure, shared email
-template, environment configuration and deployment. Do not expose `private`, use a
-service-role key or change existing website settings as a side effect. Disabling the
+The website repository owns `20261105082413_weave_private_accounts.sql`. The exact
+migration is applied and recorded in hosted migration history. Its
+[PR #12](https://github.com/regen-commons/website/pull/12) still needs approval from
+someone other than its last pusher before GitHub will allow a merge. The independent
+technical Auth/RLS review found no release blockers; it does not replace that
+repository approval. Do not reapply or rename the migration. `weave` is exposed
+through the Data API; `private` remains unexposed. No service-role key is used.
+Disabling the
 app flag stops its account route; removing `weave` from exposed schemas also stops
 direct Data API access. Preserve stored rows during rollback.
 
-Local proof uses synthetic account HTTP responses and disposable PostgreSQL 17
-with Auth stubs. Hosted email delivery, Data API exposure, a second-browser hosted
-reload and the existing steward's sign-in still require authorized live proof.
-Supabase's current Auth docs were checked; the changelog endpoint returned HTTP 403.
+[Production proof](prototype/proof/accounts/README.md#production-verification)
+covers live code sign-in, private save, second-browser load and reload, backup
+recovery, session-scoped sign-out and cross-account denial. Resend's reserved test
+recipients simulated delivery; no personal inbox or existing steward account was
+accessed. Both shared Auth templates now use the reviewed generic code wording.
+The existing SMTP credentials, eight-digit codes and one-hour expiry were preserved.
+Personal inbox delivery and the steward's own sign-in remain unverified. Local HTTP
+and disposable PostgreSQL 17 proof cover the remaining failure boundaries.
 
 ## The decision
 

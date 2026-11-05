@@ -1,8 +1,64 @@
 # Private account connection proof
 
-November 5, 2026. **Fixture** rendering and HTTP proof, with separate disposable
-PostgreSQL 17 policy proof. No hosted sign-in code, private member record or live
-Supabase write was used.
+November 5, 2026. Production verification below is separate from the earlier
+fixture rendering, HTTP and disposable PostgreSQL 17 policy proof.
+
+## Production verification
+
+[Weave](https://weave.regencommons.com) serves commit
+`d697c3784fb22f7e1c8ae8a7b5973b841f3fb377` from production deployment
+`dpl_BKhVUhr5w519YtkoKBbYkKVpY1c9`. `/api/health` reports that commit;
+`/api/account` reports accounts available, eight-digit OTPs and `fixture: false`.
+App PRs [#27](https://github.com/regen-commons/funding-commons/pull/27) and
+[#28](https://github.com/regen-commons/funding-commons/pull/28) are merged with
+all four GitHub Actions passing. Full local CI passes 309 tests, including with
+synthetic enabled release settings. No dependency or lockfile changed.
+
+**Production, Brave 156 and ChatGPT in-app browser:**
+
+- Requested and verified real Supabase codes through the deployed UI and existing
+  Resend SMTP. A wrong code was rejected while preserving the input. Both new-user
+  and returning-user code emails use the reviewed generic template.
+- Used Resend's documented reserved test recipients, which simulate delivery.
+  This proves the live Auth/SMTP/code path, not delivery to a person's inbox. No
+  personal mailbox or existing steward account was accessed.
+- Created a clearly synthetic checked initiative with one Material need and one
+  Experiential offer. Explicit Save produced revision 1 and private visibility.
+  A targeted database read confirmed one need, one offer and no source turns.
+- Signed in from the independent in-app browser. The saved-card list appeared
+  before any choice to save its existing local draft. Loading required confirmation
+  and backed up that draft. Finish showed the saved initiative, need and offer.
+  A full page reload preserved the session and saved state.
+- Restored the earlier local draft through Device backups. The loaded server copy
+  was backed up first. Signing out preserved both drafts; the first browser session
+  remained signed in.
+- Signed in to a second reserved test account. Its saved-card list was empty.
+  Direct loading of the first account's initiative returned `not_found`.
+- Checked 360 × 800 and 1280 × 900 in light and dark themes. Keyboard focus remains
+  visible, labels match controls, and the saved status and private-save choice
+  are readable. Captured local screenshots of Settings and Finish contain only
+  synthetic records and reserved test addresses. Temporary viewport and appearance
+  overrides were reset, and the earlier device draft was restored.
+
+The hosted migration is version `20261105082413`, applied through the website's
+authenticated CLI lane after a private schema-only backup. RLS is enabled on all
+new tables. The four exposed RPCs are invokers, denied to anon and granted to
+authenticated users. A publishable-key request without a session was denied.
+Data API exposure includes `weave` and excludes `private`.
+
+[Website PR #12](https://github.com/regen-commons/website/pull/12) remains unmerged:
+GitHub requires approval from someone other than the last pusher. That rule was
+preserved. The exact migration is already live and must not be renamed or reapplied.
+Synthetic private test records remain for repeatable verification.
+
+Live stale-revision, quota and revoked-session browser tests were not performed;
+the disposable SQL and automated API tests below cover them. Personal delivery and
+the existing steward's sign-in remain for their owner to verify. Sharing, reminders,
+editors, account export/deletion and automatic refresh are outside this release.
+
+## Earlier fixture verification
+
+The following checks used no hosted code, private member record or live write.
 
 ## Rendered checks
 
@@ -56,7 +112,5 @@ reads, unconfirmed/expired/revoked sessions, direct-write denial, complete save/
 idempotent receipts, stale revisions, validation, private-only visibility and
 30 acknowledged saves per account per hour with free retries.
 
-This is not hosted Auth, SMTP, PostgREST or deployed route proof. The migration and
-app PRs require independent Auth/RLS review and approved hosted configuration
-before real sign-in can be verified. Account export/deletion, sharing, reminders,
-editors and automatic refresh are outside this private connection.
+These fixture and SQL checks do not themselves prove hosted services. Production
+verification is recorded separately above.
