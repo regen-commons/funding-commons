@@ -1,21 +1,20 @@
 import { z } from "zod";
 
-export const MAX_FILE_BYTES = 25 * 1024 * 1024;
+import { TurnSchema, AttachmentSchema, FileReadSchema, LinkSchema, type Turn } from "./source-contracts.ts";
+export {
+  MAX_FILE_BYTES,
+  TurnSchema,
+  AttachmentSchema,
+  FileReadSchema,
+  LinkSchema,
+  type Turn,
+  type Attachment,
+} from "./source-contracts.ts";
+import { AskStepSchema, emptyAskStep } from "../intake/contracts.ts";
 export const StageSchema = z.enum(["seed", "sprout", "flowering", "tree"]);
 export const LensSchema = z.enum(["art_culture", "research", "technology", "place_based", "funders"]);
 export const DerivedKeySchema = z.enum(["stage", "lenses", "themes", "beneficiaries", "languages"]);
 export type DerivedKey = z.infer<typeof DerivedKeySchema>;
-export const LinkSchema = z
-  .string()
-  .max(2048)
-  .refine((value) => {
-    try {
-      const url = new URL(value);
-      return ["https:", "http:"].includes(url.protocol) && !url.username && !url.password;
-    } catch {
-      return false;
-    }
-  }, "Use a complete http or https link without a password.");
 export const SuggestionSchema = z.strictObject({
   name: z.string().max(200),
   locations: z.array(z.string().min(1).max(120)).max(8),
@@ -74,24 +73,9 @@ export const DerivedEditsSchema = SuggestionSchema.pick({
   beneficiaries: true,
   languages: true,
 }).partial();
-export const TurnSchema = z.strictObject({
-  id: z.string().uuid(),
-  prompt: z.string().max(300),
-  text: z.string().min(1).max(20000),
-  via: z.enum(["typed", "voice"]),
-});
-export const AttachmentSchema = z
-  .strictObject({
-    id: z.string().uuid(),
-    name: z.string().max(255),
-    type: z.string().max(255),
-    bytes: z.number().int().min(0).max(MAX_FILE_BYTES),
-    blob: z.instanceof(Blob),
-  })
-  .refine((file) => file.blob.size === file.bytes, "The stored file size does not match its bytes.");
 export const RunSchema = z.strictObject({
   id: z.string().uuid(),
-  step: z.literal("initiative"),
+  step: z.enum(["initiative", "needs", "offers"]),
   engine: z.enum(["keywords", "browser", "fixture"]),
   model: z.string().max(80),
   at: z.string().datetime(),
@@ -108,12 +92,6 @@ export const RecordFormSchema = z.strictObject({
   links: z.string().max(14000),
 });
 export type RecordForm = z.infer<typeof RecordFormSchema>;
-export const FileReadSchema = z.strictObject({
-  id: z.string().uuid(),
-  pages: z.number().int().min(0),
-  unreadPages: z.number().int().min(0),
-  status: z.enum(["read", "partial", "unread"]),
-});
 export const ReviewEditorSchema = z.strictObject({
   value: z.string().max(20000),
   lenses: z.array(LensSchema).max(5),
@@ -154,10 +132,10 @@ export const DeviceDraftSchema = z.strictObject({
   form: RecordFormSchema.nullable(),
   runs: z.array(RunSchema),
   mode: z.enum(["conversation", "fields"]),
+  needs: AskStepSchema.default(emptyAskStep),
+  offers: AskStepSchema.default(emptyAskStep),
 });
 export type DeviceDraft = z.infer<typeof DeviceDraftSchema>;
-export type Turn = z.infer<typeof TurnSchema>;
-export type Attachment = z.infer<typeof AttachmentSchema>;
 
 export const QUESTIONS = [
   "What is your initiative called, and what do you do?",
@@ -196,6 +174,8 @@ export function newDraft(): DeviceDraft {
     form: null,
     runs: [],
     mode: "conversation",
+    needs: emptyAskStep(),
+    offers: emptyAskStep(),
   };
 }
 export function revise(draft: DeviceDraft, change: Partial<DeviceDraft>, input = false): DeviceDraft {
@@ -252,8 +232,8 @@ export function confirmDraft(draft: DeviceDraft): DeviceDraft {
   if (pending.length) throw new Error("Keep, change or remove each detail in pencil before continuing.");
   return revise(draft, { confirmed: fields });
 }
-export function modelConstraint(): Record<string, unknown> {
-  const schema: Record<string, unknown> = z.toJSONSchema(SuggestionSchema);
+export function modelConstraint(contract: z.ZodType = SuggestionSchema): Record<string, unknown> {
+  const schema: Record<string, unknown> = z.toJSONSchema(contract);
   const removeLengths = (value: unknown): void => {
     if (value && typeof value === "object") {
       delete (value as Record<string, unknown>).maxLength;

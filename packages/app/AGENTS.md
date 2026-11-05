@@ -7,10 +7,11 @@ framework. It is the root directory of the Weave Vercel project. Read the
 [app dialect](../design-system/dialects/app.md) before changing a screen.
 
 The route table in [src/routes.ts](src/routes.ts) owns pages and their section cues.
-Home, frame, lists, Describe and Check your card are built. Needs, offers, full
+Home, frame, lists and the three-step intake through Finish are built. Full
 details and account flows follow in later steps. Development fixtures require an
 explicit `?fixture=draft` (or visitor, private, shared); `view` selects Describe
-states. Without that parameter, development uses the real device draft too.
+states; `intake` selects Needs, Offers and Finish examples. Without that parameter,
+development uses the real device draft too.
 `import.meta.env.DEV` removes invented records and service simulations from
 production. Account saving still needs its adapter.
 
@@ -23,6 +24,7 @@ production. Account saving still needs its adapter.
 | `src/ui/` | Thin components, one per design-system pattern, named by structure |
 | `src/pages/` | Pages composed from `src/ui` |
 | `src/describe/` | Validated device draft, IndexedDB writer and local extraction adapters |
+| `src/intake/` | Need/offer contracts, review rules, local extraction and checked-card text |
 | `api/` | One-line Vercel entry files that re-export `@weave/api` handlers |
 | `dev/` | The dev server's `/api` bridge, which answers the way Vercel does |
 | `public/brand/` | Copied from the design system by `scripts/copy-brand.mjs`; ignored by Git |
@@ -44,6 +46,10 @@ production. Account saving still needs its adapter.
 - Keep raw unfinished answers, links and review edits in the device draft. Compare
   stored revisions before writing; preserve both tabs' words on a conflict. Storage
   failure must offer text recovery and must not claim the latest changes are saved.
+- Needs and offers share the five-card rule and all eight kinds. Keep and manual
+  correction freeze a card; rebuilding preserves those choices and removed source
+  chunks. Empty steps may continue; unfinished or unreviewed steps may not. Keep
+  the old Describe draft readable when extending its schema.
 - Local speech and the browser model require an already available capability and
   a tap. Downloaded models and cloud calls stay behind their unavailable adapters
   until D32 and D35 are approved. PDF text runs in a same-origin Worker; unread

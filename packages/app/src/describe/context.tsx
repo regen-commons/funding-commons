@@ -1,6 +1,6 @@
 import { useEffect, useMemo, type ReactNode } from "react";
 import type { FixtureContext } from "../fixtures.ts";
-import { describeFixture } from "../fixtures.ts";
+import { describeFixture, intakeFixture } from "../fixtures.ts";
 import { DraftController } from "./controller.ts";
 import { MemoryDraftRepository } from "./repository.ts";
 import { IndexedDraftRepository } from "./indexed-repository.ts";
@@ -9,9 +9,13 @@ import { DraftContext } from "./draft-context.ts";
 export function DraftProvider({ fixture, children }: { fixture?: FixtureContext; children: ReactNode }) {
   const controller = useMemo(() => {
     if (import.meta.env.DEV && fixture) {
-      const memory = new MemoryDraftRepository(describeFixture(fixture.describe));
+      const memory = new MemoryDraftRepository(
+        fixture.intake === "off"
+          ? describeFixture(fixture.describe)
+          : intakeFixture(fixture.intake, window.location.pathname),
+      );
       return new DraftController(
-        fixture.describe === "storage-error"
+        fixture.describe === "storage-error" || fixture.intake === "storage-error"
           ? {
               load: () => memory.load(),
               save: async () => {
@@ -22,7 +26,7 @@ export function DraftProvider({ fixture, children }: { fixture?: FixtureContext;
       );
     }
     return device;
-  }, [fixture?.describe, !!fixture]);
+  }, [fixture?.describe, fixture?.intake, !!fixture]);
   useEffect(() => {
     void controller.initialize();
   }, [controller]);

@@ -20,6 +20,9 @@ test("production bundles exclude the development fixture records and controls", 
     "download-example",
     "Cloud consent simulation",
     "describe-example",
+    "intake-example",
+    "Fictional matching example",
+    "Step 4 examples seed",
   ]) {
     assert.ok(!bundle.includes(fixtureOnly), `${fixtureOnly} leaked into the production bundle`);
   }

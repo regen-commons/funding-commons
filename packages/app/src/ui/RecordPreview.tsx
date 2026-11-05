@@ -1,9 +1,18 @@
+import type { ReactNode } from "react";
 import type { Initiative } from "../describe/contracts.ts";
 import { LENS_LABELS } from "../describe/contracts.ts";
 import { WorkTag } from "./WorkTag.tsx";
 import { STAGE_LABELS } from "../listing.ts";
 /** Card preview: it fills in while the person talks; it is not an account or public record. */
-export function RecordPreview({ fields, confirmed }: { fields: Initiative; confirmed: boolean }) {
+export function RecordPreview({
+  fields,
+  confirmed,
+  children,
+}: {
+  fields: Initiative;
+  confirmed: boolean;
+  children?: ReactNode;
+}) {
   return (
     <article
       className="rc-card rc-draft-preview"
@@ -25,6 +34,7 @@ export function RecordPreview({ fields, confirmed }: { fields: Initiative; confi
           ))}
         </ul>
       )}
+      {children}
       <p className="rc-draft-status">
         {confirmed
           ? "Card checked. Still on this device only."

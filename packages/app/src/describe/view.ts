@@ -5,6 +5,7 @@ import {
   type DeviceDraft,
   type Initiative,
 } from "./contracts.ts";
+import { stepHasWords, stepText } from "../intake/state.ts";
 import { keywordSuggestion } from "./keywords.ts";
 export function previewFields(draft: DeviceDraft): Initiative {
   if (draft.mode === "fields") return applyReview(draft, { ...EMPTY_INITIATIVE, ...draft.publicEdits });
@@ -16,6 +17,8 @@ export function previewFields(draft: DeviceDraft): Initiative {
 }
 export function hasDraft(draft: DeviceDraft): boolean {
   return !!(
+    stepHasWords(draft.needs) ||
+    stepHasWords(draft.offers) ||
     draft.turns.length ||
     draft.composer ||
     draft.pendingLink ||
@@ -27,6 +30,8 @@ export function hasDraft(draft: DeviceDraft): boolean {
 }
 export function draftText(draft: DeviceDraft): string {
   return [
+    stepText(draft.needs),
+    stepText(draft.offers),
     ...draft.turns.map((turn) => `${turn.prompt}\n${turn.text}`),
     draft.composer,
     draft.pendingLink,

@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { INTAKE_STEPS } from "../routes.ts";
 export type Information = "storage" | "assistant" | "policy";
 const CONTENT: Record<Information, { title: string; body: string }> = {
   storage: {
@@ -54,6 +55,7 @@ export function InformationDialog({
               {runs.map((run) => (
                 <div key={run.id}>
                   <dt>
+                    {INTAKE_STEPS.find((step) => step.route === run.step)!.label}:{" "}
                     {run.engine === "fixture" ? "Example" : "On this device"}, {run.model}
                   </dt>
                   <dd>

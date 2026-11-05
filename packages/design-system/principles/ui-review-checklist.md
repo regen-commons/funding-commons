@@ -63,6 +63,9 @@ Use the [five-minute review](../../../DESIGN.md#how-we-follow-them) for every UI
 - [ ] With models off, the core task still completes. Anything derived appears in pencil until confirmed. (A)
 - [ ] Describe offers local speech when available, typing and attachments throughout, then Build my card and the four public fields in review. No extra structured fields are required.
 - [ ] Keep, Change, Remove and Undo work. Confirmed corrections survive rebuilds; open corrections block continuing. Source changes mark an older card stale.
+- [ ] Needs and offers show a count out of five and every applicable kind alike. Overflow is explicit; removal frees a slot and Undo cannot exceed five. Empty steps can continue.
+- [ ] Manual entry retains earlier words and unfinished fields without running extraction. Finish requires checked steps and copies only the kept card data.
+- [ ] Finish shows no partner names to a private initiative, invents no live counts and offers no unconnected email or sharing controls.
 - [ ] Errors say what happened, keep what was typed and offer a next step. (K)
 
 ## Trust and saving

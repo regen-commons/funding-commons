@@ -79,6 +79,12 @@ The tests check that generated files are current, the linter is clean, website v
 
 ## Changelog
 
+### Unreleased, Step 4
+
+- Added Ask card and Ask list patterns for needs and offers, with an editor, a five-card counter, equal treatment of all eight kinds, overflow, removal and Undo. Added the Share card as a candidate and Needs, Offers and Intake finish examples.
+- Expanded Card preview with checked needs and offers. Conversation, Voice input and Section now have multiple static example uses and are stable; the existing Describe and review uses remain supported.
+- Finish keeps live feeds unknown while showing labelled matching examples in development. Device drafts retain separate steps, unfinished edits, source files and confirmed corrections. No tokens changed.
+
 ### Unreleased, Step 3
 
 - Added candidate Conversation, Attachment list and Voice input patterns, with editable words, local file references and a large speech action. Added Describe and Check your card examples.
