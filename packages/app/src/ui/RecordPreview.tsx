@@ -37,7 +37,7 @@ export function RecordPreview({
       {children}
       <p className="rc-draft-status">
         {confirmed
-          ? "Card checked. Still on this device only."
+          ? "Card checked. Source words and files stay on this device."
           : "Draft in this browser. It has not been shared."}
       </p>
     </article>

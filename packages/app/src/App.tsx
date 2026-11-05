@@ -1,3 +1,5 @@
+import { AccountProvider, useAccount } from "./account/context.tsx";
+import { accountKey } from "./account/document.ts";
 import { useEffect, useRef } from "react";
 import { readFixtures, EXAMPLE_SUBJECT, type FixtureContext } from "./fixtures.ts";
 import { DraftProvider } from "./describe/context.tsx";
@@ -78,12 +80,20 @@ export function App() {
       : undefined;
   return (
     <DraftProvider fixture={fixture}>
-      <AppFrame key="frame" location={location} fixture={fixture} />
+      <AccountProvider fixture={!!fixture}>
+        <AppFrame key="frame" location={location} fixture={fixture} />
+      </AccountProvider>
     </DraftProvider>
   );
 }
 function AppFrame({ location, fixture }: { location: string; fixture?: FixtureContext }) {
   const device = useDraft();
+  const account = useAccount();
+  const saved = device.draft.account.saved;
+  const accountSaved =
+    !!account.state?.user &&
+    saved?.owner === account.state.user.id &&
+    saved.contentKey === accountKey(device.draft);
   const pathname = new URL(location, window.location.origin).pathname;
   const route = matchRoute(pathname);
   const shownPath = useRef(location);
@@ -99,8 +109,9 @@ function AppFrame({ location, fixture }: { location: string; fixture?: FixtureCo
     window.scrollTo(0, 0);
     document.querySelector<HTMLElement>("main h1")?.focus({ preventScroll: true });
   }, [location, route?.name, record?.title]);
-  const status =
-    fixture && !["initiative", "check-card", "needs", "offers", "finish"].includes(route?.name ?? "")
+  const status = accountSaved
+    ? "account"
+    : fixture && !["initiative", "check-card", "needs", "offers", "finish"].includes(route?.name ?? "")
       ? fixture?.scenario === "private" || fixture?.scenario === "shared"
         ? "account"
         : fixture?.scenario === "draft"

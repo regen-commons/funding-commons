@@ -4,7 +4,7 @@ export type Information = "storage" | "assistant" | "policy";
 const CONTENT: Record<Information, { title: string; body: string }> = {
   storage: {
     title: "What we store",
-    body: "Your conversation, files, links, card and preferences stay in this browser. No initiative data is shared by Weave. You can edit your words here or clear this site’s browser storage. Account saving and sharing will ask you first when they become available.",
+    body: "Your conversations, files, unfinished edits and assistant records stay in this browser. If you choose Save in your account, Weave sends your checked card, needs, offers and kept funding details to Regen Commons’ database as a private copy. Loading a saved card first backs up the current draft in this browser. Signing out keeps these device copies. You can clear them through this site’s browser storage.",
   },
   assistant: {
     title: "What the assistant did",
@@ -12,7 +12,7 @@ const CONTENT: Record<Information, { title: string; body: string }> = {
   },
   policy: {
     title: "Data policy",
-    body: "Weave's full data policy will be available before saving or sharing opens. This version sends no initiative data. Drafts and preferences stay on this device only.",
+    body: "Signing in sends your email and sign-in code to Regen Commons’ account service. Saving sends only your checked card, needs, offers and kept funding details. Account copies are private to you in the product; database administrators can technically access them. They are not public profiles or membership applications. Conversations, files and unfinished edits remain on this device. Sign-out ends your session and keeps device copies. Contact Regen Commons for account-copy deletion while self-service deletion is being built.",
   },
 };
 /** Minimal information destinations for the frame. Full data records arrive in Step 8. */

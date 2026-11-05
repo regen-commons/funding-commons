@@ -101,6 +101,34 @@ export class DraftController {
       this.writing = undefined;
     });
   }
+  backups() {
+    return this.repository.backups?.() ?? Promise.resolve([]);
+  }
+  async replace(next: DeviceDraft): Promise<void> {
+    const previous = this.snapshot.draft;
+    await this.settled();
+    if (!this.writable || this.dirty || this.snapshot.draft !== previous || !this.repository.replace)
+      throw new Error(
+        "The device draft changed or could not be backed up. Keep this tab open and try again.",
+      );
+    const validated = DeviceDraftSchema.parse({
+      ...next,
+      revision: previous.revision + 1,
+      updatedAt: new Date().toISOString(),
+    });
+    await this.repository.replace(validated, this.expected);
+    // Another edit during the transaction remains visible and will conflict safely on its next write.
+    if (this.snapshot.draft !== previous) {
+      this.writable = false;
+      this.publish({
+        storage: "conflict",
+        error: "Your latest words are still in this tab. A device backup was kept before loading.",
+      });
+      throw new DraftConflict();
+    }
+    this.expected = validated.revision;
+    this.publish({ draft: validated, storage: "saved", error: null });
+  }
   async settled(): Promise<void> {
     await this.writing;
   }

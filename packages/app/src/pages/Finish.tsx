@@ -153,7 +153,9 @@ export function Finish({ fixture }: { fixture?: FixtureContext }) {
               ) : undefined
             }
           >
-            {!examples ? <FirstFunding /> : loading ? (
+            {!examples ? (
+              <FirstFunding />
+            ) : loading ? (
               <>
                 <p className="rc-guide-status" role="status">
                   Example: comparing your card with funding
@@ -214,10 +216,13 @@ export function Finish({ fixture }: { fixture?: FixtureContext }) {
             ) : (
               <ShareCard count={examples ? (empty ? 0 : 3) : null}>
                 <p className="rc-meta">
-                  Account saving and sharing are not connected in this version. Your card remains on this
-                  device.
+                  Your card stays private. You can save a checked copy through your account. Partner sharing
+                  is not available yet.
                 </p>
                 <div className="rc-action-bar">
+                  <ButtonLink href={pathTo("settings")} variant="primary">
+                    Save or load your card
+                  </ButtonLink>
                   <ButtonLink href={pathTo("partners")} variant="secondary">
                     Explore Partners
                   </ButtonLink>

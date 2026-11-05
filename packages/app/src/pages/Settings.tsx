@@ -1,3 +1,4 @@
+import { AccountSection } from "../account/AccountSection.tsx";
 import { useState } from "react";
 import { applyTheme, readTheme, type Theme } from "../theme.ts";
 import { Heading } from "../ui/Heading.tsx";
@@ -9,6 +10,7 @@ export function Settings() {
       <Heading level={1} size="page">
         Settings
       </Heading>
+      <AccountSection />
       <section className="rc-field">
         <label htmlFor="appearance">Appearance</label>
         <select

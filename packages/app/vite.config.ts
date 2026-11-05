@@ -2,7 +2,13 @@ import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import tokens from "@regen-commons/design-system/tokens.json" with { type: "json" };
 import react from "@vitejs/plugin-react";
-import { type Connect, defaultServerConditions, defineConfig, type Plugin } from "vite";
+import {
+  type Connect,
+  defaultClientConditions,
+  defaultServerConditions,
+  defineConfig,
+  type Plugin,
+} from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 import { previewSecurityHeaders } from "./dev/security-headers.ts";
 import { answerApiRequest, type LoadEntry } from "./dev/api-bridge.ts";
@@ -28,7 +34,11 @@ function apiRoutes(): Plugin {
     configureServer(server) {
       server.middlewares.use(
         "/api",
-        serve(join(server.config.root, "api"), (name) => server.ssrLoadModule(`/api/${name}.ts`)),
+        serve(join(server.config.root, "api"), async (name) => {
+          if (name === "account" && process.env.WEAVE_ACCOUNT_FIXTURE === "1")
+            return (await server.ssrLoadModule("/dev/account-fixture.ts")).accountFixture;
+          return server.ssrLoadModule(`/api/${name}.ts`);
+        }),
       );
     },
     configurePreviewServer(server) {
@@ -42,6 +52,7 @@ function apiRoutes(): Plugin {
 }
 
 export default defineConfig({
+  resolve: { conditions: ["source", ...defaultClientConditions] },
   preview: { headers: previewSecurityHeaders() },
   plugins: [
     react(),

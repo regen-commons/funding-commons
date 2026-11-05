@@ -5,6 +5,8 @@
   "type": "module",
   "description": "Weave's server functions. Each handler is deployed through a one-line entry in packages/app/api.",
   "exports": {
+    "./account": { "types": "./src/account.ts", "source": "./src/account.ts", "default": "./dist/account.js" },
+    "./account-contract": { "types": "./src/account-contract.ts", "source": "./src/account-contract.ts", "default": "./dist/account-contract.js" },
     "./health": {
       "types": "./src/health.ts",
       "source": "./src/health.ts",

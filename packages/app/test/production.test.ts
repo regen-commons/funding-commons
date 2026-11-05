@@ -13,6 +13,9 @@ test("production bundles exclude the development fixture records and controls", 
   assert.ok(scripts.length > 0, "Expected built JavaScript");
   const bundle = scripts.map((path) => readFileSync(`${assets}/${path}`, "utf8")).join("\n");
   for (const fixtureOnly of [
+    "example@weave.test",
+    "weave_fixture_account",
+    "Local account example",
     "Orchard learning circle",
     "Willow tools cooperative",
     "example-scenario",
