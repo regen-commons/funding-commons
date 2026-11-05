@@ -54,6 +54,7 @@ test("forms of capital and icons match what the design system defines", () => {
   for (const capital of CAPITALS) {
     assert.ok(css.includes(`[data-capital="${capital.key}"]`), `the design system has no colour for ${capital.key}`);
     assert.ok(voice.includes(`| ${capital.label} |`), `VOICE.md has no plain name "${capital.label}"`);
+    assert.ok(voice.includes(`| ${capital.title} |`), `VOICE.md has no framework title "${capital.title}"`);
   }
   const sprite = new Set([...read(join(SYSTEM, "brand/icons.svg")).matchAll(/<symbol id="([^"]+)"/g)].map((match) => match[1]));
   const used = markup.flatMap((path) => [...read(path).matchAll(/icons\.svg#([\w-]+)/g)].map((match) => match[1]));

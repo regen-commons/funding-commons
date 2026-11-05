@@ -351,6 +351,7 @@
     "form-width": "28rem",
     "prose-width": "36rem",
     "card-min-width": "18rem",
+    "tile-card-min-width": "15rem",
     "list-width": "40rem",
     "page-width": "70rem"
   },

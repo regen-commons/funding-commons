@@ -173,6 +173,7 @@ spacing:
   form-width: 448px
   prose-width: 576px
   card-min-width: 288px
+  tile-card-min-width: 240px
   list-width: 640px
   page-width: 1120px
 components:
@@ -349,7 +350,9 @@ Soil and loam are the warm greys. Soil-600 is the only value that replaces a web
 
 Eight forms of capital use one recipe: a pale tint with a same-hue dark word and a glyph tile. Colour only groups them. The word and glyph identify them, because several pairs look alike under colour blindness.
 
-| Form | Glyph | Hue | Plain name for labels |
+Use each form's framework name as its title, the plain meaning beneath, and examples in a tooltip. Compact tags use that title with the meaning in help. This places review decision 10 and DL-026; the eight names and meanings remain paired in [VOICE.md](packages/design-system/brand/VOICE.md#plain-names).
+
+| Form and title | Glyph | Hue | Plain meaning |
 |---|---|---|---|
 | Living | Li | forest | Land and living things |
 | Material | Ma | moss | Tools and equipment |

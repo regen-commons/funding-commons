@@ -1,9 +1,10 @@
 // Development-only invented content. App's import.meta.env.DEV boundary removes it from production.
 import type { ListingRecord } from "./listing.ts";
 export type Scenario = "visitor" | "draft" | "private" | "shared";
-export type ListState = "ready" | "empty" | "loading" | "offline" | "error" | "long";
+export type ListState = "ready" | "empty" | "loading" | "offline" | "error" | "long" | "partial";
 export interface FixtureContext {
   scenario: Scenario;
+  asOf: string;
   state: ListState;
   initiatives: readonly ListingRecord[];
   funding: readonly ListingRecord[];
@@ -27,6 +28,7 @@ const initiatives: readonly ListingRecord[] = [
       "Needs tools that your example initiative offers.",
     ],
     confirmed: "2026-11-02",
+    sharedOn: "2026-11-03",
   },
   {
     id: "willow-tools",
@@ -42,6 +44,7 @@ const initiatives: readonly ListingRecord[] = [
     fit: "good",
     reasons: ["Offers shared tools in this example."],
     confirmed: "2026-10-25",
+    sharedOn: "2026-10-24",
   },
   {
     id: "seed-stories",
@@ -58,6 +61,7 @@ const initiatives: readonly ListingRecord[] = [
     fit: "possible",
     reasons: ["Brings a different kind of work to this example."],
     confirmed: "2026-10-20",
+    sharedOn: "2026-10-19",
   },
   {
     id: "river-maps",
@@ -73,6 +77,7 @@ const initiatives: readonly ListingRecord[] = [
     fit: "good",
     reasons: ["Offers mapping knowledge in this example."],
     confirmed: "2026-10-18",
+    sharedOn: "2026-10-16",
   },
   {
     id: "commons-fund",
@@ -88,6 +93,7 @@ const initiatives: readonly ListingRecord[] = [
     fit: "possible",
     reasons: ["Offers financial support in this example."],
     confirmed: "2026-10-12",
+    sharedOn: "2026-10-10",
   },
   {
     id: "field-school",
@@ -103,6 +109,7 @@ const initiatives: readonly ListingRecord[] = [
     fit: "strong",
     reasons: ["Shares growing skills in this example."],
     confirmed: "2026-11-01",
+    sharedOn: "2026-11-02",
   },
 ];
 const funding: readonly ListingRecord[] = [
@@ -169,7 +176,8 @@ export function readFixtures(search: string): FixtureContext {
     stateValue === "loading" ||
     stateValue === "offline" ||
     stateValue === "error" ||
-    stateValue === "long"
+    stateValue === "long" ||
+    stateValue === "partial"
       ? stateValue
       : "ready";
   const records =
@@ -186,8 +194,21 @@ export function readFixtures(search: string): FixtureContext {
                 }
               : record,
           )
-        : initiatives;
-  return { scenario, state, initiatives: records, funding: state === "empty" ? [] : funding };
+        : state === "partial"
+          ? initiatives.slice(0, 1)
+          : initiatives;
+  return {
+    scenario,
+    state,
+    asOf: "2026-11-04",
+    initiatives: records,
+    funding:
+      state === "empty"
+        ? []
+        : state === "partial"
+          ? funding.slice(0, 1).map((record) => ({ ...record, amount: undefined }))
+          : funding,
+  };
 }
 export const EXAMPLE_SUBJECT = {
   needs: ["living", "intellectual"],

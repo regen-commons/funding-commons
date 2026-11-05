@@ -234,3 +234,18 @@
 }
 
 .rc-filter-bar > .rc-field { max-inline-size: var(--list-width); }
+/* Numbered list: a short sequence, with the first linked card as the way in. */
+.rc-numbered-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--card-min-width)), 1fr)); gap: var(--space-4); margin: 0; padding: 0; list-style: none; }
+.rc-numbered-item { position: relative; display: grid; align-content: start; gap: var(--space-2); padding: var(--card-padding); border-radius: var(--card-radius); background: var(--surface-raised); color: var(--on-surface-raised); box-shadow: var(--shadow-1); }
+.rc-numbered-item:has(a) { box-shadow: inset 0 0 0 var(--border-thick) var(--action), var(--shadow-1); }
+.rc-numbered-number { font: var(--type-headline-md); color: var(--text-accent); }
+.rc-numbered-title { font: var(--type-title-sm); }
+.rc-numbered-title > a { color: inherit; text-decoration: none; }
+.rc-numbered-title > a::after { content: ""; position: absolute; inset: 0; }
+.rc-numbered-title > a:focus-visible { outline: none; }
+.rc-numbered-item:has(a:focus-visible) { outline: var(--border-edge) solid var(--focus); outline-offset: var(--border-thick); }
+
+/* Tile grid: equal-size cards with one tooltip trigger each. */
+.rc-tile-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--tile-card-min-width)), 1fr)); gap: var(--space-3); margin: 0; padding: 0; list-style: none; }
+.rc-tile-grid > li { display: flex; min-inline-size: 0; }
+.rc-tile-grid .rc-tooltip-wrap, .rc-tile-grid .rc-tooltip-trigger { display: flex; inline-size: 100%; }

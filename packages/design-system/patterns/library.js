@@ -32,7 +32,14 @@ for (const stage of document.querySelectorAll("[data-theme-compare]")) {
     section.dataset.theme = theme;
     section.setAttribute("aria-label", `${theme} theme`);
     section.setAttribute("role", "group");
-    section.append(source.content.cloneNode(true));
+    const clone = source.content.cloneNode(true);
+    // Each theme needs its own tooltip targets when the example is shown twice.
+    for (const element of clone.querySelectorAll("[id]")) element.id += `-${theme}`;
+    for (const element of clone.querySelectorAll("[data-tooltip]")) {
+      element.dataset.tooltip += `-${theme}`;
+      element.setAttribute("interestfor", element.dataset.tooltip);
+    }
+    section.append(clone);
     stage.append(section);
   }
 }
@@ -71,6 +78,7 @@ for (const trigger of document.querySelectorAll("[data-popup]")) {
 }
 for (const example of document.querySelectorAll("[data-list-example]")) {
   const search = example.querySelector("input[type=search]");
+  search.value = new URLSearchParams(location.search).get("q") ?? "";
   const grid = example.querySelector("[data-example-grid]");
   const records = [...example.querySelectorAll("[data-example-record]")];
   const checks = [...example.querySelectorAll("[data-example-country]")];

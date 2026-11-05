@@ -11,8 +11,8 @@ export function Tag({ capital, children }: { capital?: Capital; children?: React
           {capital.glyph}
         </span>
       )}
-      {children ?? capital?.label}
+      {children ?? capital?.title}
     </span>
   );
-  return capital ? <Tooltip text={capital.description}>{tag}</Tooltip> : tag;
+  return capital ? <Tooltip text={`${capital.label}. ${capital.description}`}>{tag}</Tooltip> : tag;
 }

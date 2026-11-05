@@ -6,6 +6,7 @@ Use the [five-minute review](../../../DESIGN.md#how-we-follow-them) for every UI
 
 - [ ] Home's first phone screen has a plain tagline of six to eight words, a start action and search. (K)
 - [ ] Home shows signed-in state, one sign of life and at most one teaser. (K)
+- [ ] Home has its hero, three steps with the first as the way in, eight kinds, recently shared initiatives and the earliest three upcoming funding deadlines, with days left.
 - [ ] Every page has the footer, with a slim row on focused steps.
 - [ ] Partners, Funding and Initiatives are pages, with search, filter menus, removable chips, count and sort on lists.
 - [ ] New pages start at the top with the heading focused; phone heroes stay short.
@@ -37,6 +38,7 @@ Use the [five-minute review](../../../DESIGN.md#how-we-follow-them) for every UI
 - [ ] No decorative label sits above a heading; factual labels use sentence case.
 - [ ] Card titles reserve two lines, fit and price lines align across a row, and actions sit at the bottom.
 - [ ] Every compact sign has a tooltip usable by pointer, keyboard and screen reader.
+- [ ] The eight kinds use their framework names as titles, with plain meanings beneath and examples in tooltips; compact tags keep the meaning in help.
 - [ ] Mixed sizes share a baseline, numbers align right, and centred text is three lines at most. (R)
 
 ## Seeing
