@@ -61,6 +61,8 @@ Use the [five-minute review](../../../DESIGN.md#how-we-follow-them) for every UI
 - [ ] Empty, one, many, long text, stale, error, offline and Portuguese variants all work. (A)
 - [ ] Every list has an empty state: a headline, one line, one action, and no filters. (R)
 - [ ] With models off, the core task still completes. Anything derived appears in pencil until confirmed. (A)
+- [ ] Describe offers local speech when available, typing and attachments throughout, then Build my card and the four public fields in review. No extra structured fields are required.
+- [ ] Keep, Change, Remove and Undo work. Confirmed corrections survive rebuilds; open corrections block continuing. Source changes mark an older card stale.
 - [ ] Errors say what happened, keep what was typed and offer a next step. (K)
 
 ## Trust and saving
@@ -70,6 +72,8 @@ Use the [five-minute review](../../../DESIGN.md#how-we-follow-them) for every UI
 - [ ] No checkbox or subscription is pre-checked, and requesting a code subscribes to nothing. (K)
 - [ ] The page works on a throttled connection without waiting for sign-in or a model. (K)
 - [ ] The privacy label on the screen is true. (K)
+- [ ] Reload retains unfinished words, links, corrections and original file bytes. Storage errors and other-tab conflicts preserve recovery text and do not claim a save.
+- [ ] Local capabilities never silently download a model or use remote speech. Unsupported files and unread PDF pages say so; cloud examples are labelled and absent from production.
 - [ ] No streaks, countdowns, leaderboards or invented urgency. (K)
 
 ## Access

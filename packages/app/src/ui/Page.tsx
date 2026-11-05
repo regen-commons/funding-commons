@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from "react";
-import { AppHeader } from "./AppHeader.tsx";
+import { AppHeader, type SaveStatus } from "./AppHeader.tsx";
 import { BottomNav } from "./BottomNav.tsx";
 import { Footer } from "./Footer.tsx";
 import { InformationDialog, type Information } from "./InformationDialog.tsx";
@@ -8,10 +8,12 @@ export function Page({
   form,
   status,
   children,
+  runs,
 }: {
   pathname: string;
   form: boolean;
-  status: "none" | "device" | "account";
+  status: SaveStatus;
+  runs: readonly import("../describe/contracts.ts").AiRun[];
   children: ReactNode;
 }) {
   const [information, setInformation] = useState<Information | null>(null);
@@ -26,7 +28,7 @@ export function Page({
       </main>
       <Footer slim={form} onInformation={setInformation} />
       {!form && <BottomNav pathname={pathname} />}
-      <InformationDialog information={information} onClose={() => setInformation(null)} />
+      <InformationDialog runs={runs} information={information} onClose={() => setInformation(null)} />
     </div>
   );
 }

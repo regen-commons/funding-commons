@@ -94,7 +94,7 @@ The entries below place the maker's two [prototype reviews](../../docs/platform/
 
 ## DL-022: Describing is a conversation led by voice
 
-**Status:** locked (maker, 4 November 2026). Review row 13. One short question at a time; a large Speak button first when available, typing below, and files or links available throughout. Words remain editable and the card fills in beside the conversation. Build my card reads the gathered input on the device, then opens the check step with derived details in pencil. Keyword and manual paths work without a downloaded model. Replaces the version 3 form and live preview. See [PRD 6.1 and 6.2](../../docs/platform/04-prd.md#61-principles). The fixed-script versus model-chosen question policy remains D36; Conversation and Composer patterns arrive in step 3.
+**Status:** locked (maker, 4 November 2026). Review row 13. One short question at a time; a large Speak button first when available, typing below, and files or links available throughout. Words remain editable and the card fills in beside the conversation. Build my card reads the gathered input on the device, then opens the check step with derived details in pencil. Keyword and manual paths work without a downloaded model. Replaces the version 3 form and live preview. See [PRD 6.1 and 6.2](../../docs/platform/04-prd.md#61-principles) and the implemented [Describe and review contracts](COMPONENTS.md#describe-and-review-contracts). The fixed-script versus model-chosen question policy remains D36; Step 3 uses labelled guided questions.
 
 ## DL-023: Needs and offers carry every applicable kind, five of each at most
 

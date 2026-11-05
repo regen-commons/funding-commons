@@ -7,12 +7,12 @@ framework. It is the root directory of the Weave Vercel project. Read the
 [app dialect](../design-system/dialects/app.md) before changing a screen.
 
 The route table in [src/routes.ts](src/routes.ts) owns pages and their section cues.
-The frame and list patterns are built; intake and full detail compositions still
-arrive in later steps. Development uses labelled invented fixtures with visitor,
-draft, private and shared scenarios, plus empty, loading, offline, error and long
-states. `import.meta.env.DEV` removes those fixtures and Saved/account examples
-from production; real sign-in and saving need their adapters. A standalone saving
-route has been removed in favour of the planned in-place flow.
+Home, frame, lists, Describe and Check your card are built. Needs, offers, full
+details and account flows follow in later steps. Development fixtures require an
+explicit `?fixture=draft` (or visitor, private, shared); `view` selects Describe
+states. Without that parameter, development uses the real device draft too.
+`import.meta.env.DEV` removes invented records and service simulations from
+production. Account saving still needs its adapter.
 
 ## Structure
 
@@ -22,6 +22,7 @@ route has been removed in favour of the planned in-place flow.
 | `src/router.tsx` | The small history router and `Link` |
 | `src/ui/` | Thin components, one per design-system pattern, named by structure |
 | `src/pages/` | Pages composed from `src/ui` |
+| `src/describe/` | Validated device draft, IndexedDB writer and local extraction adapters |
 | `api/` | One-line Vercel entry files that re-export `@weave/api` handlers |
 | `dev/` | The dev server's `/api` bridge, which answers the way Vercel does |
 | `public/brand/` | Copied from the design system by `scripts/copy-brand.mjs`; ignored by Git |
@@ -40,6 +41,13 @@ route has been removed in favour of the planned in-place flow.
 - Drafts stay on the device until the person saves. Nothing calls a third party:
   the content security policy in `vercel.json` allows only this origin. Widen it only
   with the change that needs it, such as the Supabase project or model files.
+- Keep raw unfinished answers, links and review edits in the device draft. Compare
+  stored revisions before writing; preserve both tabs' words on a conflict. Storage
+  failure must offer text recovery and must not claim the latest changes are saved.
+- Local speech and the browser model require an already available capability and
+  a tap. Downloaded models and cloud calls stay behind their unavailable adapters
+  until D32 and D35 are approved. PDF text runs in a same-origin Worker; unread
+  files and pages remain explicitly unread, with original bytes retained.
 - Server code belongs in `@weave/api`. A file in `api/` is a single re-export, and
   the entry test fails on anything else.
 - funding-commons.vercel.app is a different Vercel project, rooted at the repository

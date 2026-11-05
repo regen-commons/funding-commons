@@ -3,6 +3,7 @@ import { matchRoute, pathTo } from "../routes.ts";
 import { Icon } from "./Icon.tsx";
 import { Logo } from "./Logo.tsx";
 import { SECTIONS } from "./sections.ts";
+export type SaveStatus = "none" | "device" | "account" | "saving" | "memory" | "conflict";
 export function AppHeader({
   pathname,
   sections,
@@ -10,7 +11,7 @@ export function AppHeader({
 }: {
   pathname: string;
   sections: boolean;
-  status: "none" | "device" | "account";
+  status: SaveStatus;
 }) {
   const current = matchRoute(pathname)?.section;
   return (
@@ -36,7 +37,7 @@ export function AppHeader({
             ? "Saved"
             : status === "device"
               ? "Saved on this device only"
-              : "Nothing saved yet"}
+              : status === "saving" ? "Saving on this device" : status === "memory" ? "Not saved on this device" : status === "conflict" ? "Draft changed in another tab" : "Nothing saved yet"}
         </p>
         {status === "account" && (
           <Link className="rc-account" href={pathTo("settings")} aria-label="Your account and settings">

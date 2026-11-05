@@ -3,24 +3,26 @@ export type Information = "storage" | "assistant" | "policy";
 const CONTENT: Record<Information, { title: string; body: string }> = {
   storage: {
     title: "What we store",
-    body: "Nothing you describe is sent or saved in this version. An Appearance choice stays in this browser. Saving and sharing will ask you first when they become available.",
+    body: "Your conversation, files, links, card and preferences stay in this browser. No initiative data is shared by Weave. You can edit your words here or clear this site’s browser storage. Account saving and sharing will ask you first when they become available.",
   },
   assistant: {
     title: "What the assistant did",
-    body: "The assistant has not run. Nothing has been sent to a cloud model.",
+    body: "Card builds and attempts are listed below without your text. Nothing has been sent to a cloud model.",
   },
   policy: {
     title: "Data policy",
-    body: "Weave's full data policy will be available before saving or sharing opens. This version sends no initiative data. An Appearance choice is kept on this device only.",
+    body: "Weave's full data policy will be available before saving or sharing opens. This version sends no initiative data. Drafts and preferences stay on this device only.",
   },
 };
 /** Minimal information destinations for the frame. Full data records arrive in Step 8. */
 export function InformationDialog({
   information,
   onClose,
+  runs,
 }: {
   information: Information | null;
   onClose: () => void;
+  runs: readonly import("../describe/contracts.ts").AiRun[];
 }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
@@ -43,6 +45,25 @@ export function InformationDialog({
           {content.title}
         </h2>
         <p>{content.body}</p>
+        {information === "assistant" && (
+          <>
+            <p className="rc-meta">
+              {runs.length} local or example builds and attempts. Zero words sent to the cloud.
+            </p>
+            <dl className="rc-facts">
+              {runs.map((run) => (
+                <div key={run.id}>
+                  <dt>
+                    {run.engine === "fixture" ? "Example" : "On this device"}, {run.model}
+                  </dt>
+                  <dd>
+                    {run.words} words, {run.status}. No text is kept in this record.
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </>
+        )}
         <button className="rc-button" data-variant="secondary" type="submit">
           Close
         </button>

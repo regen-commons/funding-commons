@@ -1,8 +1,54 @@
 // Development-only invented content. App's import.meta.env.DEV boundary removes it from production.
+import { addAnswer, newDraft, revise } from "./describe/contracts.ts";
+import { keywordSuggestion } from "./describe/keywords.ts";
 import type { ListingRecord } from "./listing.ts";
 export type Scenario = "visitor" | "draft" | "private" | "shared";
 export type ListState = "ready" | "empty" | "loading" | "offline" | "error" | "long" | "partial";
+export type DescribeView =
+  | "fresh"
+  | "talking"
+  | "listening"
+  | "attached"
+  | "building"
+  | "offline"
+  | "speech-error"
+  | "long"
+  | "manual"
+  | "weak"
+  | "download"
+  | "downloading"
+  | "download-error"
+  | "browser"
+  | "cloud"
+  | "cloud-error"
+  | "review"
+  | "correcting"
+  | "kept"
+  | "storage-error";
+export const DESCRIBE_VIEWS: readonly DescribeView[] = [
+  "fresh",
+  "talking",
+  "listening",
+  "attached",
+  "building",
+  "offline",
+  "speech-error",
+  "long",
+  "manual",
+  "weak",
+  "download",
+  "downloading",
+  "download-error",
+  "browser",
+  "cloud",
+  "cloud-error",
+  "review",
+  "correcting",
+  "kept",
+  "storage-error",
+];
 export interface FixtureContext {
+  describe: DescribeView;
   scenario: Scenario;
   asOf: string;
   state: ListState;
@@ -199,6 +245,9 @@ export function readFixtures(search: string): FixtureContext {
           : initiatives;
   return {
     scenario,
+    describe: DESCRIBE_VIEWS.includes(params.get("view") as DescribeView)
+      ? (params.get("view") as DescribeView)
+      : "fresh",
     state,
     asOf: "2026-11-04",
     initiatives: records,
@@ -214,3 +263,62 @@ export const EXAMPLE_SUBJECT = {
   needs: ["living", "intellectual"],
   offers: ["material", "cultural"],
 } as const;
+
+// Public-safe fixtures are kept in memory and never written to the device draft database.
+export function describeFixture(view: DescribeView) {
+  let draft = newDraft();
+  if (view === "fresh") return draft;
+  draft = addAnswer(
+    draft,
+    "We are Orchard learning circle, a group of families restoring an orchard and sharing skills in soil and water care.",
+  );
+  draft = addAnswer(draft, "Upper valley, Brazil");
+  draft = addAnswer(
+    draft,
+    "We are getting going. Families and students take part. We share learning through community research.",
+  );
+  if (view === "long")
+    draft = addAnswer(
+      draft,
+      "Somos a Associação Comunitária de Aprendizagem, Arte e Cuidado das Nascentes e dos Pomares do Vale das Sementes. ".repeat(
+        25,
+      ),
+    );
+  if (view === "attached") {
+    const blob = new Blob(["Field notes: families care for soil and water."], { type: "text/plain" });
+    draft = revise(
+      draft,
+      {
+        attachments: [
+          { id: crypto.randomUUID(), name: "field-notes.txt", type: blob.type, bytes: blob.size, blob },
+        ],
+        links: ["https://example.org/orchard"],
+      },
+      true,
+    );
+  }
+  if (view === "manual") draft = revise(draft, { mode: "fields" });
+  if (["review", "correcting", "kept"].includes(view)) {
+    const proposal = keywordSuggestion(draft, draft.turns.map((turn) => turn.text).join("\n\n"));
+    draft = revise(draft, {
+      proposal,
+      proposalVersion: draft.inputVersion,
+      derivedEdits:
+        view === "kept"
+          ? {
+              stage: proposal.stage,
+              lenses: proposal.lenses,
+              themes: proposal.themes,
+              beneficiaries: proposal.beneficiaries,
+              languages: proposal.languages,
+            }
+          : {},
+      kept: view === "kept" ? ["stage", "lenses", "themes", "beneficiaries", "languages"] : [],
+    });
+  }
+  if (view === "correcting")
+    draft = revise(draft, {
+      reviewEdits: { stage: { value: draft.proposal?.stage ?? "", lenses: [], wasKept: false } },
+    });
+  return draft;
+}

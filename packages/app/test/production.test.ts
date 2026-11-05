@@ -17,6 +17,9 @@ test("production bundles exclude the development fixture records and controls", 
     "Willow tools cooperative",
     "example-scenario",
     "EXAMPLE_SUBJECT",
+    "download-example",
+    "Cloud consent simulation",
+    "describe-example",
   ]) {
     assert.ok(!bundle.includes(fixtureOnly), `${fixtureOnly} leaked into the production bundle`);
   }

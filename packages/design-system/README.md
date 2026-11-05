@@ -79,6 +79,12 @@ The tests check that generated files are current, the linter is clean, website v
 
 ## Changelog
 
+### Unreleased, Step 3
+
+- Added candidate Conversation, Attachment list and Voice input patterns, with editable words, local file references and a large speech action. Added Describe and Check your card examples.
+- Expanded Guide panel, Card and Review sheet with conversation, live draft and review-grid parts. Composer, Proposal, Stepper and Message now have two example uses and are stable; their existing examples were rechecked.
+- Review keeps derived details in pencil until confirmed, preserves corrections across builds and offers Remove with Undo. Device-draft status distinguishes saved changes from memory-only or conflicting changes. No tokens changed.
+
 ### Unreleased, Step 2
 
 - Added four candidate patterns: Section, Tile card, Numbered list and Tile grid. Expanded the Home hero with search, one sign of life and a decorative SVG weave that stays still under reduced motion. The home example now shows all five parts.

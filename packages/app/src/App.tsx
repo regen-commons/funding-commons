@@ -1,5 +1,10 @@
 import { useEffect, useRef } from "react";
 import { readFixtures, EXAMPLE_SUBJECT, type FixtureContext } from "./fixtures.ts";
+import { DraftProvider } from "./describe/context.tsx";
+import { useDraft } from "./describe/use-draft.ts";
+import { hasDraft } from "./describe/view.ts";
+import { Describe } from "./pages/Describe.tsx";
+import { CheckCard } from "./pages/CheckCard.tsx";
 import { Home } from "./pages/Home.tsx";
 import { IntakeStep } from "./pages/IntakeStep.tsx";
 import { ListPage } from "./pages/ListPage.tsx";
@@ -19,6 +24,9 @@ function content(route: Route, fixture?: FixtureContext) {
     case "home":
       return <Home fixture={fixture} />;
     case "initiative":
+      return <Describe fixture={fixture} />;
+    case "check-card":
+      return <CheckCard />;
     case "needs":
     case "offers":
       return <IntakeStep step={route.name} title={route.title} />;
@@ -62,9 +70,20 @@ function content(route: Route, fixture?: FixtureContext) {
 }
 export function App() {
   const location = usePathname();
+  const fixture =
+    import.meta.env.DEV && new URLSearchParams(window.location.search).has("fixture")
+      ? readFixtures(window.location.search)
+      : undefined;
+  return (
+    <DraftProvider fixture={fixture}>
+      <AppFrame key="frame" location={location} fixture={fixture} />
+    </DraftProvider>
+  );
+}
+function AppFrame({ location, fixture }: { location: string; fixture?: FixtureContext }) {
+  const device = useDraft();
   const pathname = new URL(location, window.location.origin).pathname;
   const route = matchRoute(pathname);
-  const fixture = import.meta.env.DEV ? readFixtures(window.location.search) : undefined;
   const shownPath = useRef(location);
   const record = route?.id
     ? (route.name === "opportunity" ? fixture?.funding : fixture?.initiatives)?.find(
@@ -79,13 +98,23 @@ export function App() {
     document.querySelector<HTMLElement>("main h1")?.focus({ preventScroll: true });
   }, [location, route?.name, record?.title]);
   const status =
-    fixture?.scenario === "private" || fixture?.scenario === "shared"
-      ? "account"
-      : fixture?.scenario === "draft"
-        ? "device"
-        : "none";
+    fixture && route?.name !== "initiative" && route?.name !== "check-card"
+      ? fixture?.scenario === "private" || fixture?.scenario === "shared"
+        ? "account"
+        : fixture?.scenario === "draft"
+          ? "device"
+          : "none"
+      : device.storage === "saving"
+        ? "saving"
+        : device.storage === "memory"
+          ? "memory"
+          : device.storage === "conflict"
+            ? "conflict"
+            : device.storage === "saved" && hasDraft(device.draft)
+              ? "device"
+              : "none";
   return (
-    <Page pathname={pathname} form={route?.form ?? true} status={status}>
+    <Page pathname={pathname} form={route?.form ?? true} status={status} runs={device.draft.runs}>
       {import.meta.env.DEV && fixture && <FixtureControls fixture={fixture} />}
       {route ? content(route, fixture) : <NotFound />}
     </Page>
