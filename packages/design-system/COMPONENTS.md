@@ -42,7 +42,7 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Skip link | `rc-skip-link` | stable | First stop for keyboard users |  | On every page | check-card, code, describe, finish, funding, home, initiatives, intake-finish, matches, matches-empty, needs, offers, opportunity, opportunity-private, saved, settings, step-needs |
 | Visually hidden | `rc-visually-hidden` | stable | Text only for assistive technology |  |  | step-needs |
 
-| Media | `rc-media` | stable | Supplied image or labelled synthetic placeholder; fixed aspect ratio | `data-size`: thumb | No third-party app images until D30 | funding, home, initiatives |
+| Media | `rc-media` | stable | Supplied image or labelled synthetic placeholder; fixed aspect ratio | `data-size`: thumb, wide | No third-party app images until D30 | funding, home, initiatives |
 | Account button | `rc-account` | stable | Opens Settings from the header |  | Accessible name required; live state needs sign-in adapter | funding, initiatives, settings |
 
 ## Molecules
@@ -85,14 +85,14 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Attachment list | `rc-attachment-list` | candidate | Local file and link references. Part: `rc-attachment` | | State what was read; never imply an unread PDF was parsed | describe |
 | Voice input | `rc-voice-input` | stable | Large local-speech action and editable result. Part: `rc-voice-transcript` | Listening, unavailable, error | Only show Speak when local processing is available | describe, needs, offers |
 
-| Ask card | `rc-ask-card` | stable | One need or offer in pencil or ink. Parts: `rc-ask-title`, `rc-ask-terms`, `rc-ask-foot`, `rc-ask-editor`, `rc-ask-summary` | Card `data-kind`, `data-pencil`; removed with Undo | All eight kinds alike; Keep, Change, Remove; raw edits survive reload | needs, offers |
+| Ask card | `rc-ask-card` | stable | One need or offer in pencil or ink. Parts: `rc-ask-title`, `rc-ask-terms`, `rc-ask-foot`, `rc-ask-editor`, `rc-ask-summary` | Card `data-kind`, `data-pencil`; removed with Undo | All eight kinds alike; Keep, Change, Remove; raw edits survive reload | initiatives, needs, offers |
 
 ## Organisms
 
 | Pattern | Class | Status | Job and parts | Variants | Limits | Used in |
 |---|---|---|---|---|---|---|
 | Team slots | `rc-team-slots` | stable | Requirements with counts or candidates. Parts: `rc-team-slot`, `rc-team-candidates`, `rc-team-candidate`, `rc-team-coverage`, `rc-team-line` | Private counts, shared examples, no requirement | Distinct asks and selected initiatives; never eligibility | opportunity, opportunity-private |
-| Ask list | `rc-ask-list` | stable | Needs or offers beside a conversation. Parts: `rc-ask-head`, `rc-ask-count` | Empty, working, overflow, offline, error | Five active cards; say when more were heard | needs, offers |
+| Ask list | `rc-ask-list` | stable | Needs or offers beside a conversation. Parts: `rc-ask-head`, `rc-ask-count` | Empty, working, overflow, offline, error | Five active cards; say when more were heard | initiatives, needs, offers |
 | Share card | `rc-share-card` | candidate | Explains partner counts and sharing before showing names | Unconnected, count-only example | Inline email and code; never invent a production count | intake-finish |
 
 | Pattern | Class | Status | Job and parts | Variants | Limits | Used in |
@@ -102,7 +102,7 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Guide panel | `rc-guide` | stable | The conversation for one step. Parts: `rc-guide-log`, `rc-guide-status`, `rc-conversation-panel` |  |  | describe, needs, offers, step-needs |
 | Review sheet | `rc-review` | stable | Suggestions waiting for you. Part: `rc-review-list`, `rc-review-grid` |  |  | check-card, step-needs |
 | Code panel | `rc-code-panel` | stable | Save or sign in by email code. Parts: `rc-code-panel-title`, `rc-code-panel-actions` | Email step, code step, error | One field per step; inline offer or explicitly opened task | code, finish |
-| Card list | `rc-card-list` | stable | A counted list of cards. Parts: `rc-card-list-header`, `rc-card-list-items` |  |  | finish, matches |
+| Card list | `rc-card-list` | stable | A counted list of cards. Parts: `rc-card-list-header`, `rc-card-list-items` |  |  | finish, initiatives, matches |
 | Dialog | `rc-dialog` | stable | Consent, confirming steps and short information. Parts: `rc-dialog-body`, `rc-dialog-title`, `rc-dialog-head` |  | No unsolicited modal or wall | check-card, code, describe, finish, funding, home, initiatives, intake-finish, matches, matches-empty, needs, offers, opportunity, opportunity-private, saved, settings, step-needs |
 | Data table | `rc-table` | candidate | Desk lists and the record of assistant use. Part: `rc-table-scroll` | `data-align`: end |  |  |
 
@@ -118,7 +118,7 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Pattern | Class | Status | Job and parts | Variants | Limits | Used in |
 |---|---|---|---|---|---|---|
 | Page shell | `rc-page` | stable | Header, main, footer and navigation. Parts: `rc-main`, `rc-stack` |  |  | check-card, code, describe, finish, funding, home, initiatives, intake-finish, matches, matches-empty, needs, offers, opportunity, opportunity-private, saved, settings, step-needs |
-| Step layout | `rc-step-layout` | stable | One column, then a sticky side panel. Parts: `rc-step-main`, `rc-step-aside` |  |  | check-card, describe, finish, intake-finish, needs, offers, opportunity, opportunity-private, step-needs |
+| Step layout | `rc-step-layout` | stable | One column, then a sticky side panel. Parts: `rc-step-main`, `rc-step-aside` |  |  | check-card, describe, finish, initiatives, intake-finish, needs, offers, opportunity, opportunity-private, step-needs |
 | List layout | `rc-list-layout` | stable | Full-width list with its own prose measure |  | Card grid columns at least 18 rem | funding, initiatives, matches, matches-empty |
 | Narrow layout | `rc-narrow` | stable | Focused single tasks |  | 28 rem | code, saved, settings |
 | Home hero | `rc-home-hero` | candidate | Centred heading, start action, search and one sign of life. Parts: `rc-home-actions`, `rc-home-live`, `rc-woven-backdrop` | Still backdrop under reduced motion | Short phone hero; decorative threads stay within it | home |
@@ -236,3 +236,19 @@ The development-only email-door adapter demonstrates two visibility choices,
 separate default-off onward sharing, a specific fund reminder and confirmed
 introductions. Its actions use the same code door without sending mail or changing
 production permissions. No live sharing or delivery is implied.
+
+## Public initiatives and partner contracts
+
+The [Initiatives example](patterns/pages/initiatives.html#public-example) composes
+Media, Step layout, Card list, read-only Ask cards, Work tags and supplied Link
+previews. Public asks show all applicable kinds equally and carry no editing or
+commitment controls. A missing link or ask has a plain empty state. Previews never
+fetch a destination or imply that its owner supplied a photo.
+
+Partners uses the Share card before sharing, with counts only and no individual
+names or reasons. Unknown counts stay unknown. The shared example uses the same
+listing Card with a fit band and concrete reasons; Not a fit asks why and has Undo.
+Account access alone never opens partner cards. The independent public directory
+remains browsable. Live public sharing, matching and introductions require their
+service contracts and D26, D28, D30 and D31 decisions. Development examples never
+publish a private initiative.
