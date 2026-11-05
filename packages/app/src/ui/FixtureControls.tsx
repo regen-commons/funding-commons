@@ -1,4 +1,4 @@
-import { DESCRIBE_VIEWS, type FixtureContext } from "../fixtures.ts";
+import { DESCRIBE_VIEWS, INTAKE_VIEWS, type FixtureContext } from "../fixtures.ts";
 import { navigate } from "../router.tsx";
 export function FixtureControls({ fixture }: { fixture: FixtureContext }) {
   function set(key: string, value: string) {
@@ -48,6 +48,23 @@ export function FixtureControls({ fixture }: { fixture: FixtureContext }) {
               <option value="long">Long content</option>
             </select>
           </div>
+          {["/start/needs", "/start/offers", "/start/finish"].includes(window.location.pathname) && (
+            <div className="rc-field">
+              <label htmlFor="intake-example">Intake example</label>
+              <select
+                className="rc-input"
+                id="intake-example"
+                value={fixture.intake}
+                onChange={(event) => set("intake", event.target.value)}
+              >
+                {INTAKE_VIEWS.map((view) => (
+                  <option key={view} value={view}>
+                    {view.replaceAll("-", " ")}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
           {window.location.pathname.startsWith("/start/initiative") && (
             <div className="rc-field">
               <label htmlFor="describe-example">Describe example</label>

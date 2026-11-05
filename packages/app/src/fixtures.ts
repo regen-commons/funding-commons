@@ -1,6 +1,10 @@
 // Development-only invented content. App's import.meta.env.DEV boundary removes it from production.
 import { addAnswer, newDraft, revise } from "./describe/contracts.ts";
 import { keywordSuggestion } from "./describe/keywords.ts";
+import { confirmDraft } from "./describe/contracts.ts";
+import { emptyAskStep } from "./intake/contracts.ts";
+import { answerStep, changeStep, decide, formFromAsk, reconcile, reviewStep } from "./intake/state.ts";
+import { chunksFrom, keywordExtraction } from "./intake/keywords.ts";
 import type { ListingRecord } from "./listing.ts";
 export type Scenario = "visitor" | "draft" | "private" | "shared";
 export type ListState = "ready" | "empty" | "loading" | "offline" | "error" | "long" | "partial";
@@ -48,6 +52,7 @@ export const DESCRIBE_VIEWS: readonly DescribeView[] = [
   "storage-error",
 ];
 export interface FixtureContext {
+  intake: IntakeView;
   describe: DescribeView;
   scenario: Scenario;
   asOf: string;
@@ -55,6 +60,23 @@ export interface FixtureContext {
   initiatives: readonly ListingRecord[];
   funding: readonly ListingRecord[];
 }
+export const INTAKE_VIEWS = [
+  "off",
+  "ready",
+  "empty",
+  "loading",
+  "offline",
+  "error",
+  "long",
+  "editing",
+  "removed",
+  "kept",
+  "manual",
+  "storage-error",
+  "saved",
+  "shared",
+] as const;
+export type IntakeView = (typeof INTAKE_VIEWS)[number];
 const initiatives: readonly ListingRecord[] = [
   {
     id: "orchard-circle",
@@ -245,6 +267,9 @@ export function readFixtures(search: string): FixtureContext {
           : initiatives;
   return {
     scenario,
+    intake: INTAKE_VIEWS.includes(params.get("intake") as IntakeView)
+      ? (params.get("intake") as IntakeView)
+      : "off",
     describe: DESCRIBE_VIEWS.includes(params.get("view") as DescribeView)
       ? (params.get("view") as DescribeView)
       : "fresh",
@@ -320,5 +345,53 @@ export function describeFixture(view: DescribeView) {
     draft = revise(draft, {
       reviewEdits: { stage: { value: draft.proposal?.stage ?? "", lenses: [], wasKept: false } },
     });
+  return draft;
+}
+
+// Step 4 examples seed only an isolated in-memory draft, never IndexedDB.
+export function intakeFixture(view: IntakeView, path: string) {
+  let draft = confirmDraft(describeFixture("kept"));
+  if (view === "long")
+    draft = confirmDraft(
+      revise(draft, {
+        publicEdits: {
+          ...draft.publicEdits,
+          name: "Associação Comunitária de Aprendizagem, Arte e Cuidado das Nascentes e dos Pomares do Vale das Sementes",
+        },
+        confirmed: null,
+      }),
+    );
+  for (const kind of ["needs", "offers"] as const) {
+    let step = emptyAskStep();
+    if (view !== "empty") {
+      const words =
+        kind === "needs"
+          ? "Native seedlings for our valley; Tools and volunteers for planting here; Financial support for fencing"
+          : "A workshop on water mapping; Cultural stories and a practice of care";
+      step = answerStep(
+        step,
+        kind,
+        view === "long"
+          ? words +
+              "; " +
+              "A method for community research and learning in our valley, shared with everyone. ".repeat(5) +
+              "; Equipment for the nursery; Introductions to partners; Care for volunteers; A research template"
+          : words,
+      );
+      const chunks = chunksFrom(step.turns[0]!.text, step.turns[0]!.id);
+      step = reconcile(step, keywordExtraction(chunks, kind));
+      const allKept = path === "/start/finish" || ["kept", "saved", "shared"].includes(view);
+      if (allKept) {
+        for (const item of step.items) step = decide(step, item.id, "kept");
+        step = reviewStep(step);
+      } else if (view === "removed") step = decide(step, step.items[0]!.id, "removed");
+      if (view === "editing" && path === `/start/${kind}`)
+        step = changeStep(step, {
+          editor: { id: step.items[0]!.id, form: formFromAsk(step.items[0]!.value) },
+        });
+    } else step = reviewStep(step);
+    if (view === "manual") step = changeStep(step, { mode: "manual" });
+    draft = revise(draft, { [kind]: step });
+  }
   return draft;
 }

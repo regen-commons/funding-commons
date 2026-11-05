@@ -98,7 +98,7 @@ The entries below place the maker's two [prototype reviews](../../docs/platform/
 
 ## DL-023: Needs and offers carry every applicable kind, five of each at most
 
-**Status:** locked (maker, 4 November 2026). Review rows 14 and 15. Need and offer cards appear beside the conversation with Keep, Change and Remove, a counter and a maximum of five of each. If extraction hears more, show the first five and say so. Every applicable kind is shown alike and selectable; there is no primary kind. See [PRD 6.2 and R3](../../docs/platform/04-prd.md#62-the-three-step-conversation). Step 4 places Ask card guidance and aligns the technical contracts, which currently allow six cards and at most four kinds per card.
+**Status:** locked (maker, 4 November 2026). Review rows 14 and 15. Need and offer cards appear beside the conversation with Keep, Change and Remove, a counter and a maximum of five of each. If extraction hears more, show the first five and say so. Every applicable kind is shown alike and selectable; there is no primary kind. See [PRD 6.2 and R3](../../docs/platform/04-prd.md#62-the-three-step-conversation). Step 4 implements [Ask card and Ask list guidance](COMPONENTS.md#needs-offers-and-finish-contracts), the conversation and Finish composition, and aligns the technical contracts to five active cards and all eight kinds. Kept corrections and removals survive rebuilding; unknown kinds need correction before Keep.
 
 ## DL-024: One filter bar and separate list pages
 

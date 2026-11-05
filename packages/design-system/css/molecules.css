@@ -568,3 +568,12 @@ a.rc-save-status:hover { color: var(--on-surface); }
 .rc-attachment { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2); padding: var(--space-3); background: var(--surface-raised); color: var(--on-surface-raised); border-radius: var(--radius-sm); box-shadow: var(--shadow-1); overflow-wrap: anywhere; }
 .rc-attachment > div { min-inline-size: 0; flex: 1; }
 .rc-attachment a { display: inline-flex; align-items: center; min-block-size: var(--control-height); }
+/* Ask card: every applicable kind has equal weight; review is explicit. */
+.rc-ask-card { min-inline-size: 0; overflow-wrap: anywhere; }
+.rc-ask-title { font: var(--type-headline-sm); }
+.rc-ask-terms { font: var(--type-body-sm); color: var(--text-secondary); }
+.rc-ask-foot { display: grid; gap: var(--space-2); margin-block-start: auto; }
+.rc-ask-editor { min-inline-size: 0; padding: var(--space-4); border: var(--border-thin) solid var(--control-line); border-radius: var(--radius-md); background: var(--surface-raised); }
+.rc-ask-editor fieldset { min-inline-size: 0; }
+.rc-ask-summary { display: grid; gap: var(--space-3); margin: 0; padding: 0; list-style: none; }
+.rc-ask-summary > li { display: grid; gap: var(--space-2); }

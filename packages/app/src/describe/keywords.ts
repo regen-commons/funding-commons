@@ -112,7 +112,7 @@ export function keywordSuggestion(draft: DeviceDraft, text: string): Initiative 
   };
 }
 export async function collectSource(
-  draft: DeviceDraft,
+  draft: Pick<DeviceDraft, "turns" | "composer" | "attachments">,
   pdfReader?: DocumentReader,
   signal = new AbortController().signal,
 ): Promise<CollectedSource> {

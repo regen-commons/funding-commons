@@ -373,7 +373,7 @@ Step 3 connects keyword extraction and already available native capabilities onl
 
 ### 6.2 Contracts (Zod, single source of truth)
 
-The implemented initiative and device-draft schemas live in [contracts.ts](../../packages/app/src/describe/contracts.ts), using the approved Zod 4.6.7. They validate stored data and model replies; the remaining contracts below describe later steps. Device drafts retain raw unfinished answers, links, review edits and original file Blobs in IndexedDB. One writer per tab serializes saves, with an atomic stored-revision comparison to prevent another tab's draft being overwritten. Failed reads preserve the stored record; failed writes keep recovery text and truthful memory-only status. Source revisions invalidate stale builds. Public fields remain editable; confirmed derived values and removals survive rebuilding.
+The implemented initiative and device-draft schemas live in [contracts.ts](../../packages/app/src/describe/contracts.ts), using the approved Zod 4.6.7. They validate stored data and model replies; the outline below links to the implemented ask contracts. Device drafts retain raw unfinished answers, links, review edits and original file Blobs in IndexedDB. One writer per tab serializes saves, with an atomic stored-revision comparison to prevent another tab's draft being overwritten. Failed reads preserve the stored record; failed writes keep recovery text and truthful memory-only status. Source revisions invalidate stale builds. Public fields remain editable; confirmed derived values and removals survive rebuilding.
 
 ```ts
 export const CapitalForm = z.enum(['financial','material','living','social','intellectual','experiential','cultural','spiritual']);
@@ -395,20 +395,16 @@ export const InitiativeDraft = z.object({
   confidence: z.number().min(0).max(1),
 });
 
-export const NeedCard = z.object({
-  title: z.string().max(140),
-  description: z.string().max(600).nullable(),
-  capitalForms: z.array(CapitalForm).min(1).max(4),
-  amount: z.object({ min: z.number().nullable(), max: z.number().nullable(), currency: z.string().length(3).nullable() }).nullable(),
-  urgency: z.enum(['now','this_quarter','this_year','ongoing']).nullable(),
-  placeScope: z.enum(['here','region','anywhere']),
-  exchangeTerms: z.array(ExchangeTerm).min(1),
-  purpose: z.string().max(400).nullable(),
-});
-export const OfferCard = NeedCard.omit({ purpose: true }).extend({ capacity: z.string().max(200).nullable(), audience: z.string().max(200).nullable() });
-export const NeedsExtraction = z.object({ needs: z.array(NeedCard).max(6) });
-export const OffersExtraction = z.object({ offers: z.array(OfferCard).max(6) });
+// Need/offer draft schemas and per-step extraction now live in
+// packages/app/src/intake/contracts.ts (Step 4).
+
 ```
+
+Step 4's [ask contracts](../../packages/app/src/intake/contracts.ts) own the implemented need/offer shape and extraction response. At most five active cards per step may carry all eight forms of capital, with at least one required before Keep. Proposals may leave an unknown kind empty for correction. Both carry description, financial amount/range with explicit currency, place scope, exchange terms and status; needs add timeframe, urgency and purpose, and offers add capacity and audience. Open to anything is exclusive of the other exchange terms. These replace the earlier six-card extraction limit and four-kind cap.
+
+The existing version 1 device draft gains defaulted `needs` and `offers` records, so old Describe drafts retain their identity, revision, words and files. Each step owns its composer, editable turns, file/link references, raw editor, source version and review version. Only the edited step's source version changes. Kept cards and removed source chunks survive re-extraction; pending input, stale builds and pencil cards block continuing, while empty steps can finish. Manual mode requires no inference. The IndexedDB writer still compares the whole draft revision atomically.
+
+Step 4 reuses the local speech and already available browser-model adapters. A keyword Worker returns up to five proposals and the total heard; overflow is explicit and the full source is retained. Model replies must refer to supplied source keys and pass the same schema. PDF text and unread-file reports use Step 3's approved parser. File/link data remains local, with no page fetch. The assistant record adds needs/offers metadata with zero cloud words. Downloaded inference and live cloud calls remain D32 and D35 gates.
 
 `z.toJSONSchema()` produces the schema used by the Prompt API `responseConstraint`, by `@huggingface/transformers-structured-output`, and by the cloud proxy's structured output. Schema design for small models: flat objects, closed enums listed in the prompt, nullable fields instead of required free text, no `maxLength` constraints in the grammar (they distort output), greedy decoding.
 

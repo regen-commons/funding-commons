@@ -6,17 +6,15 @@ import { hasDraft } from "./describe/view.ts";
 import { Describe } from "./pages/Describe.tsx";
 import { CheckCard } from "./pages/CheckCard.tsx";
 import { Home } from "./pages/Home.tsx";
-import { IntakeStep } from "./pages/IntakeStep.tsx";
+import { AskStep } from "./pages/AskStep.tsx";
+import { Finish } from "./pages/Finish.tsx";
 import { ListPage } from "./pages/ListPage.tsx";
 import { RecordDetail } from "./pages/RecordDetail.tsx";
 import { Settings } from "./pages/Settings.tsx";
 import { NotFound } from "./pages/NotFound.tsx";
 import { usePathname } from "./router.tsx";
-import { documentTitle, matchRoute, pathTo, type Route } from "./routes.ts";
+import { documentTitle, matchRoute, type Route } from "./routes.ts";
 import { Page } from "./ui/Page.tsx";
-import { Heading } from "./ui/Heading.tsx";
-import { NarrowLayout } from "./ui/layouts.tsx";
-import { ButtonLink } from "./ui/ButtonLink.tsx";
 import { FixtureControls } from "./ui/FixtureControls.tsx";
 
 function content(route: Route, fixture?: FixtureContext) {
@@ -29,7 +27,7 @@ function content(route: Route, fixture?: FixtureContext) {
       return <CheckCard />;
     case "needs":
     case "offers":
-      return <IntakeStep step={route.name} title={route.title} />;
+      return <AskStep key={route.name} kind={route.name} fixture={fixture} />;
     case "partners":
     case "funding":
     case "initiatives":
@@ -55,17 +53,7 @@ function content(route: Route, fixture?: FixtureContext) {
     case "settings":
       return <Settings />;
     case "finish":
-      return (
-        <NarrowLayout>
-          <Heading level={1} size="page">
-            {route.title}
-          </Heading>
-          <p>The finish page will bring your card and first funding together.</p>
-          <ButtonLink variant="primary" href={pathTo("funding")}>
-            Browse funding
-          </ButtonLink>
-        </NarrowLayout>
-      );
+      return <Finish fixture={fixture} />;
   }
 }
 export function App() {
@@ -98,7 +86,7 @@ function AppFrame({ location, fixture }: { location: string; fixture?: FixtureCo
     document.querySelector<HTMLElement>("main h1")?.focus({ preventScroll: true });
   }, [location, route?.name, record?.title]);
   const status =
-    fixture && route?.name !== "initiative" && route?.name !== "check-card"
+    fixture && !["initiative", "check-card", "needs", "offers", "finish"].includes(route?.name ?? "")
       ? fixture?.scenario === "private" || fixture?.scenario === "shared"
         ? "account"
         : fixture?.scenario === "draft"

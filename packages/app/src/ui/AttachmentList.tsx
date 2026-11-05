@@ -2,11 +2,13 @@ import type { Attachment } from "../describe/contracts.ts";
 /** Local file and link references. No preview fetch is implied. */
 export function AttachmentList({
   files,
+  readOnBuild = true,
   links,
   onRemoveFile,
   onRemoveLink,
 }: {
   files: readonly Attachment[];
+  readOnBuild?: boolean;
   links: readonly string[];
   onRemoveFile(id: string): void;
   onRemoveLink(url: string): void;
@@ -20,9 +22,11 @@ export function AttachmentList({
             <strong>{file.name}</strong>
             <p className="rc-meta">
               {new Intl.NumberFormat("en", { maximumFractionDigits: 1 }).format(file.bytes / 1024)} KB,{" "}
-              {/^text\//u.test(file.type) || /\.(txt|md|csv|pdf)$/iu.test(file.name)
-                ? "text read when you build, where readable"
-                : "kept on this device, content not read"}
+              {!readOnBuild
+                ? "kept on this device; not read in manual mode"
+                : /^text\//u.test(file.type) || /\.(txt|md|csv|pdf)$/iu.test(file.name)
+                  ? "text read when you build, where readable"
+                  : "kept on this device, content not read"}
             </p>
           </div>
           <button

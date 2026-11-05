@@ -68,9 +68,10 @@ for (const button of document.querySelectorAll("[data-open-dialog]")) {
 
 // Local native overlay enhancements, shared with the app.
 import { connectPopover, connectTooltip } from "../behaviors/overlays.js";
+const tooltipDisposers = new WeakMap();
 for (const trigger of document.querySelectorAll("[data-tooltip]")) {
   const panel = document.getElementById(trigger.dataset.tooltip);
-  if (panel) connectTooltip(trigger, panel);
+  if (panel) tooltipDisposers.set(trigger, connectTooltip(trigger, panel));
 }
 for (const trigger of document.querySelectorAll("[data-popup]")) {
   const panel = document.getElementById(trigger.dataset.popup);
@@ -145,3 +146,45 @@ document.querySelector("[data-example-review]")?.addEventListener("submit", (eve
   document.querySelector("[data-example-review-status]").textContent = pending ? "Keep or remove each detail first." : "Example card checked. Nothing was shared.";
 });
 document.querySelector("#review-name")?.addEventListener("input", (event) => { document.querySelector("[data-example-preview]").textContent = event.currentTarget.value || "Your initiative"; });
+
+// Need/offer review examples keep their state within the current page.
+let askTooltipId = 0;
+for (const list of document.querySelectorAll("[data-ask-demo]")) {
+  const count = () => { list.querySelector("[data-ask-demo-count]").textContent = `${[...list.querySelectorAll("[data-ask-demo-item]")].filter(item => item.querySelector("[data-ask-demo-removed]").hidden).length} of 5`; };
+  for (const item of list.querySelectorAll("[data-ask-demo-item]")) {
+    const card = item.querySelector("[data-ask-demo-card]"), editor = item.querySelector("[data-ask-demo-editor]"), removed = item.querySelector("[data-ask-demo-removed]");
+    const keep = item.querySelector("[data-ask-demo-keep]"), change = item.querySelector("[data-ask-demo-change]");
+    const confirm = () => { delete card.dataset.pencil; card.dataset.kind = location.pathname.includes("offers") ? "offer" : "need"; card.querySelector("[data-ask-demo-source]").textContent = "Kept by you"; keep.disabled = true; keep.textContent = "Kept"; };
+    keep.addEventListener("click", () => { confirm(); change.focus(); });
+    change.addEventListener("click", () => {
+      const current = new Set([...card.querySelectorAll(".rc-tag[data-capital]")].map(tag => tag.dataset.capital));
+      for (const check of editor.querySelectorAll('input[name="kind"]')) check.checked = current.has(check.value);
+      card.hidden = true; editor.hidden = false; editor.elements.title.focus();
+    });
+    editor.addEventListener("submit", event => {
+      event.preventDefault(); const selected = [...editor.querySelectorAll('input[name="kind"]:checked')];
+      editor.querySelector("[data-ask-demo-error]").hidden = !!selected.length;
+      if (!selected.length) return;
+      card.querySelector("[data-ask-demo-title]").textContent = editor.elements.title.value;
+      const tags = card.querySelector("[data-ask-demo-tags]");
+      for (const trigger of tags.querySelectorAll("[data-tooltip]")) tooltipDisposers.get(trigger)?.();
+      tags.replaceChildren();
+      for (const check of selected) {
+        const [title, ...meaning] = check.parentElement.textContent.trim().split(":");
+        const li = document.createElement("li"), wrap = document.createElement("span"), trigger = document.createElement("button"), tag = document.createElement("span"), tile = document.createElement("span"), panel = document.createElement("span");
+        wrap.className = "rc-tooltip-wrap"; trigger.className = "rc-tooltip-trigger"; trigger.type = "button";
+        panel.className = "rc-tooltip"; panel.id = `ask-demo-tip-${++askTooltipId}`; panel.setAttribute("popover", "hint"); panel.textContent = meaning.join(":").trim();
+        trigger.dataset.tooltip = panel.id; trigger.setAttribute("interestfor", panel.id);
+        tag.className = "rc-tag"; tag.dataset.capital = check.value; tile.className = "rc-tile"; tile.setAttribute("aria-hidden", "true"); tile.textContent = title.slice(0, 2);
+        tag.append(tile, document.createTextNode(title)); trigger.append(tag); wrap.append(trigger, panel); li.append(wrap); tags.append(li);
+        tooltipDisposers.set(trigger, connectTooltip(trigger, panel));
+      }
+      card.querySelector(".rc-ask-terms").textContent = `${editor.elements.scope.value}, Gift or exchange`;
+      confirm(); editor.hidden = true; card.hidden = false; change.focus();
+    });
+    item.querySelector("[data-ask-demo-cancel]").addEventListener("click", () => { editor.hidden = true; card.hidden = false; change.focus(); });
+    item.querySelector("[data-ask-demo-remove]").addEventListener("click", () => { card.hidden = true; removed.hidden = false; count(); removed.querySelector("button").focus(); });
+    item.querySelector("[data-ask-demo-undo]").addEventListener("click", () => { card.hidden = false; removed.hidden = true; count(); change.focus(); });
+  }
+}
+document.querySelector("[data-finish-demo-copy]")?.addEventListener("click", () => { const field = document.querySelector("[data-finish-demo-text]"); field.hidden = false; field.querySelector("textarea").focus(); field.querySelector("textarea").select(); });
