@@ -75,3 +75,51 @@ Status: `open` while unanswered, `proposed` until the council or the maker confi
 ## DL-018: The save prompt is inline, once per seam
 
 **Status:** proposed. Saving appears as a panel in the page flow, after a person has seen value, never as a modal or wall. The panel is the same pattern everywhere. A dismissed prompt stays dismissed. See [08-accounts-and-saving.md](../../docs/platform/08-accounts-and-saving.md).
+
+## Prototype review placement, 4 November 2026
+
+The entries below place the maker's two [prototype reviews](../../docs/platform/prototype/review-decisions.md) for Step 0. `locked` records a design choice confirmed by the maker on 3 or 4 November; it does not claim that a pattern or test exists. Product-wide choices remain `proposed` for council confirmation. Pattern guidance changes with its implementation from step 1 onward; technical contracts need the follow-ups tracked in the review decisions. Earlier entries remain as history.
+
+## DL-019: Partners are for shared initiatives
+
+**Status:** proposed. Review row 18; council confirmation is [D27](../../docs/platform/open-decisions.md#for-the-council), with usability evidence in T8. Drafts and private initiatives get funding and partner-match counts in a share card, including counts in team slots. Names, individual cards, reasons and introductions open after sharing, not saving or signing in. Private initiatives never appear as candidates for others. Public initiatives remain browsable. Supersedes the earlier teaser and veiled-card presentation in the [PRD R16](../../docs/platform/04-prd.md#7-functional-requirements) and [saving plan](../../docs/platform/08-accounts-and-saving.md#lifecycle).
+
+## DL-020: Two ways to be on Weave
+
+**Status:** proposed. Review row 17; council confirmation is [D26](../../docs/platform/open-decisions.md#for-the-council). "Private, for finding funding" is the default; "Shared with the community" provides a public page and directory entry. This replaces the signed-in-only middle level, while onward network sharing stays separate and off by default. Withdrawn and steward-hidden remain lifecycle and moderation states. See [PRD R27](../../docs/platform/04-prd.md#7-functional-requirements) and [08](../../docs/platform/08-accounts-and-saving.md#lifecycle). The technical specification and schema must be aligned after confirmation; open introductions when returning to private remain D31.
+
+## DL-021: One email door, with saving where the reason is
+
+**Status:** proposed. Review rows 19 and 20; council confirmation, including single-fund reminders in Phase 0, is [D28](../../docs/platform/open-decisions.md#for-the-council). Save, share, remind and introduce save the current initiative to the verified email and resume the action without asking again when signed in. Sharing and introductions retain their explicit confirmations. Finish and Partners before sharing keep the email field and code step in the share card that explains the benefit. Refines DL-018's inline offer: unsolicited prompts stay inline and declined prompts stay declined; explicitly opened small tasks follow DL-027. See [08's flow](../../docs/platform/08-accounts-and-saving.md#the-flow).
+
+## DL-022: Describing is a conversation led by voice
+
+**Status:** locked (maker, 4 November 2026). Review row 13. One short question at a time; a large Speak button first when available, typing below, and files or links available throughout. Words remain editable and the card fills in beside the conversation. Build my card reads the gathered input on the device, then opens the check step with derived details in pencil. Keyword and manual paths work without a downloaded model. Replaces the version 3 form and live preview. See [PRD 6.1 and 6.2](../../docs/platform/04-prd.md#61-principles). The fixed-script versus model-chosen question policy remains D36; Conversation and Composer patterns arrive in step 3.
+
+## DL-023: Needs and offers carry every applicable kind, five of each at most
+
+**Status:** locked (maker, 4 November 2026). Review rows 14 and 15. Need and offer cards appear beside the conversation with Keep, Change and Remove, a counter and a maximum of five of each. If extraction hears more, show the first five and say so. Every applicable kind is shown alike and selectable; there is no primary kind. See [PRD 6.2 and R3](../../docs/platform/04-prd.md#62-the-three-step-conversation). Step 4 places Ask card guidance and aligns the technical contracts, which currently allow six cards and at most four kinds per card.
+
+## DL-024: One filter bar and separate list pages
+
+**Status:** locked (maker, 4 November 2026). Review rows 3 and 4. Navigation is Home, Partners, Funding and Initiatives; Partners and Funding are pages, never tabs. Every list has search, filter menus, sort and removable chips with a result count. Support searches needs, offers or both; Partners adds "Offers what you need" and "Needs what you offer" once a person has an initiative. See [PRD 6.3](../../docs/platform/04-prd.md#63-what-the-user-sees-after-finishing). Step 1 replaces Directory filters with the Filter bar pattern. Initiatives versus Directory remains the T9 naming test.
+
+## DL-025: Team slots for several partners per fund
+
+**Status:** locked (maker, 4 November 2026). Review row 21. A fund lists its partner requirements as slots, with candidates per ask, a team fit explaining the selections and one action requesting introductions to the picks. Funding cards say how many asks the list could cover. Counts only are shown for private initiatives, under DL-019; fit is never eligibility. Extends [PRD R14](../../docs/platform/04-prd.md#7-functional-requirements). Structured asks and the scoring contract remain [D29](../../docs/platform/open-decisions.md#for-the-builders); labelled fixtures stand in until decided. Step 5 places the pattern and reconciles the current two-partner scoring limit.
+
+## DL-026: The eight kinds by their own names
+
+**Status:** locked (maker, 4 November 2026). Review row 10. Titles use Living, Material, Intellectual, Experiential, Social, Financial, Cultural and Spiritual, with the plain meaning beneath and more in a tooltip. This supersedes DL-014 only for these eight titles; other plain-name guidance remains. Test framework names against plain labels in [T3](../../docs/platform/open-decisions.md#waiting-on-people). Step 2 updates VOICE.md with the home pattern; the current table is still pending that change.
+
+## DL-027: Tooltips, pop-ups for small tasks and settings in place
+
+**Status:** locked (maker, 4 November 2026). Review rows 11, 23 and 25. Compact signs have tooltip explanations on hover or focus, also available to screen readers; native hint popovers and `interestfor` need a fallback where unsupported. Sign in, save, share, delete, What we store and the assistant record open over the current page, as dialogs on wide screens and bottom sheets on phones. Finish's unsolicited save prompt stays inline. This supersedes DL-018's blanket modal exclusion only for explicitly opened tasks. Settings change in place, with sign-out and deletion under Leave at the bottom and membership in the footer. COMPONENTS.md's Code panel and Dialog limits, the app dialect and the related checklist rules are still pending their patterns in steps 1, 7 and 8.
+
+## DL-028: No decorative labels and a footer on every page
+
+**Status:** locked (maker, 4 November 2026). Review rows 6 and 8. A heading and one line replace decorative kickers or eyebrows; keep a sentence-case label only when it carries a fact the heading cannot. Every page has the Weave, Your data and Regen Commons footer links; focused steps use a slim row. Step 1 places this in DESIGN.md, VOICE.md, COMPONENTS.md and the footer pattern. This narrows the use of Eyebrow and DL-010's capital record label; it does not remove useful factual labels.
+
+## DL-029: Layout and motion from the first review
+
+**Status:** locked (maker, 3 November 2026; retained 4 November). Review rows 1, 2, 5, 26, 27 and 28. Wide lists use card grids with columns of at least 18 rem, equal card heights and bottom-aligned actions. Pages share the logo's left edge; only the home hero and empty states centre. Two-line title space aligns fit lines. Fields and buttons share the large control height, and steps keep a steady height. Token-based transitions explain changes; all animation stops under reduced motion, including the home woven-thread backdrop, which becomes still. New screens start at the top with the heading focused and a short phone hero. Step 1 places layout, motion and review rules; step 2 builds the backdrop.
