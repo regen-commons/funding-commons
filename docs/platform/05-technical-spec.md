@@ -74,7 +74,7 @@ flowchart LR
 | Design system | Root `DESIGN.md` in the DesignMD format generates the tokens. The `packages/design-system` package (`@regen-commons/design-system`) holds layered CSS, fonts, brand and voice guides, and a pattern library. React components in `packages/app/src/ui` stay thin and render those classes | One source for the static library, the app and later the website. Website values are preserved and checked against a pinned copy. The website's component CSS is desktop-first, so it is not copied. See the [decision log](../../packages/design-system/decision-log.md) |
 | Agent guidance | `AGENTS.md`, skills, rules, hooks and checks, built before UI code | Most code is written by agents. See the [scaffolding plan](07-agent-scaffolding.md) |
 | Backend | Supabase (Postgres 17, pgvector, PostGIS, Auth, Storage, Edge Functions, pg_cron) plus Vercel Node functions for anything that needs server-held secrets or outbound calls | One trust boundary for data and auth; Vercel for the app shell and proxies |
-| Auth | Supabase Auth email one-time code, verified from the browser with `verifyOtp`, `shouldCreateUser: true` for the platform | Same identity pool as the steward desk; code-first avoids magic-link breakage in mobile mail clients |
+| Auth | Supabase Auth email one-time code, verified by the same-origin account API; user creation enabled for the platform | Same identity pool as the steward desk; code-first avoids magic-link breakage in mobile mail clients |
 | Email | Resend through the Supabase Send Email hook (auth mail) and the Resend REST API from Edge Functions (pulse, intros, notices) | One React Email pipeline, idempotency keys, tags, per-subdomain reputation |
 | Hosting | New Vercel project in the existing Regen Commons team, on Hobby now and Pro once needed, with its root directory set to `packages/app`; `weave.regencommons.com` by CNAME; Node runtime (not Edge) for AI and share proxies. The existing project keeps the repository root and serves `funding-commons.vercel.app` from `dist/` until the redirect in section 15 | Same platform and team as the website, Funding Commons and the current agent. Hobby is for non-commercial use only, so the team moves to Pro (USD 20 per developer seat) once grant money pays a builder. Edge runtime is deprecated by Vercel and capped at 25 s to first byte |
 | Licence | AGPL-3.0 for code (council to confirm); CC BY 4.0 for public data | AGPL keeps the option to import Coop modules; CLC software is also AGPL |
@@ -347,10 +347,17 @@ create table weave.outbox (
 
 ## 5. Identity and access
 
+The full target below is being delivered in slices. The November 5 private connection
+uses Settings for sign-in and explicit save/load. Its [contract and release gates](08-accounts-and-saving.md#private-account-connection)
+supersede the earlier browser SDK, automatic save-on-sign-in and email-hook prerequisites
+for this slice. The website-owned migration adds private-only tables and commands;
+this document's broader schema remains a target for later migrations.
+
+
 - Saving and sign-in are one flow, described in [saving and accounts](08-accounts-and-saving.md). No row exists until a code is confirmed, and the first row is created by a command that takes the local draft ID as its idempotency key, so a retry cannot duplicate it. Local drafts are merged at sign-in without overwriting.
 - Sign-in: `supabase.auth.signInWithOtp({ email, options: { shouldCreateUser: true } })` then `verifyOtp({ email, token, type: 'email' })`. The UI is code-first (six or eight digits as configured project-wide; the project currently uses eight-digit codes with a one-hour expiry). A secondary link with `token_hash` to `/auth/confirm` is included for people who prefer tapping. Rate limits: Supabase's per-IP limits plus the hook's own sender limit; the app throttles resend to once per 60 s.
 - Email template: the project's OTP template is shared with the steward desk and currently worded for stewards. Decision: move auth mail to the Send Email hook so the template can branch on `email_data.redirect_to` host (platform vs desk) and on locale, with the website's branded table layout.
-- Sessions: supabase-js in the browser (publishable key, RLS enforced). The steward desk keeps its host-only cookie model; the two do not share a session, which is acceptable because stewards use the desk on `regencommons.com`.
+- Sessions: the private connection uses a Secure HttpOnly host-only cookie through `/api/account`, with the publishable key and person JWT sent from the server to Supabase. Sessions last at most one hour, with reauthentication and no stored refresh token. The apps share identities but keep separate host sessions. See the [implemented private contract](08-accounts-and-saving.md#private-account-connection).
 - Access tiers (R28): a `weave.settings` row `access_tier in ('open','members_first','members_only')` read by policies through a stable function; the council changes it without a deploy.
 - Membership link (R26): an account is not membership. "Apply for membership", offered in context and never straight after saving, opens `regencommons.com/join` with the initiative's name, location, links and description pre-filled through a signed, short-lived handoff token; after approval the steward desk links `weave.profiles.member_id` (extension of the existing `link-profile` command and `member_events` audit).
 

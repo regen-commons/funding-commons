@@ -8,12 +8,12 @@ framework. It is the root directory of the Weave Vercel project. Read the
 
 The route table in [src/routes.ts](src/routes.ts) owns pages and their section cues.
 Home, frame, lists, the three-step intake through Finish, Funding and opportunity
-detail are built. Initiative details and account flows follow in later steps. Development fixtures require an
+detail are built. Initiative details follow in later steps. Settings now provides the private account connection. Development fixtures require an
 explicit `?fixture=draft` (or visitor, private, shared); `view` selects Describe
 states; `intake` selects Needs, Offers and Finish examples. Without that parameter,
 development uses the real device draft too.
 `import.meta.env.DEV` removes invented records and service simulations from
-production. Account saving still needs its adapter.
+production. Account saving uses the same-origin API and stays unavailable until its server configuration is enabled.
 
 ## Structure
 
@@ -41,8 +41,7 @@ production. Account saving still needs its adapter.
   except on home, whose tab shows the product name alone.
 - TypeScript follows the [TypeScript rules](../../.claude/rules/typescript.md).
 - The theme follows the system. There is no theme toggle in the header.
-- Drafts stay on the device until the person saves. Nothing calls a third party:
-  the content security policy in `vercel.json` allows only this origin. Widen it only
+- Drafts stay on the device until the person saves. The browser uses same-origin account endpoints; the server calls Supabase only after configuration. The content security policy in `vercel.json` allows only this origin. Widen it only
   with the change that needs it, such as the Supabase project or model files.
 - Keep raw unfinished answers, links and review edits in the device draft. Compare
   stored revisions before writing; preserve both tabs' words on a conflict. Storage

@@ -123,3 +123,15 @@ The entries below place the maker's two [prototype reviews](../../docs/platform/
 ## DL-029: Layout and motion from the first review
 
 **Status:** locked (maker, 3 November 2026; retained 4 November). Review rows 1, 2, 5, 26, 27 and 28. Wide lists use card grids with columns of at least 18 rem, equal card heights and bottom-aligned actions. Pages share the logo's left edge; only the home hero and empty states centre. Two-line title space aligns fit lines. Fields and buttons share the large control height, and steps keep a steady height. Token-based transitions explain changes; all animation stops under reduced motion, including the home woven-thread backdrop, which becomes still. New screens start at the top with the heading focused and a short phone hero. Step 1 places layout, motion and review rules; step 2 builds the backdrop.
+
+## DL-030: Private account connection before further fixture steps
+
+**Status:** prepared for maker review, 5 November 2026. The maker asked for real
+sign-in, saving and reloading after Step 5. The narrow connection reuses native
+forms, notices, action bars and lists on Settings, reached through Account in the
+header and Save or load your card on Finish. Signing in reveals saved cards before
+a person chooses to save the device card or load one. Loading requires a confirmed
+device backup and offers restoration. No new CSS pattern or token is needed.
+This interim page entry differs from DL-027's contextual dialog; the full contextual
+flow remains later work. Sharing, introductions and data-control services stay
+outside this connection. See the [private contract](../../docs/platform/08-accounts-and-saving.md#private-account-connection).

@@ -99,6 +99,16 @@ export const ReviewEditorSchema = z.strictObject({
   wasKept: z.boolean(),
 });
 export type ReviewEditor = z.infer<typeof ReviewEditorSchema>;
+const AccountBindingSchema = z.strictObject({
+  id: z.string().uuid(),
+  owner: z.string().uuid(),
+  revision: z.number().int().nonnegative(),
+  contentKey: z.string().max(60000),
+});
+const AccountSyncSchema = z.strictObject({
+  saved: AccountBindingSchema.nullable(),
+  pending: AccountBindingSchema.extend({ requestId: z.string().uuid() }).nullable(),
+});
 export const DeviceDraftSchema = z.strictObject({
   version: z.literal(1),
   id: z.string().uuid(),
@@ -136,6 +146,7 @@ export const DeviceDraftSchema = z.strictObject({
   needs: AskStepSchema.default(emptyAskStep),
   offers: AskStepSchema.default(emptyAskStep),
   funding: FundingDetailsSchema.default(emptyFundingDetails),
+  account: AccountSyncSchema.default(() => ({ saved: null, pending: null })),
 });
 export type DeviceDraft = z.infer<typeof DeviceDraftSchema>;
 
@@ -179,6 +190,7 @@ export function newDraft(): DeviceDraft {
     needs: emptyAskStep(),
     offers: emptyAskStep(),
     funding: emptyFundingDetails(),
+    account: { saved: null, pending: null },
   };
 }
 export function revise(draft: DeviceDraft, change: Partial<DeviceDraft>, input = false): DeviceDraft {

@@ -1,11 +1,67 @@
 # Saving initiatives and accounts
 
-Status: proposal · Updated: 4 November 2026
+Status: proposed full flow; private connection prepared for review · Updated: 5 November 2026
 Companion documents: [PRD](04-prd.md) · [technical spec](05-technical-spec.md) · [DESIGN.md](../../DESIGN.md) · [example pages](../../packages/design-system/patterns/pages/finish.html)
 
 This Step 0 revision places [prototype decisions 17 to 20 and 24](prototype/review-decisions.md#saving-sharing-and-partners), with the small-task presentation from decision 23. Two ways to be on Weave, partners for shared initiatives and one email door remain council proposals in [D26 to D28](open-decisions.md#for-the-council), recorded as proposed in [DL-019 to DL-021](../../packages/design-system/decision-log.md#dl-019-partners-are-for-shared-initiatives). The technical specification and example pages still describe parts of the earlier flow; their follow-up changes are tracked in the review decisions. No schema, sign-in service or email has changed.
 
 People should give an email because it does something for them, not because a wall stops them. So saving is separate from sharing, and an email is only requested at the moment it helps. The rest of this document says how.
+
+## Private account connection
+
+The November 5 implementation connects a narrow private-saving flow to the existing
+Regen Commons Website Supabase project (`ztygpuzldujfsqrubxic`). It is prepared in
+review PRs and is disabled until release approval. The rest of this document remains
+the proposed full flow. This slice brings account saving forward from interface
+Step 7; it does not require finishing the remaining fixture screens first.
+
+- **Entry and choice.** Account in the header and Save or load your card on Finish
+  open Settings. Email verification reveals the account's saved cards before a person
+  chooses Save or Load. Signing in alone never sends the device card. This is an
+  interim in-page entry; the prototype's contextual dialog remains later work.
+- **Stored copy.** Save sends the checked initiative, kept needs and offers and kept
+  funding details only. Conversations, file bytes, open edits, assistant records and
+  inferred confidence stay on the device. All server records are private and owner
+  readable. Editors, public sharing, first-save mail, reminders and the membership
+  handoff are outside this connection.
+- **Sessions.** `/api/account` calls Supabase Auth and the `weave` RPCs using native
+  fetch, a publishable key and the person's access token. The token stays in a Secure,
+  HttpOnly, SameSite=Strict, host-only cookie for at most one hour. No refresh token
+  is retained. Reauthentication preserves the device draft. Browser storage holds
+  no Auth tokens; no Supabase SDK dependency or CSP widening is needed.
+- **Recovery.** A persisted request UUID and expected server revision make retries
+  idempotent and stale saves explicit. A lost response can be retried. Loading first
+  archives the complete current device draft and files in the same IndexedDB
+  transaction that replaces it. Settings can restore those backups. A quota or
+  conflicting tab stops replacement, preserving the visible words. Signing out
+  leaves device drafts and backups, as the UI explains for shared devices.
+- **Identity and mail.** The shared Auth pool creates accounts without creating
+  membership rows. Keep eight-digit codes and the current one-hour expiry. The
+  website PR proposes generic sign-in template wording that works for both apps;
+  it does not install the planned email hook or send a first-save email.
+
+Server-only variables for the **Weave Vercel project**, after approval:
+
+| Variable | Value |
+|---|---|
+| `WEAVE_ACCOUNTS_ENABLED` | `true` only after the migration, Data API and mail checks |
+| `WEAVE_SUPABASE_URL` | `https://ztygpuzldujfsqrubxic.supabase.co` |
+| `WEAVE_SUPABASE_PUBLISHABLE_KEY` | The project's publishable key, held in server settings |
+| `WEAVE_OTP_DIGITS` | `8`, matching the existing shared Auth setting |
+
+The website repository owns `20261105082413_weave_private_accounts.sql` and the
+[release instructions](https://github.com/regen-commons/regen-commons-site/blob/main/docs/weave-accounts.md).
+Review migration and app PRs together, obtain an independent second Auth/RLS review,
+then request approval for hosted migration, Data API schema exposure, shared email
+template, environment configuration and deployment. Do not expose `private`, use a
+service-role key or change existing website settings as a side effect. Disabling the
+app flag stops its account route; removing `weave` from exposed schemas also stops
+direct Data API access. Preserve stored rows during rollback.
+
+Local proof uses synthetic account HTTP responses and disposable PostgreSQL 17
+with Auth stubs. Hosted email delivery, Data API exposure, a second-browser hosted
+reload and the existing steward's sign-in still require authorized live proof.
+Supabase's current Auth docs were checked; the changelog endpoint returned HTTP 403.
 
 ## The decision
 
@@ -152,13 +208,13 @@ What the assistant did is also a pop-up: one summary line, then one row per step
 
 - **Schema proposal.** After council confirmation of D26, align the technical specification and migrations to `visibility in ('private','public')`, default `private`. A draft is not a database state. The spec still has the earlier three-value constraint; do not treat this document as an applied migration. `display_name` remains nullable, since no name is asked for. `digest_frequency` defaults to `off`.
 - **Row-level security proposal.** The owner and editors read private rows; shared rows can be read publicly and by stewards. Policy tests must reject a steward reading a private initiative and reject private initiatives as candidates in others' matches. Align policies with the confirmed visibility choice before implementation.
-- **Auth email.** The project's sign-in template is worded for stewards. Move to the Send Email hook before any public test, branching on the requesting app.
+- **Auth email.** Generic code wording is proposed for the private connection. The app-specific Send Email hook remains later work; template and delivery review are required before enabling this connection.
 - **Code length.** The project uses eight digits today. Six is easier on phones and safe with attempt limits. It is a project-wide setting, so the steward desk changes too. See the [open decisions](open-decisions.md).
-- **Creating users.** The Weave client sends `shouldCreateUser: true`. The steward desk stays as it is.
+- **Creating users.** The Weave server requests Auth OTP with `create_user: true`. The steward desk stays as it is.
 - **Shared limits.** Email rate limits and any captcha are project-wide, so public traffic can affect steward sign-in. Set limits with that in mind, and test them.
 - **Sending volume.** Every save sends a code and a first email. Resend's free tier allows 100 emails a day, so move to the paid tier (USD 20) when daily sends approach 100, or before a large public invitation.
 - **Draft merge.** On sign-in, compare local drafts with saved initiatives. Never overwrite. Use the local draft ID as an idempotency key, so a retry cannot create a duplicate.
-- **Session.** supabase-js keeps its session in `localStorage`, which relies on the strict content security policy in the spec.
+- **Session.** The private connection uses the HttpOnly cookie described above. The earlier browser `localStorage` session proposal is superseded.
 - **Mail-app round trip.** Keep the pending email and the action to resume in local storage, so returning from the mail app lands on the code step.
 
 ## What we measure

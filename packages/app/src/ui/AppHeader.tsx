@@ -37,13 +37,22 @@ export function AppHeader({
             ? "Saved"
             : status === "device"
               ? "Saved on this device only"
-              : status === "saving" ? "Saving on this device" : status === "memory" ? "Not saved on this device" : status === "conflict" ? "Draft changed in another tab" : "Nothing saved yet"}
+              : status === "saving"
+                ? "Saving on this device"
+                : status === "memory"
+                  ? "Not saved on this device"
+                  : status === "conflict"
+                    ? "Draft changed in another tab"
+                    : "Nothing saved yet"}
         </p>
-        {status === "account" && (
-          <Link className="rc-account" href={pathTo("settings")} aria-label="Your account and settings">
-            A
-          </Link>
-        )}
+        <Link
+          className="rc-button"
+          data-variant="quiet"
+          href={pathTo("settings")}
+          aria-label="Your account and settings"
+        >
+          Account
+        </Link>
       </div>
     </header>
   );

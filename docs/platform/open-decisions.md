@@ -102,3 +102,14 @@ Step 3 verifies a two-page synthetic PDF under the unchanged production CSP, inc
 ## Decided
 
 Nothing yet.
+
+## Private account connection, November 5
+
+The maker asked to merge interface Step 5 and connect real sign-in, saving and
+reloading before further fixture steps. The narrow implementation and proposed
+release settings are in [Saving and accounts](08-accounts-and-saving.md#private-account-connection).
+The website repository retains migration ownership. HttpOnly server sessions replace
+the earlier browser SDK proposal, with no dependency addition. All copies remain
+private. Migration, shared Auth template, exposed schema, environment changes and
+production deployment remain subject to approval after both PRs are reviewed.
+This does not resolve the open sharing, email-hook, editor or council policy decisions.
