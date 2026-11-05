@@ -66,6 +66,8 @@ Use the [five-minute review](../../../DESIGN.md#how-we-follow-them) for every UI
 - [ ] Needs and offers show a count out of five and every applicable kind alike. Overflow is explicit; removal frees a slot and Undo cannot exceed five. Empty steps can continue.
 - [ ] Manual entry retains earlier words and unfinished fields without running extraction. Finish requires checked steps and copies only the kept card data.
 - [ ] Finish shows no partner names to a private initiative, invents no live counts and offers no unconnected email or sharing controls.
+- [ ] Funding retains every catalog identity and exact program link. Visitors have no invented fit. Closed cycles, resources, unverified offers, missing screening data and source dates remain explicit.
+- [ ] Optional funding edits survive reload and validation errors. Team slots show counts only for private initiatives, count each requirement once and request each picked initiative once. Coverage is never eligibility.
 - [ ] Errors say what happened, keep what was typed and offer a next step. (K)
 
 ## Trust and saving

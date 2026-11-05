@@ -67,7 +67,9 @@ export default defineConfig({
         // code itself; without them a new version waits until every tab is closed.
         skipWaiting: true,
         clientsClaim: true,
-        globPatterns: ["**/*.{js,mjs,css,html,svg,woff2,webmanifest}"],
+        globPatterns: ["**/*.{js,mjs,css,html,svg,woff2,webmanifest}", "assets/*.json"],
+        // Only the imported public catalog release and screening assets, never device drafts.
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         navigateFallback: "/index.html",
         navigateFallbackDenylist: [/^\/api\//],
       },

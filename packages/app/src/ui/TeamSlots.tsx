@@ -1,0 +1,170 @@
+import { useEffect, useId, useRef, useState } from "react";
+import type { TeamAsk } from "../funding/team.ts";
+import { teamCoverage } from "../funding/team.ts";
+import { Fit } from "./Fit.tsx";
+export function TeamSlots({ asks, shared }: { asks: TeamAsk[] | null; shared: boolean }) {
+  const [selected, setSelected] = useState<string[]>([]),
+    [review, setReview] = useState(false),
+    [sent, setSent] = useState(false);
+  const dialog = useRef<HTMLDialogElement>(null),
+    id = useId();
+  useEffect(() => {
+    if (review) dialog.current?.showModal();
+    else dialog.current?.close();
+  }, [review]);
+  useEffect(() => {
+    if (!shared) {
+      setSelected([]);
+      setReview(false);
+      setSent(false);
+    }
+  }, [shared]);
+  if (!import.meta.env.DEV || asks === null)
+    return (
+      <section className="rc-stack">
+        <h2 className="rc-heading" data-size="section">
+          Stronger with a team
+        </h2>
+        <p>
+          Partner requirements have not been structured or checked for this call. Check the funder's published
+          terms.
+        </p>
+        <p className="rc-meta">No verified partner count is available for this call.</p>
+      </section>
+    );
+  const coverage = teamCoverage(asks, shared ? selected : []);
+  const candidates = [
+    ...new Map(asks.flatMap((ask) => ask.candidates).map((candidate) => [candidate.id, candidate])).values(),
+  ].filter((candidate) => coverage.chosen.includes(candidate.id));
+  return (
+    <section className="rc-stack" aria-labelledby={`${id}-heading`}>
+      <h2 className="rc-heading" data-size="section" id={`${id}-heading`}>
+        Stronger with a team
+      </h2>
+      <p className="rc-meta">
+        Fictional team requirements and coverage. These are not this funder's verified terms. Nothing is sent.
+      </p>
+      {!asks.length ? (
+        <p>This example asks for no partner. It does not establish eligibility.</p>
+      ) : (
+        <>
+          <ol className="rc-team-slots">
+            {asks.map((ask, index) => (
+              <li className="rc-team-slot" key={ask.id}>
+                <h3 className="rc-card-title">
+                  {index + 1}. {ask.label}
+                </h3>
+                {!ask.candidates.length ? (
+                  <p className="rc-meta">Nobody in the example list yet.</p>
+                ) : !shared ? (
+                  <p className="rc-meta">
+                    {new Set(ask.candidates.map((candidate) => candidate.id)).size} on the example list could
+                    do this. Names stay private.
+                  </p>
+                ) : (
+                  <ul className="rc-team-candidates">
+                    {ask.candidates.map((candidate) => (
+                      <li key={candidate.id}>
+                        <label className="rc-team-candidate">
+                          <input
+                            className="rc-check"
+                            type="checkbox"
+                            checked={selected.includes(candidate.id)}
+                            onChange={() => {
+                              setSent(false);
+                              setSelected((current) =>
+                                current.includes(candidate.id)
+                                  ? current.filter((value) => value !== candidate.id)
+                                  : [...current, candidate.id],
+                              );
+                            }}
+                          />
+                          <span>
+                            <strong>{candidate.name}</strong>
+                            <span className="rc-meta">{candidate.reason}</span>
+                          </span>
+                        </label>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ol>
+          {shared ? (
+            <div className="rc-team-coverage">
+              <Fit
+                level={
+                  coverage.covered === coverage.total ? "strong" : coverage.covered ? "good" : "possible"
+                }
+                label={`Example team: ${coverage.covered === coverage.total ? "Strong fit" : coverage.covered ? "Good fit" : "Possible fit"}`}
+                explanation="Example coverage only. Team scoring is still being agreed. This never changes the solo fit or establishes eligibility."
+              />
+              <p role="status">
+                {coverage.covered} of {coverage.total} example asks covered by {coverage.chosen.length}{" "}
+                {coverage.chosen.length === 1 ? "initiative" : "initiatives"}.
+              </p>
+              <p className="rc-meta">
+                One initiative can cover several asks and is requested once. This does not establish
+                eligibility.
+              </p>
+              {coverage.chosen.length > 0 && !sent && (
+                <button
+                  className="rc-button"
+                  data-variant="primary"
+                  type="button"
+                  onClick={() => setReview(true)}
+                >
+                  Review example introductions
+                </button>
+              )}
+              {sent && <p role="status">Example introductions recorded in this page. Nothing was sent.</p>}
+            </div>
+          ) : (
+            <p className="rc-meta">
+              Partners are for shared initiatives. Saving and sharing are not connected yet.
+            </p>
+          )}
+        </>
+      )}
+      <dialog
+        ref={dialog}
+        className="rc-dialog"
+        aria-labelledby={`${id}-review`}
+        onCancel={() => setReview(false)}
+        onClose={() => setReview(false)}
+      >
+        <div className="rc-dialog-body">
+          <h2 className="rc-dialog-title" id={`${id}-review`}>
+            Review example introductions
+          </h2>
+          <p>
+            A live request would share your initiative and the opportunity with these partners so they can
+            reply. This example sends nothing.
+          </p>
+          <ul className="rc-reasons">
+            {candidates.map((candidate) => (
+              <li key={candidate.id}>{candidate.name}</li>
+            ))}
+          </ul>
+          <div className="rc-action-bar">
+            <button
+              className="rc-button"
+              data-variant="primary"
+              type="button"
+              onClick={() => {
+                setSent(true);
+                setReview(false);
+              }}
+            >
+              Confirm example request
+            </button>
+            <button className="rc-button" data-variant="quiet" type="button" onClick={() => setReview(false)}>
+              Cancel
+            </button>
+          </div>
+        </div>
+      </dialog>
+    </section>
+  );
+}

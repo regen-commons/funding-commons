@@ -26,10 +26,10 @@ export function usePathname(): string {
   );
 }
 
-export function navigate(to: string): void {
+export function navigate(to: string, replace = false): void {
   if (to === window.location.pathname + window.location.search) return;
   const update = () => {
-    window.history.pushState(null, "", to);
+    window.history[replace ? "replaceState" : "pushState"](null, "", to);
     for (const listener of listeners) listener();
   };
   if (document.startViewTransition && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {

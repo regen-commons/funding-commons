@@ -4,7 +4,7 @@ import { CAPITALS } from "../capitals.ts";
 import { STAGE_LABELS, WORK, type ListFilters } from "../listing.ts";
 import { Icon } from "./Icon.tsx";
 
-function Menu({ label, count, children }: { label: string; count: number; children: ReactNode }) {
+export function FilterMenu({ label, count, children }: { label: string; count: number; children: ReactNode }) {
   const id = useId();
   const trigger = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLDivElement>(null);
@@ -125,7 +125,7 @@ export function FilterBar({
       </form>
       <div className="rc-filter-controls">
         {groups.map((group) => (
-          <Menu key={group.key} label={group.label} count={filters[group.key].length}>
+          <FilterMenu key={group.key} label={group.label} count={filters[group.key].length}>
             {group.key === "support" && !funding && (
               <div className="rc-field">
                 <label htmlFor={`${id}-support-in`}>Look in</label>
@@ -154,10 +154,10 @@ export function FilterBar({
                 {option.label}
               </label>
             ))}
-          </Menu>
+          </FilterMenu>
         ))}
         {partners && personalized && (
-          <Menu label="Your initiative" count={filters.relation === "any" ? 0 : 1}>
+          <FilterMenu label="Your initiative" count={filters.relation === "any" ? 0 : 1}>
             {(
               [
                 ["any", "Any connection"],
@@ -176,7 +176,7 @@ export function FilterBar({
                 {label}
               </label>
             ))}
-          </Menu>
+          </FilterMenu>
         )}
         <div className="rc-field">
           <label htmlFor={`${id}-sort`}>Sort</label>

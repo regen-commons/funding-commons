@@ -30,6 +30,9 @@ export function hasDraft(draft: DeviceDraft): boolean {
 }
 export function draftText(draft: DeviceDraft): string {
   return [
+    draft.funding.editor ? `Unfinished funding details: ${JSON.stringify(draft.funding.editor)}` : "",
+    `Funding details: ${JSON.stringify(draft.funding.form)}`,
+    `Funding requirement answers: ${JSON.stringify(draft.funding.programAnswers)}`,
     stepText(draft.needs),
     stepText(draft.offers),
     ...draft.turns.map((turn) => `${turn.prompt}\n${turn.text}`),

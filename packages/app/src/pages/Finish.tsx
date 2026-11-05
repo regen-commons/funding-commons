@@ -14,6 +14,7 @@ import { ListingCard } from "../ui/ListingCard.tsx";
 import { RecordPreview } from "../ui/RecordPreview.tsx";
 import { Section } from "../ui/Section.tsx";
 import { ShareCard } from "../ui/ShareCard.tsx";
+import { FirstFunding } from "../ui/FirstFunding.tsx";
 import { Stack, StepLayout } from "../ui/layouts.tsx";
 import { Tag } from "../ui/Tag.tsx";
 
@@ -152,7 +153,7 @@ export function Finish({ fixture }: { fixture?: FixtureContext }) {
               ) : undefined
             }
           >
-            {loading ? (
+            {!examples ? <FirstFunding /> : loading ? (
               <>
                 <p className="rc-guide-status" role="status">
                   Example: comparing your card with funding

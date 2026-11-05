@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "../validation.ts";
 import { AskChunkSchema, AskExtractionSchema } from "./contracts.ts";
 import { keywordExtraction } from "./keywords.ts";
 const RequestSchema = z.strictObject({ kind: z.enum(["needs", "offers"]), chunks: z.array(AskChunkSchema) });

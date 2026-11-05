@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "../validation.ts";
 export const MAX_FILE_BYTES = 25 * 1024 * 1024;
 export const TurnSchema = z.strictObject({
   id: z.string().uuid(),

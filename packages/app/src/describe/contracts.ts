@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "../validation.ts";
 
 import { TurnSchema, AttachmentSchema, FileReadSchema, LinkSchema, type Turn } from "./source-contracts.ts";
 export {
@@ -11,6 +11,7 @@ export {
   type Attachment,
 } from "./source-contracts.ts";
 import { AskStepSchema, emptyAskStep } from "../intake/contracts.ts";
+import { FundingDetailsSchema, emptyFundingDetails } from "../funding/contracts.ts";
 export const StageSchema = z.enum(["seed", "sprout", "flowering", "tree"]);
 export const LensSchema = z.enum(["art_culture", "research", "technology", "place_based", "funders"]);
 export const DerivedKeySchema = z.enum(["stage", "lenses", "themes", "beneficiaries", "languages"]);
@@ -134,6 +135,7 @@ export const DeviceDraftSchema = z.strictObject({
   mode: z.enum(["conversation", "fields"]),
   needs: AskStepSchema.default(emptyAskStep),
   offers: AskStepSchema.default(emptyAskStep),
+  funding: FundingDetailsSchema.default(emptyFundingDetails),
 });
 export type DeviceDraft = z.infer<typeof DeviceDraftSchema>;
 
@@ -176,6 +178,7 @@ export function newDraft(): DeviceDraft {
     mode: "conversation",
     needs: emptyAskStep(),
     offers: emptyAskStep(),
+    funding: emptyFundingDetails(),
   };
 }
 export function revise(draft: DeviceDraft, change: Partial<DeviceDraft>, input = false): DeviceDraft {

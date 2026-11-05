@@ -461,6 +461,12 @@ Score = f × (0.35·H(c(A→B), c(B→A)) + 0.20·max(c(A→B), c(B→A)) + 0.20
 
 Reuse the existing Funding Commons rubric unchanged: thematic fit (0 to 100 from shared specific terms and semantic similarity with the published anchors), readiness (next practical check) and research priority (purpose, geography, access, award points with the documented caps). The initiative's eligibility details map onto the existing project fields (work countries, benefit countries, applicant base, registration, applicant type, funding instruments, goal range). Program condition answers remain per initiative and per source date.
 
+Step 5's [catalog adapter](../../packages/app/src/funding/catalog.ts) validates the committed release and retains all 699 funders, 727 researched programs and 41 overview records: 768 browseable entries. The app imports the root matching modules without moving or copying them, preserving the live site. [Local evaluation](../../packages/app/src/funding/engine.ts) uses the full corpus index and the unchanged rubric for each program; parity tests compare the live engine's best results. The current adapter supplies keyword evidence only. Semantic downloads remain behind the existing runtime, hosting and CSP gates; no score is invented for visitors.
+
+Optional funding details and raw unfinished edits live in the device draft, separate from intake source revisions. Blank country, applicant, instrument and budget facts remain unknown; typed locations are not mapped into eligibility facts. Program answers keep their exact condition key and source date. Missing screening data invokes the rubric's provisional limits. Public JSON assets are precached with the app, including the 3.6 MB catalog; the per-file cache ceiling is 4 MiB. Private drafts never enter that asset cache. Stale output is discarded when the initiative or kept funding details change.
+
+The shared [validation runtime](../../packages/app/src/validation.ts) selects Zod's interpreter in both the page and Workers. Its optional JIT probe triggers an `eval` CSP violation even when the library catches the error. The interpreter avoids that probe; a blocked-code-generation regression test and a startup CSP listener verify the unchanged policy.
+
 ### 7.4 Partnership score (R14)
 
 For an opportunity O and subject A with a solo score capped by at least one gap:
@@ -468,7 +474,9 @@ For an opportunity O and subject A with a solo score capped by at least one gap:
 1. Enumerate gaps from the existing eligibility and readiness output: a prerequisite category (applicant model, beneficiary, leadership, history, partner), a geographic condition (work country, applicant base, registration, local component), an instrument mismatch, or a thematic coverage gap (program focus terms not covered by A's themes).
 2. Candidate partners B are public initiatives whose attributes close at least one gap (registration country in the required set, lens required by the program such as research or place-based, themes covering the missing focus terms) and whose partner score with A is at least "partial".
 3. Combined profile: union of themes, places, lenses; eligibility details from whichever partner satisfies each check. Re-run the solo rubric on the combined profile to get fit and priority; the cap that B lifts is lifted only if B's attribute satisfies that specific rule.
-4. Partnership score = 0.6 × combined research priority (0 to 100, normalised) + 0.25 × partner score (A,B) + 0.15 × gap coverage ratio. Show "stronger with B because: closes <rule>, brings <lens>, works in <place>". At most two partners per opportunity; triads only when two gaps need two different partners.
+4. The earlier pairwise proposal was 0.6 × combined research priority (0 to 100, normalised) + 0.25 × partner score (A,B) + 0.15 × gap coverage ratio. It is not a live scoring contract for team slots. The prototype review supersedes its two-partner presentation limit: requirements can have several selected initiatives. D29 must settle sourced requirements and explained multi-partner scoring before that integration.
+
+Step 5 implements [Team slots](../../packages/app/src/ui/TeamSlots.tsx) as development-only fixtures, separated from real catalog terms. Coverage counts each requirement once, even if several picks meet it, and de-duplicates selected initiatives across requirements. A single initiative may cover several asks and receives one example request after review. This does not lift any eligibility cap or rerun the solo score. Private fixtures show counts, never names; production has unknown requirements/counts and no introduction control. Live requests and reminders need the Step 7 adapter.
 
 ### 7.5 Computation and fairness (R15, R16)
 
@@ -551,7 +559,7 @@ The existing desk (`regencommons.com/admin`) gains a `weave` section group using
 
 ## 15. Migration from the current site
 
-1. The static directory becomes a route in the new app; the data files, embedding runtime and matching modules move into `packages/app/` with their tests. Deep links `?fund=<id>` keep working through a redirect map.
+1. The directory is now the app's Funding route. During Step 5, the live site's data and matching modules stay at the root and are imported by the app, with parity tests; moving them would break the still-running site. The app bundles the committed public data as hashed assets. Legacy `?fund=<id>&program=<id>` links resolve to the exact app program; unknown program IDs never substitute another call. The embedding runtime is not moved or activated by this step.
 2. Local project profiles (`funding-commons:saved:v2`) are importable as a draft initiative; favourites become saved opportunity matches; notes stay local.
 3. The September 2026 hub doc rows (seven initiatives, eight recipes) are imported as unclaimed records and shown in pencil; owners claim them by signing in with the contact email recorded in the doc.
 4. The research workflow and its tests stay as they are; only the import target changes (JSON release plus the `weave.programs` load).

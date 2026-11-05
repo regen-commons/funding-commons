@@ -188,3 +188,5 @@ for (const list of document.querySelectorAll("[data-ask-demo]")) {
   }
 }
 document.querySelector("[data-finish-demo-copy]")?.addEventListener("click", () => { const field = document.querySelector("[data-finish-demo-text]"); field.hidden = false; field.querySelector("textarea").focus(); field.querySelector("textarea").select(); });
+
+for (const input of document.querySelectorAll('[data-team-example]')) input.addEventListener('change', () => { const picked = [...document.querySelectorAll('[data-team-example]:checked')]; document.querySelector('[data-team-example-status]').textContent = picked.length ? '1 of 2 example asks covered by 1 initiative. This does not establish eligibility.' : 'Pick a partner to see what they cover.'; });

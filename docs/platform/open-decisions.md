@@ -66,6 +66,8 @@ Prototype implementation questions:
 | D35 | How does per-field cloud consent in R10 fit the prototype's session-level dialog? | Keep R10's explicit consent and ledger requirements. The prototype omits per-field selection; agree the sent-field preview, scope, withdrawal and local/server record boundary before a cloud adapter is connected. Do not silently broaden session consent. | Council's data-policy owner and technical specification owner | Before live cloud fallback | Open |
 | D36 | Are conversation questions a fixed short script or chosen by the on-device model from missing details? | Begin with the prototype's fixed short script as a labelled default that also works in keyword mode. Compare model-chosen questions only after testing confirms they improve completion without asking for extra fields or blocking on a download. | Maker and technical specification owner | Step 3 | Open |
 
+Step 5 implements D29 with labelled development requirements and coverage, not sourced live asks or an approved team score. Counts stay unknown for real catalog calls. D34 uses the full unranked catalog until a checked initiative is available. The catalog steward and maker still own confirmation; this implementation does not close either decision. Legacy saved-profile, favourite and note import across the two site origins remains migration work alongside the Step 7 saving adapter; the app does not read another origin's local storage.
+
 ### Step 3 runtime proposal for D32
 
 The maker approved these two narrow implementation changes for Step 3:

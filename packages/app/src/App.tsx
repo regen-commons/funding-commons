@@ -8,11 +8,14 @@ import { CheckCard } from "./pages/CheckCard.tsx";
 import { Home } from "./pages/Home.tsx";
 import { AskStep } from "./pages/AskStep.tsx";
 import { Finish } from "./pages/Finish.tsx";
+import { Funding } from "./pages/Funding.tsx";
+import { Opportunity } from "./pages/Opportunity.tsx";
+import { legacyFundingHref } from "./funding/catalog.ts";
 import { ListPage } from "./pages/ListPage.tsx";
 import { RecordDetail } from "./pages/RecordDetail.tsx";
 import { Settings } from "./pages/Settings.tsx";
 import { NotFound } from "./pages/NotFound.tsx";
-import { usePathname } from "./router.tsx";
+import { navigate, usePathname } from "./router.tsx";
 import { documentTitle, matchRoute, type Route } from "./routes.ts";
 import { Page } from "./ui/Page.tsx";
 import { FixtureControls } from "./ui/FixtureControls.tsx";
@@ -29,7 +32,6 @@ function content(route: Route, fixture?: FixtureContext) {
     case "offers":
       return <AskStep key={route.name} kind={route.name} fixture={fixture} />;
     case "partners":
-    case "funding":
     case "initiatives":
       return (
         <ListPage
@@ -40,14 +42,21 @@ function content(route: Route, fixture?: FixtureContext) {
           subject={import.meta.env.DEV && fixture?.scenario !== "visitor" ? EXAMPLE_SUBJECT : undefined}
         />
       );
-    case "initiative-detail":
+    case "funding":
+      return <Funding fixture={fixture} />;
     case "opportunity":
       return (
+        <Opportunity
+          key={`${route.id}-${new URLSearchParams(location.search).get("program")}`}
+          fundId={route.id!}
+          fixture={fixture}
+        />
+      );
+    case "initiative-detail":
+      return (
         <RecordDetail
-          funding={route.name === "opportunity"}
-          record={(route.name === "opportunity" ? fixture?.funding : fixture?.initiatives)?.find(
-            (record) => record.id === route.id,
-          )}
+          funding={false}
+          record={fixture?.initiatives.find((record) => record.id === route.id)}
         />
       );
     case "settings":
@@ -58,6 +67,11 @@ function content(route: Route, fixture?: FixtureContext) {
 }
 export function App() {
   const location = usePathname();
+  useEffect(() => {
+    if (window.location.pathname !== "/") return;
+    const target = legacyFundingHref(window.location.search);
+    if (target) navigate(target, true);
+  }, [location]);
   const fixture =
     import.meta.env.DEV && new URLSearchParams(window.location.search).has("fixture")
       ? readFixtures(window.location.search)

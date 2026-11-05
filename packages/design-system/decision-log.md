@@ -106,7 +106,7 @@ The entries below place the maker's two [prototype reviews](../../docs/platform/
 
 ## DL-025: Team slots for several partners per fund
 
-**Status:** locked (maker, 4 November 2026). Review row 21. A fund lists its partner requirements as slots, with candidates per ask, a team fit explaining the selections and one action requesting introductions to the picks. Funding cards say how many asks the list could cover. Counts only are shown for private initiatives, under DL-019; fit is never eligibility. Extends [PRD R14](../../docs/platform/04-prd.md#7-functional-requirements). Structured asks and the scoring contract remain [D29](../../docs/platform/open-decisions.md#for-the-builders); labelled fixtures stand in until decided. Step 5 places the pattern and reconciles the current two-partner scoring limit.
+**Status:** locked (maker, 4 November 2026). Review row 21. A fund lists its partner requirements as slots, with candidates per ask, a team fit explaining the selections and one action requesting introductions to the picks. Funding cards say how many asks the list could cover. Counts only are shown for private initiatives, under DL-019; fit is never eligibility. Extends [PRD R14](../../docs/platform/04-prd.md#7-functional-requirements). Structured asks and the scoring contract remain [D29](../../docs/platform/open-decisions.md#for-the-builders); labelled fixtures stand in until decided. Step 5 implements the [Team slots contract](COMPONENTS.md#funding-and-team-slots-contracts) and its shared/private examples. Distinct requirement coverage and selected initiatives are explicit; the earlier two-partner scoring proposal is not used as a live multi-partner contract. D29 still owns that decision.
 
 ## DL-026: The eight kinds by their own names
 

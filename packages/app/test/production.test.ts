@@ -23,6 +23,9 @@ test("production bundles exclude the development fixture records and controls", 
     "intake-example",
     "Fictional matching example",
     "Step 4 examples seed",
+    "Fictional funding examples",
+    "Confirm example request",
+    "A fictional registered host with four years of accounts",
   ]) {
     assert.ok(!bundle.includes(fixtureOnly), `${fixtureOnly} leaked into the production bundle`);
   }
