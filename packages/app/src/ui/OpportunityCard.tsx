@@ -2,7 +2,7 @@ import { ACCESS, effectiveAccess } from "../../../../dist/domain.mjs";
 import { FundSchema, type Entry, type Evaluation } from "../funding/contracts.ts";
 import { programFund } from "../../../../dist/matching.mjs";
 import { fitLevel } from "../funding/select.ts";
-import { opportunityHref } from "../funding/catalog.ts";
+import { awardLabel, opportunityHref } from "../funding/catalog.ts";
 import { fullDate } from "../home.ts";
 import { Link } from "../router.tsx";
 import { Card } from "./Card.tsx";
@@ -24,11 +24,18 @@ export function OpportunityCard({
   const access = effectiveAccess(fund);
   return (
     <Card>
-      <p className="rc-meta">{fund.amount}</p>
+      <p className="rc-meta" data-slot="comparison">
+        {awardLabel(entry.program?.award)}
+        {fund.deadlineDate && (
+          <>
+            {access === "closed" ? ", ended " : ", closes "}
+            <time dateTime={fund.deadlineDate}>{fullDate(fund.deadlineDate, "medium")}</time>
+          </>
+        )}
+      </p>
       <Title className="rc-card-title">
         <Link href={opportunityHref(entry, location.search)}>{entry.program?.name ?? fund.displayName}</Link>
       </Title>
-      {entry.program && <p className="rc-card-meta">{fund.displayName}</p>}
       {result &&
         (result.thematicFit.score === null ? (
           <p className="rc-meta">Fit not assessed</p>
@@ -39,6 +46,8 @@ export function OpportunityCard({
             explanation={`Keyword topics: ${result.shared.join(", ") || "none"}. Fit is not eligibility.`}
           />
         ))}
+      {entry.program && <p className="rc-card-meta">{fund.displayName}</p>}
+      <p className="rc-meta">{fund.amount}</p>
       <p className="rc-card-meta">
         {ACCESS[access]?.label ?? "Application route needs checking"}
         {fund.deadlineDate

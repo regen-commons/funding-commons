@@ -169,11 +169,11 @@ Use `rc-card-grid` for Partners, Funding and Initiatives. Columns fill the page 
 
 ### Card
 
-The listing variant reserves two title lines and two lines for optional price/date metadata. The next fit line aligns across a row. Full names stay in the accessible link and readable detail destination. Independent tooltip and action controls remain above the card's stretched link. Summaries may be shortened; dates, amounts and consent text must remain readable.
+The listing variant reserves two title lines so the next fit line aligns across a row. Funding uses one compact amount and deadline line before the title, marked with `data-slot="comparison"`. Keep full award terms and dates in the body below the fit line. Full names stay in the accessible link and readable detail destination. Independent tooltip and action controls remain above the card's stretched link.
 
 ### Filter bar
 
-One bar contains a visibly labelled search field and Search button, filter buttons opening small native-control menus, then sort. Active selections have individually removable chips and a live result count. Multiple choices within a filter use OR; different filters use AND. Support searches needs, offers or both. Partners can add the two relationship directions once an initiative exists. An empty source shows its first-use action without filters; zero filtered results retain the controls and offer Clear filters.
+One bar contains a visibly labelled search field and Search button, filter buttons opening small native-control menus, then sort. Menu triggers show a chevron. Funding uses `data-layout="inline"` to keep the sort label and native select together as the controls wrap. Active selections have individually removable chips and a live result count. Multiple choices within a filter use OR; different filters use AND. Support searches needs, offers or both. Partners can add the two relationship directions once an initiative exists. An empty source shows its first-use action without filters; zero filtered results retain the controls and offer Clear filters.
 
 ### Tooltip
 

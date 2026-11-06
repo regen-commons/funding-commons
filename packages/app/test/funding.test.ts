@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import { test } from "node:test";
 import { z } from "zod";
 import {
+  awardLabel,
   parseBundle,
   catalogEntries,
   findEntry,
@@ -31,6 +32,13 @@ const raw = read("funders"),
 const bundle = parseBundle(raw, rules, conditions),
   entries = catalogEntries(bundle);
 const at = new Date("2026-11-05T12:00:00Z");
+test("funding comparison amounts preserve the distinction between current, past and unknown terms", () => {
+  const award = { currency: "USD", min: 1_000, max: 5_000, basis: "current_offer", note: "Full award terms." };
+  assert.equal(awardLabel(award), "USD 1,000 to 5,000");
+  assert.equal(awardLabel({ ...award, min: null }), "Up to USD 5,000");
+  assert.equal(awardLabel({ ...award, basis: "historical" }), "Past award terms");
+  assert.equal(awardLabel({ ...award, currency: null }), "See award details");
+});
 const draft = () =>
   confirmDraft(
     revise(newDraft(), {

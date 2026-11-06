@@ -42,8 +42,8 @@ export function homePreviews(
   return { recent, upcoming, sharedCount: shared.length };
 }
 
-export function fullDate(iso: string): string {
-  return new Intl.DateTimeFormat("en-GB", { dateStyle: "long", timeZone: "UTC" }).format(
+export function fullDate(iso: string, dateStyle: "medium" | "long" = "long"): string {
+  return new Intl.DateTimeFormat("en-GB", { dateStyle, timeZone: "UTC" }).format(
     new Date(`${iso}T00:00:00Z`),
   );
 }

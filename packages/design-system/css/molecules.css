@@ -471,6 +471,11 @@ a.rc-save-status:hover { color: var(--on-surface); }
 
 /* Listing variant reserves title lines and keeps independent controls above the link. */
 .rc-card[data-layout="listing"] { display: flex; flex-direction: column; }
+.rc-card[data-layout="listing"] > [data-slot="comparison"] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .rc-card[data-layout="listing"] .rc-card-title {
   display: -webkit-box;
   -webkit-box-orient: vertical;

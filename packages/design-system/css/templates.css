@@ -71,8 +71,8 @@
   isolation: isolate;
   display: grid;
   justify-items: center;
-  gap: var(--space-4);
-  padding-block: var(--space-4) var(--space-6);
+  gap: var(--space-3);
+  padding-block: var(--space-3) var(--space-6);
   text-align: center;
 }
 .rc-home-hero > .rc-heading { max-inline-size: var(--list-width); font: var(--type-headline-lg); }

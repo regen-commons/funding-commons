@@ -36,7 +36,7 @@ export function FundingFilters({
       ? [
           {
             key: "group" as const,
-            label: "Research priority",
+            label: "Priority group",
             items: [["", "Every group"], ...Object.entries(MATCH_GROUPS)],
           },
         ]
@@ -78,7 +78,7 @@ export function FundingFilters({
       <div className="rc-filter-controls">
         {options.map((option) =>
           option.key === "sort" ? (
-            <div className="rc-field" key={option.key}>
+            <div className="rc-field" data-layout="inline" key={option.key}>
               <label htmlFor={`${id}-${option.key}`}>{option.label}</label>
               <select
                 className="rc-input"

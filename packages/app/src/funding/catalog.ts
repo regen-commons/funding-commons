@@ -1,4 +1,11 @@
-import { CatalogSchema, ConditionsSchema, RulesSchema, type Bundle, type Entry } from "./contracts.ts";
+import {
+  CatalogSchema,
+  ConditionsSchema,
+  RulesSchema,
+  type Bundle,
+  type Entry,
+  type Program,
+} from "./contracts.ts";
 import { validConditions } from "../../../../dist/matching.mjs";
 
 export function parseBundle(catalog: unknown, rules: unknown, conditions: unknown): Bundle {
@@ -24,6 +31,18 @@ export function catalogEntries(bundle: Bundle): Entry[] {
       ? fund.enrichment.programs.map((program) => ({ id: `${fund.id}::${program.id}`, fund, program }))
       : [{ id: fund.id, fund, program: null }],
   );
+}
+/** Use structured current terms in the comparison row. The full note stays on the card. */
+export function awardLabel(award: Program["award"] | undefined): string {
+  if (award?.basis === "historical") return "Past award terms";
+  if (award?.basis !== "current_offer" || !award.currency) return "See award details";
+  const { min, max, currency } = award;
+  const amount = (value: number) => new Intl.NumberFormat("en").format(value);
+  if (min !== null && max !== null)
+    return min === max ? `${currency} ${amount(min)}` : `${currency} ${amount(min)} to ${amount(max)}`;
+  if (max !== null) return `Up to ${currency} ${amount(max)}`;
+  if (min !== null) return `From ${currency} ${amount(min)}`;
+  return "See award details";
 }
 export function fundingSearch(search: string): URLSearchParams {
   const source = new URLSearchParams(search),
