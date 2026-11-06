@@ -47,7 +47,7 @@ export function AppHeader({
           {status === "account"
             ? "Saved"
             : status === "device"
-              ? "Saved on this device only"
+              ? "On this device"
               : status === "saving"
                 ? "Saving on this device"
                 : status === "memory"
