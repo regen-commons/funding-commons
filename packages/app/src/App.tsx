@@ -1,3 +1,5 @@
+import { SocialFixtureProvider, useSocialFixture } from "./social/context.tsx";
+import { AccountDoorProvider } from "./account/door.tsx";
 import { AccountProvider, useAccount } from "./account/context.tsx";
 import { accountKey } from "./account/document.ts";
 import { useEffect, useRef } from "react";
@@ -81,12 +83,23 @@ export function App() {
   return (
     <DraftProvider fixture={fixture}>
       <AccountProvider fixture={!!fixture}>
-        <AppFrame key="frame" location={location} fixture={fixture} />
+        {import.meta.env.DEV && fixture ? (
+          <SocialFixtureProvider key={fixture.scenario} scenario={fixture.scenario}>
+            <AccountDoorProvider>
+              <AppFrame key="frame" location={location} fixture={fixture} />
+            </AccountDoorProvider>
+          </SocialFixtureProvider>
+        ) : (
+          <AccountDoorProvider>
+            <AppFrame key="frame" location={location} fixture={fixture} />
+          </AccountDoorProvider>
+        )}
       </AccountProvider>
     </DraftProvider>
   );
 }
 function AppFrame({ location, fixture }: { location: string; fixture?: FixtureContext }) {
+  const social = useSocialFixture();
   const device = useDraft();
   const account = useAccount();
   const saved = device.draft.account.saved;
@@ -109,23 +122,24 @@ function AppFrame({ location, fixture }: { location: string; fixture?: FixtureCo
     window.scrollTo(0, 0);
     document.querySelector<HTMLElement>("main h1")?.focus({ preventScroll: true });
   }, [location, route?.name, record?.title]);
-  const status = accountSaved
-    ? "account"
-    : fixture && !["initiative", "check-card", "needs", "offers", "finish"].includes(route?.name ?? "")
-      ? fixture?.scenario === "private" || fixture?.scenario === "shared"
-        ? "account"
-        : fixture?.scenario === "draft"
-          ? "device"
-          : "none"
-      : device.storage === "saving"
-        ? "saving"
-        : device.storage === "memory"
-          ? "memory"
-          : device.storage === "conflict"
-            ? "conflict"
-            : device.storage === "saved" && hasDraft(device.draft)
-              ? "device"
-              : "none";
+  const status =
+    accountSaved || (import.meta.env.DEV && !!fixture && social?.state.saved)
+      ? "account"
+      : fixture && !["initiative", "check-card", "needs", "offers", "finish"].includes(route?.name ?? "")
+        ? fixture?.scenario === "private" || fixture?.scenario === "shared"
+          ? "account"
+          : fixture?.scenario === "draft"
+            ? "device"
+            : "none"
+        : device.storage === "saving"
+          ? "saving"
+          : device.storage === "memory"
+            ? "memory"
+            : device.storage === "conflict"
+              ? "conflict"
+              : device.storage === "saved" && hasDraft(device.draft)
+                ? "device"
+                : "none";
   return (
     <Page pathname={pathname} form={route?.form ?? true} status={status} runs={device.draft.runs}>
       {import.meta.env.DEV && fixture && <FixtureControls fixture={fixture} />}

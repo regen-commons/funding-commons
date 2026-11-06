@@ -1,3 +1,4 @@
+import { SocialAction } from "../social/Action.tsx";
 import { useEffect } from "react";
 import type { ListingRecord } from "../listing.ts";
 import type { FixtureContext } from "../fixtures.ts";
@@ -64,6 +65,9 @@ export function RecordDetail({ record, fixture }: { record?: ListingRecord; fixt
                   Get in touch
                 </h2>
                 <p>Introductions are between initiatives shared with the community.</p>
+                {import.meta.env.DEV && fixture && (
+                  <SocialAction intent={{ kind: "intro", ids: [shown.id], names: [shown.title] }} />
+                )}
                 <p className="rc-meta">
                   Live introductions are not connected yet. No contact details are shown.
                 </p>

@@ -17,8 +17,8 @@ Step 7; it does not require finishing the remaining fixture screens first.
 
 - **Entry and choice.** Account in the header and Save or load your card on Finish
   open Settings. Email verification reveals the account's saved cards before a person
-  chooses Save or Load. Signing in alone never sends the device card. This is an
-  interim in-page entry; the prototype's contextual dialog remains later work.
+  chooses Save or Load. Signing in alone never sends the device card. Step 7 adds an explicitly opened contextual dialog and keeps Finish's
+  email/code flow inline.
 - **Stored copy.** Save sends the checked initiative, kept needs and offers and kept
   funding details only. Conversations, file bytes, open edits, assistant records and
   inferred confidence stay on the device. All server records are private and owner

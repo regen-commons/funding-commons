@@ -93,7 +93,7 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 |---|---|---|---|---|---|---|
 | Team slots | `rc-team-slots` | stable | Requirements with counts or candidates. Parts: `rc-team-slot`, `rc-team-candidates`, `rc-team-candidate`, `rc-team-coverage`, `rc-team-line` | Private counts, shared examples, no requirement | Distinct asks and selected initiatives; never eligibility | opportunity, opportunity-private |
 | Ask list | `rc-ask-list` | stable | Needs or offers beside a conversation. Parts: `rc-ask-head`, `rc-ask-count` | Empty, working, overflow, offline, error | Five active cards; say when more were heard | initiatives, needs, offers |
-| Share card | `rc-share-card` | candidate | Explains partner counts and sharing before showing names | Unconnected, count-only example | Account actions require Step 7; never invent a production count | intake-finish |
+| Share card | `rc-share-card` | candidate | Explains partner counts and sharing before showing names | Unconnected, count-only example | Inline email and code; never invent a production count | intake-finish |
 
 | Pattern | Class | Status | Job and parts | Variants | Limits | Used in |
 |---|---|---|---|---|---|---|
@@ -101,9 +101,9 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Bottom navigation | `rc-bottom-nav` | stable | Sections on phones |  | Four items, icon and word | finish, funding, home, initiatives, matches, matches-empty, saved, settings |
 | Guide panel | `rc-guide` | stable | The conversation for one step. Parts: `rc-guide-log`, `rc-guide-status`, `rc-conversation-panel` |  |  | describe, needs, offers, step-needs |
 | Review sheet | `rc-review` | stable | Suggestions waiting for you. Part: `rc-review-list`, `rc-review-grid` |  |  | check-card, step-needs |
-| Code panel | `rc-code-panel` | stable | Save or sign in by email code. Parts: `rc-code-panel-title`, `rc-code-panel-actions` | Email step, code step, error | One field per step, never a modal | code, finish |
+| Code panel | `rc-code-panel` | stable | Save or sign in by email code. Parts: `rc-code-panel-title`, `rc-code-panel-actions` | Email step, code step, error | One field per step; inline offer or explicitly opened task | code, finish |
 | Card list | `rc-card-list` | stable | A counted list of cards. Parts: `rc-card-list-header`, `rc-card-list-items` |  |  | finish, initiatives, matches |
-| Dialog | `rc-dialog` | stable | Consent, confirming steps and short information. Parts: `rc-dialog-body`, `rc-dialog-title` |  | Never for saving | check-card, code, describe, finish, funding, home, initiatives, intake-finish, matches, matches-empty, needs, offers, opportunity, opportunity-private, saved, settings, step-needs |
+| Dialog | `rc-dialog` | stable | Consent, confirming steps and short information. Parts: `rc-dialog-body`, `rc-dialog-title`, `rc-dialog-head` |  | No unsolicited modal or wall | check-card, code, describe, finish, funding, home, initiatives, intake-finish, matches, matches-empty, needs, offers, opportunity, opportunity-private, saved, settings, step-needs |
 | Data table | `rc-table` | candidate | Desk lists and the record of assistant use. Part: `rc-table-scroll` | `data-align`: end |  |  |
 
 | Filter bar | `rc-filter-bar` | stable | Search, filter menus, sort, removable chips and count. Parts: `rc-filter-controls`, `rc-active-filters` | Shared by Partners, Funding, Initiatives | OR within a filter; AND between filters | funding, initiatives |
@@ -220,6 +220,22 @@ Finish shows first funding, the Share card and the checked initiative with its k
 Funding uses the existing catalog's thematic fit, readiness, research-priority groups and sourced reasons without changing its rubric. Fit is a word and bar, never a numeric promise. Unknown fit remains unassessed. Visitors can browse the whole catalog without invented ranking. Program links preserve the fund and program identities. Closed cycles, unverified offers and funding resources stay distinct and searchable. Source dates, unknowns and official links remain visible.
 
 Team slots is an organism for a fund's partner requirements. Parts are `rc-team-slots`, `rc-team-slot`, `rc-team-candidates`, `rc-team-candidate` and `rc-team-coverage`. Card summaries use `rc-team-line`. Private initiatives see counts only. Shared examples expose labelled native checkboxes and reasons. Coverage counts distinct requirements and distinct selected initiatives; one initiative can meet several asks and is requested once. Coverage never changes the solo rubric or approves eligibility. D29 keeps requirements, team fit and introductions as labelled development examples; production does not invent requirements or counts. Email reminders and live introductions wait for Step 7.
+
+## Contextual account and email tasks
+
+An explicitly opened task uses native Dialog with `data-presentation="task"`: a
+centred dialog on wide screens and a full-width bottom sheet on phones. Close is
+visible at its top; Escape closes it and the browser returns focus. Forms remain
+native. Dialog scroll stays contained where the platform supports it. Unsolicited
+save offers remain inline, with the email and code in the Share card.
+
+The live private flow reuses the same account panel in the sheet, Finish and
+Settings. Each instance has unique labels. Verification alone never overwrites or
+uploads a device draft; saved cards are listed before Save or Load is chosen.
+The development-only email-door adapter demonstrates two visibility choices,
+separate default-off onward sharing, a specific fund reminder and confirmed
+introductions. Its actions use the same code door without sending mail or changing
+production permissions. No live sharing or delivery is implied.
 
 ## Public initiatives and partner contracts
 

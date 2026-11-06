@@ -407,6 +407,7 @@
   font: var(--type-body-sm);
   color: var(--text-secondary);
 }
+button.rc-save-status { min-block-size: var(--control-sm-height); border: 0; padding: 0; background: none; text-decoration: underline; text-align: start; cursor: pointer; }
 a.rc-save-status {
   min-block-size: var(--control-sm-height);
   color: var(--text-secondary);

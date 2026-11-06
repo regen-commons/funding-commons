@@ -1,3 +1,6 @@
+import { useSocialFixture } from "../social/context.tsx";
+import { SocialAction } from "../social/Action.tsx";
+import { AccountSection } from "../account/AccountSection.tsx";
 import { useState } from "react";
 import type { FixtureContext } from "../fixtures.ts";
 import { EMPTY_FILTERS, selectRecords, partnerAccess, type CapitalKey } from "../listing.ts";
@@ -25,6 +28,10 @@ export function ListPage({
   fixture?: FixtureContext;
   subject?: { needs: readonly CapitalKey[]; offers: readonly CapitalKey[] };
 }) {
+  const social = useSocialFixture();
+  const shared = social
+    ? social.state.saved && social.state.visibility === "public"
+    : partnerAccess(fixture?.scenario);
   const [filters, setFilters] = useState(() => ({
     ...EMPTY_FILTERS,
     search: new URLSearchParams(window.location.search).get("q") ?? "",
@@ -78,20 +85,24 @@ export function ListPage({
           <div className="rc-skeleton" />
           <div className="rc-skeleton" />
         </section>
-      ) : partners && !partnerAccess(fixture?.scenario) ? (
+      ) : partners && !shared ? (
         <ShareCard count={fixture && fixture.scenario !== "visitor" ? records.length : null}>
           <p className="rc-meta">
             {fixture
               ? "Fictional count only. No names or individual reasons are shown before sharing."
               : "Partner matching and sharing are not connected yet. The number of matches is not known."}
           </p>
+          {import.meta.env.DEV && fixture && personalized ? (
+            <SocialAction intent={{ kind: "share" }} inline />
+          ) : !fixture && hasDraft(device.draft) ? (
+            <AccountSection compact />
+          ) : null}
           <div className="rc-action-bar">
-            <ButtonLink
-              variant="primary"
-              href={hasDraft(device.draft) || personalized ? pathTo("settings") : pathTo("initiative")}
-            >
-              {hasDraft(device.draft) || personalized ? "Save or load your card" : "Describe your initiative"}
-            </ButtonLink>
+            {!hasDraft(device.draft) && !personalized && (
+              <ButtonLink variant="primary" href={pathTo("initiative")}>
+                Describe your initiative
+              </ButtonLink>
+            )}
             <ButtonLink variant="secondary" href={pathTo("initiatives")}>
               Browse all initiatives
             </ButtonLink>
@@ -165,6 +176,11 @@ export function ListPage({
                       actions={
                         partners && (
                           <>
+                            {import.meta.env.DEV && fixture && (
+                              <SocialAction
+                                intent={{ kind: "intro", ids: [record.id], names: [record.title] }}
+                              />
+                            )}
                             {dismissing === record.id ? (
                               <fieldset className="rc-field">
                                 <legend>Why is it not a fit?</legend>

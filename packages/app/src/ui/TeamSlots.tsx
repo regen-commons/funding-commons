@@ -1,23 +1,13 @@
-import { useEffect, useId, useRef, useState } from "react";
+import { SocialAction } from "../social/Action.tsx";
+import { useEffect, useId, useState } from "react";
 import type { TeamAsk } from "../funding/team.ts";
 import { teamCoverage } from "../funding/team.ts";
 import { Fit } from "./Fit.tsx";
 export function TeamSlots({ asks, shared }: { asks: TeamAsk[] | null; shared: boolean }) {
-  const [selected, setSelected] = useState<string[]>([]),
-    [review, setReview] = useState(false),
-    [sent, setSent] = useState(false);
-  const dialog = useRef<HTMLDialogElement>(null),
-    id = useId();
+  const [selected, setSelected] = useState<string[]>([]);
+  const id = useId();
   useEffect(() => {
-    if (review) dialog.current?.showModal();
-    else dialog.current?.close();
-  }, [review]);
-  useEffect(() => {
-    if (!shared) {
-      setSelected([]);
-      setReview(false);
-      setSent(false);
-    }
+    if (!shared) setSelected([]);
   }, [shared]);
   if (!import.meta.env.DEV || asks === null)
     return (
@@ -71,7 +61,6 @@ export function TeamSlots({ asks, shared }: { asks: TeamAsk[] | null; shared: bo
                             type="checkbox"
                             checked={selected.includes(candidate.id)}
                             onChange={() => {
-                              setSent(false);
                               setSelected((current) =>
                                 current.includes(candidate.id)
                                   ? current.filter((value) => value !== candidate.id)
@@ -108,63 +97,26 @@ export function TeamSlots({ asks, shared }: { asks: TeamAsk[] | null; shared: bo
                 One initiative can cover several asks and is requested once. This does not establish
                 eligibility.
               </p>
-              {coverage.chosen.length > 0 && !sent && (
-                <button
-                  className="rc-button"
-                  data-variant="primary"
-                  type="button"
-                  onClick={() => setReview(true)}
-                >
-                  Review example introductions
-                </button>
+              {coverage.chosen.length > 0 && (
+                <SocialAction
+                  intent={{
+                    kind: "intro",
+                    ids: coverage.chosen,
+                    names: candidates.map((candidate) => candidate.name),
+                  }}
+                />
               )}
-              {sent && <p role="status">Example introductions recorded in this page. Nothing was sent.</p>}
             </div>
           ) : (
-            <p className="rc-meta">
-              Partners are for shared initiatives. Saving and sharing are not connected yet.
-            </p>
+            <div className="rc-stack">
+              <SocialAction intent={{ kind: "share" }} />
+              <p className="rc-meta">
+                Partners are for shared initiatives. This example keeps names hidden until you share.
+              </p>
+            </div>
           )}
         </>
       )}
-      <dialog
-        ref={dialog}
-        className="rc-dialog"
-        aria-labelledby={`${id}-review`}
-        onCancel={() => setReview(false)}
-        onClose={() => setReview(false)}
-      >
-        <div className="rc-dialog-body">
-          <h2 className="rc-dialog-title" id={`${id}-review`}>
-            Review example introductions
-          </h2>
-          <p>
-            A live request would share your initiative and the opportunity with these partners so they can
-            reply. This example sends nothing.
-          </p>
-          <ul className="rc-reasons">
-            {candidates.map((candidate) => (
-              <li key={candidate.id}>{candidate.name}</li>
-            ))}
-          </ul>
-          <div className="rc-action-bar">
-            <button
-              className="rc-button"
-              data-variant="primary"
-              type="button"
-              onClick={() => {
-                setSent(true);
-                setReview(false);
-              }}
-            >
-              Confirm example request
-            </button>
-            <button className="rc-button" data-variant="quiet" type="button" onClick={() => setReview(false)}>
-              Cancel
-            </button>
-          </div>
-        </div>
-      </dialog>
     </section>
   );
 }

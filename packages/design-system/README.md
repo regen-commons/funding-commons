@@ -79,6 +79,16 @@ The tests check that generated files are current, the linter is clean, website v
 
 ## Changelog
 
+### Unreleased, Step 7
+
+- Extend Dialog's native small-task presentation to phone sheets, with a visible
+  Close action and contained scroll. Code panels support explicitly opened tasks;
+  unsolicited save offers stay inline.
+- Save status can open the account task. Finish uses the same live email/code panel
+  in place; development examples demonstrate sharing, reminders and introductions.
+  The Code example includes an opened-task composition. No tokens changed.
+
+
 ### Unreleased, Step 6
 
 - Compose public initiative detail from existing Media, Step layout, Card list,

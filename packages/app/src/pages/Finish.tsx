@@ -1,3 +1,6 @@
+import { useSocialFixture } from "../social/context.tsx";
+import { SocialAction } from "../social/Action.tsx";
+import { AccountSection } from "../account/AccountSection.tsx";
 import { useState } from "react";
 import type { FixtureContext } from "../fixtures.ts";
 import { useDraft } from "../describe/use-draft.ts";
@@ -19,6 +22,7 @@ import { Stack, StepLayout } from "../ui/layouts.tsx";
 import { Tag } from "../ui/Tag.tsx";
 
 export function Finish({ fixture }: { fixture?: FixtureContext }) {
+  const social = useSocialFixture();
   const { draft, ready, storage, error, controller } = useDraft();
   const [copy, setCopy] = useState<string | null>(null);
   const [message, setMessage] = useState("");
@@ -40,7 +44,9 @@ export function Finish({ fixture }: { fixture?: FixtureContext }) {
   const loading = view === "loading" && !retrying;
   const failed = view === "error" && !retrying;
   const empty = view === "empty";
-  const shared = examples && (fixture.scenario === "shared" || view === "shared");
+  const shared =
+    examples &&
+    (social ? social.state.visibility === "public" : fixture.scenario === "shared" || view === "shared");
   const funds = examples && !empty ? fixture.funding.slice(0, 2) : [];
   return (
     <Stack>
@@ -219,10 +225,8 @@ export function Finish({ fixture }: { fixture?: FixtureContext }) {
                   Your card stays private. You can save a checked copy through your account. Partner sharing
                   is not available yet.
                 </p>
+                {examples ? <SocialAction intent={{ kind: "share" }} inline /> : <AccountSection compact />}
                 <div className="rc-action-bar">
-                  <ButtonLink href={pathTo("settings")} variant="primary">
-                    Save or load your card
-                  </ButtonLink>
                   <ButtonLink href={pathTo("partners")} variant="secondary">
                     Explore Partners
                   </ButtonLink>

@@ -110,6 +110,5 @@ reloading before further fixture steps. The narrow implementation and proposed
 release settings are in [Saving and accounts](08-accounts-and-saving.md#private-account-connection).
 The website repository retains migration ownership. HttpOnly server sessions replace
 the earlier browser SDK proposal, with no dependency addition. All copies remain
-private. Migration, shared Auth template, exposed schema, environment changes and
-production deployment remain subject to approval after both PRs are reviewed.
+private. The authorized private connection is now live; [production proof](prototype/proof/accounts/README.md#production-verification) records the migration, shared templates, schema exposure, deployment and remaining independent repository review. Step 7 adds contextual account UI and development-only social action examples.
 This does not resolve the open sharing, email-hook, editor or council policy decisions.

@@ -1,3 +1,5 @@
+import { SocialAction } from "../social/Action.tsx";
+import { useSocialFixture } from "../social/context.tsx";
 import { useEffect, useMemo, useState } from "react";
 import { ACCESS, effectiveAccess } from "../../../../dist/domain.mjs";
 import { fundingSourceUrl } from "../funding/source.ts";
@@ -17,6 +19,7 @@ import { TeamSlots } from "../ui/TeamSlots.tsx";
 import { Fit } from "../ui/Fit.tsx";
 import { FundingProfile } from "../ui/FundingProfile.tsx";
 export function Opportunity({ fundId, fixture }: { fundId: string; fixture?: FixtureContext }) {
+  const social = useSocialFixture();
   const example = useMemo(
     () => (import.meta.env.DEV && fixture ? fundingFixture(fixture) : undefined),
     [fixture?.state, fixture?.scenario],
@@ -119,7 +122,11 @@ export function Opportunity({ fundId, fixture }: { fundId: string; fixture?: Fix
           ) : (
             <TeamSlots
               asks={asks}
-              shared={!!example && fixture?.scenario === "shared" && team !== "private"}
+              shared={
+                !!example &&
+                (social ? social.state.visibility === "public" : fixture?.scenario === "shared") &&
+                team !== "private"
+              }
             />
           )
         }
@@ -305,6 +312,9 @@ export function Opportunity({ fundId, fixture }: { fundId: string; fixture?: Fix
             </a>
           ) : (
             <p className="rc-meta">The source link needs checking; no unsafe or warned link is opened.</p>
+          )}
+          {import.meta.env.DEV && example && (
+            <SocialAction intent={{ kind: "remind", id: entry.program?.id ?? fundId, name: title }} />
           )}
           <p className="rc-meta">Email reminders and live introductions are not connected yet.</p>
         </section>

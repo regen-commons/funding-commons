@@ -1,3 +1,6 @@
+import { useSocialFixture } from "../social/context.tsx";
+import { useAccount } from "../account/context.tsx";
+import { useAccountDoor } from "../account/door.tsx";
 import { Link } from "../router.tsx";
 import { matchRoute, pathTo } from "../routes.ts";
 import { Icon } from "./Icon.tsx";
@@ -13,6 +16,10 @@ export function AppHeader({
   sections: boolean;
   status: SaveStatus;
 }) {
+  const openAccount = useAccountDoor();
+  const { state } = useAccount();
+  const social = useSocialFixture();
+  const Status = status === "account" ? "p" : "button";
   const current = matchRoute(pathname)?.section;
   return (
     <header className="rc-app-header">
@@ -31,7 +38,11 @@ export function AppHeader({
         </nav>
       )}
       <div className="rc-app-header-state">
-        <p className="rc-save-status" data-state={status}>
+        <Status
+          className="rc-save-status"
+          data-state={status}
+          {...(status === "account" ? {} : { type: "button" as const, onClick: openAccount })}
+        >
           <Icon name={status === "account" ? "done" : "device"} size="sm" />
           {status === "account"
             ? "Saved"
@@ -44,15 +55,27 @@ export function AppHeader({
                   : status === "conflict"
                     ? "Draft changed in another tab"
                     : "Nothing saved yet"}
-        </p>
-        <Link
-          className="rc-button"
-          data-variant="quiet"
-          href={pathTo("settings")}
-          aria-label="Your account and settings"
-        >
-          Account
-        </Link>
+        </Status>
+        {state?.user || (import.meta.env.DEV && social?.state.email) ? (
+          <Link
+            className="rc-button"
+            data-variant="quiet"
+            href={pathTo("settings")}
+            aria-label="Your account and settings"
+          >
+            Account
+          </Link>
+        ) : (
+          <button
+            className="rc-button"
+            data-variant="quiet"
+            type="button"
+            onClick={openAccount}
+            aria-label="Your account and settings"
+          >
+            Account
+          </button>
+        )}
       </div>
     </header>
   );
