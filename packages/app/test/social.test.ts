@@ -32,3 +32,24 @@ test("example reminders stay specific and introductions require sharing and conf
   await assert.rejects(service.introduce(["new-partner"], ""));
   assert.deepEqual(service.snapshot().introductions, ["river", "orchard"]);
 });
+test("example email choices stay off by default and deletion resets only the temporary account", async () => {
+  const service = createSocialFixture("private");
+  assert.deepEqual(service.snapshot().notifications, {
+    funding: false,
+    partners: false,
+    introductions: false,
+  });
+  await assert.rejects(service.notify("partners", true));
+  await service.share("public", false);
+  await service.notify("partners", true);
+  assert.equal(service.snapshot().notifications.partners, true);
+  await service.share("private", false);
+  assert.equal(service.snapshot().notifications.partners, false);
+  await service.remind("one-fund");
+  await service.deleteAccount();
+  assert.equal(service.snapshot().email, null);
+  assert.equal(service.snapshot().saved, false);
+  assert.deepEqual(service.snapshot().reminders, []);
+  assert.deepEqual(service.snapshot().introductions, []);
+  await assert.rejects(service.save());
+});
