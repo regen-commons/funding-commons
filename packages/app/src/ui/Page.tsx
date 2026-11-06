@@ -1,3 +1,4 @@
+import { InformationContext } from "./information-context.ts";
 import { useState, type ReactNode } from "react";
 import { AppHeader, type SaveStatus } from "./AppHeader.tsx";
 import { BottomNav } from "./BottomNav.tsx";
@@ -18,17 +19,24 @@ export function Page({
 }) {
   const [information, setInformation] = useState<Information | null>(null);
   return (
-    <div className="rc-page">
-      <a className="rc-skip-link" href="#main">
-        Skip to content
-      </a>
-      <AppHeader pathname={pathname} sections={!form} status={status} />
-      <main key={pathname} className="rc-main" id="main" tabIndex={-1}>
-        {children}
-      </main>
-      <Footer slim={form} onInformation={setInformation} />
-      {!form && <BottomNav pathname={pathname} />}
-      <InformationDialog runs={runs} information={information} onClose={() => setInformation(null)} />
-    </div>
+    <InformationContext.Provider value={setInformation}>
+      <div className="rc-page">
+        <a className="rc-skip-link" href="#main">
+          Skip to content
+        </a>
+        <AppHeader pathname={pathname} sections={!form} status={status} />
+        <main key={pathname} className="rc-main" id="main" tabIndex={-1}>
+          {children}
+        </main>
+        <Footer slim={form} onInformation={setInformation} />
+        {!form && <BottomNav pathname={pathname} />}
+        <InformationDialog
+          runs={runs}
+          information={information}
+          onClose={() => setInformation(null)}
+          onPolicy={() => setInformation("policy")}
+        />
+      </div>
+    </InformationContext.Provider>
   );
 }

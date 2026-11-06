@@ -1,3 +1,4 @@
+import { SignOutAction } from "./SignOutAction.tsx";
 import { useEffect, useId, useState } from "react";
 import { parseSummaries, type InitiativeSummary } from "@weave/api/account-contract";
 import { useDraft } from "../describe/use-draft.ts";
@@ -25,9 +26,11 @@ function pendingResendAt(): number {
 export function AccountSection({
   compact = false,
   autoFocus = false,
+  showLeave = true,
 }: {
   compact?: boolean;
   autoFocus?: boolean;
+  showLeave?: boolean;
 }) {
   const id = useId();
   const Title = compact ? "h3" : "h2";
@@ -40,7 +43,7 @@ export function AccountSection({
   useEffect(() => {
     if (sent && (autoFocus || focusCode)) document.getElementById(`${id}-code`)?.focus();
   }, [sent, id, autoFocus, focusCode]);
-  const [resendAt, setResendAt] = useState(() => pendingEmail() ? pendingResendAt() : 0);
+  const [resendAt, setResendAt] = useState(() => (pendingEmail() ? pendingResendAt() : 0));
   const [now, setNow] = useState(Date.now());
   useEffect(() => {
     if (!sent || Date.now() >= resendAt) return;
@@ -223,7 +226,7 @@ export function AccountSection({
                 className="rc-input"
                 id={`${id}-email`}
                 autoFocus={autoFocus && !sent}
-                data-task-focus={autoFocus && !sent || undefined}
+                data-task-focus={(autoFocus && !sent) || undefined}
                 type="email"
                 autoComplete="email"
                 spellCheck={false}
@@ -326,23 +329,20 @@ export function AccountSection({
             >
               {currentSaved ? "Checked card saved" : "Save checked card privately"}
             </button>
-            <button
-              className="rc-button"
-              data-variant="secondary"
-              type="button"
-              disabled={busy}
-              onClick={() =>
-                void run(async () => {
-                  await accountRequest("", { action: "sign_out" });
-                  clear();
-                  setSelected(null);
-                  setExtra([]);
-                  setMessage("You are signed out. The device draft and its backups are still here.");
-                })
-              }
-            >
-              Sign out
-            </button>
+            {showLeave && (
+              <SignOutAction
+                disabled={busy}
+                onBusyChange={setBusy}
+                onResult={(text, failed) => {
+                  setMessage(text);
+                  setFailed(failed);
+                  if (!failed) {
+                    setSelected(null);
+                    setExtra([]);
+                  }
+                }}
+              />
+            )}
           </div>
           <h3 className="rc-heading" data-size="section">
             Your saved cards

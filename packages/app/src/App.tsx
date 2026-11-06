@@ -126,7 +126,7 @@ function AppFrame({ location, fixture }: { location: string; fixture?: FixtureCo
     accountSaved || (import.meta.env.DEV && !!fixture && social?.state.saved)
       ? "account"
       : fixture && !["initiative", "check-card", "needs", "offers", "finish"].includes(route?.name ?? "")
-        ? fixture?.scenario === "private" || fixture?.scenario === "shared"
+        ? (social ? social.state.saved : fixture?.scenario === "private" || fixture?.scenario === "shared")
           ? "account"
           : fixture?.scenario === "draft"
             ? "device"

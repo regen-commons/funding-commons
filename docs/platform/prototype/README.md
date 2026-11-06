@@ -4,6 +4,8 @@ A click-through prototype of Weave's first version, designed before the app was 
 
 It is the design reference for building the interface in `packages/app`, not code to port. The content is invented, the assistant and the network are simulated, and nothing typed is sent or stored. The [implementation handover](../handover/03-interface-implementation.md) says how to build from it.
 
+See [implementation status](implementation-status.md) for the app pull requests, browser proof and remaining launch work.
+
 The published copy is the Artifact at https://claude.ai/artifact/797CzZQeSRsk7XsQ44CUBQ, which the maker shares by link. Its Notes button opens the design notes in [src/notes.html](src/notes.html).
 
 ## Run it

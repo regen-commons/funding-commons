@@ -135,3 +135,7 @@
 }
 
 @keyframes rc-card-arrive { from { opacity: 0; transform: translateY(var(--space-3)); } to { opacity: 1; transform: translateY(0); } }
+
+/* Settings groups change in place; leaving has a separate final region. */
+.rc-settings { gap: var(--space-6); }
+.rc-settings-leave { display: grid; gap: var(--space-4); margin-block-start: var(--space-5); padding-block-start: var(--space-5); border-block-start: var(--border-thin) solid var(--control-line); }

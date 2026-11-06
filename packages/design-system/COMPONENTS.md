@@ -23,12 +23,12 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Eyebrow | `rc-eyebrow` | stable | Factual label only when no heading can carry the fact; never decorative | Optional icon | Sentence case, three words | matches |
 | Prose | `rc-prose` | stable | Reading text at a comfortable measure |  | Paragraphs of four lines or fewer | funding, home, initiatives |
 | Meta | `rc-meta` | stable | Small supporting text |  |  | check-card, code, describe, finish, funding, home, initiatives, intake-finish, matches, matches-empty, needs, offers, opportunity, opportunity-private, saved, settings, step-needs |
-| Icon | `rc-icon` | stable | Inline icon from `brand/icons.svg` | `data-size`: sm, lg | Never the only name of a control | code, finish, funding, home, initiatives, matches, matches-empty, saved, settings, step-needs |
+| Icon | `rc-icon` | stable | Inline icon from `brand/icons.svg` | `data-size`: sm, lg | Never the only name of a control | code, finish, funding, home, initiatives, matches, matches-empty, saved, step-needs |
 | Logo | `rc-logo` | stable | Mark and product name. Returns home. Part: `rc-logo-mark` |  |  | check-card, code, describe, finish, funding, home, initiatives, intake-finish, matches, matches-empty, needs, offers, opportunity, opportunity-private, saved, settings, step-needs |
 | Button | `rc-button` | stable | Starts an action | `data-variant`: primary, secondary, quiet, danger. `data-size`: sm, lg. `data-width`: full. `aria-busy`, `disabled` | Label under five words. One primary per region | check-card, code, describe, finish, funding, home, initiatives, intake-finish, matches, matches-empty, needs, offers, opportunity, opportunity-private, saved, settings, step-needs |
 | Icon button | `rc-icon-button` | stable | An action with a widely known icon, such as close |  | Requires `aria-label` |  |
 | Input | `rc-input` | stable | Text, select and text area | `data-kind`: code. `aria-invalid`, `disabled` | Always inside a Field | check-card, code, describe, finish, funding, home, initiatives, intake-finish, needs, offers, settings, step-needs |
-| Check | `rc-check` | stable | Native checkbox and radio |  |  | funding, initiatives, needs, offers, opportunity, saved |
+| Check | `rc-check` | stable | Native checkbox and radio |  |  | funding, initiatives, needs, offers, opportunity, saved, settings |
 | Switch | `rc-switch` | stable | A setting that applies at once | `role="switch"` | Never pre-checked for email |  |
 | Chip | `rc-chip` | stable | A choice you tap. Part: `rc-chip-remove` | Selectable, removable | 44 px high |  |
 | Tag | `rc-tag` | stable | A label you read | Plain, with an icon, `data-capital` | Three words | funding, initiatives, needs, offers, step-needs |
@@ -43,7 +43,7 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Visually hidden | `rc-visually-hidden` | stable | Text only for assistive technology |  |  | step-needs |
 
 | Media | `rc-media` | stable | Supplied image or labelled synthetic placeholder; fixed aspect ratio | `data-size`: thumb, wide | No third-party app images until D30 | funding, home, initiatives |
-| Account button | `rc-account` | stable | Opens Settings from the header |  | Accessible name required; live state needs sign-in adapter | funding, initiatives, settings |
+| Account button | `rc-account` | stable | Opens Settings from the header |  | Accessible name required; live state needs sign-in adapter | funding, initiatives |
 
 ## Molecules
 
@@ -53,7 +53,7 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Field | `rc-field` | stable | Label, hint, control, error. Parts: `rc-hint`, `rc-error` |  | Label always visible | check-card, code, describe, finish, funding, home, initiatives, intake-finish, needs, offers, settings |
 | Composer | `rc-composer` | stable | The box a person writes in. Part: `rc-composer-actions` | Speak and Attach when working |  | describe, needs, offers, step-needs |
 | Proposal | `rc-proposal` | stable | A suggested value awaiting confirmation. Parts: `rc-proposal-source`, `rc-proposal-value` | `data-state`: confirmed | Value under 12 words | check-card, needs, offers, step-needs |
-| Choice group | `rc-choice-group` | candidate | Selectable cards for a short vocabulary. Parts: `rc-choice`, `rc-choice-text`, `rc-choice-title`, `rc-choice-note` | Radio or checkbox | Five options for radios | saved |
+| Choice group | `rc-choice-group` | candidate | Selectable cards for a short vocabulary. Parts: `rc-choice`, `rc-choice-text`, `rc-choice-title`, `rc-choice-note` | Radio or checkbox | Five options for radios | saved, settings |
 | Stepper | `rc-stepper` | stable | Where you are in a short sequence. Part: `rc-stepper-mark` | `aria-current`, `data-state`: done | Three to five steps | check-card, describe, step-needs |
 | Reason | `rc-reasons` | stable | Why something appears for you. Part: `rc-reason` |  | Three lines of one sentence | finish, matches |
 | Card | `rc-card` | stable | One record. Parts: `rc-card-header`, `rc-card-title`, `rc-card-meta`, `rc-card-summary`, `rc-draft-preview`, `rc-draft-status` | `data-stage`, `data-kind`: need, offer. `data-pencil`, `data-layout`: listing | Listing titles reserve two lines; summaries three lines | check-card, describe, finish, funding, home, initiatives, intake-finish, matches, needs, offers, step-needs |
@@ -69,7 +69,7 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Save status | `rc-save-status` | stable | Says where the work lives | `data-state`: device, account | Visible through the intake | check-card, code, describe, finish, funding, home, initiatives, intake-finish, matches, needs, offers, opportunity, opportunity-private, saved, settings, step-needs |
 | Search | `rc-search` | candidate | A box, a button and the word Search |  | No scope menu before results | home |
 | Breadcrumbs | `rc-breadcrumbs` | candidate | A place inside its larger places |  |  |  |
-| Facts | `rc-facts` | stable | Plain terms for consent and privacy |  |  | describe, intake-finish, needs, offers, opportunity, opportunity-private |
+| Facts | `rc-facts` | stable | Plain terms for consent and privacy |  |  | describe, intake-finish, needs, offers, opportunity, opportunity-private, settings |
 | Empty state | `rc-empty` | candidate | A first screen with one thing to do. Part: `rc-empty-title` |  | One action, no filters | matches-empty |
 
 | Tooltip | `rc-tooltip` | stable | Explains a compact sign. Parts: `rc-tooltip-wrap`, `rc-tooltip-trigger` | Native interest and hint, local fallback | Hoverable, dismissible with Escape, same words for screen readers | funding, home, initiatives, needs, offers, step-needs |
@@ -87,6 +87,10 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 
 | Ask card | `rc-ask-card` | stable | One need or offer in pencil or ink. Parts: `rc-ask-title`, `rc-ask-terms`, `rc-ask-foot`, `rc-ask-editor`, `rc-ask-summary` | Card `data-kind`, `data-pencil`; removed with Undo | All eight kinds alike; Keep, Change, Remove; raw edits survive reload | initiatives, needs, offers |
 
+| Pattern | Class | Status | Job and parts | Variants | Limits | Used in |
+|---|---|---|---|---|---|---|
+| Record list | `rc-record-list` | candidate | Assistant metadata only. Parts: `rc-record-row`, `rc-record-text`, `rc-record-title` | Empty and populated; local, failed and cancelled | Never source text or credentials | settings |
+
 ## Organisms
 
 | Pattern | Class | Status | Job and parts | Variants | Limits | Used in |
@@ -98,7 +102,7 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Pattern | Class | Status | Job and parts | Variants | Limits | Used in |
 |---|---|---|---|---|---|---|
 | App header | `rc-app-header` | stable | Product name, sections, honest save status and account link. Parts: `rc-app-nav`, `rc-app-header-state` | Form pages drop the sections |  | check-card, code, describe, finish, funding, home, initiatives, intake-finish, matches, matches-empty, needs, offers, opportunity, opportunity-private, saved, settings, step-needs |
-| Bottom navigation | `rc-bottom-nav` | stable | Sections on phones |  | Four items, icon and word | finish, funding, home, initiatives, matches, matches-empty, saved, settings |
+| Bottom navigation | `rc-bottom-nav` | stable | Sections on phones |  | Four items, icon and word | finish, funding, home, initiatives, matches, matches-empty, saved |
 | Guide panel | `rc-guide` | stable | The conversation for one step. Parts: `rc-guide-log`, `rc-guide-status`, `rc-conversation-panel` |  |  | describe, needs, offers, step-needs |
 | Review sheet | `rc-review` | stable | Suggestions waiting for you. Part: `rc-review-list`, `rc-review-grid` |  |  | check-card, step-needs |
 | Code panel | `rc-code-panel` | stable | Save or sign in by email code. Parts: `rc-code-panel-title`, `rc-code-panel-actions` | Email step, code step, error | One field per step; inline offer or explicitly opened task | code, finish |
@@ -124,6 +128,10 @@ Status words are separate from the stage names (Seed, Sprout) used for initiativ
 | Home hero | `rc-home-hero` | candidate | Centred heading, start action, search and one sign of life. Parts: `rc-home-actions`, `rc-home-live`, `rc-woven-backdrop` | Still backdrop under reduced motion | Short phone hero; decorative threads stay within it | home |
 
 | Card grid | `rc-card-grid` | stable | Equal-height record cards, bottom actions and aligned fit lines | Responsive columns at least `--card-min-width` | Full width with one column on phones | finish, funding, home, initiatives, matches |
+
+| Pattern | Class | Status | Job and parts | Variants | Limits | Used in |
+|---|---|---|---|---|---|---|
+| Settings | `rc-settings` | candidate | Choices in place, with Leave last. Part: `rc-settings-leave` | Device and account; example deletion | No inert production controls | settings |
 
 ## Planned
 
@@ -252,3 +260,21 @@ Account access alone never opens partner cards. The independent public directory
 remains browsable. Live public sharing, matching and introductions require their
 service contracts and D26, D28, D30 and D31 decisions. Development examples never
 publish a private initiative.
+
+## Settings and data contracts
+
+Settings groups Your initiative, Email, Assistant, Appearance and Your data in place.
+Leave comes last, with sign-out and deletion set apart. Membership stays in the
+footer. Unconnected server controls appear only as labelled development examples;
+production explains what service is missing.
+
+Record list is a molecule for the assistant's metadata: step, local engine, model,
+date, status and counts read or sent. It never includes the person's words. Its
+metadata download uses an explicit field list. What we store opens as five concise
+facts, with a separate full policy in the same native pop-up. Both work offline.
+
+Download device data captures the current visible draft, source words, unfinished
+edits, original file bytes and local backups. It names its device scope and never
+claims to export unrequested server cards. A failed file read rejects the download
+without changing the draft. Account deletion and a complete account export require
+their own authorized server adapters; a fictional deletion never calls them.

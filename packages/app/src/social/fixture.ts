@@ -7,6 +7,7 @@ export interface SocialState {
   onward: boolean;
   reminders: readonly string[];
   introductions: readonly string[];
+  notifications: { funding: boolean; partners: boolean; introductions: boolean };
 }
 export interface SocialService {
   snapshot(): SocialState;
@@ -16,6 +17,8 @@ export interface SocialService {
   share(visibility: Visibility, onward: boolean): Promise<void>;
   remind(id: string): Promise<void>;
   introduce(ids: readonly string[], note: string): Promise<void>;
+  notify(kind: "funding" | "partners" | "introductions", enabled: boolean): Promise<void>;
+  deleteAccount(): Promise<void>;
 }
 export function createSocialFixture(scenario: "visitor" | "draft" | "private" | "shared"): SocialService {
   let pending = "";
@@ -26,6 +29,7 @@ export function createSocialFixture(scenario: "visitor" | "draft" | "private" | 
     onward: false,
     reminders: [],
     introductions: [],
+    notifications: { funding: false, partners: false, introductions: false },
   };
   function verified() {
     if (!state.email) throw new Error("Verify the example code first.");
@@ -50,7 +54,15 @@ export function createSocialFixture(scenario: "visitor" | "draft" | "private" | 
     async share(visibility, onward) {
       verified();
       if (!state.saved) throw new Error("Save the example card first.");
-      state = { ...state, visibility, onward: visibility === "public" && onward };
+      state = {
+        ...state,
+        visibility,
+        onward: visibility === "public" && onward,
+        notifications: {
+          ...state.notifications,
+          partners: visibility === "public" && state.notifications.partners,
+        },
+      };
     },
     async remind(id) {
       verified();
@@ -64,6 +76,24 @@ export function createSocialFixture(scenario: "visitor" | "draft" | "private" | 
       if (note.length > 1000 || !ids.length)
         throw new Error("Choose a partner and keep the note under 1,000 characters.");
       state = { ...state, introductions: [...new Set([...state.introductions, ...ids])] };
+    },
+    async notify(kind, enabled) {
+      verified();
+      if (kind === "partners" && enabled && state.visibility !== "public")
+        throw new Error("Share the example before asking for partner updates.");
+      state = { ...state, notifications: { ...state.notifications, [kind]: enabled } };
+    },
+    async deleteAccount() {
+      verified();
+      state = {
+        email: null,
+        saved: false,
+        visibility: "private",
+        onward: false,
+        reminders: [],
+        introductions: [],
+        notifications: { funding: false, partners: false, introductions: false },
+      };
     },
   };
 }

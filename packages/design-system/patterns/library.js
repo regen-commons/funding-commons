@@ -190,3 +190,19 @@ for (const list of document.querySelectorAll("[data-ask-demo]")) {
 document.querySelector("[data-finish-demo-copy]")?.addEventListener("click", () => { const field = document.querySelector("[data-finish-demo-text]"); field.hidden = false; field.querySelector("textarea").focus(); field.querySelector("textarea").select(); });
 
 for (const input of document.querySelectorAll('[data-team-example]')) input.addEventListener('change', () => { const picked = [...document.querySelectorAll('[data-team-example]:checked')]; document.querySelector('[data-team-example-status]').textContent = picked.length ? '1 of 2 example asks covered by 1 initiative. This does not establish eligibility.' : 'Pick a partner to see what they cover.'; });
+
+// Settings demonstrations affect only the current fictional page.
+const settingsExampleStatus = document.querySelector('[data-settings-example-status]');
+for (const choice of document.querySelectorAll('[data-settings-example-choices] input, [data-settings-example-notify]')) choice.addEventListener('change', () => { settingsExampleStatus.textContent = 'Example choice changed. Nothing is published or emailed.'; });
+document.querySelector('[data-settings-example-export]')?.addEventListener('click', () => {
+  const data = {example: true, visibility: document.querySelector('[name="example-visibility"]:checked')?.value, reminder: document.querySelector('[data-settings-example-notify]').checked};
+  const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'}));
+  const link = document.createElement('a'); link.href = url; link.download = 'weave-settings-example.json'; document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+  settingsExampleStatus.textContent = 'Example download started. It contains no real account data.';
+});
+document.querySelector('[data-settings-example-delete]')?.addEventListener('submit', event => {
+  if(event.submitter?.value !== 'delete') return;
+  document.querySelector('[name="example-visibility"][value="private"]').checked = true;
+  document.querySelector('[data-settings-example-notify]').checked = false;
+  settingsExampleStatus.textContent = 'Example choices cleared. No real record was deleted.';
+});

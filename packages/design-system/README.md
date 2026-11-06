@@ -79,6 +79,16 @@ The tests check that generated files are current, the linter is clean, website v
 
 ## Changelog
 
+### Unreleased, Step 8
+
+- Add Record list for metadata-only assistant history and Settings with Leave last.
+  The Settings example demonstrates in-place choices, download and safe fictional
+  deletion. What we store uses five facts and a separate full policy.
+- Device downloads include drafts, unfinished words, original file bytes and
+  backups. Server account export and deletion stay behind their service boundary.
+  No tokens changed.
+
+
 ### Unreleased, Step 7
 
 - Extend Dialog's native small-task presentation to phone sheets, with a visible

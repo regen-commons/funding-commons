@@ -3,7 +3,7 @@
 Status: proposed full flow; private account connection live · Updated: 5 November 2026
 Companion documents: [PRD](04-prd.md) · [technical spec](05-technical-spec.md) · [DESIGN.md](../../DESIGN.md) · [example pages](../../packages/design-system/patterns/pages/finish.html)
 
-This Step 0 revision places [prototype decisions 17 to 20 and 24](prototype/review-decisions.md#saving-sharing-and-partners), with the small-task presentation from decision 23. Two ways to be on Weave, partners for shared initiatives and one email door remain council proposals in [D26 to D28](open-decisions.md#for-the-council), recorded as proposed in [DL-019 to DL-021](../../packages/design-system/decision-log.md#dl-019-partners-are-for-shared-initiatives). The technical specification and example pages still describe parts of the earlier flow; their follow-up changes are tracked in the review decisions. No schema, sign-in service or email has changed.
+This Step 0 revision places [prototype decisions 17 to 20 and 24](prototype/review-decisions.md#saving-sharing-and-partners), with the small-task presentation from decision 23. Two ways to be on Weave, partners for shared initiatives and one email door remain council proposals in [D26 to D28](open-decisions.md#for-the-council), recorded as proposed in [DL-019 to DL-021](../../packages/design-system/decision-log.md#dl-019-partners-are-for-shared-initiatives). The technical specification and example pages still describe parts of the earlier flow; their follow-up changes are tracked in the review decisions. Step 0 changed no schema, sign-in service or email.
 
 People should give an email because it does something for them, not because a wall stops them. So saving is separate from sharing, and an email is only requested at the moment it helps. The rest of this document says how.
 
@@ -209,6 +209,8 @@ The privacy page must say all of this plainly:
 What we store opens over the current page as five short answers, about 55 words in total, with a link to the full data policy. Cover the local draft, the server copy linked to an email, private versus shared visibility, local processing and chosen cloud use, and export or deletion. The short answers do not replace the full policy's administrator-access limit or consent details.
 
 What the assistant did is also a pop-up: one summary line, then one row per step showing where it ran and how many words went to the cloud, never the text. Keep this visible record on the device and allow export and consent withdrawal. It does not replace the server's consent and call audit required by R10; the technical specification owner must align both records before cloud services are connected. Per-field consent is still [D35](open-decisions.md#for-the-builders).
+
+Settings can download a snapshot of this browser's draft and backups, including unfinished words and the original bytes of attached files. It can also download the assistant's metadata separately. Neither download fetches other account cards. Sign-out keeps the device copies. The private account release has no self-service server export or deletion; the delete dialog is a recoverable development example. The data policy explains how to contact Regen Commons about account copies.
 
 ## Technical changes
 
