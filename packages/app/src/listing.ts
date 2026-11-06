@@ -22,6 +22,27 @@ export interface ListingRecord {
   readonly sharedOn?: string;
   readonly amount?: string;
   readonly closes?: string;
+  /** Supplied public card content, never a private draft or a scraped page. */
+  readonly publicDetails?: {
+    readonly needs: readonly PublicAsk[];
+    readonly offers: readonly PublicAsk[];
+    readonly links: readonly {
+      url: string;
+      title: string;
+      description: string;
+    }[];
+  };
+}
+export interface PublicAsk {
+  readonly title: string;
+  readonly description: string;
+  readonly capitals: readonly CapitalKey[];
+  readonly terms: string;
+}
+
+/** R16: account access alone never grants personalized partner names or reasons. */
+export function partnerAccess(scenario?: "visitor" | "draft" | "private" | "shared") {
+  return scenario === "shared";
 }
 export interface ListFilters {
   readonly search: string;

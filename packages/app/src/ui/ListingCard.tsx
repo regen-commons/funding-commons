@@ -1,4 +1,7 @@
+import type { ReactNode } from "react";
 import type { ListingRecord } from "../listing.ts";
+import { CAPITALS } from "../capitals.ts";
+import { Tag } from "./Tag.tsx";
 import { STAGE_LABELS } from "../listing.ts";
 import { fullDate } from "../home.ts";
 import { Link } from "../router.tsx";
@@ -15,11 +18,13 @@ export function ListingCard({
   personalized = false,
   level = 2,
   days,
+  actions,
 }: {
   record: ListingRecord;
   personalized?: boolean;
   level?: 2 | 3;
   days?: number;
+  actions?: ReactNode;
 }) {
   const Title = level === 3 ? "h3" : "h2";
   return (
@@ -43,10 +48,7 @@ export function ListingCard({
         <Link href={recordPath(record.kind, record.id)}>{record.title}</Link>
       </Title>
       {personalized && record.fit && (
-        <Fit
-          level={record.fit}
-          explanation={`${record.reasons.join(" ")} Fictional example fit; check eligibility with the funder.`}
-        />
+        <Fit level={record.fit} explanation={`${record.reasons.join(" ")} Fictional example fit.`} />
       )}
       <p className="rc-card-meta">
         {record.place}
@@ -65,6 +67,39 @@ export function ListingCard({
         ))}
       </ul>
       <p className="rc-card-summary">{record.description}</p>
+      {personalized ? (
+        <ul className="rc-reasons">
+          {record.reasons.map((reason) => (
+            <li className="rc-reason" key={reason}>
+              {reason}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        record.kind === "initiative" &&
+        level === 2 && (
+          <dl className="rc-facts">
+            {(["needs", "offers"] as const).map((kind) => (
+              <div key={kind}>
+                <dt>{kind === "needs" ? "Needs" : "Offers"}</dt>
+                <dd>
+                  <ul
+                    className="rc-tag-list"
+                    aria-label={kind === "needs" ? "Kinds needed" : "Kinds offered"}
+                  >
+                    {CAPITALS.filter((capital) => record[kind].includes(capital.key)).map((capital) => (
+                      <li key={capital.key}>
+                        <Tag capital={capital} />
+                      </li>
+                    ))}
+                  </ul>
+                  {!record[kind].length && "Nothing listed"}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        )
+      )}
       <p className="rc-meta">
         {level === 3 && record.sharedOn ? (
           <>
@@ -79,6 +114,7 @@ export function ListingCard({
           Read the example
         </ButtonLink>
       </div>
+      {actions && <div className="rc-action-bar">{actions}</div>}
     </Card>
   );
 }

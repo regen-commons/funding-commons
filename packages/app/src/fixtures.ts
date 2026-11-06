@@ -267,6 +267,33 @@ export function readFixtures(search: string): FixtureContext {
         : state === "partial"
           ? initiatives.slice(0, 1)
           : initiatives;
+  const publicRecords = records.map((record) => ({
+    ...record,
+    publicDetails: {
+      needs: record.needs.map((capital) => ({
+        title: `Example ${capital} support`,
+        description: "A fictional request for a community learning session.",
+        capitals: [capital],
+        terms: "Anywhere, open to anything",
+      })),
+      offers: record.offers.map((capital) => ({
+        title: `Example ${capital} session`,
+        description: "A fictional offer for shared learning and practical care.",
+        capitals: [capital],
+        terms: "One example session, gift",
+      })),
+      links:
+        state === "partial"
+          ? []
+          : [
+              {
+                url: "https://example.org",
+                title: "Example community website",
+                description: "A supplied fictional preview. No page was fetched.",
+              },
+            ],
+    },
+  }));
   return {
     scenario,
     intake: INTAKE_VIEWS.includes(params.get("intake") as IntakeView)
@@ -277,7 +304,7 @@ export function readFixtures(search: string): FixtureContext {
       : "fresh",
     state,
     asOf: "2026-11-04",
-    initiatives: records,
+    initiatives: publicRecords,
     funding:
       state === "empty"
         ? []

@@ -79,6 +79,16 @@ The tests check that generated files are current, the linter is clean, website v
 
 ## Changelog
 
+### Unreleased, Step 6
+
+- Compose public initiative detail from existing Media, Step layout, Card list,
+  read-only Ask cards and supplied Link previews. The Initiatives example includes
+  the composition and its empty state. A token-sized wide Media variant keeps the
+  banner short; no tokens change.
+- Partner cards show reasons after sharing. Private examples keep counts only;
+  Not a fit has a reason and Undo. Live sharing and introduction services stay gated.
+
+
 ### Unreleased, Step 5
 
 - Added Team slots with private count and shared candidate examples, distinct requirement coverage and one reviewed example request per selected initiative. Added Opportunity and private Opportunity examples.
